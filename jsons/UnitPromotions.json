@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Morale #2", // Heroic Epic #2
+		"uniques": ["[+15]% Strength"]
+	},
+	{
+		"name": "Wareg #2",
+		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
+	},
+]
