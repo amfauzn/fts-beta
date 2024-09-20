@@ -1,10 +1,17 @@
 [
+
 	{
-		"name": "Morale #2", // Heroic Epic #2
-		"uniques": ["[+15]% Strength"]
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry",
+			"Siege","Harpoon Siege","Naval Melee","Naval Ranged"]
 	},
 	{
-		"name": "Wareg #2",
-		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["All healing effects doubled"]
+	},
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"]
 	},
 ]

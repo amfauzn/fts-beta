@@ -1,0 +1,81 @@
+[
+ 	// Civilian
+	{
+		"name": "Civilian",
+		"movementType": "Land",
+		//"uniques": ["This Unit gains [1] XP <upon building a [Farm] improvement>"]
+	},
+	{
+		"name": "Civilian Water",
+		"movementType": "Water"
+	},
+	
+	// Human
+	{
+		"name": "Recon",
+		"movementType": "Land"
+	},
+	{
+		"name": "Infantry",
+		"movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Anti-Armor] units> <when attacking>"]
+	},
+	{
+		"name": "Anti-Armor",
+		"movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>"]
+	},
+	{
+		"name": "Mounted",
+		"movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Ranged Infantry] units> <when attacking>",
+					"Can move after attacking",
+					"No defensive terrain bonus"]
+	},
+	{
+		"name": "Ranged Infantry",
+		"movementType": "Land"
+	},
+	
+	// Siege Weapon
+	{
+		"name": "Siege",
+		"movementType": "Land",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"]
+	},
+	{
+		"name": "Harpoon Siege",
+		"movementType": "Land",
+		"uniques": [//"[+100]% Strength <vs [Air Terror] units>",
+					//"[+150]% Strength <vs [Counter Air Terror] units>",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"]
+	},
+	
+	// Naval
+	{
+		"name": "Naval Melee",
+		"movementType": "Water",
+		"uniques": ["Naval"]
+	},
+	{
+		"name": "Naval Ranged",
+		"movementType": "Water",
+		"uniques": ["Naval"]
+	},
+	
+	// Carrier
+	{
+		"name": "Airship",
+		"movementType": "Land",
+		"uniques": ["Can pass through impassable tiles",
+					"All tiles cost 1 movement",
+					"[+1] Sight <when [Embarked]>"]
+	},
+	{
+		"name": "Naval Carrier",
+		"movementType": "Water"
+	},
+]

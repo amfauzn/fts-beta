@@ -1,0 +1,178 @@
+[
+	/* Ancient Era */
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 70
+		
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scout",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	
+// START HERE
+	
+	// Recon
+	
+	// Infantry
+	{
+		"name": "Maceman",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Iron Working",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"uniques": ["Only available <in cities with a [Forge]> <hidden from users>"],
+		"hurryCostModifier": 15,
+		"attackSound": "metalhit"
+	},
+	
+	// Anti-Armor
+	{
+		"name": "Spearman",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 17,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"uniques": ["Only available <in cities with a [Barracks]> <hidden from users>"],
+		"hurryCostModifier": 10,
+		"attackSound": "metalhit"
+	},
+	
+	// Mounted
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 70,
+		"requiredTech": "Animal Riding",
+		"uniques": ["[-33]% Strength <vs cities> <when attacking>", 
+					"Only available <in cities with a [Stirrups]> <hidden from users>"],
+		"hurryCostModifier": 15,
+		"attackSound": "horse"
+	},
+	
+	// Ranged Infantry
+	{
+		"name": "Archer",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 13,
+		"cost": 50,
+		"requiredTech": "Archery",
+		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Engineering",
+		//"uniques": ["Unbuildable <in cities without a [Shooting Range]> <hidden from users>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 22,
+		"cost": 75,
+		"requiredTech": "Engineering",
+		"uniques": ["Only available <in cities with a [Shooting Range]> <hidden from users>", 
+					"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 15,
+		"attackSound": "crossbow"
+	},
+	
+	// Siege
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"uniques": ["Must set up to ranged attack", 
+					"[-1] Sight", 
+					"Only available <in cities with a [Siege Workshop]> <hidden from users>"],
+		"hurryCostModifier": 10,
+		"attackSound": "throw"
+	},
+	
+	// Harpoon Siege
+	{
+		"name": "Scorpion",
+		"unitType": "Harpoon Siege",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 85,
+		"requiredTech": "Engineering",
+		"uniques": ["Must set up to ranged attack", 
+					"[-1] Sight", 
+					"Ignores Zone of Control", 
+					"Only available <in cities with a [Siege Workshop]> <hidden from users>"],
+		"hurryCostModifier": 10,
+		"attackSound": "throw"
+	},
+	
+	// Naval Melee
+	{
+		"name": "Trireme",
+		"unitType": "Naval Melee",
+		"movement": 4,
+		"strength": 15,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": [//"Cannot enter ocean tiles", 
+					"Only available <in cities with a [Shipyard]> <hidden from users>"],
+		"hurryCostModifier": 10,
+		"attackSound": "nonmetalhit"
+	},
+	
+	// Naval Ranged
+	{
+		"name": "Galleass",
+		"unitType": "Naval Ranged",
+		"movement": 3,
+		"strength": 18,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Philosophy",
+		"uniques": [//"Cannot enter ocean tiles", 
+					"Only available <in cities without a [Shipyard]> <hidden from users>"],
+		"hurryCostModifier": 5,
+		"attackSound": "arrow"
+	},
+]

@@ -1,0 +1,38 @@
+[
+	// TO DO: Add Obsolete Wonder,
+	// Next Age
+	
+	{
+		"name": "Restoration Age",
+		"researchAgreementCost": 200,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Maceman",
+		"settlerPopulation": 1,
+		"baseUnitBuyCost": 200,
+		"embarkDefense": 5,
+		"startPercent": 0,
+		"citySound": "cityAncient",
+		"iconRGB": [255, 87, 35]
+	},
+	{
+		"name": "Rediscovery Age",
+		"researchAgreementCost": 250,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 3,
+		"startingMilitaryUnit": "Maceman",
+		"startingGold": 50,
+		"startingCulture": 100,
+		"settlerPopulation": 2,
+		"settlerBuildings": [
+			"Monument","Altar","Granary"
+		],
+		"baseUnitBuyCost": 200,
+		"embarkDefense": 10,
+		"startPercent": 20,
+		"citySound": "cityMedieval",
+		"iconRGB": [233, 31, 99]
+	}
+]
