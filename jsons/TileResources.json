@@ -107,13 +107,12 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes","Coast","Atoll"],
+		"terrainsCanBeFoundOn": ["Lakes","Coast"],
 		"food": 1,
 		//"improvement": "Fishing Boats",
 		"uniques": [
 			"Generated on every [10] tiles <in [Lakes] tiles>",
-			"Generated on every [12] tiles <in [Coast] tiles>",
-			"Generated on every [8] tiles <in [Atoll] tiles>"
+			"Generated on every [12] tiles <in [Coast] tiles>"
 		]
 	},
 	{

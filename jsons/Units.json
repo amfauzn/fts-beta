@@ -14,5 +14,16 @@
 		"rangedStrength": 7,
 		"cost": 40,
 		"attackSound": "shot"
-	}
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 60,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action",
+			"Person"
+		]
+	},
 ]
