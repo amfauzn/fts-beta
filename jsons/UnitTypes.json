@@ -1,9 +1,8 @@
 [
- 	// Civilian
+   // Civilian
 	{
 		"name": "Civilian",
-		"movementType": "Land",
-		//"uniques": ["This Unit gains [1] XP <upon building a [Farm] improvement>"]
+		"movementType": "Land"
 	},
 	{
 		"name": "Civilian Water",
@@ -18,64 +17,203 @@
 	{
 		"name": "Infantry",
 		"movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Anti-Armor] units> <when attacking>"]
+		"uniques": [
+			"[+33]% Strength <vs [Anti-Armor] units> <when attacking>",
+			"Person",
+			"Foot"
+		]
 	},
 	{
 		"name": "Anti-Armor",
 		"movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>"]
+		"uniques": [
+			"[+33]% Strength <vs [Mounted] units> <when attacking>",
+			"Person",
+			"Foot"
+		]
 	},
 	{
 		"name": "Mounted",
 		"movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Ranged Infantry] units> <when attacking>",
-					"Can move after attacking",
-					"No defensive terrain bonus"]
+		"uniques": [
+			"[+33]% Strength <vs [Ranged Infantry] units> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Person"
+		]
 	},
 	{
 		"name": "Ranged Infantry",
-		"movementType": "Land"
+		"movementType": "Land",
+		"uniques": [
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Person",
+			"Foot"
+		]
 	},
 	
 	// Siege Weapon
 	{
 		"name": "Siege",
 		"movementType": "Land",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>",
-					"No defensive terrain bonus",
-					"Never appears as a Barbarian unit"]
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		]
 	},
 	{
-		"name": "Harpoon Siege",
+		"name": "Anti-Air",
 		"movementType": "Land",
-		"uniques": [//"[+100]% Strength <vs [Air Terror] units>",
-					//"[+150]% Strength <vs [Counter Air Terror] units>",
-					"No defensive terrain bonus",
-					"Never appears as a Barbarian unit"]
+		"uniques": [
+			"[+50]% Strength <vs [Flying] units>",
+			"[+33]% Strength <vs [Counter Air Terror] units>",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	
+	// Magic
+	{
+		"name": "Melee Mage",
+		"movementType": "Land",
+		"uniques": [
+			"[+15]% Strength <vs [Ranged Mage] units>",
+			"[+50]% Strength <vs [Construct] units>",
+			"[This Unit] heals [5] HP <upon turn end>",
+			// Heal adjacent by 5
+			"Person",
+			"Mage"
+		]
+	},
+	{
+		"name": "Ranged Mage",
+		"movementType": "Land",
+		"uniques": [
+			"[+50]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs [Construct] units> <when attacking>",
+			"[-10]% Strength <vs [{Person} {Melee}] units> <when defending>",
+			Person",
+			"Mage"
+		]
+	},
+	{
+		"name": "Construct",
+		"movementType": "Land",
+		"uniques": [
+			"[+25]% Strength <when defending>",
+			"Ignores Zone of Control"
+		]
+	},
+	
+	// Flying
+	{
+		"name": "Air Terror",
+		"movementType": "Land",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"[+100]% maintenance costs",
+			"Flying",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Counter Air Terror",
+		"movementType": "Land",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"Can see over obstacles",
+			"Unable to capture cities",
+			"[+66]% Strength <vs [Air Terror] units>",
+			//"[+25]% Strength <vs [Ranged] units> <when defending>",
+			"[+100]% maintenance costs",
+			"Flying",
+			"Never appears as a Barbarian unit"
+		]
 	},
 	
 	// Naval
 	{
 		"name": "Naval Melee",
 		"movementType": "Water",
-		"uniques": ["Naval"]
+		"uniques": [
+			"[+50]% Strength <vs [Naval Raider] units>",
+			"Naval"
+		]
 	},
 	{
 		"name": "Naval Ranged",
 		"movementType": "Water",
-		"uniques": ["Naval"]
+		"uniques": [
+			"Ranged attacks may be performed over obstacles",
+			"Naval"
+		]
+	},
+	{
+		"name": "Naval Raider",
+		"movementType": "Water",
+		"uniques": [
+			"Can see invisible [Naval Raider] units",
+			"May capture killed [Water] units",
+			"Naval"
+		]
 	},
 	
 	// Carrier
 	{
-		"name": "Airship",
-		"movementType": "Land",
-		"uniques": ["Can pass through impassable tiles",
-					"All tiles cost 1 movement",
-					"[+1] Sight <when [Embarked]>"]
+		"name": "Naval Carrier",
+		"movementType": "Water",
+		"uniques": ["Never appears as a Barbarian unit"]
 	},
 	{
-		"name": "Naval Carrier",
-		"movementType": "Water"
+		"name": "Airship",
+		"movementType": "Land",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Flying",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	
+	// Air
+	{
+		"name": "Fighter",
+		"movementType": "Air",
+		"uniques": [
+			"Aircraft",
+			"[+4] Sight",
+			"Can see over obstacles",
+			"Can perform Air Sweep"
+		]
+	},
+	{
+		"name": "Bomber",
+		"movementType": "Air",
+		"uniques": [
+			"Aircraft"
+		]
+	},
+	{
+		"name": "Missile",
+		"movementType": "Air",
+		"uniques": [
+			//"Aircraft",
+			"Self-destructs when attacking"
+		]
 	},
 ]
