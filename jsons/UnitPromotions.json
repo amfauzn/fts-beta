@@ -1,0 +1,160 @@
+[
+	// Recon
+	{
+		"name": "Ranger",
+		"uniques": [
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"Double movement in [Man-eating tree]"
+		],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Highlander",
+		"uniques": ["Double movement in [Hill]"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Survivalism",
+		"prerequisites": ["Ranger"],
+		"uniques": [
+			"[+5] HP when healing",
+			"[+25]% Strength <when defending>"
+		],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Scouting",
+		"prerequisites": ["Highlander"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Spyglass",
+		"prerequisites": ["Survivalism","Scouting"],
+		"uniques": [
+			"Can see over obstacles",
+			"Withdraws before melee combat <with [50]% chance>"
+		],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Battle Recon",
+		"prerequisites": ["Survivalism","Scouting"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Guerrilla",
+		"prerequisites": ["Spyglass","Battle Recon"],
+		"uniques": [
+			"[+1] Movement",
+			"Can move after attacking"
+		],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Camouflage", // maybe like Ace Hank's skill?
+		"prerequisites": ["Spyglass","Battle Recon"],
+		"uniques": ["Invisible to non-adjacent units"],
+		"unitTypes": ["Recon"]
+	},
+	
+	// Infantry
+	{
+		"name": "Shock",
+		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Melee Mage","Construct"]
+	},
+	{
+		"name": "Drill",
+		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Melee Mage","Construct"]
+	},
+	{
+		"name": "Battlecry",
+		"prerequisites": ["Shock"],
+		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Tortoise",
+		"prerequisites": ["Drill"],
+		"uniques": [
+			"[+25]% Strength <vs [Ranged] units> <when defending>",
+			"[+25]% Strength <in [City center] tiles>"
+		],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Besiege",
+		"prerequisites": ["Battlecry","Tortoise"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Woodsman",
+		"prerequisites": ["Battlecry","Tortoise"],
+		"uniques": [
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"Double movement in [Man-eating tree]"
+		],
+		"unitTypes": ["Infantry"]
+	},
+	
+	// Anti-Armor
+	{
+		"name": "Formation",
+		"prerequisites": ["Shock"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Anti-Armor"]
+	},
+	{
+		"name": "Shield Wall",
+		"prerequisites": ["Drill"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Anti-Armor"]
+	},
+	{
+		"name": "Thrust",
+		"prerequisites": ["Formation","Shield Wall"],
+		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
+		"unitTypes": ["Anti-Armor"]
+	},
+	{
+		"name": "Schiltron",
+		"prerequisites": ["Formation","Shield Wall"],
+		"uniques": ["[+25]% Strength <vs [Infantry] units>"],
+		"unitTypes": ["Anti-Armor"]
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Battlecry","Tortoise","Formation","Shield Wall"],
+		"uniques": [
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast"
+		],
+		"unitTypes": ["Infantry","Anti-Armor"]
+	}
+	{
+		"name": "March",
+		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Infantry","Anti-Armor"]
+	},
+	
+	// Mounted
+	// Usulan Ace Hank:
+	// Light Cavalry and Heavy Cavalry
+	
+	// Melee Mage
+	
+	// Ranged Mage
+	{
+		"name": "Elemental Infusion",
+		"uniques": ["Comment [Attacks inflict status ailment to target enemies]"], // like school in Ace?
+		"unitTypes": ["Ranged Mage"]
+	},
+	
+]

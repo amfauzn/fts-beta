@@ -36,7 +36,7 @@
 		"name": "Mounted",
 		"movementType": "Land",
 		"uniques": [
-			"[+33]% Strength <vs [Ranged Infantry] units> <when attacking>",
+			//"[+33]% Strength <vs [Ranged Infantry] units> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Person"
@@ -59,15 +59,6 @@
 		"uniques": [
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit"
-		]
-	},
-	{
-		"name": "Anti-Air",
-		"movementType": "Land",
-		"uniques": [
-			"[+50]% Strength <vs [Flying] units>",
-			"[+33]% Strength <vs [Counter Air Terror] units>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -165,28 +156,6 @@
 			"Can see invisible [Naval Raider] units",
 			"May capture killed [Water] units",
 			"Naval"
-		]
-	},
-	
-	// Carrier
-	{
-		"name": "Naval Carrier",
-		"movementType": "Water",
-		"uniques": ["Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Airship",
-		"movementType": "Land",
-		"uniques": [
-			"Can pass through impassable tiles",
-			"All tiles cost 1 movement",
-			"Eliminates combat penalty for attacking over a river",
-			"Eliminates combat penalty for attacking across a coast",
-			"May travel on Water tiles without embarking",
-			"No defensive terrain bonus",
-			"Ignores Zone of Control",
-			"Flying",
-			"Never appears as a Barbarian unit"
 		]
 	},
 	

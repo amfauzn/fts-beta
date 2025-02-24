@@ -1,19 +1,16 @@
 [
-    {
-        "name": "Settler",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
-    },
-    {
-		"name": "Rifleman",
-		"unitType": "Infantry",
+	// Civilian
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 5,
-        "range": 2,
-		"rangedStrength": 7,
-		"cost": 40,
-		"attackSound": "shot"
+		"cost": 106,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		]
 	},
 	{
 		"name": "Worker",
@@ -22,8 +19,538 @@
 		"cost": 60,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Automation is a primary action",
-			"Person"
+			"Can instantly construct a [Fishing Boatsr] improvement <by consuming this unit> <in [Lakes] tiles>",
+			"Automation is a primary action"
 		]
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement":4 ,
+		"cost": 30,
+		"requiredTech": "Fishing",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Cartography]>",
+			"May create improvements on water resources",
+			"Automation is a primary action",
+			"Uncapturable"
+		]
+	},
+	
+	// Reconnaissance
+	{
+		"name": "Scout",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 7,
+		"cost": 30,
+		"obsoleteTech": "Poetry",
+		"upgradesTo": "Skirmisher",
+		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"uniques": ["May upgrade to [Crossbowman] through ruins-like effects"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Skirmisher",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 20,
+		"cost": 80,
+		"requiredTech": "Poetry",
+		"obsoleteTech": "Acoustics",
+		"upgradesTo": "Pathfinder",
+		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"uniques": [
+			"May upgrade to [Arbalester] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pathfinder",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 36,
+		"range": 1,
+		"cost": 220,
+		"requiredTech": "Acoustics",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Wanderer",
+		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"uniques": [
+			"Can see invisible [Land] units",
+			"May upgrade to [Stand Shafter] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "crossbow",
+		"civilopediaText": [
+			{"text": "A person who goes ahead, charting paths and guiding others along the way, enabling them to select swift routes for ambushing foes or to evade enemy paths while retreating."}
+		]
+	},
+	{
+		"name": "Wanderer",
+		"unitType": "Recon",
+		"movement": 2,
+		"strength": 52,
+		"rangedStrength": 60,
+		"range": 1,
+		"cost": 375,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Plastics",
+		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Can see invisible [Land] units",
+			"No movement cost to pillage",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "crossbow"
+	},
+	
+	// Infantry
+	{
+		"name": "Maceman",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Iron Working",
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+		"cost": 75,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 30,
+		"cost": 160,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Etherblader",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Etherblader",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 44,
+		"cost": 250,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Avionic Theory",
+		"upgradesTo": "Lightsaberman",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Marine",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 60,
+		"cost": 375,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Aquanautics",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "TIT Squad",
+		//"promotions": ["Amphibious"],
+		"uniques": [
+			"[+1] Sight <when [Embarked]>",
+			"Defense bonus when embarked",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Lightsaberman",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 60,
+		"cost": 375,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Avionic Theory",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "TIT Squad",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "TIT Squad",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 80,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Combined Arms",
+		//"promotions": ["Shock"],
+		"uniques": [
+			"[+10]% Strength <vs [Cyborg] units> <when attacking>",
+			"May Paradrop up to [8] tiles from inside friendly territory",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	
+	// Anti-Armor
+	{
+		"name": "Spearman",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 17,
+		"cost": 56,
+		"hurryCostModifier": 10,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pikeman",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 27,
+		"cost": 150,
+		"hurryCostModifier": 15,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Alchemy",
+		"upgradesTo": "Halberdier",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Halberdier",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 42,
+		"cost": 240,
+		"hurryCostModifier": 15,
+		"requiredTech": "Alchemy",
+		"obsoleteTech": "Pyromunition",
+		"upgradesTo": "Crusher",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Crusher",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 60,
+		"cost": 375,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Pyromunition",
+		"obsoleteTech": "Bionic Physiology",
+		"upgradesTo": "Cyborg",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Cyborg",
+		"unitType": "Anti-Armor",
+		"movement": 3,
+		"strength": 80,
+		"cost": 525,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Bionic Physiology",
+		"uniques": [
+			"[+15]% Strength <vs [Melee] units> <when defending>",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "gdrAttack"
+	},
+	
+	// Mounted
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 70,
+		"hurryCostModifier": 15,
+		"requiredResource": "Horses",
+		"requiredTech": "Animal Riding",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Knight",
+		"uniques": [
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+		"cost": 165,
+		"hurryCostModifier": 15,
+		"requiredResource": "Horses",
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 44,
+		"cost": 260,
+		"hurryCostModifier": 15,
+		"requiredResource": "Horses",
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Pyrokinetics",
+		"upgradesTo": "Landship",
+		"uniques": [
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Landship",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 60,
+		"cost": 385,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Pyrokinetics",
+		"obsoleteTech": "Mobile Tactics",
+		"upgradesTo": "Tank",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Tank",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 80,
+		"cost": 540,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	
+	// Ranged Infantry
+	{
+		"name": "Archer",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 13,
+		"cost": 50,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Engineering",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 22,
+		"cost": 75,
+		"hurryCostModifier": 15,
+		"requiredTech": "Engineering",
+		"obsoleteTech": "Military Engineering",
+		"upgradesTo": "Arbalester",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Arbalester",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 26,
+		"rangedStrength": 32,
+		"cost": 170,
+		"hurryCostModifier": 15,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Advanced Ballistics",
+		"upgradesTo": "Stand Shafter",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Stand Shafter",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 56,
+		//"range": 1,
+		"cost": 380,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Advanced Ballistics",
+		"obsoleteTech": "Rocketry",
+		"upgradesTo": "Bazooka",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Bazooka", 
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 68,
+		"rangedStrength": 76,
+		//"range": 1,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Rocketry",
+		//"promotions": ["Logistics"], can attack over obstacle
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	
+	// Melee Mage
+	{
+		"name": "Priest",
+		"unitType": "Melee Mage",
+		"movement": 2,
+		"strength": 25,
+		"cost": 75,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Geomancy",
+		"obsoleteTech": "Mana Crystallization",
+		"upgradesTo": "Cleric",
+		"uniques": [
+			"Cannot attack",
+			"Comment [Heals allied units around it by 5 HP at the end of each turn]"
+		],
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Cleric",
+		"unitType": "Melee Mage",
+		"movement": 2,
+		"strength": 34,
+		"cost": 175,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Mana Crystallization",
+		"obsoleteTech": "Biology",
+		"upgradesTo": "Paladin",
+		"uniques": ["Comment [Heals allied units around it by 5 HP at the end of each turn]"],
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Paladin",
+		"unitType": "Melee Mage",
+		"movement": 2,
+		"strength": 50,
+		"cost": 310,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Biology",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Templar",
+		"uniques": [
+			"[+1] Sight"
+			"Comment [Heals allied units around it by 5 HP at the end of each turn]"
+		],
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Templar",
+		"unitType": "Melee Mage",
+		"movement": 2,
+		"strength": 70,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"[+1] Sight"
+			"Comment [Heals allied units around it by 5 HP at the end of each turn]"
+		],
+		"attackSound": "whoosh"
+	},
+	
+	// Ranged Mage
+	{
+		"name": "Sorcerer",
+		"unitType": "Ranged Mage",
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 1,
+		"cost": 75,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Mana Attunement",
+		"obsoleteTech": "Spellbook Codification",
+		"upgradesTo": "Wizard",
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Wizard",
+		"unitType": "Ranged Mage",
+		"movement": 2,
+		"strength": 29,
+		"rangedStrength": 32,
+		"cost": 175,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Spellbook Codification",
+		"obsoleteTech": "Magic Negation",
+		"upgradesTo": "Arch-Wizard",
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Arch-Wizard",
+		"unitType": "Ranged Mage",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 46,
+		"cost": 310,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Magic Negation",
+		"obsoleteTech": "Pyroblasting",
+		"upgradesTo": "Sage",
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Sage",
+		"unitType": "Ranged Mage",
+		"movement": 2,
+		"strength": 57,
+		"rangedStrength": 66,
+		"range": 3,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Pyroblasting",
+		//"promotions": ["Owl's Eye"],
+		//"uniques": ["[+10]% Strength <vs [{Person} {Melee}] units> <when defending>"],
+		"attackSound": "whoosh"
 	},
 ]

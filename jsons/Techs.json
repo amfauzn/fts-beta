@@ -118,16 +118,13 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Rediscovery Age",
+		"era": "Discovery Age",
 		"techCost": 110,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Mana Thaumaturgy",
-				"uniques": [
-					//"All newly-trained [Military] units [in all cities] receive the [Mana Sensing] promotion <before discovering [Mana Crystallization]> <with [33]% chance>"
-				],
 				"cost": 125,
 				"row": 2,
 				"prerequisites": ["Astrology"],
@@ -155,7 +152,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Rediscovery Age",
+		"era": "Discovery Age",
 		"techCost": 200,
 		"buildingCost": 120,
 		"wonderCost": 300,
@@ -202,7 +199,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Rediscovery Age",
+		"era": "Discovery Age",
 		"techCost": 300,
 		"buildingCost": 150,
 		"wonderCost": 375,
@@ -257,21 +254,21 @@
 				"quote": "'If your actions inspire others to dream more, learn more, do more and become more, you are a cartographer.' - John Quincy Adams"
 			},
 			{
-				"name": "Summoning Rites",
-				"row": 2,
-				"prerequisites": ["Celestial Wisdoms"],
-				"quote": "'The world is in balance, in Equilibrium. A wizard's power of Changing and Summoning can shake the balance of the world.' - Ursula K. Le Guin"
-			},
-			{
 				"name": "Education",
 				"cost": 600,
 				"uniques": [
 					"Enables conversion of city production to [Science]",
 					"Enables Research agreements"
 				],
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Celestial Wisdoms"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "Summoning Rites",
+				"row": 3,
+				"prerequisites": ["Celestial Wisdoms"],
+				"quote": "'The world is in balance, in Equilibrium. A wizard's power of Changing and Summoning can shake the balance of the world.' - Ursula K. Le Guin"
 			},
 			{
 				"name": "Leyline Siphoning",
@@ -309,7 +306,7 @@
 		"techs": [
 			{
 				"name": "Mana Crystallization",
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Education","Leyline Siphoning","Guilds"],
 				"quote": "'Stability > Tranquility > Ability > Mobility > Power.' - Psixaeristw"
 			},
@@ -344,7 +341,7 @@
 			{
 				"name": "Acoustics",
 				"row": 3,
-				"prerequisites": ["Summoning Rites","Mana Crystallization"],
+				"prerequisites": ["Mana Crystallization"],
 				"quote": "'After silence, that which comes nearest to expressing the inexpressible is music.' ~ Aldous Huxley"
 			},
 			{
