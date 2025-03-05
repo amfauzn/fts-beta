@@ -1,0 +1,129 @@
+[
+	{
+		"name": "Tradition",
+		"era": "Restoration Age",
+		"uniques": [
+			"[-40]% Culture cost of natural border growth [in capital]",
+			"[+1 Happiness] [in capital]",
+			"Comment [Unlocks [Tugu Akai]]"
+		],
+		"policies": [
+			{
+				"name": "Centralization",
+				"uniques": [
+					"[+2 Food, +1 Culture] [in capital]",
+					"[+10]% [Production] [in capital]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Crown Guards",
+				"uniques": [
+					"Units in cities cost no Maintenance",
+					"[+50]% Strength for cities <with a garrison> <when attacking>"
+				],
+				"requires": ["Centralization"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Monarchy",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]"],
+				"requires": ["Centralization"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Cultural Icons",
+				"uniques": [
+					"[+15]% Production when constructing [All] wonders [in all cities]",
+					"[+15]% Production when constructing [NatW preq] buildings [in all cities] <hidden from users>",
+					"Comment [+15% Production when constructing buildings required for National Wonder]"
+				],
+				"requires": ["Centralization"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Burghers",
+				"uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
+				"requires": ["Monarchy"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Tradition Complete",
+				"uniques": [
+					"[+15]% growth [in all cities]",
+					"[-10]% Culture cost of natural border growth [in all cities]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Consolidation",
+		"era": "Restoration Age",
+		"uniques": [
+			"[-10]% Culture cost of natural border growth [in all cities]",
+			"[+1 Happiness] [in capital]",
+			"Comment [Unlocks [Dwuiltunad]]"
+		],
+		"policies": [
+			{
+				"name": "Adaptation",
+				"uniques": ["[+1 Food, +1 Production] [in all cities]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Collective Rule",
+				"uniques": [
+					"[+50]% Production when constructing [Settler] units [in capital]",
+					"Free [Settler] appears"
+				],
+				"requires": ["Adaptation"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Meritocracy",
+				"uniques": [
+					"[+1 Happiness] [in all cities connected to capital]",
+					"[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+				],
+				"requires": ["Adaptation"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "State Workforce",
+				"uniques": [
+					"[-25]% construction time for [All] improvements",
+					"Free [Worker] appears"
+				],
+				"requires": ["Adaptation"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Representation",
+				"uniques": [
+					"Each city founded increases culture cost of policies [33]% less than normal",
+					"Empire enters golden age"
+				],
+				"requires": ["Meritocracy"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Consolidation Complete",
+				"uniques": [
+					"Free Great Person",
+					"[+1 Culture] [in all cities]"
+				]
+			}
+		]
+	},
+	
+]

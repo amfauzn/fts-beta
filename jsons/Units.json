@@ -133,7 +133,10 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Forge]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -147,7 +150,10 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Etherblader",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Forge]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -161,7 +167,10 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Avionic Theory",
 		"upgradesTo": "Lightsaberman",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Forge]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -177,7 +186,8 @@
 		//"promotions": ["Amphibious"],
 		"uniques": [
 			"[+1] Sight <when [Embarked]>",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
+			"Can only be built <in cities with a [Forge]> <in cities with a [Shipyard]>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot"
@@ -192,7 +202,10 @@
 		"requiredTech": "Avionic Theory",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "TIT Squad",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Forge]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -223,7 +236,10 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Barracks]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -236,7 +252,10 @@
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Alchemy",
 		"upgradesTo": "Halberdier",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Barracks]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -249,7 +268,10 @@
 		"requiredTech": "Alchemy",
 		"obsoleteTech": "Pyromunition",
 		"upgradesTo": "Crusher",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Barracks]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -262,7 +284,10 @@
 		"requiredTech": "Pyromunition",
 		"obsoleteTech": "Bionic Physiology",
 		"upgradesTo": "Cyborg",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Barracks]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -296,6 +321,7 @@
 		"upgradesTo": "Knight",
 		"uniques": [
 			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "horse"
@@ -313,6 +339,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": [
 			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "horse"
@@ -330,6 +357,7 @@
 		"upgradesTo": "Landship",
 		"uniques": [
 			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "horse"
@@ -344,7 +372,10 @@
 		"requiredTech": "Pyrokinetics",
 		"obsoleteTech": "Mobile Tactics",
 		"upgradesTo": "Tank",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "tankshot"
 	},
 	{
@@ -370,7 +401,10 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Engineering",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -384,7 +418,10 @@
 		"requiredTech": "Engineering",
 		"obsoleteTech": "Military Engineering",
 		"upgradesTo": "Arbalester",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "crossbow"
 	},
 	{
@@ -398,7 +435,10 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Stand Shafter",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "crossbow"
 	},
 	{
@@ -413,7 +453,10 @@
 		"requiredTech": "Advanced Ballistics",
 		"obsoleteTech": "Rocketry",
 		"upgradesTo": "Bazooka",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -431,6 +474,97 @@
 		"attackSound": "machinegun"
 	},
 	
+	// Siege
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 16,
+		"cost": 75,
+		"hurryCostModifier": 10,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Trebuchet",
+		"uniques": [
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 22,
+		"cost": 120,
+		"hurryCostModifier": 10,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Alchemy",
+		"upgradesTo": "Flare",
+		"uniques": [
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Flare",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 32,
+		"cost": 200,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Alchemy",
+		"obsoleteTech": "Advanced Ballistics",
+		"upgradesTo": "Cannon",
+		//"promotions": ["Indirect Fire"],
+		"uniques": [
+			"Must set up to ranged attack",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 36,
+		"rangedStrength": 48,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Advanced Ballistics",
+		"obsoleteTech": "Pyroblasting",
+		"upgradesTo": "Artillery",
+		//"promotions": ["Indirect Fire"],
+		"uniques": [
+			"Must set up to ranged attack",
+			//"[-1] Sight",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 68,
+		"range": 3,
+		"cost": 480,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Pyroblasting",
+		//"promotions": ["Indirect Fire"],
+		"uniques": ["Must set up to ranged attack"],
+		"attackSound": "artillery"
+	},
+	
 	// Melee Mage
 	{
 		"name": "Priest",
@@ -445,7 +579,8 @@
 		"upgradesTo": "Cleric",
 		"uniques": [
 			"Cannot attack",
-			"Comment [Heals allied units around it by 5 HP at the end of each turn]"
+			"Comment [Heals allied units around it by 5 HP at the end of each turn]",
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>"
 		],
 		"attackSound": "whoosh"
 	},
@@ -460,7 +595,10 @@
 		"requiredTech": "Mana Crystallization",
 		"obsoleteTech": "Biology",
 		"upgradesTo": "Paladin",
-		"uniques": ["Comment [Heals allied units around it by 5 HP at the end of each turn]"],
+		"uniques": [
+			"Comment [Heals allied units around it by 5 HP at the end of each turn]",
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>"
+		],
 		"attackSound": "whoosh"
 	},
 	{
@@ -476,7 +614,8 @@
 		"upgradesTo": "Templar",
 		"uniques": [
 			"[+1] Sight"
-			"Comment [Heals allied units around it by 5 HP at the end of each turn]"
+			"Comment [Heals allied units around it by 5 HP at the end of each turn]",
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>"
 		],
 		"attackSound": "whoosh"
 	},
@@ -509,6 +648,7 @@
 		"requiredTech": "Mana Attunement",
 		"obsoleteTech": "Spellbook Codification",
 		"upgradesTo": "Wizard",
+		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh"
 	},
 	{
@@ -523,6 +663,7 @@
 		"requiredTech": "Spellbook Codification",
 		"obsoleteTech": "Magic Negation",
 		"upgradesTo": "Arch-Wizard",
+		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh"
 	},
 	{
@@ -537,6 +678,7 @@
 		"requiredTech": "Magic Negation",
 		"obsoleteTech": "Pyroblasting",
 		"upgradesTo": "Sage",
+		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh"
 	},
 	{
@@ -550,7 +692,79 @@
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Pyroblasting",
 		//"promotions": ["Owl's Eye"],
-		//"uniques": ["[+10]% Strength <vs [{Person} {Melee}] units> <when defending>"],
+		"uniques": ["[+10]% Strength <vs [{Person} {Melee}] units> <when defending>"],
 		"attackSound": "whoosh"
+	},
+	
+	// Naval Melee
+	{
+		"name": "Trireme",
+		"unitType": "Naval Melee",
+		"movement": 4,
+		"strength": 15,
+		"cost": 45,
+		"hurryCostModifier": 10,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Cartography",
+		"upgradesTo": "Caravel",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Caravel",
+		"unitType": "Naval Melee",
+		"movement": 4,
+		"strength": 30,
+		"cost": 165,
+		"hurryCostModifier": 20,
+		"requiredTech": "Cartography",
+		"obsoleteTech": "Industrialization",
+		"upgradesTo": "Ironclad",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>",
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Naval Melee",
+		"movement": 3,
+		"strength": 50,
+		"cost": 310,
+		"requiredResource": "Iron",
+		"requiredTech": "Industrialization",
+		"obsoleteTech": "Pyrokinetics",
+		"upgradesTo": "Destroyer",
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"Double movement in [Coast]",
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Naval Melee",
+		"movement": 6,
+		"strength": 70,
+		"interceptRange": 2,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Pyrokinetics",
+		"uniques": [
+			"[+50]% Strength <vs [Naval Raider] units>",
+			"Can see invisible [Water Terror] units",
+			"[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shipguns"
 	},
 ]

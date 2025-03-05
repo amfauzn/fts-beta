@@ -8,17 +8,17 @@
 		"techs": [
 			{
 				"name": "Language",
-				"row": 3,
-				"uniques": ["Starting tech"]
-			},
-			{
-				"name": "Calendar",
 				"row": 4,
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Hunting",
+				"name": "Calendar",
 				"row": 5,
+				"uniques": ["Starting tech"]
+			},
+			{
+				"name": "Hunting",
+				"row": 6,
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -37,24 +37,24 @@
 			},
 			{
 				"name": "Astrology",
-				"row": 2,
+				"row": 3,
 				"quote": "'You are BORN into a star sign, you DON'T actually become one, or stay one for very long' - Ashley S. Clancy, The Jamange Line"
 			},
 			{
 				"name": "Pottery",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Calendar","Hunting"],
 				"quote": "'No man ever wetted clay and left it, as if there would be bricks by chance and fortune.' - Plutarch"
 			},
 			{
 				"name": "Domestication",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Hunting"],
 				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
 			},
 			{
 				"name": "Archery",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Hunting"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
@@ -86,19 +86,19 @@
 					"Notified of new Barbarian encampments",
 					"Enables Open Borders agreements"
 				],
-				"row": 3,
-				"prerequisites": ["Language"],
+				"row": 4,
+				"prerequisites": ["Language","Pottery"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
 				"name": "Irrigation",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Pottery"],
 				"quote": "'The man who has grit enough to bring about the afforestation or the irrigation of a country is not less worthy of honor than its conqueror' - Sir John Thomson"
 			},
 			{
 				"name": "The Wheel",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Domestication","Archery"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
@@ -126,25 +126,25 @@
 			{
 				"name": "Mana Thaumaturgy",
 				"cost": 125,
-				"row": 2,
-				"prerequisites": ["Astrology"],
+				"row": 3,
+				"prerequisites": ["Astrology","Paper Making"],
 				"quote": "'Our people once were warriors. But unlike you, Jake, they were people with mana, pride; people with spirit.' - Alan Duff, Once Were Warriors"
 			},
 			{
 				"name": "Mathematics",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Irrigation","The Wheel"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
 				"name": "Animal Riding",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["The Wheel"],
 				"quote": "'The privilege of having a soul is shared with us by Animals.' - Shenita Etwaroo"
 			},
 			{
 				"name": "Construction",
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["The Wheel","Masonry"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
@@ -165,34 +165,34 @@
 			},
 			{
 				"name": "Philosophy",
-				"row": 3,
-				"prerequisites": ["Mana Thaumaturgy","Paper Making"],
+				"row": 4,
+				"prerequisites": ["Mana Thaumaturgy"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
 				"name": "Poetry",
-				"row": 4,
-				"prerequisites": ["Irrigation"],
+				"row": 5,
+				"prerequisites": ["Mana Thaumaturgy","Irrigation"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
 				"name": "Currency",
 				"uniques": ["Enables conversion of city production to [Gold]"],
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Mathematics","Animal Riding"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
 				"name": "Engineering",
 				"uniques": ["Roads connect tiles across rivers"],
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["Construction"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
 				"name": "Iron Working",
 				"row": 9,
-				"prerequisites": ["Bronze Working"],
+				"prerequisites": ["Bronze Working","Animal Riding"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			}
 		]
@@ -215,24 +215,24 @@
 				"name": "Celestial Wisdoms",
 				"uniques": ["Enables conversion of city production to [Faith]"],
 				"row": 3,
-				"prerequisites": ["Philosophy","Poetry"],
+				"prerequisites": ["Philosophy","Geomancy","Poetry"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
 				"name": "Mana Attunement",
-				"row": 4,
-				"prerequisites": ["Philosophy","Poetry"],
+				"row": 5,
+				"prerequisites": ["Philosophy","Poetry","Currency"],
 				"quote": "'We don’t want to swim against cosmic currents, do we?' - Stefan Emunds, Feng Shui"
 			},
 			{
 				"name": "Civil Service",
-				"row": 7,
-				"prerequisites": ["Currency","Engineering","Iron Working"],
+				"row": 6,
+				"prerequisites": ["Currency","Engineering"],
 				"quote": "'Every reformer is a public servant, but not every public servant is a reformer' - Abhijit Naskar, Mücadele Muhabbet"
 			},
 			{
 				"name": "Metal Casting",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Engineering","Iron Working"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}
@@ -249,20 +249,9 @@
 				"name": "Cartography",
 				"cost": 600,
 				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
-				"row": 1,
-				"prerequisites": ["Compass"],
-				"quote": "'If your actions inspire others to dream more, learn more, do more and become more, you are a cartographer.' - John Quincy Adams"
-			},
-			{
-				"name": "Education",
-				"cost": 600,
-				"uniques": [
-					"Enables conversion of city production to [Science]",
-					"Enables Research agreements"
-				],
 				"row": 2,
-				"prerequisites": ["Celestial Wisdoms"],
-				"quote": "'Education is the best provision for old age.' - Aristotle"
+				"prerequisites": ["Compass","Celestial Wisdoms"],
+				"quote": "'If your actions inspire others to dream more, learn more, do more and become more, you are a cartographer.' - John Quincy Adams"
 			},
 			{
 				"name": "Summoning Rites",
@@ -277,15 +266,26 @@
 				"quote": "'His eyes met mine at the soft touch, and a chime seemed to shake the ley line, realigning the universe. He was mine.' - Kim Harrison"
 			},
 			{
-				"name": "Guilds",
+				"name": "Education",
+				"cost": 600,
+				"uniques": [
+					"Enables conversion of city production to [Science]",
+					"Enables Research agreements"
+				],
 				"row": 5,
-				"prerequisites": ["Mana Attunement","Currency"],
+				"prerequisites": ["Mana Attunement","Civil Service"],
+				"quote": "'Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "Guilds",
+				"row": 6,
+				"prerequisites": ["Civil Service","Metal Casting"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
 				"name": "Chivalry",
 				"row": 7,
-				"prerequisites": ["Civil Service"],
+				"prerequisites": ["Civil Service","Metal Casting"],
 				"quote": "'A gentleman is simply a patient wolf.' - Lana Turner"
 			},
 			{
@@ -306,21 +306,21 @@
 		"techs": [
 			{
 				"name": "Mana Crystallization",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Education","Leyline Siphoning","Guilds"],
 				"quote": "'Stability > Tranquility > Ability > Mobility > Power.' - Psixaeristw"
 			},
 			{
 				"name": "Loan and Saving",
-				"row": 7,
-				"prerequisites": ["Guilds","Chivalry"],
+				"row": 6,
+				"prerequisites": ["Guilds","Chivalry","Education"],
 				"quote": "'If you owe the bank $100 that's your problem. If you owe the bank $100 million, that's the bank's problem.'– J. Paul Getty"
 			},
 			{
 				"name": "Steel",
 				"cost": 900,
-				"row": 9,
-				"prerequisites": ["Metal Casting"],
+				"row": 8,
+				"prerequisites": ["Education","Machinery"],
 				"quote": "'The best steel doesn't always shine the brightest.' - Joe Abercrombie"
 			}
 		]
@@ -334,13 +334,13 @@
 		"techs": [
 			{
 				"name": "Navigation",
-				"row": 1,
-				"prerequisites": ["Cartography","Education"],
+				"row": 2,
+				"prerequisites": ["Cartography","Mana Crystallization"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
 				"name": "Acoustics",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Mana Crystallization"],
 				"quote": "'After silence, that which comes nearest to expressing the inexpressible is music.' ~ Aldous Huxley"
 			},
@@ -352,8 +352,8 @@
 			},
 			{
 				"name": "Military Engineering",
-				"row": 8,
-				"prerequisites": ["Loan and Saving","Machinery","Steel"],
+				"row": 7,
+				"prerequisites": ["Loan and Saving","Steel"],
 				"quote": "'The more science intervenes in warfare, the more will be the need for engineers in the field armies; in the late war there were never enough sappers at any time.' - Bernard Montgomery"
 			}
 		]
@@ -379,19 +379,19 @@
 			},
 			{
 				"name": "Printing",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Spellbook Codification"],
 				"quote": "'The speed of communications is wondrous to behold, it is also true that speed does multiply the distribution of information that we know to be untrue.' – Edward R. Murrow"
 			},
 			{
 				"name": "Fertilizer",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Loan and Saving"],
 				"quote": "'A failure is like fertilizer; it stinks to be sure, but it makes things grow faster in the future.' ~ Denis Waitley"
 			},
 			{
 				"name": "Alchemy",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Military Engineering"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			}
@@ -418,7 +418,7 @@
 			},
 			{
 				"name": "Economics",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Printing","Fertilizer"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
@@ -452,7 +452,7 @@
 			{
 				"name": "Railroads",
 				"row": 6,
-				"prerequisites": ["Economics"],
+				"prerequisites": ["Economics","Metallurgy"],
 				"quote": "'We want transportation as reliable as running water.' - Travis Kalanick"
 			},
 			{

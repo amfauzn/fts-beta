@@ -148,6 +148,36 @@
 	// Usulan Ace Hank:
 	// Light Cavalry and Heavy Cavalry
 	
+	// Ranged Infantry
+	{
+		"name": "Accuracy",
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Ranged Infantry","Siege","Ranged Mage"]
+	},
+	{
+		"name": "Barrage",
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Ranged Infantry","Siege","Ranged Mage"]
+	},
+	{
+		"name": "Marksman",
+		"prerequisites": ["Accuracy"],
+		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	{
+		"name": "Cover",
+		"prerequisites": ["Barrage"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	{
+		"name": "Damage Absorb",
+		"prerequisites": ["Marksman","Cover"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	
 	// Melee Mage
 	
 	// Ranged Mage

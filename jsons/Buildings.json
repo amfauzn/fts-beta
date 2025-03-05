@@ -1,0 +1,422 @@
+[
+	// Always Available
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"culture": 2,
+		"science": 2,
+		"gold": 2,
+		"production": 2,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"[-1 Science] per [5] population [in this city] <hidden from users>"
+		]
+	},
+	
+	// Restoration Age
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"NatW preq"
+		],
+		"requiredTech": "Language"
+	},
+	
+	{
+		"name": "Altar",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["Only available <when religion is enabled>"],
+		"requiredTech": "Astrology"
+	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Citrus] tiles [in this city]",
+			"[+1 Food] from [Corn] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[-5]% Unhappiness from [Population] [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Shooting Range",
+		"hurryCostModifier": 5,
+		"uniques": [
+			"Comment [Enables training Ranged Infantry units]",
+			//"Free [Archer] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Archery"
+	},
+	
+	{
+		"name": "Lighthouse",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Fish] tiles [in this city]"
+		],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Shipyard",
+		"hurryCostModifier": 5,
+		"uniques": [
+			"Comment [Enables training Naval units]",
+			//"Free [Trireme] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Paper Maker",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"NatW preq"
+		],
+		"requiredTech": "Paper Making"
+	},
+	{
+		"name": "Garden",
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must be next to [Fresh water]",
+			"[+20]% Great Person generation [in this city]"
+		],
+		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Water Mill",
+		"food": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Stone Works",
+		"requiredNearbyImprovedResources": ["Marble","Obsidian","Stone"],
+		"happiness": 1,
+		"production": 1,
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Production] from [Marble] tiles [in this city]",
+			"[+1 Production] from [Obsidian] tiles [in this city]",
+			"[+1 Production] from [Stone] tiles [in this city]"
+		],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 5,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Enables training Anti-Armor units]",
+			//"Free [Spearman] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	
+	// Rediscovery Age
+	{
+		"name": "Arcane Spire",
+		"hurryCostModifier": 5,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Enables training Mage & Golem units]",
+			//"Free [Priest] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mana Thaumaturgy"
+	},
+	{
+		"name": "Courthouse",
+		"hurryCostModifier": 50,
+		"maintenance": 4,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [in annexed cities] cities>"
+		],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Trading Post",
+		"gold": 2,
+		"percentStatBonus": {"gold": 25},
+		"hurryCostModifier": 20,
+		//"specialistSlots": {"Merchant": 1},
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Siege Workshop",
+		"hurryCostModifier": 5,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Enables training Siege and Anti-Air units]",
+			//"Free [Catapult] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Circus",
+		"happiness": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"uniques": ["NatW preq"],
+		"requiredTech": "Animal Riding"
+	},
+	{
+		"name": "Stable",
+		"requiredNearbyImprovedResources": ["Cattle","Horses","Sheep","Buffalo"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Buffalo] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]",
+		],
+		"requiredTech": "Animal Riding"
+	},
+	{
+		"name": "Riding Arena",
+		"hurryCostModifier": 5,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Enables training Mounted units]",
+			//"Free [Horseman] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Animal Riding"
+	},
+	{
+		"name": "Arena",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	
+	{
+		"name": "Temple",
+		"requiredBuilding": "Altar",
+		"faith": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"NatW preq"
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "College",
+		"isNationalWonder": true,
+		"culture": 1,
+		"science": 3,
+		"percentStatBonus": {"science": 50},
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Paper Maker] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [15] per owned city"
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Pyramid",
+		"requiredBuilding": "Monument",
+		"culture": 3,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		//"specialistSlots": {"Artist": 1},
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Poetry"
+	},
+	{
+		"name": "Valor Monument",
+		"isNationalWonder": true,
+		"culture": 4,
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+			"[-10]% Culture cost of natural border growth [in this city]",
+			"[+10]% Great Person generation [in this city]"
+			"Cost increases by [15] per owned city"
+		],
+		"requiredTech": "Poetry"
+	},
+	{
+		"name": "Mint",
+		"requiredNearbyImprovedResources": ["Copper","Gold Ore","Silver"],
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		//"specialistSlots": {"Merchant": 1},
+		"uniques": [
+			"[+1 Gold] from [Copper] tiles [in this city]",
+			"[+1 Gold] from [Gold Ore] tiles [in this city]",
+			"[+1 Gold] from [Silver] tiles [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Forge",
+		"hurryCostModifier": 5,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Enables training Infantry units]",
+			"[+1 Production] from [Iron] tiles [in this city]",
+			//"Free [Swordsman] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Iron Working"
+	},
+	
+	{
+		"name": "Harbor",
+		"cost": 130,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water"
+		],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Grand Temple",
+		"isNationalWonder": true
+		"culture": 1,
+		"faith": 8,
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [25] per owned city",
+			"[+100]% Natural religion spread [in this city]",
+			"Only available <when religion is enabled>"
+			"Can only be built <in [in holy cities] cities>"
+		],
+		"requiredTech": "Celestial Wisdoms"
+	},
+	{
+		"name": "Aqueduct",
+		"requiredBuilding": "Granary",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"uniques": [
+			"[25]% Food is carried over after population increases [in this city]",
+			"[-5]% Unhappiness from [Population] [in this city]"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Colosseum",
+		"isNationalWonder": true,
+		"happiness": 5,
+		"culture": 1,
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Circus] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [25] per owned city"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Workshop",
+		"production": 2,
+		"percentStatBonus": {"production": 10},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		//"specialistSlots": {"Engineer": 1},
+		"uniques": ["NatW preq"],
+		"requiredTech": "Metal Casting"
+	},
+	
+	// Enlightenment Age
+	{
+		"name": "Public School",
+		"requiredBuilding": "Paper Maker",
+		"science": 2,
+		"percentStatBonus": {"science": 33},
+		"hurryCostModifier": 15,
+		"maintenance": 2,
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Public Bath",
+		"requiredBuilding": "Circus",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Market",
+		"requiredBuilding": "Trading Post",
+		"gold": 2,
+		"percentStatBonus": {"gold": 25},
+		"hurryCostModifier": 15,
+		//"specialistSlots": {"Merchant": 1},
+		"uniques": ["NatW preq"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Castle",
+		"requiredBuilding": "Walls",
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Ironworks",
+		"isNationalWonder": true,
+		"culture": 1,
+		"production": 8,
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [25] per owned city"
+		],
+		"requiredTech": "Machinery"
+	},
+	
+	
+]
