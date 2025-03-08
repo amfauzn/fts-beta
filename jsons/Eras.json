@@ -11,7 +11,15 @@
 		"embarkDefense": 5,
 		"startPercent": 0,
 		"citySound": "cityAncient",
-		"iconRGB": [255, 87, 35]
+		"iconRGB": [255, 87, 35],
+		"civilopediaText": [
+			{
+				"text": "The fall of Ilythiir marked the end of the Dark Age. - Ardour the Old"
+			},
+			{
+				"text": "Also known as the Time of Beginnings, the Restoration Age began in the first year of the Human-created solar calendar, which eventually replaced the Elven lunar calendar. During this age, the Gods decided to erase the memories of Earth's inhabitants, leaving only a few with any recollection of the past. They also populated the Earth with many new speaking peoples, taught them essential survival skills, and allowed them to develop independently. The Gods agreed to limit their intervention on Earth, especially after their significant interference to end the Age of Demons, which had led to the Dark Age."
+			}
+		]
 	},
 	{
 		"name": "Discovery Age",
@@ -23,7 +31,9 @@
 		"startingGold": 50,
 		"startingCulture": 100,
 		"settlerPopulation": 2,
-		"settlerBuildings": [],
+		"settlerBuildings": [
+			"Monument","Altar","Granary"
+		],
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 10,
 		"startPercent": 15,
@@ -40,7 +50,9 @@
 		"startingGold": 100,
 		"startingCulture": 200,
 		"settlerPopulation": 3,
-		"settlerBuildings": [],
+		"settlerBuildings": [
+			"Monument","Altar","Granary"
+		],
 		"startingObsoleteWonders": [],
 		"baseUnitBuyCost": 300,
 		"embarkDefense": 15,
@@ -58,7 +70,9 @@
 		"startingGold": 200,
 		"startingCulture": 300,
 		"settlerPopulation": 4,
-		"settlerBuildings": [],
+		"settlerBuildings": [
+			"Monument","Altar","Granary"
+		],
 		"startingObsoleteWonders": [],
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 20,
@@ -79,7 +93,9 @@
 		"startingGold": 300,
 		"startingCulture": 400,
 		"settlerPopulation": 5,
-		"settlerBuildings": [],
+		"settlerBuildings": [
+			"Monument","Altar","Granary"
+		],
 		"startingObsoleteWonders": [],
 		"baseUnitBuyCost": 500,
 		"embarkDefense": 25,
@@ -104,7 +120,9 @@
 		"startingGold": 400,
 		"startingCulture": 500,
 		"settlerPopulation": 5,
-		"settlerBuildings": [],
+		"settlerBuildings": [
+			"Monument","Altar","Granary"
+		],
 		"startingObsoleteWonders": [],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 30,
@@ -129,7 +147,9 @@
 		"startingGold": 400,
 		"startingCulture": 500,
 		"settlerPopulation": 5,
-		"settlerBuildings": [],
+		"settlerBuildings": [
+			"Monument","Altar","Granary"
+		],
 		"startingObsoleteWonders": [],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 35,

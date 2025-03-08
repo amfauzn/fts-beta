@@ -767,4 +767,58 @@
 		],
 		"attackSound": "shipguns"
 	},
+	
+	// Naval Ranged
+	{
+		"name": "Galleass",
+		"unitType": "Naval Ranged",
+		"movement": 3,
+		"strength": 18,
+		"rangedStrength": 20,
+		"cost": 100,
+		"hurryCostModifier": 5,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Frigate",
+		"unitType": "Naval Ranged",
+		"movement": 5,
+		"strength": 36,
+		"rangedStrength": 40,
+		"cost": 260,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"upgradesTo": "Battleship",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Naval Ranged",
+		"movement": 5,
+		"strength": 58,
+		"rangedStrength": 66,
+		"range": 3,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Replaceable Parts",
+		//"promotions": ["Indirect Fire"],//"promotions": ["Indirect Fire"],
+		"uniques": [
+			"Can see invisible [Naval Raider] units",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shipguns"
+	},
 ]

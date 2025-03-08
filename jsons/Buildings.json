@@ -227,12 +227,25 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
 	},
 	
+	{
+		"name": "Hatchery",
+		//"requiredNearbyImprovedResources": ["Mystical Egg"],
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Enables training Air Terror units]",
+			"[+1 Production] from [Mystical Egg] tiles [in this city]",
+			"Military unlocker",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Geomancy"
+	},
 	{
 		"name": "Temple",
 		"requiredBuilding": "Altar",
@@ -397,6 +410,24 @@
 		"requiredTech": "Guilds"
 	},
 	{
+		"name": "Brewery",
+		"requiredNearbyImprovedResources": ["Coffee","Sugar","Tea","Wine"],
+		"happiness": 1,
+		"cost": 100,
+		"hurryCostModifier": 0,
+		"maintenance": 0,
+		"uniques": [
+			"[+1 Gold] from [Coffee] tiles [in this city]",
+			"[+1 Gold] from [Sugar] tiles [in this city]",
+			"[+1 Gold] from [Tea] tiles [in this city]",
+			"[+1 Gold] from [Wine] tiles [in this city]"
+		],
+		"requiredTech": "Guilds",
+		"civilopediaText": [
+			{"text": "A building dedicated to brew coffee, tea, and of course wine."}
+		]
+	},
+	{
 		"name": "Castle",
 		"requiredBuilding": "Walls",
 		"cityStrength": 10,
@@ -404,6 +435,23 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Gemcutter",
+		"requiredNearbyImprovedResources": ["Amber","Gems","Jade"],
+		"happiness": 1,
+		"cost": 100,
+		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"uniques": [
+			"[+1 Culture] from [Amber] tiles [in this city]",
+			"[+1 Culture] from [Gems] tiles [in this city]",
+			"[+1 Culture] from [Jade] tiles [in this city]"
+		],
+		"requiredTech": "Machinery",
+		"civilopediaText": [
+			{"text": "A workplace where gem-related luxury created."}
+		]
 	},
 	{
 		"name": "Ironworks",
@@ -416,6 +464,173 @@
 			"Cost increases by [25] per owned city"
 		],
 		"requiredTech": "Machinery"
+	},
+	
+	{
+		"name": "Mystic Crucible",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"[+20]% Production when constructing [Mage] units [in this city]",
+			"[+20]% Production when constructing [Construct] units [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mana Crystallization"
+	},
+	{
+		"name": "Treasury",
+		"isNationalWonder": true,
+		"culture": 1,
+		"gold": 8,
+		"percentStatBonus": {"gold": 10},
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [25] per owned city"
+		],
+		"requiredTech": "Loan and Saving"
+	},
+	
+	{
+		"name": "Seaport",
+		"requiredBuilding": "Harbor",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"[+20]% Production when constructing [Naval Melee] units [in this city]",
+			"[+20]% Production when constructing [Naval Ranged] units [in this city]"
+		],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Theater Square",
+		"requiredBuilding": "Pyramid",
+		"culture": 4,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["NatW preq"],
+		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "Heroic Epic",
+		"isNationalWonder": true,
+		"culture": 6,
+		"percentStatBonus": {"culture": 10},
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Theater Square] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [25] per owned city"
+		],
+		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 4,
+		"uniques": [
+			"[+20]% Production when constructing [Infantry] units [in this city]",
+			"[+20]% Production when constructing [Mounted] units [in this city]",
+			"[+20]% Production when constructing [Anti-Armor] units [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Military Engineering"
+	},
+	{
+		"name": "Arsenal",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"uniques": [
+			"[+20]% Production when constructing [Ranged Infantry] units [in this city]",
+			"[+20]% Production when constructing [Siege] units [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Military Engineering"
+	},
+	
+	// Magi-Industry Age
+	{
+		"name": "Stadium",
+		"requiredBuilding": "Public Bath",
+		"happiness": 4,
+		"maintenance": 2,
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Campus",
+		"requiredBuilding": "Public School",
+		"science": 4,
+		"hurryCostModifier": 15,
+		"maintenance": 3,
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"NatW preq"
+		],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "University",
+		"isNationalWonder": true,
+		"culture": 1,
+		"science": 3,
+		"percentStatBonus": {"science": 33},
+		"cost": 150,
+		"uniques": [
+			"Only available <if [Campus] is constructed in all [non-[Puppeted]] cities>",
+			"Free Technology",
+			"Cost increases by [25] per owned city"
+		],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Rune Forge",
+		"requiredNearbyImprovedResources": ["Ley Line"],
+		"maintenance": 3,
+		"uniques": [
+			"Provides [4] [Rune Stone]",
+			"Limited to [5] per Civilization"
+		],
+		"requiredTech": "Runeforging"
+	},
+	{
+		"name": "Mawene",
+		"requiredBuilding": "Temple",
+		"faith": 3,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"[-5]% Unhappiness from [Population] [in this city]",
+			"Only available <when religion is enabled>"
+		],
+		"requiredTech": "Printing"
+	},
+	
+	{
+		"name": "Museum",
+		"requiredBuilding": "Theater Square",
+		"percentStatBonus": {"culture": 25},
+		"hurryCostModifier": 10,
+		"maintenance": 3,
+		//"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Comment [+3 Culture if [Monument], [Pyramid], and [Theater Square] is constructed in this city]",
+			"[+3 Culture] [in this city] <in cities with a [Monument]> <in cities with a [Pyramid]> <in cities with a [Theater Square]> <hidden from users>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "Factory",
+		"requiredBuilding": "Workshop",
+		"requiredResource": "Rune Stone",
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"cost": 360,
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		//"specialistSlots": {"Engineer": 1},
+		"requiredTech": "Industrialization"
 	},
 	
 	
