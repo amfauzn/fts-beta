@@ -239,10 +239,10 @@
 			},
 			{
 				"name": "Ballistics",
-				"uniques": [
+				//"uniques": [
 					//"[Ranged Infantry] units gain the [Indirect Fire] promotion",
 					//"[Siege] units gain the [Indirect Fire] promotion"
-				],
+				//],
 				"requires": ["Weaponry"],
 				"row": 2,
 				"column": 9
