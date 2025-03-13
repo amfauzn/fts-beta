@@ -565,6 +565,59 @@
 		"attackSound": "artillery"
 	},
 	
+	// Anti-Air
+	{
+		"name": "Scorpion",
+		"unitType": "Anti-Air",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 85,
+		"requiredTech": "Engineering",
+		"obsoleteTech": "Military Engineering",
+		"upgradesTo": "Ballista",
+		"uniques": [
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			//"Ignores Zone of Control",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>",
+			"Siege",
+		],
+		"hurryCostModifier": 10,
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "A siege weapon that fires large, arrow-like projectiles. These weapons are highly effective against flying units due to their piercing power."}
+		]
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Anti-Air",
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 200,
+		"requiredResource": "Iron",
+		"requiredTech": "Military Engineering",
+		"obsoleteTech": "Pyromunition",
+		//"promotions": ["Barrage"], maybe rasah
+		"uniques": [
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			//"Ignores Zone of Control",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>",
+			"Can upgrade to [Cannon]",
+			"Siege"
+		],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "An advanced version of scorpion, constructed from wood reinforced with heavy iron plates. These weapon is surprisingly accurate accurate in the hands of trained operators."}
+		]
+	},
+	
 	// Melee Mage
 	{
 		"name": "Priest",
@@ -694,6 +747,215 @@
 		//"promotions": ["Owl's Eye"],
 		"uniques": ["[+10]% Strength <vs [{Person} {Melee}] units> <when defending>"],
 		"attackSound": "whoosh"
+	},
+	
+	// Construct
+	{
+		"name": "Stone Golem",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 28,
+		"cost": 150,
+		"hurryCostModifier": 10,
+		"requiredResource": "Soulstone",
+		"requiredTech": "Education",
+		"obsoleteTech": "Runeforging",
+		"upgradesTo": "Iron Golem",
+		"uniques": [
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>",
+			"[+20]% Strength <when defending>"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "The simplest and earliest sentient guardian crafted from enchanted stone blocks and animated by the Soulstone. Though they lack agility, these golems are reliable enough to defend against the incoming attack."}
+		]
+	},
+	{
+		"name": "Iron Golem",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 42,
+		"cost": 250,
+		"hurryCostModifier": 10,
+		"requiredResource": "Soulstone",
+		"requiredTech": "Runeforging",
+		"obsoleteTech": "Mana Battery",
+		"upgradesTo": "Adamantite Golem",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>",
+			"[+20]% Strength <when defending>",
+			"Comment [Reduce damage taken by 5]"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "An upgrade from its stone counterpart. Forged with iron, these golems boasts improved strength and durability."}
+		]
+	},
+	{
+		"name": "Adamantite Golem",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 60,
+		"cost": 380,
+		"hurryCostModifier": 10,
+		"requiredResource": "Soulstone",
+		"requiredTech": "Mana Battery",
+		"obsoleteTech": "Advanced Automatons",
+		"upgradesTo": "Titanium Golem",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>",
+			"[+20]% Strength <when defending>",
+			"Comment [Reduce damage taken by 5]",
+			"Comment [Immune from Lightning, Fire, and Ice]"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Crafted using the sturdy mineral adamantium, these golems exhibit superior combat capabilities and enhanced resilience against both physical and magical attacks."}
+		]
+	},
+	{
+		"name": "Titanium Golem",
+		"unitType": "Construct",
+		"movement": 3,
+		"strength": 80,
+		"cost": 525,
+		"requiredTech": "Advanced Automatons",
+		"uniques": [
+			"Consumes [2] [Soulstone]",
+			"Can pass through impassable tiles",
+			"[+20]% Strength <when defending>",
+			"Comment [Reduce damage taken by 5]",
+			"Comment [Immune from Lightning, Fire, and Ice]",
+			"Comment [Spells cannot target this unit]"
+		],
+		"attackSound": "gdrAttack",
+		"civilopediaText": [
+			{"text": "The pinnacle of construct engineering, blends advanced craftsmanship with lightweight yet indestructible materials. Created from titanium, these constructs are more agile than their predecessor."}
+		]
+	},
+	
+	// Air Terror
+	{
+		"name": "Dragonling Rider",
+		"unitType": "Air Terror",
+		"movement": 6,
+		"strength": 30,
+		"cost": 180,
+		"hurryCostModifier": 15,
+		"requiredResource": "Mystical Egg",
+		"requiredTech": "Celestial Wisdoms",
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Dragon Knight",
+		//"promotions": ["Elemental Immunity"],
+		"uniques": ["Can only be built <in cities with a [Hatchery]> <hidden from users>"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "Mounted on young, spirited dragonlings, these riders exhibit great courage but limited battlefield control. The dragonlings, still relying heavily on their instincts, often struggle to precisely aim their elemental breath."}
+		]
+	},
+	{
+		"name": "Dragon Knight",
+		"unitType": "Air Terror",
+		"movement": 6,
+		"strength": 52,
+		"rangedStrength": 52,
+		"range": 1,
+		"cost": 360,
+		"hurryCostModifier": 15,
+		"requiredResource": "Mystical Egg",
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Stealth",
+		"upgradesTo": "Dragon Paladin",
+		//"promotions": ["Elemental Immunity"],
+		"uniques": [
+			"Ignores Zone of Control",
+			"Can only be built <in cities with a [Hatchery]> <hidden from users>"
+		],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "When a rider forms a deep bond with their dragon and masters coordinated flight and battle tactics, they ascend to the rank of Dragon Knight. These seasoned fighters can direct their dragons to execute precise maneuvers, using elemental breath as a devastating ranged weapon."}
+		]
+	},
+	{
+		"name": "Dragon Paladin",
+		"unitType": "Air Terror",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 80,
+		"cost": 560,
+		"requiredResource": "Mystical Egg",
+		"requiredTech": "Stealth",
+		//"promotions": ["Elemental Immunity"],
+		"uniques": [
+			"Ignores Zone of Control",
+			"[+25]% Strength <vs [Counter Air Terror] units> <when defending>"
+		],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "The pinnacle of dragon-riding prowess, commanding adult dragons that are not only powerful but highly disciplined. These dragons capable of controlling and unleash devastating flame attacks that scorch entire enemy ranks."}
+		]
+	},
+	
+	// Counter Air Terror
+	{
+		"name": "Roc",
+		"unitType": "Counter Air Terror",
+		"movement": 5,
+		"strength": 30,
+		"cost": 180,
+		"requiredResource": "Mystical Egg",
+		"requiredTech": "Leyline Siphoning",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Gryphon",
+		//"promotions": ["Elemental Immunity"],
+		"uniques": [
+			"Can only be built <in cities with a [Hatchery]> <hidden from users>",
+			//"Beast"
+		],
+		"hurryCostModifier": 15,
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "An enormous, strong bird of prey that it will seize an elephant in its talons and carry him high into the air and drop him so that he is smashed to pieces; having so killed him, the bird swoops down on him and eats him at leisure."}
+		]
+	},
+	{
+		"name": "Gryphon",
+		"unitType": "Counter Air Terror",
+		"movement": 6,
+		"strength": 55,
+		"cost": 360,
+		"hurryCostModifier": 15,
+		"requiredResource": "Mystical Egg",
+		"requiredTech": "Plastics",
+		"obsoleteTech": "Radar",
+		"upgradesTo": "Garuda",
+		//"promotions": ["Elemental Immunity"],
+		"uniques": [
+			"Can only be built <in cities with a [Hatchery]> <hidden from users>",
+			"Unable to capture cities"
+			//"Beast"
+		],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "A legendary creature with the body, tail, and back legs of a lion; the head and wings of an eagle; and sometimes an eagle's talons as its front feet."}
+		]
+	},
+	{
+		"name": "Garuda",
+		"unitType": "Counter Air Terror",
+		"movement": 7,
+		"strength": 85,
+		"cost": 560,
+		"requiredResource": "Mystical Egg",
+		"requiredTech": "Radar",
+		//"promotions": ["Elemental Immunity"],
+		"uniques": ["Unable to capture cities"],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "The king of the birds, with the power to swiftly travel anywhere, ever vigilant and an enemy of every serpent. Sometimes shown in an anthropomorphic form (a man with wings and some ornithic features), but mostly shown in a zoomorphic form."}
+		]
 	},
 	
 	// Naval Melee

@@ -1,1 +1,12 @@
-{"isBaseRuleset":true}
+{
+	"isBaseRuleset": true,
+	"constants": {
+		"maxXPfromBarbarians": 150,
+		"cityStrengthBase": 14,
+		"cityStrengthFromGarrison": 0.3,
+		"riverCountMultiplier": 0.015,
+		"pantheonBase": 20,
+		"pantheonGrowth": 2
+	},
+	"uniques": ["Can trade civilization introductions for [150] Gold"]
+}

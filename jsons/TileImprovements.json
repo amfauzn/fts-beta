@@ -339,6 +339,124 @@
 		]
 	},
 	
+	// Great Person improvements
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 6,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Science] <after discovering [Education]>",
+            "[+2 Science] <after discovering [Plastics]>",
+			"Unbuildable <in [Mountain] tiles>",
+			"Removes removable features when built",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+10 Science, +5 Gold]"
+		],
+		"civilopediaText": [
+			{"text": "An educational complex where new generations are taught the latest discoveries, striving to uncover new truths and push the boundaries of knowledge beyond what was once thought possible."}
+		]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Culture] <after discovering [Architecture]>",
+			"Unbuildable <in [Mountain] tiles>",
+            "Removes removable features when built",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+10 Culture, +5 Gold]"
+		],
+		"civilopediaText": [
+			{"text": "A place of cultural significance, great work of art, or antique structure that draws visitors."}
+		]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Production] <after discovering [Alchemy]>",
+			"Unbuildable <in [Mountain] tiles>",
+            "Removes removable features when built",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+10 Production, +5 Gold]"
+		],
+		"civilopediaText": [
+			{"text": "A plant consisting of one or more buildings in which raw materials are refined and things are built."}
+		]
+	},
+	{
+		"name": "Trade Hub",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Gold] <after discovering [Economics]>",
+			"Unbuildable <in [Mountain] tiles>",
+            "Removes removable features when built",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"civilopediaText": [
+			{"text": "A bustling center of commerce that serves as a key node in vast trade networks. Attracting merchants, artisans, and travelers from distant lands, these hubs facilitate the smooth exchange of goods, currencies, and valuable resources across regions."}
+		]
+	},
+	{
+		"name": "Holy Site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": [
+			"Great Improvement",
+			"Unbuildable <in [Mountain] tiles>",
+			"Removes removable features when built",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+10 Faith, +5 Gold]"
+		],
+		"civilopediaText": [
+			{"text": "A location held sacred as a testament to the Gods, prophets, traditions of a given religion, and as a place of spiritual enlightenment."}
+		]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Gain control over [All] tiles in a [1]-tile radius",
+			"Unbuildable <in [Mountain] tiles>",
+			"Removes removable features when built",
+            "Will not be replaced by automated units"
+		],
+		"civilopediaText": [
+			{"text": "A mighty fortification designed to withstand direct assaults, making it nearly impregnable. These fortifications can endure prolonged sieges, often serving as the last line of defense."}
+		]
+	},
+	{
+		"name": "Sea Fort",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"production": 2,
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [50]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built just outside your borders",
+			"Cannot be built on [resource] tiles",
+			"Gain control over [All] tiles in a [1]-tile radius",
+			"[+1 Production] for each adjacent [Land]",
+			"Removes removable features when built",
+            "Will not be replaced by automated units"
+		],
+		"civilopediaText": [
+			{"text": "A heavily fortified structure built on Coast to defend against naval invasions."}
+		]
+	},
+	
 	// Unbuildable improvements
 	{ 
 		"name": "City ruins",

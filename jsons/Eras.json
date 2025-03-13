@@ -38,7 +38,12 @@
 		"embarkDefense": 10,
 		"startPercent": 15,
 		"citySound": "cityMedieval",
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"civilopediaText": [
+			{
+				"text": "People discover traces of aether—a raw, ancient force embedded in the world’s ley lines and hidden within the earth itself. The sheer potential of aether, hinted in ancient texts and runic carvings, sparks a fevered age of exploration and experiments. Scholar across races dedicate themselves to uncovering and harnessing its power, refining it into mana to perform magic. They see the once-mysterious force as a means to unlock boundless power, yet its true nature remains elusive. But the thirst for knowledge propels society forward, setting the stage for mastery of magic and the reawakening of long-dormant arts."
+			}
+		]
 	},
 	{
 		"name": "Enlightenment Age",
@@ -58,7 +63,12 @@
 		"embarkDefense": 15,
 		"startPercent": 35,
 		"citySound": "cityRenaissance",
-		"iconRGB": [104, 58,183]
+		"iconRGB": [104, 58,183],
+		"civilopediaText": [
+			{
+				"text": "As mana studies flourish, the world enters a period of intellectual and spiritual awakening. Mages and scholars begin to understand the intricate relationships between aether, mana, and spells. Academies arise to teach young minds in the arts of magic, and what was once the privilege of an elite few begins to spread among those with the gift. Summoning rituals are perfected, allowing the summoning of powerful heroes from other worlds to change the course of history."
+			}
+		]
 	},
 	{
 		"name": "Magi-Industry Age",

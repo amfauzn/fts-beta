@@ -63,6 +63,15 @@
 			"Never appears as a Barbarian unit"
 		]
 	},
+	{
+		"name": "Anti-Air",
+		"movementType": "Land",
+		"uniques": [
+			"[+50]% Strength <vs [Flying] units>",
+			"[+33]% Strength <vs [Counter Air Terror] units>",
+			"Never appears as a Barbarian unit"
+		]
+	},
 	
 	// Magic
 	{
@@ -92,8 +101,8 @@
 		"name": "Construct",
 		"movementType": "Land",
 		"uniques": [
-			"[+25]% Strength <when defending>",
-			"Ignores Zone of Control"
+			"Ignores Zone of Control",
+			"Mechanical"
 		]
 	},
 	

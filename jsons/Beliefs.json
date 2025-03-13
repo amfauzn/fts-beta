@@ -1,0 +1,197 @@
+
+[
+	// Pantheon beliefs
+	{
+		"name": "Dance of the Aurora",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from [Tundra] tiles without [Forest] [in this city]",
+			"[+1 Faith, +1 Happiness] from [Aurora] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Sun God",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Desert]"]
+	},
+	{
+		"name": "Ancestor Worship",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Altar]",
+			"[+1 Culture] from every [Altar] <before founding a religion>"
+		]
+	},
+	{
+		"name": "Beast Queen",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Pasture]",
+			"[+1 Culture] from every [Taming]"
+		]
+	},
+	{
+		"name": "Earth Goddess",
+		"type": "Pantheon",
+		"uniques": ["[+5 Faith] from every [Natural Wonder]"]
+	},
+	{
+		"name": "Faith Healers",
+		"type": "Pantheon",
+		"uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+	},
+	{
+		"name": "Fertility Rites",
+		"type": "Pantheon",
+		"uniques": ["[+10]% growth [in this city]"]
+	},
+	{
+		"name": "God-Emperor",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture, +1 Faith, +1 Production, +1 Science, +1 Gold, +1 Happiness] from every [Palace]"]
+	},
+	{
+		"name": "God of Commerce",
+		"type": "Pantheon",
+		"uniques": ["[+2 Science] from each Trade Route"]
+	},
+	{
+		"name": "God of Craftsmen",
+		"type": "Pantheon",
+		"uniques": ["[+1 Production] [in cities following this religion]"]
+	},
+	{
+		"name": "God of the Sea",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production] from every [Fishing Boats]",
+			"[+1 Production] from every [Atoll]"
+		]
+	},
+	{
+		"name": "God of War",
+		"type": "Pantheon",
+		"uniques": ["Earn [67]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+	},
+	{
+		"name": "Goddess of Festivals",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [Incense]",
+			"[+1 Culture, +1 Faith] from every [Spices]",
+			"[+1 Culture, +1 Faith] from every [Wine]"
+		]
+	},
+	{
+		"name": "Goddess of Love",
+		"type": "Pantheon",
+		"uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [4] [Population]>"]
+	},
+	{
+		"name": "Goddess of Protection",
+		"type": "Pantheon",
+		"uniques": ["[+33]% Strength for cities <when attacking>"]
+	},
+	{
+		"name": "Goddess of the Fields",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food] from every [Citrus]",
+			"[+1 Food] from every [Coffee]",
+			"[+1 Food] from every [Sugar]",
+			"[+1 Food] from every [Tea]"
+		]
+	},
+	{
+		"name": "Lord of the Hunt",
+		"type": "Pantheon",
+		"uniques": ["[+1 Food] from every [Camp]"]
+	},
+	{
+		"name": "Monument to the Gods",
+		"type": "Pantheon",
+		"uniques": ["[+25]% Production when constructing [Restoration Age] wonders [in cities following this religion]"]
+	},
+	{
+		"name": "Mystic Rituals",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [Dyes]",
+			"[+1 Culture, +1 Faith] from every [Perfume]",
+			"[+1 Culture, +1 Faith] from every [Salt]",
+			"[+1 Culture, +1 Faith] from every [Silk]"
+		]
+	},
+	{
+		"name": "One with Nature",
+		"type": "Pantheon",
+		"uniques": ["[+1 Faith] from every [Beacon of Power]"]
+	},
+	{
+		"name": "Oral Tradition",
+		"type": "Pantheon",
+		"uniques": ["[+1 Culture] from every [Plantation]"]
+	},
+	{
+		"name": "Religious Idols",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production] from every [Copper]",
+			"[+1 Production] from every [Gold Ore]",
+			"[+1 Production] from every [Marble]",
+			"[+1 Production] from every [Silver]"
+		]
+	},
+	{
+		"name": "Religious Settlements",
+		"type": "Pantheon",
+		"uniques": [
+			"[-15]% Culture cost of natural border growth [in cities following this religion]",
+			"[+15]% Production when constructing [Settler] units [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Sacred Trees",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Jungle]",
+			//"[+1 Culture] from every [Mangrove]",
+			"[+1 Culture] from every [Man-eating tree]"
+		]
+	},
+	{
+		"name": "Sacred Waters",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Happiness] in cities on [River] tiles",
+			"[+1 Happiness] from every [Oasis]"
+		]
+	},
+	{
+		"name": "Sacrificial Rites",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Gold] from every [Furs]",
+			"[+1 Culture, +1 Gold] from every [Ivory]",
+			"[+1 Culture, +1 Gold] from every [Truffles]"
+		]
+	},
+	{
+		"name": "Stone Circles",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [Quarry]"
+		]
+	},
+	{
+		"name": "Tears of the Gods",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [Amber]",
+			"[+1 Culture, +1 Faith] from every [Gems]",
+			"[+1 Culture, +1 Faith] from every [Obsidian]"
+		]
+	},
+	
+	
+]

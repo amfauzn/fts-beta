@@ -125,5 +125,228 @@
 			}
 		]
 	},
-	
+	{
+		"name": "Militarism",
+		"era": "Discovery Age",
+		"uniques": [
+			"Free Social Policy",
+			//"Free [Great General] appears",
+			"[+1 Happiness] [in capital]",
+		],
+		"policies": [
+			{
+				"name": "Honor",
+				"uniques": [
+					"Only available <before adopting [Weaponry]> <before adopting [Wizardry]>",
+					"[+33]% Strength <vs [Barbarian] units>",
+					"[+25]% Production when constructing [Barracks] buildings [in all cities]",
+					"[+25]% Production when constructing [Forge] buildings [in all cities]",
+					"[+25]% Production when constructing [Stirrups] buildings [in all cities]",
+					"[+25]% Production when constructing [Armory] buildings [in all cities]",
+					"Comment [Unlocks [Namari]]"
+					//"Comment [Free adopt: be the first to kill Beast units]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Warrior Code",
+				"uniques": [
+					"Free [Maceman] appears <before discovering [Iron Working]> <hidden from users>",
+					"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <hidden from users>",
+					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Metallurgy]> <hidden from users>",
+					"Free [Etherblader] appears <after discovering [Metallurgy]> <before discovering [Avionic Theory]> <hidden from users>",
+					"Free [Lightsaberman] appears <after discovering [Avionic Theory]> <before discovering [Combined Arms]> <hidden from users>",
+					"Free [TIT Squad] appears <after discovering [Combined Arms]> <hidden from users>",
+					"Free [Horseman] appears <after discovering [Animal Riding]> <before discovering [Chivalry]> <hidden from users>",
+					"Free [Knight] appears <after discovering [Chivalry]> <before discovering [Metallurgy]> <hidden from users>",
+					"Free [Cavalry] appears <after discovering [Military Science]> <before discovering [Pyrokinetic]> <hidden from users>",
+					"Free [Landship] appears <after discovering [Combustion]> <before discovering [Mobile Tactics]> <hidden from users>",
+					"Free [Tank] appears <after discovering [Mobile Tactics]> <hidden from users>",
+					"Free [Spearman] appears <after discovering [Bronze Working]> <before discovering [Civil Service]> <hidden from users>",
+					"Free [Pikeman] appears <after discovering [Civil Service]> <before discovering [Alchemy]> <hidden from users>",
+					"Free [Halberdier] appears <after discovering [Alchemy]> <before discovering [Pyromunition]> <hidden from users>",
+					"Free [Crusher] appears <after discovering [Dynamite]> <before discovering [Bionic Physiology]> <hidden from users>",
+					"Free [Cyborg] appears <after discovering [Bionic Physiology]> <hidden from users>",
+					"Comment [Free strongest available Infantry, Anti-Armor, Mounted unit appears]",
+					//"Comment [Free adopt: be the first to kill Beast units]"
+				],
+				"requires": ["Honor"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Discipline",
+				"uniques": ["[+15]% Strength <for [{Melee} {non-[Mage]}] units> <when adjacent to a [Melee {non-[Mage]}] unit>"],
+				"requires": ["Honor"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Doctrine",
+				"uniques": [
+					"[+15]% Production when constructing [Infantry] units [in all cities]",
+					"[+15]% Production when constructing [Anti-Armor] units [in all cities]",
+					"[+15]% Production when constructing [Mounted] units [in all cities]",
+					"[+2 Happiness] from every [Armory]"
+				],
+				"requires": ["Honor"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Military Tradition",
+				"uniques": [
+					"[+50]% XP gained from combat <for [Military] units>",
+					"Provides [1] [Militarism Card] <hidden from users>"
+				],
+				"requires": ["Warrior Code","Discipline","Doctrine"],
+				"row": 3,
+				"column": 3
+			},
+			
+			{
+				"name": "Weaponry",
+				"uniques": [
+					"Only available <before adopting [Honor]> <before adopting [Wizardry]>",
+					"[+33]% Strength <vs [Barbarian] units>",
+					"Gain a free [Siege Workshop] [in capital]",
+					"[+25]% Production when constructing [Shooting Range] buildings [in all cities]",
+					"[+25]% Production when constructing [Siege Workshop] buildings [in all cities]",
+					"[+25]% Production when constructing [Arsenal] buildings [in all cities]",
+					"Comment [Unlocks [Gerude]]"
+				],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Siege Mastery",
+				"uniques": [
+					"[2] free [Catapult] units appear <after discovering [Mathematics]> <before discovering [Machinery]> <hidden from users>",
+					"[2] free [Trebuchet] units appear <after discovering [Machinery]> <before discovering [Alchemy]> <hidden from users>",
+					"[2] free [Flare] units appear <after discovering [Alchemy]> <before discovering [Advanced Ballistics]> <hidden from users>",
+					"[2] free [Cannon] units appear <after discovering [Advanced Ballistics]> <before discovering [Pyroblasting]> <hidden from users>",
+					"[2] free [Artillery] units appear <after discovering [Pyroblasting]> <hidden from users>",
+					"[2] free [Scorpion] units appear <after discovering [Engineering]> <before discovering [Metallurgy]> <hidden from users>",
+					"[2] free [Ballista] units appear <after discovering [Metallurgy]> <hidden from users>",
+					"Comment [2 free strongest available Siege, Harpoon Siege units appears]",
+					"[+1] additional attacks per turn <for [Ranged Infantry] units> <for [10] turns>",
+					//"Comment [Free adopt: be the first to discover [Engineering]]"
+				],
+				"requires": ["Weaponry"],
+				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Ballistics",
+				"uniques": [
+					//"[Ranged Infantry] units gain the [Indirect Fire] promotion",
+					//"[Siege] units gain the [Indirect Fire] promotion"
+				],
+				"requires": ["Weaponry"],
+				"row": 2,
+				"column": 9
+			},
+			{
+				"name": "Siege Engineers",
+				"uniques": [
+					"[+15]% Production when constructing [Ranged Infantry] units [in all cities]",
+					"[+15]% Production when constructing [Siege] units [in all cities]",
+					"[+15]% Production when constructing [Anti-Air] units [in all cities]",
+					"[+2 Happiness, +1 Production] from every [Arsenal]"
+				],
+				"requires": ["Weaponry"],
+				"row": 2,
+				"column": 11
+			},
+			{
+				"name": "Adaptive Tactics",
+				"uniques": [
+					"[+50]% XP gained from combat <for [Military] units>",
+					"Provides [1] [Militarism Card] <hidden from users>"
+				],
+				"requires": ["Siege Mastery","Ballistics","Siege Engineers"],
+				"row": 3,
+				"column": 9
+			},
+			
+			{
+				"name": "Wizardry",
+				"uniques": [
+					"Only available <before adopting [Honor]> <before adopting [Weaponry]>",
+					"[+33]% Strength <vs [Barbarian] units>",
+					"Provides a [Arcane Spire] in your first [5] cities for free",
+					"[+1 Happiness] [in capital]",
+					"Comment [Unlocks [Lonoyx]]"
+				],
+				"row": 1,
+				"column": 15
+			},
+			{
+				"name": "Potion Making",
+				"uniques": [
+					"[+1 Science] from every [Academy of Magic]",
+					"[+1 Science] from every [Jungle]",
+					"Provides [1] [Healing Leaves] <hidden from users>",
+					"Comment [Unlock active skill [Potent Healing Potion]]",
+					//"Comment [Free adopt: construct Olvaqihr]"
+				],
+				"requires": ["Wizardry"],
+				"row": 2,
+				"column": 13
+			},
+			{
+				"name": "Runic Glyphs",
+				"uniques": [
+					"Double quantity of [Rune Stone] produced",
+					"Double quantity of [Soulstone] produced",
+					"[+50]% Production when constructing [Rune Forge] buildings [in all cities]"
+				],
+				"requires": ["Wizardry"],
+				"row": 2,
+				"column": 15
+			},
+			{
+				"name": "Aeter Cores",
+				"uniques": [
+					"[+25]% Strength <for [Mage] units> <vs [Construct] units>",
+					//"[Construct] units gain the [Aether Core] promotion", exert GG aura?
+					"[+2 Culture] from every [Beacon of Power]"
+				],
+				"requires": ["Wizardry"],
+				"row": 2,
+				"column": 17
+			},
+			{
+				"name": "Spellweaving",
+				"uniques": [
+					"[+25]% XP gained from combat <for [Military] units>",
+					"[+25]% XP gained from combat <for [Mage] units>",
+					"Comment [Unlock active skill [Panacaea]]",
+					"Provides [1] [Militarism Card] <hidden from users>"
+				],
+				"requires": ["Potion Making","Runic Glyphs","Aeter Cores"],
+				"row": 3,
+				"column": 15
+			},
+			
+			{
+				"name": "Professional Army",
+				"uniques": [
+					"Only available <with [Militarism Card]>",
+					"[-33]% Gold cost of upgrading <for [Military] units>",
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
+				],
+				"row": 3,
+				"column": 19
+			},
+			
+			{
+				"name": "Militarism Complete",
+				"uniques": [
+					"[-5]% Culture cost of adopting new Policies"
+				]
+			}
+		]
+	},
 ]

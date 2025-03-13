@@ -1,4 +1,65 @@
 [
+	// Global
+	{
+		"name": "Healing Potion",
+		"uniques": [
+			"[This Unit] heals [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Only available <without [Healing Leaves]> <hidden from users>"
+		],
+		"unitTypes": [
+			"Recon",
+			"Infantry",
+			"Anti-Armor",
+			"Mounted",
+			"Ranged Infantry",
+			"Siege",
+			"Anti-Air",
+			//"Melee Mage",
+			//"Ranged Mage",
+			//"Construct",
+			//"Air Terror",
+			//"Counter Air Terror",
+			"Naval Melee",
+			"Naval Ranged",
+			"Naval Raider",
+			//"Naval Carrier",
+			//"Airship",
+			//"Fighter",
+			//"Bomber",
+		]
+	},
+	{
+		"name": "Potent Healing Potion",
+		"uniques": [
+			"[This Unit] heals [80] HP",
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Only available <with [Healing Leaves]> <hidden from users>",
+			"Comment [Only available after adopting [Potion Making] or after discovering [Pharmaceuticals]]"
+		],
+		"unitTypes": [
+			"Recon",
+			"Infantry",
+			"Anti-Armor",
+			"Mounted",
+			"Ranged Infantry",
+			"Siege",
+			"Anti-Air",
+			//"Melee Mage",
+			//"Ranged Mage",
+			//"Construct",
+			//"Air Terror",
+			//"Counter Air Terror",
+			"Naval Melee",
+			"Naval Ranged",
+			"Naval Raider",
+			//"Naval Carrier",
+			//"Airship",
+			//"Fighter",
+			//"Bomber",
+		]
+	},
+	
 	// Recon
 	{
 		"name": "Ranger",
@@ -145,19 +206,113 @@
 	},
 	
 	// Mounted
-	// Usulan Ace Hank:
-	// Light Cavalry and Heavy Cavalry
+	{
+		"name": "Barding",
+		"prerequisites": ["Shock"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Light Cavalry",
+		"prerequisites": ["Drill"],
+		"uniques": [
+			"Only available <for units without [Heavy Cavalry]>",
+			"[+25]% Strength <vs [Ranged Infantry] units>",
+			"[+25]% Strength <vs [Siege] units>"
+		],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Heavy Cavalry",
+		"prerequisites": ["Drill"],
+		"uniques": [
+			"Only available <for units without [Light Cavalry]>",
+			"[+25]% Strength <vs [Anti-Armor] units>"
+		],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Depredation",
+		"prerequisites": ["Barding","Light Cavalry"],
+		"uniques": [
+			"Only available <for units without [Heavy Cavalry]>",
+			"No movement cost to pillage",
+			"Ignores Zone of Control"
+		],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Escort Mobility",
+		"prerequisites": ["Barding","Light Cavalry"],
+		"uniques": [
+			"Only available <for units without [Heavy Cavalry]>",
+			"[+1] Movement",
+			"Transfer Movement to [Civilian]"
+		],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Double Envelopment",
+		"prerequisites": ["Barding","Light Cavalry"],
+		"uniques": [
+			"Only available <for units without [Heavy Cavalry]>",
+			"[+33]% to Flank Attack bonuses"]
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Charge",
+		"prerequisites": ["Barding","Heavy Cavalry"],
+		"uniques": [
+			"Only available <for units without [Light Cavalry]>",
+			"[+33]% Strength <vs [Wounded] units>"
+		],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Rout",
+		"prerequisites": ["Barding","Heavy Cavalry"],
+		"uniques": [
+			"Only available <for units without [Light Cavalry]>",
+			"[+25]% Strength <vs [Ranged Infantry] units> <when attacking>",
+			"[+25]% Strength <vs [Siege] units> <when attacking>"
+		],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Armor Piercing",
+		"prerequisites": ["Barding","Heavy Cavalry"],
+		"uniques": [
+			"Only available <for units without [Light Cavalry]>",
+			"[+25]% Strength <vs [Mounted] units>"
+		],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Calming Amulet",
+		"prerequisites": ["Depredation","Escort Mobility","Double Envelopment","Charge","Rout","Armor Piercing"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Blitz",
+		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Depredation","Escort Mobility","Double Envelopment","Charge","Rout","Armor Piercing"],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"]
+	},
 	
 	// Ranged Infantry
 	{
 		"name": "Accuracy",
 		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Ranged Infantry","Siege","Ranged Mage"]
+		"unitTypes": ["Ranged Infantry","Siege"]
 	},
 	{
 		"name": "Barrage",
 		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Ranged Infantry","Siege","Ranged Mage"]
+		"unitTypes": ["Ranged Infantry","Siege"]
 	},
 	{
 		"name": "Marksman",

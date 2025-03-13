@@ -20,7 +20,7 @@
 		"aiWonderCostModifier": 1.1,
 		"aiBuildingMaintenanceModifier": 1,
 		"aiUnitMaintenanceModifier": 1,
-		"aiUnitSupplyModifier": 0.1,
+		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
@@ -50,7 +50,7 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 1,
 		"aiUnitMaintenanceModifier": 1,
-		"aiUnitSupplyModifier": 0.2,
+		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
@@ -80,7 +80,7 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.85,
 		"aiUnitMaintenanceModifier": 0.85,
-		"aiUnitSupplyModifier": 0.3,
+		"aiUnitSupplyModifier": 0.1,
 		"aiFreeTechs": ["Pottery"],
 		"aiMajorCivBonusStartingUnits": ["Era Starting Unit"],
 		"aiCityStateBonusStartingUnits": ["Era Starting Unit"],
@@ -110,7 +110,7 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.8,
 		"aiUnitMaintenanceModifier": 0.8,
-		"aiUnitSupplyModifier": 0.3,
+		"aiUnitSupplyModifier": 0.2,
 		"aiFreeTechs": [
 			"Potery",
 			"Domestication"
@@ -146,7 +146,7 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.65,
 		"aiUnitMaintenanceModifier": 0.75,
-		"aiUnitSupplyModifier": 0.4,
+		"aiUnitSupplyModifier": 0.3,
 		"aiFreeTechs": [
 			"Pottery",
 			"Domestication",
@@ -185,7 +185,7 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.5,
 		"aiUnitMaintenanceModifier": 0.65,
-		"aiUnitSupplyModifier": 0.5,
+		"aiUnitSupplyModifier": 0.4,
 		"aiFreeTechs": [
 			"Astrology",
 			"Pottery",

@@ -13,6 +13,23 @@
 		]
 	},
 	{
+		"name": "Buffalo",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Forest","Marsh"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [26] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [22] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [28] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [14] tiles <in [Marsh] tiles>",
+			"Generated on every [30] tiles <in [River] tiles> <in tiles without [Hill]>",
+			//"Generated on every [12] tiles <in [Mangrove] tiles>",
+			"Doesn't generate naturally <in [Tundra] tiles>"
+		]
+	},
+	{
 		"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
@@ -78,22 +95,6 @@
 		]
 	},
 	{
-		"name": "Buffalo",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Forest","Marsh"],
-		"food": 1,
-		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
-		"uniques": [
-			"Generated on every [26] tiles <in [{Featureless} {Grassland}] tiles>",
-			"Generated on every [22] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
-			"Generated on every [28] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
-			"Generated on every [14] tiles <in [Marsh] tiles>",
-			"Generated on every [30] tiles <in [River] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [Tundra] tiles>"
-		]
-	},
-	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
@@ -107,12 +108,15 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes","Coast"],
+		"terrainsCanBeFoundOn": ["Lakes","Coast","Atoll"],
 		"food": 1,
-		//"improvement": "Fishing Boats",
+		"improvement": "Fishing Boats",
 		"uniques": [
 			"Generated on every [10] tiles <in [Lakes] tiles>",
-			"Generated on every [12] tiles <in [Coast] tiles>"
+			"Generated on every [12] tiles <in [Coast] tiles>",
+			"Generated on every [12] tiles <in [Shallow Ocean] tiles>",
+			"Generated on every [12] tiles <in [Mangrove] tiles>",
+			"Generated on every [8] tiles <in [Atoll] tiles>"
 		]
 	},
 	{
@@ -120,7 +124,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Mana Thaumaturgy",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Flood plains"],
-		//"improvement": "Beacon of Power",
+		"improvement": "Beacon of Power",
 		"improvementStats": {
 			"science": 1,
 			"faith": 1
@@ -151,14 +155,38 @@
 			"Cannot be traded",
 			"Excluded from map editor",
 			"Not shown on world screen <without [Aether]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "The raw, unrefined, and infinite source of mana. Mana is the concentrated essence that beings interact with to perform magic. Mana can be found in magical items, harvested from nature or collected from ley lines."
+			}
+		]
+	},
+	{
+		"name": "Fate",
+		"resourceType": "Strategic",
+		"revealedBy": "Celestial Wisdoms",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Not shown on world screen <without [Aether]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "The invisible, omnipresent force that weaves together the destinies of all living beings, events, and realms in the universe. It is often seen as a cosmic blueprint, dictating the course of individual lives, kingdoms, and even the balance of the world itself. Some see it as a divine plan, others as an inescapable force, while a rare few claim to have the power to bend or break its threads."
+			},
+			{
+				"text": "Those who possess the understanding of this force may use it to summon powerful heroes from the other worlds, bending the threads of fate to bring forth champions destined to change the course of history. Summoning a hero is seen as a desperate and bold action, often reserved for times of great crisis when the natural flow of fate seems inadequate to address the threat at hand. The summoner is not simply changing their own destiny, but the destinies of everyone around them."
+			}
 		]
 	},
 	{
 		"name": "Mystical Egg",
 		"resourceType": "Strategic",
-		"revealedBy": "Mana Thaumaturgy",
+		"revealedBy": "Geomancy",
 		"terrainsCanBeFoundOn": [
-			"Snow","Hill","Jungle"
+			"Snow","Hill","Jungle","Aurora"
 		],
 		"production": 1,
 		"improvement": "Taming",
@@ -174,10 +202,16 @@
 			"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles>",
 			"Minor deposits generated with weight [20] <in [{Desert} {Hill}] tiles>",
 			"Minor deposits generated with weight [10] <in [{Tundra} {Hill}] tiles>",
+			"Minor deposits generated with weight [10] <in [Aurora] tiles>",
 			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
 		],
 		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"civilopediaText": [
+			{
+				"text": "A rare, organic magical vessel, carrying and incubating a mystical fetus until it hatches. Taming a mystical creatures from the moment it hatches is an extraordinary feat that few have the skill or courage to achieve."
+			}
+		]
 	},
 	{
 		"name": "Horses",
@@ -257,17 +291,22 @@
 			"Minor deposits generated with weight [30] <in [Jungle] tiles>"
 		],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"civilopediaText": [
+			{
+				"text": "Mana crystal, sometimes with magical runes, that contain stabilized mana. These stones can form naturally in areas of high magical concentration, where ambient mana crystallizes over decades. Alternatively, rune stones can also be created artificially by skilled enchanters, who inscribe specific runes onto raw crystals to direct their magical energies for particular purposes."
+			}
+		]
 	},
 	{
 		"name": "Soulstone",
 		"resourceType": "Strategic",
 		"revealedBy": "Geomancy",
 		"terrainsCanBeFoundOn": [
-			"Hill","Marsh","Permafrost"
+			"Hill","Marsh","Aurora","Permafrost"
 		],
 		"production": 1,
-		"improvedBy": ["Quarry"],
+		"improvement": "Quarry",
 		"improvementStats": {"production": 2},
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -275,7 +314,9 @@
 			"Deposits in [Ocean] tiles always provide [4] resources",
 			"Generated with weight [35] <in [Hill] tiles> <in [Hill] Regions>",
 			"Generated with weight [10] <in [Marsh] tiles>",
+			"Generated with weight [5] <in [Aurora] tiles>",
 			"Generated with weight [30] <in [Permafrost] tiles>",
+			"Generated with weight [30] <in [Mangrove] tiles>",
 			"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles>",
 			"Minor deposits generated with weight [15] <in [{Plains} {Hill}] tiles>",
 			"Minor deposits generated with weight [15] <in [{Desert} {Hill}] tiles>",
@@ -283,7 +324,12 @@
 			//"Minor deposits generated with weight [15] <in [{Featureless} {Snow}] tiles>",
 		],
 		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3},
+		"civilopediaText": [
+			{
+				"text": "A powerful magical artifact, created by the essence of a soul or spirit trapped inside a crystalline vessel via a magical occurences. The soulstone acts as both the power source and the consciousness of the constructs, animating the stone or metal body it resides in."
+			}
+		]
 	},
 	
 	// Luxury resources
@@ -837,6 +883,26 @@
 			"Cannot be traded", 
 			"Excluded from map editor", 
 			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Mechanism
+	{
+		"name": "Healing Leaves",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Militarism Card",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor"
 		]
 	},
 ]

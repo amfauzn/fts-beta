@@ -35,4 +35,140 @@
 		"color": "#cf8ff7",
 		"excludedDifficulties": ["Immortal","Deity","Omnipotence"]
 	},
+	
+	// Gold
+	{
+		"name": "small amount of gold",
+		"notification": "small amount of gold buried underground! (+50 gold)",
+		"uniques": ["Gain [50] [Gold]"],
+		"weight": 9,
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "a pocket of gold",
+		"notification": "a pocket of gold buried underground! (+100 gold)",
+		"uniques": ["Gain [100] [Gold]"],
+		"weight": 9,
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "a stash of gold",
+		"notification": "We have found a stash of [goldAmount] Gold in the dungeons!",
+		"uniques": ["Gain [150]-[250] [Gold] <(modified by game speed)>"],
+		"weight": 8,
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "a treasure chest",
+		"notification": "We have found [goldAmount] Gold in the treasure chest we've secured!",
+		"uniques": [
+			"Gain [300]-[500] [Gold] <(modified by game speed)>",
+			"Only available <after turn number [60]>"
+		],
+		"weight": 6,
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "hit a jackpot",
+		"notification": "Jackpot! (+1000 gold)",
+		"uniques": [
+			"Gain [1000] [Gold]",
+			"Only available <after turn number [100]>"
+		],
+		"weight": 4,
+		"color": "#ffeb7f",
+		"excludedDifficulties": ["Deity","Omnipotence"]
+	},
+	
+	// Science
+	{
+		"name": "discover a lost technology",
+		"notification": "We have discovered the lost technology of [techName] in the dungeons!",
+		"uniques": [
+			"[1] free random researchable Tech(s) from the [Restoration Age]",
+			"Only available <before the [Discovery Age]>"
+		],
+		"weight": 9,
+		"color": "#7f7fff"
+	},
+	{
+		"name": "discover a portion of technology",
+		"notification": "Captured old man taught us a vague knowledge! (+[scienceAmount] science)",
+		"uniques": ["Gain [50] [Science] <(modified by game speed)>"],
+		"weight": 8,
+		"color": "#7f7fff"
+	},
+	{
+		"name": "discover a research note",
+		"notification": "We have discovered an Inventor's research note! (+[scienceAmount] science)",
+		"uniques": [
+			"Gain [80]-[100] [Science] <(modified by game speed)>",
+			"Only available <after turn number [50]>"
+		],
+		"weight": 7,
+		"color": "#7f7fff"
+	},
+	{
+		"name": "stolen technology",
+		"notification": "We are succesfully take control of the stolen technology! (+[scienceAmount] science)",
+		"uniques": [
+			"Gain [100]-[150] [Science]",
+			"Only available <after turn number [100]>"
+		],
+		"weight": 5,
+		"color": "#7f7fff",
+		"excludedDifficulties": ["Deity","Omnipotence"]
+	},
+	
+	// Faith
+	{
+		"name": "discover holy symbols",
+		"notification": "Signs of a long forgotten God founded in the dungeons, giving us a deeper understanding of His existence! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain enough Faith for a Pantheon",
+			"Only available <when religion is enabled>",
+			"Only available <before founding a Pantheon>",
+			"Only available <after turn number [20]>"
+		],
+		"weight": 9,
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "an ancient prophecy",
+		"notification": "We have found an ancient prophecy in the dungeons, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain enough Faith for [33]% of a Great Prophet",
+			"Only available <when religion is enabled>",
+			"Only available <after founding a Pantheon>",
+			"Unavailable <after generating a Great Prophet>",
+			"Only available <after turn number [20]>"
+		],
+		"weight": 9,
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "a praying priest",
+		"notification": "A dying priest pray for you! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain [100]-[200] [Faith] <(modified by game speed)>",
+			"Only available <when religion is enabled>",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [40]>"
+		],
+		"weight": 7,
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "a wandering oracle",
+		"notification": "An oracle foresee your future and gave you some pointers! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain [200]-[300] [Faith] <(modified by game speed)>",
+			"Only available <when religion is enabled>",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [60]>"
+		],
+		"weight": 5,
+		"color": "#CDDDF4",
+		"excludedDifficulties": ["Deity","Omnipotence"]
+	},
 ]
