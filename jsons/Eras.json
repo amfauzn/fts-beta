@@ -56,9 +56,11 @@
 		"startingCulture": 200,
 		"settlerPopulation": 3,
 		"settlerBuildings": [
-			"Monument","Altar","Granary"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
 		],
-		"startingObsoleteWonders": [],
+		"startingObsoleteWonders": [
+			"Zillanatu","Aknamuki","Gerude"
+		],
 		"baseUnitBuyCost": 300,
 		"embarkDefense": 15,
 		"startPercent": 35,
@@ -81,9 +83,11 @@
 		"startingCulture": 300,
 		"settlerPopulation": 4,
 		"settlerBuildings": [
-			"Monument","Altar","Granary"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
 		],
-		"startingObsoleteWonders": [],
+		"startingObsoleteWonders": [
+			"Zillanatu","Aknamuki","Gerude"
+		],
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 20,
 		"startPercent": 50,
@@ -91,6 +95,11 @@
 		"iconRGB": [ 63, 81,182],
 		"uniques": [
 			"Every major Civilization gains a spy once a civilization enters this era"
+		],
+		"civilopediaText": [
+			{
+				"text": "Artificers and magi-engineers develop standardized magical tools and mastered the forging of rune stones—stabilized mana crystals. Once limited to natural formations, rune stones can now be crafted, igniting a technological revolution. Cities are illuminated by glowing mana-powered towers, and rune-enhanced machinery transforms industry and agriculture. Society flourishes as these magical creations improve daily life, yet tensions rise with emerging power imbalances. Armies march with enchanted weaponry, fueling an ever-growing demand for rune stones."
+			}
 		]
 	},
 	{
@@ -104,9 +113,11 @@
 		"startingCulture": 400,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
 		],
-		"startingObsoleteWonders": [],
+		"startingObsoleteWonders": [
+			"Zillanatu","Aknamuki","Gerude"
+		],
 		"baseUnitBuyCost": 500,
 		"embarkDefense": 25,
 		"startPercent": 65,
@@ -131,9 +142,11 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
 		],
-		"startingObsoleteWonders": [],
+		"startingObsoleteWonders": [
+			"Zillanatu","Aknamuki","Gerude"
+		],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 30,
 		"startPercent": 80,
@@ -158,9 +171,11 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
 		],
-		"startingObsoleteWonders": [],
+		"startingObsoleteWonders": [
+			"Zillanatu","Aknamuki","Gerude"
+		],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 35,
 		"startPercent": 85,

@@ -9,7 +9,11 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+			"Requires at least [2] population",
+			"Biological"
+		],
+		"civilopediaText": [
+			{"text": "A person who moves and settles in a new area in the hope of finding better life for themselves and their children."}
 		]
 	},
 	{
@@ -20,7 +24,8 @@
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"Can instantly construct a [Fishing Boatsr] improvement <by consuming this unit> <in [Lakes] tiles>",
-			"Automation is a primary action"
+			"Automation is a primary action",
+			"Biological"
 		]
 	},
 	{
@@ -34,6 +39,9 @@
 			"May create improvements on water resources",
 			"Automation is a primary action",
 			"Uncapturable"
+		],
+		"civilopediaText": [
+			{"text": "A vessel designed to perform useful tasks at sea and ocean."}
 		]
 	},
 	
@@ -46,9 +54,12 @@
 		"cost": 30,
 		"obsoleteTech": "Poetry",
 		"upgradesTo": "Skirmisher",
-		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"promotions": ["[Scout] ability"],
 		"uniques": ["May upgrade to [Crossbowman] through ruins-like effects"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "The eyes and ears of early civilizations. These unit is supposed to find the lay of the land, discovering any potential threats or treasures."}
+		]
 	},
 	{
 		"name": "Skirmisher",
@@ -59,12 +70,15 @@
 		"requiredTech": "Poetry",
 		"obsoleteTech": "Acoustics",
 		"upgradesTo": "Pathfinder",
-		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"promotions": ["[Scout] ability"],
 		"uniques": [
 			"May upgrade to [Arbalester] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A person who engage in skirmishes between small group of soldier or scout, sometimes before the battle between soldier occurred."}
+		]
 	},
 	{
 		"name": "Pathfinder",
@@ -77,7 +91,7 @@
 		"requiredTech": "Acoustics",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Wanderer",
-		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"promotions": ["[Scout] ability"],
 		"uniques": [
 			"Can see invisible [Land] units",
 			"May upgrade to [Stand Shafter] through ruins-like effects",
@@ -96,16 +110,19 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 375,
-		"requiredResource": "Rune Stone",
+//		"requiredResource": "Rune Stone",
 		"requiredTech": "Plastics",
-		//"promotions": ["[Scout] ability"], the ignore terrain cost
+		"promotions": ["[Scout] ability"],
 		"uniques": [
 			"Invisible to non-adjacent units",
 			"Can see invisible [Land] units",
 			"No movement cost to pillage",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "crossbow"
+		"attackSound": "crossbow",
+		"civilopediaText": [
+			{"text": "An expert in pathfinding, these unit is adept at hiding and camouflage, blending with the surrounding to surprise the enemy."}
+		]
 	},
 	
 	// Infantry
@@ -183,7 +200,7 @@
 		"requiredTech": "Aquanautics",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "TIT Squad",
-		//"promotions": ["Amphibious"],
+		"promotions": ["Amphibious"],
 		"uniques": [
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
@@ -523,7 +540,6 @@
 		"requiredTech": "Alchemy",
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Cannon",
-		//"promotions": ["Indirect Fire"],
 		"uniques": [
 			"Must set up to ranged attack",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
@@ -602,6 +618,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Military Engineering",
 		"obsoleteTech": "Pyromunition",
+		"upgradesTo": "Boltspewer",
 		//"promotions": ["Barrage"], maybe rasah
 		"uniques": [
 			"Must set up to ranged attack",
@@ -617,6 +634,47 @@
 			{"text": "An advanced version of scorpion, constructed from wood reinforced with heavy iron plates. These weapon is surprisingly accurate accurate in the hands of trained operators."}
 		]
 	},
+	{
+		"name": "Boltspewer",
+		"unitType": "Anti-Air",
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 2,
+		"cost": 350,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Pyromunition",
+		"obsoleteTech": "Mobile Tactics",
+		"upgradesTo": "Mobile Thunder",
+		"uniques": [
+			"[+25]% Strength <vs [Flying] units> <when attacking>",
+			"[+150]% Strength <vs [Air] units>",
+			"[75]% chance to intercept air attacks",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": "These tube-like weapons fire shells up into the air. Upon reaching a pre-set altitude, the shells explode, releasing a mana-infused blast and deadly shrapnel to target nearby aerial units."}
+		]
+	},
+	{
+		"name": "Mobile Thunder",
+		"unitType": "Anti-Air",
+		"movement": 3,
+		"strength": 70,
+		"interceptRange": 2,
+		"cost": 475,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+			"[+25]% Strength <vs [Flying] units> <when attacking>",
+			"[+150]% Strength <vs [Air] units>",
+			"[100]% chance to intercept air attacks"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
 	
 	// Melee Mage
 	{
@@ -630,6 +688,7 @@
 		"requiredTech": "Geomancy",
 		"obsoleteTech": "Mana Crystallization",
 		"upgradesTo": "Cleric",
+		"promotions": ["Elemental Manipulation"],
 		"uniques": [
 			"Cannot attack",
 			"Comment [Heals allied units around it by 5 HP at the end of each turn]",
@@ -648,6 +707,7 @@
 		"requiredTech": "Mana Crystallization",
 		"obsoleteTech": "Biology",
 		"upgradesTo": "Paladin",
+		"promotions": ["Elemental Manipulation"],
 		"uniques": [
 			"Comment [Heals allied units around it by 5 HP at the end of each turn]",
 			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>"
@@ -665,6 +725,7 @@
 		"requiredTech": "Biology",
 		"obsoleteTech": "Empowerment",
 		"upgradesTo": "Templar",
+		"promotions": ["Elemental Manipulation"],
 		"uniques": [
 			"[+1] Sight"
 			"Comment [Heals allied units around it by 5 HP at the end of each turn]",
@@ -680,8 +741,9 @@
 		"cost": 500,
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Empowerment",
+		"promotions": ["Elemental Manipulation"],
 		"uniques": [
-			"[+1] Sight"
+			"[+1] Sight",
 			"Comment [Heals allied units around it by 5 HP at the end of each turn]"
 		],
 		"attackSound": "whoosh"
@@ -701,6 +763,7 @@
 		"requiredTech": "Mana Attunement",
 		"obsoleteTech": "Spellbook Codification",
 		"upgradesTo": "Wizard",
+		"promotions": ["Elemental Manipulation"],
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh"
 	},
@@ -716,6 +779,7 @@
 		"requiredTech": "Spellbook Codification",
 		"obsoleteTech": "Magic Negation",
 		"upgradesTo": "Arch-Wizard",
+		"promotions": ["Elemental Manipulation"],
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh"
 	},
@@ -730,12 +794,13 @@
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Magic Negation",
 		"obsoleteTech": "Pyroblasting",
-		"upgradesTo": "Sage",
+		"upgradesTo": "Grand Magus",
+		"promotions": ["Elemental Manipulation"],
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh"
 	},
 	{
-		"name": "Sage",
+		"name": "Grand Magus",
 		"unitType": "Ranged Mage",
 		"movement": 2,
 		"strength": 57,
@@ -744,8 +809,8 @@
 		"cost": 500,
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Pyroblasting",
-		//"promotions": ["Owl's Eye"],
-		"uniques": ["[+10]% Strength <vs [{Person} {Melee}] units> <when defending>"],
+		"promotions": ["Elemental Manipulation"],
+		"uniques": ["[+10]% Strength <vs [{Biological} {Melee}] units> <when defending>"],
 		"attackSound": "whoosh"
 	},
 	
@@ -844,7 +909,7 @@
 		"strength": 30,
 		"cost": 180,
 		"hurryCostModifier": 15,
-		"requiredResource": "Mystical Egg",
+		"requiredResource": "Mythical Egg",
 		"requiredTech": "Celestial Wisdoms",
 		"obsoleteTech": "Quintessence Powers",
 		"upgradesTo": "Dragon Knight",
@@ -864,7 +929,7 @@
 		"range": 1,
 		"cost": 360,
 		"hurryCostModifier": 15,
-		"requiredResource": "Mystical Egg",
+		"requiredResource": "Mythical Egg",
 		"requiredTech": "Quintessence Powers",
 		"obsoleteTech": "Stealth",
 		"upgradesTo": "Dragon Paladin",
@@ -885,7 +950,7 @@
 		"strength": 80,
 		"rangedStrength": 80,
 		"cost": 560,
-		"requiredResource": "Mystical Egg",
+		"requiredResource": "Mythical Egg",
 		"requiredTech": "Stealth",
 		//"promotions": ["Elemental Immunity"],
 		"uniques": [
@@ -905,7 +970,7 @@
 		"movement": 5,
 		"strength": 30,
 		"cost": 180,
-		"requiredResource": "Mystical Egg",
+		"requiredResource": "Mythical Egg",
 		"requiredTech": "Leyline Siphoning",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Gryphon",
@@ -927,7 +992,7 @@
 		"strength": 55,
 		"cost": 360,
 		"hurryCostModifier": 15,
-		"requiredResource": "Mystical Egg",
+		"requiredResource": "Mythical Egg",
 		"requiredTech": "Plastics",
 		"obsoleteTech": "Radar",
 		"upgradesTo": "Garuda",
@@ -948,7 +1013,7 @@
 		"movement": 7,
 		"strength": 85,
 		"cost": 560,
-		"requiredResource": "Mystical Egg",
+		"requiredResource": "Mythical Egg",
 		"requiredTech": "Radar",
 		//"promotions": ["Elemental Immunity"],
 		"uniques": ["Unable to capture cities"],
@@ -1082,5 +1147,385 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shipguns"
+	},
+	
+	// Naval Raider
+	{
+		"name": "Sea Beggar",
+		"unitType": "Naval Raider",
+		"movement": 5,
+		"strength": 38,
+		"cost": 220,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Aquanautics",
+		"upgradesTo": "Privateer",
+		"uniques": ["Can only be built <in cities with a [Shipyard]> <hidden from users>"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Privateer",
+		"unitType": "Naval Raider",
+		"movement": 5,
+		"strength": 50,
+		"rangedStrength": 55,
+		"range": 1,
+		"cost": 360,
+		"hurryCostModifier": 10,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Aquanautics",
+		"obsoleteTech": "Submersibles",
+		"upgradesTo": "Submarine",
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"Invisible to non-adjacent units",
+			"Can only attack [Water] tiles",
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>"
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Submarine",
+		"unitType": "Naval Raider",
+		"movement": 6,
+		"strength": 60,
+		"rangedStrength": 80,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Submersibles",
+		"uniques": [
+			"[+75]% Strength <when attacking>",
+			"Invisible to non-adjacent units",
+			"Can only attack [Water] tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo"
+	},
+	
+	// Carrier
+	{
+		"name": "Carrier",
+		"unitType": "Naval Carrier",
+		"movement": 5,
+		"strength": 50,
+		"cost": 325,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Cannot attack",
+			"Can carry [2] [Aircraft] units"
+		],
+		"civilopediaText": [
+			{"text": "Act as floating airfields, these vessels carrying fighters far from friendly territory to be launched against enemy targets."}
+		]
+	},
+	
+	// Monk
+	{
+		"name": "Siaxiplw",
+		"unitType": "Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Adept",
+		"uniques": [
+			"Can only be built <with [Postulant Card]>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A dedicated student of martial and spiritual teachings, seeking enlightenment through rigorous training under the guidance of a Master."}
+		]
+	},
+	{
+		"name": "Adept",
+		"unitType": "Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		//"obsoleteTech": "Empowerment",
+		"upgradesTo": "Master",
+		"uniques": [
+			"Can only be built <with [Postulant Card]>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A devout monastic warriors, trained in both martial arts and spiritual discipline. These monks often protecting temples, villages, and sacred relics."}
+		]
+	},
+	{
+		"name": "Master",
+		"unitType": "Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <after adopting [Mysticism Complete]>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "The pinnacle of monastic warriors, representing centuries of refined combat techniques and philosophical discipline. Emphasizes harmony between body and mind, their training often includes meditation, acrobatics, and the use of traditional weapons."}
+		]
+	},
+	
+	
+	// Great People
+	{
+		"name": "Great Scholar",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Can hurry technology research",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
+			"Great Person - [Science]",
+			"Is part of Great Person group [Economy]"
+		],
+		"civilopediaText": [
+			{"text": "Brilliant scholars, and often an inventors, who figure out how the world works. They make a civilization smarter and invent the future."}
+		]
+	},
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			"Great Person - [Culture]",
+			"Is part of Great Person group [Economy]"
+		],
+		"civilopediaText": [
+			{"text": "Visionary people, they interpret the world, bringing beauty, aesthetics, convenience feeling and form where none may have been found before."}
+		]
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Can speed up construction of a building",
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+			"Great Person - [Production]",
+			"Is part of Great Person group [Economy]"
+		],
+		"civilopediaText": [
+			{"text": "Industrious engineers who get things done, they hasten urban project and improve the live those around them."}
+		]
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Trade Hub] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Is part of Great Person group [Economy]"
+		],
+		"civilopediaText": [
+			{"text": "Excellent merchants, they create a civilization's wealth by providing the goods and services needed by a civilizations."}
+		]
+	},
+	{
+		"name": "Great Sage",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Instantly gain [1000] [Aether] <by consuming this unit>",
+			"Can instantly construct a [Sage Tower] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Is part of Great Person group [Wisdom]"
+		],
+		"civilopediaText": [
+			{"text": "A renowned figure for unparalleled wisdom and insight into the deepest mysteries of the world. They are revered as guides, bridging the gap between mortals and the divine."}
+		]
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Uncapturable",
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"Can instantly construct a [Holy Site] improvement <by consuming this unit>",
+			"Great Person - [Faith]",
+			//"Is part of Great Person group [Spiritual]",
+			"[-1] Sight",
+			"Takes your religion over the one in their birth city"
+		],
+		"civilopediaText": [
+			{"text": "Wise spiritualists, and often become motivational speakers, who conveys their unique insights to guide the moral and ethical decisions of their follower."}
+		]
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Is part of Great Person group [Military]"
+		],
+		"civilopediaText": [
+			{"text": "Tactical minded warriors, often the best one at that, who could read the flow of battle and plan the strategies based on the situation their troops faced."}
+		]
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"[+20]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"All adjacent units heal [+10] HP when healing",
+			"Can instantly construct a [Sea Fort] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Is part of Great Person group [Military]"
+		],
+		"civilopediaText": [
+			{"text": "Tactical minded sea captains, they provide the leadership necessary to guide powerful navies to victory on the open sea."}
+		]
+	},
+	{
+		"name": "Zhexue",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Uncapturable",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"Gain [200] [Faith] <by consuming this unit> <(modified by game speed)>",
+			"Can instantly construct a [Holy Site] improvement <by consuming this unit>",
+			"Great Person - [Faith]",
+			//"Is part of Great Person group [Spiritual]",
+		],
+		"civilopediaText": [
+			{"text": "Leader of Zilla, and is credited with founding the philosophy of yin and yang and five elements."}
+		]
+	},
+	
+	
+	// Animate Earth
+	{
+		"name": "Construct Maceman",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 10,
+		"upgradesTo": "Construct Swordsman",
+		"obsoleteTech": "Iron Working",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Construct Swordsman",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 20,
+		"requiredResource": "Iron",
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Construct Longswordsman",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Construct Longswordsman",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 30,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Construct Etherblader",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Construct Etherblader",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 44,
+		"requiredResource": "Iron",
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Avionic Theory",
+		"upgradesTo": "Construct Lightsaberman",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Construct Lightsaberman",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 60,
+		"cost": 375,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Avionic Theory",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Construct TIT Squad",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Construct TIT Squad",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 80,
+		"requiredTech": "Combined Arms",
+		//"promotions": ["Shock"],
+		"uniques": [
+			"[+10]% Strength <vs [Cyborg] units> <when attacking>",
+			"May Paradrop up to [8] tiles from inside friendly territory",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "shot"
 	},
 ]

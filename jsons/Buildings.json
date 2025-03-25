@@ -1,4 +1,37 @@
 [
+	//TEMPLATE
+	/*
+	{
+		"name": "",
+		"isWonder": ,
+		"isNationalWonder": ,
+		"requiredBuilding": "",
+		"requiredResource": "",
+		"requiredNearbyImprovedResources": [""],
+		"culture": ,
+		"science": ,
+		"faith": ,
+		"food": ,
+		"gold": ,
+		"production": ,
+		"percentStatBonus": {"": },
+		"cityStrength": ,
+		"cityHealth": ,
+		"cost": ,
+		"hurryCostModifier": ,
+		"maintenance": ,
+		"greatPersonPoints": {"": },
+		"specialistSlots": {"": },
+		"uniques": [""],
+		"requiredTech": "",
+		"quote": "",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	*/
+	
+	
 	// Always Available
 	{
 		"name": "Palace",
@@ -70,6 +103,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [Shallow Ocean] tiles [in this city]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Fish] tiles [in this city]"
 		],
@@ -482,6 +516,19 @@
 	},
 	
 	{
+		"name": "Academy of Magic",
+		"requiredResource": "Rune Stone",
+		"science": 1,
+		"uniques": [
+			"Costs [30] [Aether]",
+			//"All newly-trained [{Biological} {non-[Mage]}] units [in this city] receive the [Mana Sensing] promotion",
+			// Mana Sensing allows them to inflict basic status ailments?
+			"All newly-trained [Mage] units [in this city] receive the [Elemental Mastery] promotion",
+			"NatW preq"
+		],
+		"requiredTech": "Mana Crystallization"
+	},
+	{
 		"name": "Mystic Crucible",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -529,6 +576,19 @@
 		"requiredTech": "Acoustics"
 	},
 	{
+		"name": "Censer Maker",
+		"requiredNearbyImprovedResources": ["Incense","Perfume"],
+		"culture": 2,
+		"cost": 100,
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Culture] from [Incense] tiles [in this city]",
+			"[+1 Culture] from [Perfume] tiles [in this city]"
+		],
+		"requiredTech": "Acoustics"
+	},
+	{
 		"name": "Heroic Epic",
 		"isNationalWonder": true,
 		"culture": 6,
@@ -539,6 +599,30 @@
 			"Cost increases by [25] per owned city"
 		],
 		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "Centre of Arcane",
+		"requiredNearbyImprovedResources": ["Ley Line"],
+		"hurryCostModifier": 10,
+		"maintenance": 0,
+		"uniques": [
+			"[+1 Culture] from [Ley Line] tiles [in this city]",
+			"[+1 Culture] from [Artificial Ley Line] tiles [in this city]"
+		],
+		"requiredTech": "Spellbook Codification"
+	},
+	{
+		"name": "Warding Tower",
+		//"cityStrength": 5,
+		"cityHealth": 10,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Cannot be purchased",
+			"Costs [10] [Aether]",
+			//"Free [Watcher] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Spellbook Codification"
 	},
 	{
 		"name": "Armory",
@@ -621,6 +705,23 @@
 		"requiredTech": "Printing"
 	},
 	{
+		"name": "Warteg",
+		"requiredNearbyImprovedResources": ["Salt","Spices","Truffles"],
+		"happiness": 1,
+		"food": 1,
+		"cost": 100,
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Food] from [Salt] tiles [in this city]",
+			"[+1 Food] from [Spices] tiles [in this city]",
+			"[+1 Food] from [Truffles] tiles [in this city]"
+		],
+		"requiredTech": "Printing",
+		"civilopediaText": [
+			{"text": "Warung Tegal, a gastronomic business that provides food and drinks, targeting the lower-middle class."}
+		]
+	},{
 		"name": "Crystalloom Refinery (Soulstone)",
 		"cost": 300,
 		//"production": 1,
@@ -668,6 +769,16 @@
 		"hurryCostModifier": 0,
 		"maintenance": 3,
 		//"specialistSlots": {"Engineer": 1},
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Leyline Nexus",
+		"cost": 200,
+		"maintenance": 1,
+		"uniques": [
+			"Cannot be purchased", 
+			"Creates a [Artificial Ley Line] improvement on a specific tile"
+		],
 		"requiredTech": "Industrialization"
 	},
 	{
@@ -762,10 +873,26 @@
 		"requiredTech": "Plastics"
 	},
 	{
+		"name": "Magic Barrier",
+		"requiredBuilding": "Warding Tower",
+		//"cityStrength": 5,
+		"cityHealth": 10,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Cannot be purchased",
+			"Instantly consumes [2] [Aether] <upon turn end>",
+			"[+33]% Strength for cities <in this city> <when defending> <vs [Mage] units>",
+			// Maybe also vs Nuke?
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Magic Negation"
+	},
+	{
 		"name": "Shelter",
 		"cost": 300,
 		"maintenance": 1,
 		"uniques": [
+			"Only available <when nuclear weapons are enabled>",
 			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]"
 		],
@@ -788,5 +915,151 @@
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["[20]% Food is carried over after population increases [in this city]"]
+	},
+	
+	// World Wonder
+	
+	// Restoration Age
+	{
+		"name": "Zillanatu", // of Zilla
+		"isWonder": true,
+		"faith": 2,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Free [Zhexue] appears",
+			"[+5 Culture] <when religion is disabled>"
+		],
+		"requiredTech": "Astrology",
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Aknamuki", // of Panema
+		"isWonder": true,
+		"food": 1,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Must have an owned [Marsh] within [3] tiles",
+			"[+1 Food, +2 Science, +2 Production] from [Marsh] tiles [in this city]",
+			"[+1 Food, +1 Science, +1 Production] from [Marsh] tiles [in this city] <after discovering [Education]>",
+			"[+1 Gold] from [Dyes] tiles [in this city]",
+			"[+1 Gold] from [Spices] tiles [in this city]",
+			"[+1 Gold] from [Sugar] tiles [in this city]",
+			"[+1 Gold] from [Truffles] tiles [in this city]"
+		],
+		"requiredTech": "Pottery",
+		"quote": "'I rose from marsh mud, algae, equisetum, willows, sweet green, noisy birds and frogs' ― Lorine Niedecker"
+	},
+	{
+		"name": "Gerude", // of Landoruel
+		"isWonder": true,
+		"culture": 1,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Only available <after adopting [Weaponry]> <hidden from users>",
+			"[+15]% Production when constructing [Ranged Infantry] units [in all cities]",
+			"[+33]% Production when constructing [Shooting Range] buildings [in all cities]",
+			"Gain a free [Shooting Range] [in this city]",
+		],
+		"requiredTech": "Archery",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.'  - Robert Louis Stevenson"
+	},
+	
+	{
+		"name": "Stastiada", // of Arxia
+		"isWonder": true,
+		"culture": 1,
+		//"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			"Must be next to [Coast]",
+			"Gain a free [Lighthouse] [in this city]",
+			"[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>"
+		],
+		"requiredTech": "Sailing",
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+    },
+	{
+		"name": "Sukamerta", // of Niranna
+		"isWonder": true,
+		"science": 2,
+		//"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+			"Gain [175] [Science] <(modified by game speed)>",
+			"Gain a free [Paper Maker] [in this city]",
+			//"Provides [1] [Book of Year 0 - Chapter Elves]",
+		],
+		"requiredTech": "Paper Making",
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{
+		"name": "Dai Palgum", // of Louvargia
+		"isWonder": true,
+		"production": 2,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Must be on [River]",
+			"Gain a free [Water Mill] [in this city]",
+			"[+1 Gold, +1 Faith] from [River] tiles [in this city]"
+		],
+		"requiredTech": "The Wheel",
+		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'"
+	},
+	{
+		"name": "Dwuiltunad", // of Dunfirr
+		"isWonder": true,
+		"culture": 1,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Only available <after adopting [Consolidation]>",
+			"[-25]% construction time for [All] improvements",
+			"[2] free [Worker] units appear"
+		],
+		"requiredTech": "Masonry",
+		"quote": "'You don’t know how precious it is to be naive and innocent. I only want to protect you, so you can sing and be free like the golden bird you were born to be.' - Rachel Hartman, Tess of the Road"
+	},
+	{
+		"name": "Brahula", // of Gahaldur
+		"isWonder": true,
+		"culture": 1,
+		//"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Gold] from [Marble] tiles [in this city]",
+			"[+2 Gold] from [Obsidian] tiles [in this city]",
+			"[+2 Gold] from [Stone] tiles [in this city]",
+		],
+		"requiredTech": "Bronze Working",
+		"quote": "'O, let not the pains of death which come upon thee enter into my body.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+	},
+	
+	// Rediscovery Age
+	{
+		"name": "Olvaqihr", // of Windemer
+		"isWonder": true,
+		"culture": 1,
+		//"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			//"[+25]% Production when constructing [Melee Mage] units [in this city]",
+			//"[+25]% Production when constructing [Ranged Mage] units [in this city]",
+			"Gain a free [Arcane Spire] [in this city]",
+			//"[3] free [Priest] units appear",
+			// atau mage akses elemental mastery lebih awal?
+		],
+		"requiredTech": "Mana Thaumaturgy",
+		"quote": "'They had discovered one could grow as hungry for light as for food.' - Stephen King, The Gunslinger"
+	},
+	{
+		"name": "Tugu Akai", // of Artiza
+		"isWonder": true,
+		"food": 3,
+		//"greatPersonPoints": {"Great Artist": 1},
+		"uniques": [
+			"Only available <after adopting [Tradition]>",
+			"[+1 Food] from [Farm] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>",
+			"[+2 Food] from [Plantation] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>",
+			"Comment [[Farm] and [Plantation] next to this city each provide +1 and +2 [Food]]"
+		],
+		"requiredTech": "Construction",
+		"quote": "'She viewed ethnic cleansing, famine and genocide as direct threats to her furniture' - Arundhati Roy, The God of Small Things"
 	},
 ]

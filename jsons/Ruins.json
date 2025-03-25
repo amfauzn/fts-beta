@@ -171,4 +171,63 @@
 		"color": "#CDDDF4",
 		"excludedDifficulties": ["Deity","Omnipotence"]
 	},
+	
+	// Population
+	{
+		"name": "survivors (adds population to a city)",
+		"notification": "We have found survivors in the dungeons! Population added to [cityName].",
+		"uniques": ["[+1] population in a random city"],
+		"weight": 9,
+		"color": "#81c784"
+	},
+	{
+		"name": "accepted immigrants (adds 3 population to a city)",
+		"notification": "We have saved a migrating family trapped in the sudden appearances of a dungeons! Population added to [city Name].",
+		"uniques": [
+			"[+3] population [in capital]",
+			"Only available <after turn number [50]>"
+		],
+		"weight": 7,
+		"color": "#81c784",
+		"excludedDifficulties": ["Immortal","Deity","Omnipotence"]
+	},
+	
+	// Native
+	{
+		"name": "squatters willing to work for you",
+		"notification": "A [Worker] has joined us!",
+		"uniques": ["Free [Worker] found in the ruins"],
+		"weight": 9,
+		"color": "#e89220",
+		"excludedDifficulties": ["King","Emperor","Immortal","Deity","Omnipotence"]
+	},
+	{
+		"name": "squatters wishing to settle under your rule",
+		"notification": "A [Settler] has joined us!",
+		"uniques": [
+			"Free [Settler] found in the ruins"
+		],
+		"weight": 9,
+		"color": "#e89220",
+		"excludedDifficulties": ["Prince","King","Emperor","Immortal","Deity","Omnipotence"]
+	},
+	{
+		"name": "free a general",
+		"notification": "Unexpectedly, we save a former general!",
+		"uniques": [
+			"Free [Great General] found in the ruins",
+			"Only available <after turn number [30]>"
+		],
+		"weight": 8,
+		"color": "#e89220"
+		"excludedDifficulties": ["Immortal","Deity","Omnipotence"]
+	},
+	{
+		"name": "save a merchant",
+		"notification": "We have succesfully save a [Great Merchant]!",
+		"uniques": ["Free [Great Merchant] found in the ruins"],
+		"weight": 7,
+		"color": "#e89220",
+		"excludedDifficulties": ["Prince","King","Emperor","Immortal","Deity","Omnipotence"]
+	},
 ]

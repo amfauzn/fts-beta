@@ -1,5 +1,5 @@
 [
-   // Civilian
+	// Civilian
 	{
 		"name": "Civilian",
 		"movementType": "Land"
@@ -12,14 +12,18 @@
 	// Human
 	{
 		"name": "Recon",
-		"movementType": "Land"
+		"movementType": "Land",
+		"uniques": [
+			"Person",
+			"Biological"
+		]
 	},
 	{
 		"name": "Infantry",
 		"movementType": "Land",
 		"uniques": [
 			"[+33]% Strength <vs [Anti-Armor] units> <when attacking>",
-			"Person",
+			"Biological",
 			"Foot"
 		]
 	},
@@ -28,7 +32,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"[+33]% Strength <vs [Mounted] units> <when attacking>",
-			"Person",
+			"Biological",
 			"Foot"
 		]
 	},
@@ -36,10 +40,8 @@
 		"name": "Mounted",
 		"movementType": "Land",
 		"uniques": [
-			//"[+33]% Strength <vs [Ranged Infantry] units> <when attacking>",
-			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Person",
+			"Biological",
 			"Mobile"
 		]
 	},
@@ -48,7 +50,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Person",
+			"Biological",
 			"Foot"
 		]
 	},
@@ -60,7 +62,8 @@
 		"uniques": [
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Mechanical"
 		]
 	},
 	{
@@ -69,7 +72,8 @@
 		"uniques": [
 			"[+50]% Strength <vs [Flying] units>",
 			"[+33]% Strength <vs [Counter Air Terror] units>",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Mechanical"
 		]
 	},
 	
@@ -80,9 +84,7 @@
 		"uniques": [
 			"[+15]% Strength <vs [Ranged Mage] units>",
 			"[+50]% Strength <vs [Construct] units>",
-			"[This Unit] heals [5] HP <upon turn end>",
-			// Heal adjacent by 5
-			"Person",
+			"Biological",
 			"Mage"
 		]
 	},
@@ -92,8 +94,8 @@
 		"uniques": [
 			"[+50]% Strength <vs cities> <when attacking>",
 			"[+50]% Strength <vs [Construct] units> <when attacking>",
-			"[-10]% Strength <vs [{Person} {Melee}] units> <when defending>",
-			Person",
+			"[-10]% Strength <vs [{Biological} {Melee}] units> <when defending>",
+			"Biological",
 			"Mage"
 		]
 	},
@@ -119,6 +121,7 @@
 			"No defensive terrain bonus",
 			"[+100]% maintenance costs",
 			"Flying",
+			"Biological",
 			"Mobile",
 			"Never appears as a Barbarian unit"
 		]
@@ -139,6 +142,7 @@
 			//"[+25]% Strength <vs [Ranged] units> <when defending>",
 			"[+100]% maintenance costs",
 			"Flying",
+			"Biological",
 			"Mobile",
 			"Never appears as a Barbarian unit"
 		]
@@ -151,6 +155,7 @@
 		"uniques": [
 			"[+50]% Strength <vs [Naval Raider] units>",
 			"Naval",
+			"Mechanical",
 			"Mobile"
 		]
 	},
@@ -160,6 +165,7 @@
 		"uniques": [
 			"Ranged attacks may be performed over obstacles",
 			"Naval",
+			"Mechanical",
 			"Mobile"
 		]
 	},
@@ -170,11 +176,22 @@
 			"Can see invisible [Naval Raider] units",
 			"May capture killed [Water] units",
 			"Naval",
+			"Mechanical",
 			"Mobile"
 		]
 	},
 	
 	// Carrier
+	{
+		"name": "Naval Carrier",
+		"movementType": "Water",
+		"uniques": [
+			"Never appears as a Barbarian unit",
+			"Naval",
+			"Mechanical",
+			"Mobile"
+		]
+	},
 	{
 		"name": "Airship",
 		"movementType": "Land",
@@ -186,9 +203,10 @@
 			"May travel on Water tiles without embarking",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
+			"Never appears as a Barbarian unit",
 			"Flying",
-			"Mobile",
-			"Never appears as a Barbarian unit"
+			"Mechanical",
+			"Mobile"
 		]
 	},
 	
@@ -197,17 +215,19 @@
 		"name": "Fighter",
 		"movementType": "Air",
 		"uniques": [
-			"Aircraft",
 			"[+4] Sight",
 			"Can see over obstacles",
-			"Can perform Air Sweep"
+			"Can perform Air Sweep",
+			"Aircraft",
+			"Mechanical"
 		]
 	},
 	{
 		"name": "Bomber",
 		"movementType": "Air",
 		"uniques": [
-			"Aircraft"
+			"Aircraft",
+			"Mechanical"
 		]
 	},
 	{
@@ -215,7 +235,19 @@
 		"movementType": "Air",
 		"uniques": [
 			//"Aircraft",
-			"Self-destructs when attacking"
+			"Self-destructs when attacking",
+			"Mechanical",
 		]
 	},
+	
+	// Monk
+	{
+		"name": "Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Never appears as a Barbarian unit",
+			"Biological"
+		]
+	},
+	
 ]

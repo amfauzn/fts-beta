@@ -17,25 +17,46 @@
 			"Anti-Air",
 			//"Melee Mage",
 			//"Ranged Mage",
-			//"Construct",
-			//"Air Terror",
-			//"Counter Air Terror",
 			"Naval Melee",
 			"Naval Ranged",
-			"Naval Raider",
-			//"Naval Carrier",
-			//"Airship",
-			//"Fighter",
-			//"Bomber",
-		]
+			"Naval Raider"
+		],
+		"column": 0,
+		"row": 0
 	},
 	{
 		"name": "Potent Healing Potion",
 		"uniques": [
-			"[This Unit] heals [80] HP",
+			"[This Unit] heals [90] HP",
 			"Doing so will consume this opportunity to choose a Promotion",
 			"Only available <with [Healing Leaves]> <hidden from users>",
 			"Comment [Only available after adopting [Potion Making] or after discovering [Pharmaceuticals]]"
+		],
+		"unitTypes": [
+			"Recon",
+			"Infantry",
+			"Anti-Armor",
+			"Mounted",
+			"Ranged Infantry",
+			"Siege",
+			"Anti-Air",
+			//"Melee Mage",
+			//"Ranged Mage",
+			"Naval Melee",
+			"Naval Ranged",
+			"Naval Raider"
+		],
+		"column": 1,
+		"row": 0
+	},
+	/*{
+		"name": "Panacaea",
+		"uniques": [
+			"[This Unit] heals [30] HP",
+			"Comment [Removes all status ailments]",
+			"Comment [Resist status ailments for 2 turns]",
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Only available <after adopting [Dispelling]>"
 		],
 		"unitTypes": [
 			"Recon",
@@ -58,7 +79,7 @@
 			//"Fighter",
 			//"Bomber",
 		]
-	},
+	},*/
 	
 	// Recon
 	{
@@ -68,12 +89,16 @@
 			"Double movement in [Jungle]",
 			"Double movement in [Man-eating tree]"
 		],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 2,
+		"row": 1
 	},
 	{
 		"name": "Highlander",
 		"uniques": ["Double movement in [Hill]"],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 3,
+		"row": 1
 	},
 	{
 		"name": "Survivalism",
@@ -82,13 +107,17 @@
 			"[+5] HP when healing",
 			"[+25]% Strength <when defending>"
 		],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 2,
+		"row": 2
 	},
 	{
 		"name": "Scouting",
 		"prerequisites": ["Highlander"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 3,
+		"row": 2
 	},
 	{
 		"name": "Spyglass",
@@ -97,13 +126,17 @@
 			"Can see over obstacles",
 			"Withdraws before melee combat <with [50]% chance>"
 		],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 2,
+		"row": 3
 	},
 	{
 		"name": "Battle Recon",
 		"prerequisites": ["Survivalism","Scouting"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 3,
+		"row": 3
 	},
 	{
 		"name": "Guerrilla",
@@ -112,31 +145,41 @@
 			"[+1] Movement",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 2,
+		"row": 4
 	},
 	{
-		"name": "Camouflage", // maybe like Ace Hank's skill?
+		"name": "Camouflage", // maybe like Ace skill?
 		"prerequisites": ["Spyglass","Battle Recon"],
 		"uniques": ["Invisible to non-adjacent units"],
-		"unitTypes": ["Recon"]
+		"unitTypes": ["Recon"],
+		"column": 3,
+		"row": 4
 	},
 	
 	// Infantry
 	{
 		"name": "Shock",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Melee Mage","Construct"]
+		"unitTypes": ["Infantry","Anti-Armor"],
+		"column": 4,
+		"row": 1
 	},
 	{
 		"name": "Drill",
 		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Melee Mage","Construct"]
+		"unitTypes": ["Infantry","Anti-Armor"],
+		"column": 6,
+		"row": 1
 	},
 	{
 		"name": "Battlecry",
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"column": 4,
+		"row": 2
 	},
 	{
 		"name": "Tortoise",
@@ -145,13 +188,17 @@
 			"[+25]% Strength <vs [Ranged] units> <when defending>",
 			"[+25]% Strength <in [City center] tiles>"
 		],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"column": 6,
+		"row": 2
 	},
 	{
 		"name": "Besiege",
 		"prerequisites": ["Battlecry","Tortoise"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"column": 4,
+		"row": 3
 	},
 	{
 		"name": "Woodsman",
@@ -161,7 +208,9 @@
 			"Double movement in [Jungle]",
 			"Double movement in [Man-eating tree]"
 		],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry"],
+		"column": 5,
+		"row": 3
 	},
 	
 	// Anti-Armor
@@ -169,25 +218,33 @@
 		"name": "Formation",
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Anti-Armor"]
+		"unitTypes": ["Anti-Armor"],
+		"column": 7,
+		"row": 2
 	},
 	{
 		"name": "Shield Wall",
 		"prerequisites": ["Drill"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Anti-Armor"]
+		"unitTypes": ["Anti-Armor"],
+		"column": 9,
+		"row": 2
 	},
 	{
 		"name": "Thrust",
 		"prerequisites": ["Formation","Shield Wall"],
 		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
-		"unitTypes": ["Anti-Armor"]
+		"unitTypes": ["Anti-Armor"],
+		"column": 7,
+		"row": 3
 	},
 	{
 		"name": "Schiltron",
 		"prerequisites": ["Formation","Shield Wall"],
 		"uniques": ["[+25]% Strength <vs [Infantry] units>"],
-		"unitTypes": ["Anti-Armor"]
+		"unitTypes": ["Anti-Armor"],
+		"column": 8,
+		"row": 3
 	},
 	{
 		"name": "Amphibious",
@@ -196,150 +253,2255 @@
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast"
 		],
-		"unitTypes": ["Infantry","Anti-Armor"]
+		"unitTypes": ["Infantry","Anti-Armor"],
+		"column": 9,
+		"row": 3
 	}
 	{
 		"name": "March",
 		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Infantry","Anti-Armor"]
+		"unitTypes": ["Infantry","Anti-Armor"],
+		"column": 7,
+		"row": 4
 	},
 	
 	// Mounted
 	{
-		"name": "Barding",
-		"prerequisites": ["Shock"],
-		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Mounted"]
-	},
-	{
 		"name": "Light Cavalry",
-		"prerequisites": ["Drill"],
 		"uniques": [
 			"Only available <for units without [Heavy Cavalry]>",
-			"[+25]% Strength <vs [Ranged Infantry] units>",
-			"[+25]% Strength <vs [Siege] units>"
+			"[+25]% Strength <vs [{non-[Anti-Armor]} {Foot}] units> <when attacking>",
+			"[+25]% Strength <vs [Siege] units> <when attacking>",
+			"[+1] Movement"
 		],
-		"unitTypes": ["Mounted"]
+		"unitTypes": ["Mounted"],
+		"column": 11,
+		"row": 1
 	},
 	{
+		"name": "Depredation",
+		"prerequisites": ["Light Cavalry"],
+		"uniques": [
+			"No movement cost to pillage",
+			"Ignores Zone of Control"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 10,
+		"row": 2
+	},
+	{
+		"name": "Rout",
+		"prerequisites": ["Light Cavalry"],
+		"uniques": [
+			"[+25]% Strength <vs [{Ranged} {Land}] units>",
+			"Can move after attacking"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 11,
+		"row": 2
+	},
+	{
+		"name": "Outmanuever",
+		"prerequisites": ["Light Cavalry"],
+		"uniques": ["[+33]% to Flank Attack bonuses"]
+		"unitTypes": ["Mounted"],
+		"column": 12,
+		"row": 2
+	},
+	{
+		"name": "Escort Mobility",
+		"prerequisites": ["Depredation","Rout","Outmanuever"],
+		"uniques": ["Transfer Movement to [Civilian]"],
+		"unitTypes": ["Mounted"],
+		"column": 10,
+		"row": 3
+	},
+	{
+		"name": "Outrider",
+		"prerequisites": ["Depredation","Rout","Outmanuever"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Mounted"],
+		"column": 11,
+		"row": 3
+	},
+	{
+		"name": "Agile",
+		"prerequisites": ["Depredation","Rout","Outmanuever"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>",],
+		"unitTypes": ["Mounted"],
+		"column": 12,
+		"row": 3
+	},
+	{
+		"name": "Warding Amulet",
+		"prerequisites": ["Escort Mobility","Outrider","Agile"],
+		"uniques": [
+			"[+25]% Strength <vs [Mage] units> <when defending>",
+			"[+15] HP when healing"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 10,
+		"row": 4
+	},
+	{
+		"name": "Fast Regroup",
+		"prerequisites": ["Escort Mobility","Outrider","Agile"],
+		"uniques": [
+			"[1] additional attacks per turn"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 11,
+		"row": 4
+	},
+	
+	{
 		"name": "Heavy Cavalry",
-		"prerequisites": ["Drill"],
 		"uniques": [
 			"Only available <for units without [Light Cavalry]>",
 			"[+25]% Strength <vs [Anti-Armor] units>"
 		],
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Depredation",
-		"prerequisites": ["Barding","Light Cavalry"],
-		"uniques": [
-			"Only available <for units without [Heavy Cavalry]>",
-			"No movement cost to pillage",
-			"Ignores Zone of Control"
-		],
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Escort Mobility",
-		"prerequisites": ["Barding","Light Cavalry"],
-		"uniques": [
-			"Only available <for units without [Heavy Cavalry]>",
-			"[+1] Movement",
-			"Transfer Movement to [Civilian]"
-		],
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Double Envelopment",
-		"prerequisites": ["Barding","Light Cavalry"],
-		"uniques": [
-			"Only available <for units without [Heavy Cavalry]>",
-			"[+33]% to Flank Attack bonuses"]
-		"unitTypes": ["Mounted"]
+		"unitTypes": ["Mounted"],
+		"column": 14,
+		"row": 1
 	},
 	{
 		"name": "Charge",
-		"prerequisites": ["Barding","Heavy Cavalry"],
-		"uniques": [
-			"Only available <for units without [Light Cavalry]>",
-			"[+33]% Strength <vs [Wounded] units>"
-		],
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Rout",
-		"prerequisites": ["Barding","Heavy Cavalry"],
-		"uniques": [
-			"Only available <for units without [Light Cavalry]>",
-			"[+25]% Strength <vs [Ranged Infantry] units> <when attacking>",
-			"[+25]% Strength <vs [Siege] units> <when attacking>"
-		],
-		"unitTypes": ["Mounted"]
+		"prerequisites": ["Heavy Cavalry"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Mounted"],
+		"column": 13,
+		"row": 2
 	},
 	{
 		"name": "Armor Piercing",
-		"prerequisites": ["Barding","Heavy Cavalry"],
-		"uniques": [
-			"Only available <for units without [Light Cavalry]>",
-			"[+25]% Strength <vs [Mounted] units>"
-		],
-		"unitTypes": ["Mounted"]
+		"prerequisites": ["Heavy Cavalry"],
+		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Mounted"],
+		"column": 14,
+		"row": 2
 	},
 	{
-		"name": "Calming Amulet",
-		"prerequisites": ["Depredation","Escort Mobility","Double Envelopment","Charge","Rout","Armor Piercing"],
+		"name": "Barding",
+		"prerequisites": ["Heavy Cavalry"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Mounted"],
+		"column": 15,
+		"row": 2
+	},
+	{
+		"name": "Break Defense",
+		"prerequisites": ["Charge","Armor Piercing","Barding"],
+		"uniques": [
+			"Comment [Inflict [Broken] to target Land unit for 1 turns]",
+			"Comment [[Broken] unit suffer -1 Movement and gain no defensive terrain bonus]",
+			"[Target Unit] gains the [Broken] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 13,
+		"row": 3
+	},
+	{
+		"name": "Encirclement",
+		"prerequisites": ["Charge","Armor Piercing","Barding"],
+		"uniques": ["[+33]% Strength <vs cities> <when adjacent to a [{Melee} {non-[Mage]}] unit>"],
+		"unitTypes": ["Mounted"],
+		"column": 14,
+		"row": 3
+	},
+	{
+		"name": "Heavy Plate",
+		"prerequisites": ["Charge","Armor Piercing","Barding"],
+		"uniques": [
+			"Comment [25% damage reduction when below 50 HP]",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <when below [50] HP> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <when below [50] HP> <hidden from users>"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 15,
+		"row": 3
+	},
+	{
+		"name": "Reactive Armor",
+		"prerequisites": ["Break Defense","Encirclement","Heavy Plate"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Mounted"]
+		"unitTypes": ["Mounted"],
+		"column": 13,
+		"row": 4
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Depredation","Escort Mobility","Double Envelopment","Charge","Rout","Armor Piercing"],
+		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Break Defense","Encirclement","Heavy Plate"],
 		"uniques": [
 			"[1] additional attacks per turn",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"]
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"column": 14,
+		"row": 4
+	},
+	{
+		"name": "Broken",
+		"uniques": [
+			"[-1] Movement",
+			"No defensive terrain bonus"
+		]
 	},
 	
 	// Ranged Infantry
 	{
 		"name": "Accuracy",
 		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Ranged Infantry","Siege"]
+		"unitTypes": ["Ranged Infantry","Siege","Anti-Air"],
+		"column": 16,
+		"row": 1
 	},
 	{
 		"name": "Barrage",
 		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Ranged Infantry","Siege"]
+		"unitTypes": ["Ranged Infantry","Siege","Anti-Air"],
+		"column": 18,
+		"row": 1
 	},
 	{
 		"name": "Marksman",
 		"prerequisites": ["Accuracy"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Ranged Infantry"],
+		"column": 16,
+		"row": 2
 	},
 	{
 		"name": "Cover",
 		"prerequisites": ["Barrage"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Ranged Infantry"],
+		"column": 18,
+		"row": 2
 	},
 	{
 		"name": "Damage Absorb",
 		"prerequisites": ["Marksman","Cover"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Ranged Infantry"],
+		"column": 16,
+		"row": 3
 	},
 	
-	// Melee Mage
-	
-	// Ranged Mage
+	// Siege
 	{
-		"name": "Elemental Infusion",
-		"uniques": ["Comment [Attacks inflict status ailment to target enemies]"], // like school in Ace?
-		"unitTypes": ["Ranged Mage"]
+		"name": "Grapeshot",
+		"prerequisites": ["Accuracy"],
+		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Siege"],
+		"column": 19,
+		"row": 2
+	},
+	{
+		"name": "Entrenched Position",
+		"prerequisites": ["Barrage"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Siege"],
+		"column": 21,
+		"row": 2
+	},
+	{
+		"name": "Crew Weapons",
+		"prerequisites": ["Grapeshot","Entrenched Position"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Siege"],
+		"column": 19,
+		"row": 3
+	},
+	{
+		"name": "Volley",
+		"prerequisites": ["Marksman","Cover","Grapeshot","Entrenched Position"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Ranged Infantry","Siege"],
+		"column": 20,
+		"row": 3
+	},
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Marksman","Cover","Grapeshot","Entrenched Position"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Ranged Infantry","Siege"],
+		"column": 21,
+		"row": 3
+	},
+	{
+		"name": "Forward Observers",
+		"prerequisites": ["Damage Absorb","Crew Weapons","Volley","Indirect Fire"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Siege"],
+		"column": 19,
+		"row": 4
 	},
 	
+	// Anti-Air
+	{
+		"name": "Sharpnel",
+		"prerequisites": ["Accuracy"],
+		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Anti-Air"],
+		"column": 22,
+		"row": 2
+	},
+	{
+		"name": "Emplacement",
+		"prerequisites": ["Barrage"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Anti-Air"],
+		"column": 24,
+		"row": 2
+	},
+	{
+		"name": "Precision",
+		"prerequisites": ["Sharpnel","Emplacement"],
+		"uniques": [
+			"[+25]% Strength <vs [Flying] units> <when attacking>",
+			"[+33]% Damage when intercepting"
+		],
+		"unitTypes": ["Anti-Air"],
+		"column": 22,
+		"row": 3
+	},
+	{
+		"name": "Ambush",
+		"prerequisites": ["Sharpnel","Emplacement"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Anti-Air"],
+		"column": 23,
+		"row": 3
+	},
+	{
+		"name": "Shell",
+		"prerequisites": ["Sharpnel","Emplacement"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Anti-Air"],
+		"column": 24,
+		"row": 3
+	},
+	{
+		"name": "Tactical Maintenance",
+		"prerequisites": ["Precision","Ambush","Shell"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Anti-Air"],
+		"column": 22,
+		"row": 4
+	},
+	
+	// Melee Mage + Ranged Mage
+	{
+		"name": "Elemental Manipulation",
+		"uniques": [
+			"Comment [Gain access to elemental spells]",
+			"Not shown on world screen"
+		],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
+		"column": 25,
+		"row": 0
+	},
+	{
+		"name": "Elemental Mastery",
+		"uniques": [
+			"Comment [Gain access to advanced elemental spells]",
+			"Not shown on world screen"
+		],
+		"column": 26,
+		"row": 0
+	},
+	
+	// Fire Element
+	{
+		"name": "Scorch",
+		"prerequisites": ["Elemental Manipulation"],
+		"uniques": [
+			"Comment [Fire spells]",
+			"Comment [Inflict [Scorched] for 2 turns (Passive)]",
+			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0],
+		"column": 27,
+		"row": 1
+	},
+	{
+		"name": "Blazing Retort",	//Blazing Retort
+		"prerequisites": ["Scorch"],
+		"uniques": [
+			"Comment [[Blazing Retort]: Active. Deal 5 damage and apply [Burning] for 1 turn to unit that attacks this unit. Duration: 2 turns. Cooldown: 5 turns.]",
+			"[This Unit] gains the [Blazing Retort Active] status for [2] turn(s) <for [0] movement> <for units without [Blazing Retort Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0]
+		"column": 27,
+		"row": 2
+	},
+	{
+		"name": "Blazing Retort Active",	//Blazing Retort
+		"uniques": [
+			"Comment [Deal 5 damage and apply [Burning] for 1 turn to unit that attacks this unit]",
+			"[This Unit] gains the [Blazing Retort Cooldown] status for [5] turn(s) <upon gaining the [Blazing Retort Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Blazing Retort Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>"
+		]
+	},
+	{
+		"name": "Blazing Retort Cooldown",
+		"uniques": [
+			"Comment [Blazing Retort is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Infernal Purge",	//Infernal Purge
+		"prerequisites": ["Blazing Retort"],
+		"uniques": [
+			"Comment [[Infernal Purge]: Active. Remove ALL ailments from target unit to deal 10 damage for each ailment removed. Cooldown: 9 turns. Cost: Mana Charge]",
+			"[This Unit] gains the [Infernal Purge Active] status for [1] turn(s) <for [0] movement> <for units without [Infernal Purge Cooldown]> <for [non-[NoCast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",	
+			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0]
+		"column": 27,
+		"row": 3
+	},
+	{
+		"name": "Infernal Purge Active",	//Infernal Purge
+		"uniques": [
+			"Comment [Remove ALL ailments from target unit to deal 10 damage for each ailment removed]",
+			"[Target Unit] gains the [Infernal Purge Activator] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",			
+			//"[Target Unit] takes [5] damage <upon damaging a [PyroExtra] unit> <hidden from users>",		
+			//"[Target Unit] takes [15] damage <upon damaging a [OiledExtra] unit>",
+			//"[Target Unit] loses the [Oiled] status <upon damaging a [OiledExtra] unit>",
+			//"[This Unit] gains the [Infernal Purge Cooldown] status for [9] turn(s) <upon gaining the [Infernal Purge Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Infernal Purge Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>"
+		]
+	},
+	{
+		"name": "Infernal Purge Activator",
+		"uniques": [
+			"Comment [Remove ALL ailments from target unit to deal 10 damage for each ailment removed]",
+			"Not shown on world screen",
+			
+			// Removal
+			"[This Unit] loses the [Atrophy] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Calcifying] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Conductive] status <upon gaining the [Infernal Purge Activator] status>",	
+			"[This Unit] loses the [Binded] status <upon gaining the [Infernal Purge Activator] status>",		
+			"[This Unit] loses the [Crushed] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Deafened] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Disoriented] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Disrupted] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Electrified] status <upon gaining the [Infernal Purge Activator] status>",	
+			"[This Unit] loses the [Fatigued] status <upon gaining the [Infernal Purge Activator] status>",	
+			"[This Unit] loses the [Frostbitten] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Frozen] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Petrified] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Ruptured] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Scorched] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Silenced] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Slowed] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Stunned] status <upon gaining the [Infernal Purge Activator] status>",
+					
+			"[This Unit] loses the [Marked] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Shackled] status <upon gaining the [Infernal Purge Activator] status>",
+			"[This Unit] loses the [Wet] status <upon gaining the [Infernal Purge Activator] status>",	
+			"[This Unit] loses the [Withered] status <upon gaining the [Infernal Purge Activator] status>",	
+					
+			// Damage
+			"[This Unit] takes [10] damage <upon losing the [Atrophy] status>",
+			"[This Unit] takes [10] damage <upon losing the [Bleeding] status>",
+			"[This Unit] takes [10] damage <upon losing the [Blinded] status>",
+			"[This Unit] takes [10] damage <upon losing the [Burning] status>",
+			"[This Unit] takes [10] damage <upon losing the [Calcifying] status>",
+			"[This Unit] takes [10] damage <upon losing the [Chilled] status>",
+			"[This Unit] takes [10] damage <upon losing the [Conductive] status>",
+			"[This Unit] takes [10] damage <upon losing the [Binded] status>",
+			"[This Unit] takes [10] damage <upon losing the [Crushed] status>",
+			"[This Unit] takes [10] damage <upon losing the [Deafened] status>",
+			"[This Unit] takes [10] damage <upon losing the [Disoriented] status>",
+			"[This Unit] takes [10] damage <upon losing the [Disrupted] status>",
+			"[This Unit] takes [10] damage <upon losing the [Electrified] status>",
+			"[This Unit] takes [10] damage <upon losing the [Fatigued] status>",
+			"[This Unit] takes [10] damage <upon losing the [Frostbitten] status>",
+			"[This Unit] takes [10] damage <upon losing the [Frozen] status>",
+			"[This Unit] takes [10] damage <upon losing the [Petrified] status>",
+			"[This Unit] takes [10] damage <upon losing the [Rooted] status>",
+			"[This Unit] takes [10] damage <upon losing the [Ruptured] status>",
+			"[This Unit] takes [10] damage <upon losing the [Scorched] status>",
+			"[This Unit] takes [10] damage <upon losing the [Silenced] status>",
+			"[This Unit] takes [10] damage <upon losing the [Slowed] status>",
+			"[This Unit] takes [10] damage <upon losing the [Stunned] status>",
+					
+			"[This Unit] takes [10] damage <upon losing the [Marked] status>",
+			"[This Unit] takes [10] damage <upon losing the [Shackled] status>",
+			"[This Unit] takes [10] damage <upon losing the [Wet] status>",
+			"[This Unit] takes [10] damage <upon losing the [Withered] status>",
+		]
+	},
+	{
+		"name": "Infernal Purge Cooldown",
+		"uniques": [
+			"Comment [Infernal Purge is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Fireball",	//Fireball
+		"prerequisites": ["Scorch"],
+		"uniques": [
+			"Comment [[Fireball]: Active. Deal 15 damage and apply [Burning] for 1 turn. Cooldown: 5 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Fireball Active] status for [1] turn(s) <for [1] movement> <for units without [Fireball Cooldown]> <for [non-[NoCast]] units> <hidden from users>"		
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0]
+		"column": 28,
+		"row": 2
+	},
+	{
+		"name": "Fireball Active",	//Fireball
+		"uniques": [
+			"Comment [Deal 15 damage and apply [Burning] for 1 turn]",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] takes [15] damage <upon damaging a [All] unit> <hidden from users>",
+			
+			"[Target Unit] takes [5] damage <upon damaging a [PyroExtra] unit> <hidden from users>",
+			"[Target Unit] takes [15] damage <upon damaging a [OiledExtra] unit>",
+			"[Target Unit] loses the [Oiled] status <upon damaging a [OiledExtra] unit>",
+			
+			"[This Unit] loses the [Fireball Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Fireball Cooldown] status for [5] turn(s) <upon gaining the [Fireball Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Fireball Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users> <hidden from users>"
+		]
+	},
+	{
+		"name": "Fireball Cooldown",
+		"uniques": [
+			"Comment [Fireball is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Emberfall",	//Emberfall
+		"prerequisites": ["Fireball"],
+		"uniques": [
+			"Comment [[Emberfall]: Active. Apply [Burning] for 3 turns to all units in a radius of 1-tile at the start of their turn. Cooldown: 8 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Emberfall Active] status for [1] turn(s) <for [1] movement> <for units without [Emberfall Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [255, 69, 0],
+		"outerColor": [0, 0, 0]
+		"column": 28,
+		"row": 3
+	},
+	{
+		"name": "Emberfall Active",	//Emberfall
+		"uniques": [
+			"Comment [Apply [Burning] for 3 turns to all units in a radius of 1-tile at the start of their turn]",
+			"[Target Unit] gains the [Emberfall Aura] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+					
+			"[Target Unit] takes [15] damage <upon damaging a [OiledExtra] unit>",
+			"[Target Unit] loses the [Oiled] status <upon damaging a [OiledExtra] unit>",
+					
+			"[This Unit] loses the [Emberfall Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Emberfall Cooldown] status for [8] turn(s) <upon gaining the [Emberfall Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Emberfall Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>"		
+		]
+	},
+	{
+		"name": "Emberfall Aura",	//Emberfall
+		"uniques": [
+			"Not shown on world screen",
+			"[This Unit] gains the [Burning] status for [4] turn(s) <upon turn start> <hidden from users>",
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Emberfall Cooldown",
+		"uniques": [
+			"Comment [Emberfall is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Solar Ray",	//Solar Ray
+		"prerequisites": ["Emberfall"],
+		"uniques": [
+			"Comment [[Solar Ray]: Active. Deal 50 damage. Cooldown: 13 turns. Cost: 1 Move; [Mana Charge].]",
+			"[This Unit] gains the [Solar Ray Active] status for [1] turn(s) <for [1] movement> <for units without [Solar Ray Cooldown]> <for [non-[NoCast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			
+			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>",
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0]
+		"column": 28,
+		"row": 4
+	},
+	{
+		"name": "Solar Ray Active",	//Solar Ray
+		"uniques": [
+			"Comment [Deal 50 damage]",
+			"[Target Unit] takes [50] damage <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] takes [5] damage <upon damaging a [PyroExtra] unit> <hidden from users>",
+			
+			"[Target Unit] takes [15] damage <upon damaging a [OiledExtra] unit>",
+			"[Target Unit] loses the [Oiled] status <upon damaging a [OiledExtra] unit>",
+			
+			"[This Unit] loses the [Solar Ray Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Solar Ray Cooldown] status for [13] turn(s) <upon gaining the [Solar Ray Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Solar Ray Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>",
+		]
+	},
+	{
+		"name": "Solar Ray Cooldown",
+		"uniques": [
+			"Comment [Solar Ray is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Wind Element
+	{
+		"name": "Swift Step",
+		"prerequisites": ["Elemental Manipulation"],
+		"uniques": [
+			"Comment [Wind spells]",
+			"Comment [Withdraws from Melee combat once every 3 turns (Passive)]"
+		],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
+		"column": 29,
+		"row": 1,
+	},
+	{
+		"name": "Favourable Wind",	//Favourable Wind
+		"prerequisites": ["Swift Step"],
+		"uniques": [
+			"Comment [[Favourable Wind]: Active. +1 Movement for this and adjacent units. Duration: 2 turns. Cooldown: 7 turns. Cost: 2 Move.]",
+			"[This Unit] gains the [Favourable Wind Active] status for [2] turn(s) <for [2] movement> <for units without [Favourable Wind Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
+		"column": 29,
+		"row": 2,
+	},
+	{
+		"name": "Favourable Wind Active",
+		"uniques": [
+			"[+1] Movement",
+			"[This Unit] gains the [Favourable Wind Cooldown] status for [7] turn(s) <upon gaining the [Favourable Wind Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Favourable Wind Active] status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Favourable Wind Cooldown",
+		"uniques": [
+			"Comment [Favourable Wind is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Gale Barrier",	//Gale Barrier
+		"prerequisites": ["Favourable Wind"],
+		"uniques": [
+			"Comment [[Gale Barrier]: Active. +50% chance to dodge Ranged attack for this and adjacent units. Duration: 3 turns. Cooldown: 10 turns. Cost: 2 Move.]",
+			"[This Unit] gains the [Gale Barrier Active] status for [3] turn(s) <for [2] movement> <for units without [Gale Barrier Cooldown]> <for [non-[NoCast]] units> <hidden from users>",	
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
+		"column": 29,
+		"row": 3,
+	},
+	{
+		"name": "Gale Barrier Active",
+		"uniques": [
+			"[+1000]% Strength <when defending> <vs [Ranged] units> <with [50]% chance>",
+			"[This Unit] gains the [Gale Barrier Cooldown] status for [10] turn(s) <upon gaining the [Gale Barrier Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Gale Barrier Active] status> <hidden from users>",
+		]
+	},
+	{
+		"name": "Gale Barrier Cooldown",
+		"uniques": [
+			"Comment [Gale Barrier is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Slashing Wind",	//Slashing Wind
+		"prerequisites": ["Swift Step"],
+		"uniques": [
+			"Comment [[Slashing Wind]: Active. Apply [Bleeding] for 2 turns. Apply [Blazing Fire] for 2 turns to [Burning] units. Cooldown: 5 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Slashing Wind Active] status for [1] turn(s) <for [1] movement> <for units without [Slashing Wind Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
+		"column": 30,
+		"row": 2,
+	},
+	{
+		"name": "Slashing Wind Active",	//Slashing Wind
+		"uniques": [
+			"Comment [Deal 5 damage and apply [Bleeding] for 2 turns]",
+			"[Target Unit] gains the [Bleeding] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Blazing Fire] status for [3] turn(s) <upon damaging a [Burning] unit> <hidden from users>",
+			
+			"[This Unit] loses the [Slashing Wind Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Slashing Wind Cooldown] status for [5] turn(s) <upon gaining the [Slashing Wind Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Slashing Wind Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users> <hidden from users>",
+		],
+	},
+	{
+		"name": "Slashing Wind Cooldown",
+		"uniques": [
+			"Comment [Slashing Wind is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Fly",	//Fly
+		"prerequisites": ["Slashing Wind"],
+		"uniques": [
+			"Comment [[Fly]: Active. Gain Flying. Duration: 3 turns. Cooldown: 7 turns.]",
+			"[This Unit] gains the [Fly Active] status for [3] turn(s) <for [1] movement> <for units without [Fly Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
+		"column": 30,
+		"row": 3,
+	},
+	{
+		"name": "Fly Active",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"Flying",
+			"Mobile",
+			"[This Unit] gains the [Fly Cooldown] status for [7] turn(s) <upon gaining the [Fly Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Superconductor Active] status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Fly Cooldown",
+		"uniques": [
+			"Comment [Fly is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Tornado",	//Tornado
+		"prerequisites": ["Fly"],
+		"uniques": [
+			"Comment [[Tornado]: Active. +250% Strength vs cities or deal 25 damage and apply [Slowed] and [Wet] for 2 turns vs units. Also destroys improvements when attacking. Cooldown: 12 turns. Cost: 1 Move; Mana Charge]",
+			"[This Unit] gains the [Tornado Active] status for [1] turn(s) <for [1] movement> <for units without [Tornado Cooldown]> <for [non-[NoCast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status>  <hidden from users>",	
+					
+			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>",
+		],
+		
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
+		"column": 30,
+		"row": 4,
+	},
+	{
+		"name": "Tornado Active",	//Tornado
+		"uniques": [
+			"[+250]% Strength <when attacking> <vs cities>",
+			"[+1]% Strength <hidden from users>",
+			
+			"[Target Unit] gains the [Wet] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Slowed] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] takes [25] damage <upon damaging a [All] unit> <hidden from users>",
+					
+			"Destroys tile improvements when attacking <hidden from users>",
+			"[This Unit] loses the [Tornado Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] loses the [Tornado Active] status <upon turn end> <hidden from users>",
+			"[This Unit] gains the [Tornado Cooldown] status for [12] turn(s) <upon gaining the [Tornado Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Superconductor Active] status> <hidden from users>",
+		]
+	},
+	{
+		"name": "Tornado Cooldown",
+		"uniques": [
+			"Comment [Tornado is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Lightning Element
+	{
+		"name": "Disruption",
+		"prerequisites": ["Elemental Manipulation"],
+		"uniques": [
+			"Comment [Lightning spells]",
+			"Comment [Apply [Disrupted] for 1 turn (Passive)]",	//Or Disrupt Chakra?		
+		],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
+		"innerColor": [147, 112, 219],
+		"outerColor": [0, 0, 0]
+		"column": 31,
+		"row": 1,
+	},
+	{
+		"name": "Conduit",	//Conduit
+		"prerequisites": ["Disruption"],
+		"uniques": [
+			"Comment [[Conduit]: Active. Apply [Conductive] for 2 turns. Refund 1 Movement after attacking. Cooldown: 6 turns.]",
+			"[This Unit] gains the [Conduit Active] status for [1] turn(s) <for [0] movement> <for units without [Conduit Cooldown]> <for [non-[NoCast]] units> <hidden from users>",
+			
+			"[This Unit] gains [1] movement <upon losing the [Conduit Active] status> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [147, 112, 219],
+		"outerColor": [0, 0, 0]
+		"column": 31,
+		"row": 2,
+	},
+	{
+		"name": "Conduit Active",	//Conduit
+		"uniques": [
+			"Comment [Apply [Conductive] for 2 turns. Refund 1 Movement after attacking]",
+			"[Target Unit] gains the [Conductive] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			
+			"[This Unit] loses the [Conduit Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Conduit Cooldown] status for [6] turn(s) <upon gaining the [Conduit Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Conduit Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users> <hidden from users>"
+		]
+	},
+	{
+		"name": "Conduit Cooldown",
+		"uniques": [
+			"Comment [Conduit is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Voltaic Leash",	//Voltaic Leash
+		"prerequisites": ["Conduit"],
+		"uniques": [
+			"Comment [[Voltaic Leash]: Active. Apply [Rooted] and [Electrified] for 3 turns. For the next 3 turns, the caster may attack the same target to reapply the ailments. Target unit may spend All Movement to remove the ailments. Cooldown: 8 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Voltaic Leash Active] status for [1] turn(s) <for [0] movement> <for units without [Voltaic Leash Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [147, 112, 219],
+		"outerColor": [0, 0, 0]
+		"column": 31,
+		"row": 3,
+	},
+	{
+		"name": "Voltaic Leash Active",	//Voltaic Leash
+		"uniques": [
+			"Comment [Apply [Rooted] and [Electrified] for 3 turns. For the next 3 turns, as long as the caster doesn't change target, the caster may reapply the ailments. Target unit may spend All Movement to remove the ailments.]",
+			
+			"[This Unit] gains the [Voltaic Leash Caster] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			
+			"[Target Unit] gains the [Voltaic Leash Target] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Rooted] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Electrified] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			
+			"[This Unit] loses the [Voltaic Leash Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Voltaic Leash Cooldown] status for [8] turn(s) <upon gaining the [Voltaic Leash Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Voltaic Leash Active] status> <hidden from users>",
+					
+			"[+1]% Strength <hidden from users> <hidden from users>"			
+		],
+	},
+	{
+		"name": "Voltaic Leash Caster",
+		"uniques": [
+			"Comment [This unit may extend the duration of [Voltaic Leash] on a [Voltaic Leash Target] unit.]",
+			"[Target Unit] gains the [Voltaic Rooted] status for [4] turn(s) <upon damaging a [Voltaic Leash Target] unit> <hidden from users>",
+			"[Target Unit] gains the [Voltaic Electrified] status for [4] turn(s) <upon damaging a [Voltaic Leash Target] unit> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users> <hidden from users>"				
+		],
+	},
+	{
+		"name": "Voltaic Leash Target",
+		"uniques": [
+			"Comment [This unit will receive [Rooted] and [Electrified] for 3 turns upon being attacked by a [Voltaic Leash Caster] unit]",
+			"[This Unit] loses the [Voltaic Rooted] status <for all movement> <removing the [Voltaic Electrified] promotion/status> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		],
+	},
+	{
+		"name": "Voltaic Leash Cooldown",
+		"uniques": [
+			"Comment [Voltaic Leash is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Superconductor",
+		"prerequisites": ["Disruption"],
+		"uniques": [
+			"Comment [Active. Apply [Electrified] for 2 turns. Cooldown: 7 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Superconductor Active] status for [1] turn(s) <for [1] movement> <for units without [Superconductor Cooldown]> <for [non-[NoCast]] units> <hidden from users>"		
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [147, 112, 219],
+		"outerColor": [0, 0, 0]
+		"column": 32,
+		"row": 2,
+	},
+	{
+		"name": "Superconductor Active",	//Superconductor
+		"uniques": [
+			"[Target Unit] gains the [Electrified] status for [3] turn(s) <upon damaging a [All] unit>",
+			"[Target Unit] takes [5] damage <upon damaging a [LightningExtra] unit>",
+			"[Target Unit] takes [5] damage <upon damaging a [WetExtra] unit>",
+			"[This Unit] loses the [Superconductor Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Superconductor Cooldown] status for [7] turn(s) <upon gaining the [Superconductor Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Superconductor Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>"
+		]
+	},
+	{
+		"name": "Superconductor Cooldown",
+		"uniques": [
+			"Comment [Superconductor is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Teleportation",	
+		"prerequisites": ["Superconductor"],
+		"uniques": [
+			"Comment [Active. May teleport 10-tiles away from City center. Cooldown: 8 turns.]", 
+			"[This Unit] gains the [Teleportation Active] status for [1] turn(s) <for [0] movement> <in [City center] tiles> <for units without [Teleportation Cooldown]> <for [non-[NoCast]] units> <hidden from users>",
+			"[This Unit] gains the [Teleportation Cooldown] status for [8] turn(s) <upon gaining the [Teleportation Active] status> <hidden from users>", 
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Teleportation Active] status> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [147, 112, 219],
+		"outerColor": [0, 0, 0]
+		"column": 32,
+		"row": 3,
+	},
+	{
+		"name": "Teleportation Active",
+		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory"],
+	},
+	{
+		"name": "Teleportation Cooldown",
+		"uniques": [
+			"Comment [Teleportation is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Wailing Tempest",	//Wailing Tempest
+		"prerequisites": ["Teleportation"],
+		"uniques": [
+			"Comment [[Wailing Tempest]: Active. Deal 10 damage then apply [Wet], [Deafened], and [Disoriented] for 3 turns in a radius of 1-tile from target at the start of their turn. Cooldown: 12 turns. Cost: 1 Move; Mana Charge]",
+			"[This Unit] gains the [Wailing Tempest Active] status for [1] turn(s) <for [1] movement> <for units without [Wailing Tempest Cooldown]> <for [non-[NoCast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>",
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [147, 112, 219],
+		"outerColor": [0, 0, 0]
+		"column": 32,
+		"row": 4,
+	},
+	{
+		"name": "Wailing Tempest Active",	//Wailing Tempest
+		"uniques": [
+			"Comment [Deal 10 damage then apply [Wet], [Deafened], and [Disoriented] for 3 turns in a radius of 1-tile from target at the start of their turn]",
+			"[Target Unit] gains the [Wailing Tempest Aura] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] loses the [Wailing Tempest Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Wailing Tempest Cooldown] status for [12] turn(s) <upon gaining the [Wailing Tempest Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Wailing Tempest Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>"
+		],
+	},
+	{
+		"name": "Wailing Tempest Aura",	//Wailing Tempest
+		"uniques": [
+			"Not shown on world screen",
+			"[This Unit] takes [10] damage <upon turn start> <hidden from users>",
+			"[This Unit] gains the [Wet] status for [4] turn(s) <upon turn start> <hidden from users>",
+			"[This Unit] gains the [Deafened] status for [4] turn(s) <upon turn start> <hidden from users>",
+			"[This Unit] gains the [Disoriented] status for [4] turn(s) <upon turn start> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		],
+	},
+	{
+		"name": "Wailing Tempest Cooldown",
+		"uniques": [
+			"Comment [Wailing Tempest is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Earth Element
+	{
+		"name": "Stoneskin",
+		"prerequisites": ["Elemental Manipulation"],
+		"uniques": [
+			"Comment [Earth spells]",
+			"Comment [+15% Strength when defending (Passive)]",
+			"[+15]% Strength <when defending> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
+		"innerColor": [139, 69, 19],
+		"outerColor": [0, 0, 0]
+		"column": 33,
+		"row": 1,
+	},
+	{
+		"name": "Fossil Strike",
+		"prerequisites": ["Stoneskin"],
+		"uniques": [
+			"Comment [[Fossil Strike]: Active. Deal 5 damage then apply [Calcifying] and [Oiled] for 2 turns. Cooldown: 7 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Fossil Strike Active] status for [1] turn(s) <for [0] movement> <for units without [Fossil Strike Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [139, 69, 19],
+		"outerColor": [0, 0, 0]
+		"column": 33,
+		"row": 2,
+	},
+	{
+		"name": "Fossil Strike Active",	//Fossil Strike
+		"uniques": [
+			"[Target Unit] gains the [Calcifying] status for [3] turn(s) <upon damaging a [All] unit>",
+			"[Target Unit] gains the [Oiled] status for [3] turn(s) <upon damaging a [All] unit>",
+			"[Target Unit] takes [5] damage <upon damaging a [All] unit>",
+			"[This Unit] loses the [Fossil Strike Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Fossil Strike Cooldown] status for [7] turn(s) <upon gaining the [Fossil Strike Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Fossil Strike Active] status>",
+			
+			"[+1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Fossil Strike Cooldown",
+		"uniques": [
+			"Comment [Fossil Strike is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Form Hill",
+		"prerequisites": ["Fossil Strike"],
+		"uniques": [
+			"Comment [[Form Hill]: Active. Turn this tile into [Hill]. Cooldown: 12 turns. Cost: 2 Move. READ ME: You need to do this spell twice. Search for the 2nd activation.]",
+			"[This Unit] gains the [Form Hill Active] status for [1] turn(s) <for [0] movement> <for units without [Form Hill Cooldown]> <for [non-[NoCast]] units> <in [non-[Hill]] tiles> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [139, 69, 19],
+		"outerColor": [0, 0, 0]
+		"column": 33,
+		"row": 3,
+	},	
+	{
+		"name": "Form Hill Active",	//Form Hill
+		"uniques": [
+			"Turn this tile into a [Hill] tile <in [{Land} {Open terrain}] tiles> <for [2] movement> <removing the [Form Hill Active] promotion/status>",
+			"[This Unit] gains the [Form Hill Cooldown] status for [12] turn(s) <upon gaining the [Form Hill Active] status>"
+		]
+	},
+	{
+		"name": "Form Hill Cooldown",
+		"uniques": [
+			"Comment [Form Hill is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Geospike",
+		"prerequisites": ["Stoneskin"],
+		"uniques": [
+			"Comment [[Geospike]: Active. Deal 10 damage and apply [Calcifying] for 2 turns. Cooldown: 6 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Geospike Active] status for [1] turn(s) <for [0] movement> <for units without [Geospike Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [139, 69, 19],
+		"outerColor": [0, 0, 0]
+		"column": 34,
+		"row": 2,
+	},
+	{
+		"name": "Geospike Active",	//Geospike
+		"uniques": [
+			"[Target Unit] gains the [Calcifying] status for [3] turn(s) <upon damaging a [All] unit>",
+			"[Target Unit] takes [10] damage <upon damaging a [All] unit>",
+			"[This Unit] loses the [Geospike Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Geospike Cooldown] status for [6] turn(s) <upon gaining the [Geospike Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Geospike Active] status>",
+			
+			"[+1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Geospike Cooldown",
+		"uniques": [
+			"Comment [Geospike is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Turn to Stone",
+		"prerequisites": ["Geospike"],
+		"uniques": [
+			"Comment [[Turn to Stone]: Active. Apply [Petrified] for 1 turn. Cooldown: 10 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Turn to Stone Active] status for [1] turn(s) <for [0] movement> <for units without [Turn to Stone Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [139, 69, 19],
+		"outerColor": [0, 0, 0]
+		"column": 34,
+		"row": 3,
+	},
+	{
+		"name": "Turn to Stone Active",	//Turn to Stone
+		"uniques": [
+			"[Target Unit] gains the [Petrified] status for [2] turn(s) <upon damaging a [All] unit>",
+			"[This Unit] loses the [Turn to Stone Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Turn to Stone Cooldown] status for [10] turn(s) <upon gaining the [Turn to Stone Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Turn to Stone Active] status>",
+			
+			"[+1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Turn to Stone Cooldown",
+		"uniques": [
+			"Comment [Turn to Stone is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Animate Earth",
+		"prerequisites": ["Turn to Stone"],
+		"uniques": [
+			"Comment [[Animate Earth]: Active. Create a strongest available Infantry unit as a Construct. Cooldown: 15 turns. Cost: All Move; [Mana Charge]]",
+			"[This Unit] gains the [Animate Earth Active] status for [1] turn(s) <for all movement> <for units without [Animate Earth Cooldown]> <for [non-[NoCast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [139, 69, 19],
+		"outerColor": [0, 0, 0]
+		"column": 34,
+		"row": 4,
+	},
+	{
+		"name": "Animate Earth Active",	//Animate Earth
+		"uniques": [
+			"Comment [Create a strongest available Footman unit as a Construct.]",
+			"[This Unit] gains the [Animate Earth Cooldown] status for [15] turn(s) <upon gaining the [Animate Earth Active] status> <hidden from users>",
+					
+			//Back end
+			"Free [Construct Maceman] appears <before discovering [Iron Working]> <upon gaining the [Animate Earth Active] status> <hidden from users>",
+			"Free [Construct Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon gaining the [Animate Earth Active] status> <hidden from users>",
+			"Free [Construct Longswordsman] appears <after discovering [Steel]> <before discovering [Metallurgy]> <upon gaining the [Animate Earth Active] status> <hidden from users>",
+			"Free [Construct Etherblader] appears <after discovering [Metallurgy]> <before discovering [Avionic Theory]> <upon gaining the [Animate Earth Active] status> <hidden from users>",
+			"Free [Construct Lightsaberman] appears <after discovering [Avionic Theory]> <before discovering [Combined Arms]> <upon gaining the [Animate Earth Active] status> <hidden from users>",
+			"Free [Construct TIT Squad] appears <after discovering [Combined Arms]> <upon gaining the [Animate Earth Active] status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Animate Earth Cooldown",
+		"uniques": [
+			"Comment [Animate Earth is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Water Element
+	{
+		"name": "Tranquility",
+		"prerequisites": ["Elemental Manipulation"],
+		"uniques": [
+			"Comment [Water spells]",
+			"Comment [Heals 5 HP upon turn end (Passive)]",
+			"[This Unit] heals [5] HP <upon turn end> <hidden from users>"		
+		],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
+		"innerColor": [0, 191, 255],
+		"outerColor": [0, 0, 0]
+		"column": 35,
+		"row": 1,
+	},
+	{
+		"name": "Cleanses",	//Cleanses
+		"prerequisites": ["Tranquility"],
+		"uniques": [
+			"Comment [[Cleanses]: Active. This unit and adjacent units gain [Immunity] for 2 turn upon turn end. Duration: 2 turns. Cooldown: 7 turns. Cost: 2 Move.]",
+			"[This Unit] gains the [Cleanses Active] status for [1] turn(s) <for [2] movement> <for units without [Cleanses Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
+		"column": 35,
+		"row": 2,
+	},
+	{
+		"name": "Cleanses Active",
+		"uniques": [
+			//Self
+			"[This Unit] gains the [Immunity] status for [2] turn(s) <upon turn end>",
+			"[This Unit] gains the [Cleanses Cooldown] status for [7] turn(s) <upon gaining the [Cleanses Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Cleanses Active] status> <hidden from users>",
+		]
+	},
+	{
+		"name": "Cleanses Cooldown",
+		"uniques": [
+			"Comment [Cleanses is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Glaciate",	//Glaciate
+		"prerequisites": ["Cleanses"],
+		"uniques": [
+			"Comment [[Glaciate]: Active. Deal 10 damage then apply [Brittle] for 2 turns and 50% chance to apply [Frozen] for 1 turn. Can attack 3 times, but cannot target the same target twice. Cooldown: 10 turns.]",
+			"[This Unit] gains the [Glaciate Active] status for [1] turn(s) <for [1] movement> <for units without [Glaciate Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Melee Mage"],
+		"innerColor": [0, 191, 255],
+		"outerColor": [0, 0, 0]
+		"column": 35,
+		"row": 3,
+	},
+	{
+		"name": "Glaciate Active",	//Glaciate
+		"uniques": [
+			"Comment [Deal 10 damage then apply [Brittle] for 2 turns and 50% chance to apply [Frozen] for 1 turn. Can attack 3 times, but cannot target the same target twice.]",
+			"[Target Unit] gains the [Brittle] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [All] unit> <with [50]% chance> <hidden from users>",
+			"[Target Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [WetExtra] unit> <hidden from users>",
+			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] takes [5] damage <upon damaging a [WetExtra] unit> <hidden from users>",
+			
+			"[+2] additional attacks per turn <hidden from users>",
+			"[This Unit] gains [1] movement <upon damaging a [All] unit> <hidden from users>",
+			
+			"[Target Unit] gains the [Glaciate Target] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"Cannot attack <vs [Glaciate Target] units> <hidden from users>",
+			
+			"[This Unit] loses the [Glaciate Active] status <upon turn end> <hidden from users>",
+			"[This Unit] gains the [Glaciate Cooldown] status for [10] turn(s) <upon gaining the [Glaciate Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Glaciate Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>",
+		],
+	},
+	{
+		"name": "Glaciate Cooldown",
+		"uniques": [
+			"Comment [Glaciate is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Glaciate Target",
+		"uniques": [
+			"Comment [This unit has been attacked with [Glaciate] once]",
+			"[+1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Water Whip",	//Water Whip
+		"prerequisites": ["Tranquility"],
+		"uniques": [
+			"Comment [[Water Whip]: Active. Deal 5 damage then apply [Wet] for 2 turns and [Disarmed] for 1 turn. Cooldown: 7 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Water Whip Active] status for [1] turn(s) <for [1] movement> <for units without [Water Whip Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [0, 191, 255],
+		"outerColor": [0, 0, 0]
+		"column": 36,
+		"row": 2,
+	},
+	{
+		"name": "Water Whip Active",	//Water Whip
+		"uniques": [
+			"Comment [Deal 5 damage then apply [Wet] for 2 turns and [Disarmed] for 1 turn]",
+			"[Target Unit] gains the [Wet] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <hidden from users>",
+			
+			"[This Unit] loses the [Water Whip Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Water Whip Cooldown] status for [7] turn(s) <upon gaining the [Water Whip Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Water Whip Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users> <hidden from users>"
+		
+		],
+	},
+	{
+		"name": "Water Whip Cooldown",
+		"uniques": [
+			"Comment [Water Whip is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Blizzard",	//Blizzard
+		"prerequisites": ["Water Whip"],
+		"uniques": [
+			"Comment [[Blizzard]: Active. Apply [Chilled] and [Frostbitten] for 3 turns in a radius of 1-tile from target at the start of their turn. Cooldown: 10 turns. Cost: 1 Move.]",
+			"[This Unit] gains the [Blizzard Active] status for [1] turn(s) <for [1] movement> <for units without [Blizzard Cooldown]> <for [non-[NoCast]] units> <hidden from users>",
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [0, 191, 255],
+		"outerColor": [0, 0, 0]
+		"column": 36,
+		"row": 3,
+	},
+	{
+		"name": "Blizzard Active",	//Blizzard
+		"uniques": [
+			"Comment [Apply [Chilled] and [Frostbitten] for 3 turns in a radius of 1-tile from target at the start of their turn]",
+			"[Target Unit] gains the [Blizzard Aura] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			
+			"[This Unit] loses the [Blizzard Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Blizzard Cooldown] status for [10] turn(s) <upon gaining the [Blizzard Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Blizzard Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>"
+		],
+	},
+	{
+		"name": "Blizzard Aura",	//Blizzard
+		"uniques": [
+			"Not shown on world screen",
+			"[This Unit] gains the [Chilled] status for [4] turn(s) <upon turn start> <hidden from users>",
+			"[This Unit] gains the [Frostbitten] status for [4] turn(s) <upon turn start> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"		
+		],
+	},
+	{
+		"name": "Blizzard Cooldown",
+		"uniques": [
+			"Comment [Blizzard is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Ice Age",	//Ice Age
+		"prerequisites": ["Blizzard"],
+		"uniques": [
+			"Comment [[Ice Age]: Active. Apply [Permafrost] permanently and turn the targeted tile into [Frozen Wasteland]. Cooldown: 15 turns. Cost: 1 Move; Mana Charge.]",		
+			"[This Unit] gains the [Ice Age Active] status for [1] turn(s) <for [1] movement> <for units without [Ice Age Cooldown]> <for [non-[NoCast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
+		],
+		"unitTypes": ["Ranged Mage"],
+		"innerColor": [0, 191, 255],
+		"outerColor": [0, 0, 0]
+		"column": 36,
+		"row": 4,
+	},
+	{
+		"name": "Ice Age Active",	//Ice Age
+		"uniques": [
+			"Comment [Deal 5 damage then apply [Wet] for 2 turns and [Disarmed] for 1 turn]",
+			"[Target Unit] gains the [Ice Age Creation] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Permafrost] promotion <upon damaging a [All] unit> <hidden from users>",
+			
+			"[This Unit] loses the [Ice Age Active] status <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Ice Age Cooldown] status for [15] turn(s) <upon gaining the [Ice Age Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Ice Age Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users> <hidden from users>"
+		],
+	},
+	{
+		"name": "Ice Age Cooldown",
+		"uniques": [
+			"Comment [Ice Age is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Ice Age Creation",
+		"uniques": [
+			"Turn this tile into a [Frozen Wasteland] tile <upon gaining the [Ice Age Creation] status>",
+			"Not shown on world screen"
+		]
+	},
+	{
+		"name": "Permafrost",	//Is not supposed to be removed in ANY way
+		"uniques": [
+			"[This Unit] loses [999] movement <upon turn start>",
+			"Cannot attack","Cannot move","No defensive terrain bonus","Can only heal by pillaging","No Sight","NoCast <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	
+	// Advanced Element
+	
+	// Construct
+	
+	// Air Terror
+	
+	// Naval Melee
+	{
+		"name": "Boarding Party",
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"unitTypes": ["Naval Melee","Naval Ranged"]
+	},
+	{
+		"name": "Landing Party",
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Naval Melee"]
+	},
+	{
+		"name": "Observation",
+		"prerequisites": ["Boarding Party"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Naval Melee"]
+	},
+	{
+		"name": "Coastal Raider",
+		"prerequisites": ["Landing Party"],
+		"uniques": [
+			"[+25]% Strength <vs cities>",
+			"Earn [33]% of the damage done to [City] units as [Gold]"
+		],
+		"unitTypes": ["Naval Melee"]
+	},
+	{
+		"name": "Helmsman",
+		"prerequisites": ["Observation","Coastal Raider"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Naval Melee"]
+	},
+	{
+		"name": "Reinforced Hull",
+		"prerequisites": ["Observation","Coastal Raider"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Naval Melee"]
+	},
+	{
+		"name": "Convoy",
+		"prerequisites": ["Observation","Coastal Raider"],
+		"uniques": ["[+20]% Strength <when adjacent to a [Melee Water] unit>"],
+		"unitTypes": ["Naval Melee"]
+	},
+	
+	// Naval Ranged
+	{
+		"name": "Preparatory Fire",
+		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]}] units>"],
+		"unitTypes": ["Naval Ranged"]
+	},
+	{
+		"name": "Targeting",
+		"prerequisites": ["Boarding Party"],
+		"uniques": ["[+25]% Strength <vs [Water] units> <when attacking>"],
+		"unitTypes": ["Naval Ranged"]
+	},
+	{
+		"name": "Rolling Barrage",
+		"prerequisites": ["Preparatory Fire"],
+		"uniques": ["[+25]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Naval Ranged"]
+	},
+	{
+		"name": "Navigator",
+		"prerequisites": ["Targeting","Rolling Barrage"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Naval Ranged"]
+	},
+	{
+		"name": "Double Armor Plating",
+		"prerequisites": ["Targeting","Rolling Barrage"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Naval Ranged"]
+	},
+	{
+		"name": "Bombardment",
+		"prerequisites": ["Targeting","Rolling Barrage"],
+		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]}] units>"],
+		"unitTypes": ["Naval Ranged"]
+	},
+	{
+		"name" : "Supply",
+		"prerequisites": ["Navigator","Double Armor Plating","Bombardment"],
+		"uniques": [
+			"May heal outside of friendly territory",
+			"[+15] HP when healing <in [Foreign Land] tiles>"
+		],
+		"unitTypes": ["Naval Melee","Naval Ranged"]
+	},
+	
+	// Naval Raider
+	{
+		"name": "Loot",
+		"uniques": [
+			"No movement cost to pillage",
+			"Earn [33]% of the damage done to [Water] units as [Gold]"
+		],
+		"unitTypes": ["Naval Raider"]
+	},
+	{
+		"name": "Lurking Attack",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Naval Raider"]
+	},
+	{
+		"name": "Weakpoint Exploitation",
+		"prerequisites": ["Loot"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Naval Raider"]
+	},
+	{
+		"name": "Wolfpack",
+		"prerequisites": ["Lurking Attack"],
+		"uniques": ["[+25]% Strength <when adjacent to a [Naval Raider] unit>"],
+		"unitTypes": ["Naval Raider"]
+	},
+	{
+		"name": "Mobility",
+		"prerequisites": ["Weakpoint Exploitation","Wolfpack"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Naval Raider"]
+	},
+	{
+		"name": "Underwater Vision",
+		"prerequisites": ["Weakpoint Exploitation","Wolfpack"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Naval Raider"]
+	},
+	{
+		"name": "Water Veteran",
+		"prerequisites": ["Weakpoint Exploitation","Wolfpack"],
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"Earn [17]% of the damage done to [Water] units as [Gold]"
+		],
+		"unitTypes": ["Naval Raider"]
+	},
+	{
+		"name": "Silent Running",
+		"prerequisites": ["Mobility","Underwater Vision","Water Veteran"],
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["Naval Raider"]
+	},
+	
+	// Carrier
+	{
+		"name": "Flight Deck",
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Naval Carrier"]
+	},
+	{
+		"name": "Hanger Deck",
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Airship"]
+	},
+	{
+		"name": "Armor Plating",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Naval Carrier","Airship"]
+	},
+	{
+		"name": "Extended Flight Deck",
+		"prerequisites": ["Flight Deck","Hanger Deck"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Naval Carrier","Airship"]
+	},
+	{
+		"name": "Secondary Armor Plating",
+		"prerequisites": ["Armor Plating"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Naval Carrier","Airship"]
+	},
+	{
+		"name": "Combustion",
+		"prerequisites": ["Extended Flight Deck","Secondary Armor Plating"],
+		"uniques": ["[+2] Movement"],
+		"unitTypes": ["Naval Carrier"]
+	},
+	{
+		"name": "Radar Dome",
+		"prerequisites": ["Extended Flight Deck","Secondary Armor Plating"],
+		"uniques": [
+			"[+1] Sight",
+			"Can see over obstacles"
+		],
+		"unitTypes": ["Airship"]
+	},
+	{
+		"name": "Deck Crews",
+		"prerequisites": ["Extended Flight Deck","Secondary Armor Plating"],
+		"uniques": [
+			"[+25]% Strength <when defending>",
+			"May heal outside of friendly territory",
+			"[+5] HP when healing"
+		],
+		"unitTypes": ["Naval Carrier","Airship"]
+	},
+	{
+		"name": "Mobile Airbase",
+		"prerequisites": ["Combustion","Radar Dome","Deck Crews"],
+		"uniques": [
+			"Can carry [1] extra [Aircraft] units",
+			"[+25]% Strength <vs [Air] units>"
+		],
+		"unitTypes": ["Airship"]
+	},
+	
+	// Aircraft
+	{
+		"name": "Dogfighting",
+		"uniques": ["[+50]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Conflagration",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Air Bombardment",
+		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]}] units>"],
+		"unitTypes": ["Fighter","Bomber"]
+	},
+	{
+		"name": "Interception",
+		"prerequisites": ["Dogfighting"],
+		"uniques": ["[+50]% Damage when intercepting"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Saboteur",
+		"prerequisites": ["Conflagration"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Patroleur",
+		"prerequisites": ["Air Bombardment"],
+		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]}] units>"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Air Targeting",
+		"prerequisites": ["Air Bombardment"],
+		"uniques": ["[+33]% Strength <vs [{non-air} {non-[Flying]}] units>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Sortie",
+		"prerequisites": ["Interception","Patroleur"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Evasion",
+		"prerequisites": ["Saboteur","Air Targeting"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": ["Interception","Patroleur","Saboteur","Air Targeting"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter","Bomber"]
+	},
+	{
+		"name": "Operational Range",
+		"prerequisites": ["Interception","Patroleur","Saboteur","Air Targeting"],
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Fighter","Bomber"]
+	},
+	{
+		"name": "Ace Fighter Squadron",
+		"prerequisites": ["Sortie","Air Repair","Operational Range"],
+		"uniques": [
+			"[+25]% Strength when performing Air Sweep",
+			"[+25]% Damage when intercepting"
+		],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Ace Buster",
+		"prerequisites": ["Evasion","Air Repair","Operational Range"],
+		"uniques": ["[+34]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	
+	// Mixed
+	{
+		"name": "Logistics",
+		"prerequisites": [
+			"Volley","Damage Absorb","Crew Weapons","Indirect Fire",
+			"Precision","Ambush","Shell",
+			"Helmsman","Reinforced Hull","Convoy",
+			"Navigator","Double Armor Plating","Bombardment",
+			"Mobility","Underwater Vision","Water Veteran",
+			"Sortie","Evasion","Air Repair","Operational Range"
+		],
+		"uniques": [
+			"[+1] additional attacks per turn",
+			"Can move after attacking"
+		],
+		"unitTypes": [
+			"Ranged Infantry",
+			"Siege",
+			"Anti-Air",
+			"Naval Melee",
+			"Naval Ranged",
+			"Naval Raider",
+			"Fighter",
+			"Bomber"
+		]
+	},
+	
+	// Buffs
+	{
+		"name": "Immunity",
+		"uniques": [
+			"[+1]% Strength <hidden from users>",
+			"Comment [This unit is Immune from all status ailments]",
+			
+			//Remove new debuffs
+			"[This Unit] loses the [Atrophy] status <upon gaining the [Atrophy] status> <hidden from users>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>",
+			"[This Unit] loses the [Calcifying] status <upon gaining the [Calcifying] status> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
+			"[This Unit] loses the [Conductive] status <upon gaining the [Conductive] status> <hidden from users>",
+			"[This Unit] loses the [Binded] status <upon gaining the [Binded] status> <hidden from users>",
+			"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <hidden from users>",
+			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <hidden from users>",	
+			"[This Unit] loses the [Disoriented] status <upon gaining the [Disoriented] status> <hidden from users>",
+			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status> <hidden from users>",
+			"[This Unit] loses the [Electrified] status <upon gaining the [Electrified] status> <hidden from users>",	
+			"[This Unit] loses the [Fatigued] status <upon gaining the [Fatigued] status> <hidden from users>",
+			"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
+			"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
+			"[This Unit] loses the [Petrified] status <upon gaining the [Petrified] status> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
+			"[This Unit] loses the [Ruptured] status <upon gaining the [Ruptured] status> <hidden from users>",
+			"[This Unit] loses the [Scorched] status <upon gaining the [Scorched] status> <hidden from users>",
+			"[This Unit] loses the [Silenced] status <upon gaining the [Silenced] status> <hidden from users>",
+			"[This Unit] loses the [Slowed] status <upon gaining the [Slowed] status> <hidden from users>",
+			"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status> <hidden from users>",
+			//		"[This Unit] loses the [Marked] status <upon gaining the [Marked] status> <hidden from users>",
+			//		"[This Unit] loses the [Shackled] status <upon gaining the [Shackled] status> <hidden from users>",
+			//		"[This Unit] loses the [Wet] status <upon gaining the [Wet] status> <hidden from users>",		
+			//		"[This Unit] loses the [Withered] status <upon gaining the [Withered] status> <hidden from users>",
+			
+			"[This Unit] loses the [Voltaic Rooted] status <upon gaining the [Voltaic Rooted] status> <hidden from users>",
+			"[This Unit] loses the [Voltaic Electrified] status <upon gaining the [Voltaic Electrified] status> <hidden from users>",
+					
+			//Remove existing debuffs
+			"[This Unit] loses the [Atrophy] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Calcifying] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Conductive] status <upon gaining the [Immunity] status> <hidden from users>",	
+			"[This Unit] loses the [Binded] status <upon gaining the [Immunity] status> <hidden from users>",	
+			"[This Unit] loses the [Crushed] status <upon gaining the [Immunity] status> <hidden from users>",	
+			"[This Unit] loses the [Deafened] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Disoriented] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Disrupted] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Electrified] status <upon gaining the [Immunity] status> <hidden from users>",		
+			"[This Unit] loses the [Fatigued] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Frostbitten] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Frozen] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Petrified] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Ruptured] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Scorched] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Silenced] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Slowed] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Stunned] status <upon gaining the [Immunity] status> <hidden from users>",
+			//		"[This Unit] loses the [Marked] status <upon gaining the [Immunity] status> <hidden from users>",
+			//		"[This Unit] loses the [Shackled] status <upon gaining the [Immunity] status> <hidden from users>",
+			//		"[This Unit] loses the [Wet] status <upon gaining the [Immunity] status> <hidden from users>",		
+			//		"[This Unit] loses the [Withered] status <upon gaining the [Immunity] status> <hidden from users>",	
+			
+			"[This Unit] loses the [Voltaic Rooted] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Voltaic Electrified] status <upon gaining the [Immunity] status> <hidden from users>",
+					
+		]
+	},
+	
+	// Status ailments
+	{
+		"name": "Bleeding",
+		"uniques": [
+			"Comment [Biological units take 10 damage upon turn start]",
+			//"Comment [Removed upon turn end when adjacent to a Healer]",
+			"Comment [Cannot be applied to non-Biological units]",
+			"Ailment",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <for [non-[Biological]] units> <hidden from users>",
+			"[This Unit] takes [10] damage <upon turn start> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Blinded",
+		"uniques": [
+			"Comment [Flank Attack bonuses are 50% more effecrive against this unit]",
+			"[-99] Movement",
+			"No Sight",
+			"Ailment",
+			"[-1] Range <for [Ranged] units>",
+			
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Brittle",
+		"uniques": [
+			"Comment [This Unit takes 15 damage upon losing at least 15 HP in a single attack, then remove this status.]",
+			"[This Unit] takes [15] damage <upon losing at least [15] HP in a single attack> <hidden from users>",
+			"[This Unit] takes [5] damage <upon losing at least [15] HP in a single attack> <for [WetExtra] units> <hidden from users>",
+			"[This Unit] loses the [Brittle] status <upon losing at least [15] HP in a single attack> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Burning",
+		"uniques": [
+			"Comment [Takes 10 damage upon turn start]",
+			"Comment [[Burning] is lost when in Water or River tiles]",
+			"Comment [Cleanses [Wet] and [Chilled]]",
+			"Ailment",
+			"[This Unit] loses the [Burning] status <upon turn start> <in [Water] tiles> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon turn start> <in [River] tiles> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon ending a turn in a [Water] tile> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon ending a turn in a [River] tile> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon entering a [Water] tile> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon entering a [River] tile> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Burning] status>",
+			"[This Unit] loses the [Wet] status <upon gaining the [Burning] status>",
+			"[This Unit] takes [10] damage <upon turn start> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn start> <for [PyroExtra] units> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Blazing Fire",
+		"uniques": [
+			"Comment [Takes 20 damage upon turn start. Cleanses [Wet] and [Chilled].]",
+			"Ailment",
+			"[This Unit] loses the [Burning] status <upon gaining the [Blazing Fire] status>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Burning] status>",
+			"[This Unit] loses the [Wet] status <upon gaining the [Burning] status>",
+			"[This Unit] takes [20] damage <upon turn start> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn start> <for [PyroExtra] units> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Calcifying",
+		"uniques": [
+			"Comment [Takes 5 extra damage from enemy attacks]",
+			"Ailment",
+			"[This Unit] takes [5] damage <upon losing at least [1] HP in a single attack> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Chilled",
+		"uniques": [
+			"[-10]% Strength", 
+			"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn start> <with [15]% chance> <for [non-[Wet]] units>",
+			"[This Unit] gains the [Frozen] status for [2] turn(s) <upon turn start> <with [30]% chance> <for [Wet] units>",
+			"Ailment",
+		],
+	},
+	{
+		"name": "Conductive",
+		"uniques": [
+			"Comment [Takes 5 extra damage from Lightning spells and statuses]", 
+			"Ailment",
+			"LightningExtra <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Binded",
+		"uniques": [
+			"[-99] Movement"
+			"Ailment",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Crushed",
+		"uniques": [
+			"[-15]% Strength",
+			"Ailment",
+		],
+	},
+	{
+		"name": "Deafened",
+		"uniques": [
+			"Comment [Can't cast spells, can't Flank, and takes extra Flank damage]",
+			"Ailment",
+			"[-100]% to Flank Attack bonuses <hidden from users>",
+			"NoCast <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Disarmed",	//Remember differents between these 3! Only Atrophy is Ailment
+		"uniques": [
+			"Cannot attack",
+			"Comment [Can only be applied to units with arms]",
+			
+			"[-1]% Strength <hidden from users>",
+		],
+	},
+			{	//Disarmed variants
+				"name": "Jammed",
+				"uniques": ["Cannot attack", "[This Unit] loses the [Jammed] status <upon gaining the [Jammed] status> <for [non-[Biological]] units> <hidden from users>",
+							"Comment [Cannot be applied to non-Biological units.]",
+							"[-1]% Strength <hidden from users>",
+							],
+			},
+			{
+				"name": "Atrophy",
+				"uniques": ["Cannot attack", "[This Unit] loses the [Atrophy] status <upon gaining the [Atrophy] status> <for [non-[Mechanical]] units> <hidden from users>",
+							"Comment [Cannot be applied to non-Mechanical units.]",
+							"[-1]% Strength <hidden from users>",
+							],
+			},
+	{
+		"name": "Disoriented",
+		"uniques": [
+			"Comment [Target unit will withdraws from Melee combat at 50% chance]",
+			"Ailment",
+			"[-1] Range",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Disrupted",
+		"uniques": [
+			"No defensive terrain bonus",	
+			"Ailment",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Electrified",
+		"uniques": [
+			"Comment [-1 Movement and takes 5 damage upon gaining and at turn end. Doubled for Mechanical units.]", 
+			"Ailment",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <hidden from users>",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <for [Mechanical] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <for [LightningExtra] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <for [WetExtra] units> <hidden from users>",
+			"[-1] Movement <hidden from users>",
+			"[-1] Movement <for [Mechanical] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <for [Mechanical] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <for [LightningExtra] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <for [WetExtra] units> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Fatigued",
+		"uniques": [
+			"[-10] HP when healing", "[This Unit] takes [5] damage <upon entering a [All] tile>",
+			"[This Unit] gains the [Disarmed] status for [1] turn(s) <upon entering a [All] tile>",
+			"[This Unit] loses the [Fatigued] status <upon gaining the [Fatigued] status> <for [non-[Biological]] units> <hidden from users>",
+			"Comment [Cannot be applied to non-Biological units.]",
+			"Ailment",
+			
+			"[-1]% Strength <hidden from users>",
+		],
+	},
+	{
+		"name": "Frostbitten",
+		"uniques": [
+			"Comment [Takes 10 damage upon turn start and takes 5 extra damage from Fire spells and statuses]",
+			"[This Unit] takes [10] damage <upon turn start> <hidden from users>", 
+			"[This Unit] takes [5] damage <upon turn start> <for [Wet] units> <hidden from users>", 
+			"[-1] Movement",
+			"Ailment",
+			"Comment [Cannot be applied to non-Biological units.]",
+			"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <for [non-[Biological]] units> <hidden from users>",
+			"PyroExtra <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		],
+	},
+	{
+		"name": "Frozen",
+		"uniques": [
+			"Comment [[Frozen] becomes [Frostbitten] for 1 turn upon taking damage]",
+			"[This Unit] loses [999] movement <upon turn start>",
+			"Cannot attack", "Cannot move", "[-25]% Strength", "No defensive terrain bonus", "Can only heal by pillaging",
+			"[This Unit] gains the [Frostbitten] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"[This Unit] loses the [Frozen] status <upon losing at least [1] HP in a single attack> <hidden from users>", 
+			"No Sight","NoCast <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Frozen] status>",
+			"Ailment"
+		]
+	},
+	{
+		"name": "Oiled",
+		"uniques": [
+			"Comment [-1 Movement, Fire-based spells will deal 15 extra damage, then remove [Oiled].]",
+			"Comment [Explode instantly upon applied to units affected with Fire-based statuses.]",
+			"[This Unit] takes [15] damage <upon gaining the [Oiled] status> <for [Burning] units> <hidden from users>",
+			"[This Unit] loses the [Oiled] status <upon gaining the [Oiled] status> <for [Burning] units> <hidden from users>",
+			"OiledExtra <hidden from users>",
+			"[-1] Movement <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",			
+		]
+	},
+	{
+		"name": "Petrified",
+		"uniques": [
+			"[This Unit] loses [999] movement <upon turn start>",
+			"Cannot attack", "Cannot move", "No defensive terrain bonus", "Can only heal by pillaging", "No Sight"
+			"Comment [Set duration to 2 turns when [Calcifying] is applied.]",
+			"Comment [Reduces damage taken by 50% (rounded down), up to 30 damage]",
+			"Ailment",
+			"NoCast <hidden from users>",
+			"[This Unit] gains the [Petrified] status for [3] turn(s) <upon gaining the [Calcifying] status> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Rooted",
+		"uniques": [
+			"Comment [Can't move; Can't declare Melee attack. Only affects Land units.]",
+			"Ailment",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <for [non-[Land]] units> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <in [non-[Land]] tiles> <hidden from users>",
+			"Cannot move <hidden from users>",
+			"Cannot attack <for [Melee] units> <hidden from users>",
+					
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Ruptured",
+		"uniques": [
+			"Comment [Takes 10 damage upon moving. Only affects Biological units.]",
+			"Ailment",
+			"[This Unit] loses the [Ruptured] status <upon gaining the [Ruptured] status> <for [non-[Biological]] units> <hidden from users>",
+			"[This Unit] takes [10] damage <upon entering a [All] tile> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Scorched",
+		"uniques": [
+			"[This Unit] takes [5] damage <upon turn start>",
+			"Ailment",
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Silenced",
+		"uniques": [
+			"Comment [Cannot cast spells]",
+			"Ailment",
+			"NoCast <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		],
+	},
+	{
+		"name": "Slowed",
+		"uniques": [
+			"[-1] Movement",
+			"[-1] Movement <for [Mobile] units>",
+			"Ailment",
+			
+			"[-1]% Strength <hidden from users>"
+		],
+	},
+	{
+		"name": "Stunned",
+		"uniques": [
+			"[This Unit] loses [999] movement <upon turn start>",
+			"Cannot attack",
+			"Cannot move",
+			"No defensive terrain bonus",
+			"Can only heal by pillaging",
+			"No Sight",
+			"Ailment",
+			"NoCast <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Wet",
+		"uniques": [
+			"Comment [Takes 5 extra damage from Cold and Lightning spells and statuses. Doubles any chance of being [Frozen]. Cleanses [Burning].]", "WetExtra <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Wet] status>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Voltaic Electrified",
+		"uniques": [
+			"Comment [-1 Movement and takes 5 damage upon gaining and at turn end. Doubled for Mechanical units.]", 
+			"Ailment",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <hidden from users>",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <for [Mechanical] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <for [LightningExtra] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon gaining the [Electrified] status> <for [WetExtra] units> <hidden from users>",
+			"[-1] Movement <hidden from users>",
+			"[-1] Movement <for [Mechanical] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <for [Mechanical] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <for [LightningExtra] units> <hidden from users>",
+			"[This Unit] takes [5] damage <upon turn end> <for [WetExtra] units> <hidden from users>",
+			"[This Unit] loses the [Voltaic Electrified] status <for all movement> <removing the [Voltaic Rooted] promotion/status> <for units without [Voltaic Leash Target]> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	{
+		"name": "Voltaic Rooted",
+		"uniques": [
+			"Comment [Can't move; Can't declare Melee attack. Only affects Land units.]",
+			"Ailment",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <for [non-[Land]] units> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <in [non-[Land]] tiles> <hidden from users>",					
+			"Cannot move <hidden from users>",
+			"Cannot attack <for [Melee] units> <hidden from users>",
+			
+			"[This Unit] loses the [Voltaic Rooted] status <for all movement> <removing the [Voltaic Electrified] promotion/status> <for units without [Voltaic Leash Target]> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>",
+		]
+	},
+	
+	
+	
+	// Icon & Backend purposes
+	{
+		"name": "Mana Exhaustion",
+		"uniques": [
+			"Comment [This unit has reached its spellcasting limit for the turn]",
+			"NoCast <hidden from users>"
+		]
+	},
+	{
+		"name": "Ultimate Caster",
+		"uniques": [
+			"Comment [This unit may charge its mana for an ultimate spell]",
+			//Mana Charge
+			"[This Unit] gains the [Mana Charge] status for [2] turn(s) <for all movement> <for units without [Ultimate Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Mana Charge] status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Ultimate Cooldown",
+		"uniques": ["Comment [This unit can't prepare for an ultimate spell]"]
+	},
+	{
+		"name": "Mana Charge",
+		"uniques": [
+			"Comment [This unit is charging an ultimate spell]",
+			"[+1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Cooldown",
+		"uniques": ["Comment [Cooldown is the time required before a spell can be cast again]"]
+	},
+	
+	// Free Skills
+	{
+		"name": "[Scout] ability"
+		"uniques": ["Ignores terrain cost"]
+	},
+	{
+		"name": "Aether Core",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles"]
+	},
 ]

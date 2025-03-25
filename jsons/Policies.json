@@ -126,29 +126,18 @@
 		]
 	},
 	{
-		"name": "Militarism",
+		"name": "Honor",
 		"era": "Discovery Age",
 		"uniques": [
-			"Free Social Policy",
-			//"Free [Great General] appears",
-			"[+1 Happiness] [in capital]",
+			"Only available <before adopting [Weaponry]> <before adopting [Wizardry]>",
+			"[+33]% Strength <vs [Barbarian] units>",
+			"[+25]% Production when constructing [Barracks] buildings [in all cities]",
+			"[+25]% Production when constructing [Forge] buildings [in all cities]",
+			"[+25]% Production when constructing [Riding Arena] buildings [in all cities]",
+			"[+25]% Production when constructing [Armory] buildings [in all cities]",
+			"Comment [Unlocks [Namari]]"
 		],
 		"policies": [
-			{
-				"name": "Honor",
-				"uniques": [
-					"Only available <before adopting [Weaponry]> <before adopting [Wizardry]>",
-					"[+33]% Strength <vs [Barbarian] units>",
-					"[+25]% Production when constructing [Barracks] buildings [in all cities]",
-					"[+25]% Production when constructing [Forge] buildings [in all cities]",
-					"[+25]% Production when constructing [Stirrups] buildings [in all cities]",
-					"[+25]% Production when constructing [Armory] buildings [in all cities]",
-					"Comment [Unlocks [Namari]]"
-					//"Comment [Free adopt: be the first to kill Beast units]"
-				],
-				"row": 1,
-				"column": 3
-			},
 			{
 				"name": "Warrior Code",
 				"uniques": [
@@ -171,14 +160,20 @@
 					"Comment [Free strongest available Infantry, Anti-Armor, Mounted unit appears]",
 					//"Comment [Free adopt: be the first to kill Beast units]"
 				],
-				"requires": ["Honor"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Military Tradition",
+				"uniques": ["[+50]% XP gained from combat <for [Military] units>"],
+				"requires": ["Warrior Code"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Discipline",
-				"uniques": ["[+15]% Strength <for [{Melee} {non-[Mage]}] units> <when adjacent to a [Melee {non-[Mage]}] unit>"],
-				"requires": ["Honor"],
+				"uniques": ["[+15]% Strength <for [{Melee} {non-[Mage]}] units> <when adjacent to a [{Melee} {non-[Mage]}] unit>"],
+				"requires": ["Warrior Code"],
 				"row": 2,
 				"column": 3
 			},
@@ -190,35 +185,38 @@
 					"[+15]% Production when constructing [Mounted] units [in all cities]",
 					"[+2 Happiness] from every [Armory]"
 				],
-				"requires": ["Honor"],
 				"row": 2,
 				"column": 5
 			},
 			{
-				"name": "Military Tradition",
-				"uniques": [
-					"[+50]% XP gained from combat <for [Military] units>",
-					"Provides [1] [Militarism Card] <hidden from users>"
-				],
-				"requires": ["Warrior Code","Discipline","Doctrine"],
+				"name": "Professional Army",
+				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+				"requires": ["Discipline","Doctrine"],
 				"row": 3,
-				"column": 3
+				"column": 4
 			},
-			
 			{
-				"name": "Weaponry",
+				"name": "Honor Complete",
 				"uniques": [
-					"Only available <before adopting [Honor]> <before adopting [Wizardry]>",
-					"[+33]% Strength <vs [Barbarian] units>",
-					"Gain a free [Siege Workshop] [in capital]",
-					"[+25]% Production when constructing [Shooting Range] buildings [in all cities]",
-					"[+25]% Production when constructing [Siege Workshop] buildings [in all cities]",
-					"[+25]% Production when constructing [Arsenal] buildings [in all cities]",
-					"Comment [Unlocks [Gerude]]"
-				],
-				"row": 1,
-				"column": 9
-			},
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Weaponry",
+		"era": "Discovery Age",
+		"uniques": [
+			"Only available <before adopting [Honor]> <before adopting [Wizardry]>",
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Gain a free [Siege Workshop] [in capital]",
+			"[+25]% Production when constructing [Shooting Range] buildings [in all cities]",
+			"[+25]% Production when constructing [Siege Workshop] buildings [in all cities]",
+			"[+25]% Production when constructing [Arsenal] buildings [in all cities]",
+			"Comment [Unlocks [Gerude]]"
+		],
+		"policies": [
 			{
 				"name": "Siege Mastery",
 				"uniques": [
@@ -233,19 +231,25 @@
 					"[+1] additional attacks per turn <for [Ranged Infantry] units> <for [10] turns>",
 					//"Comment [Free adopt: be the first to discover [Engineering]]"
 				],
-				"requires": ["Weaponry"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Adaptive Tactics",
+				"uniques": ["[+50]% XP gained from combat <for [Military] units>"],
+				"requires": ["Siege Mastery"],
 				"row": 2,
-				"column": 7
+				"column": 1
 			},
 			{
 				"name": "Ballistics",
-				//"uniques": [
-					//"[Ranged Infantry] units gain the [Indirect Fire] promotion",
-					//"[Siege] units gain the [Indirect Fire] promotion"
-				//],
-				"requires": ["Weaponry"],
+				"uniques": [
+					"[Ranged Infantry] units gain the [Indirect Fire] promotion",
+					"[Siege] units gain the [Indirect Fire] promotion"
+				],
+				"requires": ["Siege Mastery"],
 				"row": 2,
-				"column": 9
+				"column": 3
 			},
 			{
 				"name": "Siege Engineers",
@@ -255,45 +259,69 @@
 					"[+15]% Production when constructing [Anti-Air] units [in all cities]",
 					"[+2 Happiness, +1 Production] from every [Arsenal]"
 				],
-				"requires": ["Weaponry"],
 				"row": 2,
-				"column": 11
+				"column": 5
 			},
 			{
-				"name": "Adaptive Tactics",
-				"uniques": [
-					"[+50]% XP gained from combat <for [Military] units>",
-					"Provides [1] [Militarism Card] <hidden from users>"
-				],
-				"requires": ["Siege Mastery","Ballistics","Siege Engineers"],
+				"name": "Scavenged Parts",
+				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
+				"requires": ["Ballistics","Siege Engineers"],
 				"row": 3,
-				"column": 9
+				"column": 4
 			},
-			
 			{
-				"name": "Wizardry",
+				"name": "Weaponry Complete",
 				"uniques": [
-					"Only available <before adopting [Honor]> <before adopting [Weaponry]>",
-					"[+33]% Strength <vs [Barbarian] units>",
-					"Provides a [Arcane Spire] in your first [5] cities for free",
-					"[+1 Happiness] [in capital]",
-					"Comment [Unlocks [Lonoyx]]"
-				],
-				"row": 1,
-				"column": 15
-			},
+					"[-33]% Gold cost of upgrading <for [Military] units>",
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Wizardry",
+		"era": "Discovery Age",
+		"uniques": [
+			"Only available <before adopting [Honor]> <before adopting [Weaponry]>",
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Provides a [Arcane Spire] in your first [5] cities for free",
+			"Provides a [Academy of Magic] in your first [5] cities for free <after discovering [Mana Crystallization]>",
+			"Comment [Unlocks [Lonoyx]]"
+		],
+		"policies": [
 			{
 				"name": "Potion Making",
 				"uniques": [
 					"[+1 Science] from every [Academy of Magic]",
 					"[+1 Science] from every [Jungle]",
 					"Provides [1] [Healing Leaves] <hidden from users>",
-					"Comment [Unlock active skill [Potent Healing Potion]]",
+					"Comment [Unlocks [Potent Healing Potion]]",
 					//"Comment [Free adopt: construct Olvaqihr]"
 				],
-				"requires": ["Wizardry"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Aeter Cores",
+				"uniques": [
+					"[Construct] units gain the [Aether Core] promotion",
+					"[+2 Culture] from every [Beacon of Power]",
+					//"Comment [Unlock active skill [Panacaea]]"
+				],
+				"requires": ["Potion Making"],
 				"row": 2,
-				"column": 13
+				"column": 1
+			},
+			{
+				"name": "Spellweaving",
+				"uniques": [
+					"[+25]% XP gained from combat <for [Military] units>",
+					"[+25]% XP gained from combat <for [Mage] units>",
+					"[+2 Happiness] from every [Mystic Crucible]"
+				],
+				"requires": ["Potion Making"],
+				"row": 2,
+				"column": 3
 			},
 			{
 				"name": "Runic Glyphs",
@@ -302,51 +330,884 @@
 					"Double quantity of [Soulstone] produced",
 					"[+50]% Production when constructing [Rune Forge] buildings [in all cities]"
 				],
-				"requires": ["Wizardry"],
 				"row": 2,
-				"column": 15
+				"column": 5
 			},
 			{
-				"name": "Aeter Cores",
-				"uniques": [
-					"[+25]% Strength <for [Mage] units> <vs [Construct] units>",
-					//"[Construct] units gain the [Aether Core] promotion", exert GG aura?
-					"[+2 Culture] from every [Beacon of Power]"
-				],
-				"requires": ["Wizardry"],
-				"row": 2,
-				"column": 17
-			},
-			{
-				"name": "Spellweaving",
-				"uniques": [
-					"[+25]% XP gained from combat <for [Military] units>",
-					"[+25]% XP gained from combat <for [Mage] units>",
-					"Comment [Unlock active skill [Panacaea]]",
-					"Provides [1] [Militarism Card] <hidden from users>"
-				],
-				"requires": ["Potion Making","Runic Glyphs","Aeter Cores"],
+				"name": "Enchanted Tools",
+				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+				"requires": ["Spellweaving","Runic Glyphs"],
 				"row": 3,
-				"column": 15
+				"column": 4
 			},
-			
 			{
-				"name": "Professional Army",
+				"name": "Wizardry Complete",
 				"uniques": [
-					"Only available <with [Militarism Card]>",
-					"[-33]% Gold cost of upgrading <for [Military] units>",
-					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-				],
-				"row": 3,
-				"column": 19
-			},
-			
-			{
-				"name": "Militarism Complete",
-				"uniques": [
-					"[-5]% Culture cost of adopting new Policies"
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+					"May buy [Great Sage] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>"
 				]
 			}
 		]
 	},
+	{
+		"name": "Mysticism",
+		"era": "Discovery Age",
+		"uniques": [
+			"Only available <before adopting [Rationalism]>",
+			"[+1 Faith] from every [Altar]",
+			"[+1 Faith] from every [Temple]",
+			"[+1 Faith] from every [Mawene]",
+			"[+1 Faith] from every [Man-eating tree]",
+			"[-100]% weight to this choice for AI decisions <when religion is disabled>",
+			"Comment [Unlocks [Shinkokan]]"
+		],
+		"policies": [
+			{
+				"name": "Theocracy",
+				"uniques": ["[+10]% [Gold] from every [Temple]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Mandate of Heaven",
+				"uniques": [
+					"May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+					"Gain a free [Enhancer] belief <after founding a religion>"
+				],
+				"requires": ["Theocracy"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Postulants",
+				"uniques": [
+					"Comment [Enables construction of Monk]",
+					"May buy [Monk] units with [Faith] for [1] times their normal Production cost",
+					"Provides [1] [Postulant Card] <hidden from users>"
+				],
+				"requires": ["Theocracy"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Organized Religion",
+				"uniques": ["[Faith] cost of purchasing items in cities [-20]%"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Holy Sriptures",
+				"uniques": ["[-10]% Culture cost of adopting new Policies"],
+				"requires": ["Postulants","Organized Religion"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Mysticism Complete",
+				"uniques": [
+					"Free [Great Prophet] appears",
+					"[+2 Culture] from every [Holy site]",
+					"[+2 Faith] from every [Man-eating tree]",
+					"Comment [Enables construction of [Master]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Patronage",
+		"era": "Enlightenment Age",
+		"uniques": [
+			"[-25]% City-State Influence degradation",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>",
+			"Comment [Unlocks [Abon Union]]"
+		],
+		"policies": [
+			{
+				"name": "Philanthropy",
+				"uniques": ["Gifts of Gold to City-States generate [25]% more Influence"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Cultural Diplomacy",
+				"uniques": [
+					"[+100]% resources gifted by City-States",
+					"[+50]% Happiness from luxury resources gifted by City-States"
+				],
+				"requires": ["Philanthropy"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Apprenticeship",
+				"uniques": ["Allied City-States provide [Science] equal to [25]% of what they produce for themselves"],
+				"requires": ["Philanthropy"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Consulates",
+				"uniques": ["Resting point for Influence with City-States is increased by [20]"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Educated Elite",
+				"uniques": ["Allied City-States will occasionally gift Great People"],
+				"requires": ["Apprenticeship","Consulates"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Patronage Complete",
+				"uniques": [
+					"Influence of all other civilizations with all city-states degrades [33]% faster",
+					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Commerce",
+		"era": "Enlightenment Age",
+		"uniques": [
+			"[+100]% Gold from Great Merchant trade missions",
+			"Comment [Unlocks [Aldaka-Mar]]"
+		],
+		"policies": [
+			{
+				"name": "Trade Union",
+				"uniques": [
+					"[-33]% maintenance on road & railroads",
+					"[+1 Gold] from each Trade Route"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Entrepreneurship",
+				"uniques": [
+					"[Great Merchant] is earned [25]% faster",
+					"[+1 Science] from every [Trading Post]",
+					"[+1 Science] from every [Market]",
+					"[+1 Science] from every [Bank]"
+				],
+				"requires": ["Trade Union"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Merchant Navy",
+				"uniques": [
+					"[+3 Production] [in all coastal cities]",
+					"[+20]% Production when constructing [Lighthouse] buildings [in all coastal cities]",
+					"[+20]% Production when constructing [Harbor] buildings [in all coastal cities]",
+					"[+20]% Production when constructing [Seaport] buildings [in all coastal cities]"
+				],
+				"requires": ["Trade Union"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Mercenary Army",
+				"uniques": ["[Gold] cost of purchasing [Mercenary] units [-25]%"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Protectionism",
+				"uniques": ["[+2] Happiness from each type of luxury resource"],
+				"requires": ["Merchant Navy","Mercenary Army"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Commerce Complete",
+				"uniques": [
+					"Comment [Enables construction [Information Market]]",
+					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Culturalism",
+		"era": "Enlightenment Age",
+		"uniques": [
+			"[+1 Production, +1 Gold, +1 Science, +1 Culture, +1 Happiness] from every [Palace]",
+			"Comment [Unlocks [Leyheart]]"
+		],
+		"policies": [
+			{
+				"name": "Wisdom",
+				"uniques": ["[50]% of excess happiness converted to [Culture]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Inheritance",
+				"uniques": [
+					"[+10]% [Gold] from every [Treasury]",
+					"[+10]% [Culture] from every [Valor Monument]"
+				],
+				"requires": ["Wisdom"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Natural Inspiration",
+				"uniques": [
+					"[+2 Culture] from every [Landmark]",
+					"[+1 Culture] from every [Aurora]",
+					"[+1 Culture] from every [Mangrove Forest]",
+					"[+1 Science] from every [Ice-calator]",
+					"[+1 Science] from every [Beacon of Power]"
+				],
+				"requires": ["Wisdom"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Cultural Exchange",
+				"uniques": [
+					"[+50]% Production when constructing [Culture] buildings [in all cities]",
+					"[+1 Culture] from all [Culture] buildings"
+				],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Flourishing of the Arts",
+				"uniques": [
+					"[+33]% [Culture] [in all cities with a world wonder]",
+					"Empire enters golden age"
+				],
+				"requires": ["Natural Inspiration","Cultural Exchange"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Culturalism Complete",
+				"uniques": [
+					"Free Social Policy",
+					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>",
+					"[+1 Happiness] [in capital]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Rationalism",
+		"era": "Enlightenment Age",
+		"uniques": [
+			"Only available <before adopting [Mysticism]>",
+			"[+10]% [Science] <while the empire is happy>",
+			"Comment [Unlocks [Library of Grimoire]]"
+		],
+		"policies": [
+			{
+				"name": "Sovereignty",
+				"uniques": [
+					"[+1 Gold] from all [Science] buildings"
+					"[+20]% Production when constructing [Science] buildings [in all cities]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Free Thought",
+				"uniques": [
+					"[+1 Science] from every specialist [in all cities]",
+					"[+17]% [Science] from every [Public School]"
+				],
+				"requires": ["Sovereignty"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Skepticism",
+				"uniques": [
+					"[Great Scholar] is earned [20]% faster",
+					"[+1 Production, +2 Science, -1 Faith] from every [Man-eating tree]"
+				],
+				"requires": ["Sovereignty"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Humanism",
+				"uniques": ["[+1 Happiness] from all [Science] buildings"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Scientific Revolution",
+				"uniques": ["Science gained from research agreements [+50]%"],
+				"requires": ["Skepticism","Humanism"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Rationalism Complete",
+				"uniques": [
+					"Free Technology",
+					"May buy [Great Scholar] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>",
+					"[+1 Happiness] [in capital]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sanctuary Pact",
+		"era": "Magi-Industry Age",
+		"uniques": [
+			"Only available <before adopting [Order]> <before adopting [Supremacy]>",
+			"[+25]% Great Person generation [in all cities]",
+			"Comment [Unlocks something]"
+		],
+		"policies": [
+			 {
+				"name": "Constitution",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+2 Culture] from every [Wonder]",
+					//"[-50]% weight to this choice for AI decisions"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Self-Determination",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+33]% Strength for cities <when defending>",
+					"[-50]% weight to this choice for AI decisions"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Civil Society",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[-50]% Food consumption by specialists [in all cities]"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Whispers of the Veil",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+100]% spy effectiveness [City-States]",
+					//Unique for rigging elections
+					"Gain an extra spy"
+				],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Economic Union",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+25]% [Gold] [in all cities]"
+				],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Prosperity",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+1 Happiness] from every [Trading Post]",
+					"[+1 Happiness] from every [Market]",
+					"[+1 Happiness] from every [Bank]"
+				],
+				"row": 1,
+				"column": 11
+			},
+			
+			{
+				"name": "Volunteer Army",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[6] units cost no maintenance",
+					"Free [Great General] appears"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Mago-Urbanization",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+1 Happiness, +2 Production] from every [Rune Forge]",
+					"[+1 Happiness, +2 Production] from every [Factory]"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Harmony",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[-50]% Unhappiness from [Specialists] [in all cities]",
+					"[+50]% Golden Age length"
+				],
+				"row": 2,
+				"column": 6
+			},
+			{
+				"name": "Universal Healthcare",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+100]% Production when constructing [Hospital] buildings [in all cities]",
+					"[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
+					"[+5 Food] [in capital]"
+				],
+				"row": 2,
+				"column": 8
+			},
+			{
+				"name": "Free Religion",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+1 Culture, +1 Happiness] from every [Temple]",
+					"[+10]% [Science] from every [Grand Temple]"
+				],
+				"row": 2,
+				"column": 10
+			},
+			
+			{
+				"name": "Treaty Organization",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"[+1 Production, +1 Gold] from every specialist [in all cities]"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Echoes of the Greats",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"Comment [Great Improvement provide +4 of the relevant yield]"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Hero of the People",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					//"All healing effects doubled <for [Heroes] units>"
+				],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Sage's Haven",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"[+100]% Yield from every [Ley Line]",
+					"[+100]% Yield from every [Artificial Ley Line]",
+					"[+100]% Yield from every [Sage Tower]"
+				],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "Sanctuary Pact Complete",
+				"uniques": ["Comment [none]"],
+			}
+		]
+	},
+	{
+		"name": "Order",
+		"era": "Magi-Industry Age",
+		"uniques": [
+			"Only available <before adopting [Sanctuary Pact]> <before adopting [Supremacy]>",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Comment [Unlocks something]"
+		],
+		"policies": [
+			{
+				"name": "Planned Economy",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+25]% Great Person generation [in all cities]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Nationalism",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Realism",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+2 Happiness] from every [Monument]",
+					"[+100]% Production when constructing [Monument] buildings [in all cities]"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Secrecy",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[-100]% enemy spy effectiveness [in all cities connected to capital]"
+				],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Standardized Architecture",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+20]% Production towards any buildings that already exist in the Capital",
+					"[-10]% maintenance cost for buildings [in all cities]"
+				],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Young Pioneers",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+1 Happiness] from every [Workshop]",
+					"[+1 Happiness] from every [Factory]"
+				],
+				"row": 1,
+				"column": 11
+			},
+			
+			{
+				"name": "Training Modules",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"New [Mercenary] units start with [10] XP [in all cities]"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Resettlements",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+3] population [in this city] <upon founding a city> <hidden from users>",
+					"Comment [New Cities has +3 Population]",
+					"Gain a free [Monument] [in this city] <upon founding a city> <hidden from users>",
+					"Gain a free [Granary] [in this city] <upon founding a city> <hidden from users>",
+					"Gain a free [Workshop] [in this city] <upon founding a city> <hidden from users>",
+					"Comment [New Cities has [Monument], [Granary], and [Workshop] already built]"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Academy of Sciences",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+1 Happiness, +1 Science] from every [Public School]",
+					"[+1 Happiness, +1 Science] from every [Campus]",
+					"[+1 Happiness, +1 Science] from every [Research Lab]"
+				],
+				"row": 2,
+				"column": 6
+			},
+			{
+				"name": "Workers Faculties",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+25]% [Science] from every [Factory]",
+					"[+100]% Production when constructing [Factory] buildings [in all cities]"
+				],
+				"row": 2,
+				"column": 8
+			},
+			{
+				"name": "Self-Sustaining Foundries",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+2 Production] [in all cities]",
+					"[+1 Production] from every [Mine]",
+					"[+1 Production] from every [Quarry]",
+					"[+1 Production] from every [Aquarry]"
+				],
+				"row": 2,
+				"column": 10
+			},
+			
+			{
+				"name": "Home for All",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"Gain a free [Courthouse] [in annexed cities]",
+					"[+2 Food, +2 Production] [in all cities]"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Great Leap Forward",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"[2] Free Technologies"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Nurturing Programs",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					// +50% XP for heroes
+					// maybe also unit with the same class as the heroes?
+					// wall of texts :(
+				],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "Masterwork Constructs",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"[+20]% Strength <for [Construct] units>",
+					//"[Construct] units gain the [Core Efficiency] promotion",
+				],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "Order Complete",
+				"uniques": [
+					"Comment [none]",
+				]
+			}
+		]
+	},
+	{
+		"name": "Supremacy",
+		"era": "Magi-Industry Age",
+		"uniques": [
+			"Only available <before adopting [Sanctuary Pact]> <before adopting [Order]>",
+			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+			"Comment [Unlocks something]"
+		],
+		"policies": [
+			{
+				"name": "Commission",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"Military Units gifted from City-States start with [10] XP",
+					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Elite Forces",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+25]% Strength <for [Wounded] units>",
+					"[+100]% weight to this choice for AI decisions"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Iron Fist",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+50]% [Food] from City-States",
+					"[+50]% [Production] from City-States",
+					"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Censorship",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+1 Happiness] [in all cities] <when below [1] Happiness>"
+				],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Mobilization",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[Gold] cost of purchasing [All] units [-25]%",
+					"[-25]% maintenance costs <for [All] units>"
+				],
+				"row": 1,
+				"column": 9
+			},
+			{
+				"name": "Fortified Borders",
+				"uniques": [
+					"Provides [1] [Level 1 Ideology] <hidden from users>",
+					"[+1 Happiness] from every [Walls]",
+					"[+1 Happiness] from every [Castle]",
+					"[+1 Happiness] from every [Military Base]"
+				],
+				"row": 1,
+				"column": 11
+			},
+			
+			{
+				"name": "Lightning Warfare",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+2] Movement <for [Great General] units>",
+					"[+1] Movement <for [Infantry] units>",
+					"[+1] Movement <for [Mounted] units>",
+					"[+1] Movement <for [Anti-Armor] units>",
+					// Mounted unit Ignores Zone of Control
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Propaganda",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"Cities are razed [2] times as fast",
+					"[+1 Happiness] from every [Arena]",
+					"[+1 Happiness] from every [Military Academy]"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Militarism",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+3 Happiness] from every [Courthouse]",
+					//"[+3 Happiness] from every [National Intelligence Agency]",
+					"[+100]% Production when constructing [Courthouse] buildings [in all cities]"
+				],
+				"row": 2,
+				"column": 6
+			},
+			{
+				"name": "Third Alternative",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"Double quantity of [Horses] produced",
+					"Double quantity of [Iron] produced",
+					"[+5 Food, +5 Science] [in capital]"
+				],
+				"row": 2,
+				"column": 8
+			},
+			{
+				"name": "Total War",
+				"uniques": [
+					"Provides [1] [Level 2 Ideology] <hidden from users>",
+					"Provides [-1] [Level 1 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 1 Ideology]>",
+					"[+25]% Production when constructing [Military] units [in all cities]",
+					"New [Military] units start with [15] XP [in all cities]"
+				],
+				"row": 2,
+				"column": 10
+			},
+			
+			{
+				"name": "Beast Control",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"Double quantity of [Mythical Egg] produced",
+					"Comment [May capture killed Barbarians unit]"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Martial Spirit",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"[+25]% Strength <for [All] units> <for [50] turns>"
+				],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Living Legends",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"Comment [May choose 1 additional Hero]",
+					"Comment [Recover [Fate] used to summon Heroes and activate their skill by half]"
+				],
+				"row": 3,
+				"column": 7
+			},
+			{
+				"name": "War Mages",
+				"uniques": [
+					"Provides [-1] [Level 2 Ideology] <hidden from users>",
+					"Only available <when above [1] [Level 2 Ideology]>",
+					"[+20]% Strength <for [Mage] units>",
+					"Comment [Recover [Aether] used to train construct Heroes and activate their skill by half]"
+				],
+				"row": 3,
+				"column": 9
+			},
+			{
+				"name": "Supremacy Complete",
+				"uniques": ["Comment [none]"]
+			}
+		]
+	}
 ]

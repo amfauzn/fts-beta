@@ -7,6 +7,7 @@
 		"techRequired": "Calendar",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Does not need removal of [Permafrost] <hidden from users>",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Pillaging this improvement yields approximately [+6 Gold]",
@@ -30,11 +31,12 @@
 	},*/
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Mangrove"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
 		"uniques": [
+			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Production] <after discovering [Alchemy]>",
 			"Pillaging this improvement yields approximately [+3 Gold]"
 		],
@@ -47,6 +49,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
+			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Production] <after discovering [Metallurgy]>",
 			"Pillaging this improvement yields approximately [+8 Gold]"
 		],
@@ -62,6 +65,7 @@
 			"Can only be built on [Hill] tiles",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Pillaging this improvement yields approximately [+6 Gold]"
@@ -79,7 +83,7 @@
 			"[+1 Production] <after discovering [Runeforging]>",
 			"[+1 Gold] <after discovering [Mana Battery]>",
 			"Can only be built to improve a resource",
-			"Provides [3] [Aether] <after discovering [Leyline Siphoning]>",
+			"Provides [2] [Aether] <after discovering [Leyline Siphoning]>",
 			"Pillaging this improvement yields approximately [+12 Gold]"
 		],
 		"shortcutKey": "B",
@@ -94,6 +98,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Gold] <after discovering [Economics]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -122,6 +127,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Irrigation",
 		"uniques": [
+			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -136,6 +142,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": [
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Does not need removal of [Permafrost] <hidden from users>",
 			"[+1 Production] <after discovering [Metallurgy]>",
 			"Can only be built to improve a resource",
@@ -154,6 +161,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Does not need removal of [Permafrost] <hidden from users>",
 			"[+1 Production, +1 Gold] <after discovering [Archaeology]>",
 			"Can only be built to improve a resource", 
@@ -166,10 +174,12 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"terrainsCanBeBuiltOn": ["Coast","Shallow Ocean","Lakes"],
 		"food": 1,
+		"turnsToBuild": 8,
 		"techRequired": "Fishing",
 		"uniques": [
+			"Does not need removal of [Mangrove]",
 			"Does not need removal of [Atoll] <hidden from users>",
 			"[+1 Gold] <after discovering [Navigation]>", 
 			"Can only be built to improve a resource",
@@ -177,6 +187,20 @@
 		],
 		"civilopediaText": [
 			{"text": "Boats to harvest the valuable resources in the sea, and lakes."}
+		]
+	},
+	{
+		"name": "Aquarry",
+		"production": 1,
+		"techRequired": "Archaeology",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Can only be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
+		"shortcutKey": "Q",
+		"civilopediaText": [
+			{"text": "In-and-on-top-of-water version of the Quarry."}
 		]
 	},
 	
@@ -271,6 +295,21 @@
 		]
 	},
 	{
+		"name": "Remove Mangrove",
+		"turnsToBuild": 6,
+		"techRequired": "Sailing",
+		"uniques": [
+			//"Only available <for units without [Nature Keeper]>",
+			"Can be built outside your borders",
+			"Excluded from map editor",
+			//"Only available <for units without [Nature Keeper]>"
+		],
+		"shortcutKey": "X",
+		"civilopediaText": [
+			{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}
+		]
+	},
+	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
 		"techRequired": "Irrigation",
@@ -339,6 +378,23 @@
 		]
 	},
 	
+	// Special improvements
+	{
+		"name": "Artificial Ley Line",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"uniques": [
+			"Cannot be built on [Mountain] tiles",
+			"[+1 Gold] <after discovering [Mana Battery]>",
+			"Provides [2] [Aether]",
+			"Pillaging this improvement yields approximately [+12 Gold]"
+		],
+		//"shortcutKey": "B",
+		"civilopediaText": [
+			{"text": "An artificial ley line created as a result of mana studies."}
+		]
+	},
+	
 	// Great Person improvements
 	{
 		"name": "Academy",
@@ -403,6 +459,23 @@
 		],
 		"civilopediaText": [
 			{"text": "A bustling center of commerce that serves as a key node in vast trade networks. Attracting merchants, artisans, and travelers from distant lands, these hubs facilitate the smooth exchange of goods, currencies, and valuable resources across regions."}
+		]
+	},
+	{
+		"name": "Sage Tower",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"happiness": 2,
+		"uniques": [
+			"Great Improvement",
+			"Provides [5] [Aether]",
+			"Provides [3] [Aether] <after discovering [Quintessence Powers]>",
+			"Unbuildable <in [Mountain] tiles>",
+            "Removes removable features when built",
+            "Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"civilopediaText": [
+			{"text": "A sanctuary of knowledge and enlightenment, where sages meditate, study, and unravel the mysteries of the universe. These towers serve as centers of wisdom, guiding civilizations with their vast knowledge of magic, philosophy, and the divine."}
 		]
 	},
 	{
