@@ -230,4 +230,122 @@
 		"color": "#e89220",
 		"excludedDifficulties": ["Prince","King","Emperor","Immortal","Deity","Omnipotence"]
 	},
+	
+	// Military
+	{
+		"name": "your exploring unit receives training",
+		"notification": "An elder trained us in their ways of combat!",
+		"uniques": ["[This Unit] gains [15] XP"],
+		"weight": 9,
+		"color": "#20afe8"
+	},
+	{
+		"name": "hell training",
+		"notification": "Your men experience a hellish training!",
+		"uniques": [
+			"[This Unit] gains [30] XP",
+			"Only available <after turn number [40]>"
+		],
+		"weight": 7,
+		"color": "#20afe8"
+	},
+	{
+		"name": "advanced weaponry for your explorer",
+		"notification": "Our unit finds advanced weaponry hidden in the ruins!",
+		"uniques": ["[This Unit] upgrades for free including special upgrades"],
+		"weight": 7,
+		"color": "#20afe8"
+	},
+	{
+		"name": "levied spearman",
+		"notification": "A young [Spearman] has joined us!",
+		"uniques": [
+			"Free [Spearman] found in the ruins",
+			"Only available <after turn number [20]>",
+			"Only available <before turn number [120]>"
+		],
+		"weight": 8,
+		"color": "#20afe8"
+	},
+	{
+		"name": "levied skirmisher",
+		"notification": "A skilled [Skirmisher] has joined us!",
+		"uniques": [
+			"Free [Skirmisher] found in the ruins",
+			"Only available <after turn number [20]>",
+			"Only available <before turn number [120]>"
+		],
+		"weight": 8,
+		"color": "#20afe8"
+	},
+	
+	// Maps
+	{
+		"name": "reveal nearby Dungeon",
+		"notification": "You find evidence of sudden dungeon formation. Nearby dungeons are revealed!",
+		"uniques": [
+			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius",
+			"Only available <before turn number [250]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "reveal nearby Bonus resource",
+		"notification": "You found notes of fertile lands in the area!",
+		"uniques": [
+			"Reveal up to [All] [Bonus resource] within a [10] tile radius",
+			"Only available <before turn number [100]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "reveal nearby Luxury resource",
+		"notification": "You found notes of rare and valueable resources!",
+		"uniques": [
+			"Reveal up to [All] [Luxury resource] within a [7] tile radius",
+			"Only available <before turn number [100]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "find a crudely-drawn map",
+		"notification": "We have found a broken map left by a failed dungeon explorer!",
+		"uniques": [
+			"From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [70]% chance",
+			"Only available <before turn number [100]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "find a well-drawn map",
+		"notification": "We have found a map in the dungeon!",
+		"uniques": [
+			"From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance",
+			"Only available <before turn number [250]>"
+		],
+		"weight": 7
+	},
+	{
+		"name": "a big map barter",
+		"notification": "Bravo, we just bought a big map from a fellow adventurer!",
+		"uniques": [
+			"From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [8] tiles away with [100]% chance",
+			"Gain [-10] [Gold]",
+			"Only available <before the [Modern Age]>"
+		],
+		"weight": 6
+	},
+	
+	// Triggerable
+	{
+		"name": "into era of greatness",
+		"notification": "Solving a potential problem bring us to the era of greatness",
+		"uniques": [
+			"Empire enters golden age",
+			"Only available <after turn number [100]>"
+		],
+		"weight": 8,
+		"color": "#cf8ff7",
+		"excludedDifficulties": ["Deity","Omnipotence"]
+	}
 ]

@@ -1275,6 +1275,68 @@
 		]
 	},
 	
+	// Mercenary
+		
+	// Tamer
+	
+	// Heroes
+	
+	
+	// Monster/Beast
+	{
+		"name": "Slime",
+		"unitType": "Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 20,
+		"obsoleteTech": "Leyline Siphoning",
+		"uniques": [
+			"[+200]% Strength <vs [non-[Mage]] units> <when defending>",
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Gargantuan Slime",
+		"unitType": "Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 40,
+		"obsoleteTech": "Leyline Siphoning",
+		"uniques": [
+			"Boss",
+			"[+200]% Strength <when defending>",
+			"[3] free [Slime] units appear <upon being defeated>",
+			"Limited to [1] per Civilization", 
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Giant Rat",
+		"unitType": "Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Calendar",
+		"obsoleteTech": "Engineering",
+		//"promotions": ["Vermin Bite"],
+		"uniques": ["[+15]% Strength <vs [Foot] units> <when attacking>"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	
 	// Great People
 	{

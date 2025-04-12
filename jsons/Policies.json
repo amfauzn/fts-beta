@@ -65,7 +65,7 @@
 		"name": "Consolidation",
 		"era": "Restoration Age",
 		"uniques": [
-			"[-10]% Culture cost of natural border growth [in all cities]",
+			"[+1 Culture] from every [Monument]",
 			"[+1 Happiness] [in capital]",
 			"Comment [Unlocks [Dwuiltunad]]"
 		],
@@ -343,7 +343,7 @@
 			{
 				"name": "Wizardry Complete",
 				"uniques": [
-					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+					"Provides [5] [Magician]",
 					"May buy [Great Sage] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>"
 				]
 			}
@@ -910,7 +910,7 @@
 					"Provides [1] [Level 2 Ideology] <hidden from users>",
 					"Provides [-1] [Level 1 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 1 Ideology]>",
-					"New [Mercenary] units start with [10] XP [in all cities]"
+					"New [Mercenary] units start with [10] XP [in all cities]",
 				],
 				"row": 2,
 				"column": 2
@@ -923,10 +923,9 @@
 					"Only available <when above [1] [Level 1 Ideology]>",
 					"[+3] population [in this city] <upon founding a city> <hidden from users>",
 					"Comment [New Cities has +3 Population]",
-					"Gain a free [Monument] [in this city] <upon founding a city> <hidden from users>",
 					"Gain a free [Granary] [in this city] <upon founding a city> <hidden from users>",
 					"Gain a free [Workshop] [in this city] <upon founding a city> <hidden from users>",
-					"Comment [New Cities has [Monument], [Granary], and [Workshop] already built]"
+					"Comment [New Cities has [Granary] and [Workshop] already built]"
 				],
 				"row": 2,
 				"column": 4

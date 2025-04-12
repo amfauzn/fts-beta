@@ -91,6 +91,7 @@
 		"uniques": [
 			"Comment [Enables training Ranged Infantry units]",
 			//"Free [Archer] appears",
+			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Archery"
@@ -115,6 +116,7 @@
 		"uniques": [
 			"Comment [Enables training Naval units]",
 			//"Free [Trireme] appears",
+			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Sailing"
@@ -178,6 +180,7 @@
 		"uniques": [
 			"Comment [Enables training Anti-Armor units]",
 			//"Free [Spearman] appears",
+			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -191,6 +194,7 @@
 		"uniques": [
 			"Comment [Enables training Mage & Golem units]",
 			//"Free [Priest] appears",
+			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mana Thaumaturgy"
@@ -220,6 +224,7 @@
 		"uniques": [
 			"Comment [Enables training Siege and Anti-Air units]",
 			//"Free [Catapult] appears",
+			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mathematics"
@@ -234,12 +239,12 @@
 	},
 	{
 		"name": "Stable",
-		"requiredNearbyImprovedResources": ["Cattle","Horses","Sheep","Buffalo"],
+		"requiredNearbyImprovedResources": ["Buffalo","Cattle","Horses","Sheep"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Buffalo] tiles [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]",
 		],
@@ -252,6 +257,7 @@
 		"uniques": [
 			"Comment [Enables training Mounted units]",
 			//"Free [Horseman] appears",
+			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Animal Riding"
@@ -261,7 +267,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] XP [in this city]",
+			"New [{Military} {non-[Monk]}] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
@@ -274,7 +280,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Comment [Enables training Air Terror units]",
-			"[+1 Production] from [Mystical Egg] tiles [in this city]",
+			"[+1 Production] from [Mythical Egg] tiles [in this city]",
 			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
@@ -288,6 +294,7 @@
 		"maintenance": 2,
 		"uniques": [
 			"Only available <when religion is enabled>",
+			"New [Monk] units start with [10] XP [in this city]",
 			"NatW preq"
 		],
 		"requiredTech": "Philosophy"
@@ -348,7 +355,8 @@
 		"uniques": [
 			"Comment [Enables training Infantry units]",
 			"[+1 Production] from [Iron] tiles [in this city]",
-			//"Free [Swordsman] appears",
+			//"Free [Swordsman] appears", 
+			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Iron Working"
@@ -389,9 +397,10 @@
 		"cost": 150,
 		"uniques": [
 			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+			"Only available <when religion is enabled>"
 			"Cost increases by [25] per owned city",
 			"[+100]% Natural religion spread [in this city]",
-			"Only available <when religion is enabled>"
+			"New [Monk] units start with [10] XP [in all cities]",
 			"Can only be built <in [in holy cities] cities>"
 		],
 		"requiredTech": "Celestial Wisdoms"
@@ -521,9 +530,12 @@
 		"science": 1,
 		"uniques": [
 			"Costs [30] [Aether]",
-			//"All newly-trained [{Biological} {non-[Mage]}] units [in this city] receive the [Mana Sensing] promotion",
-			// Mana Sensing allows them to inflict basic status ailments?
 			"All newly-trained [Mage] units [in this city] receive the [Elemental Mastery] promotion",
+			"Comment [All newly-trained Infantry, Anti-Armor, Mounted, Ranged Infantry in this city receive the [Mana Sensing] skill with 34% chance]"
+			"All newly-trained [Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
+			"All newly-trained [Anti-Armor] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
+			"All newly-trained [Mounted] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
+			"All newly-trained [Ranged Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
 			"NatW preq"
 		],
 		"requiredTech": "Mana Crystallization"
@@ -721,7 +733,8 @@
 		"civilopediaText": [
 			{"text": "Warung Tegal, a gastronomic business that provides food and drinks, targeting the lower-middle class."}
 		]
-	},{
+	},
+	{
 		"name": "Crystalloom Refinery (Soulstone)",
 		"cost": 300,
 		//"production": 1,
@@ -835,7 +848,7 @@
 		"isNationalWonder": true,
 		"cost": 750,
 		"uniques": [
-			"Comment [Enables nuclear-like spells]",
+			"Comment [Enables blasting spell]",
 			"Triggers a global alert upon completion", 
 			"Cannot be hurried"
 		],
@@ -903,7 +916,7 @@
 		"isNationalWonder": true,
 		"cost": 200,
 		"uniques": [
-			//"Only available <if [Academy of Magic] is constructed in at least [5] of [in all cities] cities>",
+			"Only available <if [Academy of Magic] is constructed in at least [5] of [in all cities] cities>",
 			"Free Social Policy",
 			"Cost increases by [25] per owned city"
 		],
@@ -1039,10 +1052,8 @@
 		"culture": 1,
 		//"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": [
-			//"[+25]% Production when constructing [Melee Mage] units [in this city]",
-			//"[+25]% Production when constructing [Ranged Mage] units [in this city]",
 			"Gain a free [Arcane Spire] [in this city]",
-			//"[3] free [Priest] units appear",
+			"Provides [8] [Magician]",
 			// atau mage akses elemental mastery lebih awal?
 		],
 		"requiredTech": "Mana Thaumaturgy",
@@ -1061,5 +1072,290 @@
 		],
 		"requiredTech": "Construction",
 		"quote": "'She viewed ethnic cleansing, famine and genocide as direct threats to her furniture' - Arundhati Roy, The God of Small Things"
+	},
+	
+	{
+		"name": "Shinkokan", // of The Shinso, Shinkōkan
+		"isWonder": true,
+		"culture": 1,
+		"faith": 3,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Only available <after adopting [Mysticism]> <hidden from users>",
+			//"Gain a free [Monastery] [in this city]",
+			//"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
+			//"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+			//"[Faith] cost of purchasing [Monk] units [-25]%",
+			"Only available <when religion is enabled>"
+		],
+		"requiredTech": "Philosophy",
+		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
+	},
+	{
+		"name": "Kalacha", // of First Order
+		"isWonder": true,
+		"culture": 3,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Poetry",
+		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra dinasty'  - Kalasan, translated by Santiko"
+	},
+	{
+		"name": "Kad'Hall", // of Grokzut, initiated by Grokzut, finished by Thallin
+		"isWonder": true,
+		"culture": 1,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Must be next to [Desert]",
+			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]",
+			"[+4 Culture] <after discovering [Printing]>"
+		],
+		"requiredTech": "Currency",
+		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...'  - Indiana Jones"
+	},
+	{
+		"name": "Namari", // of Ilythiir
+		"isWonder": true,
+		"culture": 2,
+		//"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Only available <after adopting [Honor]> <hidden from users>",
+			"[+2 Production] from [Iron] tiles [in this city]",
+			"Provides [4] [Iron]",
+			"[4] free [Swordsman] units appear"
+		],
+		"requiredTech": "Iron Working",
+		"quote": "'... Eagles fly, The turrets round, and seem to flout the sky; They eye those walls now crumbling in decay, And scare from quiet rest their destined prey.' – Samuel Prout Hill"
+	},
+	
+	{
+		"name": "Anchor Statue", // of Marunesia
+		"cost": 380,
+		"culture": 1,
+		"gold": 5,
+		//"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": [
+			"Must be next to [Coast]",
+			"Gain a free [Shipyard] [in this city]",
+			"[+1 Gold] from [Water] tiles [in this city]",
+		],
+		"requiredTech": "Compass",
+		"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+	},
+	{
+		"name": "Lonoyx", // of the Darkle Wizard, Urg
+		"isWonder": true,
+		"culture": 2,
+		//"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			"Only available <after adopting [Wizardry]> <hidden from users>",
+			"Instantly provides [500] [Aether]",
+			"Provides [1] [Luminaris]",
+			//"Provides [1] [Luminaris] <when above [99] [counter-1]> <hidden from users>",
+			//"Comment [Provides 1 more Luminaris if this city is not captured for the next 100 turns]",
+		],
+		"requiredTech": "Mana Attunement",
+		"quote": "'And as I grew older I understood that instructions came with this voice. What were these instructions? The instructions were never to lament casually.' -Leonard Cohen"
+	},
+	/*{
+		"name": "Lonoyx timeStanding",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [counter-1] <when below [101] [counter-1]>",
+			"Will not be displayed in Civilopedia",
+			"Destroyed when the city is captured"
+		],
+	},*/
+	{
+		"name": "Ker'sai", // of Berenger
+		"culture": 2,
+		"isWonder": true,
+		//"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": [
+			"Must be next to [Lakes]",
+			"[+2 Gold, +1 Production] from [Lakes] tiles [in this city]",
+		],
+		"requiredTech": "Civil Service",
+		"quote": "'They say that the bottom of the lake is covered with gold. I'd say this view is worth more than the gold.' ― Mihai Simion"
+	},
+	{
+		"name": "Sagde", // of Angasin, Sagde Burrows
+		"isWonder": true,
+		"science": 1,
+		//"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": [
+			"Gain [350] [Science]",
+			"[-1 Gold, +1 Science] from [Amber] tiles [in this city] <hidden from users>",
+			"[-1 Gold, +1 Science] from [Copper] tiles [in this city] <hidden from users>",
+			"[-1 Gold, +1 Science] from [Gems] tiles [in this city] <hidden from users>",
+			"[-1 Gold, +1 Science] from [Gold Ore] tiles [in this city] <hidden from users>",
+			"[-1 Gold, +1 Science] from [Jade] tiles [in this city] <hidden from users>",
+			"[-1 Gold, +1 Science] from [Salt] tiles [in this city] <hidden from users>",
+			"[-1 Gold, +1 Science] from [Silver] tiles [in this city] <hidden from users>",
+			"Comment [-1 [Gold], +1 [Science] from every Luxury resource improved with [Mine]]",
+			//"Provides [1] [Book of Year 0 - Chapter Dwarves]",
+		],
+		"requiredTech": "Metal Casting",
+		"quote": "'... He is able to swim under the sea like a fish, he is able burrow beneath the ground like a mole. Now if only he could walk the earth like a man, this would be paradise.' - Sir Tommy Douglas"
+	},
+	
+	// Enlightenment Age
+	{
+		"name": "Glaciruptor", // of Frostmorrow
+		"isWonder": true,
+		"production": 2,
+		//"greatPersonPoints": {"Great Scientist": 1,"Great Engineer": 1},
+		"uniques": [
+			"Must be next to [Tundra]",
+			"[+1 Production] from [Tundra] tiles [in this city]",
+			"[+1 Science] from [Snow] tiles [in this city]"
+		], 
+		"requiredTech": "Cartography",
+		"quote": "'You must have your heart on fire and your brain on ice.' ― Vladimir Lenin"
+	},
+	{
+		"name": "The Broken Gods", // of Machinia
+		"isWonder": true,
+		"happiness": 4,
+		"culture": 1,
+		//"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[+50]% Golden Age length"],
+		"requiredTech": "Leyline Siphoning",
+		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
+	},
+	{
+		"name": "Abon Union", // of Smeheng
+		"isWonder": true,
+		"culture": 2,
+		//"greatPersonPoints": {"Great Scientist": 3},
+		//"specialistSlots": {"Inventor": 1},
+		"uniques": [
+			"Only available <after adopting [Patronage]>",
+			"[+50]% [Food] from City-States",
+			//"[+50]% [Production] from City-States",
+			"City-State Influence recovers at twice the normal rate"
+		],
+		"requiredTech": "Guilds",
+		"quote": "'Many of us may have lost loved ones. Those memories should drive us forward. Together, we can do better. Today is a chance to ensure we do. Let’s make the most of it.' — Amina J. Mohammed"
+	},
+	{
+		"name": "Leyheart", // of Thorin
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": [
+			"Only available <after adopting [Culturalism]>",
+			//"All newly-trained [relevant] units [in this city] receive the [Drill] promotion",
+			"Provides [5] [Starshard]"
+		],
+		"requiredTech": "Chivalry",
+		"quote": "'No one is so cowardly that Love could not inspire him to heroism.' - Plato"
+	},
+	
+	{
+		"name": "Aldaka-Mar", // of Twin Mountain
+		"isWonder": true,
+		"culture": 1,
+		"gold": 5,
+		//"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": [
+			"Only available <after adopting [Commerce]>",
+			"Must have an owned [Mountain] within [3] tiles",
+			"[+25]% [Gold] from Trade Routes"
+		],
+		"requiredTech": "Loan and Saving",
+		"quote": "'Our beards will grow till they hang down the cliff to the valley before anything happens here.'  - Dwalin"
+	},
+	
+	{
+		"name": "Poseidon's Grail", // of Neo-Almuria
+		"isWonder": true,
+		"production": 5,
+		//"greatPersonPoints": {"Great Artist": 1},
+		"uniques": [
+			"Must be next to [Coast]", 
+			//"All newly-trained [Water] units [in this city] receive the [Supply] promotion",,
+			"Comment [Enables construction of Water Beast unit in this city]",
+			"Comment [Water Beast unit constructed in this city healing +3 HP each turn]"
+		],
+		"requiredTech": "Navigation",
+		"quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose.' –Strabo"
+	},
+	{
+		"name": "Library of Grimoire", // of Red Moon
+		"isWonder": true,
+		"uniques": [
+			"Only available <after adopting [Rationalism]>",
+			"[+15]% [Science] <in cities with a [Centre of Arcane]>",
+			"Provides [3] [Magic Scroll]"
+		],
+		"requiredTech": "Spellbook Codification",
+		"quote": "'I felt, as never before or since, as if I were stepping onto the rooftop of my being; onto some dimension of consciousness that I'd never visited before.' –Pico Iyer"
+	},
+	
+	// Mechanism
+	{
+		"name": "Magic Talent",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Requires at least [10] population",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Magician]",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{"text": "As rare as they are, chances of a new magic talent among population are 10%"}
+		]
+	},
+	{
+		"name": "Magic Talent-2",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Requires at least [20] population",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Magician]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Magic Talent-3",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Requires at least [30] population",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Magician]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Magic Talent-4",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Requires at least [40] population",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Magician]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Magic Talent-5",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Requires at least [50] population",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Magician]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 ]

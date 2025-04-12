@@ -13,10 +13,7 @@
 	{
 		"name": "Recon",
 		"movementType": "Land",
-		"uniques": [
-			"Person",
-			"Biological"
-		]
+		"uniques": ["Biological"]
 	},
 	{
 		"name": "Infantry",

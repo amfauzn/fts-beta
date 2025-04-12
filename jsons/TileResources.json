@@ -815,7 +815,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Used to unlock a more powerful skill for either Sword, Mounted, or Anti-Armor unit."
+				"text": "Used to unlock Aura Knight for either Infantry, Anti-Armor, Mounted, or Ranged Infantry unit."
 			}
 		]
 	},
@@ -890,6 +890,15 @@
 	},
 	
 	// Mechanism
+	{
+		"name": "Magician",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor"
+		]
+	},
 	{
 		"name": "Healing Leaves",
 		"resourceType": "Strategic",

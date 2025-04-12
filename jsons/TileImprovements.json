@@ -209,7 +209,7 @@
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [
 			"Grassland","Plains","Desert","Tundra","Snow",
-			"Hill","Forest","Jungle","Permafrost"
+			"Hill","Forest","Jungle","Aurora","Permafrost"
 		],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
@@ -550,7 +550,7 @@
 			"Unbuildable",
 			"Unpillagable",
 			"Irremovable",
-			"Ensures a minimum tile yield of [+2 Food, +2 Production]",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
 			"Excluded from map editor"
 		],
 		"civilopediaText": [

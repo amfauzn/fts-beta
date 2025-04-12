@@ -90,14 +90,14 @@
 			"Double movement in [Man-eating tree]"
 		],
 		"unitTypes": ["Recon"],
-		"column": 2,
+		"column": 4,
 		"row": 1
 	},
 	{
 		"name": "Highlander",
 		"uniques": ["Double movement in [Hill]"],
 		"unitTypes": ["Recon"],
-		"column": 3,
+		"column": 5,
 		"row": 1
 	},
 	{
@@ -108,7 +108,7 @@
 			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": ["Recon"],
-		"column": 2,
+		"column": 4,
 		"row": 2
 	},
 	{
@@ -116,7 +116,7 @@
 		"prerequisites": ["Highlander"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Recon"],
-		"column": 3,
+		"column": 5,
 		"row": 2
 	},
 	{
@@ -127,7 +127,7 @@
 			"Withdraws before melee combat <with [50]% chance>"
 		],
 		"unitTypes": ["Recon"],
-		"column": 2,
+		"column": 4,
 		"row": 3
 	},
 	{
@@ -135,7 +135,7 @@
 		"prerequisites": ["Survivalism","Scouting"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Recon"],
-		"column": 3,
+		"column": 5,
 		"row": 3
 	},
 	{
@@ -146,7 +146,7 @@
 			"Can move after attacking"
 		],
 		"unitTypes": ["Recon"],
-		"column": 2,
+		"column": 4,
 		"row": 4
 	},
 	{
@@ -154,7 +154,7 @@
 		"prerequisites": ["Spyglass","Battle Recon"],
 		"uniques": ["Invisible to non-adjacent units"],
 		"unitTypes": ["Recon"],
-		"column": 3,
+		"column": 5,
 		"row": 4
 	},
 	
@@ -163,14 +163,14 @@
 		"name": "Shock",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Infantry","Anti-Armor"],
-		"column": 4,
+		"column": 6,
 		"row": 1
 	},
 	{
 		"name": "Drill",
 		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Infantry","Anti-Armor"],
-		"column": 6,
+		"column": 8,
 		"row": 1
 	},
 	{
@@ -178,7 +178,7 @@
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
 		"unitTypes": ["Infantry"],
-		"column": 4,
+		"column": 6,
 		"row": 2
 	},
 	{
@@ -189,7 +189,7 @@
 			"[+25]% Strength <in [City center] tiles>"
 		],
 		"unitTypes": ["Infantry"],
-		"column": 6,
+		"column": 8,
 		"row": 2
 	},
 	{
@@ -197,7 +197,7 @@
 		"prerequisites": ["Battlecry","Tortoise"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Infantry"],
-		"column": 4,
+		"column": 6,
 		"row": 3
 	},
 	{
@@ -209,7 +209,7 @@
 			"Double movement in [Man-eating tree]"
 		],
 		"unitTypes": ["Infantry"],
-		"column": 5,
+		"column": 7,
 		"row": 3
 	},
 	
@@ -219,7 +219,7 @@
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Anti-Armor"],
-		"column": 7,
+		"column": 9,
 		"row": 2
 	},
 	{
@@ -227,7 +227,7 @@
 		"prerequisites": ["Drill"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Anti-Armor"],
-		"column": 9,
+		"column": 11,
 		"row": 2
 	},
 	{
@@ -235,7 +235,7 @@
 		"prerequisites": ["Formation","Shield Wall"],
 		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
 		"unitTypes": ["Anti-Armor"],
-		"column": 7,
+		"column": 9,
 		"row": 3
 	},
 	{
@@ -243,7 +243,7 @@
 		"prerequisites": ["Formation","Shield Wall"],
 		"uniques": ["[+25]% Strength <vs [Infantry] units>"],
 		"unitTypes": ["Anti-Armor"],
-		"column": 8,
+		"column": 10,
 		"row": 3
 	},
 	{
@@ -254,7 +254,7 @@
 			"Eliminates combat penalty for attacking across a coast"
 		],
 		"unitTypes": ["Infantry","Anti-Armor"],
-		"column": 9,
+		"column": 11,
 		"row": 3
 	}
 	{
@@ -262,7 +262,7 @@
 		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Infantry","Anti-Armor"],
-		"column": 7,
+		"column": 9,
 		"row": 4
 	},
 	
@@ -276,18 +276,31 @@
 			"[+1] Movement"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 11,
+		"column": 13,
 		"row": 1
 	},
 	{
 		"name": "Depredation",
 		"prerequisites": ["Light Cavalry"],
 		"uniques": [
+			"Only available <for units without [Ravager]>",
 			"No movement cost to pillage",
 			"Ignores Zone of Control"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 10,
+		"column": 13,
+		"row": 2
+	},
+	{
+		"name": "Ravager",
+		"prerequisites": ["Light Cavalry"],
+		"uniques": [
+			"Only available <for units without [Depredation]>",
+			"[+100]% Yield from pillaging tiles",
+			"[+100]% Health from pillaging tiles"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 14,
 		"row": 2
 	},
 	{
@@ -298,7 +311,7 @@
 			"Can move after attacking"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 11,
+		"column": 15,
 		"row": 2
 	},
 	{
@@ -306,52 +319,116 @@
 		"prerequisites": ["Light Cavalry"],
 		"uniques": ["[+33]% to Flank Attack bonuses"]
 		"unitTypes": ["Mounted"],
-		"column": 12,
+		"column": 16,
 		"row": 2
 	},
 	{
 		"name": "Escort Mobility",
-		"prerequisites": ["Depredation","Rout","Outmanuever"],
+		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
 		"uniques": ["Transfer Movement to [Civilian]"],
 		"unitTypes": ["Mounted"],
-		"column": 10,
+		"column": 13,
 		"row": 3
 	},
 	{
 		"name": "Outrider",
-		"prerequisites": ["Depredation","Rout","Outmanuever"],
-		"uniques": ["[+1] Sight"],
+		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
+		"uniques": [
+			"Only available <for units without [Vigilant]>",
+			"Comment [Ignores terrain cost when outside of combat in the last 2 turns]",
+			"[This Unit] gains the [Outrider Active] status for [2] turn(s) <upon turn start> <for units without [Outrider Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Outrider Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
 		"unitTypes": ["Mounted"],
-		"column": 11,
+		"column": 14,
 		"row": 3
 	},
 	{
-		"name": "Agile",
-		"prerequisites": ["Depredation","Rout","Outmanuever"],
-		"uniques": ["Withdraws before melee combat <with [50]% chance>",],
+		"name": "Outrider Active",
+		"uniques": ["Ignores terrain cost"],
+	},
+	{
+		"name": "Outrider Cooldown",
+		"uniques": ["Comment [[Outrider] is on cooldown]"]
+	},
+	{
+		"name": "Vigilant",
+		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
+		"uniques": [
+			"Only available <for units without [Outrider]>",
+			"Comment [+2 Sight when outside of combat in the last 2 turns]",
+			"[This Unit] gains the [Vigilant Active] status for [2] turn(s) <upon turn start> <for units without [Vigilant Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Vigilant Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
 		"unitTypes": ["Mounted"],
-		"column": 12,
+		"column": 15,
+		"row": 3
+	},
+	{
+		"name": "Vigilant Active",
+		"uniques": ["[+2] Sight"],
+	},
+	{
+		"name": "Vigilant Cooldown",
+		"uniques": ["Comment [[Vigilant] is on cooldown]"]
+	},
+	{
+		"name": "Agile",
+		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"],
+		"unitTypes": ["Mounted"],
+		"column": 16,
 		"row": 3
 	},
 	{
 		"name": "Warding Amulet",
-		"prerequisites": ["Escort Mobility","Outrider","Agile"],
+		"prerequisites": ["Escort Mobility","Outrider","Vigilant","Agile"],
 		"uniques": [
+			"Only available <for units without [Opportunist]>",
 			"[+25]% Strength <vs [Mage] units> <when defending>",
-			"[+15] HP when healing"
+			"[+25]% Strength <vs [Ranged Mage] units> <when defending>"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 10,
+		"column": 13,
 		"row": 4
 	},
 	{
-		"name": "Fast Regroup",
-		"prerequisites": ["Escort Mobility","Outrider","Agile"],
+		"name": "Opportunist",
+		"prerequisites": ["Escort Mobility","Outrider","Vigilant","Agile"],
 		"uniques": [
-			"[1] additional attacks per turn"
+			"Only available <for units without [Warding Amulet]>",
+			"[+50]% Strength <vs [Ailment] units> <when attacking>"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 11,
+		"column": 14,
+		"row": 4
+	},
+	{
+		"name": "Ambusher",
+		"prerequisites": ["Escort Mobility","Outrider","Vigilant","Agile"],
+		"uniques": [
+			"Comment [+50% Strength when outside of combat in the last 3 turns]",
+			"[This Unit] gains the [Ambusher Active] status for [1] turn(s) <upon turn start> <for units without [Ambusher Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Ambusher Cooldown] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 15,
+		"row": 4
+	},
+	{
+		"name": "Ambusher Active",
+		"uniques": ["[+50]% Strength"],
+	},
+	{
+		"name": "Ambusher Cooldown",
+		"uniques": ["Comment [[Vigilant] is on cooldown]"]
+	},
+	{
+		"name": "Fast Regroup",
+		"prerequisites": ["Breakthrough","Encirclement","Agoge","Heavy Plate"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Mounted"],
+		"column": 16,
 		"row": 4
 	},
 	
@@ -362,23 +439,38 @@
 			"[+25]% Strength <vs [Anti-Armor] units>"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 14,
+		"column": 17,
 		"row": 1
 	},
 	{
 		"name": "Charge",
 		"prerequisites": ["Heavy Cavalry"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"uniques": [
+			"Only available <for units without [Adaptable]>",
+			"[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Mounted"],
-		"column": 13,
+		"column": 17,
+		"row": 2
+	},
+	{
+		"name": "Adaptable",
+		"prerequisites": ["Heavy Cavalry"],
+		"uniques": [
+			"Only available <for units without [Charge]>",
+			"[+50]% XP gained from combat"],
+		"unitTypes": ["Mounted"],
+		"column": 18,
 		"row": 2
 	},
 	{
 		"name": "Armor Piercing",
 		"prerequisites": ["Heavy Cavalry"],
-		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
+		"uniques": [
+			"[+25]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Mechanical] units>"
+		],
 		"unitTypes": ["Mounted"],
-		"column": 14,
+		"column": 19,
 		"row": 2
 	},
 	{
@@ -386,32 +478,53 @@
 		"prerequisites": ["Heavy Cavalry"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Mounted"],
-		"column": 15,
+		"column": 20,
 		"row": 2
 	},
 	{
-		"name": "Break Defense",
-		"prerequisites": ["Charge","Armor Piercing","Barding"],
+		"name": "Breakthrough",
+		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
 			"Comment [Inflict [Broken] to target Land unit for 1 turns]",
 			"Comment [[Broken] unit suffer -1 Movement and gain no defensive terrain bonus]",
 			"[Target Unit] gains the [Broken] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 13,
+		"column": 17,
 		"row": 3
 	},
 	{
+		"name": "Broken",
+		"uniques": [
+			"[-1] Movement",
+			"No defensive terrain bonus"
+		]
+	},
+	{
 		"name": "Encirclement",
-		"prerequisites": ["Charge","Armor Piercing","Barding"],
-		"uniques": ["[+33]% Strength <vs cities> <when adjacent to a [{Melee} {non-[Mage]}] unit>"],
+		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
+		"uniques": [
+			"Only available <for units without [Agoge]>",
+			"[+33]% Strength <vs cities> <when adjacent to a [{Melee} {non-[Mage]}] unit>"
+		],
 		"unitTypes": ["Mounted"],
-		"column": 14,
+		"column": 18,
+		"row": 3
+	},
+	{
+		"name": "Agoge",
+		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
+		"uniques": [
+			"Only available <for units without [Encirclement]>",
+			"[Great General] is earned [100]% faster"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 19,
 		"row": 3
 	},
 	{
 		"name": "Heavy Plate",
-		"prerequisites": ["Charge","Armor Piercing","Barding"],
+		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
 			"Comment [25% damage reduction when below 50 HP]",
 			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when below [50] HP> <hidden from users>",
@@ -428,34 +541,53 @@
 			"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <when below [50] HP> <hidden from users>"
 		],
 		"unitTypes": ["Mounted"],
-		"column": 15,
+		"column": 20,
 		"row": 3
 	},
 	{
-		"name": "Reactive Armor",
-		"prerequisites": ["Break Defense","Encirclement","Heavy Plate"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"name": "Inspiring Presence",
+		"prerequisites": ["Breakthrough","Encirclement","Agoge","Heavy Plate"],
+		"uniques": [
+			"Only available <for units without [Reactive Armor]>",
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"All adjacent units heal [+5] HP when healing"
+		],
 		"unitTypes": ["Mounted"],
-		"column": 13,
+		"column": 17,
+		"row": 4
+	},
+	{
+		"name": "Reactive Armor",
+		"prerequisites": ["Breakthrough","Encirclement","Agoge","Heavy Plate"],
+		"uniques": [
+			"Only available <for units without [Inspiring Presence]>",
+			"Unit will heal every turn, even if it performs an action"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 18,
+		"row": 4
+	},
+	{
+		"name": "Impetus",
+		"prerequisites": ["Breakthrough","Encirclement","Agoge","Heavy Plate"],
+		"uniques": [
+			"Comment [Inflict [Stunned] when at full HP]",
+			"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <when above [99] HP> <hidden from users>"
+		],
+		"unitTypes": ["Mounted"],
+		"column": 19,
 		"row": 4
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Break Defense","Encirclement","Heavy Plate"],
+		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Breakthrough","Encirclement","Agoge","Heavy Plate"],
 		"uniques": [
 			"[1] additional attacks per turn",
 			"Can move after attacking"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
-		"column": 14,
+		"column": 20,
 		"row": 4
-	},
-	{
-		"name": "Broken",
-		"uniques": [
-			"[-1] Movement",
-			"No defensive terrain bonus"
-		]
 	},
 	
 	// Ranged Infantry
@@ -463,14 +595,14 @@
 		"name": "Accuracy",
 		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Ranged Infantry","Siege","Anti-Air"],
-		"column": 16,
+		"column": 22,
 		"row": 1
 	},
 	{
 		"name": "Barrage",
 		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Ranged Infantry","Siege","Anti-Air"],
-		"column": 18,
+		"column": 24,
 		"row": 1
 	},
 	{
@@ -478,7 +610,7 @@
 		"prerequisites": ["Accuracy"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Ranged Infantry"],
-		"column": 16,
+		"column": 22,
 		"row": 2
 	},
 	{
@@ -486,7 +618,7 @@
 		"prerequisites": ["Barrage"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Ranged Infantry"],
-		"column": 18,
+		"column": 24,
 		"row": 2
 	},
 	{
@@ -494,7 +626,7 @@
 		"prerequisites": ["Marksman","Cover"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Ranged Infantry"],
-		"column": 16,
+		"column": 22,
 		"row": 3
 	},
 	
@@ -504,7 +636,7 @@
 		"prerequisites": ["Accuracy"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Siege"],
-		"column": 19,
+		"column": 26,
 		"row": 2
 	},
 	{
@@ -512,7 +644,7 @@
 		"prerequisites": ["Barrage"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Siege"],
-		"column": 21,
+		"column": 28,
 		"row": 2
 	},
 	{
@@ -520,7 +652,7 @@
 		"prerequisites": ["Grapeshot","Entrenched Position"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Siege"],
-		"column": 19,
+		"column": 26,
 		"row": 3
 	},
 	{
@@ -528,7 +660,7 @@
 		"prerequisites": ["Marksman","Cover","Grapeshot","Entrenched Position"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Ranged Infantry","Siege"],
-		"column": 20,
+		"column": 27,
 		"row": 3
 	},
 	{
@@ -536,15 +668,15 @@
 		"prerequisites": ["Marksman","Cover","Grapeshot","Entrenched Position"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Ranged Infantry","Siege"],
-		"column": 21,
+		"column": 28,
 		"row": 3
 	},
 	{
 		"name": "Forward Observers",
 		"prerequisites": ["Damage Absorb","Crew Weapons","Volley","Indirect Fire"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Siege"],
-		"column": 19,
+		"unitTypes": ["Ranged Infantry","Siege"],
+		"column": 26,
 		"row": 4
 	},
 	
@@ -554,7 +686,7 @@
 		"prerequisites": ["Accuracy"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Anti-Air"],
-		"column": 22,
+		"column": 30,
 		"row": 2
 	},
 	{
@@ -562,7 +694,7 @@
 		"prerequisites": ["Barrage"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Anti-Air"],
-		"column": 24,
+		"column": 32,
 		"row": 2
 	},
 	{
@@ -573,7 +705,7 @@
 			"[+33]% Damage when intercepting"
 		],
 		"unitTypes": ["Anti-Air"],
-		"column": 22,
+		"column": 30,
 		"row": 3
 	},
 	{
@@ -581,7 +713,7 @@
 		"prerequisites": ["Sharpnel","Emplacement"],
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Anti-Air"],
-		"column": 23,
+		"column": 31,
 		"row": 3
 	},
 	{
@@ -589,7 +721,7 @@
 		"prerequisites": ["Sharpnel","Emplacement"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Anti-Air"],
-		"column": 24,
+		"column": 32,
 		"row": 3
 	},
 	{
@@ -597,7 +729,15 @@
 		"prerequisites": ["Precision","Ambush","Shell"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Anti-Air"],
-		"column": 22,
+		"column": 30,
+		"row": 4
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Precision","Ambush","Shell"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Infantry","Anti-Armor","Anti-Air"],
+		"column": 31,
 		"row": 4
 	},
 	
@@ -609,7 +749,7 @@
 			"Not shown on world screen"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
-		"column": 25,
+		"column": 35,
 		"row": 0
 	},
 	{
@@ -618,7 +758,7 @@
 			"Comment [Gain access to advanced elemental spells]",
 			"Not shown on world screen"
 		],
-		"column": 26,
+		"column": 36,
 		"row": 0
 	},
 	
@@ -634,7 +774,7 @@
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [255, 69, 10],
 		"outerColor": [0, 0, 0],
-		"column": 27,
+		"column": 37,
 		"row": 1
 	},
 	{
@@ -647,7 +787,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [255, 69, 10],
 		"outerColor": [0, 0, 0]
-		"column": 27,
+		"column": 37,
 		"row": 2
 	},
 	{
@@ -678,7 +818,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [255, 69, 10],
 		"outerColor": [0, 0, 0]
-		"column": 27,
+		"column": 37,
 		"row": 3
 	},
 	{
@@ -779,7 +919,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [255, 69, 10],
 		"outerColor": [0, 0, 0]
-		"column": 28,
+		"column": 38,
 		"row": 2
 	},
 	{
@@ -817,7 +957,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [255, 69, 0],
 		"outerColor": [0, 0, 0]
-		"column": 28,
+		"column": 38,
 		"row": 3
 	},
 	{
@@ -863,7 +1003,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [255, 69, 10],
 		"outerColor": [0, 0, 0]
-		"column": 28,
+		"column": 38,
 		"row": 4
 	},
 	{
@@ -902,7 +1042,7 @@
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0]
-		"column": 29,
+		"column": 39,
 		"row": 1,
 	},
 	{
@@ -915,7 +1055,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0]
-		"column": 29,
+		"column": 39,
 		"row": 2,
 	},
 	{
@@ -943,7 +1083,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0]
-		"column": 29,
+		"column": 39,
 		"row": 3,
 	},
 	{
@@ -971,7 +1111,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0]
-		"column": 30,
+		"column": 40,
 		"row": 2,
 	},
 	{
@@ -1005,7 +1145,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0]
-		"column": 30,
+		"column": 40,
 		"row": 3,
 	},
 	{
@@ -1043,7 +1183,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0]
-		"column": 30,
+		"column": 40,
 		"row": 4,
 	},
 	{
@@ -1082,7 +1222,7 @@
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [147, 112, 219],
 		"outerColor": [0, 0, 0]
-		"column": 31,
+		"column": 41,
 		"row": 1,
 	},
 	{
@@ -1097,7 +1237,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [147, 112, 219],
 		"outerColor": [0, 0, 0]
-		"column": 31,
+		"column": 41,
 		"row": 2,
 	},
 	{
@@ -1130,7 +1270,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [147, 112, 219],
 		"outerColor": [0, 0, 0]
-		"column": 31,
+		"column": 41,
 		"row": 3,
 	},
 	{
@@ -1187,7 +1327,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147, 112, 219],
 		"outerColor": [0, 0, 0]
-		"column": 32,
+		"column": 42,
 		"row": 2,
 	},
 	{
@@ -1222,7 +1362,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147, 112, 219],
 		"outerColor": [0, 0, 0]
-		"column": 32,
+		"column": 42,
 		"row": 3,
 	},
 	{
@@ -1247,7 +1387,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147, 112, 219],
 		"outerColor": [0, 0, 0]
-		"column": 32,
+		"column": 42,
 		"row": 4,
 	},
 	{
@@ -1294,7 +1434,7 @@
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [139, 69, 19],
 		"outerColor": [0, 0, 0]
-		"column": 33,
+		"column": 43,
 		"row": 1,
 	},
 	{
@@ -1307,7 +1447,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [139, 69, 19],
 		"outerColor": [0, 0, 0]
-		"column": 33,
+		"column": 43,
 		"row": 2,
 	},
 	{
@@ -1340,7 +1480,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [139, 69, 19],
 		"outerColor": [0, 0, 0]
-		"column": 33,
+		"column": 43,
 		"row": 3,
 	},	
 	{
@@ -1367,7 +1507,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [139, 69, 19],
 		"outerColor": [0, 0, 0]
-		"column": 34,
+		"column": 44,
 		"row": 2,
 	},
 	{
@@ -1399,7 +1539,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [139, 69, 19],
 		"outerColor": [0, 0, 0]
-		"column": 34,
+		"column": 44,
 		"row": 3,
 	},
 	{
@@ -1431,7 +1571,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [139, 69, 19],
 		"outerColor": [0, 0, 0]
-		"column": 34,
+		"column": 44,
 		"row": 4,
 	},
 	{
@@ -1469,7 +1609,7 @@
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [0, 191, 255],
 		"outerColor": [0, 0, 0]
-		"column": 35,
+		"column": 45,
 		"row": 1,
 	},
 	{
@@ -1482,7 +1622,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0]
-		"column": 35,
+		"column": 45,
 		"row": 2,
 	},
 	{
@@ -1511,7 +1651,7 @@
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0, 191, 255],
 		"outerColor": [0, 0, 0]
-		"column": 35,
+		"column": 45,
 		"row": 3,
 	},
 	{
@@ -1561,7 +1701,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0, 191, 255],
 		"outerColor": [0, 0, 0]
-		"column": 36,
+		"column": 46,
 		"row": 2,
 	},
 	{
@@ -1597,7 +1737,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0, 191, 255],
 		"outerColor": [0, 0, 0]
-		"column": 36,
+		"column": 46,
 		"row": 3,
 	},
 	{
@@ -1641,7 +1781,7 @@
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0, 191, 255],
 		"outerColor": [0, 0, 0]
-		"column": 36,
+		"column": 46,
 		"row": 4,
 	},
 	{
@@ -2077,6 +2217,112 @@
 		]
 	},
 	
+	// Aura Knight
+	{
+		"name": "Mana Sensing",
+		"uniques": [
+			"Comment [This Unit may sense mana]",
+			"Can move after attacking"
+		],
+	},
+	/*{
+		"name": "Elemental Infusion",
+		"prerequisites": ["Mana Sensing"],
+		"uniques": ["Comment [Attacks inflict status ailment]"],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"]
+	},
+	{
+		"name": "Fire Infusion",
+		"uniques": [
+			"Costs [20] [Aether]",
+			"Only available <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Water Infusion]>",
+			"Comment [Inflict [Burning] to target Land unit for 2 turns",
+			"[Target Unit] gains the [Burning] status for [3] turn(s) <upon damaging a [{Biological} {non-[Immunity]}] unit> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"]
+	},
+	{
+		"name": "Wind Infusion",
+		"uniques": [
+			"Costs [20] [Aether]",
+			"Only available <for units without [Fire Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Water Infusion]>",
+			"Comment [Inflict [Bleeding] to target Biological unit for 2 turns",
+			"[Target Unit] gains the [Bleeding] status for [3] turn(s) <upon damaging a [{Biological} {non-[Immunity]}] unit> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"]
+	},
+	{
+		"name": "Lightning Infusion",
+		"uniques": [
+			"Costs [20] [Aether]",
+			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Earth Infusion]> <for units without [Water Infusion]>",
+			"Comment [Inflict [Disrupted] to target Biological unit for 2 turns",
+			"[Target Unit] gains the [Disrupted] status for [3] turn(s) <upon damaging a [{Biological} {non-[Immunity]}] unit> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"]
+	},*/
+	// Earth Infusion
+	// Water Infusion
+	{
+		"name": "Magic Skin",
+		"prerequisites": ["Mana Sensing"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"]
+	},
+	/*{
+		"name": "Mana Pulse",
+		"prerequisites": ["Mana Sensing"],
+		"uniques": [
+			"Comment [Active]",
+			"Comment [Reveal enything within 4 tiles for 1 turn]",
+			"Comment [Cooldown 4 turns]",
+			"[This Unit] gains the [Mana Pulse Active] status for [1] turn(s) <for [0] Movement> <for units without [Mana Pulse Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Mana Pulse Cooldown] status for [5] turn(s) <upon gaining the [Mana Pulse Acrive] status> <hidden from users>"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"]
+	},
+	{
+		"name": "Mana Pulse Active",
+		"uniques": [
+			"[+2] Sight",
+			"Can see invisible [All] units",
+			"Can see over obstacles"
+		],
+	},
+	{
+		"name": "Mana Pulse Cooldown",
+		"uniques": ["Comment [[Mana Pulse] is on cooldown]"]
+	},
+	{
+		"name": "Phase Step",
+		"prerequisites": ["Mana Sensing"],
+		"uniques": [
+			"Comment [Active]",
+			"Comment [+1 Movement, Ignores terrain cost, Ignores Zone of Control for 1 turn]",
+			"Comment [Cooldown 4 turns]",
+			"[This Unit] gains the [Phase Step Active] status for [1] turn(s) <for [0] Movement> <for units without [Phase Step Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Phase Step Cooldown] status for [5] turn(s) <upon gaining the [Phase Step Acrive] status> <hidden from users>"
+		],
+		"unitTypes": ["Infantry","Anti-Armor"]
+	},
+	{
+		"name": "Phase Step Active",
+		"uniques": [
+			"[+1] Movement",
+			"Ignores terrain cost",
+			"Ignores Zone of Control"
+		],
+	},
+	{
+		"name": "Phase Step Cooldown",
+		"uniques": ["Comment [Phase Step] is on cooldown]"]
+	},*/
+	// Active for Mounted
+	// Active for Ranged Infantry
+	
 	// Status ailments
 	{
 		"name": "Bleeding",
@@ -2502,6 +2748,9 @@
 	},
 	{
 		"name": "Aether Core",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles"]
+		"uniques": [
+			"[+25]% Strength <when below [40] HP>",
+			"[+25]% Strength <when below [20] HP> <when defending>"
+		]
 	},
 ]

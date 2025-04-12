@@ -155,7 +155,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Culture] from every [Jungle]",
-			//"[+1 Culture] from every [Mangrove]",
+			"[+1 Culture] from every [Mangrove]",
 			"[+1 Culture] from every [Man-eating tree]"
 		]
 	},
@@ -375,5 +375,165 @@
 			"[+4 Culture, +3 Happiness] from every [Colosseum]"
 		]
 	},
+	{
+		"name": "Chosen by Destiny",
+		"type": "Follower",
+		//"uniques": ["All newly-trained [Hero] units [in cities following this religion] receive the [promotion] promotion"]
+		// +25% XP for heroes
+		// also unit have same class with the heroes
+	},
+	{
+		"name": "Work Ethic",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Production] from every [Workshop] <in cities with at least [3] [Followers of this Religion]>",
+			"[+2 Production] from every [Factory] <in cities with at least [3] [Followers of this Religion]>"
+		]
+	},
+	{
+		"name": "Sanctification",
+		"type": "Follower",
+		"uniques": ["[+2 Faith, +1 Science] from every [National Wonder] <in cities with at least [3] [Followers of this Religion]>"]
+	},
 	
+	
+	// Enhancer beliefs
+	{
+		"name": "Defender of the Faith",
+		"type": "Enhancer",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Holy Order",
+		"type": "Enhancer",
+		"uniques": [
+			"[Faith] cost of purchasing [Missionary] units [-30]%",
+			"[Faith] cost of purchasing [Inquisitor] units [-30]%"
+		]
+	},
+	{
+		"name": "Itinerant Preachers",
+		"type": "Enhancer",
+		"uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+	},
+	{
+		"name": "Just War",
+		"type": "Enhancer",
+		"uniques": ["[+15]% Strength <for [Non-City] units> <when fighting in [Enemy Land] tiles>"]
+	},
+	{
+		"name": "Missionary Zeal",
+		"type": "Enhancer",
+		"uniques": [
+			"[+25]% Spread Religion Strength <for [Missionary] units>",
+			"[+1] Movement <for [Missionary] units>"
+		]
+	},
+	{
+		"name": "Religious Texts",
+		"type": "Enhancer",
+		"uniques": [
+			"[+34]% Natural religion spread [in all cities]",
+			"[+34]% Natural religion spread [in all cities] <after discovering [Printing]>"
+		]
+	},
+	{
+		"name": "Religious Unity",
+		"type": "Enhancer",
+		"uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+	},
+	{
+		"name": "Reliquary",
+		"type": "Enhancer",
+		"uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+	},
+	{
+		"name": "Devoted Elite",
+		"type": "Enhancer",
+		"uniques": [
+			"Comment [Enables construction of Monk]",
+			"Provides [1] [Postulant Card] <hidden from users>"
+			"[2] free [Siaxiplw] units appear"
+		]
+	},
+	{
+		"name": "Divine Summoning",
+		"type": "Enhancer",
+		"uniques": ["Comment [Recover [Fate] used to summon Heroes and activate their skill by half]"]
+	},
+	{
+		"name": "Fate Threading",
+		"type": "Enhancer",
+		"uniques": [
+			"Provides [1] [Fate] <when below [101] [Fate]>",
+			"Provides [1] [Fate] <when below [101] [Fate]> <starting from the [Aeromantic Age]>"
+		]
+	},
+	{
+		"name": "Karma",
+		"type": "Enhancer",
+		"uniques": ["[+8 Culture] [in holy cities]"]
+	},
+	
+	{
+		"name": "City of God",
+		"type": "Enhancer",
+		"uniques": [
+			"[+5 Culture, +5 Science, +5 Faith, +5 Food, +5 Gold, +5 Production] from every [Grand Temple]"
+			"Only available <after adopting [Mandate of Heaven]>"
+		]
+	},
+	{
+		"name": "Sanctuary of Heroes",
+		"type": "Enhancer",
+		"uniques": [
+			//""
+			"Only available <after adopting [Mandate of Heaven]>"
+		]
+		// Hero unit healing at double 
+	},
+	{
+		"name": "Divine Teachings",
+		"type": "Enhancer",
+		"uniques": [
+			"May buy [Paper Maker] buildings for [60] [Faith] [in cities following this religion]",
+			"May buy [Public School] buildings for [200] [Faith] [in cities following this religion]",
+			"May buy [Campus] buildings for [350] [Faith] [in cities following this religion]",
+			"May buy [Research Lab] buildings for [560] [Faith] [in cities following this religion]",
+			"Only available <after adopting [Mandate of Heaven]>"
+		]
+	},
+	{
+		"name": "Arcane Tutelage",
+		"type": "Enhancer", // 2/3
+		"uniques": [
+			"May buy [Academy of Magic] buildings for [150] [Faith] [in cities following this religion]",
+			"May buy [Centre of Arcane] buildings for [180] [Faith] [in cities following this religion]",
+			"May buy [Rune Forge] buildings for [220] [Faith] [in cities following this religion]",
+			"Only available <after adopting [Mandate of Heaven]>"
+		]
+	},
+	{
+		"name": "Sacred Sites",
+		"type": "Enhancer",
+		"uniques": ["Comment [+2 Culture, +2 Faith from every Religious buildings]"]
+	},
+	{
+		"name": "To the Glory of God",
+		"type": "Enhancer",
+		"uniques": ["Comment [May purchase any Great Person]"]
+	},
+	{
+		"name": "Unity of the Prophet",
+		"type": "Enhancer",
+		"uniques": ["Comment [[+4 Faith, +2 Production] from every [Holy site]]"]
+	},
+	/*{
+		"name": "Underground Sect",
+		"type": "Enhancer",
+		"uniques": [
+			"Gain an extra spy",
+			"[+25]% spy effectiveness [in cities following our religion]"
+		]
+	},*/
 ]

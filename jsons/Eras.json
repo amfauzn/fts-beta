@@ -83,10 +83,12 @@
 		"startingCulture": 300,
 		"settlerPopulation": 4,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
-			"Zillanatu","Aknamuki","Gerude"
+			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
+			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari"
 		],
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 20,
@@ -113,10 +115,14 @@
 		"startingCulture": 400,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
-			"Zillanatu","Aknamuki","Gerude"
+			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
+			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari",
+			"Anchor Statue","Lonoyx","Ker'sai","Sagde",
+			"Glaciruptor","The Broken Gods","Abon Union","Leyheart"
 		],
 		"baseUnitBuyCost": 500,
 		"embarkDefense": 25,
@@ -142,10 +148,14 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
-			"Zillanatu","Aknamuki","Gerude"
+			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
+			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari",
+			"Anchor Statue","Lonoyx","Ker'sai","Sagde",
+			"Glaciruptor","The Broken Gods","Abon Union","Leyheart"
 		],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 30,
@@ -171,10 +181,14 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
-			"Zillanatu","Aknamuki","Gerude"
+			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
+			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari",
+			"Anchor Statue","Lonoyx","Ker'sai","Sagde",
+			"Glaciruptor","The Broken Gods","Abon Union","Leyheart"
 		],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 35,
