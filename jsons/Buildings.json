@@ -56,8 +56,8 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-			"Destroyed when the city is captured",
-			"NatW preq"
+			"NatW preq",
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Language"
 	},
@@ -80,8 +80,7 @@
 			"[+1 Food] from [Citrus] tiles [in this city]",
 			"[+1 Food] from [Corn] tiles [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]",
-			"[-5]% Unhappiness from [Population] [in this city]"
+			"[+1 Food] from [Wheat] tiles [in this city]"
 		],
 		"requiredTech": "Pottery"
 	},
@@ -89,9 +88,9 @@
 		"name": "Shooting Range",
 		"hurryCostModifier": 5,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Ranged Infantry units]",
 			//"Free [Archer] appears",
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Archery"
@@ -114,9 +113,9 @@
 		"name": "Shipyard",
 		"hurryCostModifier": 5,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Naval units]",
 			//"Free [Trireme] appears",
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Sailing"
@@ -126,8 +125,8 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
-			"NatW preq"
+			"NatW preq",
+			"[+1 Science] per [2] population [in this city]"
 		],
 		"requiredTech": "Paper Making"
 	},
@@ -176,11 +175,10 @@
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 5,
-		"maintenance": 1,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Anti-Armor units]",
 			//"Free [Spearman] appears",
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -190,11 +188,10 @@
 	{
 		"name": "Arcane Spire",
 		"hurryCostModifier": 5,
-		"maintenance": 1,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Mage & Golem units]",
 			//"Free [Priest] appears",
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mana Thaumaturgy"
@@ -220,11 +217,10 @@
 	{
 		"name": "Siege Workshop",
 		"hurryCostModifier": 5,
-		"maintenance": 1,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Siege and Anti-Air units]",
 			//"Free [Catapult] appears",
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mathematics"
@@ -253,11 +249,10 @@
 	{
 		"name": "Riding Arena",
 		"hurryCostModifier": 5,
-		"maintenance": 1,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Mounted units]",
 			//"Free [Horseman] appears",
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Animal Riding"
@@ -276,12 +271,11 @@
 	{
 		"name": "Hatchery",
 		//"requiredNearbyImprovedResources": ["Mystical Egg"],
-		"hurryCostModifier": 10,
-		"maintenance": 1,
+		"hurryCostModifier": 15,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Air Terror units]",
 			"[+1 Production] from [Mythical Egg] tiles [in this city]",
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Geomancy"
@@ -293,9 +287,9 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
+			"NatW preq",
 			"Only available <when religion is enabled>",
-			"New [Monk] units start with [10] XP [in this city]",
-			"NatW preq"
+			"New [Monk] units start with [10] XP [in this city]"
 		],
 		"requiredTech": "Philosophy"
 	},
@@ -351,12 +345,11 @@
 	{
 		"name": "Forge",
 		"hurryCostModifier": 5,
-		"maintenance": 1,
 		"uniques": [
+			"Military unlocker",
 			"Comment [Enables training Infantry units]",
 			"[+1 Production] from [Iron] tiles [in this city]",
 			//"Free [Swordsman] appears", 
-			"Military unlocker",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Iron Working"
@@ -630,7 +623,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Cannot be purchased",
-			"Costs [10] [Aether]",
+			"Costs [50] [Aether]",
 			//"Free [Watcher] appears",
 			"Destroyed when the city is captured"
 		],
@@ -826,10 +819,7 @@
 		"food": 5,
 		"hurryCostModifier": 0,
 		"maintenance": 2,
-		"uniques": [
-			"[10]% Food is carried over after population increases [in this city]",
-			"[-10]% Unhappiness from [Population] [in this city]"
-		],
+		"uniques": ["[-5]% Unhappiness from [Population] [in this city]"],
 		"requiredTech": "Biology"
 	},
 	{
@@ -927,7 +917,7 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[20]% Food is carried over after population increases [in this city]"]
+		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
 	
 	// World Wonder
@@ -1152,8 +1142,8 @@
 			"Only available <after adopting [Wizardry]> <hidden from users>",
 			"Instantly provides [500] [Aether]",
 			"Provides [1] [Luminaris]",
-			//"Provides [1] [Luminaris] <when above [99] [counter-1]> <hidden from users>",
-			//"Comment [Provides 1 more Luminaris if this city is not captured for the next 100 turns]",
+			"Provides [1] [Luminaris] <when above [99] [counter-1]> <hidden from users>",
+			"Comment [Provides 1 more Luminaris if this city is not captured for the next 100 turns]",
 		],
 		"requiredTech": "Mana Attunement",
 		"quote": "'And as I grew older I understood that instructions came with this voice. What were these instructions? The instructions were never to lament casually.' -Leonard Cohen"
@@ -1293,6 +1283,153 @@
 		],
 		"requiredTech": "Spellbook Codification",
 		"quote": "'I felt, as never before or since, as if I were stepping onto the rooftop of my being; onto some dimension of consciousness that I'd never visited before.' –Pico Iyer"
+	},
+	
+	// Magi-Industry Age
+	{
+		"name": "Erdeal", // of Morlovia
+		"isWonder": true,
+		"culture": 2,
+		"uniques": [
+			"[+25]% [Culture] [in this city]",
+			"[-15]% Culture cost of natural border growth [in all other cities]",
+			"[-15]% Gold cost of acquiring tiles [in all cities]"
+		],
+		"requiredTech": "Architecture",
+		"quote": "'It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+	},
+	{
+		"name": "Fortavida", // of Malus
+		"happiness": 2,
+		"uniques": [
+			"Must have an owned [Ley Line] within [3] tiles",
+			"[+50]% Strength for cities <in this city> <when defending> <vs [Mage] units>",
+			"[+1 Happiness] from every [Magic Array]"
+		],
+		"requiredTech": "Runeforging",
+		"quote": "'Their realization is almost as necessary to our virtues as to our happiness. From their total frustration disastrous results both moral and psychological might follow.' ~ C. S. Lewis"
+	},
+	{
+		"name": "God's Messenger", // of Sanctum Regalia
+		"isWonder": true,
+		"faith": 3,
+		//"greatPersonPoints": {"Great Artist": 1},
+		"uniques": [
+			"Provides [1] [Fate] <when below [101] [Fate]> <hidden from users>",
+			"Provides [2] [Fate] <when above [99] [Fate]> <when below [141] [Fate]> <hidden from users>",
+			"Comment [Increase [Fate] capacity by 40]",
+			"Comment [[Fate] accumulated 2 times as fast]",
+			//"[+2 Faith] from every [Holy site]",
+			//"Only available <when religion is enabled>"
+		],
+		"requiredTech": "Printing",
+		"quote": "'The body is wiser than its inhabitants. The body is God's messenger' - Horace"
+	},
+	
+	// Monk School
+	{
+		"name": "Flowing River School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training Flowing River Monk]",
+			"May buy [Flowing River Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Open Hand School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training Open Hand Monk]",
+			"May buy [Open Hand Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Shadow Fang School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training Shadow Fang Monk]",
+			"May buy [Shadow Fang Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "White Lotus School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training White Lotus Monk]",
+			"May buy [White Lotus Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Drunken Master School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training Drunken Master Monk]",
+			"May buy [Drunken Masrer Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Gun Fu School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training Gun Fu Monk]",
+			"May buy [Gun Fu Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Loyal Brotherhood School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training Loyal Brotherhood Monk]",
+			"May buy [Loyal Brotherhood Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Wuxia School",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"Comment [Enables training Wuxiau Monk]",
+			"May buy [Wuxia Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Mechanism

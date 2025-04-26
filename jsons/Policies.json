@@ -380,11 +380,7 @@
 			},
 			{
 				"name": "Postulants",
-				"uniques": [
-					"Comment [Enables construction of Monk]",
-					"May buy [Monk] units with [Faith] for [1] times their normal Production cost",
-					"Provides [1] [Postulant Card] <hidden from users>"
-				],
+				"uniques": ["Triggers a [Choose a Monk School] event"],
 				"requires": ["Theocracy"],
 				"row": 2,
 				"column": 3
@@ -1166,7 +1162,7 @@
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
 					"Double quantity of [Mythical Egg] produced",
-					"Comment [May capture killed Barbarians unit]"
+					"Comment [May capture killed Beast non-Boss unit]"
 				],
 				"row": 3,
 				"column": 3
@@ -1198,7 +1194,7 @@
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
 					"[+20]% Strength <for [Mage] units>",
-					"Comment [Recover [Aether] used to train construct Heroes and activate their skill by half]"
+					"Comment [Recover [Aether] used to train Mages and acquire their skill by half]"
 				],
 				"row": 3,
 				"column": 9

@@ -297,7 +297,7 @@
 		"uniques": [
 			"Only available <for units without [Depredation]>",
 			"[+100]% Yield from pillaging tiles",
-			"[+100]% Health from pillaging tiles"
+			"[+25]% Health from pillaging tiles"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 14,
@@ -317,7 +317,7 @@
 	{
 		"name": "Outmanuever",
 		"prerequisites": ["Light Cavalry"],
-		"uniques": ["[+33]% to Flank Attack bonuses"]
+		"uniques": ["[+50]% to Flank Attack bonuses"]
 		"unitTypes": ["Mounted"],
 		"column": 16,
 		"row": 2
@@ -325,7 +325,10 @@
 	{
 		"name": "Escort Mobility",
 		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
-		"uniques": ["Transfer Movement to [Civilian]"],
+		"uniques": [
+			"Transfer Movement to [Civilian]",
+			"[+10]% Strength when stacked with [Civilian]"
+		],
 		"unitTypes": ["Mounted"],
 		"column": 13,
 		"row": 3
@@ -375,7 +378,10 @@
 	{
 		"name": "Agile",
 		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
-		"uniques": ["Withdraws before melee combat <with [50]% chance>"],
+		"uniques": [
+			"Withdraws before melee combat <with [50]% chance>",
+			"Can move after attacking"
+		],
 		"unitTypes": ["Mounted"],
 		"column": 16,
 		"row": 3
@@ -407,7 +413,7 @@
 		"name": "Ambusher",
 		"prerequisites": ["Escort Mobility","Outrider","Vigilant","Agile"],
 		"uniques": [
-			"Comment [+50% Strength when outside of combat in the last 3 turns]",
+			"Comment [+100% Strength when outside of combat in the last 3 turns]",
 			"[This Unit] gains the [Ambusher Active] status for [1] turn(s) <upon turn start> <for units without [Ambusher Cooldown]> <hidden from users>",
 			"[This Unit] gains the [Ambusher Cooldown] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>"
 		],
@@ -417,26 +423,38 @@
 	},
 	{
 		"name": "Ambusher Active",
-		"uniques": ["[+50]% Strength"],
+		"uniques": ["[+100]% Strength"],
 	},
 	{
 		"name": "Ambusher Cooldown",
 		"uniques": ["Comment [[Vigilant] is on cooldown]"]
 	},
 	{
-		"name": "Fast Regroup",
-		"prerequisites": ["Breakthrough","Encirclement","Agoge","Heavy Plate"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"name": "Coup de Grace",
+		"prerequisites": ["Escort Mobility","Outrider","Vigilant","Agile"],
+		"uniques": [
+			"Comment [Attack instantly kills enemy unit that is reduced to 20 HP or less]",
+			"[Target Unit] gains the [Death Mark] status for [1] turn(s) <upon damaging a [non-[Death Mark]] unit> <hidden from users>"
+		],
 		"unitTypes": ["Mounted"],
 		"column": 16,
 		"row": 4
+	},
+	{
+		"name": "Death Mark",
+		"uniques": [
+			"Comment [Dies immediately when taking damage with remaining 20 HP or less]",
+			"[Target Unit] gains the [Death Mark] status for [1] turn(s) <upon damaging a [non-[Death Mark]] unit> <hidden from users>",
+			"[This Unit] takes [101] damage <upon gaining the [Death Mark] status> <when below [21] HP> <hidden from users>",
+			"[This Unit] takes [101] damage <upon losing at least [1] HP in a single attack> <when below [21] HP> <hidden from users>"
+		]
 	},
 	
 	{
 		"name": "Heavy Cavalry",
 		"uniques": [
 			"Only available <for units without [Light Cavalry]>",
-			"[+25]% Strength <vs [Anti-Armor] units>"
+			"[+25]% Strength"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 17,
@@ -447,7 +465,7 @@
 		"prerequisites": ["Heavy Cavalry"],
 		"uniques": [
 			"Only available <for units without [Adaptable]>",
-			"[+33]% Strength <vs [Wounded] units>"],
+			"[+25]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Mounted"],
 		"column": 17,
 		"row": 2
@@ -505,7 +523,7 @@
 		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
 			"Only available <for units without [Agoge]>",
-			"[+33]% Strength <vs cities> <when adjacent to a [{Melee} {non-[Mage]}] unit>"
+			"[+33]% Strength <vs cities> <when adjacent to a [Melee] unit>"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 18,
@@ -516,7 +534,8 @@
 		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
 			"Only available <for units without [Encirclement]>",
-			"[Great General] is earned [100]% faster"
+			"[Great General] is earned [50]% faster",
+			"Can move after attacking"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 19,
@@ -768,7 +787,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Comment [Fire spells]",
-			"Comment [Inflict [Scorched] for 2 turns (Passive)]",
+			"Comment [Passive. Inflict [Scorched] for 2 turns]",
 			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -1217,7 +1236,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Comment [Lightning spells]",
-			"Comment [Apply [Disrupted] for 1 turn (Passive)]",	//Or Disrupt Chakra?		
+			"Comment [Passive. Inflict [Disrupted] for 2 turns]", //Or Disrupt Chakra?		
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [147, 112, 219],
@@ -1599,11 +1618,11 @@
 	
 	// Water Element
 	{
-		"name": "Tranquility",
+		"name": "Restoration",
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Comment [Water spells]",
-			"Comment [Heals 5 HP upon turn end (Passive)]",
+			"Comment [Passive. Heals 5 HP upon turn end]",
 			"[This Unit] heals [5] HP <upon turn end> <hidden from users>"		
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -1827,6 +1846,125 @@
 	// Construct
 	
 	// Air Terror
+	{
+		"name": "Piercing Claw",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	{
+		"name": "Awareness",
+		"uniques": [
+			"Can see over obstacles",
+			"Comment [Attacks inflict status ailment to target enemies]"
+		],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Unbound",
+		"uniques": ["Ignores Zone of Control"],
+		"unitTypes": ["Counter Air Terror"]
+	},
+	{
+		"name": "Twin Fang",
+		"prerequisites": ["Piercing Claw"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Meteoric Dive",
+		"prerequisites": ["Piercing Claw"],
+		"uniques": [
+			"[+25]% Strength <vs [Anti-Air] units> <when attacking>",
+			"[+25]% Strength <vs [Flying] units>"
+		],
+		"unitTypes": ["Counter Air Terror"]
+	},
+	{
+		"name": "Hardened Scale",
+		"prerequisites": ["Awareness"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	{
+		"name": "Hunter Killer",
+		"prerequisites": ["Twin Fang","Meteoric Dive","Hardened Scale"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	{
+		"name": "Wind Dash",
+		"prerequisites": ["Twin Fang","Meteoric Dive","Hardened Scale"],
+		"uniques": ["[+2] Movement"],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	{
+		"name": "Vigilance",
+		"prerequisites": ["Wind Dash","Hardened Scale"],
+		"uniques": [
+			"[+1] Sight",
+			"Can see invisible [Military] units"
+		],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	{
+		"name": "Regenerative Tissue",
+		"prerequisites": ["Hunter Killer","Wind Dash","Vigilance"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	{
+		"name": "Hunter's Instinc",
+		"prerequisites": ["Hunter Killer","Wind Dash","Vigilance"],
+		"uniques": [
+			"Can move after attacking",
+			"[+10]% Strength <vs [Wounded] units>"
+		],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	{
+		"name": "Aerial Agility",
+		"prerequisites": ["Hunter Killer","Wind Dash","Vigilance"],
+		"uniques": ["Withdraws before melee combat <with [80]% chance>"],
+		"unitTypes": ["Air Terror","Counter Air Terror"]
+	},
+	
+	// Awareness
+	{
+		"name": "Fire Breath", 			// Fire Dragon
+		"prerequisites": ["Awareness"],
+		"uniques": [
+			"Instantly consumes [50] [Aether]",
+			"[+10]% Strength <vs [Burning] <when attacking>",
+			"[+10]% Strength <vs [Scorched] <when attacking>",
+			"Comment [Passive. Inflict [Scorched] for 2 turns]",
+			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [non-[Fire Breath]] unit> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Lightning Burst", 		// Storm Dragon
+		"prerequisites": ["Awareness"],
+		"uniques": [
+			"Instantly consumes [50] [Aether]",
+			"Comment [Passive. Inflict [Electrified] for 2 turns",
+			"[Target Unit] gains the [Electrified] status for [2] turn(s) <upon damaging a [non-[Lightning Burst]] unit> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Ice Breath", 			// Ice Dragon
+		"prerequisites": ["Awareness"],
+		"uniques": [
+			"Costs [60] [Aether]",
+			"Comment [Passive. Inflict [Frozen] for 2 turns",
+			"[Target Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [non-[Ice Breath]] unit> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Air Terror"]
+	},
+	// Acid Breath, Venom Breath
 	
 	// Naval Melee
 	{
@@ -2118,6 +2256,20 @@
 	
 	// Mixed
 	{
+		"name": "Harpy Training",
+		"prerequisites": ["Ranger","Highlander","Shock","Drill","Accuracy","Barrage"],
+		"uniques": [
+			"Only available <with [Featherite]>",
+			"Can pass through impassable tiles"
+		],
+		"unitTypes": [
+			"Recon",
+			"Infantry",
+			"Anti-Armor",
+			"Ranged Infantry"
+		]
+	},
+	{
 		"name": "Logistics",
 		"prerequisites": [
 			"Volley","Damage Absorb","Crew Weapons","Indirect Fire",
@@ -2221,9 +2373,11 @@
 	{
 		"name": "Mana Sensing",
 		"uniques": [
+			"Unavailable <hidden from users>",
 			"Comment [This Unit may sense mana]",
 			"Can move after attacking"
 		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"]
 	},
 	/*{
 		"name": "Elemental Infusion",
@@ -2449,6 +2603,13 @@
 			"NoCast <hidden from users>",
 			
 			"[-1]% Strength <hidden from users>"
+		]
+	},
+	{
+		"name": "Despair",
+		"uniques": [
+			"[-20]% Strength",
+			"Ailment"
 		]
 	},
 	{
@@ -2706,7 +2867,34 @@
 		]
 	},
 	
-	
+	// Monster/Beast
+	{
+		"name": "Ethereal",				// Ethereal Monster
+		"uniques": [
+			"Invisibility",
+			"Withdraws before melee combat <with [80]% chance>",
+			"Invisible to others",
+			"Can see invisible [Invisibility] units"
+		]
+	},
+	/*{
+		"name": "Vermin Bite",
+		"uniques": [
+			"Comment [Passive. Inflict [Poisoned] for 2 turns",
+			"[Target Unit] gains the [Poisoned] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		]
+	},*/
+	{
+		"name": "Quick Reflexes",
+		"uniques": ["Withdraws before melee combat <with [75]% chance>"]
+	},
+	{
+		"name": "Screech",
+		"uniques": [
+			"Comment [Passive. Inflict [Despair] for 2 turns",
+			"[Target Unit] gains the [Despair] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		]
+	},
 	
 	// Icon & Backend purposes
 	{
@@ -2743,14 +2931,48 @@
 	
 	// Free Skills
 	{
-		"name": "[Scout] ability"
+		"name": "[Scout] ability",		// Scout
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
-		"name": "Aether Core",
+		"name": "[Bogrunner] ability",	// Bogrunner
+		"uniques": [
+			"Comment [Gain +1 Movement and can move after attacking when fighting in Fresh Water tile]",
+			"Can move after attacking <in [Fresh Water] tiles> <hidden from users>",
+			"[This Unit] gains [1] movement <upon damaging a [All] unit> <in [Fresh Water] tiles> <hidden from users>",
+		]
+	},
+	{
+		"name": "Aether Core",			// Policy
 		"uniques": [
 			"[+25]% Strength <when below [40] HP>",
 			"[+25]% Strength <when below [20] HP> <when defending>"
+		]
+	},
+	{
+		"name": "Frostbrand",			// Tuskarr
+		"uniques": [
+			"Comment [Inflict [Frostbitten] to target unit for 2 turns",
+			"[Target Unit] gains the [Frostbitten] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
+		]
+	},
+	{
+		"name": "Medic",				// Xingzun
+		"uniques": ["All adjacent units heal [+10] HP when healing"]
+	},
+	{
+		"name": "No Suicide",			// Monster/Beast
+		"uniques": [
+			"Can only attack [Civilian] units"
+			"Can only attack [Military] units"
+		]
+	},
+	{
+		"name": "Piracy",				// Corelia
+		"uniques": [
+			"Earn [25]% of the damage done to [Water] units as [Gold]",
+			"Earn [25]% of the damage done to [City] units as [Gold]",
+			"May capture killed [Water] units <with [50]% chance>"
 		]
 	},
 ]

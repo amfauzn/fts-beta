@@ -10,6 +10,17 @@
 		"Rebel units may spawn <when below [-20] Happiness>",
 		"[-1] Sight <for [Embarked] units>",
 		
+		// Military unlocker
+		"Gain a free [Barracks] [in all cities] <after discovering [Printing]>",
+		"Gain a free [Forge] [in all cities] <after discovering [Printing]>",
+		"Gain a free [Hatchery] [in all cities] <after discovering [Printing]>",
+		"Gain a free [Riding Arena] [in all cities] <after discovering [Printing]>",
+		"Gain a free [Shipyard] [in all cities] <after discovering [Printing]>",
+		"Gain a free [Shooting Range] [in all cities] <after discovering [Printing]>",
+		"Gain a free [Siege Workshop] [in all cities] <after discovering [Printing]>",
+		
+		// Mercenary
+		"New [Composite Bowman] units start with [15] XP [in all cities]"
 		
 		// Spells mechanism
 		// Deafened

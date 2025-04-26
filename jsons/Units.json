@@ -247,16 +247,13 @@
 		"name": "Spearman",
 		"unitType": "Anti-Armor",
 		"movement": 2,
-		"strength": 17,
+		"strength": 15,
 		"cost": 56,
 		"hurryCostModifier": 10,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": [
-			"Can only be built <in cities with a [Barracks]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -269,10 +266,7 @@
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Alchemy",
 		"upgradesTo": "Halberdier",
-		"uniques": [
-			"Can only be built <in cities with a [Barracks]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -285,10 +279,7 @@
 		"requiredTech": "Alchemy",
 		"obsoleteTech": "Pyromunition",
 		"upgradesTo": "Crusher",
-		"uniques": [
-			"Can only be built <in cities with a [Barracks]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
 		"attackSound": "shot"
 	},
 	{
@@ -301,10 +292,7 @@
 		"requiredTech": "Pyromunition",
 		"obsoleteTech": "Bionic Physiology",
 		"upgradesTo": "Cyborg",
-		"uniques": [
-			"Can only be built <in cities with a [Barracks]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -316,10 +304,10 @@
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Bionic Physiology",
 		"uniques": [
+			"Can only be built <in cities with a [Barracks]> <hidden from users>",
 			"[+15]% Strength <vs [Melee] units> <when defending>",
 			"No defensive terrain bonus",
-			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit"
+			"Ignores Zone of Control"
 		],
 		"attackSound": "gdrAttack"
 	},
@@ -337,7 +325,6 @@
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Knight",
 		"uniques": [
-			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
@@ -355,7 +342,6 @@
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cavalry",
 		"uniques": [
-			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
@@ -373,7 +359,6 @@
 		"obsoleteTech": "Pyrokinetics",
 		"upgradesTo": "Landship",
 		"uniques": [
-			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
@@ -403,7 +388,10 @@
 		"cost": 540,
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": [
+			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "tankshot"
 	},
 	
@@ -1159,7 +1147,10 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Aquanautics",
 		"upgradesTo": "Privateer",
-		"uniques": ["Can only be built <in cities with a [Shipyard]> <hidden from users>"],
+		"uniques": [
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
+			"May capture killed [Water] units"
+		],
 		"attackSound": "cannon"
 	},
 	{
@@ -1179,8 +1170,8 @@
 			"[+25]% Strength <when attacking>",
 			"Invisible to non-adjacent units",
 			"Can only attack [Water] tiles",
-			"Can only be built <in cities with a [Shipyard]> <hidden from users>"
-			"Never appears as a Barbarian unit"
+			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
+			"May capture killed [Water] units"
 		],
 		"attackSound": "cannon"
 	},
@@ -1196,8 +1187,7 @@
 		"uniques": [
 			"[+75]% Strength <when attacking>",
 			"Invisible to non-adjacent units",
-			"Can only attack [Water] tiles",
-			"Never appears as a Barbarian unit"
+			"Can only attack [Water] tiles"
 		],
 		"attackSound": "torpedo"
 	},
@@ -1219,9 +1209,9 @@
 		]
 	},
 	
-	// Monk
+	// Monk (Shown on Civilopedia)
 	{
-		"name": "Siaxiplw",
+		"name": "Disciple",
 		"unitType": "Monk",
 		"movement": 2,
 		"strength": 25,
@@ -1229,7 +1219,7 @@
 		"obsoleteTech": "Quintessence Powers",
 		"upgradesTo": "Adept",
 		"uniques": [
-			"Can only be built <with [Postulant Card]>",
+			"Unavailable <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		],
@@ -1245,10 +1235,10 @@
 		"strength": 50,
 		"cost": 300,
 		"requiredTech": "Quintessence Powers",
-		//"obsoleteTech": "Empowerment",
+		"obsoleteTech": "Empowerment",
 		"upgradesTo": "Master",
 		"uniques": [
-			"Can only be built <with [Postulant Card]>",
+			"Unavailable <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		],
@@ -1265,7 +1255,7 @@
 		"cost": 500,
 		"requiredTech": "Empowerment",
 		"uniques": [
-			"Can only be built <after adopting [Mysticism Complete]>",
+			"Unavailable <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		],
@@ -1275,7 +1265,555 @@
 		]
 	},
 	
+	// Monk (Hidden)
+	{
+		"name": "Flowing River Disciple",
+		"unitType": "Flowing River Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Flowing River Adept",
+		"uniques": [
+			"Can only be built <if [Flowing River School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Flowing River Adept",
+		"unitType": "Flowing River Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Flowing River Master",
+		"uniques": [
+			"Can only be built <if [Flowing River School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Flowing River Master",
+		"unitType": "Flowing River Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [Flowing River School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Open Hand Disciple",
+		"unitType": "Open Hand Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Open Hand Adept",
+		"uniques": [
+			"Can only be built <if [Open Hand School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Open Hand Adept",
+		"unitType": "Open Hand Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Open Hand Master",
+		"uniques": [
+			"Can only be built <if [Open Hand School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Open Hand Master",
+		"unitType": "Open Hand Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [Open Hand School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Shadow Fang Disciple",
+		"unitType": "Shadow Fang Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Shadow Fang Adept",
+		"uniques": [
+			"Can only be built <if [Shadow Fang School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Shadow Fang Adept",
+		"unitType": "Shadow Fang Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Shadow Fang Master",
+		"uniques": [
+			"Can only be built <if [Shadow Fang School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Shadow Fang Master",
+		"unitType": "Shadow Fang Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [Shadow Fang School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "White Lotus Disciple",
+		"unitType": "White Lotus Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "White Lotus Adept",
+		"uniques": [
+			"Can only be built <if [White Lotus School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "White Lotus Adept",
+		"unitType": "White Lotus Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "White Lotus Master",
+		"uniques": [
+			"Can only be built <if [White Lotus School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "White Lotus Master",
+		"unitType": "White Lotus Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [White Lotus School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Drunken Disciple",
+		"unitType": "Drunken Masrer Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Drunken Adept",
+		"uniques": [
+			"Can only be built <if [Drunken Master School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Drunken Adept",
+		"unitType": "Drunken Masrer Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Drunken Master",
+		"uniques": [
+			"Can only be built <if [Drunken Master School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Drunken Master",
+		"unitType": "Drunken Masrer Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [Drunken Master School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Gun Fu Disciple",
+		"unitType": "Gun Fu Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Gun Fu Adept",
+		"uniques": [
+			"Can only be built <if [Gun Fu School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Gun Fu Adept",
+		"unitType": "Gun Fu Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Gun Fu Master",
+		"uniques": [
+			"Can only be built <if [Gun Fu School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Gun Fu Master",
+		"unitType": "Gun Fu Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [Gun Fu School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Loyal Brotherhood Disciple",
+		"unitType": "Loyal Brotherhood Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Loyal Brotherhood Adept",
+		"uniques": [
+			"Can only be built <if [Loyal Brotherhood School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Loyal Brotherhood Adept",
+		"unitType": "Loyal Brotherhood Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Loyal Brotherhood Master",
+		"uniques": [
+			"Can only be built <if [Loyal Brotherhood School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Loyal Brotherhood Master",
+		"unitType": "Loyal Brotherhood Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [Loyal Brotherhood School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Wuxia Disciple",
+		"unitType": "Wuxia Monk",
+		"movement": 2,
+		"strength": 25,
+		"cost": 100,
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Wuxia Adept",
+		"uniques": [
+			"Can only be built <if [Wuxia School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Wuxia Adept",
+		"unitType": "Wuxia Monk",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Empowerment",
+		"upgradesTo": "Wuxia Master",
+		"uniques": [
+			"Can only be built <if [Wuxia School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Wuxia Master",
+		"unitType": "Wuxia Monk",
+		"movement": 3,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"uniques": [
+			"Can only be built <if [Wuxia School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	
 	// Mercenary
+	{
+		"name": "Captain Jack",
+		"unitType": "Civilian Water",
+		"movement": 2,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"[+30]% Strength bonus for [Black Pearl] units within [2] tiles",
+			"All adjacent units heal [+10] HP when healing",
+			//"Can instantly construct a [Sea Fort] improvement <by consuming this unit>"
+		],
+		"civilopediaText": [
+			{"text": "A legendary pirate of the Seven Seas and the captain of Black Pearl. Captain Jack's first love was the sea, his second his beloved ship the Black Pearl, and desired freedom and adventure more than any material treasure."}
+		]
+	},
+	{
+		"name": "Black Pearl",
+		"unitType": "Naval Raider",
+		"movement": 5,
+		"strength": 30,
+		"cost": 165,
+		"requiredTech": "Cartography",
+		"upgradesTo": "Privateer",
+		"promotions": ["Coastal Raider","Piracy"],
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "Cannon",
+		"civilopediaText": [
+			{"text": "An infamous ship of the seven seas. With sails as dark as a moonless night, and a hull painted to match, the Black Pearl was every inch a pirate ship, built for action."}
+		]
+	},
+	{
+		"name": "Bogrunner",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 30,
+		"cost": 170,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Marine",
+		"promotions": ["Amphibious","[Bogrunner] ability"],
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Armed with sword-like bones, these unit excel in amphibious combat."}
+		]
+	},
+	{
+		"name": "Composite Bowman",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 65,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Arbalester",
+		"uniques": [
+			"Mercenary",
+			"Common",
+			"Unbuildable",
+			"Comment [Start with 15 XP]",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Constructed of layered strips of bone, horn, or other materials glued together to form an extremely strong and powerful bow, these bow considered the most sophisticated of all bow designs."}
+		]
+	},
+	{
+		"name": "Courser",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+		"cost": 170,
+		"requiredResource": "Horses",
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Cavalry",
+		"promotions": ["Light Cavalry"],
+		"uniques": [
+			"Mercenary",
+			"Common",
+			"Unbuildable",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Emphasize mobility and flexibility, these mounted unit operate independently, conducting deep raids into the enemy heartland."}
+		]
+	},
+	{
+		"name": "Galewing",
+		"unitType": "Counter Air Terror",
+		"movement": 4,
+		"strength": 30,
+		"cost": 75,
+		"requiredTech": "Engineering",
+		"upgradesTo": "Stormwing",
+		"promotions": ["Unbound"],
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"[-25]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "Basic soldier of the Harpies, capable to fly and engage in battle anywhere."}
+		]
+	},
+	{
+		"name": "Stormwing",
+		"unitType": "Counter Air Terror",
+		"movement": 5,
+		"strength": 35,
+		"cost": 200,
+		"requiredTech": "Spellbook Codification",
+		"upgradesTo": "Gryphon",
+		"promotions": ["Unbound"],
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"[-25]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "An elite group of harpies, they are faster and stronger than Galewing."}
+		]
+	},
+	{
+		"name": "Tuskarr",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 30,
+		"cost": 165,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Halberdier",
+		"promotions": ["Frostbrand"],
+		"uniques": [
+			"Mercenary",
+			"Air Battler",
+			"Unbuildable",
+			"Double movement in [Tundra]",
+			"Double movement in [Snow]",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A master of harpoon, these hunter can attack either Land, Water or Flying enemies."}
+		]
+	},
 		
 	// Tamer
 	
@@ -1283,6 +1821,49 @@
 	
 	
 	// Monster/Beast
+	{
+		"name": "Will-o’-the-Wisp",
+		"unitType": "Ethereal Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 20,
+		"cost": 75,
+		"requiredTech": "Mana Thaumaturgy",
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Banaspati",
+		"promotions": ["Ethereal"],
+		"uniques": [
+			"Monster",
+			"Limited to [4] per Civilization"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A flickering, ghostly light believed to be a warning or a lure, leading travelers into danger."}
+		]
+	},
+	{
+		"name": "Banaspati",
+		"unitType": "Ethereal Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 46,
+		"cost": 260,
+		"obsoleteTech": "Flight",
+		"requiredTech": "Spellbook Codification",
+		"promotions": ["Ethereal"],
+		"uniques": [
+			"Boss",
+			"Monster",
+			"Limited to [2] per Civilization",
+			"Uncapturable",
+			"[-10]% Strength for enemy [Biological] units in adjacent [All] tiles"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A fireball, or fire vortex, capable to disturb a person's soul to the point of committing suicide."}
+		]
+	},
+	
 	{
 		"name": "Slime",
 		"unitType": "Infantry",
@@ -1292,12 +1873,13 @@
 		"cost": 20,
 		"obsoleteTech": "Leyline Siphoning",
 		"uniques": [
+			"Monster"
 			"[+200]% Strength <vs [non-[Mage]] units> <when defending>",
 			"Uncapturable"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Gelatinous creatures found squelching in dungeons, swamps, and the untamed wilds. Their semi-liquid bodies can absorb physical attack and regenerate over time, making them durable and resilient."}
 		]
 	},
 	{
@@ -1307,17 +1889,19 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 40,
-		"obsoleteTech": "Leyline Siphoning",
+		"obsoleteTech": "Mana Crystallization",
 		"uniques": [
 			"Boss",
-			"[+200]% Strength <when defending>",
+			"Monster"
+			"Only available <after turn number [10]>",
+			"[+200]% Strength <vs [non-[Mage]] units> <when defending>",
 			"[3] free [Slime] units appear <upon being defeated>",
 			"Limited to [1] per Civilization", 
 			"Uncapturable"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "A monstrous, swelling slime formed from the fusion of countless lesser slimes. Towering over trees and buildings alike, it devours everything in its path"}
 		]
 	},
 	{
@@ -1330,10 +1914,89 @@
 		"requiredTech": "Calendar",
 		"obsoleteTech": "Engineering",
 		//"promotions": ["Vermin Bite"],
-		"uniques": ["[+15]% Strength <vs [Foot] units> <when attacking>"],
+		"uniques": [
+			"Comment [Spawn in 2]",
+			"Ignores Zone of Control"
+		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Mutated by magic, these oversized rodents bred en masse, making them overwhelming enemies through sheer numbers or their dangerous bite."}
+		]
+	},
+	{
+		"name": "Giant Rat-2",
+		"unitType": "Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Calendar",
+		"obsoleteTech": "Engineering",
+		//"promotions": ["Vermin Bite"],
+		"uniques": [
+			"Unbuildable",
+			"Ignores Zone of Control",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Iron Tusk",
+		"unitType": "Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 12,
+		"cost": 40,
+		"requiredTech": "Hunting",
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["Charge"],
+		"uniques": [
+			"Monster",
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"Double movement in [Man-eating tree]",
+			"Can pass through impassable tiles",
+			"Can move after attacking"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Boar-like monster native to rugged highland and forest. Its skin is as tough as armor, and its strong tusks can impale even the mightiest of warriors."}
+		]
+	},
+	{
+		"name": "Jackalope",
+		"unitType": "Infantry",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 12,
+		"cost": 40,
+		"requiredTech": "Domestication",
+		"obsoleteTech": "Guilds",
+		"promotions": ["Quick Reflexes"],
+		"uniques": [
+			"Monster",
+			"Limited to [5] per Civilization",
+			"Can pass through impassable tiles",
+			"Can move after attacking"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Infamous for its agility and keen senses, the Jackalope moves faster than most mount and can dodge projectiles with uncanny ease."}
+		]
+	},
+	{
+		"name": "Cave Bat",
+		"unitType": "Flying Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 12,
+		"cost": 40,
+		"requiredTech": "Mining",
+		"obsoleteTech": "Loan and Saving",
+		"promotions": ["Screech"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Winged predator, whose voice alone is frightening."}
 		]
 	},
 	

@@ -115,7 +115,7 @@
 		"startingCulture": 400,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint","Pyramid","Aqueduct",
 			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
@@ -148,7 +148,7 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint","Pyramid","Aqueduct","Market"
 			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [

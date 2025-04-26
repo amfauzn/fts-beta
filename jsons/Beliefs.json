@@ -180,7 +180,8 @@
 		"name": "Stone Circles",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Faith] from every [Quarry]"
+			"[+2 Faith] from every [Quarry]",
+			"[+2 Faith] from every [Aquarry]"
 		]
 	},
 	{
@@ -379,8 +380,8 @@
 		"name": "Chosen by Destiny",
 		"type": "Follower",
 		//"uniques": ["All newly-trained [Hero] units [in cities following this religion] receive the [promotion] promotion"]
-		// +25% XP for heroes
-		// also unit have same class with the heroes
+		// +50% XP for heroes
+		// also unit have same class with the heroes +25%
 	},
 	{
 		"name": "Work Ethic",
@@ -450,11 +451,7 @@
 	{
 		"name": "Devoted Elite",
 		"type": "Enhancer",
-		"uniques": [
-			"Comment [Enables construction of Monk]",
-			"Provides [1] [Postulant Card] <hidden from users>"
-			"[2] free [Siaxiplw] units appear"
-		]
+		"uniques": ["Triggers a [Choose a Monk School] event"]
 	},
 	{
 		"name": "Divine Summoning",
@@ -516,24 +513,34 @@
 	{
 		"name": "Sacred Sites",
 		"type": "Enhancer",
-		"uniques": ["Comment [+2 Culture, +2 Faith from every Religious buildings]"]
+		"uniques": [
+			"Comment [+2 Culture, +2 Faith from every Religious buildings]",
+			"Only available <after adopting [Mandate of Heaven]>"
+		]
 	},
 	{
 		"name": "To the Glory of God",
 		"type": "Enhancer",
-		"uniques": ["Comment [May purchase any Great Person]"]
+		"uniques": [
+			"Comment [May purchase any Great Person]",
+			"Only available <after adopting [Mandate of Heaven]>"
+		]
 	},
 	{
 		"name": "Unity of the Prophet",
 		"type": "Enhancer",
-		"uniques": ["Comment [[+4 Faith, +2 Production] from every [Holy site]]"]
+		"uniques": [
+			"Comment [[+4 Faith, +2 Production] from every [Holy site]]",
+			"Only available <after adopting [Mandate of Heaven]>"
+		]
 	},
-	/*{
+	{
 		"name": "Underground Sect",
 		"type": "Enhancer",
 		"uniques": [
 			"Gain an extra spy",
-			"[+25]% spy effectiveness [in cities following our religion]"
+			"[+25]% spy effectiveness [in cities following our religion]",
+			"Only available <after adopting [Mandate of Heaven]>"
 		]
-	},*/
+	},
 ]

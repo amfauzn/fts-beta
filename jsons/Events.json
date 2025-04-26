@@ -1,0 +1,60 @@
+[
+    {
+		"name": "Choose a Monk School",
+		"text": "Each School of Monk, despite having the same root of origin, evolved and developed into many school with diverse techniques and weapon used. Choosing a Monk School give you access to their passed down techniques, skills, and abilities.",
+		"choices": [
+			{
+				"text": "Choose Flowing River School",
+				"uniques": [
+					"Gain a free [Flowing River School] [in capital]"
+				]
+			},
+			{
+				"text": "Choose Open Hand School",
+				"uniques": [
+					"Gain a free [Open Hand School] [in capital]"
+				]
+			},
+			{
+				"text": "Choose Shadow Fang School",
+				"uniques": [
+					"Gain a free [Shadow Fang School] [in capital]"
+				]
+			},
+			{
+				"text": "Choose White Lotus School",
+				"uniques": [
+					"Gain a free [White Lotus School] [in capital]"
+				]
+			},
+			{
+				"text": "Choose Drunken Master School",
+				"uniques": [
+					"Only available <with [Wine]>",
+					"Gain a free [Drunken Master School] [in capital]"
+				]
+			},
+			{
+				"text": "Choose Gun Fu School",
+				"uniques": [
+					"Only available <after discovering [Military Engineering]>",
+					"Gain a free [Gun Fu School] [in capital]"
+				]
+			},
+			/*{
+				"text": "Choose Loyal Brotherhood School",
+				"uniques": [
+					"Only available <with [Wine]>",
+					"Gain a free [Loyal Brotherhood School] [in capital]"
+				]
+			},*/
+			{
+				"text": "Choose Wuxia School",
+				"uniques": [
+					"Only available <when above [10] [Horses]>",
+					"Gain a free [Wuxia School] [in capital]"
+				]
+			}
+		]
+	},
+]

@@ -136,7 +136,7 @@
 			"Generated on every [20] tiles <in [{Featureless} {Tundra}] tiles>",
 			"Generated on every [18] tiles <in [{Featureless} {Snow}] tiles>",
 			"Generated on every [20] tiles <in [Flood plains] tiles>",
-			"Generated on every [15] tiles <in [Hill] tiles> <in [Hill] Regions>"
+			"Generated on every [16] tiles <in [Hill] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
@@ -825,6 +825,7 @@
 		"name": "Honey", 
 		"resourceType": "Luxury",
 		"gold": 2,
+		"uniques": ["Excluded from map editor"],
 		//"civilopediaText": [
 			//{"text":"Honey available when you allied with Crotoa."}
 		//]
@@ -833,6 +834,7 @@
 		"name": "Ivory", 
 		"resourceType": "Luxury",
 		"gold": 2,
+		"uniques": ["Excluded from map editor"],
 		//"civilopediaText": [
 			//{"text":"Ivory available when you allied with Frostwaste."}
 		//]
@@ -841,6 +843,7 @@
 		"name": "Jewelry",
 		"resourceType": "Luxury",
 		"gold": 2,
+		"uniques": ["Excluded from map editor"],
 		//"civilopediaText": [
 			//{"text":"Jewelry available when you allied with Concordia."}
 		//]
@@ -849,6 +852,7 @@
 		"name": "Mithril",
 		"resourceType": "Luxury",
 		"gold": 2,
+		"uniques": ["Excluded from map editor"],
 		//"civilopediaText": [
 			//{"text":"Mithril available when you allied with Gahaldur."}
 		//]
@@ -857,6 +861,7 @@
 		"name": "Porcelain",
 		"resourceType": "Luxury",
 		"gold": 2,
+		"uniques": ["Excluded from map editor"],
 		//"civilopediaText": [
 			//{"text":"Porcelain available when you allied with Tonthon."}
 		//]
@@ -865,6 +870,7 @@
 		"name": "Yairmite",
 		"resourceType": "Luxury",
 		"gold": 2,
+		"uniques": ["Excluded from map editor"],
 		//"civilopediaText": [
 			//{"text":"Porcelain available when you allied with Tonthon."}
 		//]
@@ -883,7 +889,7 @@
 		"uniques": [
 			"Not shown on world screen", 
 			"Stockpiled", 
-			"Cannot be traded", 
+			"Cannot be traded",
 			"Excluded from map editor", 
 			"Will not be displayed in Civilopedia"
 		]
@@ -891,11 +897,29 @@
 	
 	// Mechanism
 	{
+		"name": "Beast Chips",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Featherite",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Excluded from map editor"
+		]
+	},
+	{
 		"name": "Magician",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
-			"Cannot be traded", 
+			"Cannot be traded",
 			"Excluded from map editor"
 		]
 	},
@@ -904,12 +928,12 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
-			"Cannot be traded", 
+			"Cannot be traded",
 			"Excluded from map editor"
 		]
 	},
 	{
-		"name": "Postulant Card",
+		"name": "Kiln Design",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",

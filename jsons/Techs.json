@@ -379,6 +379,7 @@
 			},
 			{
 				"name": "Printing",
+				"uniques": ["Comment [Gain free Military unlocker building in all cities]"],
 				"row": 5,
 				"prerequisites": ["Spellbook Codification"],
 				"quote": "'The speed of communications is wondrous to behold, it is also true that speed does multiply the distribution of information that we know to be untrue.' – Edward R. Murrow"
@@ -534,6 +535,10 @@
 		"techs": [
 			{
 				"name": "Pharmaceuticals",
+				"uniques": [
+					"Provides [1] [Healing Leaves] <hidden from users>",
+					"Comment [Unlocks [Potent Healing Potion]]"
+				],
 				"row": 3,
 				"prerequisites": ["Mana Battery"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
@@ -662,8 +667,11 @@
 		"techs": [
 			{
 				"name": "Future Tech",
-				"uniques": [//"Who knows what the future holds?", 
-							"Can be continually researched"],
+				"uniques": [
+					"Comment [Will God ever descend again?]",
+					"Comment [Will They praise us, or condemn us for all of this?]",
+					"Can be continually researched"
+				],
 				"row": 4,
 				"prerequisites": ["Stealth","Radar","Guidance Systems"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"

@@ -13,42 +13,47 @@
 	{
 		"name": "Recon",
 		"movementType": "Land",
-		"uniques": ["Biological"]
+		"uniques": [
+			"Biological",
+			"Never appears as a Barbarian unit"
+		]
 	},
 	{
 		"name": "Infantry",
 		"movementType": "Land",
 		"uniques": [
-			"[+33]% Strength <vs [Anti-Armor] units> <when attacking>",
 			"Biological",
-			"Foot"
+			"Foot",
+			"[+33]% Strength <vs [{Anti-Armor} {non-[Monster]}] units> <when attacking>",
 		]
 	},
 	{
 		"name": "Anti-Armor",
 		"movementType": "Land",
 		"uniques": [
-			"[+33]% Strength <vs [Mounted] units> <when attacking>",
 			"Biological",
-			"Foot"
+			"Foot",
+			"[+33]% Strength <vs [{Mounted} {non-[Monster]}] units> <when attacking>",
+			"Never appears as a Barbarian unit"
 		]
 	},
 	{
 		"name": "Mounted",
 		"movementType": "Land",
 		"uniques": [
-			"No defensive terrain bonus",
 			"Biological",
-			"Mobile"
+			"Mobile",
+			"No defensive terrain bonus",
 		]
 	},
 	{
 		"name": "Ranged Infantry",
 		"movementType": "Land",
 		"uniques": [
-			"[-25]% Strength <vs cities> <when attacking>",
+			"Air Battler",
 			"Biological",
-			"Foot"
+			"Foot",
+			"[-25]% Strength <vs cities> <when attacking>"
 		]
 	},
 	
@@ -57,20 +62,21 @@
 		"name": "Siege",
 		"movementType": "Land",
 		"uniques": [
+			"Mechanical",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit",
-			"Mechanical"
+			"Never appears as a Barbarian unit"
 		]
 	},
 	{
 		"name": "Anti-Air",
 		"movementType": "Land",
 		"uniques": [
+			"Air Battler",
+			"Mechanical",
 			"[+50]% Strength <vs [Flying] units>",
 			"[+33]% Strength <vs [Counter Air Terror] units>",
-			"Never appears as a Barbarian unit",
-			"Mechanical"
+			"Never appears as a Barbarian unit"
 		]
 	},
 	
@@ -79,29 +85,29 @@
 		"name": "Melee Mage",
 		"movementType": "Land",
 		"uniques": [
-			"[+15]% Strength <vs [Ranged Mage] units>",
-			"[+50]% Strength <vs [Construct] units>",
 			"Biological",
-			"Mage"
+			"Mage",
+			"[+15]% Strength <vs [Ranged Mage] units>",
+			"[+50]% Strength <vs [Construct] units>"
 		]
 	},
 	{
 		"name": "Ranged Mage",
 		"movementType": "Land",
 		"uniques": [
+			"Biological",
+			"Mage",
 			"[+50]% Strength <vs cities> <when attacking>",
 			"[+50]% Strength <vs [Construct] units> <when attacking>",
-			"[-10]% Strength <vs [{Biological} {Melee}] units> <when defending>",
-			"Biological",
-			"Mage"
+			"[-10]% Strength <vs [{Biological} {Melee}] units> <when defending>"
 		]
 	},
 	{
 		"name": "Construct",
 		"movementType": "Land",
 		"uniques": [
-			"Ignores Zone of Control",
-			"Mechanical"
+			"Mechanical",
+			"Ignores Zone of Control"
 		]
 	},
 	
@@ -110,6 +116,9 @@
 		"name": "Air Terror",
 		"movementType": "Land",
 		"uniques": [
+			"Biological",
+			"Flying",
+			"Mobile",
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
 			"Eliminates combat penalty for attacking over a river",
@@ -117,9 +126,6 @@
 			"May travel on Water tiles without embarking",
 			"No defensive terrain bonus",
 			"[+100]% maintenance costs",
-			"Flying",
-			"Biological",
-			"Mobile",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -127,6 +133,9 @@
 		"name": "Counter Air Terror",
 		"movementType": "Land",
 		"uniques": [
+			"Biological",
+			"Flying",
+			"Mobile",
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
 			"Eliminates combat penalty for attacking over a river",
@@ -138,9 +147,6 @@
 			"[+66]% Strength <vs [Air Terror] units>",
 			//"[+25]% Strength <vs [Ranged] units> <when defending>",
 			"[+100]% maintenance costs",
-			"Flying",
-			"Biological",
-			"Mobile",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -150,31 +156,31 @@
 		"name": "Naval Melee",
 		"movementType": "Water",
 		"uniques": [
-			"[+50]% Strength <vs [Naval Raider] units>",
-			"Naval",
 			"Mechanical",
-			"Mobile"
+			"Mobile",
+			"Naval",
+			"[+50]% Strength <vs [Naval Raider] units>"
 		]
 	},
 	{
 		"name": "Naval Ranged",
 		"movementType": "Water",
 		"uniques": [
-			"Ranged attacks may be performed over obstacles",
 			"Naval",
 			"Mechanical",
-			"Mobile"
+			"Mobile",
+			"Ranged attacks may be performed over obstacles"
 		]
 	},
 	{
 		"name": "Naval Raider",
 		"movementType": "Water",
 		"uniques": [
-			"Can see invisible [Naval Raider] units",
-			"May capture killed [Water] units",
 			"Naval",
 			"Mechanical",
-			"Mobile"
+			"Mobile",
+			"Can see invisible [Naval Raider] units",
+			"Never appears as a Barbarian unit"
 		]
 	},
 	
@@ -183,16 +189,19 @@
 		"name": "Naval Carrier",
 		"movementType": "Water",
 		"uniques": [
-			"Never appears as a Barbarian unit",
-			"Naval",
 			"Mechanical",
-			"Mobile"
+			"Mobile",
+			"Naval",
+			"Never appears as a Barbarian unit",
 		]
 	},
 	{
 		"name": "Airship",
 		"movementType": "Land",
 		"uniques": [
+			"Flying",
+			"Mechanical",
+			"Mobile",
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
 			"Eliminates combat penalty for attacking over a river",
@@ -200,10 +209,7 @@
 			"May travel on Water tiles without embarking",
 			"No defensive terrain bonus",
 			"Ignores Zone of Control",
-			"Never appears as a Barbarian unit",
-			"Flying",
-			"Mechanical",
-			"Mobile"
+			"Never appears as a Barbarian unit"
 		]
 	},
 	
@@ -212,11 +218,11 @@
 		"name": "Fighter",
 		"movementType": "Air",
 		"uniques": [
+			"Aircraft",
+			"Mechanical",
 			"[+4] Sight",
 			"Can see over obstacles",
-			"Can perform Air Sweep",
-			"Aircraft",
-			"Mechanical"
+			"Can perform Air Sweep"
 		]
 	},
 	{
@@ -231,9 +237,9 @@
 		"name": "Missile",
 		"movementType": "Air",
 		"uniques": [
-			//"Aircraft",
-			"Self-destructs when attacking",
+			"Aircraft",
 			"Mechanical",
+			"Self-destructs when attacking"
 		]
 	},
 	
@@ -242,8 +248,105 @@
 		"name": "Monk",
 		"movementType": "Land",
 		"uniques": [
-			"Never appears as a Barbarian unit",
 			"Biological"
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Flowing River Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Open Hand Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Shadow Fang Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "White Lotus Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Drunken Masrer Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Gun Fu Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Loyal Brotherhood Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Wuxia Monk",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Will not be displayed in Civilopedia",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	
+	// Monster/Beast
+	{
+		"name": "Ethereal Monster",
+		"movementType": "Land",
+		"uniques": [
+			"Uncapturable",
+			"Ignores Zone of Control",
+			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Flying Monster",
+		"movementType": "Land",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"Can see over obstacles",
+			"Flying"
 		]
 	},
 	
