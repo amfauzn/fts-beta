@@ -153,6 +153,92 @@
 		"cities": ["Manthrill"]
 	},
 	
+	// Industrial
+	{
+		"name": "Canthyria",
+		"adjective": ["Cantirii"],
+		"cityStateType": "Momentum Progression",
+		"style": "Centaurs",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "A barbarian like you will never enough with just a horse. I am not a horse!",
+		"defeated": "I don't like you, not from the beginning.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [150, 87, 42],
+		"cities": ["Canthyria"]
+	},
+	{
+		"name": "Clockwerk",
+		"adjective": ["Clockwerks"],
+		"cityStateType": "Artisan",
+		"style": "Kunakad",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Clockwerks obey you, but do not think this is over...",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [239,169,119],
+		"cities": ["Clockwerk"]
+	},
+	{
+		"name": "Dayne",
+		"adjective": ["Clockwerks"],
+		"cityStateType": "Industrial",
+		"style": "Vaja",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "Just because you can't pay me, you declare war on me?",
+		"defeated": "Just take all my slave, will you?",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [189, 99,  0],
+		"cities": ["Dayne"]
+	},
+	{
+		"name": "Dunfirr",
+		"adjective": ["Dunfiri"],
+		"cityStateType": "Artisan",
+		"style": "Dwarves",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The great things we'll about to create are gone.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [239,169,119],
+		"cities": ["Dunfirr"]
+	},
+	{
+		"name": "Kov",
+		"adjective": ["Kovs"],
+		"cityStateType": "Momentum Progression",
+		"style": "Kobolds",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So what is the meaning of a miner?",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [150, 87, 42],
+		"cities": ["Kov"]
+	},
+	{
+		"name": "Rog",
+		"adjective": ["Rogs"],
+		"cityStateType": "Industrial",
+		"style": "Ogre",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "Hungry ... hungry for eternity ...",
+		"attacked": "What a coincidence, I yearns for a fresh flesh myself!",
+		"defeated": "Least spare me your leftover meat.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [189, 99,  0],
+		"cities": ["Rog"]
+	},
+	
 	// Mercantile
 	{
 		"name": "Angasin",

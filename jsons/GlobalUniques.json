@@ -11,13 +11,13 @@
 		"[-1] Sight <for [Embarked] units>",
 		
 		// Military unlocker
-		"Gain a free [Barracks] [in all cities] <after discovering [Printing]>",
-		"Gain a free [Forge] [in all cities] <after discovering [Printing]>",
-		"Gain a free [Hatchery] [in all cities] <after discovering [Printing]>",
-		"Gain a free [Riding Arena] [in all cities] <after discovering [Printing]>",
-		"Gain a free [Shipyard] [in all cities] <after discovering [Printing]>",
-		"Gain a free [Shooting Range] [in all cities] <after discovering [Printing]>",
-		"Gain a free [Siege Workshop] [in all cities] <after discovering [Printing]>",
+		//"Gain a free [Barracks] [in all cities] <after discovering [Printing]>",
+		//"Gain a free [Forge] [in all cities] <after discovering [Printing]>",
+		//"Gain a free [Hatchery] [in all cities] <after discovering [Printing]>",
+		//"Gain a free [Riding Arena] [in all cities] <after discovering [Printing]>",
+		//"Gain a free [Shipyard] [in all cities] <after discovering [Printing]>",
+		//"Gain a free [Shooting Range] [in all cities] <after discovering [Printing]>",
+		//"Gain a free [Siege Workshop] [in all cities] <after discovering [Printing]>",
 		
 		// Mercenary
 		"New [Composite Bowman] units start with [15] XP [in all cities]"
@@ -42,8 +42,6 @@
 		// something something unit supply
 		
 		
-		//"Gain a free [Lonoyx timeStanding] [in capital] <upon constructing [Lonoyx]>",
-		
 	],
 	
 	"unitUniques": [
@@ -52,7 +50,7 @@
 		"[This Unit] gains the [Chilled] status for [4] turn(s) <upon turn start> <when adjacent to a [Blizzard Aura] unit>",
 		"[This Unit] gains the [Frostbitten] status for [4] turn(s) <upon turn start> <when adjacent to a [Blizzard Aura] unit>",
 		//Cleanses
-		"[This Unit] gains the [Debuff Immune] status for [2] turn(s) <upon turn end> <when adjacent to a [Cleanses Active] unit>",
+		"[This Unit] gains the [Immunity] status for [2] turn(s) <upon turn end> <when adjacent to a [Cleanses Active] unit>",
 		//Favourable Wind
 		"[+1] Movement <when adjacent to a [Favourable Wind Active] unit>",
 		//Fly

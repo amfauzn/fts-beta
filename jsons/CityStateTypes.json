@@ -45,6 +45,45 @@
 		"color": [139, 96, 255]
 	},
 	
+	// Industrial
+	{
+		"name": "Industrial",
+		"friendBonusUniques": [
+			"[+2 Production] [in capital]",
+			"[+1 Production] [in all cities] <starting from the [Aeromantic Age]>"
+		],
+		"allyBonusUniques": [
+			"[+2 Production] [in capital]",
+			"[+1 Production] [in all cities]",
+			"[+1 Production] [in all cities] <starting from the [Aeromantic Age]>"
+		],
+		"color": [139, 69, 19]
+	},
+	{
+		"name": "Artisan",
+		"friendBonusUniques": [
+			"[+1 Production] from every [Workshop]",
+			"[+2 Production] from every [Ironworks]"
+		],
+		"allyBonusUniques": [
+			"[+1 Production] from every [Workshop]",
+			"[+1 Production] from every [Factory]",
+			"[+4 Production] from every [Ironworks]"
+		],
+		"color": [139, 69, 19]
+	},
+	{
+		"name": "Momentum Progression",
+		"friendBonusUniques": [
+			"[+10]% [Production] [in capital]"
+		],
+		"allyBonusUniques": [
+			"[+10]% [Production] [in capital]",
+			"[+10]% [Production] [in all cities]"
+		],
+		"color": [139, 69, 19]
+	},
+	
 	// Mercantile
 	{
 		"name": "Middleman Group",

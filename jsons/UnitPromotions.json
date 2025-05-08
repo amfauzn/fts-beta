@@ -280,35 +280,39 @@
 		"row": 1
 	},
 	{
-		"name": "Depredation",
+		"name": "Rout",
 		"prerequisites": ["Light Cavalry"],
 		"uniques": [
-			"Only available <for units without [Ravager]>",
-			"No movement cost to pillage",
-			"Ignores Zone of Control"
+			"Only available <for units without [Upheaval]>",
+			"[+25]% Strength <vs [{Ranged} {Land}] units>",
+			"Can move after attacking"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 13,
 		"row": 2
 	},
 	{
-		"name": "Ravager",
+		"name": "Upheaval",
 		"prerequisites": ["Light Cavalry"],
 		"uniques": [
-			"Only available <for units without [Depredation]>",
-			"[+100]% Yield from pillaging tiles",
-			"[+25]% Health from pillaging tiles"
+			"Only available <for units without [Rout]>",
+			"Comment [+25% Strength upon defeating unit for 1 turn]",
+			"[This Unit] gains the [Upheaval Active] status for [1] turn(s) <upon defeating a [All] unit> <hidden from users>",
+			"Can move after attacking"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 14,
 		"row": 2
 	},
 	{
-		"name": "Rout",
+		"name": "Upheaval Active",
+		"uniques": ["[+25]% Strength"],
+	},
+	{
+		"name": "Depredation",
 		"prerequisites": ["Light Cavalry"],
 		"uniques": [
-			"[+25]% Strength <vs [{Ranged} {Land}] units>",
-			"Can move after attacking"
+			"No movement cost to pillage",
 		],
 		"unitTypes": ["Mounted"],
 		"column": 15,
@@ -317,14 +321,17 @@
 	{
 		"name": "Outmanuever",
 		"prerequisites": ["Light Cavalry"],
-		"uniques": ["[+50]% to Flank Attack bonuses"]
+		"uniques": [
+			"[+50]% to Flank Attack bonuses",
+			"Ignores Zone of Control"
+		]
 		"unitTypes": ["Mounted"],
 		"column": 16,
 		"row": 2
 	},
 	{
 		"name": "Escort Mobility",
-		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
+		"prerequisites": ["Rout","Upheaval","Depredation","Outmanuever"],
 		"uniques": [
 			"Transfer Movement to [Civilian]",
 			"[+10]% Strength when stacked with [Civilian]"
@@ -335,49 +342,35 @@
 	},
 	{
 		"name": "Outrider",
-		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
+		"prerequisites": ["Rout","Upheaval","Depredation","Outmanuever"],
 		"uniques": [
 			"Only available <for units without [Vigilant]>",
 			"Comment [Ignores terrain cost when outside of combat in the last 2 turns]",
-			"[This Unit] gains the [Outrider Active] status for [2] turn(s) <upon turn start> <for units without [Outrider Cooldown]> <hidden from users>",
-			"[This Unit] gains the [Outrider Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"
+			"Ignores terrain cost <for units without [In Combat Cooldown]> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 14,
 		"row": 3
 	},
 	{
-		"name": "Outrider Active",
-		"uniques": ["Ignores terrain cost"],
-	},
-	{
-		"name": "Outrider Cooldown",
-		"uniques": ["Comment [[Outrider] is on cooldown]"]
-	},
-	{
 		"name": "Vigilant",
-		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
+		"prerequisites": ["Rout","Upheaval","Depredation","Outmanuever"],
 		"uniques": [
 			"Only available <for units without [Outrider]>",
 			"Comment [+2 Sight when outside of combat in the last 2 turns]",
-			"[This Unit] gains the [Vigilant Active] status for [2] turn(s) <upon turn start> <for units without [Vigilant Cooldown]> <hidden from users>",
-			"[This Unit] gains the [Vigilant Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"
+			"[+2] Sight <for units without [In Combat Cooldown]> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 15,
 		"row": 3
 	},
 	{
-		"name": "Vigilant Active",
-		"uniques": ["[+2] Sight"],
-	},
-	{
-		"name": "Vigilant Cooldown",
-		"uniques": ["Comment [[Vigilant] is on cooldown]"]
-	},
-	{
 		"name": "Agile",
-		"prerequisites": ["Depredation","Ravager","Rout","Outmanuever"],
+		"prerequisites": ["Rout","Upheaval","Depredation","Outmanuever"],
 		"uniques": [
 			"Withdraws before melee combat <with [50]% chance>",
 			"Can move after attacking"
@@ -414,20 +407,16 @@
 		"prerequisites": ["Escort Mobility","Outrider","Vigilant","Agile"],
 		"uniques": [
 			"Comment [+100% Strength when outside of combat in the last 3 turns]",
-			"[This Unit] gains the [Ambusher Active] status for [1] turn(s) <upon turn start> <for units without [Ambusher Cooldown]> <hidden from users>",
-			"[This Unit] gains the [Ambusher Cooldown] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>"
+			"[+100]% Strength <for units without [In Combat Cooldown]> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [4] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"Comment [If stationed in [Forest] or [Jungle], become invisible]",
+			"[This Unit] gains the [Invisible] status for [1] turn(s) <upon turn start> <in [Forest] tiles> <for units without [In Combat Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Invisible] status for [1] turn(s) <upon turn start> <in [Jungle] tiles> <for units without [In Combat Cooldown]> <hidden from users>",
 		],
 		"unitTypes": ["Mounted"],
 		"column": 15,
 		"row": 4
-	},
-	{
-		"name": "Ambusher Active",
-		"uniques": ["[+100]% Strength"],
-	},
-	{
-		"name": "Ambusher Cooldown",
-		"uniques": ["Comment [[Vigilant] is on cooldown]"]
 	},
 	{
 		"name": "Coup de Grace",
@@ -444,7 +433,7 @@
 		"name": "Death Mark",
 		"uniques": [
 			"Comment [Dies immediately when taking damage with remaining 20 HP or less]",
-			"[Target Unit] gains the [Death Mark] status for [1] turn(s) <upon damaging a [non-[Death Mark]] unit> <hidden from users>",
+			"[This Unit] loses the [Death Mark] status <upon gaining the [Death Mark] status> <when above [21] HP> <hidden from users>",
 			"[This Unit] takes [101] damage <upon gaining the [Death Mark] status> <when below [21] HP> <hidden from users>",
 			"[This Unit] takes [101] damage <upon losing at least [1] HP in a single attack> <when below [21] HP> <hidden from users>"
 		]
@@ -453,6 +442,7 @@
 	{
 		"name": "Heavy Cavalry",
 		"uniques": [
+			"Armored",
 			"Only available <for units without [Light Cavalry]>",
 			"[+25]% Strength"
 		],
@@ -504,7 +494,6 @@
 		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
 			"Comment [Inflict [Broken] to target Land unit for 1 turns]",
-			"Comment [[Broken] unit suffer -1 Movement and gain no defensive terrain bonus]",
 			"[Target Unit] gains the [Broken] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
 		],
 		"unitTypes": ["Mounted"],
@@ -523,7 +512,8 @@
 		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
 			"Only available <for units without [Agoge]>",
-			"[+33]% Strength <vs cities> <when adjacent to a [Melee] unit>"
+			"[+33]% Strength <vs cities> <when adjacent to a [Melee] unit>",
+			"Can move after attacking"
 		],
 		"unitTypes": ["Mounted"],
 		"column": 18,
@@ -545,6 +535,7 @@
 		"name": "Heavy Plate",
 		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
+			"Armored",
 			"Comment [25% damage reduction when below 50 HP]",
 			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <when below [50] HP> <hidden from users>",
 			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <when below [50] HP> <hidden from users>",
@@ -568,7 +559,7 @@
 		"prerequisites": ["Breakthrough","Encirclement","Agoge","Heavy Plate"],
 		"uniques": [
 			"Only available <for units without [Reactive Armor]>",
-			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"[+15]% Strength bonus for [Military] units within [1] tiles",
 			"All adjacent units heal [+5] HP when healing"
 		],
 		"unitTypes": ["Mounted"],
@@ -787,7 +778,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Comment [Fire spells]",
-			"Comment [Passive. Inflict [Scorched] for 2 turns]",
+			"Comment [Inflict [Scorched] for 2 turns (Passive)]",
 			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -885,7 +876,7 @@
 			"[This Unit] loses the [Slowed] status <upon gaining the [Infernal Purge Activator] status>",
 			"[This Unit] loses the [Stunned] status <upon gaining the [Infernal Purge Activator] status>",
 					
-			"[This Unit] loses the [Marked] status <upon gaining the [Infernal Purge Activator] status>",
+			//"[This Unit] loses the [Marked] status <upon gaining the [Infernal Purge Activator] status>",
 			"[This Unit] loses the [Shackled] status <upon gaining the [Infernal Purge Activator] status>",
 			"[This Unit] loses the [Wet] status <upon gaining the [Infernal Purge Activator] status>",	
 			"[This Unit] loses the [Withered] status <upon gaining the [Infernal Purge Activator] status>",	
@@ -915,7 +906,7 @@
 			"[This Unit] takes [10] damage <upon losing the [Slowed] status>",
 			"[This Unit] takes [10] damage <upon losing the [Stunned] status>",
 					
-			"[This Unit] takes [10] damage <upon losing the [Marked] status>",
+			//"[This Unit] takes [10] damage <upon losing the [Marked] status>",
 			"[This Unit] takes [10] damage <upon losing the [Shackled] status>",
 			"[This Unit] takes [10] damage <upon losing the [Wet] status>",
 			"[This Unit] takes [10] damage <upon losing the [Withered] status>",
@@ -1236,7 +1227,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Comment [Lightning spells]",
-			"Comment [Passive. Inflict [Disrupted] for 2 turns]", //Or Disrupt Chakra?		
+			"Comment [Apply [Disrupted] for 1 turn (Passive)]",	//Or Disrupt Chakra?		
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [147, 112, 219],
@@ -1622,7 +1613,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Comment [Water spells]",
-			"Comment [Passive. Heals 5 HP upon turn end]",
+			"Comment [Heals 5 HP upon turn end (Passive)]",
 			"[This Unit] heals [5] HP <upon turn end> <hidden from users>"		
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -1633,7 +1624,7 @@
 	},
 	{
 		"name": "Cleanses",	//Cleanses
-		"prerequisites": ["Tranquility"],
+		"prerequisites": ["Restoration"],
 		"uniques": [
 			"Comment [[Cleanses]: Active. This unit and adjacent units gain [Immunity] for 2 turn upon turn end. Duration: 2 turns. Cooldown: 7 turns. Cost: 2 Move.]",
 			"[This Unit] gains the [Cleanses Active] status for [1] turn(s) <for [2] movement> <for units without [Cleanses Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
@@ -1712,7 +1703,7 @@
 	},
 	{
 		"name": "Water Whip",	//Water Whip
-		"prerequisites": ["Tranquility"],
+		"prerequisites": ["Restoration"],
 		"uniques": [
 			"Comment [[Water Whip]: Active. Deal 5 damage then apply [Wet] for 2 turns and [Disarmed] for 1 turn. Cooldown: 7 turns. Cost: 1 Move.]",
 			"[This Unit] gains the [Water Whip Active] status for [1] turn(s) <for [1] movement> <for units without [Water Whip Cooldown]> <for [non-[NoCast]] units> <hidden from users>"
@@ -1934,9 +1925,9 @@
 		"prerequisites": ["Awareness"],
 		"uniques": [
 			"Instantly consumes [50] [Aether]",
-			"[+10]% Strength <vs [Burning] <when attacking>",
-			"[+10]% Strength <vs [Scorched] <when attacking>",
-			"Comment [Passive. Inflict [Scorched] for 2 turns]",
+			"[+10]% Strength <vs [Burning] units> <when attacking>",
+			"[+10]% Strength <vs [Scorched] units> <when attacking>",
+			"Comment [Passice. Inflict [Scorched] for 2 turns]",
 			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [non-[Fire Breath]] unit> <hidden from users>",
 			"This Promotion is free"
 		],
@@ -1947,7 +1938,7 @@
 		"prerequisites": ["Awareness"],
 		"uniques": [
 			"Instantly consumes [50] [Aether]",
-			"Comment [Passive. Inflict [Electrified] for 2 turns",
+			"Comment [Passive. Inflict [Electrified] for 2 turns]",
 			"[Target Unit] gains the [Electrified] status for [2] turn(s) <upon damaging a [non-[Lightning Burst]] unit> <hidden from users>",
 			"This Promotion is free"
 		],
@@ -1958,7 +1949,7 @@
 		"prerequisites": ["Awareness"],
 		"uniques": [
 			"Costs [60] [Aether]",
-			"Comment [Passive. Inflict [Frozen] for 2 turns",
+			"Comment [Passive. Inflict [Frozen] for 2 turns]",
 			"[Target Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [non-[Ice Breath]] unit> <hidden from users>",
 			"This Promotion is free"
 		],
@@ -2209,7 +2200,7 @@
 		"unitTypes": ["Fighter"]
 	},
 	{
-		"name": "Air Targeting",
+		"name": "Tactical Strike",
 		"prerequisites": ["Air Bombardment"],
 		"uniques": ["[+33]% Strength <vs [{non-air} {non-[Flying]}] units>"],
 		"unitTypes": ["Bomber"]
@@ -2222,19 +2213,19 @@
 	},
 	{
 		"name": "Evasion",
-		"prerequisites": ["Saboteur","Air Targeting"],
+		"prerequisites": ["Saboteur","Tactical Strike"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception","Patroleur","Saboteur","Air Targeting"],
+		"prerequisites": ["Interception","Patroleur","Saboteur","Tactical Strike"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception","Patroleur","Saboteur","Air Targeting"],
+		"prerequisites": ["Interception","Patroleur","Saboteur","Tactical Strike"],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
@@ -2871,10 +2862,10 @@
 	{
 		"name": "Ethereal",				// Ethereal Monster
 		"uniques": [
-			"Invisibility",
-			"Withdraws before melee combat <with [80]% chance>",
-			"Invisible to others",
-			"Can see invisible [Invisibility] units"
+			"Comment [Become invisible when when outside of combat in the last 2 turns]",
+			"[This Unit] gains the [Invisible] status for [1] turn(s) <upon turn start> <for units without [In Combat Cooldown]> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [4] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [4] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
 		]
 	},
 	/*{
@@ -2928,6 +2919,18 @@
 		"name": "Cooldown",
 		"uniques": ["Comment [Cooldown is the time required before a spell can be cast again]"]
 	},
+	{
+		"name": "In Combat Cooldown",
+		"uniques": ["Comment [This unit is currently active in combat]"]
+	},
+	{
+		"name": "Invisible",
+		"uniques": [
+			"Invisibility",
+			"Invisible to others",
+			"Can see invisible [Invisibility] units"
+		],
+	},
 	
 	// Free Skills
 	{
@@ -2948,6 +2951,10 @@
 			"[+25]% Strength <when below [40] HP>",
 			"[+25]% Strength <when below [20] HP> <when defending>"
 		]
+	},
+	{
+		"name": "Devout",				// Shinkōkan
+		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
 	},
 	{
 		"name": "Frostbrand",			// Tuskarr
@@ -2973,6 +2980,15 @@
 			"Earn [25]% of the damage done to [Water] units as [Gold]",
 			"Earn [25]% of the damage done to [City] units as [Gold]",
 			"May capture killed [Water] units <with [50]% chance>"
+		]
+	},
+	{
+		"name": "Thalassic Affinity",	// Poseidon's Grail
+		"uniques": [
+			"[1] Movement point cost to embark",
+			"[1] Movement point cost to disembark",
+			"[+100]% Strength <when defending> <when [Embarked]>",
+			"May attack when embarked"
 		]
 	},
 ]

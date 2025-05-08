@@ -379,7 +379,6 @@
 			},
 			{
 				"name": "Printing",
-				"uniques": ["Comment [Gain free Military unlocker building in all cities]"],
 				"row": 5,
 				"prerequisites": ["Spellbook Codification"],
 				"quote": "'The speed of communications is wondrous to behold, it is also true that speed does multiply the distribution of information that we know to be untrue.' – Edward R. Murrow"

@@ -138,7 +138,7 @@
 		//"gold": 1,
 		"RGB": [123,202,226],
 		"uniques": [
-			"Fresh water", 
+			"Fresh water",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
 		],
@@ -162,6 +162,29 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [15] damage"]
+	},
+	{
+		"name": "Mountain Tunnel",
+		"type": "Land",
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"RGB": [100,100,100],
+		"uniques": [
+			"Rough terrain", 
+			"Doesn't generate naturally",
+			"Only [All Road] improvements may be built on this tile",
+			"Has an elevation of [4] for visibility calculations"
+		]
+	},
+	{
+		"name": "Canal",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [107,167,193]
+		"uniques": [
+			"Fresh water",
+			"Doesn't generate naturally"
+		]
 	},
 
 	// Terrain features

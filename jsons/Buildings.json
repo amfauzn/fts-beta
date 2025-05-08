@@ -211,7 +211,7 @@
 		"gold": 2,
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 20,
-		//"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -312,7 +312,7 @@
 		"culture": 3,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		//"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Artist": 1},
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Poetry"
 	},
@@ -427,7 +427,7 @@
 		"percentStatBonus": {"production": 10},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		//"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Engineer": 2},
 		"uniques": ["NatW preq"],
 		"requiredTech": "Metal Casting"
 	},
@@ -440,6 +440,7 @@
 		"percentStatBonus": {"science": 33},
 		"hurryCostModifier": 15,
 		"maintenance": 2,
+		"specialistSlots": {"Scholar": 2},
 		"requiredTech": "Education"
 	},
 	{
@@ -456,7 +457,7 @@
 		"gold": 2,
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 15,
-		//"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchant": 1},
 		"uniques": ["NatW preq"],
 		"requiredTech": "Guilds"
 	},
@@ -563,6 +564,7 @@
 		"requiredBuilding": "Harbor",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
+		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
@@ -577,6 +579,7 @@
 		"culture": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
+		"specialistSlots": {"Artist": 1},
 		"uniques": ["NatW preq"],
 		"requiredTech": "Acoustics"
 	},
@@ -667,6 +670,7 @@
 		"science": 4,
 		"hurryCostModifier": 15,
 		"maintenance": 3,
+		"specialistSlots": {"Scholar": 2},
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"NatW preq"
@@ -757,10 +761,10 @@
 		"percentStatBonus": {"culture": 25},
 		"hurryCostModifier": 10,
 		"maintenance": 3,
-		//"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Comment [+3 Culture if [Monument], [Pyramid], and [Theater Square] is constructed in this city]",
-			"[+3 Culture] [in this city] <in cities with a [Monument]> <in cities with a [Pyramid]> <in cities with a [Theater Square]> <hidden from users>",
+			"[+3 Culture] <in cities with a [Monument]> <in cities with a [Pyramid]> <in cities with a [Theater Square]> <hidden from users>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Archaeology"
@@ -774,7 +778,7 @@
 		"cost": 360,
 		"hurryCostModifier": 0,
 		"maintenance": 3,
-		//"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Engineer": 2},
 		"requiredTech": "Industrialization"
 	},
 	{
@@ -793,7 +797,7 @@
 		"gold": 3,
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 15,
-		//"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Merchant": 2},
 		"requiredTech": "Economics"
 	},
 	{
@@ -872,7 +876,6 @@
 		"science": 4,
 		"percentStatBonus": {"science": 50},
 		"maintenance": 3,
-		//"specialistSlots": {"Scientist": 1},
 		"requiredTech": "Plastics"
 	},
 	{
@@ -927,7 +930,7 @@
 		"name": "Zillanatu", // of Zilla
 		"isWonder": true,
 		"faith": 2,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Sage": 1},
 		"uniques": [
 			"Free [Zhexue] appears",
 			"[+5 Culture] <when religion is disabled>"
@@ -939,7 +942,7 @@
 		"name": "Aknamuki", // of Panema
 		"isWonder": true,
 		"food": 1,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
 			"Must have an owned [Marsh] within [3] tiles",
 			"[+1 Food, +2 Science, +2 Production] from [Marsh] tiles [in this city]",
@@ -956,7 +959,7 @@
 		"name": "Gerude", // of Landoruel
 		"isWonder": true,
 		"culture": 1,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Only available <after adopting [Weaponry]> <hidden from users>",
 			"[+15]% Production when constructing [Ranged Infantry] units [in all cities]",
@@ -971,7 +974,7 @@
 		"name": "Stastiada", // of Arxia
 		"isWonder": true,
 		"culture": 1,
-		//"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": [
 			"Must be next to [Coast]",
 			"Gain a free [Lighthouse] [in this city]",
@@ -985,7 +988,7 @@
 		"name": "Sukamerta", // of Niranna
 		"isWonder": true,
 		"science": 2,
-		//"greatPersonPoints": {"Great Scientist": 1},
+		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
 			"Gain [175] [Science] <(modified by game speed)>",
 			"Gain a free [Paper Maker] [in this city]",
@@ -998,7 +1001,7 @@
 		"name": "Dai Palgum", // of Louvargia
 		"isWonder": true,
 		"production": 2,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": [
 			"Must be on [River]",
 			"Gain a free [Water Mill] [in this city]",
@@ -1011,7 +1014,7 @@
 		"name": "Dwuiltunad", // of Dunfirr
 		"isWonder": true,
 		"culture": 1,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Only available <after adopting [Consolidation]>",
 			"[-25]% construction time for [All] improvements",
@@ -1024,7 +1027,7 @@
 		"name": "Brahula", // of Gahaldur
 		"isWonder": true,
 		"culture": 1,
-		//"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": [
 			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]",
@@ -1040,11 +1043,10 @@
 		"name": "Olvaqihr", // of Windemer
 		"isWonder": true,
 		"culture": 1,
-		//"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Sage": 1},
 		"uniques": [
 			"Gain a free [Arcane Spire] [in this city]",
-			"Provides [8] [Magician]",
-			// atau mage akses elemental mastery lebih awal?
+			"Provides [5] [Magician]"
 		],
 		"requiredTech": "Mana Thaumaturgy",
 		"quote": "'They had discovered one could grow as hungry for light as for food.' - Stephen King, The Gunslinger"
@@ -1053,7 +1055,7 @@
 		"name": "Tugu Akai", // of Artiza
 		"isWonder": true,
 		"food": 3,
-		//"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
 			"Only available <after adopting [Tradition]>",
 			"[+1 Food] from [Farm] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>",
@@ -1069,13 +1071,12 @@
 		"isWonder": true,
 		"culture": 1,
 		"faith": 3,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Only available <after adopting [Mysticism]> <hidden from users>",
-			//"Gain a free [Monastery] [in this city]",
-			//"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
-			//"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
-			//"[Faith] cost of purchasing [Monk] units [-25]%",
+			"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+			"[Faith] cost of purchasing [Monk] units [-25]%",
 			"Only available <when religion is enabled>"
 		],
 		"requiredTech": "Philosophy",
@@ -1085,7 +1086,7 @@
 		"name": "Kalacha", // of First Order
 		"isWonder": true,
 		"culture": 3,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Poetry",
 		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra dinasty'  - Kalasan, translated by Santiko"
@@ -1094,7 +1095,7 @@
 		"name": "Kad'Hall", // of Grokzut, initiated by Grokzut, finished by Thallin
 		"isWonder": true,
 		"culture": 1,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Must be next to [Desert]",
 			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]",
@@ -1107,7 +1108,7 @@
 		"name": "Namari", // of Ilythiir
 		"isWonder": true,
 		"culture": 2,
-		//"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Only available <after adopting [Honor]> <hidden from users>",
 			"[+2 Production] from [Iron] tiles [in this city]",
@@ -1123,7 +1124,7 @@
 		"cost": 380,
 		"culture": 1,
 		"gold": 5,
-		//"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
 			"Must be next to [Coast]",
@@ -1137,33 +1138,20 @@
 		"name": "Lonoyx", // of the Darkle Wizard, Urg
 		"isWonder": true,
 		"culture": 2,
-		//"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
 			"Only available <after adopting [Wizardry]> <hidden from users>",
-			"Instantly provides [500] [Aether]",
 			"Provides [1] [Luminaris]",
-			"Provides [1] [Luminaris] <when above [99] [counter-1]> <hidden from users>",
-			"Comment [Provides 1 more Luminaris if this city is not captured for the next 100 turns]",
+			"[+10]% [Food] [in all cities]"
 		],
 		"requiredTech": "Mana Attunement",
 		"quote": "'And as I grew older I understood that instructions came with this voice. What were these instructions? The instructions were never to lament casually.' -Leonard Cohen"
 	},
-	/*{
-		"name": "Lonoyx timeStanding",
-		"cost": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [counter-1] <when below [101] [counter-1]>",
-			"Will not be displayed in Civilopedia",
-			"Destroyed when the city is captured"
-		],
-	},*/
 	{
 		"name": "Ker'sai", // of Berenger
 		"culture": 2,
 		"isWonder": true,
-		//"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": [
 			"Must be next to [Lakes]",
 			"[+2 Gold, +1 Production] from [Lakes] tiles [in this city]",
@@ -1175,7 +1163,7 @@
 		"name": "Sagde", // of Angasin, Sagde Burrows
 		"isWonder": true,
 		"science": 1,
-		//"greatPersonPoints": {"Great Scientist": 1},
+		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
 			"Gain [350] [Science]",
 			"[-1 Gold, +1 Science] from [Amber] tiles [in this city] <hidden from users>",
@@ -1197,7 +1185,7 @@
 		"name": "Glaciruptor", // of Frostmorrow
 		"isWonder": true,
 		"production": 2,
-		//"greatPersonPoints": {"Great Scientist": 1,"Great Engineer": 1},
+		"greatPersonPoints": {"Great Scholar": 1,"Great Engineer": 1},
 		"uniques": [
 			"Must be next to [Tundra]",
 			"[+1 Production] from [Tundra] tiles [in this city]",
@@ -1211,7 +1199,7 @@
 		"isWonder": true,
 		"happiness": 4,
 		"culture": 1,
-		//"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[+50]% Golden Age length"],
 		"requiredTech": "Leyline Siphoning",
 		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
@@ -1220,12 +1208,12 @@
 		"name": "Abon Union", // of Smeheng
 		"isWonder": true,
 		"culture": 2,
-		//"greatPersonPoints": {"Great Scientist": 3},
-		//"specialistSlots": {"Inventor": 1},
+		"greatPersonPoints": {"Great Merchant": 2},
+		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 			"Only available <after adopting [Patronage]>",
 			"[+50]% [Food] from City-States",
-			//"[+50]% [Production] from City-States",
+			"[+50]% [Production] from City-States",
 			"City-State Influence recovers at twice the normal rate"
 		],
 		"requiredTech": "Guilds",
@@ -1237,7 +1225,7 @@
 		"percentStatBonus": {"culture": 20},
 		"uniques": [
 			"Only available <after adopting [Culturalism]>",
-			//"All newly-trained [relevant] units [in this city] receive the [Drill] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Drill] promotion",
 			"Provides [5] [Starshard]"
 		],
 		"requiredTech": "Chivalry",
@@ -1249,7 +1237,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"gold": 5,
-		//"greatPersonPoints": {"Great Merchant": 2},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": [
 			"Only available <after adopting [Commerce]>",
 			"Must have an owned [Mountain] within [3] tiles",
@@ -1263,12 +1251,10 @@
 		"name": "Poseidon's Grail", // of Neo-Almuria
 		"isWonder": true,
 		"production": 5,
-		//"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Sage": 1},
 		"uniques": [
 			"Must be next to [Coast]", 
-			//"All newly-trained [Water] units [in this city] receive the [Supply] promotion",,
-			"Comment [Enables construction of Water Beast unit in this city]",
-			"Comment [Water Beast unit constructed in this city healing +3 HP each turn]"
+			"All newly-trained [{Military} {Land}] units [in this city] receive the [Thalassic Affinity] promotion",
 		],
 		"requiredTech": "Navigation",
 		"quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose.' –Strabo"
@@ -1276,6 +1262,7 @@
 	{
 		"name": "Library of Grimoire", // of Red Moon
 		"isWonder": true,
+		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
 			"Only available <after adopting [Rationalism]>",
 			"[+15]% [Science] <in cities with a [Centre of Arcane]>",
@@ -1290,6 +1277,7 @@
 		"name": "Erdeal", // of Morlovia
 		"isWonder": true,
 		"culture": 2,
+		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
 			"[+25]% [Culture] [in this city]",
 			"[-15]% Culture cost of natural border growth [in all other cities]",
@@ -1301,6 +1289,7 @@
 	{
 		"name": "Fortavida", // of Malus
 		"happiness": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Must have an owned [Ley Line] within [3] tiles",
 			"[+50]% Strength for cities <in this city> <when defending> <vs [Mage] units>",
@@ -1313,18 +1302,18 @@
 		"name": "God's Messenger", // of Sanctum Regalia
 		"isWonder": true,
 		"faith": 3,
-		//"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Sage": 1},
 		"uniques": [
 			"Provides [1] [Fate] <when below [101] [Fate]> <hidden from users>",
 			"Provides [2] [Fate] <when above [99] [Fate]> <when below [141] [Fate]> <hidden from users>",
 			"Comment [Increase [Fate] capacity by 40]",
 			"Comment [[Fate] accumulated 2 times as fast]",
-			//"[+2 Faith] from every [Holy site]",
-			//"Only available <when religion is enabled>"
+			"Only available <when religion is enabled>"
 		],
 		"requiredTech": "Printing",
 		"quote": "'The body is wiser than its inhabitants. The body is God's messenger' - Horace"
 	},
+	
 	
 	// Monk School
 	{
@@ -1337,7 +1326,7 @@
 			"May buy [Flowing River Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Like the river, they flow with enemy’s attack, and use it against them, countering with crushing strike and turning the tide of battle."}
 		]
 	},
 	{
@@ -1350,7 +1339,7 @@
 			"May buy [Open Hand Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Using open fist and chop attacks, they disrupt and weaken enemies, sabotaging them in battle."}
 		]
 	},
 	{
@@ -1363,7 +1352,7 @@
 			"May buy [Shadow Fang Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Trained for infiltration and ambush, they strike from the shadows, striking confusion and crippling their enemies before they can react."}
 		]
 	},
 	{
@@ -1376,20 +1365,20 @@
 			"May buy [White Lotus Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Masters of elemental Qi, they channel Qi through their techniques to unleash powerful elemental attacks."}
 		]
 	},
 	{
-		"name": "Drunken Master School",
+		"name": "Drunken Fist School",
 		"uniques": [
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Drunken Master Monk]",
-			"May buy [Drunken Masrer Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"Comment [Enables training Drunken Fist Monk]",
+			"May buy [Drunken Fist Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Unpredictable and hard to pin down, they rely on erratic movements, chance-based effects, and of course, intoxication."}
 		]
 	},
 	{
@@ -1402,7 +1391,7 @@
 			"May buy [Gun Fu Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "These monks use pistols as part of their combat form, blending tradition with invention to attack enemy from afar."}
 		]
 	},
 	{
@@ -1415,7 +1404,7 @@
 			"May buy [Loyal Brotherhood Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "These monks never fight alone—bound by oath and vengeance, they appear in pairs and grow stronger together in battle."}
 		]
 	},
 	{
@@ -1428,7 +1417,177 @@
 			"May buy [Wuxia Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
 		],
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Wuxia monks are mounted martial heroes who strike fast and ride far, trained for open warfare and charging attack."}
+		]
+	},
+	
+	// Religious Buildings
+	{
+		"name": "Airukaya",
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"cost": 0,
+		"uniques": [
+			"Unbuildable",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'From a whisper of wings, the world is reshaped.'"},
+			{"text": "A delicate place of worship, honoring unseen consequences."}
+		]
+	},
+	{
+		"name": "Askaandi",
+		"faith": 2,
+		"food": 1,
+		"happiness": 1,
+		"cost": 0,
+		"uniques": [
+			"Unbuildable",
+			"[10]% Food is carried over after population increases [in this city]",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'Change is sacred; growth, divine.'"},
+			{"text": "A gardens of progress, fostering spiritual and biological evolution."}
+		]
+	},
+	{
+		"name": "Claehym",
+		"Culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"cost": 0,
+		"uniques": [
+			"Unbuildable",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'All forces are twins: forever divided, forever bound.'"},
+			{"text": "A mirrored hall embodying Dualism’s core truth, unity through opposition."}
+		]
+	},
+	{
+		"name": "Izzatu",
+		"faith": 1,
+		"happiness": 1,
+		"percentStatBonus": {"Gold": 15},
+		"cityHealth": 10,
+		"cost": 0,
+		"specialistSlots": {"Merchant": 1},
+		"uniques": [
+			"Unbuildable",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'In gold’s reflection, the divine is revealed.'"},
+			{"text": "An architectural style covered with jewelry and gold, enriching both coffers and spirits."}
+		]
+	},
+	{
+		"name": "Rugudeia",
+		"faith": 4,
+		"happiness": 1,
+		"cost": 0,
+		"uniques": [
+			"Unbuildable",
+			"Comment [May convert [Faith] to [Food], [Production], or [Science]]",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'Creation bursts forth where least expected.'"},
+			{"text": "Chaotic nature is selected, encouraged and suppressed here, honoring the sacred spark of spontaneity."}
+		]
+	},
+	{
+		"name": "Rugudeia's Food",
+		"cost": 1,
+		"uniques": [
+			"Only available <in cities with a [Rugudeia]>",
+			"Only available <in cities without a [Rugudeia's Production]> <in cities without a [Rugudeia's Science]>",
+			"[-2 Faith, +2 Food]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Rugudeia's Production",
+		"cost": 1,
+		"uniques": [
+			"Only available <in cities with a [Rugudeia]>",
+			"Only available <in cities without a [Rugudeia's Food]> <in cities without a [Rugudeia's Science]>",
+			"[-2 Faith, +2 Production]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Rugudeia's Science",
+		"cost": 1,
+		"uniques": [
+			"Only available <in cities with a [Rugudeia]>",
+			"Only available <in cities without a [Rugudeia's Food]> <in cities without a [Rugudeia's Production]>",
+			"[-2 Faith, +2 Science]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Stonegrove",
+		"culture": 3,
+		"faith": 2,
+		"cost": 0,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Unbuildable",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'The stones remember; the trees whisper.'"},
+			{"text": "A nice spot in the Forest and Jungle area, helps to focus the mind and meditate."}
+		]
+	},
+	{
+		"name": "Timelock",
+		"science": 1,
+		"faith": 1,
+		"happiness": 2,
+		"cost": 0,
+		"greatPersonPoints": {"Great Scholar": 1, "Great Sage": 1},
+		"uniques": [
+			"Unbuildable",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'History Does Not Repeat Itself, But It Rhymes'"},
+			{"text": "A sacred place where Aeonists anchor fleeting moments into permanence."}
+		]
+	},
+	{
+		"name": "Uclaidhari",
+		"faith": 6,
+		"cost": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Aether]",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'All paths are carved before the first step is taken.'"},
+			{"text": "A vault of destiny, safeguarding ancient scripts and prophecies accessible only by fellow believers."}
+		]
+	},
+	{
+		"name": "Yetumesh",
+		"faith": 3,
+		"Happiness": 1,
+		"cost": 0,
+		"uniques": [
+			"Unbuildable",
+			"[-2 Gold, +2 Faith] <when not at war>",
+			"[-2 Gold, +2 Production] <when at war>",
+			"Only available <when religion is enabled>"
+		],
+		"civilopediaText": [
+			{"text": "'In doubt, faith blooms brightest.'"}
 		]
 	},
 	

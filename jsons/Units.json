@@ -7,10 +7,10 @@
 		"cost": 106,
 		"hurryCostModifier": 20,
 		"uniques": [
+			"Biological",
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population",
-			"Biological"
+			"Requires at least [2] population"
 		],
 		"civilopediaText": [
 			{"text": "A person who moves and settles in a new area in the hope of finding better life for themselves and their children."}
@@ -22,10 +22,35 @@
 		"movement": 2,
 		"cost": 60,
 		"uniques": [
+			"Biological",
 			"Can build [Land] improvements on tiles",
 			"Can instantly construct a [Fishing Boatsr] improvement <by consuming this unit> <in [Lakes] tiles>",
 			"Automation is a primary action",
-			"Biological"
+			"Can upgrade to [Omni-Worker] <for [Human player] Civilizations>"
+		],
+		"civilopediaText": [
+			{"text": "They are not fighters, but they ensure a civilization's progress and survival."}
+		]
+	},
+	{
+		"name": "Omni-Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 180,
+		"requiredResource": "Soulstone",
+		"requiredTech": "Runeforging",
+		"uniques": [
+			"Mechanical",
+			"Limited to [3] per Civilization",
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"[-25]% construction time for [All] improvements",
+			"Comment [May reshape and change terrain]",
+			"Turn this tile into a [Canal] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {Land}] tiles> <by consuming this unit> <hidden from users>",
+			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <by consuming this unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Autonomous mech with modular tools for terrain reshaping in addition of improving it."}
 		]
 	},
 	{
@@ -231,7 +256,7 @@
 		"movement": 2,
 		"strength": 80,
 		"cost": 500,
-		"requiredResource": "Rune Stone",
+		"requiredResource": "Altalium",
 		"requiredTech": "Combined Arms",
 		//"promotions": ["Shock"],
 		"uniques": [
@@ -1209,6 +1234,71 @@
 		]
 	},
 	
+	// Missile
+	{
+		"name": "Dread Mark", // Condemnation
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 8,
+		"cost": 250,
+		"requiredTech": "Magic Negation",
+		"uniques": [
+			"Costs [50] [Aether]",
+			"[-100]% maintenance costs",
+			"[+100]% Strength <when attacking>"
+		],
+		"attackSound": "missile",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Judgement",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 125,
+		"rangedStrength": 125,
+		"range": 10,
+		"cost": 500,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
+			"Costs [75] [Aether]",
+			"Only available <if [Warlock Project] is constructed> <hidden from users>", 
+			"Nuclear weapon of Strength [1]", 
+			"Blast radius [1]", 
+			"Cannot be intercepted"
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Armageddon",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "Guidance Systems",
+		"uniques": [
+			"Costs [100] [Aether]",
+			"Consumes [2] [Rune Stone]",
+			"Consumes [1] [Soulstone]",
+			"Only available <if [Warlock Project] is constructed> <hidden from users>",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+		],
+		"attackSound": "nuke",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	// Monk (Shown on Civilopedia)
 	{
 		"name": "Disciple",
@@ -1459,15 +1549,15 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Drunken Disciple",
-		"unitType": "Drunken Masrer Monk",
+		"name": "Drunken Fist Disciple",
+		"unitType": "Drunken Fist Monk",
 		"movement": 2,
 		"strength": 25,
 		"cost": 100,
 		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Drunken Adept",
+		"upgradesTo": "Drunken Fist Adept",
 		"uniques": [
-			"Can only be built <if [Drunken Master School] is constructed>",
+			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit",
 			"Will not be displayed in Civilopedia"
@@ -1475,16 +1565,16 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Drunken Adept",
-		"unitType": "Drunken Masrer Monk",
+		"name": "Drunken Fist Adept",
+		"unitType": "Drunken Fist Monk",
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
 		"requiredTech": "Quintessence Powers",
 		"obsoleteTech": "Empowerment",
-		"upgradesTo": "Drunken Master",
+		"upgradesTo": "Drunken Fist Master",
 		"uniques": [
-			"Can only be built <if [Drunken Master School] is constructed>",
+			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit",
 			"Will not be displayed in Civilopedia"
@@ -1492,14 +1582,14 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Drunken Master",
-		"unitType": "Drunken Masrer Monk",
+		"name": "Drunken Fist Master",
+		"unitType": "Drunken Fist Monk",
 		"movement": 3,
 		"strength": 75,
 		"cost": 500,
 		"requiredTech": "Empowerment",
 		"uniques": [
-			"Can only be built <if [Drunken Master School] is constructed>",
+			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit",
 			"Will not be displayed in Civilopedia"

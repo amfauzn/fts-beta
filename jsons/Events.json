@@ -6,53 +6,61 @@
 			{
 				"text": "Choose Flowing River School",
 				"uniques": [
-					"Gain a free [Flowing River School] [in capital]"
+					"Gain a free [Flowing River School] [in capital] <hidden from users>",
+					"Comment [Like the river, they flow with enemy’s attack, and use it against them, countering with crushing strike and turning the tide of battle.]"
 				]
 			},
 			{
 				"text": "Choose Open Hand School",
 				"uniques": [
-					"Gain a free [Open Hand School] [in capital]"
+					"Gain a free [Open Hand School] [in capital] <hidden from users>",
+					"Comment [Using open fist and chop attacks, they disrupt and weaken enemies, sabotaging them in battle.]"
 				]
 			},
 			{
 				"text": "Choose Shadow Fang School",
 				"uniques": [
-					"Gain a free [Shadow Fang School] [in capital]"
+					"Gain a free [Shadow Fang School] [in capital] <hidden from users>",
+					"Comment [Trained for infiltration and ambush, they strike from the shadows, striking confusion and crippling their enemies before they can react.]"
 				]
 			},
 			{
 				"text": "Choose White Lotus School",
 				"uniques": [
-					"Gain a free [White Lotus School] [in capital]"
+					"Gain a free [White Lotus School] [in capital] <hidden from users>",
+					"Comment [Masters of elemental Qi, they channel Qi through their techniques to unleash powerful elemental attacks.]"
 				]
 			},
 			{
-				"text": "Choose Drunken Master School",
+				"text": "Choose Drunken Fist School",
 				"uniques": [
-					"Only available <with [Wine]>",
-					"Gain a free [Drunken Master School] [in capital]"
+					"Only available <if [Brewery] is constructed>",
+					"Gain a free [Drunken Fist School] [in capital] <hidden from users>",
+					"Comment [Unpredictable and hard to pin down, they rely on erratic movements, chance-based effects, and of course, intoxication.]"
 				]
 			},
 			{
 				"text": "Choose Gun Fu School",
 				"uniques": [
 					"Only available <after discovering [Military Engineering]>",
-					"Gain a free [Gun Fu School] [in capital]"
+					"Gain a free [Gun Fu School] [in capital] <hidden from users>",
+					"Comment [These monks use pistols as part of their combat form, blending tradition with invention to attack enemy from afar.]"
 				]
 			},
 			/*{
 				"text": "Choose Loyal Brotherhood School",
 				"uniques": [
 					"Only available <with [Wine]>",
-					"Gain a free [Loyal Brotherhood School] [in capital]"
+					"Gain a free [Loyal Brotherhood School] [in capital] <hidden from users>",
+					"Comment [These monks never fight alone—bound by oath and vengeance, they appear in pairs and grow stronger together in battle.]"
 				]
 			},*/
 			{
 				"text": "Choose Wuxia School",
 				"uniques": [
 					"Only available <when above [10] [Horses]>",
-					"Gain a free [Wuxia School] [in capital]"
+					"Gain a free [Wuxia School] [in capital] <hidden from users>",
+					"Comment [Wuxia monks are mounted martial heroes who strike fast and ride far, trained for open warfare and charging attack.]"
 				]
 			}
 		]

@@ -59,7 +59,7 @@
 			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop"
 		],
 		"startingObsoleteWonders": [
-			"Zillanatu","Aknamuki","Gerude"
+			"Zillanatu","Aknamuki","Stastiada","Dai Palgum"
 		],
 		"baseUnitBuyCost": 300,
 		"embarkDefense": 15,
@@ -83,21 +83,19 @@
 		"startingCulture": 300,
 		"settlerPopulation": 4,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint"
 			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
-			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari"
+			"Olvaqihr","Tugu Akai","Kalacha","Namari","Anchor Statue","Lonoyx","Ker'sai","Sagde"
 		],
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 20,
 		"startPercent": 50,
 		"citySound": "cityIndustrial",
 		"iconRGB": [ 63, 81,182],
-		"uniques": [
-			"Every major Civilization gains a spy once a civilization enters this era"
-		],
+		"uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
 		"civilopediaText": [
 			{
 				"text": "Artificers and magi-engineers develop standardized magical tools and mastered the forging of rune stones—stabilized mana crystals. Once limited to natural formations, rune stones can now be crafted, igniting a technological revolution. Cities are illuminated by glowing mana-powered towers, and rune-enhanced machinery transforms industry and agriculture. Society flourishes as these magical creations improve daily life, yet tensions rise with emerging power imbalances. Armies march with enchanted weaponry, fueling an ever-growing demand for rune stones."
@@ -115,14 +113,13 @@
 		"startingCulture": 400,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint","Pyramid","Aqueduct",
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint","Pyramid","Market",
 			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
-			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari",
-			"Anchor Statue","Lonoyx","Ker'sai","Sagde",
-			"Glaciruptor","The Broken Gods","Abon Union","Leyheart"
+			"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari","Anchor Statue","Lonoyx","Ker'sai","Sagde",
+			"Glaciruptor","The Broken Gods","Abon Union","Leyheart","Aldaka-Mar"
 		],
 		"baseUnitBuyCost": 500,
 		"embarkDefense": 25,
@@ -132,9 +129,14 @@
 		"uniques": [
 			"Every major Civilization gains a spy once a civilization enters this era",
 			"May not generate great prophet equivalents naturally",
-		//	"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-		//	"Starting in this era disables religion",
-		//	"Every major Civilization gains a spy once a civilization enters this era"
+			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
+		],
+		"civilopediaText": [
+			{
+				"text": "The discovery of Altalium -a rare, luminous mineral with unique magical properties, allows humans and other races to explore the sky. Airships become the nowest mode of transport, linking cities once separated by vast landscapes or treacherous waters. The new age brings people closer together, uniting distant lands through trade and shared cultural exchange."
+			}
 		]
 	},
 	{
@@ -148,14 +150,14 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint","Pyramid","Aqueduct","Market"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint","Pyramid","Market","Public Bath","Academy of Magic",
 			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
-			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari",
-			"Anchor Statue","Lonoyx","Ker'sai","Sagde",
-			"Glaciruptor","The Broken Gods","Abon Union","Leyheart"
+			"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari","Anchor Statue","Lonoyx","Ker'sai","Sagde",
+			"Glaciruptor","The Broken Gods","Abon Union","Leyheart","Aldaka-Mar","Poseidon's Grail","Library of Grimoire",
+			"Erdeal","Fortavida","God's Messenger"
 		],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 30,
@@ -165,9 +167,14 @@
 		"uniques": [
 			"Every major Civilization gains a spy once a civilization enters this era",
 			"May not generate great prophet equivalents naturally",
-		//	"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-		//	"Starting in this era disables religion",
-		//	"Every major Civilization gains a spy once a civilization enters this era"
+			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
+		],
+		"civilopediaText": [
+			{
+				"text": "The boundaries of magic and technology blur as society reaches the pinnacle of its achievements. Mana are no longer just a mystical force; it has been weaponized and refined, used to create weapons of unparalleled power and precision. Nations wield enchanted armaments, altalium-powered airships, and magic-imbued defenses. The destructive incantation, Armageddon, causes fear because of its ability to unleash catastrophic devastation, reducing entire cities to wastelands."
+			}
 		]
 	},
 	{
@@ -181,14 +188,14 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Arena","Mint",
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint","Pyramid","Market","Public Bath","Academy of Magic",
 			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
-			//"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari",
-			"Anchor Statue","Lonoyx","Ker'sai","Sagde",
-			"Glaciruptor","The Broken Gods","Abon Union","Leyheart"
+			"Olvaqihr","Tugu Akai","Shinkokan","Kalacha","Namari","Anchor Statue","Lonoyx","Ker'sai","Sagde",
+			"Glaciruptor","The Broken Gods","Abon Union","Leyheart","Aldaka-Mar","Poseidon's Grail","Library of Grimoire",
+			"Erdeal","Fortavida","God's Messenger"
 		],
 		"baseUnitBuyCost": 700,
 		"embarkDefense": 35,
@@ -197,9 +204,9 @@
 		"iconRGB": [ 76,176, 81],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
-		//	"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-		//	"Starting in this era disables religion",
-		//	"Every major Civilization gains a spy once a civilization enters this era"
+			"May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	}
 ]

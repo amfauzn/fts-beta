@@ -21,7 +21,8 @@
 				"name": "Crown Guards",
 				"uniques": [
 					"Units in cities cost no Maintenance",
-					"[+50]% Strength for cities <with a garrison> <when attacking>"
+					"[+50]% Strength for cities <with a garrison> <when attacking>",
+					"[-50]% weight to this choice for AI decisions"
 				],
 				"requires": ["Centralization"],
 				"row": 2,
@@ -100,7 +101,8 @@
 				"name": "State Workforce",
 				"uniques": [
 					"[-25]% construction time for [All] improvements",
-					"Free [Worker] appears"
+					"Free [Worker] appears",
+					"[-50]% weight to this choice for AI decisions"
 				],
 				"requires": ["Adaptation"],
 				"row": 2,
@@ -285,7 +287,7 @@
 			"Only available <before adopting [Honor]> <before adopting [Weaponry]>",
 			"[+33]% Strength <vs [Barbarian] units>",
 			"Provides a [Arcane Spire] in your first [5] cities for free",
-			"Provides a [Academy of Magic] in your first [5] cities for free <after discovering [Mana Crystallization]>",
+			"[+50]% Production when constructing [Academy of Magic] buildings [in all cities]",
 			"Comment [Unlocks [Lonoyx]]"
 		],
 		"policies": [
@@ -343,7 +345,7 @@
 			{
 				"name": "Wizardry Complete",
 				"uniques": [
-					"Provides [5] [Magician]",
+					"Provides [4] [Magician]",
 					"May buy [Great Sage] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>"
 				]
 			}
@@ -667,7 +669,7 @@
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
 					"[+2 Culture] from every [Wonder]",
-					//"[-50]% weight to this choice for AI decisions"
+					"[-50]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 1
@@ -1138,6 +1140,7 @@
 					"Only available <when above [1] [Level 1 Ideology]>",
 					"Double quantity of [Horses] produced",
 					"Double quantity of [Iron] produced",
+					"Double quantity of [Altalium] produced",
 					"[+5 Food, +5 Science] [in capital]"
 				],
 				"row": 2,
