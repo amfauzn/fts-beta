@@ -10,17 +10,14 @@
 		"Rebel units may spawn <when below [-20] Happiness>",
 		"[-1] Sight <for [Embarked] units>",
 		
-		// Military unlocker
-		//"Gain a free [Barracks] [in all cities] <after discovering [Printing]>",
-		//"Gain a free [Forge] [in all cities] <after discovering [Printing]>",
-		//"Gain a free [Hatchery] [in all cities] <after discovering [Printing]>",
-		//"Gain a free [Riding Arena] [in all cities] <after discovering [Printing]>",
-		//"Gain a free [Shipyard] [in all cities] <after discovering [Printing]>",
-		//"Gain a free [Shooting Range] [in all cities] <after discovering [Printing]>",
-		//"Gain a free [Siege Workshop] [in all cities] <after discovering [Printing]>",
-		
 		// Mercenary
-		"New [Composite Bowman] units start with [15] XP [in all cities]"
+		"New [Composite Bowman] units start with [15] XP [in all cities]",
+		"[Gold] cost of purchasing [Mercenary] units [+3]% <for every [[Mercenary] Units]>", // so AI won't spam
+		
+		// Monk
+		"Free [Loyal Brotherhood Disciple-2] appears <upon gaining a [Loyal Brotherhood Disciple] unit>",
+		"Free [Loyal Brotherhood Adept-2] appears <upon gaining a [Loyal Brotherhood Adept] unit>",
+		"Free [Loyal Brotherhood Master-2] appears <upon gaining a [Loyal Brotherhood Master] unit>",
 		
 		// Spells mechanism
 		// Deafened
@@ -55,7 +52,7 @@
 		"[+1] Movement <when adjacent to a [Favourable Wind Active] unit>",
 		//Fly
 		"Cannot attack <vs [Fly Active] units>",
-		//Gale barrier
+		//Gale Barrier
 		"[+1000]% Strength <when defending> <vs [Ranged] units> <with [50]% chance> <when adjacent to a [Gale Barrier Active] unit>",
 		//Emberfall
 		"[This Unit] gains the [Burning] status for [4] turn(s) <upon turn start> <when adjacent to a [Emberfall Aura] unit>",
@@ -69,11 +66,9 @@
 		//Debuffs related
 		//Blazing Retort
 		"[This Unit] takes [5] damage <upon damaging a [Blazing Retort Active] unit>",
-		"[This Unit] takes [5] damage <upon damaging a [Blazing Retort Active] unit> <for [PyroExtra] units>",
-		"[This Unit] takes [15] damage <upon damaging a [Blazing Retort Active] unit> <for [OiledExtra] units>",
+		"[This Unit] takes [5] damage <upon damaging a [Blazing Retort Active] unit> <for [Frostbitten] units>",
+		"[This Unit] takes [15] damage <upon damaging a [Blazing Retort Active] unit> <for [Oiled] units>",
 		"[This Unit] gains the [Burning] status for [1] turn(s) <upon damaging a [Blazing Retort Active] unit>",		
-		//Bramble Skin
-		"[This Unit] gains the [Slowed] status for [3] turn(s) <upon damaging a [Brambled] unit> <for [Land] units>",
 		//Disoriented
 		"Withdraws before melee combat <with [50]% chance> <vs [Disoriented] units>",
 	]

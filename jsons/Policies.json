@@ -148,16 +148,16 @@
 					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Metallurgy]> <hidden from users>",
 					"Free [Etherblader] appears <after discovering [Metallurgy]> <before discovering [Avionic Theory]> <hidden from users>",
 					"Free [Lightsaberman] appears <after discovering [Avionic Theory]> <before discovering [Combined Arms]> <hidden from users>",
-					"Free [TIT Squad] appears <after discovering [Combined Arms]> <hidden from users>",
+					"Free [Omni-Squad] appears <after discovering [Combined Arms]> <hidden from users>",
 					"Free [Horseman] appears <after discovering [Animal Riding]> <before discovering [Chivalry]> <hidden from users>",
 					"Free [Knight] appears <after discovering [Chivalry]> <before discovering [Metallurgy]> <hidden from users>",
-					"Free [Cavalry] appears <after discovering [Military Science]> <before discovering [Pyrokinetic]> <hidden from users>",
-					"Free [Landship] appears <after discovering [Combustion]> <before discovering [Mobile Tactics]> <hidden from users>",
+					"Free [Cavalry] appears <after discovering [Military Science]> <before discovering [Pyrokinetics]> <hidden from users>",
+					"Free [Landship] appears <after discovering [Pyrokinetics]> <before discovering [Mobile Tactics]> <hidden from users>",
 					"Free [Tank] appears <after discovering [Mobile Tactics]> <hidden from users>",
 					"Free [Spearman] appears <after discovering [Bronze Working]> <before discovering [Civil Service]> <hidden from users>",
 					"Free [Pikeman] appears <after discovering [Civil Service]> <before discovering [Alchemy]> <hidden from users>",
 					"Free [Halberdier] appears <after discovering [Alchemy]> <before discovering [Pyromunition]> <hidden from users>",
-					"Free [Crusher] appears <after discovering [Dynamite]> <before discovering [Bionic Physiology]> <hidden from users>",
+					"Free [Crusher] appears <after discovering [Pyromunition]> <before discovering [Bionic Physiology]> <hidden from users>",
 					"Free [Cyborg] appears <after discovering [Bionic Physiology]> <hidden from users>",
 					"Comment [Free strongest available Infantry, Anti-Armor, Mounted unit appears]",
 					//"Comment [Free adopt: be the first to kill Beast units]"
@@ -404,7 +404,7 @@
 				"name": "Mysticism Complete",
 				"uniques": [
 					"Free [Great Prophet] appears",
-					"[+2 Culture] from every [Holy site]",
+					"[+2 Culture] from every [Holy Site]",
 					"[+2 Faith] from every [Man-eating tree]",
 					"Comment [Enables construction of [Master]]"
 				]
@@ -557,8 +557,8 @@
 				"uniques": [
 					"[+2 Culture] from every [Landmark]",
 					"[+1 Culture] from every [Aurora]",
-					"[+1 Culture] from every [Mangrove Forest]",
-					"[+1 Science] from every [Ice-calator]",
+					"[+1 Culture] from every [Mangrove]",
+					//"[+1 Science] from every [Ice-calator]",
 					"[+1 Science] from every [Beacon of Power]"
 				],
 				"requires": ["Wisdom"],
@@ -697,7 +697,7 @@
 				"name": "Whispers of the Veil",
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
-					"[+100]% spy effectiveness [City-States]",
+					"[+100]% spy effectiveness [in City-State cities]",
 					//Unique for rigging elections
 					"Gain an extra spy"
 				],

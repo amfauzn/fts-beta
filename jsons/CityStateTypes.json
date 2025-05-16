@@ -1,4 +1,42 @@
 [
+	// Agricultural
+	{
+		"name": "Food Exporter",
+		"friendBonusUniques": [
+			"[+2 Food] [in capital]",
+			"[+1 Food] [in all cities] <starting from the [Aeromantic Age]>"
+		],
+		"allyBonusUniques": [
+			"[+2 Food] [in capital]",
+			"[+1 Food] [in all cities]",
+			"[+1 Food] [in all cities] <starting from the [Aeromantic Age]>"
+		],
+		"color": [56, 255, 112]
+	},
+	{
+		"name": "Agrarian",
+		"friendBonusUniques": [
+			"[+2 Food] [in capital]",
+			"[+1 Food] from every [Plantation] <within [1] tiles of a [City center]>"
+		],
+		"allyBonusUniques": [
+			"[+2 Food] [in capital]",
+			"[+1 Food] from every [Plantation]"
+		],
+		"color": [56, 255, 112]
+	},
+	{
+		"name": "Abundance",
+		"friendBonusUniques": [
+			"[+1 Food] from every [Granary]"
+		],
+		"allyBonusUniques": [
+			"[+1 Food] from every [Granary]",
+			"[+2 Food] from every [Hospital]"
+		],
+		"color": [56, 255, 112]
+	},
+	
 	// Cultural
 	{
 		"name": "Oral Tradition",
@@ -33,12 +71,12 @@
 	{
 		"name": "Cultured",
 		"friendBonusUniques": [
-			"[+15]% [Culture] from every [in capital]"
+			"[+15]% [Culture] [in capital]"
 			"Provides [1] [Kiln Design] <hidden from users>",
 			"Comment [May build [Kiln] on tiles]"
 		],
 		"allyBonusUniques": [
-			"[+25]% [Culture] from every [in capital]"
+			"[+25]% [Culture] [in capital]"
 			"Provides [1] [Kiln Design] <hidden from users>",
 			"[+1 Culture] from every [Kiln]"
 		],
@@ -86,6 +124,53 @@
 	
 	// Mercantile
 	{
+		"name": "Cordian Trading",
+		"friendBonusUniques": [
+			"[+25]% Production when constructing [Harbor] buildings [in all cities]",
+			"[+25]% Production when constructing [Seaport] buildings [in all cities]",
+			"[+1 Gold] from every [Harbor]",
+			"[+1 Gold] from every [Seaport]"
+		],
+		"allyBonusUniques": [
+			"[+25]% Production when constructing [Harbor] buildings [in all cities]",
+			"[+25]% Production when constructing [Seaport] buildings [in all cities]",
+			"[+2 Gold] from every [Harbor]",
+			"[+2 Gold] from every [Seaport]",
+			"Provides [1] [Porcelain]"
+		],
+		"color": [255, 216, 0]
+	},
+	{
+		"name": "Gilded Vault",
+		"friendBonusUniques": [
+			"[+1 Gold] from every [Trading Post]",
+			"[+1 Gold] from every [Market]",
+			"[+1 Gold] from every [Bank]"
+		],
+		"allyBonusUniques": [
+			"[+1 Gold] from every [Trading Post]",
+			"[+1 Gold] from every [Market]",
+			"[+1 Gold] from every [Bank]",
+			"Provides [1] [Jewelry]"
+		],
+		"color": [255, 216, 0]
+	},
+	{
+		"name": "Icypath Kongsi",
+		"friendBonusUniques": [
+			"[+2 Gold]",
+			"[+2 Gold] <starting from the [Enlightenment Age]>",
+			"[+2 Gold] <starting from the [Aeromantic Age]>"
+		],
+		"allyBonusUniques": [
+			"[+2 Gold]",
+			"[+4 Gold] <starting from the [Enlightenment Age]>",
+			"[+4 Gold] <starting from the [Aeromantic Age]>",
+			"Provides [1] [Cheese]"
+		],
+		"color": [255, 216, 0]
+	},
+	{
 		"name": "Middleman Group",
 		"friendBonusUniques": [
 			"[+2 Happiness]",
@@ -101,38 +186,6 @@
 		"color": [255, 216, 0]
 	},
 	{
-		"name": "Icypath Kongsi",
-		"friendBonusUniques": [
-			"[+2 Gold]",
-			"[+2 Gold] <starting from the [Enlightenment Age]>",
-			"[+2 Gold] <starting from the [Aeromantic Age]>"
-		],
-		"allyBonusUniques": [
-			"[+2 Gold]",
-			"[+4 Gold] <starting from the [Enlightenment Age]>",
-			"[+4 Gold] <starting from the [Aeromantic Age]>",
-			"Provides [1] [Ivory]"
-		],
-		"color": [255, 216, 0]
-	},
-	{
-		"name": "Cordian Trading",
-		"friendBonusUniques": [
-			"[+25]% Production when constructing [Harbor] units [in all cities]",
-			"[+25]% Production when constructing [Seaport] units [in all cities]",
-			"[+1 Gold] from every [Harbor]",
-			"[+1 Gold] from every [Seaport]"
-		],
-		"allyBonusUniques": [
-			"[+50]% Production when constructing [Harbor] units [in all cities]",
-			"[+50]% Production when constructing [Seaport] units [in all cities]",
-			"[+2 Gold] from every [Harbor]",
-			"[+2 Gold] from every [Seaport]",
-			"Provides [1] [Jewelry]"
-		],
-		"color": [255, 216, 0]
-	},
-	{
 		"name": "Smithy Guild",
 		"friendBonusUniques": [
 			"[+1 Happiness] from every [Arena]"
@@ -140,21 +193,6 @@
 		"allyBonusUniques": [
 			"[+1 Happiness] from every [Arena]",
 			"Provides [1] [Mithril]"
-		],
-		"color": [255, 216, 0]
-	},
-	{
-		"name": "Gilded Vault",
-		"friendBonusUniques": [
-			"[+1 Gold] from every [Trading Post]",
-			"[+1 Gold] from every [Market]",
-			"[+1 Gold] from every [Bank]"
-		],
-		"allyBonusUniques": [
-			"[+1 Gold] from every [Trading Post]",
-			"[+1 Gold] from every [Market]",
-			"[+1 Gold] from every [Bank]",
-			"Provides [1] [Porcelain]"
 		],
 		"color": [255, 216, 0]
 	},
@@ -174,13 +212,13 @@
 	
 	// Militaristic
 	{
-        "name": "Aerithalas Mercenary",
-        "friendBonusUniques": [
+		"name": "Aerithalas Mercenary",
+		"friendBonusUniques": [
 			"[+2]% [Production] from every [Arena]",
 			"[+3]% [Production] from every [Military Academy]",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
 		],
-        "allyBonusUniques": [
+		"allyBonusUniques": [
 			"[+5]% [Production] from every [Arena]",
 			"[+5]% [Production] from every [Military Academy]",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
@@ -189,78 +227,78 @@
 			"Provides [1] [Featherite] <hidden from users>",
 			"Comment [Unlock [Harpy Training] skill for Foot unit]"
 		],
-        "color": [255, 0, 0]
-    },
+		"color": [255, 0, 0]
+	},
 	{
-        "name": "Amphibious Ruler",
-        "friendBonusUniques": [
+		"name": "Amphibious Ruler",
+		"friendBonusUniques": [
 			"[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
 		],
-        "allyBonusUniques": [
+		"allyBonusUniques": [
 			"[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
 			"May buy [Bogrunner] units with [Gold] [in all cities]",
 			"[Gold] cost of purchasing [Mercenary] units [-10]%"
 		],
-        "color": [255, 0, 0]
-    },
+		"color": [255, 0, 0]
+	},
 	{
-        "name": "Fjord Ruler",
-        "friendBonusUniques": [
+		"name": "Fjord Ruler",
+		"friendBonusUniques": [
 			"[+1 Food] in cities on [Tundra] tiles",
 			"[+2 Food] in cities on [Snow] tiles",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
 		],
-        "allyBonusUniques": [
+		"allyBonusUniques": [
 			"[+2 Food] in cities on [Tundra] tiles",
 			"[+4 Food] in cities on [Snow] tiles",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
 			"May buy [Tuskarr] units with [Gold] [in all cities]"
 		],
-        "color": [255, 0, 0]
-    },
+		"color": [255, 0, 0]
+	},
 	{
-        "name": "Gildar Mercenary",
-        "friendBonusUniques": [
+		"name": "Gildar Mercenary",
+		"friendBonusUniques": [
 			"[+50]% Production when constructing [Walls] buildings [in all cities]",
 			"[+50]% Production when constructing [Castle] buildings [in all cities]",
 			"[+50]% Production when constructing [Military Base] buildings [in all cities]"
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
 			"[Gold] cost of purchasing [Mercenary] units [-15]%"
 		],
-        "allyBonusUniques": [
+		"allyBonusUniques": [
 			"[+100]% Production when constructing [Walls] buildings [in all cities]",
 			"[+100]% Production when constructing [Castle] buildings [in all cities]",
 			"[+100]% Production when constructing [Military Base] buildings [in all cities]"
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
 			"[Gold] cost of purchasing [Mercenary] units [-25]%"
 		],
-        "color": [255, 0, 0]
-    },
+		"color": [255, 0, 0]
+	},
 	{
-        "name": "Pirates of Corelia",
-        "friendBonusUniques": [
+		"name": "Pirates of Corelia",
+		"friendBonusUniques": [
 			"[-25]% maintenance costs <for [Water] units>",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
 		],
-        "allyBonusUniques": [
+		"allyBonusUniques": [
 			"[-25]% maintenance costs <for [Water] units>",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
 			"May buy [Black Pearl] units with [Gold] [in all cities]",
 			"Free [Captain Jack] appears <every [50] turns>",
 			"All newly-trained [Naval] units [in all cities] receive the [Piracy] promotion"
 		],
-        "color": [255, 0, 0]
-    },
+		"color": [255, 0, 0]
+	},
 	{
-        "name": "Way of the Rackadine",
-        "friendBonusUniques": ["Provides military units every ≈[25] turns"],
-        "allyBonusUniques": [
+		"name": "Way of the Rackadine",
+		"friendBonusUniques": ["Provides military units every ≈[25] turns"],
+		"allyBonusUniques": [
 			"Provides military units every ≈[18] turns",
 			"Provides [1] [Beast Chips] <hidden from users>",
-			"Comment [Enables training [Elite Beast Tamer] units]"
+			"Comment [Enables training [Beast Summoner] units]"
 		],
-        "color": [255, 0, 0]
-    },
+		"color": [255, 0, 0]
+	},
 ]

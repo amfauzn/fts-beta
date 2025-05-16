@@ -68,8 +68,8 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Becomes [Grassland] when adjacent to [Fountain of Youth]",
-			"Becomes [Desert] when adjacent to [Suction Mud]",
+			//"Becomes [Grassland] when adjacent to [Fountain of Youth]",
+			//"Becomes [Desert] when adjacent to [Suction Mud]",
 			"Becomes [Forest] when adjacent to [Man-eating tree]",
 			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -125,7 +125,7 @@
 			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Undesirable] when determining start locations",
-			"Becomes [Tundra] when adjacent to [Crater Lake]",
+			//"Becomes [Tundra] when adjacent to [Crater Lake]",
 			"Becomes [Tundra] when adjacent to [River]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>"
@@ -161,7 +161,7 @@
 			"Rough terrain", 
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
-			"Units ending their turn on this terrain take [15] damage"]
+			"Units ending their turn on this terrain take [33] damage"]
 	},
 	{
 		"name": "Mountain Tunnel",
@@ -352,14 +352,14 @@
 		"type": "TerrainFeature",
 		"happiness": 1,
 		"movementCost": 1,
-		"occursOn": ["Tundra"],
+		"occursOn": ["Tundra","Snow"],
 		"uniques": [
 			"Rare feature",
 			"Must be adjacent to [1] to [6] [Tundra] tiles",
 			"Considered [Desirable] when determining start locations"
 		]
 	},
-	{
+	/*{
 		"name": "Permafrost",
 		"type": "TerrainFeature",
 		"food": 1,
@@ -371,7 +371,7 @@
 			"Rare feature",
 			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
-	},
+	},*/
 	{
 		"name": "Mangrove",
 		"type": "TerrainFeature",

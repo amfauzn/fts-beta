@@ -159,7 +159,7 @@
 			"Mechanical",
 			"Mobile",
 			"Naval",
-			"[+50]% Strength <vs [Naval Raider] units>"
+			"[+25]% Strength <vs [Naval Raider] units>"
 		]
 	},
 	{
@@ -248,7 +248,8 @@
 		"name": "Monk",
 		"movementType": "Land",
 		"uniques": [
-			"Biological"
+			"Biological",
+			"Monastic",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -257,6 +258,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -266,6 +268,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -275,6 +278,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -284,6 +288,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -293,6 +298,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -302,6 +308,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -311,6 +318,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -320,8 +328,21 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
+		]
+	},
+	
+	// Tamer
+	{
+		"name": "Tamer",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Foot",
+			"[+50]% XP gained from combat",
+			"[+25]% Strength <when attacking> <vs [Monster] units>"
 		]
 	},
 	
@@ -336,9 +357,24 @@
 		]
 	},
 	{
+		"name": "Mounted Monster", // skill purposes, may only pick Light Cavalry, in case captured by Major civs
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Mobile",
+			"Monster",
+			"Can pass through impassable tiles",
+			"Can move after attacking <for [Barbarians] Civilizations>",
+			"Ignores Zone of Control",
+			"No defensive terrain bonus <for [Major] Civilizations>"
+		]
+	},
+	{
 		"name": "Flying Monster",
 		"movementType": "Land",
 		"uniques": [
+			"Flying",
+			"Monster",
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
 			"Eliminates combat penalty for attacking over a river",
@@ -346,7 +382,7 @@
 			"May travel on Water tiles without embarking",
 			"No defensive terrain bonus",
 			"Can see over obstacles",
-			"Flying"
+			
 		]
 	},
 	

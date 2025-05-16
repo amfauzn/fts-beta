@@ -8,7 +8,6 @@
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
 			"Does not need removal of [Aurora] <hidden from users>",
-			"Does not need removal of [Permafrost] <hidden from users>",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Pillaging this improvement yields approximately [+6 Gold]",
 		],
@@ -20,7 +19,7 @@
 		"food": 1,
 		"science": 1,
 		"turnsToBuild": 7,
-		"uniques": ["Must be next to [Permafrost]",
+		"uniques": ["Must be next to [Aurora]",
 					"[+1 Food] <in [Tundra] tiles>",
 					"[+1 Production] for each adjacent [Strategic resource]",
 					"[+1 Production] for each adjacent [Luxury resource]",
@@ -143,7 +142,6 @@
 		"techRequired": "Masonry",
 		"uniques": [
 			"Does not need removal of [Aurora] <hidden from users>",
-			"Does not need removal of [Permafrost] <hidden from users>",
 			"[+1 Production] <after discovering [Metallurgy]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+15 Gold]"
@@ -162,7 +160,6 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"Does not need removal of [Aurora] <hidden from users>",
-			"Does not need removal of [Permafrost] <hidden from users>",
 			"[+1 Production, +1 Gold] <after discovering [Archaeology]>",
 			"Can only be built to improve a resource", 
 			"Pillaging this improvement yields approximately [+15 Gold]"
@@ -209,7 +206,7 @@
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [
 			"Grassland","Plains","Desert","Tundra","Snow",
-			"Hill","Forest","Jungle","Aurora","Permafrost"
+			"Hill","Forest","Jungle","Aurora"
 		],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
@@ -319,7 +316,7 @@
 		],
 		"shortcutKey": "X"
 	},
-	{
+	/*{
 		"name": "Remove Permafrost",
 		"turnsToBuild": 7,
 		"techRequired": "Irrigation",
@@ -328,7 +325,7 @@
 			"Excluded from map editor"
 		],
 		"shortcutKey": "X"
-	},
+	},*/
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
@@ -417,10 +414,10 @@
 		"uniques": [
 			"Great Improvement",
 			"[+2 Science] <after discovering [Education]>",
-            "[+2 Science] <after discovering [Plastics]>",
+			"[+2 Science] <after discovering [Plastics]>",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
-            "Will not be replaced by automated units",
+			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Science, +5 Gold]"
 		],
 		"civilopediaText": [
@@ -435,8 +432,8 @@
 			"Great Improvement",
 			"[+2 Culture] <after discovering [Architecture]>",
 			"Unbuildable <in [Mountain] tiles>",
-            "Removes removable features when built",
-            "Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Culture, +5 Gold]"
 		],
 		"civilopediaText": [
@@ -451,8 +448,8 @@
 			"Great Improvement",
 			"[+2 Production] <after discovering [Alchemy]>",
 			"Unbuildable <in [Mountain] tiles>",
-            "Removes removable features when built",
-            "Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Production, +5 Gold]"
 		],
 		"civilopediaText": [
@@ -467,8 +464,8 @@
 			"Great Improvement",
 			"[+2 Gold] <after discovering [Economics]>",
 			"Unbuildable <in [Mountain] tiles>",
-            "Removes removable features when built",
-            "Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"civilopediaText": [
@@ -484,8 +481,8 @@
 			"Provides [5] [Aether]",
 			"Provides [3] [Aether] <after discovering [Quintessence Powers]>",
 			"Unbuildable <in [Mountain] tiles>",
-            "Removes removable features when built",
-            "Will not be replaced by automated units",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"civilopediaText": [
@@ -500,7 +497,7 @@
 			"Great Improvement",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
-            "Will not be replaced by automated units",
+			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Faith, +5 Gold]"
 		],
 		"civilopediaText": [
@@ -518,7 +515,7 @@
 			"Gain control over [All] tiles in a [1]-tile radius",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
-            "Will not be replaced by automated units"
+			"Will not be replaced by automated units"
 		],
 		"civilopediaText": [
 			{"text": "A mighty fortification designed to withstand direct assaults, making it nearly impregnable. These fortifications can endure prolonged sieges, often serving as the last line of defense."}
@@ -537,7 +534,7 @@
 			"Gain control over [All] tiles in a [1]-tile radius",
 			"[+1 Production] for each adjacent [Land]",
 			"Removes removable features when built",
-            "Will not be replaced by automated units"
+			"Will not be replaced by automated units"
 		],
 		"civilopediaText": [
 			{"text": "A heavily fortified structure built on Coast to defend against naval invasions."}

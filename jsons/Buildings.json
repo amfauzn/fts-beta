@@ -334,7 +334,6 @@
 		"requiredNearbyImprovedResources": ["Copper","Gold Ore","Silver"],
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		//"specialistSlots": {"Merchant": 1},
 		"uniques": [
 			"[+1 Gold] from [Copper] tiles [in this city]",
 			"[+1 Gold] from [Gold Ore] tiles [in this city]",
@@ -1251,7 +1250,7 @@
 		"name": "Poseidon's Grail", // of Neo-Almuria
 		"isWonder": true,
 		"production": 5,
-		"greatPersonPoints": {"Great Sage": 1},
+		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": [
 			"Must be next to [Coast]", 
 			"All newly-trained [{Military} {Land}] units [in this city] receive the [Thalassic Affinity] promotion",
@@ -1280,8 +1279,12 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
 			"[+25]% [Culture] [in this city]",
-			"[-15]% Culture cost of natural border growth [in all other cities]",
-			"[-15]% Gold cost of acquiring tiles [in all cities]"
+			"Comment [-15% Culture cost of natural border growth in all other cities]",
+			"Comment [-15% Gold cost of acquiring tilrs in all other cities]",
+			"[+15]% Culture cost of natural border growth [in this city] <hidden from users>",
+			"[+15]% Gold cost of acquiring tiles [in this city] <hidden from users>",
+			"[-15]% Culture cost of natural border growth [in all cities] <hidden from users>",
+			"[-15]% Gold cost of acquiring tiles [in all cities] <hidden from users>"
 		],
 		"requiredTech": "Architecture",
 		"quote": "'It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
@@ -1293,7 +1296,7 @@
 		"uniques": [
 			"Must have an owned [Ley Line] within [3] tiles",
 			"[+50]% Strength for cities <in this city> <when defending> <vs [Mage] units>",
-			"[+1 Happiness] from every [Magic Array]"
+			"[+1 Happiness] from every [Magic Barrier]"
 		],
 		"requiredTech": "Runeforging",
 		"quote": "'Their realization is almost as necessary to our virtues as to our happiness. From their total frustration disastrous results both moral and psychological might follow.' ~ C. S. Lewis"
@@ -1314,6 +1317,120 @@
 		"quote": "'The body is wiser than its inhabitants. The body is God's messenger' - Horace"
 	},
 	
+	{
+		"name": "Ebonfang Lair", // of Townfolk
+		"isWonder": true,
+		"happiness": 1,
+		"culture": 2,
+		"science": 3,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			//"Free [Beast Summoner] appears",
+			"Comment [Enables construction of [Beast Summoner]]"
+			// Tricky, either make this city build monster unit -or buy, or make Beast Summoner which may summon beast -unlocked via Skills?
+		],
+		"requiredTech": "Archaeology",
+		"quote": "'For naturally a beast desires to flee from any enemy that he may see, Though never yet he's clapped on such his eye.' ― Geoffrey Chaucer, Canterbury Tales"
+	},
+	{
+		"name": "Yimasp An'a", // of Vedic
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scholar": 2},
+		"uniques": [
+			"Must not be on [Hill]",
+			"Science gained from research agreements [+50]%",
+			"Comment [10% constructed faster in cities next to Jungle]"
+		],
+		"requiredTech": "Economics",
+		"quote": "'Do nothing secretly; for Time sees and hears all things, and discloses all.' – Sophocles"
+	},
+	
+	{
+		"name": "Morvaine", // of Necropoleis
+		"isWonder": true,
+		"culture": 1,
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
+		"requiredTech": "Biology",
+		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+	},
+	{
+		"name": "Thorvaldsborg", // of Jättimaassa
+		"isWonder": true,
+		"cityStrength": 10,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Gain a free [Walls] [in all cities]",
+			"[+20]% City Strength from defensive buildings"
+		],
+		"requiredTech": "Railroads",
+		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
+	},
+	{
+		"name": "Bathan Gate", // of Nas
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Free [Great General] appears", 
+			"New [Military] units start with [15] XP [in this city]",
+		],
+		"requiredTech": "Military Science",
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+	},
+	
+	// Aeromantic Age
+	{
+		"name": "Dititra", // of Cavegoa
+		"isWonder": true,
+		"happiness": 2,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"uniques": ["[+2 Gold] from every [Luxury resource]"],
+		"requiredTech": "Aquanautics",
+		"quote": "'All other lands found on the western side of the boundary shall belong to the King and Queen ...' –Treaty of Tordesillas"
+	},
+	{
+		"name": "Jīnyúnzhài", // of Tianwu
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[-50]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Plastics",
+		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+	},
+	{
+		"name": "Laradfhael", // of Sulvana
+		"greatPersonPoints": {"Great Artist": 1,"Great Merchant": 1},
+		"uniques": [
+			"[+50]% XP gained from combat <for [Mage] units>",
+			//"[+50]% XP gained from combat <for [Construct] units>",
+			//"[+15]% Strength <for [Mage] units> <when attacking>",
+			"Double quantity of [Aether] produced",
+			"Double quantity of [Luminaris] produced",
+			"Double quantity of [Magic Scroll] produced",
+			"Double quantity of [Starshard] produced"
+		],
+		"requiredTech": "Mana Battery",
+		"quote": "'This is, indeed, a place where magic happens…' ― Amanda V. Shane, Snow Maiden "
+	},
+	
+	// Modern Age
+	{
+		"name": "Idol of the Seven Lords",
+		"isWonder": true,
+		"happiness": 7,
+		"greatPersonPoints": {"Great Scholar": 1,"Great Artist": 2,"Great Engineer": 1,"Great Merchant": 2,"Great Admiral": 1},
+		"uniques": [
+			"[+7]% [Culture] [in this city]",
+			"[+7]% [Science] [in this city]",
+			"[+7]% [Gold] [in this city]",
+			"[+7]% [Production] [in this city]"
+		],
+		"requiredTech": "Combined Arms",
+		"quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
+	},
 	
 	// Monk School
 	{
@@ -1429,6 +1546,7 @@
 		"happiness": 1,
 		"cost": 0,
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"Only available <when religion is enabled>"
 		],
@@ -1444,6 +1562,7 @@
 		"happiness": 1,
 		"cost": 0,
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"[10]% Food is carried over after population increases [in this city]",
 			"Only available <when religion is enabled>"
@@ -1460,6 +1579,7 @@
 		"happiness": 2,
 		"cost": 0,
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"Only available <when religion is enabled>"
 		],
@@ -1477,6 +1597,7 @@
 		"cost": 0,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"Only available <when religion is enabled>"
 		],
@@ -1491,6 +1612,7 @@
 		"happiness": 1,
 		"cost": 0,
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"Comment [May convert [Faith] to [Food], [Production], or [Science]]",
 			"Only available <when religion is enabled>"
@@ -1537,6 +1659,7 @@
 		"cost": 0,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"Only available <when religion is enabled>"
 		],
@@ -1553,6 +1676,7 @@
 		"cost": 0,
 		"greatPersonPoints": {"Great Scholar": 1, "Great Sage": 1},
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"Only available <when religion is enabled>"
 		],
@@ -1566,6 +1690,7 @@
 		"faith": 6,
 		"cost": 0,
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"Provides [1] [Aether]",
 			"Only available <when religion is enabled>"
@@ -1581,6 +1706,7 @@
 		"Happiness": 1,
 		"cost": 0,
 		"uniques": [
+			"Religious Building",
 			"Unbuildable",
 			"[-2 Gold, +2 Faith] <when not at war>",
 			"[-2 Gold, +2 Production] <when at war>",
@@ -1597,7 +1723,7 @@
 		"cost": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Requires at least [10] population",
+			"Only available <in cities with at least [10] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Magician]",
 			"Destroyed when the city is captured"
@@ -1611,7 +1737,7 @@
 		"cost": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Requires at least [20] population",
+			"Only available <in cities with at least [20] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Magician]",
 			"Destroyed when the city is captured",
@@ -1623,7 +1749,7 @@
 		"cost": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Requires at least [30] population",
+			"Only available <in cities with at least [30] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Magician]",
 			"Destroyed when the city is captured",
@@ -1635,7 +1761,7 @@
 		"cost": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Requires at least [40] population",
+			"Only available <in cities with at least [40] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Magician]",
 			"Destroyed when the city is captured",
@@ -1647,11 +1773,11 @@
 		"cost": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Requires at least [50] population",
+			"Only available <in cities with at least [50] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Magician]",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"
 		]
-	},
+	}
 ]

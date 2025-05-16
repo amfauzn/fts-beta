@@ -323,7 +323,7 @@
 	{
 		"name": "Religious Art",
 		"type": "Follower",
-		"uniques": ["[+8 Culture] from every [Hermitage]"]
+		"uniques": ["[+8 Culture] from every [Heroic Epic]"]
 	},
 	{
 		"name": "Religious Community",
@@ -397,51 +397,51 @@
 		"uniques": ["[+2 Faith, +1 Science] from every [National Wonder] <in cities with at least [3] [Followers of this Religion]>"]
 	},
 	{
-        "name": "Airukaya",
-        "type": "Follower",
-        "uniques": ["May buy [Airukaya] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Airukaya",
+		"type": "Follower",
+		"uniques": ["May buy [Airukaya] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Askaandi",
-        "type": "Follower",
-        "uniques": ["May buy [Askaandi] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Askaandi",
+		"type": "Follower",
+		"uniques": ["May buy [Askaandi] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Claehym",
-        "type": "Follower",
-        "uniques": ["May buy [Claehym] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Claehym",
+		"type": "Follower",
+		"uniques": ["May buy [Claehym] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Izzatu",
-        "type": "Follower",
-        "uniques": ["May buy [Izzatu] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Izzatu",
+		"type": "Follower",
+		"uniques": ["May buy [Izzatu] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Rugudeia",
-        "type": "Follower",
-        "uniques": ["May buy [Rugudeia] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Rugudeia",
+		"type": "Follower",
+		"uniques": ["May buy [Rugudeia] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Stonegrove",
-        "type": "Follower",
-        "uniques": ["May buy [Stonegrove] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Stonegrove",
+		"type": "Follower",
+		"uniques": ["May buy [Stonegrove] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Timelock",
-        "type": "Follower",
-        "uniques": ["May buy [Timelock] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Timelock",
+		"type": "Follower",
+		"uniques": ["May buy [Timelock] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Uclaidhari",
-        "type": "Follower",
-        "uniques": ["May buy [Uclaidhari] buildings with [Faith] [in cities following this religion]"]
-    },
+		"name": "Uclaidhari",
+		"type": "Follower",
+		"uniques": ["May buy [Uclaidhari] buildings with [Faith] [in cities following this religion]"]
+	},
 	{
-        "name": "Yetumesh",
-        "type": "Follower",
-        "uniques": ["May buy [Yetumesh] buildings with [Faith] [in cities following this religion]"]
-    },
-	
+		"name": "Yetumesh",
+		"type": "Follower",
+		"uniques": ["May buy [Yetumesh] buildings with [Faith] [in cities following this religion]"]
+	},
+
 	
 	// Enhancer beliefs
 	{
@@ -559,7 +559,7 @@
 		"name": "Sacred Sites",
 		"type": "Enhancer",
 		"uniques": [
-			"Comment [+2 Culture, +2 Faith from every Religious buildings]",
+			"[+2 Culture, +2 Faith] from every [Religious Building]",
 			"Only available <after adopting [Mandate of Heaven]>"
 		]
 	},

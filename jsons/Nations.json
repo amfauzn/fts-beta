@@ -67,6 +67,92 @@
 	
 	// City-States
 	
+	// Agricultural
+	{
+		"name": "Andini",
+		"adjective": ["Undines"],
+		"cityStateType": "Agrarian",
+		"style": "Undine",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our people!",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [ 51,202,  0],
+		"cities": ["Andini"]
+	},
+	{
+		"name": "Ashua",
+		"adjective": ["Ashuan"],
+		"cityStateType": "Food Exporter",
+		"style": "Halfling",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [  0,255,128],
+		"cities": ["Ashua"]
+	},
+	{
+		"name": "Irgask",
+		"adjective": ["Irigaski"],
+		"cityStateType": "Food Exporter",
+		"style": "Goblin",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [  0,255,128],
+		"cities": ["Irgask"]
+	},
+	{
+		"name": "Khemul",
+		"adjective": ["Khemuli"],
+		"cityStateType": "Agrarian",
+		"style": "Glomon",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our people!",
+		"defeated": "What a fine battle! Khemul is willing to serve you!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [ 51,202,  0],
+		"cities": ["Khemul"]
+	},
+	{
+		"name": "Panema",
+		"adjective": ["Panemian"],
+		"cityStateType": "Abundance",
+		"style": "Kunakad",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [ 10,162, 60],
+		"cities": ["Panema"]
+	},
+	{
+		"name": "Tonthon",
+		"adjective": ["Tontoni"],
+		"cityStateType": "Abundance",
+		"style": "Myconids",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "The dark guerilla will never stop haunting you!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [ 10,162, 60],
+		"cities": ["Tonthon"]
+	},
+	
 	// Cultural
 	{
 		"name": "Artiza",
@@ -350,7 +436,7 @@
 		"attacked": "Damn you, I will not fall.",
 		"defeated": "This ship may sink, but our spirits will linger.",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [221,170,113],
+		"innerColor": [230, 69, 96],
 		"cities": ["Corelia"]
 	},
 	{
@@ -363,7 +449,7 @@
 		"attacked": "So you have chosen death.",
 		"defeated": "Congratulations, conqueror. This tribe serves you now.",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [195, 32,102],
+		"innerColor": [255, 50, 50],
 		"cities": ["Gildar"]
 	},
 	{
@@ -376,7 +462,7 @@
 		"attacked": "HAHAHAHA! Diz iz juzt hilarious! Get em, boiz!",
 		"defeated": "Gahh... I hate when diz happenz...",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [255, 50, 50],
+		"innerColor": [200,  0, 76],
 		"cities": ["Grokzut"]
 	},
 	{
@@ -390,7 +476,7 @@
 		"attacked": "Very well, we will kick you back to the Dark Age!",
 		"defeated": "What treachery has struck us? No, what evil?",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [ 81,172,  0],
+		"innerColor": [200,  0, 76],
 		"cities": ["Tuskarok"]
 	},
 	{
@@ -403,7 +489,7 @@
 		"attacked": "So this is it. You've lost your senses!",
 		"defeated": "Vile ruler, know that you 'won' this war in name only!",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [255, 69,  0],
+		"innerColor": [230, 69, 96],
 		"cities": ["Rackedt"]
 	},
 
