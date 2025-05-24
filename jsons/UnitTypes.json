@@ -24,7 +24,7 @@
 		"uniques": [
 			"Biological",
 			"Foot",
-			"[+33]% Strength <vs [{Anti-Armor} {non-[Monster]}] units> <when attacking>",
+			"[+33]% Strength <vs [Anti-Armor] units> <when attacking>",
 		]
 	},
 	{
@@ -33,7 +33,7 @@
 		"uniques": [
 			"Biological",
 			"Foot",
-			"[+33]% Strength <vs [{Mounted} {non-[Monster]}] units> <when attacking>",
+			"[+33]% Strength <vs [Mounted] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -87,6 +87,7 @@
 		"uniques": [
 			"Biological",
 			"Mage",
+			"Magical",
 			"[+15]% Strength <vs [Ranged Mage] units>",
 			"[+50]% Strength <vs [Construct] units>"
 		]
@@ -97,6 +98,7 @@
 		"uniques": [
 			"Biological",
 			"Mage",
+			"Magical",
 			"[+50]% Strength <vs cities> <when attacking>",
 			"[+50]% Strength <vs [Construct] units> <when attacking>",
 			"[-10]% Strength <vs [{Biological} {Melee}] units> <when defending>"
@@ -346,14 +348,24 @@
 		]
 	},
 	
-	// Monster/Beast
+	// Monster
+	// General rules: Monster, if captured, can only have limited skills
 	{
 		"name": "Ethereal Monster",
 		"movementType": "Land",
 		"uniques": [
+			"Monster",
 			"Uncapturable",
 			"Ignores Zone of Control",
 			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Foot Monster", // so they don't directly affected by Biological ailments, consist both Biological and Undead
+		"movementType": "Land",
+		"uniques": [
+			"Foot",
+			"Monster"
 		]
 	},
 	{

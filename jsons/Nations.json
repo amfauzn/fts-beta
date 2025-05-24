@@ -165,7 +165,7 @@
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "Perhaps now we will find peace in death...",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [255, 97,255],
+		"innerColor": [125, 24,234],
 		"cities": ["Artiza"]
 	},
 	{
@@ -185,15 +185,15 @@
 	{
 		"name": "Manthrill",
 		"adjective": ["Manthili"],
-		"cityStateType": "Ceremonial",
+		"cityStateType": "Monumentalist",
 		"style": "Dwarves",
 		//"startBias": ["Coast"],
 
-		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
-		"attacked": "Oh, truly you are as cruel as your nicknaame.",
+		"declaringWar": "Hear me, imprudent foreigner! Yurrgin declares your lands his own! Your puny colonies shall fall!",
+		"attacked": "If you were wiser, you would've chosen a way of peace.",
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [194, 97,255],
+		"innerColor": [255 ,97,255],
 		"cities": ["Manthrill"]
 	},
 	{
@@ -207,8 +207,22 @@
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [255, 97,255],
+		"innerColor": [125, 24,234],
 		"cities": ["Pid"]
+	},
+	{
+		"name": "Sherehe",
+		"adjective": ["Swahili"],
+		"cityStateType": "Ceremonial",
+		"style": "Glomon",
+		//"startBias": ["Coast"],
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Oh, truly you are as cruel as your nicknaame.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [194, 97,255],
+		"cities": ["Sherehe"]
 	},
 	{
 		"name": "Silvermane",

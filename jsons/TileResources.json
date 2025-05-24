@@ -108,7 +108,7 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes","Coast","Shallow Ocean","Mangrove","Atoll"],
+		"terrainsCanBeFoundOn": ["Lakes","Coast","Shallow Ocean","Canal","Mangrove","Atoll"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
@@ -607,7 +607,7 @@
 		"uniques": [
 			"Generated with weight [20] <in [Grassland] Regions>",
 			"Generated with weight [20] <in [Plains] Regions>",
-			"Generated with weight [15] <in [Man-eating tree] Regions>",
+			"Generated with weight [15] <in [Man-eating Tree] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]"
 		]
@@ -640,7 +640,7 @@
 		"uniques": [
 			"Generated with weight [35] <in [Forest] Regions>",
 			"Generated with weight [10] <in [Jungle] Regions>",
-			"Generated with weight [10] <in [Man-eating tree] Regions>",
+			"Generated with weight [10] <in [Man-eating Tree] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [5]",
 			"Doesn't generate naturally <in [Hill] tiles>"
@@ -911,12 +911,24 @@
 		]
 	},
 	
+	// Erdeal
+	{
+		"name": "Graal Sanguis",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Excluded from map editor"],
+		"civilopediaText": [
+			{"text":"May be used to drink the blood of a powerful victim or in a ritual to create new vampires."}
+		]
+	},
+	
 	// Stockpiled as counter
 	{
-		"name": "counter-1", // Lonoyx timeStanding
+		"name": "SelfTurn",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen", 
+			"Doesn't generate naturally",
 			"Stockpiled", 
 			"Cannot be traded",
 			"Excluded from map editor", 
@@ -940,7 +952,8 @@
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -949,7 +962,8 @@
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -958,7 +972,8 @@
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -980,7 +995,7 @@
 		]
 	},
 	{
-		"name": "Level 1 Ideology",
+		"name": "Darkroot",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
@@ -989,12 +1004,23 @@
 		]
 	},
 	{
+		"name": "Level 1 Ideology",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "Level 2 Ideology",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded", 
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 ]

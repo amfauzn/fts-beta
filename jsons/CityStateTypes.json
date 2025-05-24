@@ -71,7 +71,7 @@
 	{
 		"name": "Cultured",
 		"friendBonusUniques": [
-			"[+15]% [Culture] [in capital]"
+			"[+15]% [Culture] [in capital]",
 			"Provides [1] [Kiln Design] <hidden from users>",
 			"Comment [May build [Kiln] on tiles]"
 		],
@@ -79,6 +79,22 @@
 			"[+25]% [Culture] [in capital]"
 			"Provides [1] [Kiln Design] <hidden from users>",
 			"[+1 Culture] from every [Kiln]"
+		],
+		"color": [139, 96, 255]
+	},
+	{
+		"name": "Monumentalist",
+		"friendBonusUniques": [
+			"[+3 Culture]",
+			"[+3 Culture] <starting from the [Magi-Industry Age]>",
+			"[+10]% Production when constructing [World] wonders [in all cities]"
+		],
+		"allyBonusUniques": [
+			"[+6 Culture]",
+			"[+6 Culture] <starting from the [Magi-Industry Age]>",
+			"[+10]% Production when constructing [World] wonders [in all cities]",
+			"Provides [1] [Darkroot] <hidden from users>",
+			"Comment [Unlocks [Steel Garden]]"
 		],
 		"color": [139, 96, 255]
 	},
@@ -225,7 +241,7 @@
 			"May buy [Galewing] units with [Gold] [in all cities]",
 			"May buy [Stormwing] units with [Gold] [in all cities]",
 			"Provides [1] [Featherite] <hidden from users>",
-			"Comment [Unlock [Harpy Training] skill for Foot unit]"
+			"Comment [Unlocks [Harpy Training] skill for Foot unit]"
 		],
 		"color": [255, 0, 0]
 	},

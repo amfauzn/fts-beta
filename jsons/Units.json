@@ -2168,37 +2168,37 @@
 		
 	// Tamer
 	{
-		"name": "Novice Beast Tamer",
+		"name": "Novice Monster Tamer",
 		"unitType": "Tamer",
 		"movement": 2,
 		"strength": 10,
 		"cost": 50,
 		"requiredTech": "Domestication",
 		"obsoleteTech": "Education",
-		"upgradesTo": "Educated Beast Tamer",
+		"upgradesTo": "Educated Monster Tamer",
 		"uniques": ["May capture killed [{Monster} {non-[Boss]}] units <with [40]% chance>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "A self-taught, trial-and-error tamer with small chances to tame beast/monster."}
+			{"text": "A self-taught, trial-and-error tamer with small chances to tame monster."}
 		]
 	},
 	{
-		"name": "Educated Beast Tamer",
+		"name": "Educated Monster Tamer",
 		"unitType": "Tamer",
 		"movement": 2,
 		"strength": 28,
 		"cost": 175,
 		"requiredTech": "Education",
 		"obsoleteTech": "Archaeology",
-		"upgradesTo": "Elite Beast Tamer",
+		"upgradesTo": "Elite Monster Tamer",
 		"uniques": ["May capture killed [{Monster} {non-[Boss]}] units <with [70]% chance>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Having learned taming techniques, these tamer has high chances to tame beast/monster."}
+			{"text": "Having learned taming techniques, these tamer has high chances to tame monster."}
 		]
 	},
 	{
-		"name": "Elite Beast Tamer",
+		"name": "Elite Monster Tamer",
 		"unitType": "Tamer",
 		"movement": 2,
 		"strength": 46,
@@ -2208,14 +2208,14 @@
 		"uniques": ["May capture killed [{Monster} {non-[Boss]}] units <with [90]% chance>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "An experienced tamer, these expert almost always succeed in taming beast/monster."}
+			{"text": "An experienced tamer, these expert almost always succeed in taming monster."}
 		]
 	},
 	
 	// Heroes
 	
 	
-	// Monster/Beast
+	// Monster
 	{
 		"name": "Will-o’-the-Wisp",
 		"unitType": "Ethereal Monster",
@@ -2249,7 +2249,6 @@
 		"promotions": ["Ethereal"],
 		"uniques": [
 			"Boss",
-			"Monster",
 			"Limited to [2] per Civilization",
 			"Uncapturable",
 			"[-10]% Strength for enemy [Biological] units in adjacent [All] tiles",
@@ -2263,15 +2262,14 @@
 	
 	{
 		"name": "Slime",
-		"unitType": "Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 10,
 		"cost": 20,
 		"obsoleteTech": "Leyline Siphoning",
 		"uniques": [
-			"Monster"
-			"[+200]% Strength <vs [non-[Mage]] units> <when defending>",
+			"[+200]% Strength <vs [non-[Magical]] units> <when defending>",
 			"Uncapturable"
 		],
 		"attackSound": "nonmetalhit",
@@ -2281,7 +2279,7 @@
 	},
 	{
 		"name": "Gargantuan Slime",
-		"unitType": "Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 20,
@@ -2289,9 +2287,8 @@
 		"obsoleteTech": "Mana Crystallization",
 		"uniques": [
 			"Boss",
-			"Monster"
 			"Only available <after turn number [10]>",
-			"[+200]% Strength <vs [non-[Mage]] units> <when defending>",
+			"[+200]% Strength <vs [non-[Magical]] units> <when defending>",
 			"[3] free [Slime] units appear <upon being defeated>",
 			"Limited to [1] per Civilization", 
 			"Uncapturable"
@@ -2303,7 +2300,7 @@
 	},
 	{
 		"name": "Giant Rat",
-		"unitType": "Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 10,
@@ -2312,8 +2309,9 @@
 		"obsoleteTech": "Engineering",
 		"promotions": ["Vermin Bite"],
 		"uniques": [
-			"Monster",
+			"Biological",
 			"Comment [Spawn in 2]",
+			"Free [Giant Rat-2] appears <hidden from users>",
 			"Ignores Zone of Control"
 		],
 		"attackSound": "nonmetalhit",
@@ -2323,7 +2321,7 @@
 	},
 	{
 		"name": "Giant Rat-2",
-		"unitType": "Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 10,
@@ -2332,7 +2330,7 @@
 		"obsoleteTech": "Engineering",
 		"promotions": ["Vermin Bite"],
 		"uniques": [
-			"Monster",
+			"Biological",
 			"Ignores Zone of Control",
 			"Will not be displayed in Civilopedia"
 		],
@@ -2340,7 +2338,7 @@
 	},
 	{
 		"name": "Iron Tusk",
-		"unitType": "Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 12,
@@ -2349,10 +2347,10 @@
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["Charge"],
 		"uniques": [
-			"Monster",
+			"Biological",
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]",
-			"Double movement in [Man-eating tree]",
+			"Double movement in [Man-eating Tree]",
 			"Can pass through impassable tiles",
 			"Can move after attacking"
 		],
@@ -2363,7 +2361,7 @@
 	},
 	{
 		"name": "Jackalope",
-		"unitType": "Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 12,
@@ -2372,7 +2370,7 @@
 		"obsoleteTech": "Guilds",
 		"promotions": ["Quick Reflexes"],
 		"uniques": [
-			"Monster",
+			"Biological",
 			"Limited to [5] per Civilization",
 			"Can pass through impassable tiles",
 			"Can move after attacking"
@@ -2399,7 +2397,7 @@
 	},
 	{
 		"name": "Baba Yaga",
-		"unitType": "Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 16,
@@ -2407,10 +2405,7 @@
 		"requiredTech": "Masonry",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Curse"],
-		"uniques": [
-			"Monster",
-			"[+15]% Strength <vs [Cursed] units>"
-		],
+		"uniques": ["[+15]% Strength <vs [Cursed] units>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Wanders in the walking hut, these monster rarely engage in direct fight."}
@@ -2433,7 +2428,7 @@
 	},
 	{
 		"name": "Black Tarantula",
-		"unitType": "Ranged Infantry",
+		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 18,
@@ -2444,13 +2439,123 @@
 		//"upgradesTo": "Black Widow",
 		"promotions": ["Woodsman","Web Trap"],
 		"uniques": [
-			"Monster",
-			"Limited to [6] per Civilization",
-			"Uncapturable"
+			"Biological",
+			"Limited to [6] per Civilization"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Massive, shadowy arachnids known for their snares that immobilize prey."}
+		]
+	},
+	{
+		"name": "Jiangshi",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 75,
+		"requiredTech": "Philosophy",
+		"obsoleteTech": "Printing",
+		"promotions": ["Qi Drain"],
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Animated by dark qi, they possess insatiable thirst for life essence."}
+		]
+	},
+	{
+		"name": "Peuchen",
+		"unitType": "Flying Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Currency",
+		"obsoleteTech": "Economics",
+		"promotions": ["Poisonous Bite"],
+		"uniques": [
+			"Biological",
+			"[+1] Movement <in [Forest] tiles>",
+			"[+1] Movement <in [Jungle] tiles>"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Winged serpent, feared for its venomous bite."}
+		]
+	},
+	{
+		"name": "Ghoul",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 20,
+		"cost": 75,
+		"requiredTech": "Engineering",
+		"obsoleteTech": "Printing",
+		"promotions": ["Flesh Feasting"],
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Cannibalistic undead, feast upon the fallen, growing stronger with every bite."}
+		]
+	},
+	{
+		"name": "Unicorn",
+		"unitType": "Mounted Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 30,
+		"cost": 100,
+		"requiredTech": "Celestial Wisdoms",
+		"obsoleteTech": "Archaeology",
+		"promotions": ["Healic Horn"],
+		"uniques": [
+			"Boss",
+			"Magical",
+			"No defensive terrain bonus",
+			"Limited to [1] per Civilization", 
+			"Uncapturable"
+		],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Magical creature with top-notch speed and healing abilities, making them resilience."}
+		]
+	},
+	{
+		"name": "Death Fiend",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 30,
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Military Science",
+		"promotions": ["Flesh Feasting","Qi Drain","Call of the Dead"],
+		"uniques": [
+			"Boss",
+			"Undead",
+			"Limited to [1] per Civilization", 
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Calling forth swarms of undead, these creature are a ticking destruction."}
+		]
+	},
+	{
+		"name": "Banshee",
+		"unitType": "Flying Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 26,
+		"cost": 140,
+		"requiredTech": "Metal Casting",
+		"obsoleteTech": "Metallurgy",
+		"promotions": ["Wail of Despair"],
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Bound by sorrow and vengeance, her piercing scream unravels the will of the living."}
 		]
 	},
 	
@@ -2602,7 +2707,6 @@
 			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
 			"Gain [200] [Faith] <by consuming this unit> <(modified by game speed)>",
 			"Can instantly construct a [Holy Site] improvement <by consuming this unit>",
-			"Great Person - [Faith]",
 			//"Is part of Great Person group [Spiritual]",
 		],
 		"civilopediaText": [

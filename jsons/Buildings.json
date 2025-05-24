@@ -989,7 +989,7 @@
 		"science": 2,
 		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
-			"Gain [175] [Science] <(modified by game speed)>",
+			"Free Technology",
 			"Gain a free [Paper Maker] [in this city]",
 			//"Provides [1] [Book of Year 0 - Chapter Elves]",
 		],
@@ -997,7 +997,7 @@
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
 	{
-		"name": "Dai Palgum", // of Louvargia
+		"name": "Dai Palgum", // of 'Nkuhanea
 		"isWonder": true,
 		"production": 2,
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -1164,7 +1164,8 @@
 		"science": 1,
 		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
-			"Gain [350] [Science]",
+			"Only available <after adopting [Rationalism]>",
+			"Gain [350] [Science] <(modified by game speed)>",
 			"[-1 Gold, +1 Science] from [Amber] tiles [in this city] <hidden from users>",
 			"[-1 Gold, +1 Science] from [Copper] tiles [in this city] <hidden from users>",
 			"[-1 Gold, +1 Science] from [Gems] tiles [in this city] <hidden from users>",
@@ -1245,6 +1246,18 @@
 		"requiredTech": "Loan and Saving",
 		"quote": "'Our beards will grow till they hang down the cliff to the valley before anything happens here.'  - Dwalin"
 	},
+	{
+		"name": "Steel Garden", // Manthrill
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": [
+			"Only available <with [Darkroot]>",
+			"[+25]% [Culture] [in all cities]"
+		],
+		"requiredTech": "Steel",
+		"quote": "'Where man sees but withered leaves, God sees sweet flowers growing.' — Albert Lighton"
+	},
 	
 	{
 		"name": "Poseidon's Grail", // of Neo-Almuria
@@ -1261,9 +1274,8 @@
 	{
 		"name": "Library of Grimoire", // of Red Moon
 		"isWonder": true,
-		"greatPersonPoints": {"Great Scholar": 1},
+		"greatPersonPoints": {"Great Scholar": 2},
 		"uniques": [
-			"Only available <after adopting [Rationalism]>",
 			"[+15]% [Science] <in cities with a [Centre of Arcane]>",
 			"Provides [3] [Magic Scroll]"
 		],
@@ -1275,16 +1287,13 @@
 	{
 		"name": "Erdeal", // of Morlovia
 		"isWonder": true,
-		"culture": 2,
+		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
-			"[+25]% [Culture] [in this city]",
-			"Comment [-15% Culture cost of natural border growth in all other cities]",
-			"Comment [-15% Gold cost of acquiring tilrs in all other cities]",
-			"[+15]% Culture cost of natural border growth [in this city] <hidden from users>",
-			"[+15]% Gold cost of acquiring tiles [in this city] <hidden from users>",
-			"[-15]% Culture cost of natural border growth [in all cities] <hidden from users>",
-			"[-15]% Gold cost of acquiring tiles [in all cities] <hidden from users>"
+			"Provides [3] [Graal Sanguis]",
+			"Comment [-20% Culture cost of natural border growth in cities other than this city]",
+			"[+20]% Culture cost of natural border growth [in this city] <hidden from users>",
+			"[-20]% Culture cost of natural border growth [in all cities] <hidden from users>"
 		],
 		"requiredTech": "Architecture",
 		"quote": "'It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
@@ -1325,7 +1334,7 @@
 		"science": 3,
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": [
-			//"Free [Beast Summoner] appears",
+			//"Free [Monster Summoner] appears",
 			"Comment [Enables construction of [Beast Summoner]]"
 			// Tricky, either make this city build monster unit -or buy, or make Beast Summoner which may summon beast -unlocked via Skills?
 		],
@@ -1339,8 +1348,8 @@
 		"greatPersonPoints": {"Great Scholar": 2},
 		"uniques": [
 			"Must not be on [Hill]",
-			"Science gained from research agreements [+50]%",
-			"Comment [10% constructed faster in cities next to Jungle]"
+			"Free [Great Scholar] appears",
+			"Science gained from research agreements [+50]%"
 		],
 		"requiredTech": "Economics",
 		"quote": "'Do nothing secretly; for Time sees and hears all things, and discloses all.' – Sophocles"
@@ -1404,13 +1413,9 @@
 		"name": "Laradfhael", // of Sulvana
 		"greatPersonPoints": {"Great Artist": 1,"Great Merchant": 1},
 		"uniques": [
-			"[+50]% XP gained from combat <for [Mage] units>",
-			//"[+50]% XP gained from combat <for [Construct] units>",
-			//"[+15]% Strength <for [Mage] units> <when attacking>",
-			"Double quantity of [Aether] produced",
-			"Double quantity of [Luminaris] produced",
-			"Double quantity of [Magic Scroll] produced",
-			"Double quantity of [Starshard] produced"
+			"[+50]% XP gained from combat <for [Magical] units>",
+			"[+15]% Strength <for [Magical] units> <when attacking>",
+			"Double quantity of [Aether] produced"
 		],
 		"requiredTech": "Mana Battery",
 		"quote": "'This is, indeed, a place where magic happens…' ― Amanda V. Shane, Snow Maiden "
@@ -1421,13 +1426,9 @@
 		"name": "Idol of the Seven Lords",
 		"isWonder": true,
 		"happiness": 7,
+		"percentStatBonus": {"culture": 7, "science": 7, "faith": 7, "food": 7, "gold": 7, "production": 7},
 		"greatPersonPoints": {"Great Scholar": 1,"Great Artist": 2,"Great Engineer": 1,"Great Merchant": 2,"Great Admiral": 1},
-		"uniques": [
-			"[+7]% [Culture] [in this city]",
-			"[+7]% [Science] [in this city]",
-			"[+7]% [Gold] [in this city]",
-			"[+7]% [Production] [in this city]"
-		],
+		"uniques": ["Instantly gain [100] [Fate]"],
 		"requiredTech": "Combined Arms",
 		"quote": "'Yet in this captious and intenible sieve, I still pour in the waters of my love. And lack not to lose still: thus religious in mine error, I adore. The sun, that looks upon his worshipper, but knows of him no more.' - William Shakespeare"
 	},

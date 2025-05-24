@@ -345,7 +345,7 @@
 			{
 				"name": "Wizardry Complete",
 				"uniques": [
-					"Provides [4] [Magician]",
+					"Provides [2] [Magician]",
 					"May buy [Great Sage] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Aeromantic Age]>"
 				]
 			}
@@ -359,7 +359,7 @@
 			"[+1 Faith] from every [Altar]",
 			"[+1 Faith] from every [Temple]",
 			"[+1 Faith] from every [Mawene]",
-			"[+1 Faith] from every [Man-eating tree]",
+			"[+1 Faith] from every [Man-eating Tree]",
 			"[-100]% weight to this choice for AI decisions <when religion is disabled>",
 			"Comment [Unlocks [Shinkokan]]"
 		],
@@ -405,7 +405,7 @@
 				"uniques": [
 					"Free [Great Prophet] appears",
 					"[+2 Culture] from every [Holy Site]",
-					"[+2 Faith] from every [Man-eating tree]",
+					"[+2 Faith] from every [Man-eating Tree]",
 					"Comment [Enables construction of [Master]]"
 				]
 			}
@@ -600,7 +600,7 @@
 		"uniques": [
 			"Only available <before adopting [Mysticism]>",
 			"[+10]% [Science] <while the empire is happy>",
-			"Comment [Unlocks [Library of Grimoire]]"
+			"Comment [Unlocks [Sagde]]"
 		],
 		"policies": [
 			{
@@ -626,7 +626,7 @@
 				"name": "Skepticism",
 				"uniques": [
 					"[Great Scholar] is earned [20]% faster",
-					"[+1 Production, +2 Science, -1 Faith] from every [Man-eating tree]"
+					"[+1 Production, +2 Science, -1 Faith] from every [Man-eating Tree]"
 				],
 				"requires": ["Sovereignty"],
 				"row": 2,

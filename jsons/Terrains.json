@@ -13,7 +13,7 @@
 		"name": "Shallow Ocean", // Coast
 		"type": "Water",
 		"food": 1,
-		//"gold": 1,
+		"gold": 1,
 		"movementCost": 1,
 		"RGB": [123,202,226],
 	},
@@ -70,7 +70,7 @@
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			//"Becomes [Grassland] when adjacent to [Fountain of Youth]",
 			//"Becomes [Desert] when adjacent to [Suction Mud]",
-			"Becomes [Forest] when adjacent to [Man-eating tree]",
+			"Becomes [Forest] when adjacent to [Man-eating Tree]",
 			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
@@ -155,6 +155,7 @@
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
+		"movementCost": 2,
 		"defenceBonus": 0.25,
 		"RGB": [120,120,120],
 		"uniques": [
@@ -179,6 +180,7 @@
 	{
 		"name": "Canal",
 		"type": "Water",
+		"food": 2,
 		"movementCost": 1,
 		"RGB": [107,167,193]
 		"uniques": [
@@ -293,7 +295,7 @@
 		]
 	},
 	{
-		"name": "Man-eating tree",
+		"name": "Man-eating Tree",
 		"type": "TerrainFeature",
 		"food": -1,
 		"faith": 1,
@@ -304,7 +306,7 @@
 			"Rare feature",
 			"Must be adjacent to [1] to [6] [Forest] tiles",
 			"[10]% Chance to be destroyed by nukes",
-			"A Region is formed with at least [11]% [Man-eating tree] tiles, with priority [5]",
+			"A Region is formed with at least [11]% [Man-eating Tree] tiles, with priority [5]",
 			"Units ending their turn on this terrain take [50] damage"
 		]
 	},
