@@ -10,39 +10,40 @@
 		"Rebel units may spawn <when below [-20] Happiness>",
 		"[-1] Sight <for [Embarked] units>",
 		
+		//Self Turn mechanic
+		"Instantly gain [1] [SelfTurn] <upon turn start>",
+		"Instantly gain [-1] [SelfTurn] <upon turn end>",
+		
 		// Mercenary
 		"New [Composite Bowman] units start with [15] XP [in all cities]",
 		"[Gold] cost of purchasing [Mercenary] units [+3]% <for every [[Mercenary] Units]>", // so AI won't spam
 		
-		// Monk
-		"Free [Loyal Brotherhood Disciple-2] appears <upon gaining a [Loyal Brotherhood Disciple] unit>",
-		"Free [Loyal Brotherhood Adept-2] appears <upon gaining a [Loyal Brotherhood Adept] unit>",
-		"Free [Loyal Brotherhood Master-2] appears <upon gaining a [Loyal Brotherhood Master] unit>",
-		
 		// Spells mechanism
 		// Deafened
 		"[+50]% to Flank Attack bonuses <vs [Deafened] units>",
+		// Aura of Protection
+		"[+15]% Strength <when defending> <when adjacent to a [Aura of Protection] unit>",
 		
-		
-		// TODO: Implement the uniques below
-		// "[+20]% [Culture] [in all cities] <during a golden age>",
-		// "[+20]% [Production] [in all cities] <during a golden age>",
-
-		// "[+10]% growth [in all cities] <during We Love The King Day>",
-
-		// "Nullifies All Yield <while is in resistance>",
-
-		// "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
-		// "[-25]% [Culture] [in pupetted cities]"
-
-		// "[+20]% [Production] [in cities connected via railroad]"
-		// something something unit supply
 		
 		
 	],
 	
 	"unitUniques": [
-		//Spells-related
+		// Monk-related
+		//Deflect
+		"[Target Unit] gains the [Deflect Cooldown] status for [1] turn(s) <upon damaging a [{non-[Deflect Cooldown]} {Deflect}] unit> <for [{Ranged} {non-[Flying]} {Land}] units>",
+		//Ebb Stance
+		"[This Unit] takes [20] damage <upon damaging a [{non-[Ebb Stance Cooldown]} {Ebb Stance}] unit> <for [{non-[Flying]} {non-[Air]}] units>",
+		"[Target Unit] gains the [Ebb Stance Cooldown] status for [1] turn(s) <upon damaging a [{non-[Ebb Stance Cooldown]} {Ebb Stance}] unit> <for [{non-[Flying]} {non-[Air]}] units>",
+		//Flow Stance
+		"[Target Unit] loses the [Flow Stance Active] status <upon damaging a [Flow Stance Active] unit> <for [{Ranged} {non-[Flying]} {non-[Air]}] units>",
+		//Reversal
+		"[Target Unit] gains the [Reversal Requirement] status for [2] turn(s) <upon damaging a [Reversal] unit>",
+		//Tidal Counter
+		"[This Unit] gains the [Wet] status for [1] turn(s) <upon damaging a [Tidal Counter] unit>",
+		"[This Unit] gains the [Crushed] status for [1] turn(s) <upon damaging a [Tidal Counter] unit>",
+		
+		// Spells-related
 		//Blizzard
 		"[This Unit] gains the [Chilled] status for [4] turn(s) <upon turn start> <when adjacent to a [Blizzard Aura] unit>",
 		"[This Unit] gains the [Frostbitten] status for [4] turn(s) <upon turn start> <when adjacent to a [Blizzard Aura] unit>",
@@ -51,7 +52,7 @@
 		//Favourable Wind
 		"[+1] Movement <when adjacent to a [Favourable Wind Active] unit>",
 		//Fly
-		"Cannot attack <vs [Fly Active] units>",
+		"Cannot attack <vs [Fly Active] units> <for [{non-[Air Battler]} {Melee}] units>",
 		//Gale Barrier
 		"[+1000]% Strength <when defending> <vs [Ranged] units> <with [50]% chance> <when adjacent to a [Gale Barrier Active] unit>",
 		//Emberfall
@@ -61,7 +62,11 @@
 		"[This Unit] gains the [Wet] status for [4] turn(s) <upon turn start> <when adjacent to a [Wailing Tempest Aura] unit>",
 		"[This Unit] gains the [Deafened] status for [4] turn(s) <upon turn start> <when adjacent to a [Wailing Tempest Aura] unit>",
 		"[This Unit] gains the [Disoriented] status for [4] turn(s) <upon turn start> <when adjacent to a [Wailing Tempest Aura] unit>",
-		
+		//Pressurized Bomb
+		"[This Unit] takes [25] damage <upon turn start> <when adjacent to a [Pressurized Bomb Activator] unit>",
+		//Arcane Stitch
+		"[This Unit] gains the [Immunity] status for [12] turn(s) <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
+		"[This Unit] heals [50] HP <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
 		
 		//Debuffs related
 		//Blazing Retort
@@ -71,5 +76,13 @@
 		"[This Unit] gains the [Burning] status for [1] turn(s) <upon damaging a [Blazing Retort Active] unit>",		
 		//Disoriented
 		"Withdraws before melee combat <with [50]% chance> <vs [Disoriented] units>",
+		//Poisonous Skin
+		"[This Unit] gains the [Poisoned] status for [2] turn(s) <upon damaging a [Poisonous Skin] unit> <for [Land] units>",	
+		//Infected
+		"[This Unit] gains the [Infected] status for [1] turn(s) <upon turn start> <when adjacent to a [Infected] unit> <for units without [Infected]>",
+		
+		//Mixed
+		"Cannot attack <vs [Invulnerable] units>",
+		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Unicorn] unit>",
 	]
 }
