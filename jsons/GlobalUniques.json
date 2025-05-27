@@ -24,6 +24,9 @@
 		// Aura of Protection
 		"[+15]% Strength <when defending> <when adjacent to a [Aura of Protection] unit>",
 		
+		//Mixed
+		//Flank Immune
+		"[-100]% to Flank Attack bonuses <vs [Flank Immune] units>",
 		
 		
 	],
