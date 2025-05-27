@@ -2058,7 +2058,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
-			"Comment [Passive. Deal 10 damage upon attacking or Counter]",
+			"Comment [Passive. Deal 10 damage upon attacking or counterattacking]",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <hidden from users>",	//AH: Sg iki ketokke Attack & Counter? Soale Advanced? Yen ra setuju tambahi SelfTurn dewe ae rpp, dan ojo lali ubah Comment
 			
 			"[+1]% Strength <hidden from users>"
