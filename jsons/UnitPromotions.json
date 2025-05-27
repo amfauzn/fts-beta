@@ -1879,7 +1879,7 @@
 			"[Target Unit] gains the [Frozen] status for [1] turn(s) <upon damaging a [Wet] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [5] damage <upon damaging a [Wet] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Ice Prison Target] status for [1] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>>",
+			"[Target Unit] gains the [Ice Prison Target] status for [1] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"Cannot attack <vs [Ice Prison Target] units> <hidden from users>",
 			
 			"[This Unit] gains [1] movement <upon damaging a [All] unit> <hidden from users>",			
@@ -3890,7 +3890,7 @@
 			"[+999]% Strength <when defending> <vs [Ranged]> <hidden from users>",	
 			"Withdraws before melee combat <hidden from users>",
 			"[This Unit] loses the [Flow Stance Active] status <upon entering a [All] tile> <hidden from users>", //Need this vs Melee
-			"[This Unit] loses the [Flow Stance Active] status <upon losing at least [0] HP in a single attack> <hidden from users>", //Need this vs Ranged
+			"[This Unit] loses the [Flow Stance Active] status <upon losing at least [1] HP in a single attack> <hidden from users>", //Need this vs Ranged
 			"[+1]% Strength <when defending> <hidden from users>", //Will Dodge
 			"Will not be displayed in Civilopedia"
 		]
