@@ -3510,7 +3510,7 @@
 		"name": "Absolute Awareness",	//	need some workaround
 		"prerequisites": ["Flurry of Blows"],
 		"uniques": [
-			"Flank Immune",
+			"Flank Immune <hidden from users>",
 			"Comment [Passive. Immune to Flanking. Immune to [Blinded] and [Deafened]]",
 			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
 			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <hidden from users>",
