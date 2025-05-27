@@ -5193,7 +5193,7 @@
 		"name": "Blinded",
 		"uniques": [
 			"Ailment",
-			"Comment [Flank Attack bonuses are 50% more effecrive against this unit]",
+			"Comment [+50% Flank Attack bonus against this unit]",
 			"[-99] Movement",
 			"No Sight",
 			"[-1] Range <for [Ranged] units>",
@@ -5305,7 +5305,7 @@
 		"uniques": [
 			"Ailment",
 			"No Cast",
-			"Comment [Can't cast spells, can't Flank, and takes extra Flank damage]",
+			"Comment [Can't cast spells, can't Flank, and +50% Flank Attack bonus against this unit]",
 			"[-100]% to Flank Attack bonuses <hidden from users>",
 			
 			"[-1]% Strength <hidden from users>"
