@@ -25,6 +25,7 @@
 			"Biological",
 			"Foot",
 			"[+33]% Strength <vs [Anti-Armor] units> <when attacking>",
+			"Never appears as a Barbarian unit"
 		]
 	},
 	{
@@ -44,6 +45,7 @@
 			"Biological",
 			"Mobile",
 			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
 		]
 	},
 	{
@@ -144,7 +146,7 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"May travel on Water tiles without embarking",
 			"No defensive terrain bonus",
-			"Can see over obstacles",
+			//"Can see over obstacles",
 			"Unable to capture cities",
 			"[+66]% Strength <vs [Air Terror] units>",
 			//"[+25]% Strength <vs [Ranged] units> <when defending>",
@@ -342,14 +344,12 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
-			"Foot",
-			"[+50]% XP gained from combat",
-			"[+25]% Strength <when attacking> <vs [Monster] units>"
+			"Foot"
 		]
 	},
 	
 	// Monster
-	// General rules: Monster, if captured, can only have limited skills
+	// General rules: Monster, if captured, has some unique skill
 	{
 		"name": "Ethereal Monster",
 		"movementType": "Land",
@@ -369,7 +369,7 @@
 		]
 	},
 	{
-		"name": "Mounted Monster", // skill purposes, may only pick Light Cavalry, in case captured by Major civs
+		"name": "Mounted Monster",
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
@@ -395,6 +395,16 @@
 			"No defensive terrain bonus",
 			"Can see over obstacles",
 			
+		]
+	},
+	{
+		"name": "Water Monster",
+		"movementType": "Water",
+		"uniques": [
+			"Monster",
+			"Can pass through impassable tiles",
+			"Eliminates combat penalty for attacking across a coast",
+			"Ignores Zone of Control"
 		]
 	},
 	

@@ -73,7 +73,7 @@
 		"adjective": ["Undines"],
 		"cityStateType": "Agrarian",
 		"style": "Undine",
-		//"startBias": ["Coast"],
+		"startBias": ["Lakes"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our people!",
@@ -87,7 +87,7 @@
 		"adjective": ["Ashuan"],
 		"cityStateType": "Food Exporter",
 		"style": "Halfling",
-		//"startBias": ["Coast"],
+		"startBias": ["Plains"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
@@ -97,11 +97,25 @@
 		"cities": ["Ashua"]
 	},
 	{
+		"name": "Bree",
+		"adjective": ["Breenaar"],
+		"cityStateType": "Herder",
+		"style": "Halfling",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "As we can reach no peaceful resolution with you, Bree must turn, with reluctance, to war.",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [150,210,200],
+		"cities": ["Bree"]
+	},
+	{
 		"name": "Irgask",
 		"adjective": ["Irigaski"],
 		"cityStateType": "Food Exporter",
 		"style": "Goblin",
-		//"startBias": ["Coast"],
+		"startBias": ["Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
@@ -115,7 +129,6 @@
 		"adjective": ["Khemuli"],
 		"cityStateType": "Agrarian",
 		"style": "Glomon",
-		//"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our people!",
@@ -129,7 +142,7 @@
 		"adjective": ["Panemian"],
 		"cityStateType": "Abundance",
 		"style": "Kunakad",
-		//"startBias": ["Coast"],
+		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "You will see you have just bitten off more than you can chew.",
@@ -143,7 +156,7 @@
 		"adjective": ["Tontoni"],
 		"cityStateType": "Abundance",
 		"style": "Myconids",
-		//"startBias": ["Coast"],
+		"startBias": ["Marsh"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "You will see you have just bitten off more than you can chew.",
@@ -159,7 +172,7 @@
 		"adjective": ["Artizan"],
 		"cityStateType": "Cultured",
 		"style": "Kunakad",
-		//"startBias": ["Coast"],
+		"startBias": ["Tundra"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -173,7 +186,7 @@
 		"adjective": ["Aureli"],
 		"cityStateType": "Oral Tradition",
 		"style": "Elves",
-		//"startBias": ["Coast"],
+		"startBias": ["Hill"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
@@ -187,7 +200,6 @@
 		"adjective": ["Manthili"],
 		"cityStateType": "Monumentalist",
 		"style": "Dwarves",
-		//"startBias": ["Coast"],
 
 		"declaringWar": "Hear me, imprudent foreigner! Yurrgin declares your lands his own! Your puny colonies shall fall!",
 		"attacked": "If you were wiser, you would've chosen a way of peace.",
@@ -201,7 +213,6 @@
 		"adjective": ["Pidian"],
 		"cityStateType": "Cultured",
 		"style": "Demonic",
-		//"startBias": ["Coast"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -215,7 +226,7 @@
 		"adjective": ["Swahili"],
 		"cityStateType": "Ceremonial",
 		"style": "Glomon",
-		//"startBias": ["Coast"],
+		"startBias": ["Coast"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Oh, truly you are as cruel as your nicknaame.",
@@ -229,7 +240,6 @@
 		"adjective": ["Silvari"],
 		"cityStateType": "Oral Tradition",
 		"style": "Vaja",
-		//"startBias": ["Coast"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
@@ -243,14 +253,14 @@
 		"adjective": ["Windari"],
 		"cityStateType": "Ceremonial",
 		"style": "High Elves",
-		//"startBias": ["Coast"],
+		"startBias": ["Forest"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Oh, truly you are as cruel as your nicknaame.",
 		"defeated": "And so the flower of Windemer falls to barbaric hands...",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [194, 97,255],
-		"cities": ["Manthrill"]
+		"cities": ["Windemer"]
 	},
 	
 	// Industrial
@@ -259,7 +269,7 @@
 		"adjective": ["Cantirii"],
 		"cityStateType": "Momentum Progression",
 		"style": "Centaurs",
-		//"startBias": ["Coast"],
+		"startBias": ["Plains"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "A barbarian like you will never enough with just a horse. I am not a horse!",
@@ -273,7 +283,6 @@
 		"adjective": ["Clockwerks"],
 		"cityStateType": "Artisan",
 		"style": "Kunakad",
-		//"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -287,7 +296,7 @@
 		"adjective": ["Clockwerks"],
 		"cityStateType": "Industrial",
 		"style": "Vaja",
-		//"startBias": ["Coast"],
+		"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Just because you can't pay me, you declare war on me?",
@@ -301,7 +310,7 @@
 		"adjective": ["Dunfiri"],
 		"cityStateType": "Artisan",
 		"style": "Dwarves",
-		//"startBias": ["Coast"],
+		"startBias": ["Hill"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -315,7 +324,7 @@
 		"adjective": ["Kovs"],
 		"cityStateType": "Momentum Progression",
 		"style": "Kobolds",
-		//"startBias": ["Coast"],
+		"startBias": ["Mountain"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -329,7 +338,7 @@
 		"adjective": ["Rogs"],
 		"cityStateType": "Industrial",
 		"style": "Ogre",
-		//"startBias": ["Coast"],
+		"startBias": ["Jungle"],
 
 		"declaringWar": "Hungry ... hungry for eternity ...",
 		"attacked": "What a coincidence, I yearns for a fresh flesh myself!",
@@ -337,6 +346,19 @@
 		"outerColor": [  0,  0,  0],
 		"innerColor": [189, 99,  0],
 		"cities": ["Rog"]
+	},
+	{
+		"name": "Velkan",
+		"adjective": ["Velkaan"],
+		"cityStateType": "Efficient",
+		"style": "Kunakad",
+
+		"declaringWar": "In responding to your unstinting malignancy, we can have no recourse but war!",
+		"attacked": "The law of cause and effect. Your ignorance will be your fall.",
+		"defeated": "Unacceptable!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [184,105, 26],
+		"cities": ["Velkan"]
 	},
 	
 	// Mercantile
@@ -350,7 +372,7 @@
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [  0,  0, 0],
-		"innerColor": [235,215,55],
+		"innerColor": [255,255, 0],
 		"cities": ["Angasin"]
 	},
 	{
@@ -378,7 +400,7 @@
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [  0,  0, 0],
-		"innerColor": [211,205,51],
+		"innerColor": [255,255, 0],
 		"cities": ["Crotoa"]
 	},
 	{
@@ -392,7 +414,7 @@
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [  0,  0, 0],
-		"innerColor": [211,220,93],
+		"innerColor": [255,255, 0],
 		"cities": ["Frostwaste"]
 	},
 	{
@@ -405,8 +427,8 @@
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "How could we fall to the likes of you?!",
-		"outerColor": [  0,  0,  0],
-		"innerColor": [255,255,100],
+		"outerColor": [  0,  0, 0],
+		"innerColor": [255,255, 0],
 		"cities": ["Gahaldur"]
 	},
 	{
@@ -419,9 +441,22 @@
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [  0,  0,  0],
-		"innerColor": [200,255, 50],
+		"outerColor": [  0,  0, 0],
+		"innerColor": [255,255, 0],
 		"cities": ["Shaquad"]
+	},
+	{
+		"name": "Vistana",
+		"adjective": ["Vistani"],
+		"cityStateType": "Resource Hoarder",
+		"style": "Kunakad",
+
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Oh? You must have not heard of our ways of dealing with people like you.",
+		"defeated": "I will remember you. I will remember your children. I will remember your whole descendants for this humiliation!",
+		"outerColor": [  0,  0, 0],
+		"innerColor": [200,180, 0],
+		"cities": ["Vistana"]
 	},
 	
 	// Militaristic
@@ -452,6 +487,19 @@
 		"outerColor": [  0,  0,  0],
 		"innerColor": [230, 69, 96],
 		"cities": ["Corelia"]
+	},
+	{
+		"name": "Dreckfang",
+		"adjective": ["Dreckfang"],
+		"cityStateType": "Gnoll Warband",
+		"style": "Gnoll",
+
+		"declaringWar": "Witness my power, insignificant ruler!  Your armies shall crumble before my might!",
+		"attacked": "how laughable! The world will bear witness to the consequences of your reckless aggression!",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [230, 69, 96],
+		"cities": ["Dreckfang"]
 	},
 	{
 		"name": "Gildar",
@@ -503,8 +551,76 @@
 		"attacked": "So this is it. You've lost your senses!",
 		"defeated": "Vile ruler, know that you 'won' this war in name only!",
 		"outerColor": [  0,  0,  0],
-		"innerColor": [230, 69, 96],
+		"innerColor": [200, 25,  0],
 		"cities": ["Rackedt"]
+	},
+	
+	// Religious
+	{
+		"name": "Chorislavia",
+		"adjective": ["Chorislani"],
+		"cityStateType": "Devout",
+		"style": "Elves",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "I will fear no evil. For God is with me!",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Chorislavia.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [255,255,255],
+		"cities": ["Chorislavia"]
+	},
+	{
+		"name": "E'sholl",
+		"adjective": ["Eshol"],
+		"cityStateType": "Devout",
+		"style": "Glomon",
+
+		"declaringWar": "By the grace of God, we declare war!",
+		"attacked": "You shall not trample our temple!",
+		"defeated": "God is forgiving, will you forgive us?",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [255,255,255],
+		"cities": ["E'sholl"]
+	},
+	{
+		"name": "Estuary",
+		"adjective": ["Estuarii"],
+		"cityStateType": "Faith-Sharing",
+		"style": "Druid",
+		//"startBias": ["Jungle"],
+		
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
+		"attacked": "May God have mercy on your evil soul.",
+		"defeated": "Your evil nature are too strong for us to handle.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [203,253,232],
+		"cities": ["Estuary"]
+	},
+	{
+		"name": "Nevdes",
+		"adjective": ["Nevdan"],
+		"cityStateType": "Faith-Sharing",
+		"style": "Glomon",
+		
+		"declaringWar": "Everyday you stray further from God. Let me show you the right path!",
+		"attacked": "You think God will permit your abominations?",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [203,253,232],
+		"cities": ["Nevdes"]
+	},
+	{
+		"name": "Zilla",
+		"adjective": ["Zillan"],
+		"cityStateType": "Dao",
+		"style": "Vaja",
+		
+		"declaringWar": "After thorough deliberation, Zillans finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "Why do we fight? Because revered Zhexue demands it. Now, witness the power of Zillans!",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [198,255,192],
+		"cities": ["Zilla"]
 	},
 
 	

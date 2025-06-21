@@ -321,7 +321,7 @@
 			"[This Unit] gains the [Upheaval Active] status for [1] turn(s) <upon defeating a [All] unit> <hidden from users>",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted"],
 		"column": 14,
 		"row": 2
 	},
@@ -369,7 +369,7 @@
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted"],
 		"column": 14,
 		"row": 3
 	},
@@ -387,7 +387,7 @@
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted"],
 		"column": 15,
 		"row": 3
 	},
@@ -478,7 +478,8 @@
 		"prerequisites": ["Heavy Cavalry"],
 		"uniques": [
 			"Only available <for units without [Adaptable]>",
-			"[+25]% Strength <vs [Wounded] units>"],
+			"[+25]% Strength <vs [Wounded] units>"
+		],
 		"unitTypes": ["Mounted"],
 		"column": 17,
 		"row": 2
@@ -488,7 +489,8 @@
 		"prerequisites": ["Heavy Cavalry"],
 		"uniques": [
 			"Only available <for units without [Charge]>",
-			"[+50]% XP gained from combat"],
+			"[+50]% XP gained from combat"
+		],
 		"unitTypes": ["Mounted"],
 		"column": 18,
 		"row": 2
@@ -516,7 +518,7 @@
 		"name": "Breakthrough",
 		"prerequisites": ["Charge","Adaptable","Armor Piercing","Barding"],
 		"uniques": [
-			"Comment [Inflict [Broken] to target Land unit for 1 turns]",
+			"Comment [Inflict [Broken] for 1 turn]",
 			"[Target Unit] gains the [Broken] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
 		],
 		"unitTypes": ["Mounted"],
@@ -875,7 +877,7 @@
 		"uniques": [
 			"Active Spell",
 			"Comment [Remove ALL ailments from target unit to deal 10 damage for each ailment removed]",
-			"[Target Unit] gains the [Infernal Purge Activator] status for [1] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",			
+			"[Target Unit] gains the [Infernal Purge Activator] status for [1] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
 			"[Target Unit] takes [5] damage <upon damaging a [Pyro Extra] unit> <with [SelfTurn]> <hidden from users>",		
 			"[Target Unit] takes [15] damage <upon damaging a [Oiled] unit> <with [SelfTurn]>",
@@ -1010,8 +1012,6 @@
 			"[This Unit] loses the [Fireball Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Fireball Cooldown] status for [5] turn(s) <upon gaining the [Fireball Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Fireball Active] status> <hidden from users>",
-			
-			"[+1]% Strength <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1051,8 +1051,6 @@
 			"[This Unit] loses the [Emberfall Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Emberfall Cooldown] status for [8] turn(s) <upon gaining the [Emberfall Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Emberfall Active] status> <hidden from users>",
-			
-			"[+1]% Strength <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1106,8 +1104,6 @@
 			"[This Unit] loses the [Eternal Fire Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Eternal Fire Cooldown] status for [10] turn(s) <upon gaining the [Eternal Fire Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Eternal Fire Active] status> <hidden from users>",
-			
-			"[+1]% Strength <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1244,8 +1240,6 @@
 			"[This Unit] loses the [Slashing Wind Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Slashing Wind Cooldown] status for [5] turn(s) <upon gaining the [Slashing Wind Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Slashing Wind Active] status> <hidden from users>",
-			
-			"[+1]% Strength <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -1348,7 +1342,7 @@
 		"uniques": [
 			"Lightning Element",
 			"Instantly consumes [15] [Aether]",
-			"Comment [Passive. Inflict [Disrupted] for 1 turn (Passive)]",	//Or Disrupt Chakra?
+			"Comment [Passive. Inflict [Disrupted] for 1 turn]",	//Or Disrupt Chakra?
 			"[Target Unit] gains the [Disrupted] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -2794,14 +2788,14 @@
 	{
 		"name": "Unbound",
 		"uniques": ["Ignores Zone of Control"],
-		"unitTypes": ["Counter Air Terror"],
+		"unitTypes": ["Counter Air Terror","Flying Monster"],
 		"column": 66,
 		"row": 1
 	},
 	{
 		"name": "Piercing Claw",
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Air Terror","Counter Air Terror"],
+		"unitTypes": ["Air Terror","Counter Air Terror","Flying Monster"],
 		"column": 68,
 		"row": 1
 	},
@@ -2820,7 +2814,7 @@
 			"[+25]% Strength <vs [Anti-Air] units> <when attacking>",
 			"[+25]% Strength <vs [Flying] units>"
 		],
-		"unitTypes": ["Counter Air Terror"],
+		"unitTypes": ["Counter Air Terror","Flying Monster"],
 		"column": 66,
 		"row": 2
 	},
@@ -2828,7 +2822,7 @@
 		"name": "Hardened Scale",
 		"prerequisites": ["Awareness"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Air Terror","Counter Air Terror"],
+		"unitTypes": ["Air Terror","Counter Air Terror","Flying Monster"],
 		"column": 68,
 		"row": 2
 	},
@@ -2843,8 +2837,8 @@
 	{
 		"name": "Wind Dash",
 		"prerequisites": ["Twin Fang","Meteoric Dive","Hardened Scale"],
-		"uniques": ["[+2] Movement"],
-		"unitTypes": ["Air Terror","Counter Air Terror"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Air Terror","Counter Air Terror","Flying Monster"],
 		"column": 67,
 		"row": 3
 	},
@@ -2855,7 +2849,7 @@
 			"[+1] Sight",
 			"Can see invisible [Military] units"
 		],
-		"unitTypes": ["Air Terror","Counter Air Terror"],
+		"unitTypes": ["Air Terror","Counter Air Terror","Flying Monster"],
 		"column": 68,
 		"row": 3
 	},
@@ -4924,9 +4918,9 @@
 	{
 		"name": "Mana Sensing",
 		"uniques": [
+			"Mana Attuned",
 			"Unavailable <hidden from users>",
 			"Comment [This Unit may sense mana]"
-			"Mana Attuned",
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
 		"column": 125,
@@ -5054,6 +5048,235 @@
 		]
 	},
 	
+	// Tamer
+	{
+		"name": "Insight",
+		"uniques": [
+			"[+25]% Strength <vs [Monster] units>",
+			"[This Unit] gains [5] XP <upon defeating a [Monster] unit>"
+		],
+		"unitTypes": ["Tamer"],
+		"column": 129,
+		"row": 1
+	},
+	{
+		"name": "Assault",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Tamer"],
+		"column": 131,
+		"row": 1
+	},
+	{
+		"name": "Charm",
+		"prerequisites": ["Insight"],
+		"uniques": ["[+20]% Strength bonus for [Monster] units within [2] tiles"],
+		"unitTypes": ["Tamer"],
+		"column": 129,
+		"row": 2
+	},
+	{
+		"name": "Deft",
+		"prerequisites": ["Assault"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Tamer"],
+		"column": 131,
+		"row": 2
+	},
+	{
+		"name": "Suppressive",
+		"prerequisites": ["Charm","Deft"],
+		"uniques": [
+			"[-10]% Strength for enemy [Monster] units in adjacent [All] tiles",
+			"Comment [Reduce damage taken by 5]",
+			"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>",
+		],
+		"unitTypes": ["Tamer"],
+		"column": 129,
+		"row": 3
+	},
+	{
+		"name": "Track",
+		"prerequisites": ["Charm","Deft"],
+		"uniques": [
+			"[+1] Sight",
+			"Can see invisible [Military] units"
+		],
+		"unitTypes": ["Tamer"],
+		"column": 130,
+		"row": 3
+	},
+	{
+		"name": "Vetenary",
+		"prerequisites": ["Charm","Deft"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"], // Should +15 for Monster unit
+		"unitTypes": ["Tamer"],
+		"column": 131,
+		"row": 3
+	},
+	{
+		"name": "Synergy",
+		"prerequisites": ["Suppressive","Track","Vetenary"],
+		"uniques": [
+			"Comment [This unit and adjacent Monster unit gain +50% XP from combat]"
+			"[+50]% XP gained from combat <hidden from users>"
+		],
+		"unitTypes": ["Tamer"],
+		"column": 129,
+		"row": 4
+	},
+	{
+		"name": "Loyalty",
+		"prerequisites": ["Suppressive","Track","Vetenary"],
+		"uniques": [
+			"[+1] Movement",
+			"[+20]% Strength bonus for [Monster] units within [2] tiles"
+		],
+		"unitTypes": ["Tamer"],
+		"column": 130,
+		"row": 4
+	},
+	{
+		"name": "Naming",
+		"prerequisites": ["Suppressive","Track","Vetenary"],
+		"uniques": ["[+25]% Strength"],
+		"unitTypes": ["Tamer"],
+		"column": 131,
+		"row": 4
+	},
+	
+	// Monster Summoner
+	{
+		"name": "Monster Summoner",
+		"uniques": [
+			"Only available <with [Monster Chips]>",
+			"Comment [Can summon subjugated Monster]",
+			"[This Unit] gains the [Summon Giant Rat] promotion <upon defeating a [Giant Rat] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Giant Rat] promotion <upon defeating a [Giant Rat-2] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Iron Tusk] promotion <upon defeating a [Iron Tusk] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Jackalope] promotion <upon defeating a [Jackalope] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Cave Bat] promotion <upon defeating a [Cave Bat] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Baba Yaga] promotion <upon defeating a [Baba Yaga] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Dire Wolf] promotion <upon defeating a [Dire Wolf] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Black Tarantula] promotion <upon defeating a [Black Tarantula] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Jiangshi] promotion <upon defeating a [Jiangshi] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Peuchen] promotion <upon defeating a [Peuchen] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Ghoul] promotion <upon defeating a [Ghoul] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Banshee] promotion <upon defeating a [Banshee] unit> <hidden from users>",
+			"[This Unit] gains the [Summon Scorpion Man] promotion <upon defeating a [Scorpion Man] unit> <hidden from users>",
+		],
+		"unitTypes": ["Tamer"],
+		"column": 132,
+		"row": 1
+	},
+	{
+		"name": "Summon Giant Rat",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Giant Rat-2] appears <for all movement> <costs [30] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Iron Tusk",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Iron Tusk] appears <for all movement> <costs [30] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Jackalope",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Jackalope] appears <for all movement> <costs [30] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Cave Bat",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Cave Bat] appears <for all movement> <costs [30] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Baba Yaga",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Baba Yaga] appears <for all movement> <costs [45] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Dire Wolf",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Dire Wolf] appears <for all movement> <costs [60] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Black Tarantula",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Black Tarantula] appears <for all movement> <costs [60] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Jiangshi",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Jiangshi] appears <for all movement> <costs [60] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Peuchen",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Peuchen] appears <for all movement> <costs [60] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Ghoul",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Ghoul] appears <for all movement> <costs [60] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Banshee",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Banshee] appears <for all movement> <costs [75] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Minotaur",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Minotaur] appears <for all movement> <costs [90] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Summon Scorpion Man",
+		"prerequisites": ["Monster Summoner"],
+		"uniques": [
+			"Free [Scorpion Man] appears <for all movement> <costs [90] [Aether]> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 	// Buffs
 	{
 		"name": "Immunity",
@@ -5074,11 +5297,11 @@
 			"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <hidden from users>",
 			"[This Unit] loses the [Cursed] status <upon gaining the [Cursed] status> <hidden from users>",
 			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <hidden from users>",	
-			"[This Unit] loses the [Disarmed] status <upon gaining the [Disarmed] status> <hidden from users>",	//Disarmed tak lebokke, soale lagi sadar yen Atrophy dan Jammed rasido dinggo
+			"[This Unit] loses the [Disarmed] status <upon gaining the [Disarmed] status> <hidden from users>",
 			"[This Unit] loses the [Disoriented] status <upon gaining the [Disoriented] status> <hidden from users>",
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status> <hidden from users>",
 			"[This Unit] loses the [Drunk] status <upon gaining the [Drunk] status> <hidden from users>",
-			"[This Unit] loses the [Electrified] status <upon gaining the [Electrified] status> <hidden from users>",	
+			"[This Unit] loses the [Electrified] status <upon gaining the [Electrified] status> <hidden from users>",
 			"[This Unit] loses the [Fatigued] status <upon gaining the [Fatigued] status> <hidden from users>",
 			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>",
 			"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
@@ -5117,7 +5340,7 @@
 			"[This Unit] loses the [Disoriented] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Drunk] status <upon gaining the [Immunity] status> <hidden from users>",
-			"[This Unit] loses the [Electrified] status <upon gaining the [Immunity] status> <hidden from users>",		
+			"[This Unit] loses the [Electrified] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Frightened] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Fatigued] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Frostbitten] status <upon gaining the [Immunity] status> <hidden from users>",
@@ -5725,14 +5948,28 @@
 	
 	// Monster
 	{
-		"name": "Over the Horizon",
-		"prerequisites": ["Battlecry","Tortoise"],
+		"name": "Huntdown",
+		"prerequisites": ["Battlecry","Tortoise","Rout","Depredation","Outmanuever","Meteoric Dive","Hardened Scale"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Foot Monster","Mounted Monster","Flying Monster"]
+	},
+	{
+		"name": "Rage",
+		"prerequisites": ["Besiege","Woodsman","Escort Mobility","Agile","Wind Dash","Vigilance","Huntdown"],
 		"uniques": [
-			"Eliminates combat penalty for attacking over a river",
-			"Eliminates combat penalty for attacking across a coast",
-			"Ranged attacks may be performed over obstacles"
+			"Comment [Active. +50% Strength and no damage penalty for wounded units for 1 turn, but takes 20 damage upon turn end. Can only be activated when below 67 HP]",
+			"[This Unit] gains the [Rage Active] status for [1] turn(s) <for [0] movement> <when below [67] HP> <hidden from users>",
+			"[This Unit] takes [20] damage <upon losing the [Rage Active] status> <hidden from users>"
 		],
-		"unitTypes": ["Foot Monster"]
+		"unitTypes": ["Foot Monster","Mounted Monster","Flying Monster"]
+	},
+	{
+		"name": "Rage Active",
+		"uniques": [
+			"[+50]% Strength",
+			"No damage penalty for wounded units",
+			"[This Unit] takes [20] damage <upon turn end>"
+		],
 	},
 	{
 		"name": "Ethereal",						// Ethereal Monster
@@ -5763,9 +6000,7 @@
 		"name": "Screech",						// Cave Bat
 		"uniques": [
 			"Comment [Inflict [Frightened] for 2 turns]",
-			"[Target Unit] gains the [Frightened] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
-			
-			"[+1]% Strength <hidden from users>"
+			"[Target Unit] gains the [Frightened] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Frightened", "link":"Promotion/Frightened"}
@@ -5775,9 +6010,7 @@
 		"name": "Curse",						// Baba Yaga
 		"uniques": [
 			"Comment [Inflict [Cursed] for 2 turns]",
-			"[Target Unit] gains the [Cursed] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
-			
-			"[+1]% Strength <hidden from users>"
+			"[Target Unit] gains the [Cursed] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Cursed", "link":"Promotion/Cursed"}
@@ -5787,9 +6020,7 @@
 		"name": "Web Trap",						// Arachnids
 		"uniques": [
 			"Comment [Inflict [Webbed] for 2 turns]",
-			"[Target Unit] gains the [Webbed] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
-			
-			"[+1]% Strength <hidden from users>"
+			"[Target Unit] gains the [Webbed] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Webbed", "link":"Promotion/Webbed"}
@@ -5850,13 +6081,23 @@
 		"name": "Wail of Despair",				// Banshee
 		"uniques": [
 			"Comment [Inflict [Frightened] for 2 turns]",
-			"[Target Unit] gains the [Frightened] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
-			"[-10]% Strength for enemy [{Biological} {non-[Magical]}] units in adjacent [All] tiles",
+			"[Target Unit] gains the [Frightened] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[-10]% Strength for enemy [{Biological} {non-[Magical]}] units in adjacent [All] tiles"
+		],
+		"civilopediaText": [
+			{"text": "Frightened", "link":"Promotion/Frightened"}
+		]
+	},
+	{
+		"name": "Twin Sting",					// Scorpion Man, Scorpion King
+		"uniques": [
+			"Comment [Inflict [Poisoned] for 2 turns]",
+			"[Target Unit] gains the [Poisoned] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[+1]% Strength <hidden from users>"
 		],
 		"civilopediaText": [
-			{"text": "Frightened", "link":"Promotion/Frightened"}
+			{"text": "Poisoned", "link":"Promotion/Poisoned"}
 		]
 	},
 	
@@ -5878,6 +6119,13 @@
 		"uniques": [
 			"[+25]% Strength <when below [40] HP>",
 			"[+25]% Strength <when below [20] HP> <when defending>"
+		]
+	},
+	{
+		"name": "Bonebreaker",					// Gnoll Basher
+		"uniques": [
+			"Comment [33% chance to inflick [Stunned] for 1 turn]",
+			"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [Land] unit> <with [33]% chance> <hidden from users>"
 		]
 	},
 	{

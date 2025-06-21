@@ -386,7 +386,6 @@
 			"Provides [2] [Aether]",
 			"Pillaging this improvement yields approximately [+12 Gold]"
 		],
-		//"shortcutKey": "B",
 		"civilopediaText": [
 			{"text": "An artificial ley line created as a result of mana studies."}
 		]
@@ -395,12 +394,13 @@
 		"name": "Kiln",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
+		"turnsToBuild": 7,
 		"uniques": [
 			"Cannot be built on [Mountain] tiles",
 			"[+1 Culture] <after discovering [Archaeology]>",
 			"Pillaging this improvement yields approximately [+4 Gold, +4 Culture]"
 		],
-		//"shortcutKey": "B",
+		"shortcutKey": "K",
 		"civilopediaText": [
 			{"text": "A thermally insulated chamber that produces temperatures sufficient to complete some process, such as hardening, drying, or chemical changes."}
 		]
@@ -417,6 +417,7 @@
 			"[+2 Science] <after discovering [Plastics]>",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Science, +5 Gold]"
 		],
@@ -433,6 +434,7 @@
 			"[+2 Culture] <after discovering [Architecture]>",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Culture, +5 Gold]"
 		],
@@ -449,6 +451,7 @@
 			"[+2 Production] <after discovering [Alchemy]>",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Production, +5 Gold]"
 		],
@@ -465,6 +468,7 @@
 			"[+2 Gold] <after discovering [Economics]>",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -482,6 +486,7 @@
 			"Provides [3] [Aether] <after discovering [Quintessence Powers]>",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -497,6 +502,7 @@
 			"Great Improvement",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+10 Faith, +5 Gold]"
 		],
@@ -515,6 +521,7 @@
 			"Gain control over [All] tiles in a [1]-tile radius",
 			"Unbuildable <in [Mountain] tiles>",
 			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
 			"Will not be replaced by automated units"
 		],
 		"civilopediaText": [

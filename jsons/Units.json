@@ -46,7 +46,7 @@
 			"May create improvements on water resources",
 			"[-25]% construction time for [All] improvements",
 			"Comment [May reshape and change terrain]",
-			"Turn this tile into a [Canal] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {Land}] tiles> <by consuming this unit> <hidden from users>",
+			"Turn this tile into a [Canal] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {Open terrain} {Land}] tiles> <with [1] to [6] neighboring [Water] tiles> <by consuming this unit> <hidden from users>",
 			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <by consuming this unit> <hidden from users>"
 		],
 		"civilopediaText": [
@@ -175,10 +175,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Longswordsman",
-		"uniques": [
-			"Can only be built <in cities with a [Forge]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Swordsmanship practitioner, train and fight with a sword. Sometimes, skilled swordsman can control mana and forming aura."}
@@ -195,10 +192,7 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Etherblader",
-		"uniques": [
-			"Can only be built <in cities with a [Forge]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -212,10 +206,7 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Avionic Theory",
 		"upgradesTo": "Lightsaberman",
-		"uniques": [
-			"Can only be built <in cities with a [Forge]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
 		"attackSound": "shot"
 	},
 	{
@@ -232,8 +223,7 @@
 		"uniques": [
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
-			"Can only be built <in cities with a [Forge]> <in cities with a [Shipyard]>",
-			"Never appears as a Barbarian unit"
+			"Can only be built <in cities with a [Forge]> <in cities with a [Shipyard]>"
 		],
 		"attackSound": "shot"
 	},
@@ -247,10 +237,7 @@
 		"requiredTech": "Avionic Theory",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Omni-Squad",
-		"uniques": [
-			"Can only be built <in cities with a [Forge]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
 		"attackSound": "shot"
 	},
 	{
@@ -264,8 +251,7 @@
 		//"promotions": ["Shock"],
 		"uniques": [
 			"[+10]% Strength <vs [Cyborg] units> <when attacking>",
-			"May Paradrop up to [8] tiles from inside friendly territory",
-			"Never appears as a Barbarian unit"
+			"May Paradrop up to [8] tiles from inside friendly territory"
 		],
 		"attackSound": "shot"
 	},
@@ -358,10 +344,7 @@
 		"requiredTech": "Animal Riding",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Knight",
-		"uniques": [
-			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
 		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": "Fighting while riding animal, these unit often armed with spears and swords."}
@@ -378,10 +361,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cavalry",
-		"uniques": [
-			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
 		"attackSound": "horse"
 	},
 	{
@@ -395,10 +375,7 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Pyrokinetics",
 		"upgradesTo": "Landship",
-		"uniques": [
-			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
 		"attackSound": "horse"
 	},
 	{
@@ -411,10 +388,7 @@
 		"requiredTech": "Pyrokinetics",
 		"obsoleteTech": "Mobile Tactics",
 		"upgradesTo": "Tank",
-		"uniques": [
-			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -425,10 +399,7 @@
 		"cost": 540,
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Mobile Tactics",
-		"uniques": [
-			"Can only be built <in cities with a [Riding Arena]> <hidden from users>",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
 		"attackSound": "tankshot"
 	},
 	
@@ -940,7 +911,6 @@
 		"requiredTech": "Celestial Wisdoms",
 		"obsoleteTech": "Quintessence Powers",
 		"upgradesTo": "Dragon Knight",
-		//"promotions": ["Elemental Immunity"],
 		"uniques": ["Can only be built <in cities with a [Hatchery]> <hidden from users>"],
 		"attackSound": "torpedo",
 		"civilopediaText": [
@@ -960,7 +930,6 @@
 		"requiredTech": "Quintessence Powers",
 		"obsoleteTech": "Stealth",
 		"upgradesTo": "Dragon Paladin",
-		//"promotions": ["Elemental Immunity"],
 		"uniques": [
 			"Ignores Zone of Control",
 			"Can only be built <in cities with a [Hatchery]> <hidden from users>"
@@ -979,7 +948,6 @@
 		"cost": 560,
 		"requiredResource": "Mythical Egg",
 		"requiredTech": "Stealth",
-		//"promotions": ["Elemental Immunity"],
 		"uniques": [
 			"Ignores Zone of Control",
 			"Can only be built <in cities with a [Hatchery]> <hidden from users>",
@@ -1003,7 +971,6 @@
 		"requiredTech": "Leyline Siphoning",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Gryphon",
-		//"promotions": ["Elemental Immunity"],
 		"uniques": ["Can only be built <in cities with a [Hatchery]> <hidden from users>"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
@@ -1021,7 +988,6 @@
 		"requiredTech": "Plastics",
 		"obsoleteTech": "Radar",
 		"upgradesTo": "Garuda",
-		//"promotions": ["Elemental Immunity"],
 		"uniques": [
 			"Can only be built <in cities with a [Hatchery]> <hidden from users>",
 			"Unable to capture cities"
@@ -1039,7 +1005,6 @@
 		"cost": 560,
 		"requiredResource": "Mythical Egg",
 		"requiredTech": "Radar",
-		//"promotions": ["Elemental Immunity"],
 		"uniques": [
 			"Can only be built <in cities with a [Hatchery]> <hidden from users>"
 			"Unable to capture cities"
@@ -1050,7 +1015,6 @@
 		]
 	},
 	
-	// Naval Melee
 	// Naval Melee
 	{
 		"name": "Trireme",
@@ -1832,6 +1796,7 @@
 		"promotions": ["Meditate","Kroyokan"],
 		"uniques": [
 			"Can only be built <if [Loyal Brotherhood School] is constructed>",
+			"Free [Loyal Brotherhood Disciple-2] appears <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		],
@@ -1866,6 +1831,7 @@
 		"promotions": ["Meditate","Kroyokan"],
 		"uniques": [
 			"Can only be built <if [Loyal Brotherhood School] is constructed>",
+			"Free [Loyal Brotherhood Adept-2] appears <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		],
@@ -1899,6 +1865,7 @@
 		"promotions": ["Meditate","Kroyokan"],
 		"uniques": [
 			"Can only be built <if [Loyal Brotherhood School] is constructed>",
+			"Free [Loyal Brotherhood Master-2] appears <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		],
@@ -1986,11 +1953,28 @@
 		]
 	},
 	{
+		"name": "Xingzun",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 60,
+		"requiredResource": "Dao Perception",
+		"promotions": ["Immunity","Medic"],
+		"uniques": [
+			"Only available <with [Dao Perception]>",
+			"Uncapturable",
+			"Gain [2] [Faith] <upon ending a turn in a [Holy Site] tile> <hidden from users>",
+			"Comment [Generate +2 [Faith] when stationed on [Holy Site]]"
+		],
+		"civilopediaText": [
+			{"text": "Zhexue's companion whose active in Zilla and the surrounding area. The term Xingzun was coined by the Tianwui, who considered them to be the first generation cultivators."}
+		]
+	},
+	{
 		"name": "Black Pearl",
 		"unitType": "Naval Raider",
 		"movement": 5,
 		"strength": 30,
-		"cost": 165,
+		"cost": 180,
 		"hurryCostModifier": 10,
 		"requiredTech": "Cartography",
 		"upgradesTo": "Privateer",
@@ -2011,7 +1995,7 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 30,
-		"cost": 170,
+		"cost": 180,
 		"hurryCostModifier": 10,
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Marine",
@@ -2019,8 +2003,7 @@
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
-			"[-50]% Gold cost of upgrading",
-			"Never appears as a Barbarian unit"
+			"[-50]% Gold cost of upgrading"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -2048,6 +2031,28 @@
 		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "Constructed of layered strips of bone, horn, or other materials glued together to form an extremely strong and powerful bow, these bow considered the most sophisticated of all bow designs."}
+		]
+	},
+	{
+		"name": "Gnoll Basher",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 30,
+		"cost": 180,
+		"hurryCostModifier": 10,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"upgradesTo": "Etherblader",
+		"promotions": ["Bonebreaker"],
+		"uniques": [
+			"Mercenary",
+			"Unbuildable",
+			"[+50]% XP gained from combat",
+			"[-50]% Gold cost of upgrading"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "These ruthless Gnolls are feared on the battlefield, with innate talent of warfare and their ability to swing gigantic hammer with ease."}
 		]
 	},
 	{
@@ -2080,7 +2085,7 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 30,
-		"cost": 170,
+		"cost": 180,
 		"hurryCostModifier": 10,
 		"requiredResource": "Horses",
 		"requiredTech": "Civil Service",
@@ -2112,7 +2117,7 @@
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
-			"[-25]% Gold cost of upgrading",
+			"[-15]% Gold cost of upgrading",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "whoosh",
@@ -2133,7 +2138,7 @@
 		"uniques": [
 			"Mercenary",
 			"Unbuildable",
-			"[-25]% Gold cost of upgrading",
+			"[-15]% Gold cost of upgrading",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "whoosh",
@@ -2146,7 +2151,7 @@
 		"unitType": "Anti-Armor",
 		"movement": 2,
 		"strength": 30,
-		"cost": 165,
+		"cost": 180,
 		"hurryCostModifier": 10,
 		"requiredTech": "Metal Casting",
 		"upgradesTo": "Halberdier",
@@ -2229,7 +2234,7 @@
 		"promotions": ["Ethereal"],
 		"uniques": [
 			"Monster",
-			"Limited to [4] per Civilization",
+			"Limited to [3] per Civilization",
 			"Withdraws before melee combat <with [50]% chance>"
 		],
 		"attackSound": "nonmetalhit",
@@ -2244,13 +2249,11 @@
 		"movement": 3,
 		"strength": 46,
 		"cost": 260,
-		"obsoleteTech": "Flight",
 		"requiredTech": "Spellbook Codification",
+		"obsoleteTech": "Flight",
 		"promotions": ["Ethereal"],
 		"uniques": [
-			"Boss",
-			"Limited to [2] per Civilization",
-			"Uncapturable",
+			"Limited to [3] per Civilization",
 			"[-10]% Strength for enemy [Biological] units in adjacent [All] tiles",
 			"Withdraws before melee combat <with [50]% chance>",
 		],
@@ -2322,7 +2325,6 @@
 	{
 		"name": "Giant Rat-2",
 		"unitType": "Foot Monster",
-		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 10,
 		"cost": 40,
@@ -2331,6 +2333,7 @@
 		"promotions": ["Vermin Bite"],
 		"uniques": [
 			"Biological",
+			"Unbuildable",
 			"Ignores Zone of Control",
 			"Will not be displayed in Civilopedia"
 		],
@@ -2464,10 +2467,31 @@
 		]
 	},
 	{
+		"name": "Sandworm",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarian",
+		"movement": 3,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Poetry",
+		"obsoleteTech": "Mana Battery",
+		"uniques": [
+			"[+20]% Strength <in [Desert] tiles>",
+			"[-2] Movement <in [non-[Desert]] tiles>",
+			"Invisible to non-adjacent units <in [Desert] tiles>",
+			"Limited to [4] per Civilization",
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A massive subterranean predator of the deep desert, drawn to motion and sound."}
+		]
+	},
+	{
 		"name": "Peuchen",
 		"unitType": "Flying Monster",
 		"uniqueTo": "Barbarians",
-		"movement": 3,
+		"movement": 2,
 		"strength": 20,
 		"cost": 100,
 		"requiredTech": "Currency",
@@ -2497,6 +2521,29 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Cannibalistic undead, feast upon the fallen, growing stronger with every bite."}
+		]
+	},
+	{
+		"name": "Bullworm",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarian",
+		"movement": 3,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Archaeology",
+		"uniques": [
+			"[+20]% Strength <in [Tundra] tiles>",
+			"[+20]% Strength <in [Snow] tiles>",
+			"[-2] Movement <in [{non-[Tundra]} {non-[Snow]}] tiles>",
+			"Invisible to non-adjacent units <in [Tundra] tiles>",
+			"Invisible to non-adjacent units <in [Snow] tiles>",
+			"Limited to [4] per Civilization",
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Polar cousin of Sandworm, a titanic worm-like creature that tunnels beneath frozen landscapes."}
 		]
 	},
 	{
@@ -2556,6 +2603,48 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Bound by sorrow and vengeance, her piercing scream unravels the will of the living."}
+		]
+	},
+	{
+		"name": "Scorpion Man",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 30,
+		"cost": 100,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"promotions": ["Twin Sting"],
+		"uniques": [
+			"Biological",
+			"[+25]% Strength <when fighting in [Desert] tiles>"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A humanoid hybrids with the upper torso of a man and the lower body of a scorpion."}
+		]
+	},
+	{
+		"name": "Scorpion King",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 40,
+		"cost": 160,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"promotions": ["Twin Sting"],
+		"uniques": [
+			"Boss",
+			"Biological",
+			"[+25]% Strength <when fighting in [Desert] tiles>",
+			"[+25]% Strength bonus for [Monster] units within [2] tiles",
+			"Limited to [1] per Civilization", 
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A monster warlord, commanding other desert monsters."}
 		]
 	},
 	

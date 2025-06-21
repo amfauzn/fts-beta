@@ -12,7 +12,7 @@
 		
 		//Self Turn mechanic
 		"Instantly gain [1] [SelfTurn] <upon turn start>",
-		"Instantly gain [-1] [SelfTurn] <upon turn end>",
+		"Instantly consumes [1] [SelfTurn] <upon turn end>",
 		
 		// Mercenary
 		"New [Composite Bowman] units start with [15] XP [in all cities]",
@@ -34,6 +34,9 @@
 	],
 	
 	"unitUniques": [
+		// Monster
+		"[This Unit] gains the [Synergy] status for [1] turn(s) <upon turn start> <when adjacent to a [Synergy] unit> <for [Monster] units>",
+		
 		// Monk-related
 		//Deflect
 		"[Target Unit] gains the [Deflect Cooldown] status for [1] turn(s) <upon damaging a [{non-[Deflect Cooldown]} {Deflect}] unit> <for [{Ranged} {non-[Flying]} {Land}] units>",

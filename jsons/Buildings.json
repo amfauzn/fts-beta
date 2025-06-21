@@ -32,7 +32,6 @@
 	*/
 	
 	
-	// Always Available
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -44,7 +43,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"[-1 Science] per [5] population [in this city] <hidden from users>"
+			"[-1 Science] per [10] population [in this city] <hidden from users>"
 		]
 	},
 	
@@ -114,6 +113,7 @@
 		"hurryCostModifier": 5,
 		"uniques": [
 			"Military unlocker",
+			"Must be next to [Coast]",
 			"Comment [Enables training Naval units]",
 			//"Free [Trireme] appears",
 			"Destroyed when the city is captured"
@@ -486,6 +486,16 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Windmill",
+		"requiredBuilding": "Workshop",
+		"production": 2,
+		"percentStatBonus": {"production": 10},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Only available <with [Rotary Component]>"],
+		"requiredTech": "Machinery"
 	},
 	{
 		"name": "Gemcutter",
@@ -1044,6 +1054,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Sage": 1},
 		"uniques": [
+			"Only available <after adopting [Wizardry]> <hidden from users>",
 			"Gain a free [Arcane Spire] [in this city]",
 			"Provides [5] [Magician]"
 		],
@@ -1139,9 +1150,8 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
-			"Only available <after adopting [Wizardry]> <hidden from users>",
 			"Provides [1] [Luminaris]",
-			"[+10]% [Food] [in all cities]"
+			"Comment [Enables training XXX hero]" // placeholder for 2nd Hero, this is Esplumoir replacement in Old Fantasia
 		],
 		"requiredTech": "Mana Attunement",
 		"quote": "'And as I grew older I understood that instructions came with this voice. What were these instructions? The instructions were never to lament casually.' -Leonard Cohen"
@@ -1253,6 +1263,7 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
 			"Only available <with [Darkroot]>",
+			"Comment [Must be allied with [Manthrill]]",
 			"[+25]% [Culture] [in all cities]"
 		],
 		"requiredTech": "Steel",
@@ -1334,9 +1345,9 @@
 		"science": 3,
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": [
-			//"Free [Monster Summoner] appears",
-			"Comment [Enables construction of [Beast Summoner]]"
-			// Tricky, either make this city build monster unit -or buy, or make Beast Summoner which may summon beast -unlocked via Skills?
+			"Provides [1] [Monster Chips] <hidden from users>",
+			"Comment [Unlocks [Monster Summoner] skill for Tamer unit]",
+			"All newly-trained [Tamer] units [in this city] receive the [Monster Summoner] promotion"
 		],
 		"requiredTech": "Archaeology",
 		"quote": "'For naturally a beast desires to flee from any enemy that he may see, Though never yet he's clapped on such his eye.' ― Geoffrey Chaucer, Canterbury Tales"

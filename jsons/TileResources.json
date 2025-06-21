@@ -130,13 +130,13 @@
 			"faith": 1
 		},
 		"uniques": [
-			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
-			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
-			"Generated on every [20] tiles <in [{Featureless} {Desert}] tiles>",
-			"Generated on every [20] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [18] tiles <in [{Featureless} {Snow}] tiles>",
-			"Generated on every [20] tiles <in [Flood plains] tiles>",
-			"Generated on every [18] tiles <in [Hill] tiles> <in [Hill] Regions>"
+			"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Desert}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [20] tiles <in [{Featureless} {Snow}] tiles>",
+			"Generated on every [22] tiles <in [Flood plains] tiles>",
+			"Generated on every [20] tiles <in [Hill] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
@@ -182,34 +182,36 @@
 		]
 	},
 	{
-		"name": "Mythical Egg",
+		"name": "Altalium",
 		"resourceType": "Strategic",
-		"revealedBy": "Geomancy",
+		"revealedBy": "Avionic Theory",
 		"terrainsCanBeFoundOn": [
-			"Snow","Hill","Jungle","Aurora"
+			"Snow","Hill","Forest","Jungle","Aurora"
 		],
 		"production": 1,
-		"improvement": "Taming",
+		"improvement": "Mine",
 		"improvementStats": {
-			"faith": 1,
+			"science": 1,
 			"food": -1,
 			"production": 2
 		},
 		"uniques": [
-			"Generated with weight [5] <in [Hill] tiles>",
-			"Generated with weight [35] <in [Jungle] tiles> <in tiles without [Hill]>",
+			"Generated with weight [30] <in [{Forest} {Hill}] tiles> <in [Hill] Regions>",
+			"Generated with weight [25] <in [{Jungle} {Hill}] tiles> <in [Hill] Regions>",
+			"Generated with weight [45] <in [Aurora] tiles>",
+			//"Generated with weight [5] <in [Permafrost] tiles>",
+			"Minor deposits generated with weight [20] <in [Forest] tiles>",
+			"Minor deposits generated with weight [10] <in [Jungle] tiles>",
 			"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles>",
 			"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles>",
-			"Minor deposits generated with weight [20] <in [{Desert} {Hill}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Tundra} {Hill}] tiles>",
-			"Minor deposits generated with weight [10] <in [Aurora] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
+			"Minor deposits generated with weight [15] <in [{Tundra} {Hill}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles> <in [Hill] Regions>",
 		],
-		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 8},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
 		"civilopediaText": [
 			{
-				"text": "A rare, organic magical vessel, carrying and incubating a mystical fetus until it hatches. Taming a mystical creatures from the moment it hatches is an extraordinary feat that few have the skill or courage to achieve."
+				"text": "Lightweight mineral with unique magical properties that allow objects or beings in contact with it to defy gravity. The mineral naturally emits a low-frequency energy field that disrupts gravitational forces, enabling levitation or flight when properly harnessed."
 			}
 		]
 	},
@@ -266,36 +268,34 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Altalium",
+		"name": "Mythical Egg",
 		"resourceType": "Strategic",
-		"revealedBy": "Avionic Theory",
+		"revealedBy": "Geomancy",
 		"terrainsCanBeFoundOn": [
-			"Snow","Hill","Forest","Jungle","Aurora"
+			"Snow","Hill","Jungle","Aurora"
 		],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Taming",
 		"improvementStats": {
-			"science": 1,
+			"faith": 1,
 			"food": -1,
 			"production": 2
 		},
 		"uniques": [
-			"Generated with weight [30] <in [{Forest} {Hill}] tiles> <in [Hill] Regions>",
-			"Generated with weight [25] <in [{Jungle} {Hill}] tiles> <in [Hill] Regions>",
-			"Generated with weight [45] <in [Aurora] tiles>",
-			//"Generated with weight [5] <in [Permafrost] tiles>",
-			"Minor deposits generated with weight [20] <in [Forest] tiles>",
-			"Minor deposits generated with weight [10] <in [Jungle] tiles>",
+			"Generated with weight [5] <in [Hill] tiles>",
+			"Generated with weight [35] <in [Jungle] tiles> <in tiles without [Hill]>",
 			"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles>",
 			"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles>",
-			"Minor deposits generated with weight [15] <in [{Tundra} {Hill}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles> <in [Hill] Regions>",
+			"Minor deposits generated with weight [20] <in [{Desert} {Hill}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Tundra} {Hill}] tiles>",
+			"Minor deposits generated with weight [10] <in [Aurora] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
 		],
-		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 8},
-		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"civilopediaText": [
 			{
-				"text": "Lightweight mineral with unique magical properties that allow objects or beings in contact with it to defy gravity. The mineral naturally emits a low-frequency energy field that disrupts gravitational forces, enabling levitation or flight when properly harnessed."
+				"text": "A rare, organic magical vessel, carrying and incubating a mystical fetus until it hatches. Taming a mystical creatures from the moment it hatches is an extraordinary feat that few have the skill or courage to achieve."
 			}
 		]
 	},
@@ -381,6 +381,11 @@
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Snow] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Fossilized tree resin, appreciated for its color and natural beauty."
+			}
 		]
 	},
 	{
@@ -397,6 +402,11 @@
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [Tundra] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Renowned for their highly fragrant aromas and complex flavor, these fruits are full of immune strengthening goodness."
+			}
 		]
 	},
 	/*{
@@ -430,6 +440,11 @@
 			"Generated near City States with weight [5]",
 			"Doesn't generate naturally <in [Desert] tiles>",
 			"Doesn't generate naturally <in [{non-[Hill]} {Tundra}] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Roasted and brewed into darkly colored, bitter beverage, these beans has a stimulating effect."
+			}
 		]
 	},
 	{
@@ -938,15 +953,6 @@
 	
 	// Mechanism
 	{
-		"name": "Beast Chips",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen",
-			"Cannot be traded",
-			"Excluded from map editor"
-		]
-	},
-	{
 		"name": "Dao Perception",
 		"resourceType": "Strategic",
 		"uniques": [
@@ -957,17 +963,17 @@
 		]
 	},
 	{
-		"name": "Featherite",
+		"name": "Darkroot",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
-			"Cannot be traded",
+			"Cannot be traded", 
 			"Excluded from map editor",
 			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
-		"name": "Magician",
+		"name": "Featherite",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
@@ -995,11 +1001,30 @@
 		]
 	},
 	{
-		"name": "Darkroot",
+		"name": "Magician",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
-			"Cannot be traded", 
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Monster Chips",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Rotary Component",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
 			"Excluded from map editor"
 		]
 	},
