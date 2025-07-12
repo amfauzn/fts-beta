@@ -1,7 +1,7 @@
 {
 	"isBaseRuleset": true,
 	"constants": {
-		"maxXPfromBarbarians": 150,
+		"maxXPfromBarbarians": 100,
 		"cityStrengthBase": 14,
 		"cityStrengthFromGarrison": 0.3,
 		"riverCountMultiplier": 0.015,

@@ -353,7 +353,7 @@
 		"prerequisites": ["Rout","Upheaval","Depredation","Outmanuever"],
 		"uniques": [
 			"Transfer Movement to [Civilian]",
-			"[+10]% Strength when stacked with [Civilian]"
+			"[+10]% Strength <when stacked with a [Civilian] unit>"
 		],
 		"unitTypes": ["Mounted","Mounted Monster"],
 		"column": 13,
@@ -717,7 +717,7 @@
 	
 	// Anti-Air
 	{
-		"name": "Sharpnel",
+		"name": "Shrapnel",
 		"prerequisites": ["Accuracy"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Anti-Air"],
@@ -734,7 +734,7 @@
 	},
 	{
 		"name": "Precision",
-		"prerequisites": ["Sharpnel","Emplacement"],
+		"prerequisites": ["Shrapnel","Emplacement"],
 		"uniques": [
 			"[+25]% Strength <vs [Flying] units> <when attacking>",
 			"[+33]% Damage when intercepting"
@@ -745,7 +745,7 @@
 	},
 	{
 		"name": "Ambush",
-		"prerequisites": ["Sharpnel","Emplacement"],
+		"prerequisites": ["Shrapnel","Emplacement"],
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Anti-Air"],
 		"column": 31,
@@ -753,7 +753,7 @@
 	},
 	{
 		"name": "Shell",
-		"prerequisites": ["Sharpnel","Emplacement"],
+		"prerequisites": ["Shrapnel","Emplacement"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Anti-Air"],
 		"column": 32,
@@ -886,7 +886,7 @@
 			"[This Unit] gains the [Infernal Purge Cooldown] status for [9] turn(s) <upon gaining the [Infernal Purge Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Infernal Purge Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1012,6 +1012,8 @@
 			"[This Unit] loses the [Fireball Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Fireball Cooldown] status for [5] turn(s) <upon gaining the [Fireball Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Fireball Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1051,6 +1053,8 @@
 			"[This Unit] loses the [Emberfall Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Emberfall Cooldown] status for [8] turn(s) <upon gaining the [Emberfall Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Emberfall Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1103,7 +1107,9 @@
 			
 			"[This Unit] loses the [Eternal Fire Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Eternal Fire Cooldown] status for [10] turn(s) <upon gaining the [Eternal Fire Active] status> <hidden from users>",
-			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Eternal Fire Active] status> <hidden from users>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Eternal Fire Active] status> <hidden from users>"
+			
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1240,6 +1246,8 @@
 			"[This Unit] loses the [Slashing Wind Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Slashing Wind Cooldown] status for [5] turn(s) <upon gaining the [Slashing Wind Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Slashing Wind Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -1383,7 +1391,7 @@
 			"[This Unit] gains the [Conduit Cooldown] status for [6] turn(s) <upon gaining the [Conduit Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Conduit Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1420,15 +1428,15 @@
 			"Active Spell",
 			"Comment [Inflict [Rooted] and [Electrified] for 3 turns. For the next 3 turns, as long as the caster doesn't change target, the caster may inflict the ailments again. Target unit may spend All Movement to remove the ailments]",
 			"[Target Unit] gains the [Voltaic Leash Target] status for [4] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Voltaic Rooted] status for [4] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Voltaic Electrified] status for [4] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Rooted] status for [4] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Electrified] status for [4] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
-			"[This Unit] gains the [Voltaic Leash Caster] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[This Unit] gains the [Voltaic Leash Caster] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] loses the [Voltaic Leash Active] status <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Voltaic Leash Cooldown] status for [8] turn(s) <upon gaining the [Voltaic Leash Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Voltaic Leash Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -1476,18 +1484,19 @@
 	},
 	{
 		"name": "Superconductor Active",		//Superconductor
-		"uniques": ["Comment [Inflict [Electrified] for 2 turns]",
+		"uniques": [
 			"Active Spell",
 			"Projectile Spell",
+			"Comment [Inflict [Electrified] for 2 turns]",
 			"[Target Unit] gains the [Electrified] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [5] damage <upon damaging a [Conductive] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [5] damage <upon damaging a [Wet] unit> <with [SelfTurn]> <hidden from users>",
 			
-			"[This Unit] loses the [Superconductor Active] status <upon damaging a [All] unit> <hidden from users>",
-			"[This Unit] gains the [Superconductor Cooldown] status for [7] turn(s) <upon gaining the [Superconductor Active] status> <hidden from users>",
+			"[This Unit] loses the [Superconductor Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Superconductor Cooldown] status for [7] turn(s) <upon gaining the [Superconductor Active] status>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Superconductor Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1517,7 +1526,7 @@
 	{
 		"name": "Teleportation Active",			//Superconductor
 		"uniques": [
-			"May Paradrop up to [10] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1560,7 +1569,7 @@
 			"[This Unit] gains the [Wailing Tempest Cooldown] status for [12] turn(s) <upon gaining the [Wailing Tempest Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Wailing Tempest Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -1596,7 +1605,7 @@
 			"[+15]% Strength <when defending> <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
-		"innerColor": [139, 69, 19],
+		"innerColor": [147, 78, 30],
 		"outerColor": [0, 0, 0]
 		"column": 43,
 		"row": 1,
@@ -1610,7 +1619,7 @@
 			"[This Unit] gains the [Fossil Strike Active] status for [1] turn(s) <for [0] movement> <for units without [Fossil Strike Cooldown]> <for [non-[No Cast]] units> <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage"],
-		"innerColor": [139, 69, 19],
+		"innerColor": [147, 78, 30],
 		"outerColor": [0, 0, 0]
 		"column": 43,
 		"row": 2,
@@ -1621,18 +1630,19 @@
 	},
 	{
 		"name": "Fossil Strike Active",			// Fossil Strike
-		"uniques": ["Comment [Deal 5 damage then inflict [Calcifying] and [Oiled] for 2 turns]",
+		"uniques": [
 			"Active Spell",
 			"Projectile Spell",
+			"Comment [Deal 5 damage then inflict [Calcifying] and [Oiled] for 2 turns]",
 			"[Target Unit] gains the [Calcifying] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] gains the [Oiled] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
-			"[This Unit] loses the [Fossil Strike Active] status <upon damaging a [All] unit> <hidden from users>",
-			"[This Unit] gains the [Fossil Strike Cooldown] status for [7] turn(s) <upon gaining the [Fossil Strike Active] status> <hidden from users>",
-			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Fossil Strike Active] status> <hidden from users>",
+			"[This Unit] loses the [Fossil Strike Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Fossil Strike Cooldown] status for [7] turn(s) <upon gaining the [Fossil Strike Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Fossil Strike Active] status>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1652,7 +1662,7 @@
 			"[This Unit] gains the [Form Hill Active] status for [1] turn(s) <for [0] movement> <for units without [Form Hill Cooldown]> <for [non-[No Cast]] units> <in [non-[Hill]] tiles> <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage"],
-		"innerColor": [139, 69, 19],
+		"innerColor": [147, 78, 30],
 		"outerColor": [0, 0, 0]
 		"column": 43,
 		"row": 3,
@@ -1684,7 +1694,7 @@
 			"[This Unit] gains the [Geospike Active] status for [1] turn(s) <for [0] movement> <for units without [Geospike Cooldown]> <for [non-[No Cast]] units> <hidden from users>"
 		],
 		"unitTypes": ["Ranged Mage"],
-		"innerColor": [139, 69, 19],
+		"innerColor": [147, 78, 30],
 		"outerColor": [0, 0, 0]
 		"column": 44,
 		"row": 2,
@@ -1694,17 +1704,18 @@
 	},
 	{
 		"name": "Geospike Active",				// Geospike
-		"uniques": ["Comment [Deal 10 damage and inflict [Calcifying] for 2 turns]",
+		"uniques": [
 			"Active Spell",
 			"Projectile Spell",
+			"Comment [Deal 10 damage and inflict [Calcifying] for 2 turns]",
 			"[Target Unit] gains the [Calcifying] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
-			"[This Unit] loses the [Geospike Active] status <upon damaging a [All] unit> <hidden from users>",
-			"[This Unit] gains the [Geospike Cooldown] status for [6] turn(s) <upon gaining the [Geospike Active] status> <hidden from users>",
-			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Geospike Active] status> <hidden from users>",
+			"[This Unit] loses the [Geospike Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Geospike Cooldown] status for [6] turn(s) <upon gaining the [Geospike Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Geospike Active] status>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1724,7 +1735,7 @@
 			"[This Unit] gains the [Turn to Stone Active] status for [1] turn(s) <for [0] movement> <for units without [Turn to Stone Cooldown]> <for [non-[No Cast]] units> <hidden from users>"
 		],
 		"unitTypes": ["Ranged Mage"],
-		"innerColor": [139, 69, 19],
+		"innerColor": [147, 78, 30],
 		"outerColor": [0, 0, 0]
 		"column": 44,
 		"row": 3,
@@ -1734,15 +1745,16 @@
 	},
 	{
 		"name": "Turn to Stone Active",			// Turn to Stone
-		"uniques": ["Comment [Inflict [Petrified] for 1 turn]",
+		"uniques": [
 			"Active Spell",
+			"Comment [Inflict [Petrified] for 1 turn]",
 			"[Target Unit] gains the [Petrified] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
 			"[This Unit] loses the [Turn to Stone Active] status <upon damaging a [All] unit>",
-			"[This Unit] gains the [Turn to Stone Cooldown] status for [10] turn(s) <upon gaining the [Turn to Stone Active] status> <hidden from users>",
-			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Turn to Stone Active] status> <hidden from users>",
+			"[This Unit] gains the [Turn to Stone Cooldown] status for [10] turn(s) <upon gaining the [Turn to Stone Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Turn to Stone Active] status>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -1764,7 +1776,7 @@
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Ranged Mage"],
-		"innerColor": [139, 69, 19],
+		"innerColor": [147, 78, 30],
 		"outerColor": [0, 0, 0]
 		"column": 44,
 		"row": 4
@@ -1873,7 +1885,7 @@
 			"[Target Unit] gains the [Frozen] status for [1] turn(s) <upon damaging a [Wet] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [5] damage <upon damaging a [Wet] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Ice Prison Target] status for [1] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Ice Prison Target] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"Cannot attack <vs [Ice Prison Target] units> <hidden from users>",
 			
 			"[This Unit] gains [1] movement <upon damaging a [All] unit> <hidden from users>",			
@@ -1881,7 +1893,7 @@
 			"[This Unit] gains the [Ice Prison Cooldown] status for [10] turn(s) <upon gaining the [Ice Prison Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Ice Prison Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -1932,7 +1944,7 @@
 			"[This Unit] gains the [Water Whip Cooldown] status for [7] turn(s) <upon gaining the [Water Whip Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Water Whip Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -1972,7 +1984,7 @@
 			"[This Unit] gains the [Blizzard Cooldown] status for [10] turn(s) <upon gaining the [Blizzard Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Blizzard Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -2026,7 +2038,7 @@
 			"[This Unit] gains the [Ice Age Cooldown] status for [15] turn(s) <upon gaining the [Ice Age Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Ice Age Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -2052,8 +2064,8 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
-			"Comment [Passive. Deal 10 damage upon attacking or counterattacking]",
-			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <hidden from users>",	//AH: Sg iki ketokke Attack & Counter? Soale Advanced? Yen ra setuju tambahi SelfTurn dewe ae rpp, dan ojo lali ubah Comment
+			"Comment [Passive. Deal 10 damage]",
+			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <hidden from users>",
 			
 			"[+1]% Strength <hidden from users>"
 		],
@@ -2083,18 +2095,19 @@
 	},
 	{
 		"name": "Melt Armor Active",			// Melt Armor
-		"uniques": ["Comment [Deal 5 damage and inflict [Burning] for 2 turns. Also inflict [Crushed] for 2 turns vs Armored/Mechanical units]",
+		"uniques": [
 			"Active Spell",
+			"Comment [Deal 5 damage and inflict [Burning] for 2 turns. Also inflict [Crushed] for 2 turns vs Armored/Mechanical units]",
 			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [Armored] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [Mechanical] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] takes [5] damage <upon damaging a [All] unit>",
 			
-			"[This Unit] loses the [Melt Armor Active] status <upon damaging a [All] unit> <hidden from users>",
-			"[This Unit] gains the [Melt Armor Cooldown] status for [7] turn(s) <upon gaining the [Melt Armor Active] status> <hidden from users>",
-			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Melt Armor Active] status> <hidden from users>",
+			"[This Unit] loses the [Melt Armor Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Melt Armor Cooldown] status for [7] turn(s) <upon gaining the [Melt Armor Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Melt Armor Active] status>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -2126,7 +2139,7 @@
 		"uniques": [
 			"Active Spell",
 			"Comment [Deal 40 damage]",
-			"[Target Unit] takes [40] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+						"[Target Unit] takes [40] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
 			"[Target Unit] takes [5] damage <upon damaging a [Pyro Extra] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [15] damage <upon damaging a [Oiled] unit> <with [SelfTurn]> <hidden from users>",
@@ -2136,7 +2149,7 @@
 			"[This Unit] gains the [Solar Ray Cooldown] status for [13] turn(s) <upon gaining the [Solar Ray Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Solar Ray Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -2247,7 +2260,7 @@
 			"[This Unit] gains the [Iron Maiden Cooldown] status for [5] turn(s) <upon gaining the [Iron Maiden Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Iron Maiden Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -2295,17 +2308,18 @@
 	},
 	{
 		"name": "Thorn Grasp Active",			// Thorn Grasp
-		"uniques": ["Comment [Deal 10 damage and inflict [Bleeding] & [Rooted] for 1 turn]",
+		"uniques": [
 			"Active Spell",
+			"Comment [Deal 10 damage and inflict [Bleeding] & [Rooted] for 1 turn]",
 			"[Target Unit] gains the [Bleeding] status for [1] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] gains the [Rooted] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
-			"[This Unit] loses the [Thorn Grasp Active] status <upon damaging a [All] unit> <hidden from users>",
-			"[This Unit] gains the [Thorn Grasp Cooldown] status for [7] turn(s) <upon gaining the [Thorn Grasp Active] status> <hidden from users>",
-			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Thorn Grasp Active] status> <hidden from users>",
+			"[This Unit] loses the [Thorn Grasp Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Thorn Grasp Cooldown] status for [7] turn(s) <upon gaining the [Thorn Grasp Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Thorn Grasp Active] status>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -2347,7 +2361,7 @@
 			"[This Unit] gains the [Carnivorous Growth Cooldown] status for [10] turn(s) <upon gaining the [Carnivorous Growth Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Carnivorous Growth Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -2374,7 +2388,7 @@
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
 			"Comment [Passive. Inflict [Disoriented] for 1 turn upon attacking or counterattacking]",
-			"[Target Unit] gains the [Disoriented] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",	//No SelfTurn, same reasoning as Superheated
+			"[Target Unit] gains the [Disoriented] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[+1]% Strength <hidden from users>"
 		],
@@ -2408,14 +2422,15 @@
 		"name": "Thunderclap Active",			// Thunderclap
 		"uniques": [
 			"Active Spell",
+			"Comment [Deal 10 damage and inflict [Deafened] for 2 turns]",
 			"[Target Unit] gains the [Deafened] status for [3] turn(s) <upon damaging a [Armored] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
-			"[This Unit] loses the [Thunderclap Active] status <upon damaging a [All] unit> <hidden from users>",
-			"[This Unit] gains the [Thunderclap Cooldown] status for [8] turn(s) <upon gaining the [Thunderclap Active] status> <hidden from users>",
-			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Thunderclap Active] status> <hidden from users>",
+			"[This Unit] loses the [Thunderclap Active] status <upon damaging a [All] unit>",
+			"[This Unit] gains the [Thunderclap Cooldown] status for [8] turn(s) <upon gaining the [Thunderclap Active] status>",
+			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Thunderclap Active] status>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -2463,7 +2478,7 @@
 			"[This Unit] gains the [Shatter Cooldown] status for [10] turn(s) <upon gaining the [Shatter Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Shatter Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -2481,7 +2496,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
-			"Comment [Passive. Inflict [Blinded] for 1 turn upon attacking or counterattacking]",	//Same as Superheated
+			"Comment [Passive. Inflict [Blinded] for 1 turn upon attacking or counterattacking]",
 			"[Target Unit] gains the [Blinded] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[+1]% Strength <hidden from users>",
@@ -2522,8 +2537,8 @@
 			"[Target Unit] gains the [Scalding] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] gains the [Wet] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
-			"[This Unit] loses the [Mist Veil Active] status <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",	//Sg iki kenapa jg ada SelfTurn? Soale menowo diserang kro sg iso ndelok Invis, ora ilang status e, tp yo tergantung design
-			"[This Unit] gains the [Mist Veil Cooldown] status for [8] turn(s) <upon gaining the [Mist Veil Active] status> <hidden from users>",	//Pilih 1. yen diserang sg iso ndelok Invis ilang atau 2. Ora ilang ?
+			"[This Unit] loses the [Mist Veil Active] status <upon damaging a [All] unit> <hidden from users>", // 2. ilang
+			"[This Unit] gains the [Mist Veil Cooldown] status for [8] turn(s) <upon gaining the [Mist Veil Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Mist Veil Active] status> <hidden from users>"
 			
 			"[+1]% Strength <hidden from users>",
@@ -2564,7 +2579,7 @@
 			"[This Unit] gains the [Pressurized Bomb Cooldown] status for [8] turn(s) <upon gaining the [Pressurized Bomb Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Pressurized Bomb Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -2681,7 +2696,7 @@
 			"[+1]% Strength <for units without [Death Ward Cooldown]> <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
-		"innerColor": [56,43,92],
+		"innerColor": [95,85,124],
 		"outerColor": [0, 0, 0],
 		"column": 53,
 		"row": 1,
@@ -2707,7 +2722,7 @@
 			"[This Unit] gains the [Raise Dead Active] status for [1] turn(s) <for [1] movement> <for units without [Raise Dead Cooldown]> <for [non-[No Cast]] units> <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage", "Ranged Mage"],
-		"innerColor": [56,43,92],
+		"innerColor": [95,85,124],
 		"outerColor": [0, 0, 0],
 		"column": 53,
 		"row": 2
@@ -2741,7 +2756,7 @@
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		]
 		"unitTypes": ["Melee Mage","Ranged Mage"],
-		"innerColor": [56,43,92],
+		"innerColor": [95,85,124],
 		"outerColor": [0, 0, 0],
 		"column": 53,
 		"row": 3,
@@ -2760,7 +2775,7 @@
 			"[This Unit] gains the [Pandemy Cooldown] status for [12] turn(s) <upon gaining the [Pandemy Active] status> <hidden from users>",
 			"[This Unit] gains the [Mana Exhaustion] status for [1] turn(s) <upon gaining the [Pandemy Active] status> <hidden from users>",
 			
-			"[+1]% Strength <hidden from users>",
+			"[+1]% Strength <when attacking> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
 	},
@@ -2772,7 +2787,317 @@
 		]
 	},
 	
+	
 	// Construct
+	// Bulwark Protocol
+	{
+		"name": "Bulwark Protocol",
+		"uniques": [
+			"Armored",
+			"[+25]% Strength <when defending>"
+		],
+		"unitTypes": ["Construct"],
+		"column": 57,
+		"row": 1,
+	},
+	{
+		"name": "Fail-Safe Plating",
+		"prerequisites": ["Bulwark Protocol"],
+		"uniques": [
+			"Comment [Immune to Frozen's, Petrified's, and Stunned's hard crowd control effect, but set duration to 2 turns]",
+			"[This Unit] gains the [Frozen] status for [2] turn(s) <upon gaining the [Frozen] status> <hidden from users>",
+			"[This Unit] gains the [Petrified] status for [2] turn(s) <upon gaining the [Petrified] status> <hidden from users>",
+			"[This Unit] gains the [Stunned] status for [2] turn(s) <upon gaining the [Stunned] status> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 57,
+		"row": 2,
+		"civilopediaText": [
+			{"text": "Frozen", "link":"Promotion/Frozen"},
+			{"text": "Petrified", "link":"Promotion/Petrified"},
+			{"text": "Stunned", "link":"Promotion/Stunned"},
+		]
+	},
+	{
+		"name": "Shield Arm",
+		"prerequisites": ["Bulwark Protocol"],
+		"uniques": [
+			"Comment [Immune to Flanking]",
+			"Flank Immune <hidden from users>",
+			"[+15]% Strength <when defending>"
+		],
+		"unitTypes": ["Construct"],
+		"column": 58,
+		"row": 2
+	},
+	{
+		"name": "Reactive Armor",	//Nek ketokke OP, iso dikurangi dadi Fire Lightning ae mungkin, tp ngaranku ora kakehen
+		"prerequisites": ["Fail-Safe Plating","Shield Arm"],	//Alternatif: +5% Strength for every Ailment this unit has
+		"uniques": [				// Rpp sih, mungkin nek ono protes lg diubah
+			"Comment [Immune to Lightning, Fire, and Cold ailment that has damaging effect]",
+			"[This Unit] loses the [Blazing Fire] status <upon gaining the [Blazing Fire] status> <hidden from users>",
+			"[This Unit] loses the [Brittle] status <upon gaining the [Brittle] status> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>",
+			"[This Unit] loses the [Conductive] status <upon gaining the [Conductive] status> <hidden from users>",
+			"[This Unit] loses the [Electrified] status <upon gaining the [Electrified] status> <hidden from users>",
+			"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
+			"[This Unit] loses the [Scorched] status <upon gaining the [Scorched] status> <hidden from users>",
+		],
+		"unitTypes":["Construct"],
+		"column": 57,
+		"row": 3
+	},
+	{
+		"name": "Avenger",
+		"prerequisites": ["Fail-Safe Plating","Shield Arm"],
+		"uniques": [
+			"Comment [Deal 10 damage when counterattacking. Incompatible with [Protector]]",
+			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <without [SelfTurn]> <hidden from users>",
+			"Only available <for units without [Protector]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 58,
+		"row": 3
+	},
+	{
+		"name": "Protector",
+		"prerequisites": ["Fail-Safe Plating","Shield Arm"],
+		"uniques": [
+			"Comment [Adjacent units gain +25% Strength when defending vs Active Spell. Incompatible with [Avenger]]",
+			"Only available <for units without [Avenger]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 59,
+		"row": 3
+	},
+	{
+		"name": "Shoulder AA Turret",
+		"prerequisites": ["Avenger","Protector","Reactive Armor"],
+		"uniques": [
+			"Air Battler",
+			"[+25]% Strength <vs [Flying] units>",
+			"Comment [May intercept Air attacks with 2 Range. Incompatible with [Shoulder Thruster]]",
+			"[100]% chance to intercept air attacks <hidden from users>", 
+			"Only available <for units without [Shoulder Thruster]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 57,
+		"row": 4
+	},
+	{
+		"name": "Shoulder Thruster",
+		"prerequisites": ["Avenger","Protector","Reactive Armor"],
+		"uniques": [
+			"Can pass through impassable tiles",
+			"Ignores terrain cost",
+			"Comment [Incompatible with [Shoulder AA Turret]]",
+			"Only available <for units without [Shoulder AA Turret]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 58,
+		"row": 4
+	},
+	{
+		"name": "Regenerative Bio-Steel",
+		"prerequisites": ["Avenger","Protector","Reactive Armor"],
+		"uniques": [
+			"Comment [Heals 10 HP at turn end. Incompatible with [Titanite Carapace]]",
+			"[This Unit] heals [10] HP <upon turn end> <hidden from users>",
+			"Only available <for units without [Titanite Carapace]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 59,
+		"row": 4
+	},
+	{
+		"name": "Titanite Carapace",
+		"prerequisites": ["Avenger","Protector","Reactive Armor"],
+		"uniques": [
+			"Comment [Reduce the first damage taken in a turn by up to 15. Incompatible with [Regenerative Bio-Steel]]",
+			"Only available <for units without [Regenerative Bio-Steel]> <hidden from users>",
+			
+			"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>","[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>",
+		
+			"[This Unit] gains the [Titanite Carapace Cooldown] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Titanite Carapace Cooldown]> <hidden from users>",	
+		],
+		"unitTypes": ["Construct"],
+		"column": 60,
+		"row": 4
+	},
+	{
+		"name": "Titanite Carapace Cooldown",
+		"uniques": [		
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Reactor Coolant",
+		"prerequisites": ["Shoulder AA Turret","Shoulder Thruster","Regenerative Bio-Steel","Titanite Carapace"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Construct"],
+		"column": 59,
+		"row": 5,
+	},
+	
+	
+	
+	// Destructor Protocol
+	{
+		"name": "Destructor Protocol",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Construct"],
+		"column": 61,
+		"row": 1
+	},
+	{
+		"name": "Demolitionist",
+		"prerequisites": ["Destructor Protocol"],
+		"uniques": [
+			"[+50]% Strength <when attacking> <vs cities>",
+			"Destroys tile improvements when attacking",
+		],
+		"unitTypes": ["Construct"],
+		"column": 61,
+		"row": 2
+	},
+	{
+		"name": "Claw Arm",
+		"prerequisites": ["Destructor Protocol"],
+		"uniques": [
+			"Comment [Attack inflicts [Ruptured] for 2 turns. Incompatible with [Crusher Arm]]",
+			"[Target Unit] gains the [Ruptured] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"Only available <for units without [Crusher Arm]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 62,
+		"row": 2,
+		"civilopediaText": [
+			{"text": "Ruptured", "link":"Promotion/Ruptured"},
+		]
+	},
+	{
+		"name": "Crusher Arm",
+		"prerequisites": ["Destructor Protocol"],
+		"uniques": [
+			"Comment [Attack inflicts [Crushed] for 1 turn. Incompatible with [Crusher Arm]]",
+			"[Target Unit] gains the [Crushed] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"Only available <for units without [Claw Arm]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 63,
+		"row": 2,
+		"civilopediaText": [
+			{"text": "Crushed", "link":"Promotion/Crushed"},
+		]
+	},
+	{
+		"name": "Overcharge",
+		"prerequisites": ["Demolitionist","Crusher Arm","Claw Arm"],
+		"uniques": [
+			"Comment [+50% Strength but takes 15 damage upon attacking when outside of combat in the last 1 turn.]",
+			
+			"[+50]% Strength <for units without [In Combat Cooldown]> <hidden from users>",
+			"[This Unit] takes [15] damage <upon damaging a [All] unit> <for units without [In Combat Cooldown]> <hidden from users>",
+			
+			"[This Unit] gains the [In Combat Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [In Combat Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
+		],
+		"unitTypes": ["Construct"],
+		"column": 61,
+		"row": 3
+	},
+	{
+		"name": "Berserk",
+		"prerequisites": ["Demolitionist","Crusher Arm","Claw Arm"],
+		"uniques": [
+			"Comment [Ignores penalties from wounded and +5% Strength for every 10 HP lost]",
+			"No damage penalty for wounded units <hidden from users>",
+			"[+5]% Strength <when below [91] HP> <hidden from users>",
+			"[+5]% Strength <when below [81] HP> <hidden from users>",
+			"[+5]% Strength <when below [61] HP> <hidden from users>",
+			"[+5]% Strength <when below [51] HP> <hidden from users>",
+			"[+5]% Strength <when below [41] HP> <hidden from users>",
+			"[+5]% Strength <when below [31] HP> <hidden from users>",
+			"[+5]% Strength <when below [21] HP> <hidden from users>",
+			"[+5]% Strength <when below [11] HP> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 62,
+		"row": 3
+	},
+	{
+		"name": "Sprint Drive",
+		"prerequisites": ["Overcharge","Berserk"],
+		"uniques": [
+			"[+1] Movement",
+			"Comment [Incompatible with [Amphibious Drive]]",
+			
+			"Only available <for units without [Amphibious Drive]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 61,
+		"row": 4,
+	},
+	{
+		"name": "Amphibious Drive",
+		"prerequisites": ["Overcharge","Berserk"],
+		"uniques": [
+			"Comment [Embarking and Disembarking doesn't cost extra Movement point. May attack when embarked. Incompatible with [Amphibious Drive]]",	//Iki aku rodok lali, kae sidane oleh ora to tabrakkan kro Thalassic Affinity?
+			// ora pernah bahas soal tabrakkan
+			"[1] Movement point cost to embark <hidden from users>",
+			"[1] Movement point cost to disembark <hidden from users>",
+			"May attack when embarked <hidden from users>",
+			
+			"Only available <for units without [Sprint Drive]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 62,
+		"row": 4
+	},
+	{
+		"name": "Volatile Core",
+		"prerequisites": ["Overcharge","Berserk"],
+		"uniques": [
+			"Comment [Upon defeated, deal 40 damage to its killer. Incompatible with [Antimage Core]]",
+			
+			"Only available <for units without [Antimage Core]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 63,
+		"row": 4
+	},
+	{
+		"name": "Antimage Core",
+		"prerequisites": ["Overcharge","Berserk"],
+		"uniques": [
+			"Comment [Attack inflicts [Mana Exhaustion] for 2 turns. Incompatible with [Volatile Core].]",
+			
+			"[Target Unit] gains the [Mana Exhaustion] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			
+			"Only available <for units without [Volatile Core]> <hidden from users>",
+		],
+		"unitTypes": ["Construct"],
+		"column": 64,
+		"row": 4,
+		"civilopediaText": [
+			{"text": "Mana Exhaustion", "link":"Promotion/Mana Exhaustion"},
+		]
+	},
+	{
+		"name": "Void Field",
+		"prerequisites": ["Antimage Core","Volatile Core","Sprint Drive","Amphibious Drive"],
+		"uniques": [
+			"Comment [Non-Mana Attuned units has -5% Strength vs this unit for every base promotions they have]",
+			
+		],
+		"unitTypes": ["Construct"],
+		"column": 62,
+		"row": 5
+	},
 	
 	// Air Terror
 	{
@@ -3483,7 +3808,7 @@
 		"uniques": [
 			"Comment [Passive. If this unit has [Qi] point, gain 1 additional attack. The 2nd attack has +25% Strength and consumes [Qi] point]",
 			"[1] additional attacks per turn <for units with [Qi]> <hidden from users>",
-			"[This Unit] gains the [Flurry of Blows Activator] status for [1] turn(s) <upon damaging a [All] unit> <for units with [Qi]> <for [non-[No Qi Cast]] units> <with [SelfTurn]> <hidden from users>",
+			"[This Unit] gains the [Flurry of Blows Activator] status for [1] turn(s) <upon damaging a [All] unit> <for units with [Qi]> <for [non-[No Qi Cast]] units> <hidden from users>"
 		],
 		"unitTypes": ["Flowing River Monk","Open Hand Monk","Shadow Fang Monk","White Lotus Monk","Drunken Fist Monk","Gun Fu Monk","Loyal Brotherhood Monk","Wuxia Monk"],
 		"column": 93,
@@ -3496,7 +3821,6 @@
 			"[+25]% Strength <for [non-[A Thousand Punches]] units>",
 			"[This Unit] loses the [Qi] promotion <upon damaging a [All] unit> <for [non-[A Thousand Punches]] units> <hidden from users>",
 			"[This Unit] loses the [Flurry of Blows Activator] status <upon damaging a [All] unit> <hidden from users>",
-			"[This Unit] loses the [Flurry of Blows Activator] status <upon turn end> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -3504,7 +3828,7 @@
 		"name": "Absolute Awareness",	//	need some workaround
 		"prerequisites": ["Flurry of Blows"],
 		"uniques": [
-			"Flank Immune <hidden from users>",
+			//"Flank Immune",
 			"Comment [Passive. Immune to Flanking. Immune to [Blinded] and [Deafened]]",
 			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
 			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <hidden from users>",
@@ -3520,7 +3844,7 @@
 	{
 		"name": "Deflect",
 		"uniques": [
-			"Comment [Passive. Block the next Ranged attack from Land unit once per turn]",
+			"Comment [Passive. Deflect Ranged attack from Land unit once per turn]",
 			"[+1000]% Strength <when defending> <vs [{Ranged} {Land}]> <for units without [Deflect Cooldown]> <hidden from users>"
 		],
 		"unitTypes": ["Flowing River Monk","Open Hand Monk","Shadow Fang Monk","White Lotus Monk","Drunken Fist Monk","Gun Fu Monk","Loyal Brotherhood Monk","Wuxia Monk"],
@@ -3538,7 +3862,7 @@
 		"name": "Evasion",
 		"prerequisites": ["Deflect"],
 		"uniques": [
-			"Comment [Passive. +25% Strength when defending vs Active spells. Doubled vs Projectile spells]",
+			"Comment [Passive. +25% Strength when defending vs Active spells. Doubled if Projectile spells]",
 			"[+25]% Strength <when defending> <vs [Active Spell]> <hidden from users>",
 			"[+25]% Strength <when defending> <vs [Projectile Spell]> <hidden from users>",
 		],
@@ -3630,20 +3954,13 @@
 		"name": "Light Foot",
 		"prerequisites": ["Step of the Wind"],
 		"uniques": [
-			"Comment [Passive. +1 Movement for 1 turn upon getting attacked.]",
+			"Comment [Passive. +1 Movement when defending]",
 			"Double movement in [Rough terrain]",
-			"[This Unit] gains the [Light Foot Active] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
+			"[This Unit] gains [1] movement <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
 		"unitTypes": ["Flowing River Monk","Open Hand Monk","Shadow Fang Monk","White Lotus Monk","Drunken Fist Monk","Gun Fu Monk","Loyal Brotherhood Monk","Wuxia Monk"],
 		"column": 96,
 		"row": 2
-	},
-	{
-		"name": "Light Foot Active",
-		"uniques": [
-			"[+1] Movement", "[+1]% Strength <hidden from users>",
-			"Will not be displayed in Civilopedia"
-		],
 	},
 	{
 		"name": "Tranquility",	//Tranquility
@@ -3707,12 +4024,9 @@
 			"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
 			"[This Unit] loses the [Cursed] status <upon gaining the [Cursed] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
 			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",	
-			"[This Unit] loses the [Disarmed] status <upon gaining the [Disarmed] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",	
 			"[This Unit] loses the [Disoriented] status <upon gaining the [Disoriented] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
-			"[This Unit] loses the [Drunk] status <upon gaining the [Drunk] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
 			"[This Unit] loses the [Electrified] status <upon gaining the [Electrified] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",	
-			"[This Unit] loses the [Fatigued] status <upon gaining the [Fatigued] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
 			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
 			"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
 			"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <for units without [Purity of Soul Cooldown]> <hidden from users>",
@@ -3746,12 +4060,9 @@
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Crushed] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Cursed] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Deafened] status> <hidden from users>",
-			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Disarmed] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Disoriented] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Disrupted] status> <hidden from users>",
-			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Drunk] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Electrified] status> <hidden from users>",
-			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Fatigued] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Frightened] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Frostbitten] status> <hidden from users>",
 			"[This Unit] gains the [Purity of Soul Cooldown] status for [1] turn(s) <upon gaining the [Frozen] status> <hidden from users>",
@@ -3786,15 +4097,14 @@
 		"name": "Peace of Mind",
 		"prerequisites": ["Purity of Soul"],
 		"uniques": [
-		//	"Comment [Passive. Immune to [Disoriented], [Disrupted], [Drunk], [Frightened], [Sleeping]]",
-			"Comment [Passive. Immune to [Disoriented], [Disrupted], [Frightened], [Sleeping]]",
+			"Comment [Passive. Immune to [Disoriented], [Disrupted], [Drunk], [Frightened], [Sleeping]]",
 			"Comment [+10% Strength, doubled when defending]",
 			"[+10]% Strength <hidden from users>",
 			"[+10]% Strength <when defending> <hidden from users>",
 			
 			"[This Unit] loses the [Disoriented] status <upon gaining the [Disoriented] status> <hidden from users>",
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status> <hidden from users>",
-		//	"[This Unit] loses the [Drunk] status <upon gaining the [Drunk] status> <hidden from users>",
+			"[This Unit] loses the [Drunk] status <upon gaining the [Drunk] status> <hidden from users>",
 			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>",
 			"[This Unit] loses the [Sleeping] status <upon gaining the [Sleeping] status> <hidden from users>",
 		],
@@ -3845,8 +4155,8 @@
 		"name": "Ebb & Flow",
 		"uniques": [
 			"Comment [Toggleable]",
-			"Comment [[Ebb Stance]: Deal 20 damage to the first non-Air attacker in a turn]", // Need workaround, AceHank: Workaround is in GlobalUniques
-			"Comment [[Flow Stance]: Dodge the first attack received in a turn]",
+			"Comment [[Ebb Stance]: Deal 20 damage to the first non-Air attacker on each turn]", //	need some workaround
+			"Comment [[Flow Stance]: Dodge the first unit attack on each turn]",
 		
 			"[This Unit] gains the [Ebb Stance] promotion <hidden from users>",
 			"[This Unit] gains the [Flow Stance] promotion <for [0] movement> <for units with [Ebb Stance]> <hidden from users>",
@@ -3860,8 +4170,8 @@
 	{
 		"name": "Ebb Stance",
 		"uniques": [
-			"Comment [Deal 20 damage to the first non-Air attacker in a turn]",
-			"[+1]% Strength <for units without [Ebb Stance Cooldown]> <hidden from users>" //Damage to attacker
+			"Comment [Deal 20 damage to the first attacker on each turn]",
+			"[+1]% Strength <for units without [Ebb Stance Cooldown]> <hidden from users>" // Damage to attacker
 		],
 	},
 	{
@@ -3874,7 +4184,7 @@
 	{
 		"name": "Flow Stance",
 		"uniques": [
-			"Comment [Dodge the first attack received in a turn]",
+			"Comment [Dodge the first unit attack on each turn]",
 			"[This Unit] gains the [Flow Stance Active] status for [1] turn(s) <upon turn end> <hidden from users>",
 		],
 	},
@@ -3883,9 +4193,8 @@
 		"uniques": [
 			"[+999]% Strength <when defending> <vs [Ranged]> <hidden from users>",	
 			"Withdraws before melee combat <hidden from users>",
-			"[This Unit] loses the [Flow Stance Active] status <upon entering a [All] tile> <hidden from users>", //Need this vs Melee
-			"[This Unit] loses the [Flow Stance Active] status <upon losing at least [1] HP in a single attack> <hidden from users>", //Need this vs Ranged
-			"[+1]% Strength <when defending> <hidden from users>", //Will Dodge
+			"[This Unit] loses the [Flow Stance Active] status <upon entering a [All] tile> <hidden from users>",
+			"[+1]% Strength <when defending> <hidden from users>", // Will Dodge
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -3983,9 +4292,8 @@
 		"name": "Rippling Strike Active",
 		"uniques": [
 			"Comment [Inflict [Disoriented] and [Slowed] for 2 turns]",
-			"[Target Unit] gains the [Disoriented] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Slowed] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			
+			"[Target Unit] gains the [Disoriented] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Slowed] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Rippling Strike Cooldown] status for [7] turn(s) <upon gaining the [Rippling Strike Active] status> <hidden from users>",
 			"[This Unit] loses the [Rippling Strike Active] status <upon damaging a [All] unit> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -4002,7 +4310,7 @@
 	// Open Hand Monk
 	{
 		"name": "A Thousand Punches",
-		"uniques": ["Comment [Passive. [Flurry of Blows] no longer consumes [Qi] ([Qi] is still required to activate), but doesn't gain bonus Strength for the 2nd attack]"],
+		"uniques": ["Comment [Passive. [Flurry of Blows] no longer consumes [Qi] ([Qi] is still required), but doesn't gain bonus Strength for the 2nd attack]"],
 		"column": 103,
 		"row": 1,
 	},
@@ -4024,7 +4332,7 @@
 		"name": "Disarming Strike Active",
 		"uniques": [
 			"Comment [Inflict [Disarmed] for 1 turn]",
-			"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Disarming Strike Cooldown] status for [5] turn(s) <upon gaining the [Disarming Strike Active] status> <hidden from users>",
 			"[This Unit] loses the [Disarming Strike Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4042,7 +4350,7 @@
 		"name": "Leg Sweep",
 		"prerequisites": ["A Thousand Punches"],
 		"uniques": [
-			"Comment [Passive. Inflict [Crippled] for 1 turn to units with Ailment when attacking or counterattacking]",
+			"Comment [Passive. Inflict [Crippled] for 1 turn to units with Ailment]",
 			"[Target Unit] gains the [Crippled] status for [2] turn(s) <upon damaging a [Ailment] unit> <hidden from users>"
 		],
 		"unitTypes": ["Open Hand Monk"],
@@ -4071,7 +4379,7 @@
 		"name": "Heavenly Kick Active",
 		"uniques": [
 			"Comment [Inflict [Paralyzed] for 1 turn]",
-			"[Target Unit] gains the [Paralyzed] status for [1] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Paralyzed] status for [1] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Heavenly Kick Cooldown] status for [6] turn(s) <upon gaining the [Heavenly Kick Active] status> <hidden from users>"
 			"[This Unit] loses the [Heavenly Kick Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4100,7 +4408,7 @@
 		"name": "Martial Exertion",
 		"prerequisites": ["Qi Resonation"],
 		"uniques": [
-			"Comment [Active. +15% Strength and +2 additional attacks for this turn but gain [Fatigued] for 2 turns. Cooldown: 7 turns]",
+			"Comment [Active. +10% Strength and +2 additional attacks for this turn but gain [Fatigued] for 2 turns. Cooldown: 7 turns]",
 			"Comment [Requires [Qi] point]",
 			"[This Unit] gains the [Martial Exertion Active] status for [1] turn(s) <for [0] movement> <for units without [Martial Exertion Cooldown]> <for units with [Qi]> <for [non-[No Qi Cast]] units> <removing the [Qi] promotion/status> <hidden from users>"
 		],
@@ -4114,9 +4422,8 @@
 	{
 		"name": "Martial Exertion Active",
 		"uniques": [
-			"[+15]% Strength",
+			"[+10]% Strength",
 			"[2] additional attacks per turn",
-			"[This Unit] loses the [Martial Exertion Active] <upon turn end> <hidden from users>",
 			"[This Unit] gains the [Martial Exertion Cooldown] status for [8] turn(s) <upon gaining the [Martial Exertion Active] status> <hidden from users>",
 			"[This Unit] gains the [Fatigued] status for [2] turn(s) <upon gaining the [Martial Exertion Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -4135,8 +4442,8 @@
 		"name": "Venom Fang",
 		"uniques": [
 			"Comment [Passive. Inflict [Poisoned] for 2 turns]",
-			"[Target Unit] gains the [Poisoned] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Acidic Toxins]> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Corroded] status for [3] turn(s) <upon damaging a [All] unit> <for units with [Acidic Toxins]> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Poisoned] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Acidic Toxins]> <hidden from users>",
+			"[Target Unit] gains the [Corroded] status for [3] turn(s) <upon damaging a [All] unit> <for units with [Acidic Toxins]> <hidden from users>",
 		],
 		"column": 106,
 		"row": 1,
@@ -4188,8 +4495,8 @@
 		"name": "Nightshade Dart Active",
 		"uniques": [
 			"Comment [Inflict [Paralyzed] for 1 turn]",
-			"[Target Unit] gains the [Paralyzed] status for [1] turn(s) <upon damaging a [All] unit> <for units without [Acidic Toxins]> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <for units with [Acidic Toxins]> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Paralyzed] status for [1] turn(s) <upon damaging a [All] unit> <for units without [Acidic Toxins]> <hidden from users>",
+			"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <for units with [Acidic Toxins]> <hidden from users>",
 			
 			"[This Unit] gains the [Nightshade Dart Cooldown] status for [8] turn(s) <upon gaining the [Nightshade Dart Active] status> <hidden from users>",
 			"[This Unit] loses the [Nightshade Dart Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4216,7 +4523,7 @@
 		"row": 2
 	},
 	{
-		"name": "One with Shadow Active",	//No need SelfTurn like Mist Veil because ABSOLUTE Invis
+		"name": "One with Shadow Active",
 		"uniques": [
 			"Comment [Gain Absolute Invisibility. Deal 10 damage and remove status upon dealing damage]",
 			"Comment [Absolute Invisibility units can't be seen by any measures]",
@@ -4251,7 +4558,7 @@
 		"name": "Mercy Kill Active",
 		"uniques": [
 			"Comment [Deal 25 damage to unit that is reduced to 50 HP or less]",
-			"[Target Unit] gains the [Mercy Kill Activator] status for [1] turn(s) <upon damaging a [non-[Mercy Kill Activator]] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Mercy Kill Activator] status for [1] turn(s) <upon damaging a [non-[Mercy Kill Activator]] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Mercy Kill Cooldown] status for [10] turn(s) <upon gaining the [Mercy Kill Active] status> <hidden from users>",
 			"[This Unit] loses the [Mercy Kill Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4303,9 +4610,8 @@
 		"name": "Whispers of the Unnatural Active",
 		"uniques": [
 			"Comment [Inflict [Frightened] and [Disrupted] for 2 turns]",
-			"[Target Unit] gains the [Frightened] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Disrupted] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			
+			"[Target Unit] gains the [Frightened] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Disrupted] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [Whispers of the Unnatural Cooldown] status for [8] turn(s) <upon gaining the [Whispers of the Unnatural Active] status> <hidden from users>",
 			"[This Unit] loses the [Whispers of the Unnatural Active] status <upon damaging a [All] unit> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -4337,8 +4643,8 @@
 		"name": "Cinder Strike Active",
 		"uniques": [
 			"Comment [Deal 5 damage and inflict [Burning] for 2 turns]",
-			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Cinder Strike Cooldown] status for [7] turn(s) <upon gaining the [Cinder Strike Active] status> <hidden from users>",
 			"[This Unit] loses the [Cinder Strike Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4371,8 +4677,8 @@
 		"name": "Fist of Thunder Active",
 		"uniques": [
 			"Comment [Deal 10 damage and apply [Deafened] for 2 turns]",
-			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Deafened] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Deafened] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Fist of Thunder Cooldown] status for [8] turn(s) <upon gaining the [Fist of Thunder Active] status> <hidden from users>",
 			"[This Unit] loses the [Fist of Thunder Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4405,9 +4711,9 @@
 		"name": "Water Leash Active",
 		"uniques": [
 			"Comment [Deal 5 damage then apply [Wet] for 2 turns and [Disarmed] for 1 turn]",
-			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Wet] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Disarmed] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Wet] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Water Leash Cooldown] status for [7] turn(s) <upon gaining the [Water Leash Active] status> <hidden from users>",
 			"[This Unit] loses the [Water Leash Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4425,7 +4731,7 @@
 		"name": "Earth Knuckles",
 		"prerequisites": ["Water Leash"],
 		"uniques": [
-			"Comment [Active. Gain +15% Strength and 25% chance to apply [Stunned] to target unit when attacking or counterattacking. Duration: 3 turns]"
+			"Comment [Active. Gain +15% Strength when attacking and 25% chance to apply [Stunned] to target unit. Duration: 3 turns]"
 			"Comment [Requires [Qi] point]",
 			"[This Unit] gains the [Earth Knuckles Active] status for [3] turn(s) <for [0] movement> <for units without [Earth Knuckles Active]> <for units with [Qi]> <for [non-[No Qi Cast]] units> <removing the [Qi] promotion/status> <hidden from users>"
 		],
@@ -4437,9 +4743,9 @@
 		]
 	},
 	{
-		"name": "Earth Knuckles Active",	//No Self Turn cause updated to be applied on both Attack & Counter
+		"name": "Earth Knuckles Active",
 		"uniques": [
-			"[+15]% Strength",
+			"[+15]% Strength <when attacking>",
 			"Comment [25% chance to apply [Stunned] to target unit]",
 			"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <with [25]% chance> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -4481,7 +4787,7 @@
 		"uniques": [
 			"Comment [Passive. Can move after attacking. Refund 1 Move after attacking when [Drunk]]",
 			"Can move after attacking <hidden from users>",
-			"[This Unit] gains [1] movement <upon damaging a [All] unit> <for units with [Drunk]> <hidden from users>",	//No need Self Turn cause Move is reset upon turn start
+			"[This Unit] gains [1] movement <upon damaging a [All] unit> <for units with [Drunk]> <hidden from users>"
 		],	
 		"unitTypes": ["Drunken Fist Monk"],
 		"column": 113,
@@ -4519,8 +4825,8 @@
 		"name": "Intoxicating Punch Active",
 		"uniques": [
 			"Comment [Apply [Drunk] and [Bleeding] for 2 turns]",
-			"[Target Unit] gains the [Drunk] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Bleeding] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Drunk] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Bleeding] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Intoxicating Punch Cooldown] status for [6] turn(s) <upon gaining the [Intoxicating Punch Active] status> <hidden from users>",
 			"[This Unit] loses the [Intoxicating Punch Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4609,8 +4915,8 @@
 		"name": "Heated Shell Active",
 		"uniques": [
 			"Comment [Inflict [Burning] for 2 turns]",
-			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Heated Shell Cooldown] status for [8] turn(s) <upon gaining the [Heated Shell Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -4681,7 +4987,7 @@
 		"uniques": [
 			"Comment [+1 Range and deal 20 damage]",
 			"[+1] Range <hidden from users>",
-			"[Target Unit] takes [20] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] takes [20] damage <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Deadeye Cooldown] status for [10] turn(s) <upon gaining the [Deadeye Active] status> <hidden from users>",
 			"[This Unit] loses the [Deadeye Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4710,7 +5016,7 @@
 		"name": "Nguji Ilmu",
 		"prerequisites": ["Kroyokan"],
 		"uniques": 
-			["Comment [Passive. Deal 10 damage upon attacking or counterattacking when outside combat in the last 2 turns]",
+			["Comment [Passive. Deal 10 damage when outside combat in the last 2 turns]",
 			"[Target Unit] takes [10] damage <for units without [In Combat Cooldown]> <hidden from users>",
 			"[This Unit] gains the [In Combat Cooldown] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [In Combat Cooldown] status for [2] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
@@ -4763,7 +5069,7 @@
 		"prerequisites": ["Kroyokan"],
 		"uniques": [
 			"Comment [Passive. Inflict [Bleeding] for 2 turns. Cooldown: 4 turns]",
-			"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Celurit Cooldown]> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Celurit Cooldown]> <hidden from users>",
 			
 			"[This Unit] gains the [Celurit Cooldown] status for [4] turn(s) <upon damaging a [All] unit> <for units without [Celurit Cooldown]> <hidden from users>"
 		],
@@ -4801,8 +5107,8 @@
 		"name": "Jaresopo Raresiko Active",
 		"uniques": [
 			"Comment [Inflict [Crippled] for 1 turn and [Crushed] for 2 turns]",
-			"[Target Unit] gains the [Crippled] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Crippled] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[Target Unit] gains the [Crushed] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"[This Unit] gains the [Jaresopo Raresiko Cooldown] status for [6] turn(s) <upon gaining the [Jaresopo Raresiko Active] status> <hidden from users>",
 			"[This Unit] loses the [Jaresopo Raresiko Active] status <upon damaging a [All] unit> <hidden from users>",
@@ -4876,7 +5182,7 @@
 		"prerequisites": ["Monastic Cavalier"],
 		"uniques": [
 			"Comment [Passive. Deal 10 damage when at full HP]",
-			"[Target Unit] takes [10] damage <when above [99] HP> <hidden from users>",	//Ra perlu SelfTurn, soale yen diserang, HP ora >99
+			"[Target Unit] takes [10] damage <when above [99] HP> <hidden from users>",
 		],
 		"unitTypes": ["Wuxia Monk"],
 		"column": 120,
@@ -4899,8 +5205,8 @@
 		"uniques": [
 			"Comment [Gain 3 additional attack and refund 1 Move after attacking, but takes 5 damage each time]",
 			"[3] additional attacks per turn <hidden from users>",
-			"[This Unit] gains [1] movement <upon damaging a [All] unit> <hidden from users>",	//Ra perlu self turn, soale move reset turn start
-			"[This Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>"
+			"[This Unit] gains [1] movement <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] takes [5] damage <upon damaging a [All] unit> <hidden from users>"
 			"Ignores Zone of Control", //Need this or the function doesn't work
 			"[This Unit] gains the [Unrestrained Sword Cooldown] status for [12] turn(s) <upon gaining the [Unrestrained Sword Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -5261,19 +5567,206 @@
 		]
 	},
 	{
-		"name": "Summon Minotaur",
-		"prerequisites": ["Monster Summoner"],
-		"uniques": [
-			"Free [Minotaur] appears <for all movement> <costs [90] [Aether]> <hidden from users>",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
 		"name": "Summon Scorpion Man",
 		"prerequisites": ["Monster Summoner"],
 		"uniques": [
 			"Free [Scorpion Man] appears <for all movement> <costs [90] [Aether]> <hidden from users>",
 			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Heroes
+	{
+		"name": "Hero",
+		"uniques": [
+			"Air Battler",
+			"[-100]% maintenance costs",
+			
+			// Status ailment removal
+			"Comment [Immune to any status ailment that make this unit cannot move and attack]",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
+			"[This Unit] loses the [Crippled] status <upon gaining the [Crippled] status> <hidden from users>",
+			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <hidden from users>",
+			"[This Unit] loses the [Disarmed] status <upon gaining the [Disarmed] status> <hidden from users>",
+			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>",
+			"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
+			"[This Unit] loses the [Infected] status <upon gaining the [Infected] status> <hidden from users>",
+			"[This Unit] loses the [Paralyzed] status <upon gaining the [Paralyzed] status> <hidden from users>",
+			"[This Unit] loses the [Permafrost] status <upon gaining the [Permafrost] status> <hidden from users>",
+			"[This Unit] loses the [Petrified] status <upon gaining the [Petrified] status> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
+			"[This Unit] loses the [Sleeping] status <upon gaining the [Sleeping] status> <hidden from users>",
+			"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status> <hidden from users>",
+			"[This Unit] loses the [Voltaic Electrified] status <upon gaining the [Voltaic Electrified] status> <hidden from users>",
+			"[This Unit] loses the [Voltaic Rooted] status <upon gaining the [Voltaic Rooted] status> <hidden from users>",
+			"[This Unit] loses the [Webbed] status <upon gaining the [Webbed] status> <hidden from users>",
+			
+			// Average Strength 30
+			// 48
+			"[+60]% Strength <starting from the [Magi-Industry Age]>",
+			// 67,5
+			"[+65]% Strength <starting from the [Aeromantic Age]>",
+			// 90
+			"[+75]% Strength <starting from the [Modern Age]>",
+		]
+	},
+	
+	{
+		"name": "Demon King's Rush",		// Oda Nobunaga
+		"uniques": [
+			"Comment [Active. +50% Strength and can attack again if killed a unit. Cooldown: 10]",
+			"[This Unit] gains the [DKR Active] status for [1] turn(s) <for [0] movement> <for units without [DKR Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "DKR Active",
+		"uniques": [
+			"[+50]% Strength",
+			"Comment [Can attack again if killed a unit]",
+			"[+10] additional attacks per turn <hidden from users>",
+			"[This Unit] gains [1] movement <upon defeating a [All] unit> <hidden from users>",
+			"[This Unit] gains the [DKR Cooldown] status for [10] turn(s) <upon gaining the [DKR Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "DKR Cooldown",
+		"uniques": [
+			"Comment [[Demon King's Rush] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Bushido",
+		"uniques": [
+			"No damage penalty for wounded units",
+			"Comment [Gain [Immunity] when below 20 HP]",
+			"[This Unit] gains the [Immunity] promotion <when below [21] HP> <hidden from users>",
+			"[This Unit] loses the [Immunity] promotion <when above [20] HP> <hidden from users>",
+		]
+	},
+	{
+		"name": "Taunt",					// Leonidas
+		"uniques": [
+			"Comment [Active. 50% chance to deflect incoming attack and enemy cannot attack any unit near this unit. Duration: 3 turns. Cooldown: 10]",
+			"[This Unit] gains the [Taunt Active] status for [3] turn(s) <for [0] movement> <for units without [Taunt Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Taunt Active",
+		"uniques": [
+			"[+1000]% Strength <when defending> <with [50]% chance>",
+			"Comment [Enemy cannot attack any unit near this unit]",
+			"[This Unit] gains the [Taunt Cooldown] status for [10] turn(s) <upon gaining the [Taunt Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Taunt Cooldown",
+		"uniques": [
+			"Comment [[Taunt] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Phalanx",
+		"uniques": [
+			"[+25]% Strength <when defending>",
+			"[+25]% Strength <when defending> <vs [Ranged] units>"
+		]
+	},
+	{
+		"name": "Victory Banner",			// Jeanne d'Arc
+		"uniques": [
+			"Comment [Active. +1 Movement and does not need set up to ranged attack. Duration: 2 turns. Cooldown: 10]",
+			"[This Unit] gains the [Victory Banner Active] status for [2] turn(s) <for [0] movement> <for units without [Victory Banner Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Victory Banner Active",
+		"uniques": [
+			"[+1] Movement",
+			"Comment [Does not need set up to ranged attack]",
+			"[This Unit] gains the [Victory Banner Cooldown] status for [10] turn(s) <upon gaining the [Victory Banner Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Victory Banner Cooldown",
+		"uniques": [
+			"Comment [[Victory Banner] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Will of Steel",
+		"uniques": [
+			"Comment [+1 Range when stationed on [Citadel], doubled in [City center]]",
+			"[+1] Range <in [Citadel] tiles> <hidden from users>",
+			"[+2] Range <in [City center] tiles> <hidden from users>",
+			"Ranged attacks may be performed over obstacles"
+		]
+	},
+	{
+		"name": "Sudden Raid",				// Askia
+		"uniques": [
+			"Comment [Active. +1 Movement for All Mounted units. Duration: 2 turns. Cooldown: 10]",
+			"[This Unit] gains the [Sudden Raid Active] status for [2] turn(s) <for [0] movement> <for units without [Sudden Raid Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Sudden Raid Active",
+		"uniques": [
+			"Instantly gain [2] [Companion Raider]",
+			"[This Unit] gains the [Sudden Raid Cooldown] status for [10] turn(s) <upon gaining the [Sudden Raid Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Sudden Raid Cooldown",
+		"uniques": [
+			"Comment [[Sudden Raid] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "River Warlord",
+		"uniques": [
+			"Eliminates combat penalty for attacking across a coast",
+			"Comment [Immune to [Brittle], [Chilled], [Frostbitten], and [Wet]]",
+			"[This Unit] loses the [Brittle] status <upon gaining the [Brittle] status> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
+			"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <hidden from users>",
+			"[This Unit] loses the [Wet] status <upon gaining the [Wet] status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Diplomatic Feint",			// Ana Nzinga
+		"uniques": [
+			"Comment [Active. Deal 25 counter damage to attacker. Duration: 3 turns. Cooldown: 10]",
+			"[This Unit] gains the [Diplomatic Feint Active] status for [3] turn(s) <for [0] movement> <for units without [Diplomatic Feint Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Diplomatic Feint Active",
+		"uniques": [
+			"Comment [Deal 25 counter damage to attacker]",
+			"[This Unit] gains the [Diplomatic Feint Cooldown] status for [10] turn(s) <upon gaining the [Diplomatic Feint Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Diplomatic Feint Cooldown",
+		"uniques": [
+			"Comment [[Sudden Raid] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Huntress",
+		"uniques": [
+			"[+1] Range",
+			"[+1] Sight <in [Hill] tiles>"
 		]
 	},
 	
@@ -5341,15 +5834,14 @@
 			"[This Unit] loses the [Disrupted] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Drunk] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Electrified] status <upon gaining the [Immunity] status> <hidden from users>",
-			"[This Unit] loses the [Frightened] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Fatigued] status <upon gaining the [Immunity] status> <hidden from users>",
+			"[This Unit] loses the [Frightened] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Frostbitten] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Frozen] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Infected] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Oiled] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Paralyzed] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Petrified] status <upon gaining the [Immunity] status> <hidden from users>",
-			"[This Unit] loses the [Poisoned] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Rooted] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Ruptured] status <upon gaining the [Immunity] status> <hidden from users>",
 			"[This Unit] loses the [Scalding] status <upon gaining the [Immunity] status> <hidden from users>",
@@ -5383,6 +5875,10 @@
 	{
 		"name": "Invulnerability First Turn",
 		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Protected",
+		"uniques": ["Comment [This Unit cannot be attacked]"]
 	},
 	
 	// Status Ailment
@@ -5642,7 +6138,7 @@
 			"Ailment",
 			"No Cast",
 			"Shattered",
-			"[This Unit] loses [999] movement <upon turn start>",
+			"[This Unit] loses [999] movement <upon turn start> <for [non-[Fail-Safe Plating]] units> <hidden from users>",
 			"[-25]% Strength",
 			"Cannot move", "Cannot attack", "No Sight",
 			"No defensive terrain bonus", "Can only heal by pillaging",
@@ -5895,8 +6391,11 @@
 	{
 		"name": "Mana Exhaustion",
 		"uniques": [
-			"No Cast",
-			"Comment [This unit has reached its spellcasting limit for the turn]"
+			"No Cast <for [Mage] units>",
+			"Comment [Take 15 damage upon turn end for non-Mana Attuned units]",
+			"[This Unit] takes [15] damage <upon turn end> <for [non-[Mana Attuned]] units> <hidden from users>",
+			"[-25]% Strength <for [Construct] units>",
+			//"Comment [This unit has reached its spellcasting limit for the turn]"
 			
 		]
 	},
@@ -6100,6 +6599,78 @@
 			{"text": "Poisoned", "link":"Promotion/Poisoned"}
 		]
 	},
+	{
+		"name": "Life Drain",					// Spectre
+		"uniques": [
+			"Comment [Attack heal 5 HP, doubled when killed a unit]",
+			"[This Unit] heals [5] HP <upon damaging a [All] unit> <with [SelfTurn]>",
+			"Heals [5] damage if it kills a unit <hidden from users>"
+		]
+	},
+	{
+		"name": "Petrifying Gaze",				// Basilisk
+		"uniques": [
+			"Comment [Inflict [Petrified] for 1 turn]",
+			"[Target Unit] gains the [Petrified] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]>",
+		],
+		"civilopediaText": [
+			{"text": "Petrified", "link":"Promotion/Petrified"}
+		]
+	},
+	{
+		"name": "Onslaught",					// Minotaur
+		"uniques": [
+			"[+15]% Strength <vs [Wounded] units>",
+			"Comment [Inflict [Stunned] for 2 turns with 15% chances]",
+			"[Target Unit] gains the [Stunned] status for [3] turn(s) <upon damaging a [All] unit> <with [15]% chance> <with [SelfTurn]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Stunned", "link":"Promotion/Stunned"}
+		]
+	},
+	{
+		"name": "Focused Onslaught",			// Minotaur Warlord
+		"uniques": [
+			"[+25]% Strength <vs [Wounded] units>",
+			"Comment [Inflict [Stunned] for 2 turns with 50% chances]",
+			"[Target Unit] gains the [Stunned] status for [3] turn(s) <upon damaging a [All] unit> <with [50]% chance> <with [SelfTurn]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Stunned", "link":"Promotion/Stunned"}
+		]
+	},
+	{
+		"name": "Critical",						// Arachne
+		"uniques": [
+			"Comment [Every 10 turns, has 50% chance to instantly kill enemy unit]",
+			"[This Unit] gains the [Critical Active] status for [1] turn(s) <upon turn start> <every [10] turns> <hidden from users>"
+		]
+	},
+	{
+		"name": "Critical Active",
+		"uniques": [
+			"Comment [Every 10 turns, has 50% chance to instantly kill enemy unit]",
+			"[Target Unit] gains the [Death Mark II] status for [1] turn(s) <upon damaging a [non-[Death Mark]] unit> <with [50]% chance> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Death Mark II",
+		"uniques": [
+			"[This Unit] takes [101] damage <upon turn end> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	{
+		"name": "Tentacle Slam",				// Kraken
+		"uniques": [
+			"[+25]% Strength <vs [Water] units>",
+			"[+25]% Strength <vs [Embarked] units>"
+		]
+	},
+		
+	
 	
 	// Free Skills
 	{
@@ -6159,6 +6730,10 @@
 		]
 	},
 	{
+		"name": "Quick Study", 					// Chosen by Destiny
+		"uniques": ["[+50]% XP gained from combat"]
+	},
+	{
 		"name": "Thalassic Affinity",			// Poseidon's Grail
 		"uniques": [
 			"[1] Movement point cost to embark",
@@ -6175,4 +6750,6 @@
 			"Comment [Begin with +3 Movement after being constructed]"
 		]
 	},
+	
+	
 ]

@@ -103,6 +103,11 @@
 		"uniques": [
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
 			"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A remarkably versatile grain, can be ground into flour and fed to livestock."
+			}
 		]
 	},
 	{
@@ -130,13 +135,13 @@
 			"faith": 1
 		},
 		"uniques": [
-			"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles>",
-			"Generated on every [22] tiles <in [{Featureless} {Plains}] tiles>",
-			"Generated on every [22] tiles <in [{Featureless} {Desert}] tiles>",
-			"Generated on every [22] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [20] tiles <in [{Featureless} {Snow}] tiles>",
-			"Generated on every [22] tiles <in [Flood plains] tiles>",
-			"Generated on every [20] tiles <in [Hill] tiles> <in [Hill] Regions>"
+			"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [25] tiles <in [{Featureless} {Plains}] tiles>",
+			"Generated on every [25] tiles <in [{Featureless} {Desert}] tiles>",
+			"Generated on every [25] tiles <in [{Featureless} {Tundra}] tiles>",
+			"Generated on every [22] tiles <in [{Featureless} {Snow}] tiles>",
+			"Generated on every [25] tiles <in [Flood plains] tiles>",
+			"Generated on every [22] tiles <in [Hill] tiles> <in [Hill] Regions>"
 		],
 		"civilopediaText": [
 			{
@@ -236,7 +241,12 @@
 			"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
 		],
 		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
+		"civilopediaText": [
+			{
+				"text": "As transport, implement of war, companion and (occasionally) foodstuff, these animals are among the most important domesticated animals in history."
+			}
+		]
 	},
 	{
 		"name": "Iron",
@@ -265,7 +275,12 @@
 			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
 		],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
+		"civilopediaText": [
+			{
+				"text": "Used for construction, for military weapons, and for tools, these metals are among the most important metals in history."
+			}
+		]
 	},
 	{
 		"name": "Mythical Egg",
@@ -295,7 +310,7 @@
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"civilopediaText": [
 			{
-				"text": "A rare, organic magical vessel, carrying and incubating a mystical fetus until it hatches. Taming a mystical creatures from the moment it hatches is an extraordinary feat that few have the skill or courage to achieve."
+				"text": "A rare, organic magical vessel, carrying and incubating a mythical fetus until it hatches. Taming a mythical creatures from the moment it hatches is an extraordinary feat that few have the skill or courage to achieve."
 			}
 		]
 	},
@@ -462,6 +477,11 @@
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [non-[Hill]] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Used mostly for currency and weapons, by melting it with a bit of zinc or tin to produce bronze."
+			}
 		]
 	},
 	{
@@ -477,6 +497,11 @@
 			"Generated with weight [15] <in [Desert] Regions>",
 			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [5]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Cultivated plant that produces a soft fibrous boll which can be spun into yarn or thread and used to make cloth for clothing, ship sails, and other valuable material."
+			}
 		]
 	},
 	{
@@ -492,6 +517,11 @@
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated near City States with weight [5]",
 			"Doesn't generate naturally <in [Hill] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A substance which (temporarily or permanently) can alter the color of some other substance, typically fabric or human skin."
+			}
 		]
 	},
 	{
@@ -505,6 +535,11 @@
 			"Generated with weight [40] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated near City States with weight [5]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A clothing or other items made from pelt or coat of certain mammals, prized for their warmth and beauty."
+			}
 		]
 	},
 	{
@@ -522,6 +557,11 @@
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [{non-[Hill]} {Forest}] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A beautiful but rare mineral, possesses vibrant colors and/or are extremely shiny."
+			}
 		]
 	},
 	{
@@ -538,6 +578,11 @@
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [non-[Hill]] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A soft, shiny and malleable metal, used in manufacture and has been established as the basis for monetary systems."
+			}
 		]
 	},
 	{
@@ -552,6 +597,11 @@
 			"Generated with weight [10] <in [Plains] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [5]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Releasing fragrant smokes when burned, these material believed to have both medicinal and mystic qualities."
+			}
 		]
 	},
 	{
@@ -567,6 +617,11 @@
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [Forest] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Harvested from the teeth and tusks of animals, these material valued for its durability and its attractiveness."
+			}
 		]
 	},
 	{
@@ -583,6 +638,11 @@
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [non-[Hill]] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "In certain culture, these minerals used for both utilitarian and ceremonial purposes."
+			}
 		]
 	},
 	{
@@ -596,6 +656,11 @@
 			"[+10]% Production when constructing [All] wonders [in all cities]",
 			"Special placement during map generation",
 			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Durable and and beautiful, more lasting than sandstone and easyto quarry, these rocks highly prized as a building material and for sculpting."
+			}
 		]
 	},
 	{
@@ -610,6 +675,11 @@
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [5]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Naturally occurring volcanic glass formed when lava extruded from a volcano cools rapidly."
+			}
 		]
 	},
 	{
@@ -625,6 +695,11 @@
 			"Generated with weight [15] <in [Man-eating Tree] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A mixture of fragrant essential oils with solvents and fixatives used to mask smelly odors."
+			}
 		]
 	},
 	{
@@ -643,6 +718,11 @@
 			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [{Forest} {Hill}] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Used as a means of preserving food and to season it when cooking, these mineral also essential for animals."
+			}
 		]
 	},
 	{
@@ -659,6 +739,11 @@
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [5]",
 			"Doesn't generate naturally <in [Hill] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A natural fiber made from the cocoon of silkworms."
+			}
 		]
 	},
 	{
@@ -677,6 +762,11 @@
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [non-[Hill]] tiles>"
 		],
+		"civilopediaText": [
+			{
+				"text": "A shiny, soft, malleable, and precious metal used in ornaments, jewelry, utensils, and coinage."
+			}
+		]
 	},
 	{
 		"name": "Spices",
@@ -694,6 +784,11 @@
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [Hill] tiles>",
 			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A plant-derived substances used to preserve and enhance the flavor of food."
+			}
 		]
 	},
 	{
@@ -711,6 +806,11 @@
 			"Generated near City States with weight [5]",
 			"Doesn't generate naturally <in [{Grassland} {non-[Fresh water]}] tiles>",
 			"Doesn't generate naturally <in [{Plains} {non-[Fresh water]}] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "An incredibly sweet substance derived from sugar cane used to sweeten food and beverages."
+			}
 		]
 	},
 	{
@@ -729,6 +829,11 @@
 			"Generated near City States with weight [5]",
 			"Doesn't generate naturally <in [Desert] tiles>",
 			"Doesn't generate naturally <in [Tundra] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A beverage made from dried leaves steeped in hot or boiling water."
+			}
 		]
 	},
 	{
@@ -748,6 +853,11 @@
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 			"Doesn't generate naturally <in [Tundra] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A rare and expensive delicacy of mushroom, used primarily for seasoning dishes."
+			}
 		]
 	},
 	{
@@ -762,6 +872,11 @@
 			"Generated with weight [40] <in [Plains] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [5]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A beverage made of fermented grapes, or apples."
+			}
 		]
 	},
 	{
@@ -782,6 +897,11 @@
 			"Generated with weight [20] <in [Mangrove] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A claw-bearing crustaceans dwelling in both salt and fresh water, they are a staple food in some areas and one of the sea commodities."
+			}
 		]
 	},
 	{
@@ -802,6 +922,11 @@
 			"Generated with weight [20] <in [Mangrove] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A hard, shiny, translucent object formed within the shells of mollusks."
+			}
 		]
 	},
 	{
@@ -820,7 +945,13 @@
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated with weight [10] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]"]
+			"Generated near City States with weight [15]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A largest but non-aggressive sea creatures, hunted for their meat, blubber, ambergris, oil, and bones."
+			}
+		]
 	},
 	
 	// Limited Resources
@@ -834,7 +965,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Also known as the Cintamani, this radiant stone is used to control the dead by channeling mana accumulated within the dark and mind-corrupting Voidstone.."
+				"text": "Also known as the Cintamani, this radiant stone is used to control the dead by channeling mana accumulated within the dark and mind-corrupting Voidstone."
 			},
 			{
 				"text": "Used to train Necromancer Hero when available."
@@ -917,12 +1048,12 @@
 		]
 	},
 	{
-		"name": "Yairmite",
+		"name": "Yairmon",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Excluded from map editor"],
 		"civilopediaText": [
-			{"text":"Porcelain available when you allied with Shaquad."}
+			{"text":"Yairmon available when you allied with Shaquad."}
 		]
 	},
 	
@@ -988,7 +1119,8 @@
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -997,7 +1129,8 @@
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded", 
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -1016,7 +1149,8 @@
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -1025,7 +1159,29 @@
 		"uniques": [
 			"Not shown on world screen",
 			"Cannot be traded",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Portal Limiter",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor",
+			//"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Companion Raider",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor",
+			//"Will not be displayed in Civilopedia"
 		]
 	},
 	{

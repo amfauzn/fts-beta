@@ -83,8 +83,8 @@
 		"startingCulture": 300,
 		"settlerPopulation": 4,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint"
-			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Training Ground","Mint"
+			"Barracks","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
@@ -113,8 +113,8 @@
 		"startingCulture": 400,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint","Pyramid","Market",
-			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Training Ground","Mint","Pyramid","Market",
+			"Barracks","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
@@ -150,8 +150,8 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint","Pyramid","Market","Public Bath","Academy of Magic",
-			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Training Ground","Mint","Pyramid","Market","Public Bath","Academy of Magic",
+			"Barracks","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",
@@ -188,8 +188,8 @@
 		"startingCulture": 500,
 		"settlerPopulation": 5,
 		"settlerBuildings": [
-			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Arena","Mint","Pyramid","Market","Public Bath","Academy of Magic",
-			"Barracks","Forge","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
+			"Monument","Altar","Granary","Lighthouse","Paper Maker","Workshop","Circus","Training Ground","Mint","Pyramid","Market","Public Bath","Academy of Magic",
+			"Barracks","Riding Arena","Arcane Spire","Shooting Range","Siege Workshop"
 		],
 		"startingObsoleteWonders": [
 			"Zillanatu","Aknamuki","Gerude","Stastiada","Dai Palgum","Dwuiltunad",

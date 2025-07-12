@@ -257,7 +257,7 @@
 		"color": "#20afe8"
 	},
 	{
-		"name": "levied spearman",
+		"name": "promishing spearman",
 		"notification": "A young [Spearman] has joined us!",
 		"uniques": [
 			"Free [Spearman] found in the ruins",
@@ -268,10 +268,10 @@
 		"color": "#20afe8"
 	},
 	{
-		"name": "levied skirmisher",
-		"notification": "A skilled [Skirmisher] has joined us!",
+		"name": "levied bowman",
+		"notification": "A skilled [Composite Bowman] has joined us!",
 		"uniques": [
-			"Free [Skirmisher] found in the ruins",
+			"Free [Composite Bowman] found in the ruins",
 			"Only available <after turn number [20]>",
 			"Only available <before turn number [120]>"
 		],

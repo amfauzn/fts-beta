@@ -24,7 +24,7 @@
 		"uniques": [
 			"Biological",
 			"Foot",
-			"[+33]% Strength <vs [Anti-Armor] units> <when attacking>",
+			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -34,7 +34,7 @@
 		"uniques": [
 			"Biological",
 			"Foot",
-			"[+33]% Strength <vs [Mounted] units> <when attacking>",
+			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -45,6 +45,7 @@
 			"Biological",
 			"Mobile",
 			"No defensive terrain bonus",
+			"[+1] Movement <with [Companion Raider]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -90,6 +91,7 @@
 			"Biological",
 			"Mage",
 			"Magical",
+			"Mana Attuned",
 			"[+15]% Strength <vs [Ranged Mage] units>",
 			"[+50]% Strength <vs [Construct] units>"
 		]
@@ -101,6 +103,7 @@
 			"Biological",
 			"Mage",
 			"Magical",
+			"Mana Attuned",
 			"[+50]% Strength <vs cities> <when attacking>",
 			"[+50]% Strength <vs [Construct] units> <when attacking>",
 			"[-10]% Strength <vs [{Biological} {Melee}] units> <when defending>"
@@ -110,8 +113,10 @@
 		"name": "Construct",
 		"movementType": "Land",
 		"uniques": [
+			"Mana Attuned",
 			"Mechanical",
-			"Ignores Zone of Control"
+			"Ignores Zone of Control",
+			"[-100]% chance to intercept air attacks <for units without [Shoulder AA Turret]> <hidden from users>",
 		]
 	},
 	
@@ -163,7 +168,7 @@
 			"Mechanical",
 			"Mobile",
 			"Naval",
-			"[+25]% Strength <vs [Naval Raider] units>"
+			"[+25]% Strength <vs [{Naval Raider} {non-[Hero]}] units>"
 		]
 	},
 	{
@@ -253,6 +258,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Never appears as a Barbarian unit"
 		]
@@ -262,6 +268,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -272,6 +279,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -282,6 +290,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -292,6 +301,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -302,6 +312,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -312,6 +323,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -322,6 +334,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -332,6 +345,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
+			"Mana Attuned",
 			"Monastic",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
@@ -406,6 +420,19 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Ignores Zone of Control"
 		]
+	},
+	
+	
+	
+	{
+		"name": "Melee Water Beast",
+		"movementType": "Water",
+		//"uniques": []
+	},
+	{
+		"name": "Ranged Water Beast",
+		"movementType": "Water",
+		//"uniques": []
 	},
 	
 ]

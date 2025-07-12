@@ -32,6 +32,7 @@
 	*/
 	
 	
+	// Always Available
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -58,7 +59,10 @@
 			"NatW preq",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Language"
+		"requiredTech": "Language",
+		"civilopediaText": [
+			{"text": "A structure built to commemorate an important person, deity, or event."}
+		]
 	},
 	
 	{
@@ -67,7 +71,10 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": ["Only available <when religion is enabled>"],
-		"requiredTech": "Astrology"
+		"requiredTech": "Astrology",
+		"civilopediaText": [
+			{"text": "A sacred structure where offerings are made."}
+		]
 	},
 	{
 		"name": "Granary",
@@ -81,7 +88,10 @@
 			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"
 		],
-		"requiredTech": "Pottery"
+		"requiredTech": "Pottery",
+		"civilopediaText": [
+			{"text": "To store grain for living, non mechanical, beings."}
+		]
 	},
 	{
 		"name": "Shooting Range",
@@ -92,7 +102,10 @@
 			//"Free [Archer] appears",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Archery"
+		"requiredTech": "Archery",
+		"civilopediaText": [
+			{"text": "Outdoor area with firing lines, target lines, and berms for shooting practice."}
+		]
 	},
 	
 	{
@@ -106,7 +119,10 @@
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Fish] tiles [in this city]"
 		],
-		"requiredTech": "Sailing"
+		"requiredTech": "Sailing",
+		"civilopediaText": [
+			{"text": "Emitting signal light, these towers guide sailors away from dangerous rocks."}
+		]
 	},
 	{
 		"name": "Shipyard",
@@ -118,7 +134,10 @@
 			//"Free [Trireme] appears",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Sailing"
+		"requiredTech": "Sailing",
+		"civilopediaText": [
+			{"text": "Before sailing, ships are built and repaired here."}
+		]
 	},
 	{
 		"name": "Paper Maker",
@@ -128,7 +147,10 @@
 			"NatW preq",
 			"[+1 Science] per [2] population [in this city]"
 		],
-		"requiredTech": "Paper Making"
+		"requiredTech": "Paper Making",
+		"civilopediaText": [
+			{"text": "To remind the writers of their knowledge and to pass it to the next generation."}
+		]
 	},
 	{
 		"name": "Garden",
@@ -139,7 +161,10 @@
 			"Must be next to [Fresh water]",
 			"[+20]% Great Person generation [in this city]"
 		],
-		"requiredTech": "Irrigation"
+		"requiredTech": "Irrigation",
+		"civilopediaText": [
+			{"text": "Outdoor area planned for cultivation, display, and enjoyment of plants."}
+		]
 	},
 	{
 		"name": "Water Mill",
@@ -148,7 +173,10 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel"
+		"requiredTech": "The Wheel",
+		"civilopediaText": [
+			{"text": "Here, flour produced from grain using water power."}
+		]
 	},
 	{
 		"name": "Walls",
@@ -156,7 +184,10 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Masonry"
+		"requiredTech": "Masonry",
+		"civilopediaText": [
+			{"text": "Walls built to keep enemies away."}
+		]
 	},
 	{
 		"name": "Stone Works",
@@ -170,18 +201,24 @@
 			"[+1 Production] from [Obsidian] tiles [in this city]",
 			"[+1 Production] from [Stone] tiles [in this city]"
 		],
-		"requiredTech": "Masonry"
+		"requiredTech": "Masonry",
+		"civilopediaText": [
+			{"text": "A place to learn, teach, and hone the art of stonemasonry."}
+		]
 	},
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 5,
 		"uniques": [
 			"Military unlocker",
-			"Comment [Enables training Anti-Armor units]",
+			"Comment [Enables training Infantry and Anti-Armor units]",
 			//"Free [Spearman] appears",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Bronze Working",
+		"civilopediaText": [
+			{"text": "Dubbed as the backbone of an army, these place provides shelter, food, and training for recruited infantry."}
+		]
 	},
 	
 	// Rediscovery Age
@@ -192,6 +229,7 @@
 			"Military unlocker",
 			"Comment [Enables training Mage & Golem units]",
 			//"Free [Priest] appears",
+			"[+1 Production] from [Iron] tiles [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mana Thaumaturgy"
@@ -201,7 +239,7 @@
 		"hurryCostModifier": 50,
 		"maintenance": 4,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [in annexed cities] cities>"
 		],
 		"requiredTech": "Mathematics"
@@ -258,7 +296,7 @@
 		"requiredTech": "Animal Riding"
 	},
 	{
-		"name": "Arena",
+		"name": "Training Ground",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
@@ -341,18 +379,6 @@
 		],
 		"requiredTech": "Currency"
 	},
-	{
-		"name": "Forge",
-		"hurryCostModifier": 5,
-		"uniques": [
-			"Military unlocker",
-			"Comment [Enables training Infantry units]",
-			"[+1 Production] from [Iron] tiles [in this city]",
-			//"Free [Swordsman] appears", 
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Iron Working"
-	},
 	
 	{
 		"name": "Harbor",
@@ -365,21 +391,6 @@
 			"Connects trade routes over water"
 		],
 		"requiredTech": "Compass"
-	},
-	{
-		"name": "Arcanic Enclave",
-		"isNationalWonder": true,
-		"requiredNearbyImprovedResources": ["Ley Line"],
-		"cost": 150,
-		"maintenance": 2,
-		"uniques": [
-			"Provides [1] [Fate] <when below [101] [Fate]>",
-			"Cost increases by [10] per owned city" // Fate used for hero summoning
-		],
-		"requiredTech": "Celestial Wisdoms",
-		"civilopediaText": [
-			{"text": ""}
-		]
 	},
 	{
 		"name": "Grand Temple",
@@ -859,7 +870,7 @@
 	},
 	{
 		"name": "Military Academy",
-		"requiredBuilding": "Arena",
+		"requiredBuilding": "Training Ground",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
@@ -930,6 +941,105 @@
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+	},
+	
+	// Heroes
+	{
+		"name": "Arcanic Enclave",
+		"isNationalWonder": true,
+		"requiredNearbyImprovedResources": ["Ley Line"],
+		"cost": 150,
+		"maintenance": 2,
+		"uniques": [
+			"Instantly gain [100] [Fate]",
+			"Provides [1] [Fate] <when below [101] [Fate]>",
+			"Provides [1] [Portal Limiter] <hidden from users>",
+			"Cost increases by [10] per owned city"
+		],
+		"requiredTech": "Celestial Wisdoms",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Oda Portal",
+		"cost": 30,
+		"hurryCostModifier": 50,
+		"requiredResource": "Portal Limiter",
+		"uniques": [
+			"Portal",
+			"Costs [100] [Fate]",
+			"Only available <if [Arcanic Enclave] is constructed>",
+			"Moves to new capital when capital changes",
+			"May buy [Oda Nobunaga] units for [0] [Faith] [in all cities]",
+			"Free [Oda Nobunaga] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Leonidas Portal",
+		"cost": 30,
+		"hurryCostModifier": 50,
+		"requiredResource": "Portal Limiter",
+		"uniques": [
+			"Portal",
+			"Costs [100] [Fate]",
+			"Only available <if [Arcanic Enclave] is constructed>",
+			"Moves to new capital when capital changes",
+			"May buy [Leonidas] units for [0] [Faith] [in all cities]",
+			"Free [Leonidas] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Jeanne Portal",
+		"cost": 30,
+		"hurryCostModifier": 50,
+		"requiredResource": "Portal Limiter",
+		"uniques": [
+			"Portal",
+			"Costs [100] [Fate]",
+			"Only available <if [Arcanic Enclave] is constructed>",
+			"Moves to new capital when capital changes",
+			"May buy [Jeanne d'Arc] units for [0] [Faith] [in all cities]",
+			"Free [Jeanne d'Arc] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Askia Portal",
+		"cost": 30,
+		"hurryCostModifier": 50,
+		"requiredResource": "Portal Limiter",
+		"uniques": [
+			"Portal",
+			"Costs [100] [Fate]",
+			"Only available <if [Arcanic Enclave] is constructed>",
+			"Moves to new capital when capital changes",
+			"May buy [Askia] units for [0] [Faith] [in all cities]",
+			"Free [Askia] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Nzinga Portal",
+		"cost": 30,
+		"hurryCostModifier": 50,
+		"requiredResource": "Portal Limiter",
+		"uniques": [
+			"Portal",
+			"Costs [100] [Fate]",
+			"Only available <if [Arcanic Enclave] is constructed>",
+			"Moves to new capital when capital changes",
+			"May buy [Ana Nzinga] units for [0] [Faith] [in all cities]",
+			"Free [Ana Nzinga] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	
 	// World Wonder
@@ -1311,6 +1421,7 @@
 	},
 	{
 		"name": "Fortavida", // of Malus
+		"isWonder": true,
 		"happiness": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
@@ -1426,7 +1537,7 @@
 		"uniques": [
 			"[+50]% XP gained from combat <for [Magical] units>",
 			"[+15]% Strength <for [Magical] units> <when attacking>",
-			"Double quantity of [Aether] produced"
+			"[+100]% [Aether] resource production"
 		],
 		"requiredTech": "Mana Battery",
 		"quote": "'This is, indeed, a place where magic happens…' ― Amanda V. Shane, Snow Maiden "

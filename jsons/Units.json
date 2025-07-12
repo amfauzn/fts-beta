@@ -175,7 +175,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Swordsmanship practitioner, train and fight with a sword. Sometimes, skilled swordsman can control mana and forming aura."}
@@ -192,8 +192,11 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Etherblader",
-		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
-		"attackSound": "metalhit"
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Using lighter and more versatile weapon, these unit were faster and more manueverable than pikemen."}
+		]
 	},
 	{
 		"name": "Etherblader",
@@ -206,8 +209,11 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Avionic Theory",
 		"upgradesTo": "Lightsaberman",
-		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
-		"attackSound": "shot"
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "Enchanted by the addition of mana energy around the blade, these infantry unit can now pierce through the widespread use of plate armor."}
+		]
 	},
 	{
 		"name": "Marine",
@@ -223,9 +229,12 @@
 		"uniques": [
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>",
-			"Can only be built <in cities with a [Forge]> <in cities with a [Shipyard]>"
+			"Can only be built <in cities with a [Barracks]> <in cities with a [Shipyard]>"
 		],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "An infantry force whose training prepares them to carry out integrated land and sea operations."}
+		]
 	},
 	{
 		"name": "Lightsaberman",
@@ -237,8 +246,11 @@
 		"requiredTech": "Avionic Theory",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Omni-Squad",
-		"uniques": ["Can only be built <in cities with a [Forge]> <hidden from users>"],
-		"attackSound": "shot"
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "These infantry unit fight using lightsaber, a sword whose blade is in the form of a laser or light. Powered by a light-type Rune Stone, the saber may pierce through the mana-imbued armor."}
+		]
 	},
 	{
 		"name": "Omni-Squad",
@@ -251,9 +263,12 @@
 		//"promotions": ["Shock"],
 		"uniques": [
 			"[+10]% Strength <vs [Cyborg] units> <when attacking>",
-			"May Paradrop up to [8] tiles from inside friendly territory"
+			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>"
 		],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Anti-Armor
@@ -819,6 +834,7 @@
 		"movement": 2,
 		"strength": 28,
 		"cost": 150,
+		"interceptRange": 2,
 		"hurryCostModifier": 10,
 		"requiredResource": "Soulstone",
 		"requiredTech": "Education",
@@ -839,6 +855,7 @@
 		"movement": 2,
 		"strength": 42,
 		"cost": 250,
+		"interceptRange": 2,
 		"hurryCostModifier": 10,
 		"requiredResource": "Soulstone",
 		"requiredTech": "Runeforging",
@@ -861,6 +878,7 @@
 		"movement": 2,
 		"strength": 60,
 		"cost": 380,
+		"interceptRange": 2,
 		"hurryCostModifier": 10,
 		"requiredResource": "Soulstone",
 		"requiredTech": "Mana Battery",
@@ -884,6 +902,7 @@
 		"movement": 3,
 		"strength": 80,
 		"cost": 525,
+		"interceptRange": 2,
 		"requiredTech": "Advanced Automatons",
 		"uniques": [
 			"Consumes [2] [Soulstone]",
@@ -2218,7 +2237,88 @@
 	},
 	
 	// Heroes
-	
+	{
+		"name": "Oda Nobunaga",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 30,
+		"promotions": ["Hero","Demon King's Rush","Bushido"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Oda Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Leonidas",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 30,
+		"promotions": ["Hero","Taunt","Phalanx"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Leonidas Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Jeanne d'Arc",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"promotions": ["Hero","Victory Banner","Will of Steel"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Jeanne Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>",
+			"Must set up to ranged attack <for units without [Victory Banner Active]> <hidden from users>"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Askia",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 28,
+		"promotions": ["Hero","Sudden Raid","River Warlord"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Askia Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Ana Nzinga",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 30,
+		"promotions": ["Hero","Diplomatic Feint","Huntress"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Nzinga Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "horse"
+	},
 	
 	// Monster
 	{
@@ -2930,7 +3030,7 @@
 		//"promotions": ["Shock"],
 		"uniques": [
 			"[+10]% Strength <vs [Cyborg] units> <when attacking>",
-			"May Paradrop up to [8] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>",
 			"Unbuildable",
 			"Cannot be purchased",
 			"Will not be displayed in Civilopedia"

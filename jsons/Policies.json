@@ -133,8 +133,8 @@
 		"uniques": [
 			"Only available <before adopting [Weaponry]> <before adopting [Wizardry]>",
 			"[+33]% Strength <vs [Barbarian] units>",
+			"Gain a free [Barracks] [in capital]",
 			"[+25]% Production when constructing [Barracks] buildings [in all cities]",
-			"[+25]% Production when constructing [Forge] buildings [in all cities]",
 			"[+25]% Production when constructing [Riding Arena] buildings [in all cities]",
 			"[+25]% Production when constructing [Armory] buildings [in all cities]",
 			"Comment [Unlocks [Namari]]"
@@ -328,8 +328,8 @@
 			{
 				"name": "Runic Glyphs",
 				"uniques": [
-					"Double quantity of [Rune Stone] produced",
-					"Double quantity of [Soulstone] produced",
+					"[+100]% [Rune Stone] resource production",
+					"[+100]% [Soulstone] resource production",
 					"[+50]% Production when constructing [Rune Forge] buildings [in all cities]"
 				],
 				"row": 2,
@@ -812,7 +812,7 @@
 				"uniques": [
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
-					//"All healing effects doubled <for [Heroes] units>"
+					"All healing effects doubled <for [Hero] units>"
 				],
 				"row": 3,
 				"column": 7
@@ -886,7 +886,7 @@
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
 					"[+20]% Production towards any buildings that already exist in the Capital",
-					"[-10]% maintenance cost for buildings [in all cities]"
+					"[-10]% maintenance cost for [all] buildings [in all cities]"
 				],
 				"row": 1,
 				"column": 9
@@ -994,7 +994,7 @@
 				"uniques": [
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
-					// +50% XP for heroes
+					"All newly-trained [Hero] units [in cities following this religion] receive the [Quick Study] promotion"
 					// maybe also unit with the same class as the heroes?
 					// wall of texts :(
 				],
@@ -1064,7 +1064,8 @@
 				"name": "Censorship",
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
-					"[+1 Happiness] [in all cities] <when below [1] Happiness>"
+					//"[+1 Happiness] [in all cities] <when below [1] Happiness>"
+					// will cause looping
 				],
 				"row": 1,
 				"column": 7
@@ -1113,7 +1114,7 @@
 					"Provides [-1] [Level 1 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 1 Ideology]>",
 					"Cities are razed [2] times as fast",
-					"[+1 Happiness] from every [Arena]",
+					"[+1 Happiness] from every [Training Ground]",
 					"[+1 Happiness] from every [Military Academy]"
 				],
 				"row": 2,
@@ -1138,9 +1139,9 @@
 					"Provides [1] [Level 2 Ideology] <hidden from users>",
 					"Provides [-1] [Level 1 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 1 Ideology]>",
-					"Double quantity of [Horses] produced",
-					"Double quantity of [Iron] produced",
-					"Double quantity of [Altalium] produced",
+					"[+100]% [Horses] resource production",
+					"[+100]% [Iron] resource production",
+					"[+100]% [Altalium] resource production",
 					"[+5 Food, +5 Science] [in capital]"
 				],
 				"row": 2,
@@ -1164,7 +1165,7 @@
 				"uniques": [
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
-					"Double quantity of [Mythical Egg] produced",
+					"[+100]% [Mythical Egg] resource production",
 					"Comment [May capture killed Beast non-Boss unit]"
 				],
 				"row": 3,

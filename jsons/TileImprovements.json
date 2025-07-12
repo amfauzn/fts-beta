@@ -153,7 +153,6 @@
 	},
 	{
 		"name": "Taming",
-		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Domestication",
 		"uniques": [
@@ -188,7 +187,6 @@
 	},
 	{
 		"name": "Aquarry",
-		"production": 1,
 		"techRequired": "Archaeology",
 		"uniques": [
 			"Can only be built to improve a resource",
@@ -232,13 +230,14 @@
 		],
 		"shortcutKey": "R",
 		"civilopediaText": [
-			{"text": "Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+			{"text": "A path between places suitable for land vehicles."},
+			{"text": "Reduces movement cost to ½ if the other tile also has a Road or Railroad."},
 			{
-				"text": "Reduces movement cost to ⅓ with Machinery", 
+				"text": "Reduces movement cost to ⅓ with Machinery.", 
 				"link": "Technology/Machinery"
 			},
 			{
-				"text": "Requires Engineering to bridge rivers", 
+				"text": "Requires Engineering to bridge rivers.", 
 				"link": "Technology/Engineering"
 			}
 		]
@@ -254,7 +253,8 @@
 		],
 		"shortcutKey": "S",
 		"civilopediaText": [
-			{"text": "Reduces movement cost to ⅒ if the other tile also has a Swaylines"}
+			{"text": "A dependable, low-friction tracks powered by compressed mana force upon which a vehicle runs."}
+			{"text": "Reduces movement cost to ⅒ if the other tile also has a Swaylines."}
 		]
 	},
 	

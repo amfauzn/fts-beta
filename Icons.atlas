@@ -1,54 +1,432 @@
 
 Icons.png
-size: 1024, 256
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
 CityStateIcons/Cultured
   rotate: false
-  xy: 320, 104
+  xy: 836, 836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Maritime
   rotate: false
-  xy: 428, 104
+  xy: 1044, 1044
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Mercantile
   rotate: false
-  xy: 536, 104
+  xy: 1252, 1252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Militaristic
   rotate: false
-  xy: 644, 104
+  xy: 1460, 1460
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Religious
   rotate: false
-  xy: 752, 104
+  xy: 1668, 1668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Academy
+  rotate: false
+  xy: 4, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Aquarry
+  rotate: false
+  xy: 4, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Artificial Ley Line
+  rotate: false
+  xy: 212, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ley Line
+  rotate: false
+  xy: 212, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Barbarian encampment
+  rotate: false
+  xy: 420, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Beacon of Power
+  rotate: false
+  xy: 4, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 420, 342
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 420, 342
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Citadel
+  rotate: false
+  xy: 628, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Sea Fort
+  rotate: false
+  xy: 628, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/City center
+  rotate: false
+  xy: 4, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Holy Site
+  rotate: false
+  xy: 836, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kiln
+  rotate: false
+  xy: 212, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Kiln Design
+  rotate: false
+  xy: 212, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Landmark
+  rotate: false
+  xy: 420, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Manufactory
+  rotate: false
+  xy: 4, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Quarry
+  rotate: false
+  xy: 1252, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Forest
+  rotate: false
+  xy: 1460, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Jungle
+  rotate: false
+  xy: 1460, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Mangrove
+  rotate: false
+  xy: 1460, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Sage Tower
+  rotate: false
+  xy: 420, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Taming
+  rotate: false
+  xy: 1044, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Trade Hub
+  rotate: false
+  xy: 1668, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Adelle Corp
   rotate: false
-  xy: 212, 104
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The New Movement
   rotate: false
-  xy: 4, 4
+  xy: 1460, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Aether
+  rotate: false
+  xy: 4, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Altalium
+  rotate: false
+  xy: 212, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Amber
+  rotate: false
+  xy: 628, 628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Buffalo
+  rotate: false
+  xy: 212, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cheese
+  rotate: false
+  xy: 420, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coffee
+  rotate: false
+  xy: 212, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Corn
+  rotate: false
+  xy: 420, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Dao Pereption
+  rotate: false
+  xy: 628, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Darkroot
+  rotate: false
+  xy: 836, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fate
+  rotate: false
+  xy: 4, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Featherite
+  rotate: false
+  xy: 212, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Graal Sanguis
+  rotate: false
+  xy: 420, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Healing Leaves
+  rotate: false
+  xy: 628, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Honey
+  rotate: false
+  xy: 1044, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 4, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Level 1 Ideology
+  rotate: false
+  xy: 628, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Level 2 Ideology
+  rotate: false
+  xy: 628, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Luminaris
+  rotate: false
+  xy: 836, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Magic Scroll
+  rotate: false
+  xy: 1044, 1568
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Magician
+  rotate: false
+  xy: 1252, 1776
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mithril
+  rotate: false
+  xy: 212, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Monster Chips
+  rotate: false
+  xy: 420, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mythical Egg
+  rotate: false
+  xy: 628, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Obsidian
+  rotate: false
+  xy: 836, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Perfume
+  rotate: false
+  xy: 1044, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rotary Component
+  rotate: false
+  xy: 4, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rune Stone
+  rotate: false
+  xy: 212, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Soulstone
+  rotate: false
+  xy: 628, 736
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Starshard
+  rotate: false
+  xy: 836, 944
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 1252, 1360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Yairmon
+  rotate: false
+  xy: 212, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

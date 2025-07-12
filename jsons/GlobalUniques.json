@@ -1,16 +1,16 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-		"[-50]% growth [in all cities] <when between [-5] and [-1] Happiness>",
-		"[-75]% growth [in all cities] <when between [-10] and [-6] Happiness>",
-		"Nullifies Growth [in all cities] <when below [-10] Happiness>",
-		"[-33]% [Production] [in all cities] <when below [-10] Happiness>",
-		"[-33]% Strength <for [All] units> <when below [-10] Happiness>",
-		"Cannot build [Settler] units <when below [-10] Happiness>",
-		"Rebel units may spawn <when below [-20] Happiness>",
+		"[-50]% growth [in all cities] <when between [-5] and [-1] [Happiness]>",
+		"[-75]% growth [in all cities] <when between [-10] and [-6] [Happiness]>",
+		"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+		"[-33]% [Production] [in all cities] <when below [-10] [Happiness]>",
+		"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+		"Cannot build [Settler] units <when below [-10] [Happiness]>",
+		"Rebel units may spawn <when below [-20] [Happiness]>",
 		"[-1] Sight <for [Embarked] units>",
 		
-		//Self Turn mechanic
+		// Self Turn mechanic
 		"Instantly gain [1] [SelfTurn] <upon turn start>",
 		"Instantly consumes [1] [SelfTurn] <upon turn end>",
 		
@@ -18,24 +18,170 @@
 		"New [Composite Bowman] units start with [15] XP [in all cities]",
 		"[Gold] cost of purchasing [Mercenary] units [+3]% <for every [[Mercenary] Units]>", // so AI won't spam
 		
+		// Heroes
+		"Instantly consumes [1] [Companion Raider] <when above [0] [Companion Raider]> <upon turn end>",
+		
 		// Spells mechanism
 		// Deafened
 		"[+50]% to Flank Attack bonuses <vs [Deafened] units>",
-		//Blinded
+		// Blinded
 		"[+50]% to Flank Attack bonuses <vs [Deafened] units>",
 		// Aura of Protection
 		"[+15]% Strength <when defending> <when adjacent to a [Aura of Protection] unit>",
 		
-		//Mixed
-		//Flank Immune
+		// Flank Immune
 		"[-100]% to Flank Attack bonuses <vs [Flank Immune] units>",
 		
+		
+		// Protector
+		"[+25]% Strength <when defending> <vs [Active Spell] units> <when adjacent to a [Protector] unit>",
+		// Void Field
+		//Scout vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Ranger}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Highlander}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Survivalism}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Scouting}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Spyglass}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Battle Recon}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Guerrilla}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Camouflage}] units>",
+		
+		//Infantry
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Shock}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Drill}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Battlecry}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Tortoise}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Besiege}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Woodsman}] units>",
+		
+		//Anti-Armor vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Formation}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Shield Wall}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Thrust}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Schiltron}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Amphibious}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {March}] units>",
+		
+		//LC vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Light Cavalry}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Rout}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Upheaval}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Depredation}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Outmanuever}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Escort Mobility}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Outrider}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Outrider Active}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Agile}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Warding Amulet}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Opportunist}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Ambusher}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Coup de Grace}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Death Mark}] units>",
+		
+		//HC vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Heavy Cavalry}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Charge}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Adaptable}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Armor Piercing}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Barding}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Breakthrough}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Encirclement}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Agoge}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Heavy Plate}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Inspiring Presence}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Healing Amulet}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Impetus}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Blitz}] units>",
+		
+		//Ranged Infantry vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Accuracy}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Barrage}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Marksman}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Cover}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Damage Absorb}] units>",
+		
+		//Siege vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Grapeshot}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Entrenched Position}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Crew Weapons}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Volley}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Indirect Fire}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Forward Observers}] units>",
+		
+		//Anti-Air vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Shrapnel}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Emplacement}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Precision}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Ambush}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Shell}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Tactical Maintenance}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Sentry}] units>",
+		
+		//Naval Ranged vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Preparatory Fire}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Targeting}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Rolling Barrage}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Navigator}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Double Armor Plating}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Emplacement}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Bombardment}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Coincidence Rangefinding}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Supply}] units>",
+		
+		//Naval Raider vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Loot}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Lurking Attack}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Weakpoint Exploitation}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Wolfpack}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Mobility}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Underwater Vision}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Water Veteran}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Extended Range}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Silent Running}] units>",
+		
+		//Carrier vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Flight Deck}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Hanger Deck}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Armor Plating}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Extended Flight Deck}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Secondary Armor Plating}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Combustion}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Deck Crews}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Radar Dome}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Mobile Airbase}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Close Range Sweeping}] units>",
+		
+		//Aircraft vs Void Field
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Dogfighting}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Conflagration}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Tactical Strike}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Interception}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Saboteur}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Patroleur}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Sortie}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Evasive Manuever}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Air Repair}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Operational Range}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Ace Fighter Squadron}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Ace Buster}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Strafe}] units>",
 		
 	],
 	
 	"unitUniques": [
 		// Monster
 		"[This Unit] gains the [Synergy] status for [1] turn(s) <upon turn start> <when adjacent to a [Synergy] unit> <for [Monster] units>",
+		
+		// Heroes related
+		// Taunt
+		"[This Unit] gains the [Protected] status for [2] turn(s) <upon turn end> <when adjacent to a [Taunt Active] unit>",
+		"Cannot attack <vs [Protected] units>",
+		// Diplomatic Feint
+		"[This Unit] takes [25] damage <upon damaging a [Diplomatic Feint Active] unit>"
+		
+		// Construct-related
+		//Volatile Core
+		"[This Unit] takes [40] damage <upon defeating a [Volatile Core] unit>",
 		
 		// Monk-related
 		//Deflect

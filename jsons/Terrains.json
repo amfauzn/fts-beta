@@ -472,7 +472,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"unbuildable": true,
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Forest","Jungle","Marsh","Oasis","Flood plains"]
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Oasis","Flood plains"]
 		"uniques": [
 			"Nullifies all other stats this tile provides",
 			"Doesn't generate naturally",

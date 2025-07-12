@@ -215,8 +215,9 @@
 		"type": "Founder",
 		"uniques": [
 			"[+100]% Production when constructing [Arcanic Enclave] buildings [in all cities]",
-			//"[+100]% Production when constructing [Portal] buildings [in all cities]",
+			"[+100]% Production when constructing [Portal] buildings [in all cities]",
 			"Comment [Arcanic Enclave Provides 5 Golden Age points each turn]",
+			"Instantly gain [3] [Golden Age points] <upon turn end> <in cities with a [Arcanic Enclave]> <hidden from users>",
 		]
 	},
 	{
@@ -298,13 +299,13 @@
 		"type": "Follower",
 		"uniques": [
 			"May buy [Recon] units with [Faith] for [2] times their normal Production cost <hidden from users>",
-			"May buy [Infantry] units with [Faith] for [2] times their normal Production cost <in cities with a [Forge]> <hidden from users>",
+			"May buy [Infantry] units with [Faith] for [2] times their normal Production cost <in cities with a [Barracks]> <hidden from users>",
 			"May buy [Anti-Armor] units with [Faith] for [2] times their normal Production cost <in cities with a [Barracks]> <hidden from users>",
 			"May buy [Mounted] units with [Faith] for [2] times their normal Production cost <in cities with a [Riding Arena]> <hidden from users>",
 			"May buy [Ranged Infantry] units with [Faith] for [2] times their normal Production cost <in cities with a [Shooting Range]> <hidden from users>",
 			"May buy [Siege] units with [Faith] for [2] times their normal Production cost <in cities with a [Siege Workshop]> <hidden from users>",
 			"Comment [May buy Military Land non-Mage units with [Faith] for 2 times their normal Production cost]",
-			"[+1 Faith] from every [Arena]"
+			"[+1 Faith] from every [Training Ground]"
 		]
 	},
 	{
@@ -359,7 +360,7 @@
 		"name": "Radiant Warpath",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Production] from every [Arena] <in cities with at least [3] [Followers of this Religion]>",
+			"[+2 Production] from every [Training Ground] <in cities with at least [3] [Followers of this Religion]>",
 			"[+2 Production] from every [Military Academy] <in cities with at least [3] [Followers of this Religion]>"
 		]
 	},
@@ -379,8 +380,7 @@
 	{
 		"name": "Chosen by Destiny",
 		"type": "Follower",
-		//"uniques": ["All newly-trained [Hero] units [in cities following this religion] receive the [promotion] promotion"]
-		// +50% XP for heroes
+		"uniques": ["All newly-trained [Hero] units [in cities following this religion] receive the [Quick Study] promotion"]
 		// also unit have same class with the heroes +25%
 	},
 	{
@@ -529,10 +529,9 @@
 		"name": "Sanctuary of Heroes",
 		"type": "Enhancer",
 		"uniques": [
-			//""
+			"All healing effects doubled <for [Hero] units>",
 			"Only available <after adopting [Mandate of Heaven]>"
 		]
-		// Hero unit healing at double 
 	},
 	{
 		"name": "Divine Teachings",

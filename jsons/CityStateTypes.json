@@ -233,10 +233,10 @@
 	{
 		"name": "Smithy Guild",
 		"friendBonusUniques": [
-			"[+1 Happiness] from every [Arena]"
+			"[+1 Happiness] from every [Training Ground]"
 		],
 		"allyBonusUniques": [
-			"[+1 Happiness] from every [Arena]",
+			"[+1 Happiness] from every [Training Ground]",
 			"Provides [1] [Mithril]"
 		],
 		"color": [255, 216, 0]
@@ -250,7 +250,7 @@
 		"allyBonusUniques": [
 			"[+2 Happiness]",
 			"[+4 Happiness] <starting from the [Magi-Industry Age]>"
-			"Provides [1] [Yairmite]"
+			"Provides [1] [Yairmon]"
 		],
 		"color": [255, 216, 0]
 	},
@@ -281,12 +281,12 @@
 	{
 		"name": "Aerithalas Mercenary",
 		"friendBonusUniques": [
-			"[+2]% [Production] from every [Arena]",
+			"[+2]% [Production] from every [Training Ground]",
 			"[+3]% [Production] from every [Military Academy]",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
 		],
 		"allyBonusUniques": [
-			"[+5]% [Production] from every [Arena]",
+			"[+5]% [Production] from every [Training Ground]",
 			"[+5]% [Production] from every [Military Academy]",
 			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
 			"May buy [Galewing] units with [Gold] [in all cities]",
