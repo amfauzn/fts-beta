@@ -174,10 +174,10 @@
 		
 		// Heroes related
 		// Taunt
-		"[This Unit] gains the [Protected] status for [2] turn(s) <upon turn end> <when adjacent to a [Taunt Active] unit>",
+		"[This Unit] gains the [Protected] status for [1] turn(s) <upon turn end> <when adjacent to a [Taunt Active] unit>",
 		"Cannot attack <vs [Protected] units>",
 		// Diplomatic Feint
-		"[This Unit] takes [25] damage <upon damaging a [Diplomatic Feint Active] unit>"
+		"[This Unit] takes [15] damage <upon damaging a [Diplomatic Feint Active] unit>"
 		
 		// Construct-related
 		//Volatile Core

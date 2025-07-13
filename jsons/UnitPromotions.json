@@ -2851,7 +2851,7 @@
 		"name": "Avenger",
 		"prerequisites": ["Fail-Safe Plating","Shield Arm"],
 		"uniques": [
-			"Comment [Deal 10 damage when counterattacking. Incompatible with [Protector]]",
+			"Comment [Deal 10 counter damage to attacker. Incompatible with [Protector]]",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <without [SelfTurn]> <hidden from users>",
 			"Only available <for units without [Protector]> <hidden from users>",
 		],
@@ -4155,7 +4155,7 @@
 		"name": "Ebb & Flow",
 		"uniques": [
 			"Comment [Toggleable]",
-			"Comment [[Ebb Stance]: Deal 20 damage to the first non-Air attacker on each turn]", //	need some workaround
+			"Comment [[Ebb Stance]: Deal 20 counter damage to the first non-Air attacker on each turn]", //	need some workaround
 			"Comment [[Flow Stance]: Dodge the first unit attack on each turn]",
 		
 			"[This Unit] gains the [Ebb Stance] promotion <hidden from users>",
@@ -4170,7 +4170,7 @@
 	{
 		"name": "Ebb Stance",
 		"uniques": [
-			"Comment [Deal 20 damage to the first attacker on each turn]",
+			"Comment [Deal 20 counter damage to the first attacker on each turn]",
 			"[+1]% Strength <for units without [Ebb Stance Cooldown]> <hidden from users>" // Damage to attacker
 		],
 	},
@@ -5586,7 +5586,6 @@
 			"Comment [Immune to any status ailment that make this unit cannot move and attack]",
 			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
 			"[This Unit] loses the [Crippled] status <upon gaining the [Crippled] status> <hidden from users>",
-			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <hidden from users>",
 			"[This Unit] loses the [Disarmed] status <upon gaining the [Disarmed] status> <hidden from users>",
 			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>",
 			"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <hidden from users>",
@@ -5614,7 +5613,7 @@
 	{
 		"name": "Demon King's Rush",		// Oda Nobunaga
 		"uniques": [
-			"Comment [Active. +50% Strength and can attack again if killed a unit. Cooldown: 10]",
+			"Comment [Active. +50% Strength and can attack again upon defeating a unit. Duration: 1 turn. Cooldown: 10]",
 			"[This Unit] gains the [DKR Active] status for [1] turn(s) <for [0] movement> <for units without [DKR Cooldown]> <costs [40] [Fate]> <hidden from users>"
 		]
 	},
@@ -5622,8 +5621,9 @@
 		"name": "DKR Active",
 		"uniques": [
 			"[+50]% Strength",
-			"Comment [Can attack again if killed a unit]",
-			"[+10] additional attacks per turn <hidden from users>",
+			"Comment [Can attack again upon defeating a unit]",
+			"[+10] additional attacks per turn <hidden from users>", 
+			"Can move after attacking", "Ignores Zone of Control",	//Both is needed to ensure the unit can attack again
 			"[This Unit] gains [1] movement <upon defeating a [All] unit> <hidden from users>",
 			"[This Unit] gains the [DKR Cooldown] status for [10] turn(s) <upon gaining the [DKR Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -5640,24 +5640,42 @@
 		"name": "Bushido",
 		"uniques": [
 			"No damage penalty for wounded units",
-			"Comment [Gain [Immunity] when below 20 HP]",
-			"[This Unit] gains the [Immunity] promotion <when below [21] HP> <hidden from users>",
-			"[This Unit] loses the [Immunity] promotion <when above [20] HP> <hidden from users>",
+			"[This Unit] gains the [Immunity] status for [1] turn(s) <upon losing at least [30] HP in a single attack>",
 		]
 	},
 	{
 		"name": "Taunt",					// Leonidas
 		"uniques": [
-			"Comment [Active. 50% chance to deflect incoming attack and enemy cannot attack any unit near this unit. Duration: 3 turns. Cooldown: 10]",
+			"Comment [Active. Gain 50% damage reduction and enemy cannot attack adjacent units. Duration: 3 turns. Cooldown: 10]",
 			"[This Unit] gains the [Taunt Active] status for [3] turn(s) <for [0] movement> <for units without [Taunt Cooldown]> <costs [40] [Fate]> <hidden from users>"
 		]
 	},
 	{
 		"name": "Taunt Active",
 		"uniques": [
-			"[+1000]% Strength <when defending> <with [50]% chance>",
-			"Comment [Enemy cannot attack any unit near this unit]",
+			"Comment [50% damage reduction]",
+			"Comment [Enemy cannot attack adjacent units]",
 			"[This Unit] gains the [Taunt Cooldown] status for [10] turn(s) <upon gaining the [Taunt Active] status> <hidden from users>",
+			
+			//Damage reduction wall of text
+			"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [62] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [64] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [66] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [68] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [70] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [72] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [74] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [76] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [78] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [80] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [82] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [84] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [86] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [88] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [90] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [92] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [94] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [96] HP in a single attack> <hidden from users>", 
+			"[This Unit] heals [1] HP <upon losing at least [98] HP in a single attack> <hidden from users>", 
+			
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -5743,14 +5761,14 @@
 	{
 		"name": "Diplomatic Feint",			// Ana Nzinga
 		"uniques": [
-			"Comment [Active. Deal 25 counter damage to attacker. Duration: 3 turns. Cooldown: 10]",
+			"Comment [Active. Deal 15 counter damage to attacker. Duration: 3 turns. Cooldown: 10]",
 			"[This Unit] gains the [Diplomatic Feint Active] status for [3] turn(s) <for [0] movement> <for units without [Diplomatic Feint Cooldown]> <costs [40] [Fate]> <hidden from users>"
 		]
 	},
 	{
 		"name": "Diplomatic Feint Active",
 		"uniques": [
-			"Comment [Deal 25 counter damage to attacker]",
+			"Comment [Deal 15 counter damage to attacker]",
 			"[This Unit] gains the [Diplomatic Feint Cooldown] status for [10] turn(s) <upon gaining the [Diplomatic Feint Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
