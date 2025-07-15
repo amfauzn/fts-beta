@@ -25,7 +25,7 @@
 		// Deafened
 		"[+50]% to Flank Attack bonuses <vs [Deafened] units>",
 		// Blinded
-		"[+50]% to Flank Attack bonuses <vs [Deafened] units>",
+		"[+50]% to Flank Attack bonuses <vs [Blinded] units>",
 		// Aura of Protection
 		"[+15]% Strength <when defending> <when adjacent to a [Aura of Protection] unit>",
 		
