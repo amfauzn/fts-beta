@@ -3046,7 +3046,7 @@
 		"name": "Amphibious Drive",
 		"prerequisites": ["Overcharge","Berserk"],
 		"uniques": [
-			"Comment [Embarking and Disembarking doesn't cost extra Movement point. May attack when embarked. Incompatible with [Amphibious Drive]]",	//Iki aku rodok lali, kae sidane oleh ora to tabrakkan kro Thalassic Affinity?
+			"Comment [Embarking and Disembarking doesn't cost extra Movement point. May attack when embarked. Incompatible with [Sprint Drive]]",	//Iki aku rodok lali, kae sidane oleh ora to tabrakkan kro Thalassic Affinity?
 			// ora pernah bahas soal tabrakkan
 			"[1] Movement point cost to embark <hidden from users>",
 			"[1] Movement point cost to disembark <hidden from users>",
