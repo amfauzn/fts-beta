@@ -995,8 +995,14 @@
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
 					"All newly-trained [Hero] units [in cities following this religion] receive the [Quick Study] promotion"
-					// maybe also unit with the same class as the heroes?
-					// wall of texts :(
+					// Hero +50% XP, other unit of same class +25% XP
+					"All newly-trained [Hero] units [in cities following this religion] receive the [Quick Study] promotion <hidden from users>",
+					"All newly-trained [Infantry] units [in cities following this religion] receive the [Quick Study II] promotion <if [Infantry Portal] is constructed> <hidden from users>",
+					"All newly-trained [Anti-Armor] units [in cities following this religion] receive the [Quick Study II] promotion <if [Anti-Armor Portal] is constructed> <hidden from users>",
+					"All newly-trained [Mounted] units [in cities following this religion] receive the [Quick Study II] promotion <if [Mounted Portal] is constructed> <hidden from users>",
+					"All newly-trained [Ranged Infantry] units [in cities following this religion] receive the [Quick Study II] promotion <if [Ranged Infantry Portal] is constructed> <hidden from users>",
+					"All newly-trained [Siege] units [in cities following this religion] receive the [Quick Study II] promotion <if [Siege Portal] is constructed> <hidden from users>",
+					"All newly-trained [Naval Raider] units [in cities following this religion] receive the [Quick Study II] promotion <if [Naval Raider Portal] is constructed> <hidden from users>",
 				],
 				"row": 3,
 				"column": 7
@@ -1064,8 +1070,8 @@
 				"name": "Censorship",
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
-					//"[+1 Happiness] [in all cities] <when below [1] Happiness>"
-					// will cause looping
+					"[-15]% Unhappiness from [Population] [in puppeted cities]",
+					"[-15]% Unhappiness from [Population] [in annexed cities]"
 				],
 				"row": 1,
 				"column": 7

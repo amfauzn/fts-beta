@@ -254,7 +254,7 @@
 	
 	// Monk
 	{
-		"name": "Monk",
+		"name": "Monks",
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
@@ -270,6 +270,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -281,6 +282,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -292,6 +294,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -303,6 +306,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -314,6 +318,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -325,6 +330,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -336,6 +342,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]
@@ -347,6 +354,7 @@
 			"Biological",
 			"Mana Attuned",
 			"Monastic",
+			"Monk",
 			"Will not be displayed in Civilopedia",
 			"Never appears as a Barbarian unit"
 		]

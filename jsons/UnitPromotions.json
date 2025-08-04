@@ -5220,7 +5220,7 @@
 		]
 	},
 	
-	// Aura Knight
+	// Aura Master
 	{
 		"name": "Mana Sensing",
 		"uniques": [
@@ -5228,7 +5228,7 @@
 			"Unavailable <hidden from users>",
 			"Comment [This Unit may sense mana]"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
 		"column": 125,
 		"row": 1
 	},
@@ -5241,7 +5241,7 @@
 			"[This Unit] gains the [Mana Pulse Active] status for [1] turn(s) <for [0] movement> <for units without [Mana Pulse Cooldown]> <hidden from users>",
 			"[This Unit] gains the [Mana Pulse Cooldown] status for [7] turn(s) <upon gaining the [Mana Pulse Active] status> <hidden from users>"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
 		"column": 125,
 		"row": 2
 	},
@@ -5268,7 +5268,7 @@
 			"Instantly consumes [30] [Aether]",
 			"[+25]% Strength <when defending>"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
 		"column": 126,
 		"row": 2
 	},
@@ -5352,6 +5352,12 @@
 		"civilopediaText": [
 			{"text": "Frostbitten", "link":"Promotion/Frostbitten"}
 		]
+	},
+	{
+		"name": "Aura Zone",
+		"prerequisites": ["Mana Pulse"],
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"]
 	},
 	
 	// Tamer
@@ -5613,7 +5619,7 @@
 	{
 		"name": "Demon King's Rush",		// Oda Nobunaga
 		"uniques": [
-			"Comment [Active. +50% Strength and can attack again upon defeating a unit. Duration: 1 turn. Cooldown: 10]",
+			"Comment [Active. +50% Strength and can attack again upon defeating a unit. Cooldown: 10]",
 			"[This Unit] gains the [DKR Active] status for [1] turn(s) <for [0] movement> <for units without [DKR Cooldown]> <costs [40] [Fate]> <hidden from users>"
 		]
 	},
@@ -5622,8 +5628,9 @@
 		"uniques": [
 			"[+50]% Strength",
 			"Comment [Can attack again upon defeating a unit]",
-			"[+10] additional attacks per turn <hidden from users>", 
-			"Can move after attacking", "Ignores Zone of Control",	//Both is needed to ensure the unit can attack again
+			"[+10] additional attacks per turn <hidden from users>",
+			"Can move after attacking",
+			"Ignores Zone of Control",	//Both is needed to ensure the unit can attack again
 			"[This Unit] gains [1] movement <upon defeating a [All] unit> <hidden from users>",
 			"[This Unit] gains the [DKR Cooldown] status for [10] turn(s) <upon gaining the [DKR Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
@@ -5640,7 +5647,7 @@
 		"name": "Bushido",
 		"uniques": [
 			"No damage penalty for wounded units",
-			"[This Unit] gains the [Immunity] status for [1] turn(s) <upon losing at least [30] HP in a single attack>",
+			"[This Unit] gains the [Immunity] status for [1] turn(s) <upon losing at least [30] HP in a single attack>"
 		]
 	},
 	{
@@ -5657,7 +5664,7 @@
 			"Comment [Enemy cannot attack adjacent units]",
 			"[This Unit] gains the [Taunt Cooldown] status for [10] turn(s) <upon gaining the [Taunt Active] status> <hidden from users>",
 			
-			//Damage reduction wall of text
+			// Damage reduction
 			"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <hidden from users>", 
 			"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack> <hidden from users>", 
 			"[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack> <hidden from users>", "[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack> <hidden from users>", 
@@ -5750,7 +5757,7 @@
 	{
 		"name": "River Warlord",
 		"uniques": [
-			"Eliminates combat penalty for attacking across a coast",
+			"Eliminates combat penalty for attacking over a river",
 			"Comment [Immune to [Brittle], [Chilled], [Frostbitten], and [Wet]]",
 			"[This Unit] loses the [Brittle] status <upon gaining the [Brittle] status> <hidden from users>",
 			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
@@ -5761,7 +5768,7 @@
 	{
 		"name": "Diplomatic Feint",			// Ana Nzinga
 		"uniques": [
-			"Comment [Active. Deal 15 counter damage to attacker. Duration: 3 turns. Cooldown: 10]",
+			"Comment [Active. Deals 15 counter damage to attacker. Duration: 3 turns. Cooldown: 10]",
 			"[This Unit] gains the [Diplomatic Feint Active] status for [3] turn(s) <for [0] movement> <for units without [Diplomatic Feint Cooldown]> <costs [40] [Fate]> <hidden from users>"
 		]
 	},
@@ -5776,7 +5783,7 @@
 	{
 		"name": "Diplomatic Feint Cooldown",
 		"uniques": [
-			"Comment [[Sudden Raid] is on Cooldown]",
+			"Comment [[Diplomatic Feint] is on Cooldown]",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -5785,6 +5792,54 @@
 		"uniques": [
 			"[+1] Range",
 			"[+1] Sight <in [Hill] tiles>"
+		]
+	},
+	{
+		"name": "Fleet Incursion",			// Michiel de Ruyter
+		"uniques": [
+			"Comment [Active. +3 Movement and Ignores Zone of Control. Duration: 2 turns. Cooldown: 10]",
+			"[This Unit] gains the [Fleet Incursion Active] status for [2] turn(s) <for [0] movement> <for units without [Fleet Incursion Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Fleet Incursion Active",
+		"uniques": [
+			"[+3] Movement",
+			"Ignores Zone of Control",
+			"[This Unit] gains the [Fleet Incursion Cooldown] status for [10] turn(s) <upon gaining the [Fleet Incursion Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Fleet Incursion Cooldown",
+		"uniques": [
+			"Comment [[Fleet Incursion] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Sea Wolf",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Withdraws before melee combat <with [50]% chance>"
+		]
+	},
+	{
+		"name": "Call for Freedom",			// Simon Bolivar
+		"uniques": [
+			"Comment [Active. Free strongest Mounted unit appears. Cost: 2 Movement. Cooldown: 0]",
+			"Free [Horseman] appears <before discovering [Chivalry]> <for [2] movement> <costs [50] [Fate]> <hidden from users>",
+			"Free [Knight] appears <after discovering [Chivalry]> <before discovering [Metallurgy]> <for [2] movement> <costs [50] [Fate]> <hidden from users>",
+			"Free [Cavalry] appears <after discovering [Military Science]> <before discovering [Pyrokinetics]> <for [2] movement> <costs [50] [Fate]> <hidden from users>",
+			"Free [Landship] appears <after discovering [Pyrokinetics]> <before discovering [Mobile Tactics]> <for [2] movement> <costs [50] [Fate]> <hidden from users>",
+			"Free [Tank] appears <after discovering [Mobile Tactics]> <for [2] movement> <costs [50] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "El Libertador",
+		"uniques": [
+			"[+50]% to Flank Attack bonuses",
+			"[Great General] is earned [50]% faster"
 		]
 	},
 	
@@ -6752,12 +6807,59 @@
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
+		"name": "Quick Study II", 				// Chosen by Destiny
+		"uniques": ["[+25]% XP gained from combat"]
+	},
+	{
 		"name": "Thalassic Affinity",			// Poseidon's Grail
 		"uniques": [
 			"[1] Movement point cost to embark",
 			"[1] Movement point cost to disembark",
 			"May attack when embarked"
 		]
+	},
+	
+	// Thorin
+	{
+		"name": "Sturdy",
+		"uniques": [
+			"Comment [Resist half of Anti-Armor units' bonus Strength]",
+			"[+17]% Strength <vs [Anti-Armor] units> <hidden from users>"
+		]
+	},
+	{
+		"name": "[Silver Legion] ability",
+		"uniques": [
+			"Comment [Gain [Light Cavalry] subclass upon gaining Tier III [Heavy Cavalry] skill and vice versa]",
+			
+			"[This Unit] gains the [Light Cavalry] promotion <upon gaining the [Breakthrough] promotion> <hidden from users>",
+			"[This Unit] gains the [Light Cavalry] promotion <upon gaining the [Encirclement] promotion> <hidden from users>",
+			"[This Unit] gains the [Light Cavalry] promotion <upon gaining the [Agoge] promotion> <hidden from users>",
+			"[This Unit] gains the [Light Cavalry] promotion <upon gaining the [Heavy Plate] promotion> <hidden from users>",
+			
+			"[This Unit] gains the [Heavy Cavalry] promotion <upon gaining the [Escort Mobility] promotion> <hidden from users>",
+			"[This Unit] gains the [Heavy Cavalry] promotion <upon gaining the [Outrider] promotion> <hidden from users>",
+			"[This Unit] gains the [Heavy Cavalry] promotion <upon gaining the [Vigilant] promotion> <hidden from users>",
+			"[This Unit] gains the [Heavy Cavalry] promotion <upon gaining the [Agile] promotion> <hidden from users>",
+		]
+	},
+	{
+		"name": "Kalsharin Second Wind",
+		"uniques": [
+			"Comment [Heals 25 HP upon reaching 25 HP or less. Can only be activated once.]",
+			"[This Unit] gains the [Kalsharin Second Wind Active] promotion <hidden from users>",
+			"[This Unit] loses the [Kalsharin Second Wind Active] promotion <upon losing at least [1] HP in a single attack> <when below [25] HP> <for units with [Kalsharin Second Wind Active]> <hidden from users>",
+		]
+	},
+	{
+		"name": "Kalsharin Second Wind Active",
+		"uniques": [
+			"Comment [Second Wind is available]",
+			"[This Unit] heals [25] HP <upon losing at least [1] HP in a single attack> <when below [25] HP> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		],
 	},
 	
 	// Wonder

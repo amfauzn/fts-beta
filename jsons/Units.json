@@ -1,4 +1,43 @@
 [
+	// TESTING
+	// Njaluk tulung Test Purpose e ojo dibusak, aku ben gampang nek meh test
+	/*
+	{
+		"name": "Meo",
+		"unitType": "Flowing River Monk",
+		"replaces": "Maceman",
+		"uniqueTo": "Adelle Corp",
+		"movement": 5,
+		"strength": 10,
+		"cost": 1,
+		"hurryCostModifier": -90,
+		"promotions": ["Ebb & Flow", "Deflect"],
+		"uniques": [
+			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles",
+					
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Meo 2",
+		"unitType": "Open Hand Monk",
+		"replaces": "Maceman",
+		"uniqueTo": "The New Movement",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 2,
+		"cost": 1,
+		"hurryCostModifier": -90,
+		"promotions": ["Shock"],
+		"uniques": [
+			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles",
+					
+		],
+		"attackSound": "nonmetalhit"
+	},
+	*/
+	
 	// Civilian
 	{
 		"name": "Settler",
@@ -10,7 +49,7 @@
 			"Biological",
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+			"Requires at least [3] population"
 		],
 		"civilopediaText": [
 			{"text": "A person who moves and settles in a new area in the hope of finding better life for themselves and their children."}
@@ -90,8 +129,8 @@
 		"name": "Skirmisher",
 		"unitType": "Recon",
 		"movement": 2,
-		"strength": 20,
-		"cost": 80,
+		"strength": 15,
+		"cost": 60,
 		"requiredTech": "Poetry",
 		"obsoleteTech": "Acoustics",
 		"upgradesTo": "Pathfinder",
@@ -179,6 +218,26 @@
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Swordsmanship practitioner, train and fight with a sword. Sometimes, skilled swordsman can control mana and forming aura."}
+		]
+	},
+	{
+		"name": "Kalsharin",
+		"unitType": "Infantry",
+		"uniqueTo": "Thorin",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 23,
+		"cost": 75,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Kalsharin Second Wind"],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Highly trained and extremely disciplined legion, Valadorn's personal army since before his ascendance."}
 		]
 	},
 	{
@@ -302,7 +361,10 @@
 		"obsoleteTech": "Alchemy",
 		"upgradesTo": "Halberdier",
 		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A better-trained spearman, armed with a longer and sharper weapon especially to lessen the vulnerabilities against mounted opponents."}
+		]
 	},
 	{
 		"name": "Halberdier",
@@ -377,7 +439,30 @@
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Heavily armored, mounted men-at-arms with great mobility which made them able to exploit an enemy's weakness anywhere on the battlefield."}
+		]
+	},
+	{
+		"name": "Silver Legion",
+		"unitType": "Mounted",
+		"uniqueTo": "Thorin",
+		"replaces": "Knight",
+		"movement": 4,
+		"strength": 30,
+		"cost": 165,
+		"hurryCostModifier": 15,
+		"requiredResource": "Horses",
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Cavalry",
+		"promotions": ["[Silver Legion] ability"],
+		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Along with Kalsharin, are the main forces of Thorin Conquests."}
+		]
 	},
 	{
 		"name": "Cavalry",
@@ -665,10 +750,7 @@
 			"[75]% chance to intercept air attacks",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
-		"attackSound": "machinegun",
-		"civilopediaText": [
-			{"text": "These tube-like weapons fire shells up into the air. Upon reaching a pre-set altitude, the shells explode, releasing a mana-infused blast and deadly shrapnel to target nearby aerial units."}
-		]
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Mobile Thunder",
@@ -684,10 +766,7 @@
 			"[+150]% Strength <vs [Air] units>",
 			"[100]% chance to intercept air attacks"
 		],
-		"attackSound": "machinegun",
-		"civilopediaText": [
-			{"text": ""}
-		]
+		"attackSound": "machinegun"
 	},
 	
 	// Melee Mage
@@ -833,8 +912,8 @@
 		"unitType": "Construct",
 		"movement": 2,
 		"strength": 28,
-		"cost": 150,
 		"interceptRange": 2,
+		"cost": 150,
 		"hurryCostModifier": 10,
 		"requiredResource": "Soulstone",
 		"requiredTech": "Education",
@@ -854,8 +933,8 @@
 		"unitType": "Construct",
 		"movement": 2,
 		"strength": 42,
-		"cost": 250,
 		"interceptRange": 2,
+		"cost": 250,
 		"hurryCostModifier": 10,
 		"requiredResource": "Soulstone",
 		"requiredTech": "Runeforging",
@@ -877,8 +956,8 @@
 		"unitType": "Construct",
 		"movement": 2,
 		"strength": 60,
-		"cost": 380,
 		"interceptRange": 2,
+		"cost": 380,
 		"hurryCostModifier": 10,
 		"requiredResource": "Soulstone",
 		"requiredTech": "Mana Battery",
@@ -901,8 +980,8 @@
 		"unitType": "Construct",
 		"movement": 3,
 		"strength": 80,
-		"cost": 525,
 		"interceptRange": 2,
+		"cost": 525,
 		"requiredTech": "Advanced Automatons",
 		"uniques": [
 			"Consumes [2] [Soulstone]",
@@ -1406,7 +1485,7 @@
 	// Monk (Shown on Civilopedia)
 	{
 		"name": "Disciple",
-		"unitType": "Monk",
+		"unitType": "Monks",
 		"movement": 2,
 		"strength": 25,
 		"cost": 100,
@@ -1424,7 +1503,7 @@
 	},
 	{
 		"name": "Adept",
-		"unitType": "Monk",
+		"unitType": "Monks",
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
@@ -1443,7 +1522,7 @@
 	},
 	{
 		"name": "Master",
-		"unitType": "Monk",
+		"unitType": "Monks",
 		"movement": 2,
 		"strength": 75,
 		"cost": 500,
@@ -2319,10 +2398,44 @@
 		],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Michiel de Ruyter",
+		"unitType": "Naval Raider",
+		"movement": 6,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 1,
+		"promotions": ["Hero","Fleet Incursion","Sea Wolf","Loot"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [de Ruyter Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Simon Bolivar",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 28,
+		"promotions": ["Hero","Call for Freedom","El Libertador"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Bolivar Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "horse",
+	},
 	
 	// Monster
 	{
-		"name": "Will-o’-the-Wisp",
+		"name": "Wisp",
 		"unitType": "Ethereal Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,

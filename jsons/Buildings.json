@@ -42,9 +42,9 @@
 		"production": 2,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": [
-			"Indicates the capital city",
-			"[-1 Science] per [10] population [in this city] <hidden from users>"
+		"uniques": ["Indicates the capital city"],
+		"civilopediaText": [
+			{"text": "The residence of a civilization's ruler."}
 		]
 	},
 	
@@ -213,6 +213,7 @@
 			"Military unlocker",
 			"Comment [Enables training Infantry and Anti-Armor units]",
 			//"Free [Spearman] appears",
+			"[+1 Production] from [Iron] tiles [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working",
@@ -229,10 +230,12 @@
 			"Military unlocker",
 			"Comment [Enables training Mage & Golem units]",
 			//"Free [Priest] appears",
-			"[+1 Production] from [Iron] tiles [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Mana Thaumaturgy"
+		"requiredTech": "Mana Thaumaturgy",
+		"civilopediaText": [
+			{"text": "A towering structure, dubbed as the birthplace and sanctuary for those with magical affinities."}
+		]
 	},
 	{
 		"name": "Courthouse",
@@ -242,7 +245,10 @@
 			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [in annexed cities] cities>"
 		],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Mathematics",
+		"civilopediaText": [
+			{"text": "A place in which the local authorities administer the law."}
+		]
 	},
 	{
 		"name": "Trading Post",
@@ -250,7 +256,10 @@
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 20,
 		"specialistSlots": {"Merchant": 1},
-		"requiredTech": "Mathematics"
+		"requiredTech": "Mathematics",
+		"civilopediaText": [
+			{"text": "Before the creation of currency, exchange took place here in the form of barter."}
+		]
 	},
 	{
 		"name": "Siege Workshop",
@@ -261,7 +270,10 @@
 			//"Free [Catapult] appears",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Mathematics",
+		"civilopediaText": [
+			{"text": "Often heavily fortified facility, where engineers and artisans construct devastating siege engines."}
+		]
 	},
 	{
 		"name": "Circus",
@@ -269,7 +281,10 @@
 		"hurryCostModifier": 10,
 		"maintenance": 1,
 		"uniques": ["NatW preq"],
-		"requiredTech": "Animal Riding"
+		"requiredTech": "Animal Riding",
+		"civilopediaText": [
+			{"text": "Entertainments for public were held here."}
+		]
 	},
 	{
 		"name": "Stable",
@@ -282,7 +297,10 @@
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]",
 		],
-		"requiredTech": "Animal Riding"
+		"requiredTech": "Animal Riding",
+		"civilopediaText": [
+			{"text": "Maintained for breeding, training, and caring for hoofed animals, these structure were important for both pastoral life and mounted forces."}
+		]
 	},
 	{
 		"name": "Riding Arena",
@@ -293,7 +311,31 @@
 			//"Free [Horseman] appears",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Animal Riding"
+		"requiredTech": "Animal Riding",
+		"civilopediaText": [
+			{"text": "A specialized training ground where riders bond with steeds."}
+		]
+	},
+	{
+		"name": "Cashier Stable",
+		"uniqueTo": "Thorin",
+		"replaces": "Riding Arena",
+		"hurryCostModifier": 5,
+		"uniques": [
+			"Military unlocker",
+			"Comment [Enables training Mounted units]",
+			
+			"Gain a free [Stable] [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Culture] from [Pasture] tiles [in this city]",
+			
+			//"Free [Horseman] appears",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Animal Riding",
+		"civilopediaText": [
+			{"text": "Combining both Stable and Riding Arena, these structures were a source of both prestige and power."}
+		]
 	},
 	{
 		"name": "Training Ground",
@@ -303,12 +345,15 @@
 			"New [{Military} {non-[Monk]}] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Construction"
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{"text": "A training facility used to train or organize soldiers and recruits."}
+		]
 	},
 	
 	{
 		"name": "Hatchery",
-		//"requiredNearbyImprovedResources": ["Mystical Egg"],
+		//"requiredNearbyImprovedResources": ["Mythical Egg"],
 		"hurryCostModifier": 15,
 		"uniques": [
 			"Military unlocker",
@@ -316,7 +361,10 @@
 			"[+1 Production] from [Mythical Egg] tiles [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Geomancy"
+		"requiredTech": "Geomancy",
+		"civilopediaText": [
+			{"text": "Dedicated to nurturing the mythical eggs and what came out from it, these facilities often carefully guarded."}
+		]
 	},
 	{
 		"name": "Temple",
@@ -329,7 +377,10 @@
 			"Only available <when religion is enabled>",
 			"New [Monk] units start with [10] XP [in this city]"
 		],
-		"requiredTech": "Philosophy"
+		"requiredTech": "Philosophy",
+		"civilopediaText": [
+			{"text": "A religious building where the faithful can come together to worship."}
+		]
 	},
 	{
 		"name": "College",
@@ -352,7 +403,10 @@
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Poetry"
+		"requiredTech": "Poetry",
+		"civilopediaText": [
+			{"text": "A pyramid-shaped structure used to commune with the divine or perform ceremonial rites."}
+		]
 	},
 	{
 		"name": "Valor Monument",
@@ -377,7 +431,10 @@
 			"[+1 Gold] from [Gold Ore] tiles [in this city]",
 			"[+1 Gold] from [Silver] tiles [in this city]"
 		],
-		"requiredTech": "Currency"
+		"requiredTech": "Currency",
+		"civilopediaText": [
+			{"text": "An institution that creates, and distribute currency for fair trades."}
+		]
 	},
 	
 	{
@@ -390,7 +447,10 @@
 			"[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over water"
 		],
-		"requiredTech": "Compass"
+		"requiredTech": "Compass",
+		"civilopediaText": [
+			{"text": "A body of water sheltered by natural or artificial barriers to protect vessels."}
+		]
 	},
 	{
 		"name": "Grand Temple",
@@ -417,7 +477,10 @@
 			"[25]% Food is carried over after population increases [in this city]",
 			"[-5]% Unhappiness from [Population] [in this city]"
 		],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Civil Service",
+		"civilopediaText": [
+			{"text": "A system for moving water from one location to another location, usually to irrigate crops."}
+		]
 	},
 	{
 		"name": "Colosseum",
@@ -439,7 +502,10 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 2},
 		"uniques": ["NatW preq"],
-		"requiredTech": "Metal Casting"
+		"requiredTech": "Metal Casting",
+		"civilopediaText": [
+			{"text": "These ... is for work, using material needed to make something worthwhile."}
+		]
 	},
 	
 	// Enlightenment Age
@@ -484,10 +550,7 @@
 			"[+1 Gold] from [Tea] tiles [in this city]",
 			"[+1 Gold] from [Wine] tiles [in this city]"
 		],
-		"requiredTech": "Guilds",
-		"civilopediaText": [
-			{"text": "A building dedicated to brew coffee, tea, and of course wine."}
-		]
+		"requiredTech": "Guilds"
 	},
 	{
 		"name": "Castle",
@@ -520,10 +583,7 @@
 			"[+1 Culture] from [Gems] tiles [in this city]",
 			"[+1 Culture] from [Jade] tiles [in this city]"
 		],
-		"requiredTech": "Machinery",
-		"civilopediaText": [
-			{"text": "A workplace where gem-related luxury created."}
-		]
+		"requiredTech": "Machinery"
 	},
 	{
 		"name": "Ironworks",
@@ -641,7 +701,6 @@
 	},
 	{
 		"name": "Warding Tower",
-		//"cityStrength": 5,
 		"cityHealth": 10,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -754,7 +813,9 @@
 	{
 		"name": "Crystalloom Refinery (Soulstone)",
 		"cost": 300,
-		//"production": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
 		"uniques": [
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Horses]",
@@ -766,7 +827,9 @@
 	{
 		"name": "Crystalloom Refinery (Rune Stone)",
 		"cost": 300,
-		//"production": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
 		"uniques": [
 			"Consumes [2] [Iron]",
 			"Provides [1] [Rune Stone]",
@@ -783,7 +846,7 @@
 		"maintenance": 3,
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
-			"Comment [+3 Culture if [Monument], [Pyramid], and [Theater Square] is constructed in this city]",
+			"Comment [+3 [Culture] if [Monument], [Pyramid], and [Theater Square] is constructed in this city]",
 			"[+3 Culture] <in cities with a [Monument]> <in cities with a [Pyramid]> <in cities with a [Theater Square]> <hidden from users>",
 			"Destroyed when the city is captured"
 		],
@@ -831,10 +894,7 @@
 			"[+2 Production] from [Furs] tiles [in this city]",
 			"[+2 Production] from [Silk] tiles [in this city]"
 		],
-		"requiredTech": "Economics",
-		"civilopediaText": [
-			{"text": "A facility used to produces textiles from yarn or fabric into usable textiles."}
-		]
+		"requiredTech": "Economics"
 	},
 	
 	{
@@ -849,7 +909,7 @@
 	{
 		"name": "Roostaerie",
 		"hurryCostModifier": 25,
-		"maintenance": 3,
+		"maintenance": 2,
 		"uniques": [
 			"[+20]% Production when constructing [Air Terror] units [in this city]",
 			"[+20]% Production when constructing [Counter Air Terror] units [in this city]",
@@ -901,14 +961,14 @@
 	{
 		"name": "Magic Barrier",
 		"requiredBuilding": "Warding Tower",
-		//"cityStrength": 5,
+		"cityStrength": 5,
 		"cityHealth": 10,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Cannot be purchased",
 			"Instantly consumes [2] [Aether] <upon turn end>",
 			"[+33]% Strength for cities <in this city> <when defending> <vs [Mage] units>",
-			// Maybe also vs Nuke?
+			"[+33]% Strength for cities <in this city> <when defending> <vs [Missile] units>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Magic Negation"
@@ -922,7 +982,7 @@
 			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]"
 		],
-		"requiredTech": "Magic Negation",
+		"requiredTech": "Magic Negation"
 	},
 	{
 		"name": "Archmage Tribunal",
@@ -939,8 +999,8 @@
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
-		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+		"uniques": ["[25]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Pharmaceuticals"
 	},
 	
 	// Heroes
@@ -956,10 +1016,7 @@
 			"Provides [1] [Portal Limiter] <hidden from users>",
 			"Cost increases by [10] per owned city"
 		],
-		"requiredTech": "Celestial Wisdoms",
-		"civilopediaText": [
-			{"text": ""}
-		]
+		"requiredTech": "Celestial Wisdoms"
 	},
 	{
 		"name": "Oda Portal",
@@ -968,6 +1025,7 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
+			"Infantry Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed>",
 			"Moves to new capital when capital changes",
@@ -984,6 +1042,7 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
+			"Anti-Armor Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed>",
 			"Moves to new capital when capital changes",
@@ -1000,6 +1059,7 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
+			"Siege Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed>",
 			"Moves to new capital when capital changes",
@@ -1016,6 +1076,7 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
+			"Mounted Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed>",
 			"Moves to new capital when capital changes",
@@ -1032,6 +1093,41 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
+			"Ranged Infantry Portal",
+			"Costs [100] [Fate]",
+			"Only available <if [Arcanic Enclave] is constructed>",
+			"Moves to new capital when capital changes",
+			"May buy [Ana Nzinga] units for [0] [Faith] [in all cities]",
+			"Free [Ana Nzinga] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "de Ruyter Portal",
+		"cost": 30,
+		"hurryCostModifier": 50,
+		"requiredResource": "Portal Limiter",
+		"uniques": [
+			"Portal",
+			"Naval Raider Portal",
+			"Costs [100] [Fate]",
+			"Only available <if [Arcanic Enclave] is constructed>",
+			"Moves to new capital when capital changes",
+			"May buy [Ana Nzinga] units for [0] [Faith] [in all cities]",
+			"Free [Ana Nzinga] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Bolivar Portal",
+		"cost": 30,
+		"hurryCostModifier": 50,
+		"requiredResource": "Portal Limiter",
+		"uniques": [
+			"Portal",
+			"Mounted Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed>",
 			"Moves to new capital when capital changes",

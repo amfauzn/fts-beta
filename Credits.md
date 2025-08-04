@@ -8,7 +8,6 @@
 ## Building Icons
 * Gemcutter: [Gemcutter](logomakr.com/4iZIRQ) by Cavenir
 * Textile Mill: [textile fabric](https://thenounproject.com/icon/textile-fabric-3961065/) by varvarvarvarra
-* Theater Square: [theatre](https://thenounproject.com/icon/theatre-1780401/) by b farias, CL
 
 
 # Sprites
@@ -18,8 +17,7 @@
 
 ## by carriontrooper (AU style)
 - Arachne
-- Black Tarantula
-- Black Widow
+- Black Tarantula / Black Widow
 - Bogrunner
 - Golems
 - Monks

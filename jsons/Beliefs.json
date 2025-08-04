@@ -380,8 +380,17 @@
 	{
 		"name": "Chosen by Destiny",
 		"type": "Follower",
-		"uniques": ["All newly-trained [Hero] units [in cities following this religion] receive the [Quick Study] promotion"]
-		// also unit have same class with the heroes +25%
+		"uniques": [
+			"Comment [Hero of your choice and other unit of same class trained in cities following this religion gain additional XP from combat]",
+			// Hero +50% XP, other unit of same class +25% XP
+			"All newly-trained [Hero] units [in cities following this religion] receive the [Quick Study] promotion <hidden from users>",
+			"All newly-trained [Infantry] units [in cities following this religion] receive the [Quick Study II] promotion <if [Infantry Portal] is constructed> <hidden from users>",
+			"All newly-trained [Anti-Armor] units [in cities following this religion] receive the [Quick Study II] promotion <if [Anti-Armor Portal] is constructed> <hidden from users>",
+			"All newly-trained [Mounted] units [in cities following this religion] receive the [Quick Study II] promotion <if [Mounted Portal] is constructed> <hidden from users>",
+			"All newly-trained [Ranged Infantry] units [in cities following this religion] receive the [Quick Study II] promotion <if [Ranged Infantry Portal] is constructed> <hidden from users>",
+			"All newly-trained [Siege] units [in cities following this religion] receive the [Quick Study II] promotion <if [Siege Portal] is constructed> <hidden from users>",
+			"All newly-trained [Naval Raider] units [in cities following this religion] receive the [Quick Study II] promotion <if [Naval Raider Portal] is constructed> <hidden from users>",
+		]
 	},
 	{
 		"name": "Work Ethic",

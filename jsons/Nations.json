@@ -1,5 +1,5 @@
 [
-    {
+	{
 		"name": "Adelle Corp",
 		"leaderName": "Kane",
 		"preferredVictoryType": "Domination",
@@ -14,7 +14,8 @@
 		"outerColor": [0,0,0],
 		"innerColor": [158,56,0],
 		"uniqueName": "Word of Nod",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
+		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>",
+		],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
 	},
@@ -34,36 +35,171 @@
 		"outerColor": [162,51,0],
 		"innerColor": [0,0,0],
 		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
+		"uniques": ["No damage penalty for wounded units <for [non-air] units>",
+		],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
 	},
 	
+	// TEMPLATE
+	/*
 	{
-		"name": "The Mock",
-		"leaderName": "Anton Slavik",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [91,37,82],
-		"innerColor": [202,107,60],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"name": "nationName",
+		"leaderName": "leaderName",
+		"adjective": ["adjective"],
+		"startBias": ["startBias"],
+		"preferredVictoryType": "",
+		"favoredReligion": "",
+		"personality": "",
+		"style": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": ""
+		"attacked": "",
+		"denounced": "",
+		"defeated": "",
+		"afterPeace": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+				
+		"outerColor": [255,255,255]
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "UniqueAbility"
+		"uniques": [""],
+		"cities": ["city1","city2","city3","city4","city5","city6","city7","city8","city9","city10",
+			"city11","city12","city13","city14","city15","city16","city17","city18","city19","city20"],
+		"spyNames": ["spy1","spy2","spy3","spy4","spy5","spy6","spy7","spy8","spy9","spy10"],
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
+	*/
+	
+/*
+Characters:
+
+’: \u2019
+û: \u00fb
+á: \u00e1
+ë: \u00eb
+è: \u00e8
+ā: \u0101
+ū: \u016b
+ī: \u012b
+å: \u00e5
+ö: \u00f6
+ä: \u00e4
+ü: \u00fc
+Á → \u00c1
+Ö → \u00d6
+ø → \u00f8
+Ø → \u00d8
+ð → \u00f0
+Ð → \u00d0
+þ → \u00fe
+Þ → \u00de
+æ → \u00e6
+Æ → \u00c6
+ǫ → \u01eb
+Ǫ → \u01ea
+
+*/
+	
 	{
 		"name": "Spectator",
-		"outerColor": [255,255,255],
+		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
+
+	// Valadorn of Thorin
+	{
+		"name": "Thorin",
+		"leaderName": "Valadorn",
+		"adjective": ["Thoran"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Monetarism",
+		//"personality": "",
+		"style": "Glomon",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!"
+		"attacked": "You've fallen into my trap. I'll bury you.",
+		"denounced": "How foolish, pitiful mongrel!",
+		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
+		"afterPeace": " I have underestimated you.",
+		"introduction": "I am Valadorn, the mightiest emperor you will ever see!",
+		
+		"neutralHello": "I'm listening.",
+		"hateHello": "What?",
+		"tradeRequest": "Accept this agreement or suffer the consequences.",
+				
+		"outerColor": [255,184,33]
+		"innerColor": [153,  5, 3],
+		
+		"uniqueName": "Four Direction Pursuit"
+		"uniques": [				
+			"[+1] Movement <for [Military] units> <in [unowned] tiles>",
+			"[+1] Sight <for [Land] units>",
+			"Comment [Mounted unit resist half of Anti-Armor units' bonus Strength]",
+			"[Mounted] units gain the [Sturdy] promotion <hidden from users>"			
+		],
+		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
+			"Lörissa","Joho Lor","Temwan","Sobayan","Senden","Sekernan","Pariaman","Lamin","Bingkai","Satui"],
+		"spyNames": ["Thorne","Galen","Landon","Leif","Jagger","Callum","Lirien","Caledon","Roran","Valtor"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
 	
+	// Claudia of Red Moon
+	{
+		"name": "Red Moon",
+		"leaderName": "Claudia",
+		"adjective": ["Witches"],
+		"startBias": ["Jungle"],
+		"favoredReligion": "Preformationism",
+		//"personality": "",
+		//"style": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time."
+		"attacked": "Your treacherous aggression shall not succeed. Me and my sisters will endure!",
+		"denounced": "You aren't meeting my expectations. You can do so much better.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"afterPeace": "Sometimes you endure losses, however well you've tried at preparations.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+				
+		"outerColor": [153,  5,  3],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "Flower of Enlightenment",
+		"uniques": [
+			"Starts with [Wizardry] adopted",
+			"[Mage] units gain the [Mana Pulse] promotion",
+			"Comment [Provides 1 Magician in cities with at least 3 Magic Building]"
+		],
+		"cities": ["Kuin","Phocaea","Asahan","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Satui"
+			"Madirae","Kiea","Rasau","Sil Ifken","Ringsten","Godthenae","Novosten","Mare","Tonra","Hellulae"],
+		"spyNames": ["Veronika","Martha","Agnes","Janet","Violet","Kerstin","Alice","Marketta","Lisbeth","Sarah"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
 	
 	// City-States
 	
@@ -434,7 +570,7 @@
 	{
 		"name": "Shaquad",
 		"adjective": ["Shaquadian"],
-		"cityStateType": "Unciv Megacorp",
+		"cityStateType": "Unciv Megamod",
 		"style": "Vaja",
 		"startBias": ["Coast"],
 
@@ -628,15 +764,13 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-        "innerColor": [185,12,12],
+		"innerColor": [185,12,12],
 		"uniques": [
 			"Can only heal by pillaging",
 			"[Slime] units gain the [No Suicide] promotion",
 			//"[+25]% Strength <for [All] units>",
 			"[+15]% Strength <within [2] tiles of a [Barbarian encampment]>",
-			"[+10]% Strength <in [Barbarian encampment] tiles>",
-			
-			"Free [Giant Rat-2] appears <upon gaining a [Giant Rat] unit>",
+			"[+10]% Strength <in [Barbarian encampment] tiles>"
 		]
 	}
 ]
