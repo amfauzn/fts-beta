@@ -6,12 +6,37 @@
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
 		"uniques": [
+			"Unbuildable <in [Ley Line] tiles> <hidden from users>",
 			"Can also be built on tiles adjacent to fresh water",
 			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Pillaging this improvement yields approximately [+6 Gold]",
 		],
-		"shortcutKey": "F"
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "An area of land devoted primarily for agricultural processes to produce food."}
+		]
+	},
+	{
+		"name": "Blessed Farm",
+		"uniqueTo": "Louvargia",
+		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": [
+			"Farm",
+			"Comment [+1 [Faith] if adjacent to at least 2 [Farm]]",
+			"[+1 Faith] <with [2] to [6] neighboring [Farm] tiles> <hidden from users>",
+			"[+1 Food] <after discovering [Civil Service]>", 
+			"[+1 Production] <after discovering [Runeforging]>", 
+			"Does not need removal of [Aurora] <hidden from users>",
+			"Pillaging this improvement yields approximately [+10 Gold, +5 Faith]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "A farm that received a blessing from the Tundra Goddess Inua, a gift from her to the Louvargians."}
+		]
 	},
 	/*{
 		"name": "Ice-calator",
@@ -39,7 +64,10 @@
 			"[+1 Production] <after discovering [Alchemy]>",
 			"Pillaging this improvement yields approximately [+3 Gold]"
 		],
-		"shortcutKey": "L"
+		"shortcutKey": "L",
+		"civilopediaText": [
+			{"text": "A facility where logs are cut into lumber."}
+		]
 	},
 	{
 		"name": "Mine",
@@ -52,7 +80,10 @@
 			"[+1 Production] <after discovering [Metallurgy]>",
 			"Pillaging this improvement yields approximately [+8 Gold]"
 		],
-		"shortcutKey": "M"
+		"shortcutKey": "M",
+		"civilopediaText": [
+			{"text": "A dugged tunnel where minerals and valuable substances hidden underground were extracted."}
+		]
 	},
 	{
 		"name": "Terrace farm",
@@ -70,7 +101,10 @@
 			"Pillaging this improvement yields approximately [+6 Gold]"
 		],
 		"techRequired": "Construction",
-		"shortcutKey": "F"
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "A farming method developed by creating narrow, stepped fields carved into hillsides and mountain slopes to prevents the runoff of irrigation water and providing space for arable land."}
+		]
 	},
 	
 	// Resource-specific
@@ -397,6 +431,7 @@
 		"turnsToBuild": 7,
 		"uniques": [
 			"Cannot be built on [Mountain] tiles",
+			"Only available <with [Kiln Design]>"
 			"[+1 Culture] <after discovering [Archaeology]>",
 			"Pillaging this improvement yields approximately [+4 Gold, +4 Culture]"
 		],

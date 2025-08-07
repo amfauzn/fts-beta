@@ -805,7 +805,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Fire Element",
-			"Instantly consumes [15] [Aether]",
+			//"Instantly consumes [15] [Aether]",
 			"Comment [Passive. Inflict [Scorched] for 2 turns]",
 			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>"
 		],
@@ -1127,7 +1127,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Wind Element",
-			"Instantly consumes [15] [Aether]",
+			//"Instantly consumes [15] [Aether]",
 			"Comment [Passive. Withdraws from Melee combat once every 4 turns]",
 			"[This Unit] gains the [Swift Step Active] status for [1] turn(s) <upon turn end> <for units without [Swift Step Cooldown]> <hidden from users>"
 		],
@@ -1349,7 +1349,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Lightning Element",
-			"Instantly consumes [15] [Aether]",
+			//"Instantly consumes [15] [Aether]",
 			"Comment [Passive. Inflict [Disrupted] for 1 turn]",	//Or Disrupt Chakra?
 			"[Target Unit] gains the [Disrupted] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 		],
@@ -1600,7 +1600,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Earth Element",
-			"Instantly consumes [15] [Aether]",
+			//"Instantly consumes [15] [Aether]",
 			"Comment [Passive. +15% Strength when defending]",
 			"[+15]% Strength <when defending> <hidden from users>"
 		],
@@ -1812,7 +1812,7 @@
 		"prerequisites": ["Elemental Manipulation"],
 		"uniques": [
 			"Water Element",
-			"Instantly consumes [15] [Aether]",
+			//"Instantly consumes [15] [Aether]",
 			"Comment [Passive. Heals 5 HP upon turn end]",
 			"[This Unit] heals [5] HP <upon turn end> <hidden from users>"		
 		],
@@ -2851,7 +2851,7 @@
 		"name": "Avenger",
 		"prerequisites": ["Fail-Safe Plating","Shield Arm"],
 		"uniques": [
-			"Comment [Deal 10 counter damage to attacker. Incompatible with [Protector]]",
+			"Comment [Deal 10 damage when counterattacking. Incompatible with [Protector]]",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <without [SelfTurn]> <hidden from users>",
 			"Only available <for units without [Protector]> <hidden from users>",
 		],
@@ -2942,8 +2942,6 @@
 		"column": 59,
 		"row": 5,
 	},
-	
-	
 	
 	// Destructor Protocol
 	{
@@ -3046,7 +3044,7 @@
 		"name": "Amphibious Drive",
 		"prerequisites": ["Overcharge","Berserk"],
 		"uniques": [
-			"Comment [Embarking and Disembarking doesn't cost extra Movement point. May attack when embarked. Incompatible with [Sprint Drive]]",	//Iki aku rodok lali, kae sidane oleh ora to tabrakkan kro Thalassic Affinity?
+			"Comment [Embarking and Disembarking doesn't cost extra Movement point. May attack when embarked. Incompatible with [Amphibious Drive]]",	//Iki aku rodok lali, kae sidane oleh ora to tabrakkan kro Thalassic Affinity?
 			// ora pernah bahas soal tabrakkan
 			"[1] Movement point cost to embark <hidden from users>",
 			"[1] Movement point cost to disembark <hidden from users>",
@@ -5615,6 +5613,14 @@
 			"[+75]% Strength <starting from the [Modern Age]>",
 		]
 	},
+	{
+		"name": "Hero Landing",
+		"uniques": ["May Paradrop to [All] tiles up to [30] tiles away"]
+	},
+	{
+		"name": "Living Legends",
+		"uniques": ["Instantly gain [8] [Fate] <upon defeating a [Military] unit>"]
+	},
 	
 	{
 		"name": "Demon King's Rush",		// Oda Nobunaga
@@ -6819,6 +6825,32 @@
 		]
 	},
 	
+	// Louvargia
+	{
+		"name": "Cold Embrace",
+		"uniques": [
+			"Comment [When this unit gains any Cold Ailment in Friendly Land, gain 25 [Faith]]",
+			"Gain [25] [Faith] <upon gaining the [Brittle] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Brittle] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Chilled] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Chilled] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frostbitten] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frostbitten] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frozen] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frozen] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Permafrost] promotion> <hidden from users>",
+		]
+	},
+	{
+		"name": "Divine Right", 
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to", 
+			"Can remove other religions from cities <once>",
+			"Takes your religion over the one in their birth city",
+			"Religious Unit"
+		]
+	},
+	
 	// Thorin
 	{
 		"name": "Sturdy",
@@ -6860,6 +6892,26 @@
 			"[+1]% Strength <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
+	},
+	
+	// Red Moon
+	{
+		"name": "Scrying",
+		"uniques": [
+			"Comment [Active. Reveal all [Ley Line] in a 5-tiles radius. Can't be activated if there are no [Ley Line] in the radius. Can only be activated once. Cost: 2 Move.]",
+			"Reveal up to [all] [Ley Line] within a [5] tile radius <for [2] movement> <removing the [Scrying] promotion/status> <hidden from users>",
+		]
+	},
+	{
+		"name": "Unobstructed Vision",
+		"uniques": ["Can see over obstacles"]
+	},
+	{
+		"name": "Perfect Awakening",
+		"uniques": [
+			"Comment [Immune to [Mana Exhaustion]]",
+			"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>"
+		]
 	},
 	
 	// Wonder

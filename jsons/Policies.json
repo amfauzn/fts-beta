@@ -1070,8 +1070,9 @@
 				"name": "Censorship",
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
-					"[-15]% Unhappiness from [Population] [in puppeted cities]",
-					"[-15]% Unhappiness from [Population] [in annexed cities]"
+					"[-10]% Unhappiness from [Population] [in puppeted cities]",
+					"[-10]% Unhappiness from [Population] [in annexed cities]",
+					"[+20]% spy effectiveness [in all cities connected to capital]"
 				],
 				"row": 1,
 				"column": 7
@@ -1193,7 +1194,11 @@
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
 					"Comment [May choose 1 additional Hero]",
-					"Comment [Recover [Fate] used to summon Heroes and activate their skill by half]"
+					"Provides [1] [Portal Limiter] <hidden from users>",
+					"Comment [Recover [Fate] used to summon Heroes by half]",
+					"Instantly gain [50] [Fate] <upon gaining a [Hero] unit> <hidden from users>",
+					"Comment [Gain 8 [Fate] when a Hero defeating a unit]",
+					"[Hero] units gain the [Living Legends] promotion <hidden from users>"
 				],
 				"row": 3,
 				"column": 7
@@ -1203,8 +1208,9 @@
 				"uniques": [
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
-					"[+20]% Strength <for [Mage] units>",
-					"Comment [Recover [Aether] used to train Mages and acquire their skill by half]"
+					//"[+20]% Strength <for [Mage] units>",
+					"Instantly gain [200] [Aether]",
+					"New [Mage] units start with [30] XP [in all cities]"
 				],
 				"row": 3,
 				"column": 9

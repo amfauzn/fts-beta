@@ -3,6 +3,8 @@
 	/*
 	{
 		"name": "",
+		"uniqueTo": "",
+		"replaces": "",
 		"isWonder": ,
 		"isNationalWonder": ,
 		"requiredBuilding": "",
@@ -92,6 +94,25 @@
 		"civilopediaText": [
 			{"text": "To store grain for living, non mechanical, beings."}
 		]
+	},
+	{
+		"name": "secondGranary",
+		"uniqueTo": "Louvargia",
+		"food": 2,
+		"hurryCostModifier": 25,
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <when number of [cityLevelCounter] is more than [2]> <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Citrus] tiles [in this city]",
+			"[+1 Food] from [Corn] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"Will not be displayed in Civilopedia",
+		],
+		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Shooting Range",
@@ -228,6 +249,7 @@
 		"hurryCostModifier": 5,
 		"uniques": [
 			"Military unlocker",
+			"Magic Building",
 			"Comment [Enables training Mage & Golem units]",
 			//"Free [Priest] appears",
 			"Destroyed when the city is captured"
@@ -235,6 +257,26 @@
 		"requiredTech": "Mana Thaumaturgy",
 		"civilopediaText": [
 			{"text": "A towering structure, dubbed as the birthplace and sanctuary for those with magical affinities."}
+		]
+	},
+	{
+		"name": "Draen Sanctuary",
+		"uniqueTo": "Red Moon",
+		"replaces": "Arcane Spire",
+		"food": 1,
+		"hurryCostModifier": 5,
+		"uniques": [
+			"Military unlocker",
+			"Magic Building",
+			"Comment [Enables training Mage & Golem units]",
+			//"Free [Priest] appears",
+			"Comment [Free [Arcane Tracker] appears (up to 5 times)]",
+			"Free [Arcane Tracker] appears <when below [5] [stockpiledCounter]> <hidden from users>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Mana Thaumaturgy",
+		"civilopediaText": [
+			{"text": "Equipped with protective facilities, where the Witchdraen trained until their Day of Awakening."}
 		]
 	},
 	{
@@ -299,7 +341,7 @@
 		],
 		"requiredTech": "Animal Riding",
 		"civilopediaText": [
-			{"text": "Maintained for breeding, training, and caring for hoofed animals, these structure were important for both pastoral life and mounted forces."}
+			{"text": "Maintained for breeding, training, and caring for hoofed animals, these structures were important for both pastoral life and mounted forces."}
 		]
 	},
 	{
@@ -353,7 +395,7 @@
 	
 	{
 		"name": "Hatchery",
-		//"requiredNearbyImprovedResources": ["Mythical Egg"],
+		//"requiredNearbyImprovedResources": ["Mystical Egg"],
 		"hurryCostModifier": 15,
 		"uniques": [
 			"Military unlocker",
@@ -380,6 +422,27 @@
 		"requiredTech": "Philosophy",
 		"civilopediaText": [
 			{"text": "A religious building where the faithful can come together to worship."}
+		]
+	},
+	{
+		"name": "Hymn House",
+		"replaces": "Temple",
+		"uniqueTo": "Louvargia",
+		"requiredBuilding": "Altar",
+		"culture": 1,
+		"faith": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"NatW preq",
+			"Only available <when religion is enabled>",
+			"New [Monk] units start with [10] XP [in this city]",
+			"[+1 Culture] per [4] population [in this city]", 
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Philosophy",
+		"civilopediaText": [
+			{"text": "Pious Louvargians built this structure to worship and praise their Goddess."}
 		]
 	},
 	{
@@ -517,7 +580,10 @@
 		"hurryCostModifier": 15,
 		"maintenance": 2,
 		"specialistSlots": {"Scholar": 2},
-		"requiredTech": "Education"
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{"text": "Open for both noble and commoner, these institution dedicated to the widespread education of youth."}
+		]
 	},
 	{
 		"name": "Public Bath",
@@ -525,7 +591,10 @@
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredTech": "Guilds"
+		"requiredTech": "Guilds",
+		"civilopediaText": [
+			{"text": "A communal space that offers rest, hygiene, and social connection among citizens and visitors."}
+		]
 	},
 	{
 		"name": "Market",
@@ -535,7 +604,10 @@
 		"hurryCostModifier": 15,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": ["NatW preq"],
-		"requiredTech": "Guilds"
+		"requiredTech": "Guilds",
+		"civilopediaText": [
+			{"text": "Exchange or transaction of goods and services are held here."}
+		]
 	},
 	{
 		"name": "Brewery",
@@ -550,7 +622,10 @@
 			"[+1 Gold] from [Tea] tiles [in this city]",
 			"[+1 Gold] from [Wine] tiles [in this city]"
 		],
-		"requiredTech": "Guilds"
+		"requiredTech": "Guilds",
+		"civilopediaText": [
+			{"text": "A building dedicated to brew coffee, tea, and of course wine."}
+		]
 	},
 	{
 		"name": "Castle",
@@ -559,7 +634,10 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Chivalry"
+		"requiredTech": "Chivalry",
+		"civilopediaText": [
+			{"text": "To protect a military force, civilian, and sometimes a civilization's ruler from its enemies."}
+		]
 	},
 	{
 		"name": "Windmill",
@@ -569,7 +647,10 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Only available <with [Rotary Component]>"],
-		"requiredTech": "Machinery"
+		"requiredTech": "Machinery",
+		"civilopediaText": [
+			{"text": "Wind powered machine mainly for grinding grain, but can be used for other tasks such as to run sawmills."}
+		]
 	},
 	{
 		"name": "Gemcutter",
@@ -583,7 +664,10 @@
 			"[+1 Culture] from [Gems] tiles [in this city]",
 			"[+1 Culture] from [Jade] tiles [in this city]"
 		],
-		"requiredTech": "Machinery"
+		"requiredTech": "Machinery",
+		"civilopediaText": [
+			{"text": "A workplace where gem-like mineral cut into a new design."}
+		]
 	},
 	{
 		"name": "Ironworks",
@@ -603,27 +687,48 @@
 		"requiredResource": "Rune Stone",
 		"science": 1,
 		"uniques": [
+			"Magic Building",
+			"NatW preq",
 			"Costs [30] [Aether]",
 			"All newly-trained [Mage] units [in this city] receive the [Elemental Mastery] promotion",
-			"Comment [All newly-trained Infantry, Anti-Armor, Mounted, Ranged Infantry in this city receive the [Mana Sensing] skill with 34% chance]"
+			"Comment [All newly-trained Recon, Infantry, Anti-Armor, Mounted, Ranged Infantry in this city receive the [Mana Sensing] skill with 34% chance]"
+			"All newly-trained [Recon] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
 			"All newly-trained [Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
 			"All newly-trained [Anti-Armor] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
 			"All newly-trained [Mounted] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Ranged Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"NatW preq"
+			"All newly-trained [Ranged Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>"
 		],
-		"requiredTech": "Mana Crystallization"
+		"requiredTech": "Mana Crystallization",
+		"civilopediaText": [
+			{"text": "A prestigious institution where advanced arcane knowledge is studied and passed down."}
+		]
+	},
+	{
+		"name": "talentBonus",
+		"uniqueTo": "Red Moon",
+		"cost": 1,
+		"uniques": [
+			"Only available <in cities with a [Arcane Spire]> <in cities with a [Academy of Magic]>",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Magician]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Mystic Crucible",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
+			"Magic Building",
 			"[+20]% Production when constructing [Mage] units [in this city]",
 			"[+20]% Production when constructing [Construct] units [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Mana Crystallization"
+		"requiredTech": "Mana Crystallization",
+		"civilopediaText": [
+			{"text": "ontrolling magic is not as easy as it seems, and proper practice requires a dedicated place."}
+		]
 	},
 	{
 		"name": "Treasury",
@@ -651,7 +756,10 @@
 			"[+20]% Production when constructing [Naval Melee] units [in this city]",
 			"[+20]% Production when constructing [Naval Ranged] units [in this city]"
 		],
-		"requiredTech": "Navigation"
+		"requiredTech": "Navigation",
+		"civilopediaText": [
+			{"text": "Super-harbor with a forest of cranes for the rapid unloading of cargo."}
+		]
 	},
 	{
 		"name": "Theater Square",
@@ -661,7 +769,10 @@
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["NatW preq"],
-		"requiredTech": "Acoustics"
+		"requiredTech": "Acoustics",
+		"civilopediaText": [
+			{"text": "These theater attracts crowds when circuses can no longer do so."}
+		]
 	},
 	{
 		"name": "Censer Maker",
@@ -674,7 +785,10 @@
 			"[+1 Culture] from [Incense] tiles [in this city]",
 			"[+1 Culture] from [Perfume] tiles [in this city]"
 		],
-		"requiredTech": "Acoustics"
+		"requiredTech": "Acoustics",
+		"civilopediaText": [
+			{"text": "Burning solid incense or perfume requires vessel, and these vessels created here."}
+		]
 	},
 	{
 		"name": "Heroic Epic",
@@ -697,19 +811,26 @@
 			"[+1 Culture] from [Ley Line] tiles [in this city]",
 			"[+1 Culture] from [Artificial Ley Line] tiles [in this city]"
 		],
-		"requiredTech": "Spellbook Codification"
+		"requiredTech": "Spellbook Codification",
+		"civilopediaText": [
+			{"text": "A place where people with magical affinity resides and hone their magical skill."}
+		]
 	},
 	{
 		"name": "Warding Tower",
 		"cityHealth": 10,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Magic Building",
 			"Cannot be purchased",
 			"Costs [50] [Aether]",
 			//"Free [Watcher] appears",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Spellbook Codification"
+		"requiredTech": "Spellbook Codification",
+		"civilopediaText": [
+			{"text": "Often manned by wardens, these rune-inscribed tower radiates protective magic across the surrounding area."}
+		]
 	},
 	{
 		"name": "Armory",
@@ -721,7 +842,10 @@
 			"[+20]% Production when constructing [Anti-Armor] units [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Military Engineering"
+		"requiredTech": "Military Engineering",
+		"civilopediaText": [
+			{"text": "A place where weapons and armor are manufactured, repaired and/or stored during off-duty or peacetime."}
+		]
 	},
 	{
 		"name": "Arsenal",
@@ -732,7 +856,10 @@
 			"[+20]% Production when constructing [Siege] units [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Military Engineering"
+		"requiredTech": "Military Engineering",
+		"civilopediaText": [
+			{"text": "A larger armory containing more dangerous weapon systems."}
+		]
 	},
 	
 	// Magi-Industry Age
@@ -751,8 +878,8 @@
 		"maintenance": 3,
 		"specialistSlots": {"Scholar": 2},
 		"uniques": [
-			"[+1 Science] per [2] population [in this city]",
-			"NatW preq"
+			"NatW preq",
+			"[+1 Science] per [2] population [in this city]"
 		],
 		"requiredTech": "Architecture"
 	},
@@ -809,6 +936,17 @@
 		"civilopediaText": [
 			{"text": "Warung Tegal, a gastronomic business that provides food and drinks, targeting the lower-middle class."}
 		]
+	},
+	{
+		"name": "Ravenwatch",
+		"cost": 160,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"uniques": [
+			"Only available <when espionage is enabled>",
+			"[-25]% enemy spy effectiveness [in this city]"
+		],
+		"requiredTech": "Printing"
 	},
 	{
 		"name": "Crystalloom Refinery (Soulstone)",
@@ -869,6 +1007,7 @@
 		"cost": 200,
 		"maintenance": 1,
 		"uniques": [
+			"Magic Building",
 			"Cannot be purchased", 
 			"Creates a [Artificial Ley Line] improvement on a specific tile"
 		],
@@ -965,6 +1104,7 @@
 		"cityHealth": 10,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Magic Building",
 			"Cannot be purchased",
 			"Instantly consumes [2] [Aether] <upon turn end>",
 			"[+33]% Strength for cities <in this city> <when defending> <vs [Mage] units>",
@@ -1198,7 +1338,7 @@
 		],
 		"requiredTech": "Sailing",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
-    },
+	},
 	{
 		"name": "Sukamerta", // of Niranna
 		"isWonder": true,
@@ -1262,7 +1402,7 @@
 		"uniques": [
 			"Only available <after adopting [Wizardry]> <hidden from users>",
 			"Gain a free [Arcane Spire] [in this city]",
-			"Provides [5] [Magician]"
+			"Provides [4] [Magician]"
 		],
 		"requiredTech": "Mana Thaumaturgy",
 		"quote": "'They had discovered one could grow as hungry for light as for food.' - Stephen King, The Gunslinger"
@@ -1327,9 +1467,8 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
 			"Only available <after adopting [Honor]> <hidden from users>",
-			"[+2 Production] from [Iron] tiles [in this city]",
-			"Provides [4] [Iron]",
-			"[4] free [Swordsman] units appear"
+			"Gain a free [Barracks] [in all cities]",
+			"Provides [4] [Iron]"
 		],
 		"requiredTech": "Iron Working",
 		"quote": "'... Eagles fly, The turrets round, and seem to flout the sky; They eye those walls now crumbling in decay, And scare from quiet rest their destined prey.' – Samuel Prout Hill"
@@ -1629,6 +1768,7 @@
 	},
 	{
 		"name": "Laradfhael", // of Sulvana
+		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1,"Great Merchant": 1},
 		"uniques": [
 			"[+50]% XP gained from combat <for [Magical] units>",
@@ -1659,7 +1799,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training Flowing River Monk]",
-			"May buy [Flowing River Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [Flowing River Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Like the river, they flow with enemy’s attack, and use it against them, countering with crushing strike and turning the tide of battle."}
@@ -1672,7 +1812,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training Open Hand Monk]",
-			"May buy [Open Hand Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [Open Hand Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Using open fist and chop attacks, they disrupt and weaken enemies, sabotaging them in battle."}
@@ -1685,7 +1825,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training Shadow Fang Monk]",
-			"May buy [Shadow Fang Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [Shadow Fang Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Trained for infiltration and ambush, they strike from the shadows, striking confusion and crippling their enemies before they can react."}
@@ -1698,7 +1838,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training White Lotus Monk]",
-			"May buy [White Lotus Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [White Lotus Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Masters of elemental Qi, they channel Qi through their techniques to unleash powerful elemental attacks."}
@@ -1711,7 +1851,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training Drunken Fist Monk]",
-			"May buy [Drunken Fist Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [Drunken Fist Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Unpredictable and hard to pin down, they rely on erratic movements, chance-based effects, and of course, intoxication."}
@@ -1724,7 +1864,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training Gun Fu Monk]",
-			"May buy [Gun Fu Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [Gun Fu Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "These monks use pistols as part of their combat form, blending tradition with invention to attack enemy from afar."}
@@ -1737,7 +1877,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training Loyal Brotherhood Monk]",
-			"May buy [Loyal Brotherhood Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [Loyal Brotherhood Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "These monks never fight alone—bound by oath and vengeance, they appear in pairs and grow stronger together in battle."}
@@ -1750,7 +1890,7 @@
 			"Unsellable",
 			"Moves to new capital when capital changes",
 			"Comment [Enables training Wuxiau Monk]",
-			"May buy [Wuxia Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>",
+			"May buy [Wuxia Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Wuxia monks are mounted martial heroes who strike fast and ride far, trained for open warfare and charging attack."}

@@ -15,31 +15,12 @@
 		"innerColor": [158,56,0],
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>",
-		],
+		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
+		"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
 	},
-
-	{
-		"name": "The New Movement",
-		"leaderName": "Anton Slavik",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [162,51,0],
-		"innerColor": [0,0,0],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>",
-		],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	},
+	
 	
 	// TEMPLATE
 	/*
@@ -66,7 +47,7 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-				
+		
 		"outerColor": [255,255,255]
 		"innerColor": [255,255,255],
 		
@@ -116,7 +97,55 @@ Characters:
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
-
+	
+	// Alexander of Louvargia
+	{
+		"name": "Louvargia",
+		"leaderName": "Alexander",
+		"adjective": ["Louvargian"],
+		"startBias": ["Tundra"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Kunakad",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
+		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
+		"denounced": "",
+		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
+		"afterPeace": "Be happy of the fact that Mother still forgives you.",
+		"introduction": "Greetings strangers, I am Alexander, the revered son of Louvargia, come and feast with us! These are Her blessings of good harvest.",
+		
+		"neutralHello": "Goddess bless us.",
+		"hateHello": "Speak!",
+		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
+				
+		"outerColor": [237,216,184],
+		"innerColor": [  0, 54,255],
+		
+		"uniqueName": "Her Biting Embrace",
+		"uniques": [
+			"Comment [Provides 1 [Magician] and gain a free [Divine Order] upon discovering [Celestials Wisdom]]", 
+			"Comment [Gain a free second [Granary] in cities with at least 3 [Culture] buildings]", 
+			"Comment [Gain 15 [Faith] when our unit receives any Cold Ailment in Friendly Land]", 
+			
+			"Provides [1] [Magician] <after discovering [Celestial Wisdoms]> <hidden from users>",
+			"Free [Divine Order] appears <upon discovering [Celestial Wisdoms] technology> <hidden from users>",
+			"Provides [1] [cityLevelCounter] <for every [[Culture] Buildings]> <hidden from users>",
+			"[All] units gain the [Cold Embrace] promotion <hidden from users>",
+			"Instantly gain [20] [Aether] <upon gaining a [Divine Order] unit> <hidden from users>" // Divine Order's AoP consume 20 Aether
+		],
+		"cities": ["Louvar","Malovar","Orivar","Resivar","Amolivar","Luivar","Amanivar","Pialivar","Jalarivar","Valarivar",
+			"Urivar","Komivar","Luxuvar","Kurivar","Liqovar","Albuvar","Rasutovar","Kashvar","Aslar","Qarar"],
+		"spyNames": ["Perdiccas","Alcetas","Orestes","Arrhidaeus","Amyntas","Myles","Amyklas","Kynortas","Tyndareos","Orestes"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	// Valadorn of Thorin
 	{
 		"name": "Thorin",
@@ -141,13 +170,13 @@ Characters:
 		"neutralHello": "I'm listening.",
 		"hateHello": "What?",
 		"tradeRequest": "Accept this agreement or suffer the consequences.",
-				
+		
 		"outerColor": [255,184,33]
 		"innerColor": [153,  5, 3],
 		
 		"uniqueName": "Four Direction Pursuit"
 		"uniques": [				
-			"[+1] Movement <for [Military] units> <in [unowned] tiles>",
+			"[+1] Movement <for [Military] units> <in [Foreign Land] tiles>",
 			"[+1] Sight <for [Land] units>",
 			"Comment [Mounted unit resist half of Anti-Armor units' bonus Strength]",
 			"[Mounted] units gain the [Sturdy] promotion <hidden from users>"			
@@ -183,15 +212,16 @@ Characters:
 		"neutralHello": "Hello!",
 		"hateHello": "What do you need?!",
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
-				
+		
 		"outerColor": [153,  5,  3],
 		"innerColor": [255,255,255],
 		
 		"uniqueName": "Flower of Enlightenment",
 		"uniques": [
 			"Starts with [Wizardry] adopted",
-			"[Mage] units gain the [Mana Pulse] promotion",
-			"Comment [Provides 1 Magician in cities with at least 3 Magic Building]"
+			"[+1 Culture] from every [Magic Building]",
+			"Comment [Provides 1 [Magician] in cities with [Draen Sanctuary] and [Academy of Magic]]",
+			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <hidden from users>"
 		],
 		"cities": ["Kuin","Phocaea","Asahan","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Satui"
 			"Madirae","Kiea","Rasau","Sil Ifken","Ringsten","Godthenae","Novosten","Mare","Tonra","Hellulae"],

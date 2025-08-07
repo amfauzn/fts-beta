@@ -38,6 +38,32 @@
 	},
 	*/
 	
+	//TEMPLATE
+	/*
+	{
+		"name": "",
+		"unitType": "",
+		"uniqueTo": "",
+		"replaces": "",
+		"movement": ,
+		"strength": ,
+		"rangedStrength": ,
+		"range": ,
+		"cost": ,
+		"hurryCostModifier": ,
+		"requiredResource": "",
+		"requiredTech": "",
+		"obsoleteTech": "",
+		"upgradesTo": "",
+		"promotions": [""],
+		"uniques": [""],
+		"attackSound": "",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	*/
+	
 	// Civilian
 	{
 		"name": "Settler",
@@ -135,13 +161,27 @@
 		"obsoleteTech": "Acoustics",
 		"upgradesTo": "Pathfinder",
 		"promotions": ["[Scout] ability"],
-		"uniques": [
-			"May upgrade to [Arbalester] through ruins-like effects",
-			"Never appears as a Barbarian unit"
-		],
+		"uniques": ["May upgrade to [Arbalester] through ruins-like effects"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "A person who engage in skirmishes between small group of soldier or scout, sometimes before the battle between soldier occurred."}
+		]
+	},
+	{
+		"name": "Arcane Tracker",
+		"unitType": "Recon",
+		"uniqueTo": "Red Moon",
+		"replaces": "Skirmisher",
+		"movement": 2,
+		"strength": 15,
+		"cost": 60,
+		"requiredTech": "Poetry",
+		"obsoleteTech": "Acoustics",
+		"upgradesTo": "Pathfinder",
+		"promotions": ["Scrying","Unobstructed Vision"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Able to see another witch's magic color and shape, they often travel from place to place in search of Witchdraens (young witches), guiding them to the nearest Draen Sanctuary."}
 		]
 	},
 	{
@@ -157,9 +197,8 @@
 		"upgradesTo": "Wanderer",
 		"promotions": ["[Scout] ability"],
 		"uniques": [
-			"Can see invisible [Land] units",
-			"May upgrade to [Stand Shafter] through ruins-like effects",
-			"Never appears as a Barbarian unit"
+			"Can see invisible [Invisibility] units",
+			"May upgrade to [Stand Shafter] through ruins-like effects"
 		],
 		"attackSound": "crossbow",
 		"civilopediaText": [
@@ -179,9 +218,8 @@
 		"promotions": ["[Scout] ability"],
 		"uniques": [
 			"Invisible to non-adjacent units",
-			"Can see invisible [Land] units",
-			"No movement cost to pillage",
-			"Never appears as a Barbarian unit"
+			"Can see invisible [Invisibility] units",
+			"No movement cost to pillage"
 		],
 		"attackSound": "crossbow",
 		"civilopediaText": [
@@ -377,7 +415,10 @@
 		"obsoleteTech": "Pyromunition",
 		"upgradesTo": "Crusher",
 		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "These halberd-armed unit can thrust to strike enemies at a distance, pulling horsemen off their mounts, and even chop through enemy pike shafts to disrupt opposing formations."}
+		]
 	},
 	{
 		"name": "Crusher",
@@ -390,7 +431,10 @@
 		"obsoleteTech": "Bionic Physiology",
 		"upgradesTo": "Cyborg",
 		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Cyborg",
@@ -406,7 +450,10 @@
 			"No defensive terrain bonus",
 			"Ignores Zone of Control"
 		],
-		"attackSound": "gdrAttack"
+		"attackSound": "gdrAttack",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Mounted
@@ -476,7 +523,10 @@
 		"obsoleteTech": "Pyrokinetics",
 		"upgradesTo": "Landship",
 		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Landship",
@@ -489,7 +539,10 @@
 		"obsoleteTech": "Mobile Tactics",
 		"upgradesTo": "Tank",
 		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
-		"attackSound": "tankshot"
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Tank",
@@ -500,7 +553,10 @@
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
-		"attackSound": "tankshot"
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Ranged Infantry
@@ -538,7 +594,10 @@
 			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "crossbow"
+		"attackSound": "crossbow",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Arbalester",
@@ -555,7 +614,10 @@
 			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "crossbow"
+		"attackSound": "crossbow",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Stand Shafter",
@@ -573,7 +635,10 @@
 			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Bazooka", 
@@ -587,7 +652,10 @@
 		"requiredTech": "Rocketry",
 		//"promotions": ["Logistics"], can attack over obstacle
 		"uniques": ["Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Siege
@@ -607,7 +675,10 @@
 			"[-1] Sight",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
-		"attackSound": "throw"
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Trebuchet",
@@ -625,7 +696,10 @@
 			"[-1] Sight",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
-		"attackSound": "throw"
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Flare",
@@ -643,7 +717,10 @@
 			"Must set up to ranged attack",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Cannon",
@@ -663,7 +740,10 @@
 			//"[-1] Sight",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Artillery",
@@ -677,7 +757,10 @@
 		"requiredTech": "Pyroblasting",
 		//"promotions": ["Indirect Fire"],
 		"uniques": ["Must set up to ranged attack"],
-		"attackSound": "artillery"
+		"attackSound": "artillery",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Anti-Air
@@ -750,7 +833,10 @@
 			"[75]% chance to intercept air attacks",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": "These tube-like weapons fire shells up into the air. Upon reaching a pre-set altitude, the shells explode, releasing a mana-infused blast and deadly shrapnel to target nearby aerial units."}
+		]
 	},
 	{
 		"name": "Mobile Thunder",
@@ -766,7 +852,10 @@
 			"[+150]% Strength <vs [Air] units>",
 			"[100]% chance to intercept air attacks"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Melee Mage
@@ -786,7 +875,34 @@
 			"Comment [Heals allied units around it by 5 HP at the start of each turn]",
 			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>"
 		],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "With unwavering faith, these units wield powerful healing magic to fortify themselves and their allies, providing essential support on the battlefield."}
+		]
+	},
+	{
+		"name": "Divine Order",
+		"unitType": "Melee Mage",
+		"uniqueTo": "Louvargia",
+		"replaces": "Priest",
+		"movement": 2,
+		"strength": 25,
+		"cost": 75,
+		"hurryCostModifier": 10,
+		"requiredResource": "Magician",
+		"requiredTech": "Celestial Wisdoms",
+		"obsoleteTech": "Mana Crystallization",
+		"upgradesTo": "Cleric",
+		"promotions": ["Elemental Manipulation","Aura of Protection","Divine Right"],
+		"uniques": [
+			"Comment [Heals allied units around it by 5 HP at the start of each turn]",
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>",
+			"Religious Unit"
+		],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "Renowned for their strict values — gentle toward believers, but harsh toward heretics."}
+		]
 	},
 	{
 		"name": "Cleric",
@@ -804,7 +920,10 @@
 			"Comment [Heals allied units around it by 5 HP at the start of each turn]",
 			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>"
 		],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Paladin",
@@ -823,7 +942,10 @@
 			"Comment [Heals allied units around it by 5 HP at the start of each turn]",
 			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>"
 		],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Templar",
@@ -838,7 +960,10 @@
 			"[+1] Sight",
 			"Comment [Heals allied units around it by 5 HP at the start of each turn]"
 		],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Ranged Mage
@@ -857,7 +982,10 @@
 		"upgradesTo": "Wizard",
 		"promotions": ["Elemental Manipulation"],
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Wizard",
@@ -873,7 +1001,31 @@
 		"upgradesTo": "Arch-Wizard",
 		"promotions": ["Elemental Manipulation"],
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Moon Shade",
+		"unitType": "Ranged Mage",
+		"uniqueTo": "Red Moon",
+		"replaces": "Wizard",
+		"movement": 2,
+		"strength": 29,
+		"rangedStrength": 32,
+		"cost": 175,
+		"hurryCostModifier": 10,
+		"requiredResource": "Magician",
+		"requiredTech": "Spellbook Codification",
+		"obsoleteTech": "Magic Negation",
+		"upgradesTo": "Arch-Wizard",
+		"promotions": ["Elemental Manipulation","Perfect Awakening"],
+		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "Witchdraen (young witches) with great combat potential will be trained and later join the Sisters of the Moon Thread."}
+		]
 	},
 	{
 		"name": "Arch-Wizard",
@@ -889,7 +1041,10 @@
 		"upgradesTo": "Grand Magus",
 		"promotions": ["Elemental Manipulation"],
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Grand Magus",
@@ -903,7 +1058,10 @@
 		"requiredTech": "Pyroblasting",
 		"promotions": ["Elemental Manipulation"],
 		"uniques": ["[+10]% Strength <vs [{Biological} {Melee}] units> <when defending>"],
-		"attackSound": "whoosh"
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Construct
@@ -2955,7 +3113,7 @@
 			"Removes other religions when spreading religion",
 			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
 			"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-			"Can instantly construct a [Holy Site] improvement <by consuming this unit>",
+			"Can instantly construct a [Holy Site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Great Person - [Faith]",
 			//"Is part of Great Person group [Spiritual]",
 			"[-1] Sight",

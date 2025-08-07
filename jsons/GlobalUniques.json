@@ -173,6 +173,8 @@
 		"[This Unit] gains the [Synergy] status for [1] turn(s) <upon turn start> <when adjacent to a [Synergy] unit> <for [Monster] units>",
 		
 		// Heroes related
+		// Hero Landing
+		"[This Unit] gains the [Hero Landing] status for [1] turn(s) <upon turn start> <for units without [In Combat Cooldown]> <for [Hero] units>",
 		// Taunt
 		"[This Unit] gains the [Protected] status for [1] turn(s) <upon turn end> <when adjacent to a [Taunt Active] unit>",
 		"Cannot attack <vs [Protected] units>",

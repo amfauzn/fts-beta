@@ -54,7 +54,7 @@
 	
 	// Maps
 	{
-		"name": "Clear a Dungeon",
+		"name": "Clear Barbarian Camp",
 		"description": "We feel exhausted trying to clear the dungeon near our city. Please take care of it.",
 		"type": "Global",
 		"influence": 50,
