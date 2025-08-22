@@ -67,8 +67,7 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			//"Becomes [Grassland] when adjacent to [Fountain of Youth]",
-			//"Becomes [Desert] when adjacent to [Suction Mud]",
+			"Becomes [Grassland] when adjacent to [Fountain of Youth]",
 			"Becomes [Forest] when adjacent to [Man-eating Tree]",
 			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -160,7 +159,8 @@
 			"Rough terrain", 
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
-			"Units ending their turn on this terrain take [33] damage"]
+			"Units ending their turn on this terrain take [33] damage <for [non-[Trekker]] units>"
+		]
 	},
 	{
 		"name": "Mountain Tunnel",
@@ -301,6 +301,7 @@
 		"unbuildable": true,
 		"occursOn": ["Plains"],
 		"uniques": [
+			"Rough terrain",
 			"Rare feature",
 			"Must be adjacent to [1] to [6] [Forest] tiles",
 			"[10]% Chance to be destroyed by nukes",
@@ -462,6 +463,120 @@
 			{"text": "Fertilizer", "link":"Technology/Fertilizer"},
 			{"text": "Amphibious", "link":"Promotion/Amphibious"}
 		]
+	},
+	
+	// Natural Wonders
+	{
+		"name": "Fountain of Youth",
+		"type": "NaturalWonder",
+		"happiness": 4,
+		"movementCost": 2,
+		"overrideStats": true,
+		"occursOn": ["Grassland"],
+		"turnsInto": "Lakes",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {non-[Flying]} {Land}] units for the rest of the game",
+			"Tile provides yield without assigned population"
+		],
+		"weight": 4
+	},
+	{
+		"name": "Overgrowth Rift",
+		"type": "NaturalWonder",
+		"faith": 2,
+		"food": -1,
+		"production": 1,
+		"movementCost": 4,
+		"overrideStats": false,
+		"occursOn": ["Plains"],
+		"turnsInto": "Plains",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Lakes] tiles",
+			"Must be adjacent to [3] to [6] [Plains] tiles",
+			"Neighboring tiles will convert to [Man-eating Tree] <in [Open terrain] tiles>",
+			"Units ending their turn on this terrain take [100] damage"
+		],
+		"weight": 10
+	},
+	{
+		"name": "Chocolate Hills",
+		"type": "NaturalWonder",
+		"culture": 3,
+		"movementCost": 2,
+		"overrideStats": true,
+		"occursOn": ["Grassland","Plains"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Occurs in groups of [2] to [3] tiles",
+			"Occurs in groups around high elevations",
+			"Must be adjacent to [0] to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Water] tiles"
+		],
+		"weight": 10
+	},
+	{
+		"name": "Arkatore",
+		"type": "NaturalWonder",
+		"gold": 10,
+		"movementCost": 2,
+		"overrideStats": true,
+		"occursOn": ["Desert"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Hill] tiles",
+			"Must be adjacent to [0] [Flood plains] tiles"
+		],
+		"weight": 6
+	},
+	{
+		"name": "Eilifur Gjósa", // Eilifur Gjósa
+		"type": "NaturalWonder",
+		"happiness": 1,
+		"science": 2,
+		"movementCost": 2,
+		"overrideStats": false,
+		"occursOn": ["Tundra","Mountain"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] to [4] [Mountain] tiles",
+			"Must be adjacent to [3] to [6] [Elevated] tiles",
+			"Must be adjacent to [1] to [6] [Tundra] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Coast] tiles"
+		],
+		"weight": 10
+	},
+	{
+		"name": "Towering Reef",
+		"type": "NaturalWonder",
+		"science": 2,
+		"food": 2,
+		"gold": 1,
+		"movementCost": 3,
+		"overrideStats": false,
+		"occursOn": ["Coast","Shallow Ocean","Ocean"],
+		"turnsInto": "Coast",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [6] [Water] tiles",
+			"Occurs in groups of [2] to [2] tiles"
+		],
+		"weight": 10
 	},
 	
 	//Spells related

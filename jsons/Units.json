@@ -22,7 +22,7 @@
 		"name": "Meo 2",
 		"unitType": "Open Hand Monk",
 		"replaces": "Maceman",
-		"uniqueTo": "The New Movement",
+		"uniqueTo": "Thorin",
 		"movement": 5,
 		"strength": 10,
 		"rangedStrength": 10,
@@ -259,6 +259,26 @@
 		]
 	},
 	{
+		"name": "Warhammer",
+		"unitType": "Infantry",
+		"uniqueTo": "Polgar Sod'em",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 22,
+		"cost": 75,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Bonebreaker","Crafty"],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "As skillful as any other dwarf, Warhammer, though a warrior, is capable of improving Land resources and build Roads."}
+		]
+	},
+	{
 		"name": "Kalsharin",
 		"unitType": "Infantry",
 		"uniqueTo": "Thorin",
@@ -293,6 +313,26 @@
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Using lighter and more versatile weapon, these unit were faster and more manueverable than pikemen."}
+		]
+	},
+	{
+		"name": "Axeman",
+		"unitType": "Infantry",
+		"uniqueTo": "Twin Mountain",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 30,
+		"cost": 160,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Etherblader",
+		"promotions": ["Savage Attacker","Mountainborn"],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Hearstdurl, forged from Khorin’s magma by the legendary craftsman Durldin, served as the archetype for these troops’ weapons."}
 		]
 	},
 	{
@@ -671,7 +711,7 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-			"Must set up to ranged attack",
+			"Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>",
 			"[-1] Sight",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
@@ -692,7 +732,7 @@
 		"obsoleteTech": "Alchemy",
 		"upgradesTo": "Flare",
 		"uniques": [
-			"Must set up to ranged attack",
+			"Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>",
 			"[-1] Sight",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
@@ -714,7 +754,7 @@
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Cannon",
 		"uniques": [
-			"Must set up to ranged attack",
+			"Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
 		"attackSound": "cannon",
@@ -736,7 +776,7 @@
 		"upgradesTo": "Artillery",
 		//"promotions": ["Indirect Fire"],
 		"uniques": [
-			"Must set up to ranged attack",
+			"Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>",
 			//"[-1] Sight",
 			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
 		],
@@ -756,7 +796,7 @@
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Pyroblasting",
 		//"promotions": ["Indirect Fire"],
-		"uniques": ["Must set up to ranged attack"],
+		"uniques": ["Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>",],
 		"attackSound": "artillery",
 		"civilopediaText": [
 			{"text": ""}
@@ -776,7 +816,7 @@
 		"obsoleteTech": "Military Engineering",
 		"upgradesTo": "Ballista",
 		"uniques": [
-			"Must set up to ranged attack",
+			"Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>",
 			"[-1] Sight",
 			"No defensive terrain bonus",
 			//"Ignores Zone of Control",
@@ -803,7 +843,7 @@
 		"upgradesTo": "Boltspewer",
 		//"promotions": ["Barrage"], maybe rasah
 		"uniques": [
-			"Must set up to ranged attack",
+			"Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>",
 			"[-1] Sight",
 			"No defensive terrain bonus",
 			//"Ignores Zone of Control",
@@ -984,7 +1024,32 @@
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "An innate magic user who draws power from natural talent rather than extensive study or knowledge. Their magic often manifests instinctively, making them unpredictable yet formidable."}
+		]
+	},
+	{
+		"name": "Onmyōji",
+		"unitType": "Ranged Mage",
+		"uniqueTo": "Shinso",
+		"replaces": "Sorcerer",
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 1,
+		"cost": 75,
+		"hurryCostModifier": 10,
+		"requiredTech": "Mana Attunement",
+		"obsoleteTech": "Spellbook Codification",
+		"upgradesTo": "Wizard",
+		"promotions": ["Elemental Manipulation","Onmyōdo"],
+		"uniques": [
+			"Can only be built <in cities with a [Shrine]> <hidden from users>",
+			"Unbuildable",
+			"Comment [Can only be bought with [Gold]]"
+		],
+		"attackSound": "whoosh",
+		"civilopediaText": [
+			{"text": "Practitioners of the esoteric art of Onmyōdo, master of Yin-Yang, divination, and spirit-binding."}
 		]
 	},
 	{
@@ -1003,7 +1068,7 @@
 		"uniques": ["Can only be built <in cities with a [Arcane Spire]> <hidden from users>"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "These units cast spells through rigorous study and deep understanding of the arcane. They possess an impressive repertoire of spells and unique utility, allowing for versatile and strategic spellcasting."}
 		]
 	},
 	{
@@ -2544,7 +2609,8 @@
 		"name": "Ana Nzinga",
 		"unitType": "Ranged Infantry",
 		"movement": 2,
-		"strength": 30,
+		"strength": 24,
+		"rangedStrength": 30,
 		"promotions": ["Hero","Diplomatic Feint","Huntress"],
 		"uniques": [
 			"Hero",
@@ -2575,7 +2641,23 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Simon Bolivar",
+		"name": "Harald",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 30,
+		"promotions": ["Hero","Viking Fury","Bounty"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Harald Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Simón Bolívar",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 28,
@@ -2589,6 +2671,39 @@
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
 		"attackSound": "horse",
+	},
+	{
+		"name": "Yi Sun-Sin",
+		"unitType": "Naval Melee",
+		"movement": 4,
+		"strength": 30,
+		"promotions": ["Hero","Crashing Wave","Turtling"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Sun-Sin Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Saladin",
+		"unitType": "Ranged Infantry", // not really an Infantry eh
+		"movement": 4,
+		"strength": 22,
+		"rangedStrength": 26,
+		"promotions": ["Hero","Justice of Saladin","King's Mercy"],
+		"uniques": [
+			"Hero",
+			"Costs [100] [Fate]",
+			"Only available <if [Saladin Portal] is constructed>",
+			"Unbuildable",
+			"Limited to [1] per Civilization",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "arrow"
 	},
 	
 	// Monster
@@ -2789,7 +2904,7 @@
 		"name": "Dire Wolf",
 		"unitType": "Mounted Monster",
 		"uniqueTo": "Barbarians",
-		"movement": 4,
+		"movement": 3,
 		"strength": 22,
 		"cost": 75,
 		"requiredTech": "Animal Riding",
@@ -2840,7 +2955,7 @@
 	{
 		"name": "Sandworm",
 		"unitType": "Foot Monster",
-		"uniqueTo": "Barbarian",
+		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 20,
 		"cost": 100,
@@ -2897,7 +3012,7 @@
 	{
 		"name": "Bullworm",
 		"unitType": "Foot Monster",
-		"uniqueTo": "Barbarian",
+		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 20,
 		"cost": 100,

@@ -15,8 +15,9 @@
 		"innerColor": [158,56,0],
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>",
-		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
-		"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"],
+		//"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
+		//"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
+		],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
 	},
@@ -98,6 +99,51 @@ Characters:
 //		"innerColor": [255,255,255]
 	},
 	
+	// Hajruddin of Polgar Sod'em
+	{
+		"name": "Polgar Sod'em",
+		"leaderName": "Hajruddin",
+		"adjective": ["Sodites"],
+		"startBias": ["Hill"],
+		//"preferredVictoryType": "Cultural",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Dwarves",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent power!",
+		"denounced": "",
+		"defeated": "How could we fall to the likes of you?!",
+		"afterPeace": "Well played, fellow warrior.",
+		"introduction": "Welcome foreigner, I am Hajruddin. Come and tell me about your empire.",
+		
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Well?",
+		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
+		
+		"outerColor": [ 35, 53,116],
+		"innerColor": [255, 56, 56],
+		
+		"uniqueName": "Grand Builder"
+		"uniques": [
+			"[+25]% Production when constructing [All] wonders [in all cities] <during a Golden Age>",
+			"[+15]% Production towards any buildings that already exist in the Capital",
+			"Comment [Siege and Anti-Air units gain +1 Sight and may attack without setting up]",
+			
+			"[Siege] units gain the [Efficient Machinery] promotion <hidden from users>",
+			"[Anti-Air] units gain the [Efficient Machinery] promotion <hidden from users>"
+		],
+		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panma Caniem",
+			"Petra","Redemeer","Picchu","Angkoreen","Holonbay","Stonen Mengen","Hagan Sophiem","Mozi","Fez","Balkh"],
+		"spyNames": ["Eridd","Yurrgin","Kulin","Dili","Noli","Broil","Uroil","Bifur","Baur","Budigin"]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	// Alexander of Louvargia
 	{
 		"name": "Louvargia",
@@ -141,6 +187,98 @@ Characters:
 		"cities": ["Louvar","Malovar","Orivar","Resivar","Amolivar","Luivar","Amanivar","Pialivar","Jalarivar","Valarivar",
 			"Urivar","Komivar","Luxuvar","Kurivar","Liqovar","Albuvar","Rasutovar","Kashvar","Aslar","Qarar"],
 		"spyNames": ["Perdiccas","Alcetas","Orestes","Arrhidaeus","Amyntas","Myles","Amyklas","Kynortas","Tyndareos","Orestes"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Takashi no Seimei of Shinso
+	{
+		"name": "Shinso",
+		"leaderName": "Takashi no Seimei",
+		"adjective": ["Shinso"],
+		"startBias": ["Ley Line"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Vaja",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You won't stand a chance against our mighty casters!"
+		"attacked": "You dare to touch our sacred lands? It will be your grave!",
+		"denounced": "",
+		"defeated": "A pity that I won't be able to see the true Prosperity.",
+		"afterPeace": "It was an honor to fight you.",
+		"introduction": "I am Takashi no Seimei, Yasunori of Hakensei, welcome to our land!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "A vermin wants to talk?",
+		"tradeRequest": "We've come to bargain, Sir.",
+		
+		"outerColor": [218,165,32],
+		"innerColor": [  0, 0,205],
+		
+		"uniqueName": "Pillars of Heaven"
+		"uniques": [
+			"Comment [May build 5 unique Onmyō pillars after researching [Mathematics], [Philosophy], [Currency], [Engineering], and [Education]]",
+			"Comment [+25% [Production] when constructing National wonders in cities with a [Ley Line]]",
+			"Comment [May boost a Pillar of your choice after researching [Education] (can be changed anytime)]",
+			"Comment [Chosen Pillar also boost [Ley Line] stats]",
+			"May buy [Onmyōji] units with [Gold] [in all cities] <hidden from users>"
+		],
+		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto",
+			"Shingawa","Asatori","Hoshiyama","Iwazawa","Kirikawa","Asahaba","Tateki","Miyakumo","Shirotsuchi","Shinchaku"],
+		"spyNames": ["Akaishi","Anri","Hattori","Oda","Momoka","Kawashima","Hojo","Hitomi","Kaede","Mochizuki"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Thralldin of Twin Mountain
+	{
+		"name": "Twin Mountain",
+		"leaderName": "Thralldin",
+		"adjective": ["Tilteinen"],
+		"startBias": ["Mountain"],
+		//"preferredVictoryType": "Scientific",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Dwarves",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Now we will see if you are cowards or warriors!",
+		"attacked": "I shall tell my historians to record your empire for the future, after I have ground your cities into the dust.",
+		"denounced": "",
+		"defeated": "I never thought this could happen… not like this.",
+		"afterPeace": "You have proven yourself a worthy opponent today. I congratulate you.",
+		"introduction": "I am Thralldin. My fortress will stand forever.",
+		
+		"neutralHello": "What is it?",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I offer this, for your consideration.",
+		
+		"outerColor": [ 27, 53, 63]
+		"innerColor": [213,249,255],
+		
+		"uniqueName": "Shield of the Mountain"
+		"uniques": [
+			"Comment [Land units may pass impassable tiles and take no damage from ending a turn in [Mountain] tiles]",
+			"Comment [+15% Strength within 2 tiles of a [Mountain], doubled if within 1 tile]",
+			"Comment [May build [Mine] in [Mountain] tiles]",
+			
+			"[Land] units gain the [Trekker] promotion <hidden from users>",
+			"[+15]% Strength <within [2] tiles of a [Mountain]> <hidden from users>",
+			"[+15]% Strength <within [1] tiles of a [Mountain]> <hidden from users>",
+			
+			"[+2 Science] from [Staerie] tiles [in all cities] <when number of [cityLevelCounter] is less than [2]> <hidden from users>",
+		],
+		"cities": ["Thraldin's Palace","Khoryth","Cremona","Sunderburn","Tiltein","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley","Circle Cliff",
+			"Darken Crest","Muntham","Red Ice","Grazknurl","Vennelin","Drumlen","Walstane","Maidhurst","Jagged Hill","Munmar"],
+		"spyNames": ["Dwalin","Balin","Durldin","Dulir","Fali","Gali","Sami","Duin","Kurdin","Gafur"],
 		"civilopediaText": [
 			{"text": ""}
 		]

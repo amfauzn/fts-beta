@@ -17,27 +17,6 @@
 			{"text": "An area of land devoted primarily for agricultural processes to produce food."}
 		]
 	},
-	{
-		"name": "Blessed Farm",
-		"uniqueTo": "Louvargia",
-		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Calendar",
-		"uniques": [
-			"Farm",
-			"Comment [+1 [Faith] if adjacent to at least 2 [Farm]]",
-			"[+1 Faith] <with [2] to [6] neighboring [Farm] tiles> <hidden from users>",
-			"[+1 Food] <after discovering [Civil Service]>", 
-			"[+1 Production] <after discovering [Runeforging]>", 
-			"Does not need removal of [Aurora] <hidden from users>",
-			"Pillaging this improvement yields approximately [+10 Gold, +5 Faith]"
-		],
-		"shortcutKey": "F",
-		"civilopediaText": [
-			{"text": "A farm that received a blessing from the Tundra Goddess Inua, a gift from her to the Louvargians."}
-		]
-	},
 	/*{
 		"name": "Ice-calator",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
@@ -86,6 +65,22 @@
 		]
 	},
 	{
+		"name": "TM Mine",
+		"uniqueTo": "Twin Mountain",
+		"replaces": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill","Mountain"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+			"Does not need removal of [Aurora] <hidden from users>",
+			"[+1 Production] <after discovering [Metallurgy]>",
+			"Pillaging this improvement yields approximately [+8 Gold]",
+			"Will not be displayed in Civilopedia"
+		],
+		"shortcutKey": "M"
+	},
+	{
 		"name": "Terrace farm",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra"],
 		"food": 1,
@@ -116,7 +111,7 @@
 			"[+1 Production] <after discovering [Runeforging]>",
 			"[+1 Gold] <after discovering [Mana Battery]>",
 			"Can only be built to improve a resource",
-			"Provides [2] [Aether] <after discovering [Leyline Siphoning]>",
+			"Provides [1] [Aether] <after discovering [Leyline Siphoning]>",
 			"Pillaging this improvement yields approximately [+12 Gold]"
 		],
 		"shortcutKey": "B",
@@ -317,8 +312,7 @@
 		"uniques": [
 			//"Only available <for units without [Nature Keeper]>",
 			"Can be built outside your borders",
-			"Excluded from map editor",
-			//"Only available <for units without [Nature Keeper]>"
+			"Excluded from map editor"
 		],
 		"shortcutKey": "X",
 		"civilopediaText": [
@@ -332,8 +326,7 @@
 		"uniques": [
 			//"Only available <for units without [Nature Keeper]>",
 			"Can be built outside your borders",
-			"Excluded from map editor",
-			//"Only available <for units without [Nature Keeper]>"
+			"Excluded from map editor"
 		],
 		"shortcutKey": "X",
 		"civilopediaText": [
@@ -580,6 +573,48 @@
 		],
 		"civilopediaText": [
 			{"text": "A heavily fortified structure built on Coast to defend against naval invasions."}
+		]
+	},
+	
+	// Unique improvements
+	{
+		"name": "Blessed Farm",
+		"uniqueTo": "Louvargia",
+		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": [
+			"Farm",
+			"Comment [+1 [Faith] if adjacent to at least 2 [Farm]]",
+			"[+1 Faith] <with [2] to [6] neighboring [Farm] tiles> <hidden from users>",
+			"[+1 Food] <after discovering [Civil Service]>", 
+			"[+1 Production] <after discovering [Runeforging]>", 
+			"Does not need removal of [Aurora] <hidden from users>",
+			"Pillaging this improvement yields approximately [+10 Gold, +5 Faith]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "A farm that received a blessing from the Tundra Goddess Inua, a gift from her to the Louvargians."}
+		]
+	},
+	{
+		"name": "Staerie",
+		"uniqueTo": "Twin Mountain",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"science": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"[+1 Science] for each adjacent [Great Improvement]",
+			"Comment [+2 [Science] if this is the only [Staerie] in a city]",
+			"Provides [1] [cityLevelCounter] <hidden from users>",
+			"Pillaging this improvement yields approximately [+10 Gold, +4 Science]",
+		],
+		"techRequired": "Cartography",
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "An encampment with two different functions, that is to observe nature events and to monitor, guard, and anticipate surprise attacks by enemies."},
+			{"text": "While Staerie is safe from any pillaging during early game, it's better guard this improvement from the invasion of Golems."}
 		]
 	},
 	

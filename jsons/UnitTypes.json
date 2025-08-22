@@ -366,7 +366,8 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
-			"Foot"
+			"Foot",
+			"Never appears as a Barbarian unit"
 		]
 	},
 	

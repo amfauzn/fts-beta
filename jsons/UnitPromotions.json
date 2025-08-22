@@ -1219,7 +1219,6 @@
 		"name": "Slashing Wind",
 		"prerequisites": ["Swift Step"],
 		"uniques": [
-			"Active Spell",
 			"Instantly consumes [25] [Aether]",
 			"Comment [Active. Inflict [Bleeding] to Biological unit for 2 turns. Inflict [Blazing Fire] for 2 turns to [Burning] units. Cooldown: 5 turns. Cost: 1 Move]",
 			"[This Unit] gains the [Slashing Wind Active] status for [1] turn(s) <for [1] movement> <for units without [Slashing Wind Cooldown]> <for [non-[No Cast]] units> <hidden from users>"
@@ -2139,7 +2138,7 @@
 		"uniques": [
 			"Active Spell",
 			"Comment [Deal 40 damage]",
-						"[Target Unit] takes [40] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] takes [40] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			
 			"[Target Unit] takes [5] damage <upon damaging a [Pyro Extra] unit> <with [SelfTurn]> <hidden from users>",
 			"[Target Unit] takes [15] damage <upon damaging a [Oiled] unit> <with [SelfTurn]> <hidden from users>",
@@ -4153,7 +4152,7 @@
 		"name": "Ebb & Flow",
 		"uniques": [
 			"Comment [Toggleable]",
-			"Comment [[Ebb Stance]: Deal 20 counter damage to the first non-Air attacker on each turn]", //	need some workaround
+			"Comment [[Ebb Stance]: Deal 20 damage to the first non-Air attacker on each turn]", //	need some workaround
 			"Comment [[Flow Stance]: Dodge the first unit attack on each turn]",
 		
 			"[This Unit] gains the [Ebb Stance] promotion <hidden from users>",
@@ -4168,7 +4167,7 @@
 	{
 		"name": "Ebb Stance",
 		"uniques": [
-			"Comment [Deal 20 counter damage to the first attacker on each turn]",
+			"Comment [Deal 20 damage to the first attacker on each turn]",
 			"[+1]% Strength <for units without [Ebb Stance Cooldown]> <hidden from users>" // Damage to attacker
 		],
 	},
@@ -5615,13 +5614,14 @@
 	},
 	{
 		"name": "Hero Landing",
-		"uniques": ["May Paradrop to [All] tiles up to [30] tiles away"]
+		"uniques": ["May Paradrop to [All] tiles up to [30] tiles away"] // make it cost 10 Fate 
 	},
 	{
 		"name": "Living Legends",
 		"uniques": ["Instantly gain [8] [Fate] <upon defeating a [Military] unit>"]
 	},
 	
+	// Signature Skills
 	{
 		"name": "Demon King's Rush",		// Oda Nobunaga
 		"uniques": [
@@ -5717,7 +5717,7 @@
 		"name": "Victory Banner Active",
 		"uniques": [
 			"[+1] Movement",
-			"Comment [Does not need set up to ranged attack]",
+			"Comment [May attack without setting up]",
 			"[This Unit] gains the [Victory Banner Cooldown] status for [10] turn(s) <upon gaining the [Victory Banner Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
@@ -5831,6 +5831,37 @@
 		]
 	},
 	{
+		"name": "Viking Fury",				// Harald
+		"uniques": [
+			"Comment [Active. +30% Strength when attacking, -15% Strength when defending, +1 Movement. Duration: 3 turns. Cooldown: 10]",
+			"[This Unit] gains the [Viking Fury Active] status for [3] turn(s) <for [0] movement> <for units without [Viking Fury Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Viking Fury Active",
+		"uniques": [
+			"[+30]% Strength <when attacking>",
+			"[-15]% Strength <when defending>",
+			"[+2] Movement",
+			"[This Unit] gains the [Viking Fury Cooldown] status for [10] turn(s) <upon gaining the [Viking Fury Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Viking Fury Cooldown",
+		"uniques": [
+			"Comment [[Viking Fury] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Bounty",
+		"uniques": [
+			"No movement cost to pillage",
+			"[+50]% Yield from pillaging tiles"
+		]
+	},
+	{
 		"name": "Call for Freedom",			// Simon Bolivar
 		"uniques": [
 			"Comment [Active. Free strongest Mounted unit appears. Cost: 2 Movement. Cooldown: 0]",
@@ -5846,6 +5877,69 @@
 		"uniques": [
 			"[+50]% to Flank Attack bonuses",
 			"[Great General] is earned [50]% faster"
+		]
+	},
+	{
+		"name": "Crashing Wave",			// Yi Sun-Sin
+		"uniques": [
+			"Comment [Active. +2 additional attacks. Cooldown: 5]",
+			"[This Unit] gains the [Crashing Wave Active] status for [1] turn(s) <for [0] movement> <for units without [Crashing Wave Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Crashing Wave Active",
+		"uniques": [
+			"[+2] additional attacks per turn",
+			"[This Unit] gains the [Crashing Wave Cooldown] status for [5] turn(s) <upon gaining the [Crashing Wave Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Crashing Wave Cooldown",
+		"uniques": [
+			"Comment [[Crashing Wave] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Turtling",
+		"uniques": [
+			"[+25]% Strength <in [Friendly Land] tiles>",
+			"Comment [Reduce damage taken by 5]",
+			"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>"
+		]
+	},
+	{
+		"name": "Justice of Saladin",		// Yi Sun-Sin
+		"uniques": [
+			"Comment [Active. Deals 80 damage to non-Hero unit. Cooldown: 10]",
+			"[This Unit] gains the [JoS Active] status for [1] turn(s) <for [0] movement> <for units without [JoS Cooldown]> <costs [40] [Fate]> <hidden from users>"
+		]
+	},
+	{
+		"name": "JoS Active",
+		"uniques": [
+			"[Target Unit] takes [80] damage <upon damaging a [non-[Hero]] unit> <hidden from users>",
+			"[This Unit] gains the [JoS Cooldown] status for [5] turn(s) <upon gaining the [JoS Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "JoS Cooldown",
+		"uniques": [
+			"Comment [[Justice of Saladin] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "King's Mercy",
+		"uniques": [
+			"May capture killed [Biological] units",
+			"[+1] population in a random city <upon defeating a [Great Person] unit>"
 		]
 	},
 	
@@ -6824,6 +6918,29 @@
 			"May attack when embarked"
 		]
 	},
+	{
+		"name": "Rejuvenation", 				// Fountain of Youth
+		"uniques": ["All healing effects doubled"]
+	},
+	
+	// Polgar Sod'em
+	{
+		"name": "Efficient Machinery",
+		"uniques": [
+			"Comment [May attack without setting up]",
+			"[+1] Sight"
+		]
+	},
+	{
+		"name": "Crafty",
+		"uniques": [
+			"Comment [May build Road and Land improvements on resource tiles]",
+			"Can build [Road] improvements on tiles <hidden from users>",
+			"Can build [Land] improvements on tiles <in [Bonus resource] tiles> <hidden from users>",
+			"Can build [Land] improvements on tiles <in [Luxury resource] tiles> <hidden from users>",
+			"Can build [Land] improvements on tiles <in [Strategic resource] tiles> <hidden from users>",
+		]
+	},
 	
 	// Louvargia
 	{
@@ -6838,7 +6955,7 @@
 			"Gain [25] [Faith] <upon gaining the [Frostbitten] status> <hidden from users>",
 			"Gain [25] [Faith] <upon gaining the [Frozen] promotion> <hidden from users>",
 			"Gain [25] [Faith] <upon gaining the [Frozen] status> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Permafrost] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Permafrost] promotion> <hidden from users>"
 		]
 	},
 	{
@@ -6848,6 +6965,43 @@
 			"Can remove other religions from cities <once>",
 			"Takes your religion over the one in their birth city",
 			"Religious Unit"
+		]
+	},
+	
+	// Shinso
+	{
+		"name": "Onmyōdo",
+		"uniques": [
+			"Comment [This unit utilize Shikigami to cast spell, that doesn't rely on Mana]",
+			"Comment [Immune to [Mana Exhaustion], +25% Strength for Active Spell, but cost 35 Gold to cast]",
+			"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>",
+			"[+25]% Strength <for units with [Infernal Purge Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Fireball Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Emberfall Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Eternal Fire Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Slashing Wind Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Tornado Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Conduit Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Voltaic Leash Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Superconductor Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Wailing Tempest Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Fossil Strike Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Geospike Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Turn to Stone Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Ice Prison Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Water Whip Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Blizzard Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Ice Age Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Melt Armor Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Solar Ray Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Iron Maiden Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Thorn Grasp Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Carnivorous Growth Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Thunderclap Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Shatter Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Pressurized Bomb Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Sanctuary Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Pandemy Active]> <hidden from users>"
 		]
 	},
 	
@@ -6912,6 +7066,26 @@
 			"Comment [Immune to [Mana Exhaustion]]",
 			"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>"
 		]
+	},
+	
+	// Twin Mountain
+	{
+		"name": "Trekker"
+		"uniques": [
+			"Can pass through impassable tiles",
+			"Comment [Takes no damage upon ending a turn in [Mountain] tiles]"
+		]
+	},
+	{
+		"name": "Savage Attacker",
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"[-15]% Strength <when defending> <vs [Melee] units>"
+		]
+	},
+	{
+		"name": "Mountainborn",
+		"uniques": ["Double movement in [Hill]"]
 	},
 	
 	// Wonder

@@ -23,7 +23,14 @@
 - Monks
 - Tuskarr
 
+## by GeneralWadaling (AKA TheBucketeer)
+- Arkatore (reused Cerro de Potosi)
+- Eilifur Gjósa (reused Old Faithful)
+- Towering Reef (reused Great Barrier Reef)
+
 ## by letstalkaboutdune (AU style)
 - Askia
+- Harald
 - Leonidas
 - Oda Nobunaga
+- Yi Sun-Sin
