@@ -1041,7 +1041,7 @@
 		"requiredTech": "Mana Attunement",
 		"obsoleteTech": "Spellbook Codification",
 		"upgradesTo": "Wizard",
-		"promotions": ["Elemental Manipulation","Onmyōdo"],
+		"promotions": ["Elemental Manipulation","Onmyodo"],
 		"uniques": [
 			"Can only be built <in cities with a [Shrine]> <hidden from users>",
 			"Unbuildable",
