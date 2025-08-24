@@ -860,7 +860,8 @@
 			"Instantly consumes [35] [Aether]",
 			"Comment [Active. Remove ALL ailments from target unit to deal 10 damage for each ailment removed. Cooldown: 9 turns]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Infernal Purge Active] status for [1] turn(s) <for [0] movement> <for units without [Infernal Purge Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Infernal Purge Active] status for [1] turn(s) <for [0] movement> <for units without [Infernal Purge Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <for [non-[Onmyodo]] units> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Infernal Purge Active] status for [1] turn(s) <for [0] movement> <for units without [Infernal Purge Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+150 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage"],
@@ -1082,7 +1083,8 @@
 			"Instantly consumes [50] [Aether]",
 			"Comment [Active. Inflict [Blazing Fire] permanently. Cooldown: 10 turns. Cost: 1 Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Eternal Fire Active] status for [1] turn(s) <for [1] movement> <for units without [Eternal Fire Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Eternal Fire Active] status for [1] turn(s) <for [1] movement> <for units without [Eternal Fire Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Eternal Fire Active] status for [1] turn(s) <for [1] movement> <for units without [Eternal Fire Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+200 Gold] stats> <hidden from users>",
 			
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
@@ -1303,7 +1305,8 @@
 			"Instantly consumes [50] [Aether]",
 			"Comment [Active. +250% Strength vs cities or deal 25 damage and inflict [Slowed] and [Wet] for 2 turns vs units. Also destroys improvements when attacking. Cooldown: 12 turns. Cost: 1 Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Tornado Active] status for [1] turn(s) <for [1] movement> <for units without [Tornado Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Tornado Active] status for [1] turn(s) <for [1] movement> <for units without [Tornado Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Tornado Active] status for [1] turn(s) <for [1] movement> <for units without [Tornado Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+200 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		
@@ -1543,7 +1546,8 @@
 			"Instantly consumes [50] [Aether]",
 			"Comment [Active. Deal 10 damage then inflict [Wet], [Deafened], and [Disoriented] for 3 turns in a radius of 1-tile from target at the start of their turn. Cooldown: 12 turns. Cost: 1 Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Wailing Tempest Active] status for [1] turn(s) <for [1] movement> <for units without [Wailing Tempest Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Wailing Tempest Active] status for [1] turn(s) <for [1] movement> <for units without [Wailing Tempest Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Wailing Tempest Active] status for [1] turn(s) <for [1] movement> <for units without [Wailing Tempest Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+200 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>",
 		],
 		"unitTypes": ["Ranged Mage"],
@@ -1771,7 +1775,8 @@
 			"Instantly consumes [50] [Aether]",
 			"Comment [Active. Create a strongest available Infantry unit as a Construct. Cooldown: 15 turns. Cost: All Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Animate Earth Active] status for [1] turn(s) <for all movement> <for units without [Animate Earth Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Animate Earth Active] status for [1] turn(s) <for all movement> <for units without [Animate Earth Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Animate Earth Active] status for [1] turn(s) <for all movement> <for units without [Animate Earth Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+200 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Ranged Mage"],
@@ -2012,7 +2017,8 @@
 			"Instantly consumes [50] [Aether]",
 			"Comment [Active. Inflict [Permafrost] permanently and turn the targeted tile into [Frozen Wasteland]. Cooldown: 15 turns. Cost: 1 Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Ice Age Active] status for [1] turn(s) <for [1] movement> <for units without [Ice Age Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Ice Age Active] status for [1] turn(s) <for [1] movement> <for units without [Ice Age Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Ice Age Active] status for [1] turn(s) <for [1] movement> <for units without [Ice Age Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+200 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Ranged Mage"],
@@ -2124,7 +2130,8 @@
 			"Instantly consumes [60] [Aether]",
 			"Comment [Active. Deal 40 damage. Cooldown: 13 turns. Cost: 1 Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Solar Ray Active] status for [1] turn(s) <for [1] movement> <for units without [Solar Ray Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Solar Ray Active] status for [1] turn(s) <for [1] movement> <for units without [Solar Ray Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Solar Ray Active] status for [1] turn(s) <for [1] movement> <for units without [Solar Ray Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage", "Ranged Mage"],
@@ -2234,7 +2241,8 @@
 			"Instantly consumes [60] [Aether]",
 			"Comment [Active. Inflict [Stunned] for 1 turn and [Bleeding] for 3 turns. Cooldown: 5 turns. Cost: 1 Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Iron Maiden Active] status for [1] turn(s) <for [1] movement> <for units without [Iron Maiden Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Iron Maiden Active] status for [1] turn(s) <for [1] movement> <for units without [Iron Maiden Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Iron Maiden Active] status for [1] turn(s) <for [1] movement> <for units without [Iron Maiden Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage", "Ranged Mage"],
@@ -2336,7 +2344,8 @@
 			"Instantly consumes [60] [Aether]",
 			"Comment [Active. Inflict [Rooted] for 2 turns and turn attacked tile into [Man-eating Tree]. Cooldown: 10 turns. Cost: [Mana Charge].]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Carnivorous Growth Active] status for [1] turn(s) <for [0] movement> <for units without [Carnivorous Growth Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Carnivorous Growth Active] status for [1] turn(s) <for [0] movement> <for units without [Carnivorous Growth Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Carnivorous Growth Active] status for [1] turn(s) <for [0] movement> <for units without [Carnivorous Growth Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -2447,7 +2456,8 @@
 			"Instantly consumes [60] [Aether]",
 			"Comment [Active. Deal 10 damage, doubled vs [Brittle]/[Frozen]/Mechanical units. Inflict [Stunned] for 1 turn and [Ruptured] for 3 turns. Cooldown: 10 turns. Cost: 1]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Shatter Active] status for [1] turn(s) <for [1] movement> <for units without [Shatter Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Shatter Active] status for [1] turn(s) <for [1] movement> <for units without [Shatter Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Shatter Active] status for [1] turn(s) <for [1] movement> <for units without [Shatter Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -2558,7 +2568,8 @@
 			"Instantly consumes [60] [Aether]",
 			"Comment [Active. Lob a bomb that will explode for 25 damage at the start of target's turn. Radius: 1 tile. Cooldown: 8 turns. Cost: 1 Move;]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Pressurized Bomb Active] status for [1] turn(s) <for [1] movement> <for units without [Pressurized Bomb Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Pressurized Bomb Active] status for [1] turn(s) <for [1] movement> <for units without [Pressurized Bomb Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Pressurized Bomb Active] status for [1] turn(s) <for [1] movement> <for units without [Pressurized Bomb Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -2751,7 +2762,8 @@
 			"Instantly consumes [60] [Aether]",
 			"Comment [Active. Inflict [Infected] for 3 turns. Cooldown: 12 turns. Cost: 1 Move]",
 			"Comment [Requires [Mana Charge]]",
-			"[This Unit] gains the [Pandemy Active] status for [1] turn(s) <for [1] movement> <for units without [Pandemy Cooldown]> <for [non-[No Cast]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Pandemy Active] status for [1] turn(s) <for [1] movement> <for units without [Pandemy Cooldown]> <for [non-[No Cast]] units> <for [non-[Onmyodo]] units> <for units with [Mana Charge]> <removing the [Mana Charge] promotion/status> <hidden from users>",
+			"[This Unit] gains the [Pandemy Active] status for [1] turn(s) <for [1] movement> <for units without [Pandemy Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		]
 		"unitTypes": ["Melee Mage","Ranged Mage"],
@@ -6578,7 +6590,22 @@
 			"Comment [This unit may charge its mana for an ultimate spell]",
 			//Mana Charge
 			"[This Unit] gains the [Mana Charge] status for [2] turn(s) <for all movement> <for units without [Ultimate Cooldown]> <hidden from users>",
-			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Mana Charge] status> <hidden from users>"
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Mana Charge] status> <hidden from users>",
+			
+			//Shinso's Onmyodo
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Infernal Purge Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Eternal Fire Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Tornado Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Wailing Tempest Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Animate Earth Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Ice Age Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Solar Ray Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Iron Maiden Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Carnivorous Growth Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Shatter Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Pressurized Bomb Active] status> <for units with [Onmyodo]> <hidden from users>",
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Pandemy Active] status> <for units with [Onmyodo]> <hidden from users>",
+			
 		]
 	},
 	{
@@ -6970,11 +6997,11 @@
 	
 	// Shinso
 	{
-		"name": "Onmyōdo",
+		"name": "Onmyodo",
 		"uniques": [
-			"Comment [This unit utilize Shikigami to cast spell, that doesn't rely on Mana]",
-			"Comment [Immune to [Mana Exhaustion], +25% Strength for Active Spell, but cost 35 Gold to cast]",
-			"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>",
+			"Comment [Ultimates don't require [Mana Charge]. Instead, they cost [Gold] equal to 4 times their [Aether] cost when cast]",
+			"Comment [+25% Strength when casting Active Spell]",
+		//	"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>",
 			"[+25]% Strength <for units with [Infernal Purge Active]> <hidden from users>",
 			"[+25]% Strength <for units with [Fireball Active]> <hidden from users>",
 			"[+25]% Strength <for units with [Emberfall Active]> <hidden from users>",
