@@ -1528,7 +1528,7 @@
 	{
 		"name": "Teleportation Active",			//Superconductor
 		"uniques": [
-			"May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>",
+			"May Paradrop to [Land] tiles up to [10] tiles away <in [City center] tiles>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
