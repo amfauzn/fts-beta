@@ -359,7 +359,7 @@ Characters:
 			"Starts with [Wizardry] adopted",
 			"[+1 Culture] from every [Magic Building]",
 			"Comment [Provides 1 [Magician] in cities with [Draen Sanctuary] and [Academy of Magic]]",
-			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <hidden from users>"
+			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <when below [5] [stockpiledCounter]> <hidden from users>"
 		],
 		"cities": ["Kuin","Phocaea","Asahan","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Satui"
 			"Madirae","Kiea","Rasau","Sil Ifken","Ringsten","Godthenae","Novosten","Mare","Tonra","Hellulae"],
