@@ -11,8 +11,8 @@
 		"[-1] Sight <for [Embarked] units>",
 		
 		// Self Turn mechanic
-		"Instantly gain [1] [SelfTurn] <upon turn start>",
-		"Instantly consumes [1] [SelfTurn] <upon turn end>",
+		"Instantly gain [1] [SelfTurn] <upon turn start> <when below [1] [SelfTurn]>",
+		"Instantly consumes [1] [SelfTurn] <upon turn end> <when above [0] [SelfTurn]>",
 		
 		// Mercenary
 		"New [Composite Bowman] units start with [15] XP [in all cities]",
@@ -223,6 +223,9 @@
 		//Arcane Stitch
 		"[This Unit] gains the [Immunity] status for [12] turn(s) <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
 		"[This Unit] heals [50] HP <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
+		
+		// Magnetic Ward
+		"[This Unit] gains the [Magnetic Aura] status for [1] turn(s) <upon turn end> <when adjacent to a [Magnetic Ward Active] unit>",
 		
 		//Debuffs related
 		//Blazing Retort

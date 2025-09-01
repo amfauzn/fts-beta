@@ -23,7 +23,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
-			"Foot",
+			"Footman",
 			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		]
@@ -33,7 +33,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
-			"Foot",
+			"Footman",
 			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		]
@@ -44,7 +44,7 @@
 		"uniques": [
 			"Biological",
 			"Mobile",
-			"No defensive terrain bonus",
+			"No defensive terrain bonus <for units without [Aegis]>",
 			"[+1] Movement <with [Companion Raider]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
@@ -55,7 +55,7 @@
 		"uniques": [
 			"Air Battler",
 			"Biological",
-			"Foot",
+			"Footman",
 			"[-25]% Strength <vs cities> <when attacking>"
 		]
 	},
@@ -366,7 +366,7 @@
 		"movementType": "Land",
 		"uniques": [
 			"Biological",
-			"Foot",
+			//"Footman",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -387,7 +387,7 @@
 		"name": "Foot Monster", // so they don't directly affected by Biological ailments, consist both Biological and Undead
 		"movementType": "Land",
 		"uniques": [
-			"Foot",
+			"Footman",
 			"Monster"
 		]
 	},

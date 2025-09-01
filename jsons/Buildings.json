@@ -1178,6 +1178,25 @@
 		]
 	},
 	{
+		"name": "Chamber of Renewal",
+		"uniqueTo": "Smeheng",
+		"replaces": "Mawene",
+		"requiredBuilding": "Temple",
+		"culture": 1,
+		"faith": 3,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Provides [1] [Mythical Egg]",
+			"[-5]% Unhappiness from [Population] [in this city]",
+			"Only available <when religion is enabled>"
+		],
+		"requiredTech": "Printing",
+		"civilopediaText": [
+			{"text": "Songs and praises are deemed essential for nurturing the mythical eggs and the beings that emerge from them."}
+		]
+	},
+	{
 		"name": "Warteg",
 		"requiredNearbyImprovedResources": ["Salt","Spices","Truffles"],
 		"happiness": 1,
@@ -1221,7 +1240,10 @@
 			"Provides [1] [Soulstone]",
 			"Only available <in cities without a [Crystalloom Refinery (Rune Stone)]> <hidden from users>"
 		],
-		"requiredTech": "Alchemy"
+		"requiredTech": "Alchemy",
+		"civilopediaText": [
+			{"text": "Through alchemical processes and intricate rituals, iron essence weaved and transmuted into Rune Stone."}
+		]
 	},
 	{
 		"name": "Crystalloom Refinery (Rune Stone)",
@@ -1234,7 +1256,10 @@
 			"Provides [1] [Rune Stone]",
 			"Only available <in cities without a [Crystalloom Refinery (Soulstone)]> <hidden from users>"
 		],
-		"requiredTech": "Alchemy"
+		"requiredTech": "Alchemy",
+		"civilopediaText": [
+			{"text": "Through alchemical processes and intricate rituals, iron essence and horses' soul weaved and transmuted into Soulstone."}
+		]
 	},
 	
 	{
@@ -1249,7 +1274,10 @@
 			"[+3 Culture] <in cities with a [Monument]> <in cities with a [Pyramid]> <in cities with a [Theater Square]> <hidden from users>",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Archaeology"
+		"requiredTech": "Archaeology",
+		"civilopediaText": [
+			{"text": "A public spaces dedicated to displaying and preserving treasured possessions or objects."}
+		]
 	},
 	{
 		"name": "Factory",
@@ -1434,7 +1462,8 @@
 			"Free [Oda Nobunaga] appears",
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"
-		]
+		],
+		"requiredTech": "Celestial Wisdoms"
 	},
 	{
 		"name": "Leonidas Portal",
@@ -1528,7 +1557,7 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
-			"Mounted Portal",
+			"infantry Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed> <with [Portal Limiter]>",
 			"Moves to new capital when capital changes",
@@ -1562,7 +1591,7 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
-			"Mounted Portal",
+			"Naval Melee Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed> <with [Portal Limiter]>",
 			"Moves to new capital when capital changes",
@@ -1579,7 +1608,7 @@
 		"requiredResource": "Portal Limiter",
 		"uniques": [
 			"Portal",
-			"Mounted Portal",
+			"Ranged Infantry Portal",
 			"Costs [100] [Fate]",
 			"Only available <if [Arcanic Enclave] is constructed> <with [Portal Limiter]>",
 			"Moves to new capital when capital changes",

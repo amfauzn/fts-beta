@@ -825,7 +825,7 @@ TileSets/AbsoluteUnits/Units/Wuxia Master-2
   index: -1
 TileSets/AbsoluteUnits/Units/Yi Sun-Sin
   rotate: false
-  xy: 1180, 20
+  xy: 1180, 19
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
@@ -846,28 +846,28 @@ TileSets/AbsoluteUnits/Units/Yi Sun-Sin-2
   index: -1
 TileSets/HexaRealm/Edges/Canal-Coast/Shallow-Canal-Coast-Bottom
   rotate: false
-  xy: 1901, 628
+  xy: 1901, 627
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Coast/Shallow-Coast-Canal-Bottom
   rotate: false
-  xy: 1901, 628
+  xy: 1901, 627
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Coast/Shallow-Canal-Coast-BottomLeft
   rotate: false
-  xy: 1973, 624
+  xy: 1973, 623
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Coast/Shallow-Coast-Canal-BottomLeft
   rotate: false
-  xy: 1973, 624
+  xy: 1973, 623
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -916,49 +916,49 @@ TileSets/HexaRealm/Edges/Canal-Coast/Shallow-Coast-Canal-TopLeft
   index: -1
 TileSets/HexaRealm/Edges/Canal-Coast/Shallow-Canal-Coast-TopRight
   rotate: false
-  xy: 1901, 564
+  xy: 1901, 563
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Coast/Shallow-Coast-Canal-TopRight
   rotate: false
-  xy: 1901, 564
+  xy: 1901, 563
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Desert/Shallow-Canal-Desert-Bottom
   rotate: false
-  xy: 1973, 560
+  xy: 1973, 559
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Grassland/Shallow-Canal-Grassland-Bottom
   rotate: false
-  xy: 1973, 560
+  xy: 1973, 559
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Mountain/Shallow-Canal-Mountain-Bottom
   rotate: false
-  xy: 1973, 560
+  xy: 1973, 559
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Plains/Shallow-Canal-Plains-Bottom
   rotate: false
-  xy: 1973, 560
+  xy: 1973, 559
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Tundra/Shallow-Canal-Tundra-Bottom
   rotate: false
-  xy: 1973, 560
+  xy: 1973, 559
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1392,105 +1392,105 @@ TileSets/HexaRealm/Edges/Canal-Snow/Shallow-Canal-Snow-TopRight
   index: -1
 TileSets/HexaRealm/Edges/Canal-Snow/Shallow-Snow-Canal-Bottom
   rotate: false
-  xy: 1592, 496
+  xy: 1592, 500
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Snow-Coast-Bottom
   rotate: false
-  xy: 1592, 496
+  xy: 1592, 500
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Snow/Shallow-Snow-Canal-BottomLeft
   rotate: false
-  xy: 1561, 432
+  xy: 1561, 436
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Snow-Coast-BottomLeft
   rotate: false
-  xy: 1561, 432
+  xy: 1561, 436
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Snow/Shallow-Snow-Canal-BottomRight
   rotate: false
-  xy: 1561, 368
+  xy: 1561, 372
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Snow-Coast-BottomRight
   rotate: false
-  xy: 1561, 368
+  xy: 1561, 372
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Snow/Shallow-Snow-Canal-Top
   rotate: false
-  xy: 1633, 432
+  xy: 1633, 436
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Snow-Coast-Top
   rotate: false
-  xy: 1633, 432
+  xy: 1633, 436
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Snow/Shallow-Snow-Canal-TopLeft
   rotate: false
-  xy: 1633, 368
+  xy: 1633, 372
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Snow-Coast-TopLeft
   rotate: false
-  xy: 1633, 368
+  xy: 1633, 372
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Canal-Snow/Shallow-Snow-Canal-TopRight
   rotate: false
-  xy: 1664, 496
+  xy: 1664, 500
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Snow-Coast-TopRight
   rotate: false
-  xy: 1664, 496
+  xy: 1664, 500
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Coast-Snow-Bottom
   rotate: false
-  xy: 1705, 432
+  xy: 1705, 436
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Coast-Snow-BottomLeft
   rotate: false
-  xy: 1705, 368
+  xy: 1705, 372
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Coast-Snow-BottomRight
   rotate: false
-  xy: 1736, 496
+  xy: 1736, 500
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1504,14 +1504,14 @@ TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Coast-Snow-Top
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Coast-Snow-TopLeft
   rotate: false
-  xy: 1880, 500
+  xy: 1777, 436
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Coast-Snow/Snowy Beach-Coast-Snow-TopRight
   rotate: false
-  xy: 1952, 496
+  xy: 1777, 372
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1679,7 +1679,7 @@ TileSets/HexaRealm/Edges/Ocean-Shallow Ocean/Shallow-Shallow Ocean-Ocean-TopRigh
   index: -1
 TileSets/HexaRealm/Edges/Ocean-Shallow Ocean/Shallow-Shallow Ocean-Ocean-BottomLeft
   rotate: false
-  xy: 1520, 496
+  xy: 1520, 500
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1728,9 +1728,9 @@ TileSets/HexaRealm/Tiles/Aurora
   index: -1
 TileSets/HexaRealm/Tiles/Beacon of Power
   rotate: false
-  xy: 1945, 948
-  size: 64, 64
-  orig: 64, 64
+  xy: 1945, 947
+  size: 64, 65
+  orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Beacon of Power-Pillaged
@@ -1987,28 +1987,28 @@ TileSets/HexaRealm/Tiles/FishM
   index: -1
 TileSets/HexaRealm/Tiles/FishS
   rotate: false
-  xy: 1901, 884
+  xy: 1901, 883
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fishing BoatsA
   rotate: false
-  xy: 1901, 820
+  xy: 1901, 819
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fishing BoatsA-Aeromantic Age
   rotate: false
-  xy: 1973, 884
+  xy: 1973, 883
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fishing BoatsM
   rotate: false
-  xy: 1973, 820
+  xy: 1973, 819
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -2085,14 +2085,14 @@ TileSets/HexaRealm/Tiles/Ivory+CampT
   index: -1
 TileSets/HexaRealm/Tiles/Ivory+CampT-Aeromantic Age
   rotate: false
-  xy: 1901, 756
+  xy: 1901, 755
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ivory+CampT-Pillaged
   rotate: false
-  xy: 1973, 752
+  xy: 1973, 751
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
@@ -2141,14 +2141,14 @@ TileSets/HexaRealm/Tiles/Lava
   index: -1
 TileSets/HexaRealm/Tiles/Lava+Hill
   rotate: false
-  xy: 1901, 692
+  xy: 1901, 691
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ley Line
   rotate: false
-  xy: 1973, 688
+  xy: 1973, 687
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -2393,105 +2393,105 @@ TileSets/HexaRealm/Tiles/Shallow Ocean
   index: -1
 TileSets/HexaRealm/Tiles/Soulstone
   rotate: false
-  xy: 1777, 432
+  xy: 1880, 499
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Soulstone+Quarry
   rotate: false
-  xy: 1777, 368
+  xy: 1952, 495
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Soulstone+Quarry-Aeromantic Age
   rotate: false
-  xy: 1849, 436
+  xy: 1849, 435
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Soulstone+Quarry-Pillaged
   rotate: false
-  xy: 1849, 364
+  xy: 1849, 363
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Soulstone+QuarryT-Pillaged
   rotate: false
-  xy: 1849, 364
+  xy: 1849, 363
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Soulstone+QuarryT
   rotate: false
-  xy: 1921, 432
+  xy: 1921, 431
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Soulstone+QuarryT-Aeromantic Age
   rotate: false
-  xy: 1921, 368
+  xy: 1921, 367
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/SoulstoneM
   rotate: false
-  xy: 1921, 304
+  xy: 1921, 303
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tea
   rotate: false
-  xy: 1108, 240
+  xy: 1108, 239
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tea+Plantation
   rotate: false
-  xy: 1108, 176
+  xy: 1108, 175
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Towering Reef
   rotate: false
-  xy: 1108, 112
+  xy: 1108, 111
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade Hub
   rotate: false
-  xy: 1108, 40
+  xy: 1108, 39
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade Hub-Aeromantic Age
   rotate: false
-  xy: 1180, 232
+  xy: 1180, 231
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade HubT
   rotate: false
-  xy: 1180, 160
+  xy: 1180, 159
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade HubT-Aeromantic Age
   rotate: false
-  xy: 1180, 88
+  xy: 1180, 87
   size: 64, 64
   orig: 64, 64
   offset: 0, 0

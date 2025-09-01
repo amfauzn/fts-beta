@@ -292,7 +292,7 @@
 		"name": "Light Cavalry",
 		"uniques": [
 			"Only available <for units without [Heavy Cavalry]>",
-			"[+25]% Strength <vs [{non-[Anti-Armor]} {Foot}] units> <when attacking>",
+			"[+25]% Strength <vs [{non-[Anti-Armor]} {Footman}] units> <when attacking>",
 			"[+25]% Strength <vs [Siege] units> <when attacking>",
 			"[+1] Movement"
 		],
@@ -3415,7 +3415,7 @@
 	// Naval Ranged
 	{
 		"name": "Preparatory Fire",
-		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]}] units>"],
+		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]} {non-[Hero]}] units>"],
 		"unitTypes": ["Naval Ranged"],
 		"column": 76,
 		"row": 1
@@ -5294,11 +5294,12 @@
 	},
 	{
 		"name": "Fire Infusion",
-		"prerequisites": ["Elemental Infusion"],
+		"prerequisites": ["Mana Sensing"],
 		"uniques": [
-			"Only available <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Water Infusion]>",
+			"Only available <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
 			"Comment [Inflict [Burning] for 2 turns]",
-			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Flameburst Active]> <with [SelfTurn]> <hidden from users>",
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
@@ -5308,9 +5309,10 @@
 	},
 	{
 		"name": "Wind Infusion",
-		"prerequisites": ["Elemental Infusion"],
+		"prerequisites": ["Mana Sensing"],
 		"uniques": [
-			"Only available <for units without [Fire Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Water Infusion]>",
+			"Only available <for units without [Fire Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
 			"Comment [Inflict [Bleeding] for 2 turns]",
 			"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"This Promotion is free"
@@ -5322,9 +5324,10 @@
 	},
 	{
 		"name": "Lightning Infusion",
-		"prerequisites": ["Elemental Infusion"],
+		"prerequisites": ["Mana Sensing"],
 		"uniques": [
-			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Earth Infusion]> <for units without [Water Infusion]>",
+			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
 			"Comment [Inflict [Electrified] for 2 turns]",
 			"[Target Unit] gains the [Electrified] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"This Promotion is free"
@@ -5336,9 +5339,10 @@
 	},
 	{
 		"name": "Earth Infusion",
-		"prerequisites": ["Elemental Infusion"],
+		"prerequisites": ["Mana Sensing"],
 		"uniques": [
-			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Water Infusion]>",
+			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
 			"Comment [Inflict [Calcifying] for 2 turns]",
 			"[Target Unit] gains the [Calcifying] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"This Promotion is free"
@@ -5349,10 +5353,11 @@
 		]
 	},
 	{
-		"name": "Water Infusion",
-		"prerequisites": ["Elemental Infusion"],
+		"name": "Ice Infusion",
+		"prerequisites": ["Mana Sensing"],
 		"uniques": [
 			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
 			"Comment [Inflict [Frostbitten] for 2 turns]",
 			"[Target Unit] gains the [Frostbitten] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"This Promotion is free"
@@ -5367,6 +5372,345 @@
 		"prerequisites": ["Mana Pulse"],
 		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"]
+	},
+	{
+		"name": "Viewing Eyes",
+		"prerequisites": ["Magic Skin"],
+		"uniques": ["Reveal up to [1] [Land] within a [10] tile radius <upon turn end>"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Sword Resonance",
+		"prerequisites": ["Magic Skin"],
+		"uniques": ["[+15]% Strength bonus for [Infantry] units within [2] tiles"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Phalanx Form",
+		"prerequisites": ["Magic Skin"],
+		"uniques": [
+			"Comment [When this unit is adjacent to Anti-Armor unit, attacker gain -15% Strength when attacking]",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles <when adjacent to a [Anti-Armor] unit> <hidden from users>"
+		],
+		"unitTypes": ["Anti-Armor"]
+	},
+	{
+		"name": "Aegis",
+		"prerequisites": ["Magic Skin"],
+		"uniques": ["Comment [May now gain defensive bonus from terrain]"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Farsight",
+		"prerequisites": ["Magic Skin"],
+		"uniques": [
+			"Comment [+1 Range when not moving in the last turn]",
+			"[+1] Range <for units without [Farsight Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Farsight Cooldown] status for [2] turn(s) <upon entering a [All] tile> <hidden from users>"
+		],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	{
+		"name": "Farsight Cooldown",
+		"uniques": [
+			"Comment [[Farsight] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Aura Knight",
+		"prerequisites": ["Elemental Infusion"],
+		"uniques": [
+			"Instantly consumes [60] [Aether]",
+			"Comment [Much better control of Mana or Aura]"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+	},
+	{
+		"name": "Flameburst",
+		"prerequisites": ["Fire Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. +50% Strength and inflict Scorched vs Burning units, then remove Burning from target unit. Duration: 2 turns. Cooldown: 12]",
+			"Comment [Targeting non-Burning unit will waste this skill]",
+			"[This Unit] gains the [Flameburst Active] status for [2] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"civilopediaText": [
+			{"text": "Burning", "link":"Promotion/Burning"},
+			{"text": "Scorched", "link":"Promotion/Scorched"}
+		]
+	},
+	{
+		"name": "Flameburst Active",
+		"uniques": [
+			"Active Spell",
+			"Comment [+50% Strength and inflict Scorched vs Burning units, then remove Burning from target unit]",
+			"[+50]% Strength <vs [Burning] units> <hidden from users>",
+			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [Land] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] loses the [Burning] status <upon damaging a [Burning] unit> <with [SelfTurn]> <hidden from users>"
+			
+			"[This Unit] gains the [Aura Fatigue] status for [12] turn(s) <upon gaining the [Flameburst Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Aerosphere",
+		"prerequisites": ["Wind Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. Immune to [Blinded], [Deafened], and [Disoriented]; May enter Water tiles without embarking. Duration: 2 turns. Cooldown: 10]",
+			"[This Unit] gains the [Aerosphere Active] status for [2] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"civilopediaText": [
+			{"text": "Blinded", "link":"Promotion/Blinded"},
+			{"text": "Deafened", "link":"Promotion/Deafened"},
+			{"text": "Disoriented", "link":"Promotion/Disoriented"}
+		]
+	},
+	{
+		"name": "Aerosphere Active",
+		"uniques": [
+			"Active Spell",
+			"Comment [Immune to [Blinded], [Deafened], and [Disoriented]; May enter Water tiles without embarking. Duration: 2 turns]",
+			"May travel on Water tiles without embarking",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
+			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <hidden from users>",
+			"[This Unit] loses the [Disoriented] status <upon gaining the [Disoriented] status> <hidden from users>",
+					
+			"[This Unit] loses the [Blinded] status <upon gaining the [Aerosphere Active] status> <hidden from users>",
+			"[This Unit] loses the [Deafened] status <upon gaining the [Aerosphere Active] status> <hidden from users>",
+			"[This Unit] loses the [Disoriented] status <upon gaining the [Aerosphere Active] status> <hidden from users>",
+			"[This Unit] gains the [Aura Fatigue] status for [10] turn(s) <upon gaining the [Flameburst Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Shock Line",
+		"prerequisites": ["Lightning Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. Deals 5 damage and can move after attacking. Cooldown: 7]",
+			"[This Unit] gains the [Shock Line Active] status for [1] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"]
+	},
+	{
+		"name": "Shock Line Active",
+		"uniques": [
+			"Active Spell",
+			"Comment [Deals 5 damage]",
+			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"Can move after attacking",
+			"Ignores Zone of Control",
+			"[This Unit] gains [2] movement <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Aura Fatigue] status for [7] turn(s) <upon gaining the [Shock Line Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Corrosive Touch",
+		"prerequisites": ["Earth Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. Inflict Corroded for 2 turn. Cooldown: 8]",
+			"[This Unit] gains the [Corrosive Touch Active] status for [2] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"civilopediaText": [
+			{"text": "Corroded", "link":"Promotion/Corroded"}
+		]
+	},
+	{
+		"name": "Corrosive Touch Active",
+		"uniques": [
+			"Active Spell",
+			"Comment [Inflict Corroded for 2 turns. Cooldown: 8]",
+			"[Target Unit] gains the [Corroded] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			
+			"[This Unit] gains the [Aura Fatigue] status for [8] turn(s) <upon gaining the [Corrosive Touch Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Frost Armor",
+		"prerequisites": ["Ice Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. Block the first attack each turn. Duration: 2 turns. Cooldown: 12]",
+			"[This Unit] gains the [Frost Armor Active] status for [2] turn(s) <for [1] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"]
+	},
+	{
+		"name": "Frost Armor Active",
+		"uniques": [
+			"Active Spell",
+			"Comment [Block the first attack each turn]",
+			"[This Unit] gains the [Frost Armored] status for [1] turn(s) <upon gaining the [Frost Armor Active] status> <hidden from users>",
+			"[This Unit] gains the [Frost Armored] status for [1] turn(s) <upon turn end> <hidden from users>",
+			"[This Unit] gains the [Aura Fatigue] status for [8] turn(s) <upon gaining the [Frost Armor Active] status> <hidden from users>",
+			
+			"[+1]% Strength <when attacking> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Frost Armored",
+		"uniques": [
+			"Comment [Block enemy attacks]",
+			"[+500]% Strength <when defending> <hidden from users>",
+			"[This Unit] loses the [Frost Armored] status <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Rain of Fire",
+		"prerequisites": ["Fire Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. +200% Strength vs cities. Cooldown: 7]",
+			"[This Unit] gains the [Rain of Fire Active] status for [1] turn(s) <for [1] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	{
+		"name": "Rain of Fire Active",
+		"uniques": [
+			"Active Spell",
+			"[+200]% Strength <vs cities> <when attacking>",
+			
+			"[This Unit] gains the [Aura Fatigue] status for [7] turn(s) <upon gaining the [Rain of Fire Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	/*{
+		"name": "Updraft",
+		"prerequisites": ["Wind Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. Teleport up to 3-tiles away, even in Impassable tiles. Cooldown: 9]",
+			"[This Unit] gains the [Updraft Active] status for [1] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	{
+		"name": "Updraft Active",
+		"uniques": [
+			"Active Spell",
+			"May Paradrop to [All] tiles up to [3] tiles away",
+			
+			"[This Unit] gains the [Aura Fatigue] status for [9] turn(s) <upon gaining the [Updraft Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},*/
+	{
+		"name": "Bolt Rail",
+		"prerequisites": ["Lightning Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. Deals 20 damage but set Range to 1. Cooldown: 8]",
+			"[This Unit] gains the [Bolt Rail Active] status for [1] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	{
+		"name": "Bolt Rail Active",
+		"uniques": [
+			"Active Spell",
+			"Comment [Deals 20 damage but set Range to 1. Cooldown: 8]",
+			"[Target Unit] takes [20] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[-1] Range <hidden from users>",
+			
+			"[This Unit] gains the [Aura Fatigue] status for [8] turn(s) <upon gaining the [Bolt Rail Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Magnetic Ward",
+		"prerequisites": ["Earth Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. +30% Strength when defending vs Ranged and Projectile Spells. Also affect adjacent units at half the effectivity. Cooldown: 12]",
+			"[This Unit] gains the [Magnetic Ward Active] status for [1] turn(s) <for [2] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Ranged Infantry"]
+	},
+	{
+		"name": "Magnetic Ward Active",
+		"uniques": [
+			"Active Spell",
+			"[+30]% Strength <when defending> <vs [Ranged] units> <hidden from users>",
+			"[+30]% Strength <when defending> <vs [Projectile Spell] units> <hidden from users>",
+			
+			"[This Unit] gains the [Aura Fatigue] status for [8] turn(s) <upon gaining the [Magnetic Ward Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Magnetic Aura",
+		"uniques": [
+			"Active Spell",
+			"[+15]% Strength <when defending> <vs [Ranged] units> <hidden from users>",
+			"[+15]% Strength <when defending> <vs [Projectile Spell] units> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Ice Fan",
+		"prerequisites": ["Ice Infusion"],
+		"uniques": [
+			"Only available <for units with [Aura Knight]>",
+			"Comment [Active. Inflict Chilled and Brittle for 2 turns. Cooldown: 12]",
+			"[This Unit] gains the [Ice Fan Active] status for [1] turn(s) <for [1] movement> <for units without [Aura Fatigue]> <hidden from users>"
+			"This Promotion is free"
+		],
+		"unitTypes": ["Ranged Infantry"],
+		"civilopediaText": [
+			{"text": "Brittle", "link":"Promotion/Brittle"},
+			{"text": "Chilled", "link":"Promotion/Chilled"}
+		]
+	},
+	{
+		"name": "Ice Fan Active",
+		"uniques": [
+			"Active Spell",
+			"Comment [Inflict Chilled and Brittle for 2 turns]",
+			"[Target Unit] gains the [Chilled] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"[Target Unit] gains the [Brittle] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			
+			"[This Unit] gains the [Aura Fatigue] status for [8] turn(s) <upon gaining the [Ice Fan Active] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Aura Fatigue",
+		"uniques": [
+			"Comment [Cannot use active skill temporarily]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Aura Master",
+		"prerequisites": ["Aura Zone","Viewing Eyes","Sword Resonance","Phalanx Form","Aegis","Farsight","Aura Knight"],
+		"uniques": [
+			"Consumes [1] [Starshard]",
+			"[+50]% Strength",
+			"Will not be displayed in Civilopedia"
+		],
+		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
 	},
 	
 	// Tamer
@@ -5649,7 +5993,7 @@
 			"[+10] additional attacks per turn <hidden from users>",
 			"Can move after attacking",
 			"Ignores Zone of Control",	//Both is needed to ensure the unit can attack again
-			"[This Unit] gains [1] movement <upon defeating a [All] unit> <hidden from users>",
+			"[This Unit] gains [2] movement <upon defeating a [All] unit> <hidden from users>",
 			"[This Unit] gains the [DKR Cooldown] status for [10] turn(s) <upon gaining the [DKR Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
@@ -6604,8 +6948,7 @@
 			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Carnivorous Growth Active] status> <for units with [Onmyodo]> <hidden from users>",
 			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Shatter Active] status> <for units with [Onmyodo]> <hidden from users>",
 			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Pressurized Bomb Active] status> <for units with [Onmyodo]> <hidden from users>",
-			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Pandemy Active] status> <for units with [Onmyodo]> <hidden from users>",
-			
+			"[This Unit] gains the [Ultimate Cooldown] status for [5] turn(s) <upon gaining the [Pandemy Active] status> <for units with [Onmyodo]> <hidden from users>"
 		]
 	},
 	{
@@ -7001,7 +7344,7 @@
 		"uniques": [
 			"Comment [Ultimates don't require [Mana Charge]. Instead, they cost [Gold] equal to 4 times their [Aether] cost when cast]",
 			"Comment [+25% Strength when casting Active Spell]",
-		//	"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>",
+			//"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>",
 			"[+25]% Strength <for units with [Infernal Purge Active]> <hidden from users>",
 			"[+25]% Strength <for units with [Fireball Active]> <hidden from users>",
 			"[+25]% Strength <for units with [Emberfall Active]> <hidden from users>",
@@ -7029,6 +7372,27 @@
 			"[+25]% Strength <for units with [Pressurized Bomb Active]> <hidden from users>",
 			"[+25]% Strength <for units with [Sanctuary Active]> <hidden from users>",
 			"[+25]% Strength <for units with [Pandemy Active]> <hidden from users>"
+		]
+	},
+	
+	//Smeheng
+	{
+		"name": "Sandgliding",
+		"uniques": [
+			"Comment [The Mehengite are excellent at sailing the sands, this unit may use the [Sandglider]]",
+			"Ignores terrain cost <when stacked with a [Sandglider] unit> <in [Desert] tiles> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Realm Patrol", 
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Sandproof Vision",
+		"uniques": [
+			"Comment [Immune to [Blinded]]",
+			"[+25]% Strength <when defending> <vs [Projectile Spell] units>",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>"
 		]
 	},
 	

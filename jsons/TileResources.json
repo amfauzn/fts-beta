@@ -113,7 +113,7 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Lakes","Coast","Shallow Ocean","Canal","Mangrove","Atoll"],
+		"terrainsCanBeFoundOn": ["Lakes","Coast","Shallow Ocean","Mangrove","Atoll"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
@@ -1093,7 +1093,7 @@
 		]
 	},
 	{
-		"name": "stockpiledCounter",							// Red Moon (Arcane Tracker)
+		"name": "stockpiledCounter",							// Red Moon (Arcane Tracker), Order of Slayer (The Path, The Learned)
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen", 
@@ -1101,6 +1101,18 @@
 			"Stockpiled",
 			"Cannot be traded",
 			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "firstSomething",								// Persiapan tok sek h3h3, ben gampang pas coding membedakan ndi counter konsisten dan counter sekali
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded",
+			"Excluded from map editor", 
 			"Will not be displayed in Civilopedia"
 		]
 	},

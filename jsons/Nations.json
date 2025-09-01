@@ -236,6 +236,52 @@ Characters:
 		]
 	},
 	
+	// Esheng of Smeheng
+	{
+		"name": "Smeheng",
+		"leaderName": "Esheng",
+		"adjective": ["Mehengite"],
+		"startBias": ["Desert"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Glomon",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "There is no choice. I shall take peace by force!",
+		"attacked": "Shame on you, using violence which doesn't solve anything.",
+		"denounced": "",
+		"defeated": "This will not be the end of my people, I assure you.",
+		"afterPeace": "We hope we can reconcile.",
+		"introduction": "Hello, mighty leader. I don't think your excellency will take what isn't rightfully yours. Am I right?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		
+		"outerColor": [225,105,  0],
+		"innerColor": [255,255, 78],
+		
+		"uniqueName": "Bond and Oath"
+		"uniques": [
+			"[+1 Food] from every [Pasture]",
+			"[+1 Food] from every [Taming]",
+			"[+15]% Strength <when fighting in [Desert] tiles>", 
+			"Comment [May purchase [Sandglider] in cities settled on [Desert] tiles for 200 [Gold] (up to 8)]",
+			
+			"May buy [Sandglider] units for [200] [Gold] [in all cities] <in [Desert] tiles> <hidden from users>",
+			"[{non-[Mobile]} {Biological}] units gain the [Sandgliding] promotion <hidden from users>",
+		],
+		"cities": ["Dageeng","Dendheng","Srundeng","Abon","Ampal","Lunuk","Dengke","Sie","Usi","Cengkir",
+			"Cakep","Cakkekh","Gepuk","Keureut","Recah","Tiir","Bachin","Bosog","Lendiren","Slilit"],
+		"spyNames": ["Gepeng","Sukae","Temon","Gareng","Mondrek","Kepik","Gablog","Kabul","Dembik","Pengtol"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	// Thralldin of Twin Mountain
 	{
 		"name": "Twin Mountain",

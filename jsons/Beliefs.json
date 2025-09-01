@@ -334,7 +334,7 @@
 	{
 		"name": "Freedom to Share",
 		"type": "Follower",
-		"uniques": ["[+1 Science, +1 Culture, +1 Faith, +1 Happiness, -2 Gold] from every [Market] <in cities with at least [4] [Followers of this Religion]>"]
+		"uniques": ["[+1 Science, +1 Culture, +1 Faith, +1 Happiness, -2 Gold] from every [Trading Post] <in cities with at least [4] [Followers of this Religion]>"]
 	},
 	{
 		"name": "Religious Center",
@@ -390,6 +390,7 @@
 			"All newly-trained [Ranged Infantry] units [in cities following this religion] receive the [Quick Study II] promotion <if [Ranged Infantry Portal] is constructed> <hidden from users>",
 			"All newly-trained [Siege] units [in cities following this religion] receive the [Quick Study II] promotion <if [Siege Portal] is constructed> <hidden from users>",
 			"All newly-trained [Naval Raider] units [in cities following this religion] receive the [Quick Study II] promotion <if [Naval Raider Portal] is constructed> <hidden from users>",
+			"All newly-trained [Naval Melee] units [in cities following this religion] receive the [Quick Study II] promotion <if [Naval Melee Portal] is constructed> <hidden from users>",
 		]
 	},
 	{

@@ -119,6 +119,26 @@
 		]
 	},
 	{
+		"name": "Sandglider",
+		"unitType": "Civilian",
+		"uniqueTo": "Smeheng",
+		"movement": 4,
+		"uniques": [
+			"Mechanical",
+			"Unbuildable",
+			"Uncapturable",
+			"Ignores terrain cost <in [Desert] tiles>",
+			"Comment [Set Movement to 1 in non-[Desert] tiles]",
+			"Comment [Transfer Movement and ignores terrain cost to stacked non-Mobile Biological units]",
+			"Limited to [8] per Civilization <hidden from users>",
+			"Transfer Movement to [{non-[Mobile]} {Biological}] <hidden from users>",
+			"[-99] Movement <in [non-[Desert]] tiles> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Used as mounts by the Mehengite, these tamed monsters are masters of gliding across the desert."}
+		]
+	},
+	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement":4 ,
@@ -1236,6 +1256,26 @@
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "Mounted on young, spirited dragonlings, these riders exhibit great courage but limited battlefield control. The dragonlings, still relying heavily on their instincts, often struggle to precisely aim their fiery breath."}
+		]
+	},
+	{
+		"name": "Sand Wyvern Rider",
+		"unitType": "Air Terror",
+		"uniqueTo": "Smeheng",
+		"replaces": "Dragonling Rider",
+		"movement": 6,
+		"strength": 30,
+		"cost": 180,
+		"hurryCostModifier": 15,
+		"requiredResource": "Mythical Egg",
+		"requiredTech": "Celestial Wisdoms",
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Dragon Knight",
+		"promotions": ["Realm Patrol","Sandproof Vision"],
+		"uniques": ["Can only be built <in cities with a [Hatchery]> <hidden from users>"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "Dragon-like creatures bound to the Mehengite elite, proving highly effective for aerial control."}
 		]
 	},
 	{

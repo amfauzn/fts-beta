@@ -216,7 +216,7 @@
 	},
 	{
 		"name": "Aquarry",
-		"techRequired": "Archaeology",
+		"techRequired": "Compass",
 		"uniques": [
 			"Can only be built to improve a resource",
 			"Can only be built on [Water] tiles",
@@ -596,6 +596,26 @@
 		"shortcutKey": "F",
 		"civilopediaText": [
 			{"text": "A farm that received a blessing from the Tundra Goddess Inua, a gift from her to the Louvargians."}
+		]
+	},
+	{
+		"name": "Dhab Hunter Camp",
+		"uniqueTo": "Smeheng",
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"food": 2,
+		"culture": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Construction",
+		"uniques": [
+			"[+2 Culture] <after discovering [Acoustics]>", 
+			"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>", 
+			"[-2 Food, -3 Culture] <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "C",
+		"civilopediaText": [
+			{"text": "A settlement along the Karionam river, which is used by the Mehengite to gather food, mainly from desert animals or monster, and collect water."},
+			{"text": "Dhab Hunter Camp can not be be built next to each other."}
 		]
 	},
 	{
