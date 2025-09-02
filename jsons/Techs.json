@@ -84,7 +84,8 @@
 				"cost": 65,
 				"uniques": [
 					"Notified of new Barbarian encampments",
-					"Enables Open Borders agreements"
+					"Enables Open Borders agreements",
+					"Enables establishment of embassies"
 				],
 				"row": 4,
 				"prerequisites": ["Language","Pottery"],
