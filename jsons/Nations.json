@@ -330,6 +330,51 @@ Characters:
 		]
 	},
 	
+	// Cosimo Malaspina of The Order of Slayer
+	{
+		"name": "The Order of Slayer",
+		"leaderName": "Cosimo Malaspina",
+		"adjective": ["Witcher"],
+		"startBias": ["Hill","Mountain"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		//"style": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I run into dilemmas all the time... This is not one of them. You disgust me. And deserve to die.",
+		"attacked": "Why men throw their lives away attacking an armed witcher...I'll never know. Something about our faces?",
+		"denounced": "",
+		"defeated": "Even if the world lies in ruin which does not seem likely to me. We will carry on killing monsters in the ruins of this world until some monster kills us.",
+		"afterPeace": "Evil is evil. Lesser, greater, middling... Makes no difference. The degree is arbitrary. The definition's blurred. If I'm to choose between one evil and another... I'd rather not choose at all.",
+		"introduction": "Well met, perhaps you require the services of a witcher?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Damn, You're Ugly.",
+		"tradeRequest": "I think this is a fair price.",
+		
+		"outerColor": [ 65, 74, 81],
+		"innerColor": [214,195, 75],
+		
+		"uniqueName": "The Path"
+		"uniques": [
+			"Notified of new Barbarian encampments",
+			"[+25]% Strength <vs [Monster] units>",
+			"[+50]% XP gained from combat <vs [Monster] units>",
+			//"Resting point for Influence with City-States is increased by [10]",
+			"Comment [[Signs]: Every 8th Footman unit gained is spawned with [Mana Sensing]]",
+			"[{Military} {Footman}] units gain the [Signs] promotion <hidden from users>"
+		],
+		"cities": ["Morgraig","Kaer Morhen","Stygga Citadel","Haern Caduch","Gorthur Gvaed","Kaer Seren","Bialsuf Alsarea","Behelt Nar","Dyn Marv",
+			"Hertch","Ebbing","Amell","Tir Tochair","Kovir","Korath"],
+		"spyNames": ["Alzur","Idarran","Arnaghad","Erland","Letto","Serrit","Auckes","Ivar","Vesemir","Treyse"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	// Valadorn of Thorin
 	{
 		"name": "Thorin",

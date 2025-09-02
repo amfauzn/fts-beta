@@ -166,6 +166,10 @@
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Ace Buster}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Strafe}] units>",
 		
+		// Mixed
+		// Kaer Slow
+		"[-2] Movement <within [2] tiles of a [KaerSlow]> <in [Enemy Land] tiles>"
+		
 	],
 	
 	"unitUniques": [

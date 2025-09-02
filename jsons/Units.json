@@ -356,6 +356,26 @@
 		]
 	},
 	{
+		"name": "Slayer",
+		"unitType": "Infantry",
+		"uniqueTo": "The Order of Slayer",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 35,
+		"cost": 160,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Etherblader",
+		"promotions": ["Mana Sensing"],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "These itinerant monster slayers undergone extensive training, ruthless mental and physical conditioning, and mysterious rituals."}
+		]
+	},
+	{
 		"name": "Etherblader",
 		"unitType": "Infantry",
 		"movement": 2,

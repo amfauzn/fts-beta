@@ -850,6 +850,25 @@
 		]
 	},
 	{
+		"name": "Kaer",
+		"uniqueTo": "The Order of Slayer",
+		"replaces": "Castle",
+		"requiredBuilding": "Walls",
+		"production": 1,
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] <within [1] tiles of a [Mountain]>",
+			"Comment [Enemy units within 2 tiles of this city and is inside our territory receive -2 Movement]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Chivalry",
+		"civilopediaText": [
+			{"text": "A keep where slayers used to be trained, now used mostly for resting between assignments."}
+		]
+	},
+	{
 		"name": "Windmill",
 		"requiredBuilding": "Workshop",
 		"production": 2,
@@ -911,6 +930,34 @@
 		"requiredTech": "Mana Crystallization",
 		"civilopediaText": [
 			{"text": "A prestigious institution where advanced arcane knowledge is studied and passed down."}
+		]
+	},
+	{
+		"name": "Spellsord School",
+		"uniqueTo": "The Order of Slayer",
+		"replaces": "Academy of Magic",
+		"requiredResource": "Rune Stone",
+		"science": 1,
+		"uniques": [
+			"Magic Building",
+			"NatW preq",
+			"Costs [30] [Aether]",
+			
+			"[+1 Science] from [Ley Line] tiles [in this city]",
+			"Comment [Infantry units in this city is counted as 2 towards [Signs] progress]",
+			"All newly-trained [{Military} {Infantry}] units [in this city] receive the [Mutagenic] promotion <hidden from users>",
+			
+			"All newly-trained [Mage] units [in this city] receive the [Elemental Mastery] promotion",
+			"Comment [All newly-trained Recon, Infantry, Anti-Armor, Mounted, Ranged Infantry in this city receive the [Mana Sensing] skill with 34% chance]"
+			"All newly-trained [Recon] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
+			"All newly-trained [Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
+			"All newly-trained [Anti-Armor] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
+			"All newly-trained [Mounted] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
+			"All newly-trained [Ranged Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>"
+		],
+		"requiredTech": "Mana Crystallization",
+		"civilopediaText": [
+			{"text": "The institution which train and equip the itinerant monster slayers, increasing their chances of mutation."}
 		]
 	},
 	{

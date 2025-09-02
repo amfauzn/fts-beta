@@ -7396,6 +7396,49 @@
 		]
 	},
 	
+	// Twin Mountain
+	{
+		"name": "Trekker"
+		"uniques": [
+			"Can pass through impassable tiles",
+			"Comment [Takes no damage upon ending a turn in [Mountain] tiles]"
+		]
+	},
+	{
+		"name": "Savage Attacker",
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"[-15]% Strength <when defending> <vs [Melee] units>"
+		]
+	},
+	{
+		"name": "Mountainborn",
+		"uniques": ["Double movement in [Hill]"]
+	},
+	
+	//Order of Slayer
+	{
+		"name": "Signs",
+		"uniques": [
+			"Comment [Though they are not warrior mages who employ powerful magic, some slayers can cast simple magic spells called signs]",
+			"Comment [Every 8th Footman unit gained will have [Mana Sensing]]",
+			"Instantly gain [1] [stockpiledCounter] <hidden from users>",
+			"[This Unit] gains the [Mana Sensing] promotion <when above [7] [stockpiledCounter]> <hidden from users>",
+			"Instantly gain [-8] [stockpiledCounter] <when above [7] [stockpiledCounter]> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Mutagenic",
+		"uniques": [
+			"Comment [Slayers trained in the Spellsword School have a higher chance to awakened abilities to cast signs]",
+			"Comment [This unit is counted as 2 towards [Signs] progress]",
+			"Instantly gain [1] [stockpiledCounter] <hidden from users>",
+			//Ketokke 2 baris dibawah iki wes ra perlu, tp jaga-jaga
+			"[This Unit] gains the [Mana Sensing] promotion <when above [7] [stockpiledCounter]> <hidden from users>",
+			"Instantly gain [-8] [stockpiledCounter] <when above [7] [stockpiledCounter]> <hidden from users>",
+		]
+	},
+	
 	// Thorin
 	{
 		"name": "Sturdy",
@@ -7457,26 +7500,6 @@
 			"Comment [Immune to [Mana Exhaustion]]",
 			"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>"
 		]
-	},
-	
-	// Twin Mountain
-	{
-		"name": "Trekker"
-		"uniques": [
-			"Can pass through impassable tiles",
-			"Comment [Takes no damage upon ending a turn in [Mountain] tiles]"
-		]
-	},
-	{
-		"name": "Savage Attacker",
-		"uniques": [
-			"[+25]% Strength <when attacking>",
-			"[-15]% Strength <when defending> <vs [Melee] units>"
-		]
-	},
-	{
-		"name": "Mountainborn",
-		"uniques": ["Double movement in [Hill]"]
 	},
 	
 	// Wonder

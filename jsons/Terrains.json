@@ -43,7 +43,9 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Grassland] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -69,7 +71,9 @@
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Becomes [Grassland] when adjacent to [Fountain of Youth]",
 			"Becomes [Forest] when adjacent to [Man-eating Tree]",
-			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -86,7 +90,9 @@
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 			"Becomes [Flood plains] when adjacent to [River]",
-			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -105,7 +111,9 @@
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 			"Becomes [Plains] when adjacent to [River]",
-			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -124,8 +132,10 @@
 			"Considered [Undesirable] when determining start locations",
 			//"Becomes [Tundra] when adjacent to [Crater Lake]",
 			"Becomes [Tundra] when adjacent to [River]",
-			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Never receives any resources <in [Hill] tiles>"
+			"Every [18] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Never receives any resources <in [Hill] tiles>",
+			
+			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
