@@ -3,11 +3,13 @@
 	{
 		"name": "Abundance",
 		"friendBonusUniques": [
-			"[+1 Food] from every [Granary]"
+			"[+1 Food] from every [Granary]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+1 Food] from every [Granary]",
-			"[+2 Food] from every [Hospital]"
+			"[+2 Food] from every [Hospital]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [56, 255, 112]
 	},
@@ -15,11 +17,13 @@
 		"name": "Agrarian",
 		"friendBonusUniques": [
 			"[+2 Food] [in capital]",
-			"[+1 Food] from every [Plantation] <within [1] tiles of a [City center]>"
+			"[+1 Food] from every [Plantation] <within [1] tiles of a [City center]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Food] [in capital]",
-			"[+1 Food] from every [Plantation]"
+			"[+1 Food] from every [Plantation]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [56, 255, 112]
 	},
@@ -27,12 +31,14 @@
 		"name": "Food Exporter",
 		"friendBonusUniques": [
 			"[+2 Food] [in capital]",
-			"[+1 Food] [in all cities] <starting from the [Aeromantic Age]>"
+			"[+1 Food] [in all cities] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Food] [in capital]",
 			"[+1 Food] [in all cities]",
-			"[+1 Food] [in all cities] <starting from the [Aeromantic Age]>"
+			"[+1 Food] [in all cities] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [56, 255, 112]
 	},
@@ -40,12 +46,14 @@
 		"name": "Herder",
 		"friendBonusUniques": [
 			"[+1 Food] from every [Pasture]",
-			"Can build [Pasture] improvements at a [+25]% rate"
+			"Can build [Pasture] improvements at a [+25]% rate",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+1 Food] from every [Pasture]",
 			"[+1 Food] from every [Pasture] <during a Golden Age>",
-			"Can build [Pasture] improvements at a [+50]% rate"
+			"Can build [Pasture] improvements at a [+50]% rate",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [56, 255, 112]
 	},
@@ -57,13 +65,15 @@
 			"[+1 Culture] from every [Monument]",
 			"[+1 Culture] from every [Pyramid]",
 			"[+1 Culture] from every [Theater Square]",
-			"[+10]% [Culture] from every [Museum]"
+			"[+10]% [Culture] from every [Museum]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Culture] from every [Monument]",
 			"[+2 Culture] from every [Pyramid]",
 			"[+2 Culture] from every [Theater Square]",
-			"[+15]% [Culture] from every [Museum]"
+			"[+15]% [Culture] from every [Museum]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 96, 255]
 	},
@@ -72,12 +82,14 @@
 		"friendBonusUniques": [
 			"[+15]% [Culture] [in capital]",
 			"Provides [1] [Kiln Design] <hidden from users>",
-			"Comment [May build [Kiln] on tiles]"
+			"Comment [May build [Kiln] on tiles]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+25]% [Culture] [in capital]"
 			"Provides [1] [Kiln Design] <hidden from users>",
-			"[+1 Culture] from every [Kiln]"
+			"[+1 Culture] from every [Kiln]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 96, 255]
 	},
@@ -86,12 +98,14 @@
 		"friendBonusUniques": [
 			"[+3 Culture]",
 			"[+3 Culture] <starting from the [Enlightenment Age]>",
-			"[+7 Culture] <starting from the [Aeromantic Age]>"
+			"[+7 Culture] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+6 Culture]",
 			"[+6 Culture] <starting from the [Enlightenment Age]>",
 			"[+15 Culture] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 96, 255]
 	},
@@ -100,14 +114,16 @@
 		"friendBonusUniques": [
 			"[+2 Culture]",
 			"[+2 Culture] <starting from the [Magi-Industry Age]>",
-			"[+10]% Production when constructing [World] wonders [in all cities]"
+			"[+10]% Production when constructing [World] wonders [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+3 Culture]",
 			"[+3 Culture] <starting from the [Magi-Industry Age]>",
 			"[+10]% Production when constructing [World] wonders [in all cities]",
 			"Provides [1] [Darkroot] <hidden from users>",
-			"Comment [Unlocks [Steel Garden]]"
+			"Comment [Unlocks [Steel Garden]]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 96, 255]
 	},
@@ -117,12 +133,14 @@
 		"name": "Artisan",
 		"friendBonusUniques": [
 			"[+1 Production] from every [Workshop]",
-			"[+2 Production] from every [Ironworks]"
+			"[+2 Production] from every [Ironworks]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+1 Production] from every [Workshop]",
 			"[+1 Production] from every [Factory]",
-			"[+4 Production] from every [Ironworks]"
+			"[+4 Production] from every [Ironworks]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 69, 19]
 	},
@@ -130,23 +148,27 @@
 		"name": "Industrial",
 		"friendBonusUniques": [
 			"[+2 Production] [in capital]",
-			"[+1 Production] [in all cities] <starting from the [Aeromantic Age]>"
+			"[+1 Production] [in all cities] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Production] [in capital]",
 			"[+1 Production] [in all cities]",
-			"[+1 Production] [in all cities] <starting from the [Aeromantic Age]>"
+			"[+1 Production] [in all cities] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 69, 19]
 	},
 	{
 		"name": "Momentum Progression",
 		"friendBonusUniques": [
-			"[+10]% [Production] [in capital]"
+			"[+10]% [Production] [in capital]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+10]% [Production] [in capital]",
-			"[+10]% [Production] [in all cities]"
+			"[+10]% [Production] [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 69, 19]
 	},
@@ -154,7 +176,8 @@
 		"name": "Efficient",
 		"friendBonusUniques": [
 			"Provides [1] [Rotary Component] <hidden from users>",
-			"Comment [Unlocks [Windmill]]"
+			"Comment [Unlocks [Windmill]]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"Provides [1] [Rotary Component] <hidden from users>",
@@ -162,7 +185,8 @@
 			"Comment [Gain [Science] boost upon constructing [Production] buildings]",
 			"Gain [10] [Science] <upon constructing [Workshop]> <hidden from users>",
 			"Gain [25] [Science] <upon constructing [Windmill]> <hidden from users>",
-			"Gain [50] [Science] <upon constructing [Factory]> <hidden from users>"
+			"Gain [50] [Science] <upon constructing [Factory]> <hidden from users>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 69, 19]
 	},
@@ -174,14 +198,16 @@
 			"[+25]% Production when constructing [Harbor] buildings [in all cities]",
 			"[+25]% Production when constructing [Seaport] buildings [in all cities]",
 			"[+1 Gold] from every [Harbor]",
-			"[+1 Gold] from every [Seaport]"
+			"[+1 Gold] from every [Seaport]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+25]% Production when constructing [Harbor] buildings [in all cities]",
 			"[+25]% Production when constructing [Seaport] buildings [in all cities]",
 			"[+2 Gold] from every [Harbor]",
 			"[+2 Gold] from every [Seaport]",
-			"Provides [1] [Porcelain]"
+			"Provides [1] [Porcelain]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 216, 0]
 	},
@@ -190,13 +216,15 @@
 		"friendBonusUniques": [
 			"[+1 Gold] from every [Trading Post]",
 			"[+1 Gold] from every [Market]",
-			"[+1 Gold] from every [Bank]"
+			"[+1 Gold] from every [Bank]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+1 Gold] from every [Trading Post]",
 			"[+1 Gold] from every [Market]",
 			"[+1 Gold] from every [Bank]",
-			"Provides [1] [Jewelry]"
+			"Provides [1] [Jewelry]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 216, 0]
 	},
@@ -205,13 +233,15 @@
 		"friendBonusUniques": [
 			"[+2 Gold]",
 			"[+2 Gold] <starting from the [Enlightenment Age]>",
-			"[+2 Gold] <starting from the [Aeromantic Age]>"
+			"[+2 Gold] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Gold]",
 			"[+4 Gold] <starting from the [Enlightenment Age]>",
 			"[+4 Gold] <starting from the [Aeromantic Age]>",
-			"Provides [1] [Cheese]"
+			"Provides [1] [Cheese]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 216, 0]
 	},
@@ -220,24 +250,28 @@
 		"friendBonusUniques": [
 			"[+2 Happiness]",
 			"[+2 Gold]",
-			"[+2 Gold] <starting from the [Magi-Industry Age]>"
+			"[+2 Gold] <starting from the [Magi-Industry Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Happiness]",
 			"[+2 Gold]",
 			"[+4 Gold] <starting from the [Magi-Industry Age]>",
-			"Provides [1] [Honey]"
+			"Provides [1] [Honey]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 216, 0]
 	},
 	{
 		"name": "Smithy Guild",
 		"friendBonusUniques": [
-			"[+1 Happiness] from every [Training Ground]"
+			"[+1 Happiness] from every [Training Ground]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+1 Happiness] from every [Training Ground]",
-			"Provides [1] [Mithril]"
+			"Provides [1] [Mithril]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 216, 0]
 	},
@@ -245,12 +279,14 @@
 		"name": "Unciv Megamod",
 		"friendBonusUniques": [
 			"[+2 Happiness]",
-			"[+2 Happiness] <starting from the [Magi-Industry Age]>"
+			"[+2 Happiness] <starting from the [Magi-Industry Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Happiness]",
 			"[+4 Happiness] <starting from the [Magi-Industry Age]>"
-			"Provides [1] [Yairmon]"
+			"Provides [1] [Yairmon]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 216, 0]
 	},
@@ -263,7 +299,8 @@
 			"Provides [1] [Mythical Egg]",
 			"Provides [1] [Rune Stone]",
 			"Provides [1] [Soulstone]",
-			"Provides [1] [Altalium] <after discovering [Avionic Theory]>"
+			"Provides [1] [Altalium] <after discovering [Avionic Theory]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+2 Happiness]",
@@ -272,7 +309,8 @@
 			"Provides [2] [Mythical Egg]",
 			"Provides [4] [Rune Stone]",
 			"Provides [2] [Soulstone]",
-			"Provides [2] [Altalium] <after discovering [Avionic Theory]>"
+			"Provides [2] [Altalium] <after discovering [Avionic Theory]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [200, 180, 0]
 	},
@@ -283,12 +321,14 @@
 		"friendBonusUniques": [
 			"[+2]% [Production] from every [Training Ground]",
 			"[+3]% [Production] from every [Military Academy]",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>",
 		],
 		"allyBonusUniques": [
 			"[+5]% [Production] from every [Training Ground]",
 			"[+5]% [Production] from every [Military Academy]",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities]",
 			"May buy [Galewing] units with [Gold] [in all cities]",
 			"May buy [Stormwing] units with [Gold] [in all cities]",
 			"Provides [1] [Featherite] <hidden from users>",
@@ -300,11 +340,13 @@
 		"name": "Amphibious Ruler",
 		"friendBonusUniques": [
 			"[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>",
 		],
 		"allyBonusUniques": [
 			"[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities]",
 			"May buy [Bogrunner] units with [Gold] [in all cities]",
 			"[Gold] cost of purchasing [Mercenary] units [-10]%"
 		],
@@ -315,12 +357,14 @@
 		"friendBonusUniques": [
 			"[+1 Food] in cities on [Tundra] tiles",
 			"[+2 Food] in cities on [Snow] tiles",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>",
 		],
 		"allyBonusUniques": [
 			"[+2 Food] in cities on [Tundra] tiles",
 			"[+4 Food] in cities on [Snow] tiles",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities]",
 			"May buy [Tuskarr] units with [Gold] [in all cities]"
 		],
 		"color": [255, 0, 0]
@@ -330,15 +374,17 @@
 		"friendBonusUniques": [
 			"[+50]% Production when constructing [Walls] buildings [in all cities]",
 			"[+50]% Production when constructing [Castle] buildings [in all cities]",
-			"[+50]% Production when constructing [Military Base] buildings [in all cities]"
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
+			"[+50]% Production when constructing [Military Base] buildings [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>",
 			"[Gold] cost of purchasing [Mercenary] units [-15]%"
 		],
 		"allyBonusUniques": [
 			"[+100]% Production when constructing [Walls] buildings [in all cities]",
 			"[+100]% Production when constructing [Castle] buildings [in all cities]",
-			"[+100]% Production when constructing [Military Base] buildings [in all cities]"
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
+			"[+100]% Production when constructing [Military Base] buildings [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities]",
 			"[Gold] cost of purchasing [Mercenary] units [-25]%"
 		],
 		"color": [255, 0, 0]
@@ -347,11 +393,13 @@
 		"name": "Gnoll Warband",
 		"friendBonusUniques": [
 			"Earn [10]% of killed [non-[Barbarians]] unit's [Cost] as [Gold]",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"Earn [10]% of killed [non-[Barbarians]] unit's [Cost] as [Gold]",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities]",
 			"May buy [Gnoll Basher] units with [Gold] [in all cities]"
 		],
 		"color": [255, 0, 0]
@@ -360,18 +408,20 @@
 		"name": "Pirates of Corelia",
 		"friendBonusUniques": [
 			"[-25]% maintenance costs <for [Water] units>",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]"
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[-25]% maintenance costs <for [Water] units>",
-			"May buy [{Common} {Mercenary}] units with [Gold] [in all cities]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities]",
+			"May buy [Rare Mercenary] units with [Gold] [in all cities]",
 			"May buy [Black Pearl] units with [Gold] [in all cities]",
 			"Free [Captain Jack] appears <every [50] turns>",
 			"All newly-trained [Naval] units [in all cities] receive the [Piracy] promotion"
 		],
 		"color": [255, 0, 0]
 	},
-	{
+	{	// very unique, not related to Mercenary unit but provide them immediately
 		"name": "Way of the Rackadine",
 		"friendBonusUniques": [
 			"Provides military units every ≈[25] turns"
@@ -390,13 +440,15 @@
 		"friendBonusUniques": [
 			"[+1 Faith] from every [Altar]",
 			"[+1 Faith] from every [Temple]",
-			"[+1 Faith] from every [Mawene]"
+			"[+1 Faith] from every [Mawene]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+1 Faith] from every [Altar]",
 			"[+1 Faith] from every [Temple]",
 			"[+2 Faith] from every [Mawene]",
-			"Religion naturally spreads to cities [+2] tiles away"
+			"Religion naturally spreads to cities [+2] tiles away",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 255, 255]
 	},
@@ -405,12 +457,14 @@
 		"friendBonusUniques": [
 			"[+3 Faith]",
 			"[+3 Faith] <starting from the [Enlightenment Age]>",
-			"[+7 Faith] <starting from the [Aeromantic Age]>"
+			"[+7 Faith] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+6 Faith]",
 			"[+6 Faith] <starting from the [Enlightenment Age]>",
-			"[+15 Faith] <starting from the [Aeromantic Age]>"
+			"[+15 Faith] <starting from the [Aeromantic Age]>",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 255, 255]
 	},
@@ -419,12 +473,14 @@
 		"friendBonusUniques": [
 			"[+4 Faith]",
 			"Provides [1] [Dao Perception] <hidden from users>",
-			"Comment [Enables training 1 [Xingzun] units]"
+			"Comment [Enables training 1 [Xingzun] units]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+8 Faith]",
 			"Provides [3] [Dao Perception] <hidden from users>",
-			"Comment [Enables training 3 [Xingzun] units]"
+			"Comment [Enables training 3 [Xingzun] units]",
+			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [255, 255, 255]
 	}

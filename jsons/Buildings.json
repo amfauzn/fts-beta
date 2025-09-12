@@ -767,6 +767,22 @@
 		]
 	},
 	{
+		"name": "Sect",
+		"uniqueTo": "Tianwu",
+		"replaces": "Public School",
+		"requiredBuilding": "Paper Maker",
+		"science": 2,
+		"faith": 2,
+		"hurryCostModifier": 15,
+		"maintenance": 1,
+		"specialistSlots": {"Scholar": 2},
+		"uniques": ["All newly-trained [Monk] units [in this city] receive the [Qi] promotion"],
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{"text": "Dedicated to the practice of cultivation and/or martial arts, these organized institution often led by a Sect Leader or Patriarch."}
+		]
+	},
+	{
 		"name": "Pillar of Learning",
 		"uniqueTo": "Shinso",
 		"isNationalWonder": true,
@@ -869,6 +885,23 @@
 		]
 	},
 	{
+		"name": "Stronghold",
+		"uniqueTo": "Nas",
+		"replaces": "Castle",
+		"requiredBuilding": "Walls",
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [1 additional attack for Garrisoned unit in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Chivalry",
+		"civilopediaText": [
+			{"text": "Strongly defended and upheld, keeping enemies outside."}
+		]
+	},
+	{
 		"name": "Windmill",
 		"requiredBuilding": "Workshop",
 		"production": 2,
@@ -933,7 +966,7 @@
 		]
 	},
 	{
-		"name": "Spellsword School",
+		"name": "Elemental Circle",
 		"uniqueTo": "The Order of Slayer",
 		"replaces": "Academy of Magic",
 		"requiredResource": "Rune Stone",
@@ -943,7 +976,9 @@
 			"NatW preq",
 			"Costs [30] [Aether]",
 			
-			"[+1 Science] from [Ley Line] tiles [in this city]",
+			"Comment [Also replaces [Centre of Atcane]]",
+			"[+1 Culture] from [Ley Line] tiles [in this city]",
+			"[+1 Culture] from [Artificial Ley Line] tiles [in this city]",
 			"Comment [Infantry units in this city is counted as 2 towards [Signs] progress]",
 			"All newly-trained [{Military} {Infantry}] units [in this city] receive the [Mutagenic] promotion <hidden from users>",
 			
@@ -957,7 +992,7 @@
 		],
 		"requiredTech": "Mana Crystallization",
 		"civilopediaText": [
-			{"text": "The institution which train and equip the itinerant monster slayers, increasing their chances of mutation."}
+			{"text": "Built atop high concentration of magic, these institution train and equip the itinerant monster slayers, increasing their chances of mutation."}
 		]
 	},
 	{
@@ -1090,6 +1125,22 @@
 		"civilopediaText": [
 			{"text": "A place where people with magical affinity resides and hone their magical skill."}
 		]
+	},
+	{
+		"name": "CoA Slayer",
+		"uniqueTo": "The Order of Slayer",
+		"replaces": "Centre of Arcane",
+		"requiredNearbyImprovedResources": ["Ley Line"],
+		"hurryCostModifier": 10,
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+1 Culture] from [Ley Line] tiles [in this city]",
+			"[+1 Culture] from [Artificial Ley Line] tiles [in this city]",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Spellbook Codification"
 	},
 	{
 		"name": "Warding Tower",

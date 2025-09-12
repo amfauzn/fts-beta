@@ -27,14 +27,14 @@ PolicyBranchIcons/Consolidation
   index: -1
 PolicyBranchIcons/Honor
   rotate: false
-  xy: 628, 420
+  xy: 836, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Tradition
   rotate: false
-  xy: 1252, 628
+  xy: 1460, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -109,58 +109,86 @@ PolicyIcons/Enchanted Tools
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Potion Making
+PolicyIcons/Holy Scriptures
   rotate: false
-  xy: 836, 628
+  xy: 628, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Representation
+PolicyIcons/Mandate of Heaven
   rotate: false
   xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Runic Glyphs
+PolicyIcons/Philanthropy
   rotate: false
   xy: 628, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Scavenged Parts
+PolicyIcons/Postulants
   rotate: false
   xy: 836, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Siege Engineers
+PolicyIcons/Potion Making
   rotate: false
   xy: 1044, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Siege Mastery
+PolicyIcons/Representation
   rotate: false
   xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Spellweaving
+PolicyIcons/Runic Glyphs
   rotate: false
   xy: 836, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/State Workforce
+PolicyIcons/Scavenged Parts
   rotate: false
   xy: 1044, 420
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Siege Engineers
+  rotate: false
+  xy: 1252, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Siege Mastery
+  rotate: false
+  xy: 836, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Spellweaving
+  rotate: false
+  xy: 1044, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/State Workforce
+  rotate: false
+  xy: 1252, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

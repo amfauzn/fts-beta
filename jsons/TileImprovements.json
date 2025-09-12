@@ -421,8 +421,9 @@
 		"name": "Kiln",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"uniques": [
+			"Must be next to [Hill]",
 			"Cannot be built on [Mountain] tiles",
 			"Only available <with [Kiln Design]>"
 			"[+1 Culture] <after discovering [Archaeology]>",
@@ -635,6 +636,25 @@
 		"civilopediaText": [
 			{"text": "An encampment with two different functions, that is to observe nature events and to monitor, guard, and anticipate surprise attacks by enemies."},
 			{"text": "While Staerie is safe from any pillaging during early game, it's better guard this improvement from the invasion of Golems."}
+		]
+	},
+	{
+		"name": "Pagoda",
+		"uniqueTo": "Tianwu",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": [
+			"Comment [Can be built on [Hill] or Land adjacent to [Mountain]]",
+			"Unbuildable <in [non-[Hill]] tiles> <with [0] to [0] neighboring [Mountain] tiles> <hidden from users>",
+			"[+1 Culture] <after discovering [Architecture]>", 
+			"[+1 Faith] for each adjacent [Mountain]",
+			"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"
+		],
+		"shortcutKey": "P",
+		"civilopediaText": [
+			{"text": "Tiered tower with multiple eaves, often built to test disciples. Each level represents a step in cultivation: physical, mental, and spiritual trials."}
 		]
 	},
 	

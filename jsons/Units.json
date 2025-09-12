@@ -592,6 +592,26 @@
 		]
 	},
 	{
+		"name": "Laskar",
+		"unitType": "Mounted",
+		"uniqueTo": "Nas",
+		"replaces": "Knight",
+		"movement": 4,
+		"strength": 33,
+		"cost": 165,
+		"hurryCostModifier": 15,
+		"requiredResource": "Horses",
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Cavalry",
+		"promotions": ["Great Generals I","Heavy Plate"],
+		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Private knights, loyal only to Galamar."}
+		]
+	},
+	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -1820,6 +1840,26 @@
 			{"text": "The pinnacle of monastic warriors, representing centuries of refined combat techniques and philosophical discipline. Emphasizes harmony between body and mind, their training often includes meditation, acrobatics, and the use of traditional weapons."}
 		]
 	},
+	{
+		"name": "Shifu",
+		"unitType": "Monks",
+		"uniqueTo": "Tianwu",
+		"replaces": "Master",
+		"movement": 2,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Infinite Qi"],
+		"uniques": [
+			"Unavailable <hidden from users>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Teachers of martial arts, who gives the utmost care for their pupils, as would a father or mother"}
+		]
+	},
 	
 	// Monk (Hidden)
 	{
@@ -1867,6 +1907,24 @@
 			"Can only be built <if [Flowing River School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Flowing River Shifu",
+		"unitType": "Flowing River Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Flowing River Master",
+		"movement": 2,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Ebb & Flow","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [Flowing River School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -1919,6 +1977,24 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Open Hand Shifu",
+		"unitType": "Open Hand Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Open Hand Master",
+		"movement": 2,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","A Thousand Punches","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [Open Hand School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Shadow Fang Disciple",
 		"unitType": "Shadow Fang Monk",
 		"movement": 2,
@@ -1943,7 +2019,7 @@
 		"range": 1,
 		"cost": 100,
 		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Shadow Fang Adept",
+		"upgradesTo": "Shadow Fang Adept (Ranged)",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
 			"Unbuildable",
@@ -1980,7 +2056,7 @@
 		"cost": 300,
 		"requiredTech": "Quintessence Powers",
 		"obsoleteTech": "Empowerment",
-		"upgradesTo": "Shadow Fang Master",
+		"upgradesTo": "Shadow Fang Master (Ranged)",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
 			"Unbuildable",
@@ -2006,6 +2082,24 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Shadow Fang Shifu",
+		"unitType": "Shadow Fang Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Shadow Fang Master",
+		"movement": 2,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Venom Fang","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [Shadow Fang School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Shadow Fang Master (Ranged)",
 		"unitType": "Shadow Fang Monk",
 		"movement": 2,
@@ -2019,6 +2113,26 @@
 			"Can only be built <if [Shadow Fang School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Shadow Fang Shifu (Ranged)",
+		"unitType": "Shadow Fang Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Shadow Fang Master (Ranged)",
+		"movement": 2,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 1,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Venom Fang","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [Shadow Fang School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2071,6 +2185,24 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "White Lotus Shifu",
+		"unitType": "White Lotus Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "White Lotus Master",
+		"movement": 2,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Lotus Clarity","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [White Lotus School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Drunken Fist Disciple",
 		"unitType": "Drunken Fist Monk",
 		"movement": 2,
@@ -2119,6 +2251,24 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Drunken Fist Shifu",
+		"unitType": "Drunken Fist Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Drunken Fist Master",
+		"movement": 2,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Bottom Up","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [Drunken Fist School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Gun Fu Disciple",
 		"unitType": "Gun Fu Monk",
 		"movement": 2,
@@ -2163,6 +2313,24 @@
 			"Can only be built <if [Gun Fu School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Gun Fu Shifu",
+		"unitType": "Gun Fu Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Gun Fu Master",
+		"movement": 2,
+		"strength": 75,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Of Gun Than Fist"],
+		"uniques": [
+			"Can only be built <if [Gun Fu School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2253,6 +2421,25 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Loyal Brotherhood Shifu",
+		"unitType": "Loyal Brotherhood Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Loyal Brotherhood Master",
+		"movement": 2,
+		"strength": 38,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Kroyokan","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [Loyal Brotherhood School] is constructed>",
+			"Free [Loyal Brotherhood Shifu-2] appears <hidden from users>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Loyal Brotherhood Master-2",
 		"unitType": "Loyal Brotherhood Monk",
 		"movement": 2,
@@ -2265,6 +2452,25 @@
 			"Cannot be purchased",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Loyal Brotherhood Shifu-2",
+		"unitType": "Loyal Brotherhood Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Loyal Brotherhood Master-2",
+		"movement": 2,
+		"strength": 38,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Kroyokan","Infinite Qi","Qi"],
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2316,8 +2522,173 @@
 		],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Wuxia Shifu",
+		"unitType": "Wuxia Monk",
+		"uniqueTo": "Tianwu",
+		"replaces": "Wuxia Master",
+		"movement": 4,
+		"strength": 70,
+		"cost": 500,
+		"requiredTech": "Empowerment",
+		"promotions": ["Meditate","Monastic Cavalier","Infinite Qi","Qi"],
+		"uniques": [
+			"Can only be built <if [Wuxia School] is constructed>",
+			"Prevents spreading of religion to the city it is next to",
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nonmetalhit"
+	},
 	
 	// Mercenary
+	// Common Mercenary
+	{
+		"name": "Composite Bowman",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 65,
+		"hurryCostModifier": 10,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Arbalester",
+		"uniques": [
+			"Mercenary",
+			"Common Mercenary",
+			"Unbuildable",
+			"Comment [Start with 15 XP]",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Constructed of layered strips of bone, horn, or other materials glued together to form an extremely strong and powerful bow, these bow considered the most sophisticated of all bow designs."}
+		]
+	},
+	{
+		"name": "Heavy Chariot",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 17,
+		"cost": 56,
+		"hurryCostModifier": 10,
+		"requiredResource": "Horses",
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Knight",
+		"promotions": ["Heavy Cavalry"],
+		"uniques": [
+			"Mercenary",
+			"Common Mercenary",
+			"Unbuildable",
+			"Rough terrain penalty",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "With scythes on the wheels, these unit proved really effective in smashing through enemy infantry lines."}
+		]
+	},
+	{
+		"name": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+		"cost": 180,
+		"hurryCostModifier": 10,
+		"requiredResource": "Horses",
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Cavalry",
+		"promotions": ["Light Cavalry"],
+		"uniques": [
+			"Mercenary",
+			"Common Mercenary",
+			"Unbuildable",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Emphasize mobility and flexibility, these mounted unit operate independently, conducting deep raids into the enemy heartland."}
+		]
+	},
+	{
+		"name": "Fire Ship",
+		"unitType": "Naval Ranged",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 100,
+		"hurryCostModifier": 5,
+		"requiredTech": "Compass",
+		"upgradesTo": "Frigate",
+		"promotions": ["Targeting"],
+		"uniques": [
+			"Mercenary",
+			"Common Mercenary",
+			"Unbuildable",
+			"Cannot enter ocean tiles",
+			"[-50]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "With a flamethrower mounted on the bow, these ships must come in very close to enemy ships in order to attacks."}
+		]
+	},
+	
+	// Rare Mercenary
+	{
+		"name": "Hoplite",
+		"unitType": "Anti-Armor",
+		"movement": 2,
+		"strength": 30,
+		"cost": 150,
+		"hurryCostModifier": 15,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Halberdier",
+		"promotions": ["Agoge"],
+		"uniques": [
+			"Mercenary",
+			"Rare Mercenary",
+			"Unbuildable",
+			"[-30]% Gold cost of upgrading",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Ornithoglider",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 5,
+		"cost": 275,
+		"requiredResource": "Magician",
+		"requiredTech": "Quintessence Powers",
+		"upgradesTo": "Bomber",
+		"promotions": ["Fireball"],
+		"uniques": [
+			"Mercenary",
+			"Rare Mercenary",
+			"Unbuildable",
+			"[-30]% Gold cost of upgrading"
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "bombing",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Unique Mercenary
 	{
 		"name": "Captain Jack",
 		"unitType": "Civilian Water",
@@ -2362,8 +2733,9 @@
 		"promotions": ["Coastal Raider","Piracy"],
 		"uniques": [
 			"Mercenary",
+			"Unique Mercenary",
 			"Unbuildable",
-			"[-50]% Gold cost of upgrading",
+			"[-20]% Gold cost of upgrading",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "Cannon",
@@ -2383,35 +2755,13 @@
 		"promotions": ["Amphibious","[Bogrunner] ability"],
 		"uniques": [
 			"Mercenary",
+			"Unique Mercenary",
 			"Unbuildable",
-			"[-50]% Gold cost of upgrading"
+			"[-20]% Gold cost of upgrading"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Armed with sword-like bones, these unit excel in amphibious combat."}
-		]
-	},
-	{
-		"name": "Composite Bowman",
-		"unitType": "Ranged Infantry",
-		"movement": 2,
-		"strength": 16,
-		"rangedStrength": 20,
-		"cost": 65,
-		"hurryCostModifier": 10,
-		"requiredTech": "Mathematics",
-		"upgradesTo": "Arbalester",
-		"uniques": [
-			"Mercenary",
-			"Common",
-			"Unbuildable",
-			"Comment [Start with 15 XP]",
-			"[-50]% Gold cost of upgrading",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "arrow",
-		"civilopediaText": [
-			{"text": "Constructed of layered strips of bone, horn, or other materials glued together to form an extremely strong and powerful bow, these bow considered the most sophisticated of all bow designs."}
 		]
 	},
 	{
@@ -2427,61 +2777,14 @@
 		"promotions": ["Bonebreaker"],
 		"uniques": [
 			"Mercenary",
+			"Unique Mercenary",
 			"Unbuildable",
 			"[+50]% XP gained from combat",
-			"[-50]% Gold cost of upgrading"
+			"[-20]% Gold cost of upgrading"
 		],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "These ruthless Gnolls are feared on the battlefield, with innate talent of warfare and their ability to swing gigantic hammer with ease."}
-		]
-	},
-	{
-		"name": "Heavy Chariot",
-		"unitType": "Mounted",
-		"movement": 3,
-		"strength": 17,
-		"cost": 56,
-		"hurryCostModifier": 10,
-		"requiredResource": "Horses",
-		"requiredTech": "The Wheel",
-		"obsoleteTech": "Chivalry",
-		"upgradesTo": "Knight",
-		"promotions": ["Heavy Cavalry"],
-		"uniques": [
-			"Mercenary",
-			"Common",
-			"Unbuildable",
-			"Rough terrain penalty",
-			"[-50]% Gold cost of upgrading",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "With scythes on the wheels, these unit proved really effective in smashing through enemy infantry lines."}
-		]
-	},
-	{
-		"name": "Lancer",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 30,
-		"cost": 180,
-		"hurryCostModifier": 10,
-		"requiredResource": "Horses",
-		"requiredTech": "Civil Service",
-		"upgradesTo": "Cavalry",
-		"promotions": ["Light Cavalry"],
-		"uniques": [
-			"Mercenary",
-			"Common",
-			"Unbuildable",
-			"[-50]% Gold cost of upgrading",
-			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "horse",
-		"civilopediaText": [
-			{"text": "Emphasize mobility and flexibility, these mounted unit operate independently, conducting deep raids into the enemy heartland."}
 		]
 	},
 	{
@@ -2497,8 +2800,9 @@
 		"promotions": ["Unbound"],
 		"uniques": [
 			"Mercenary",
+			"Unique Mercenary",
 			"Unbuildable",
-			"[-15]% Gold cost of upgrading",
+			"[-10]% Gold cost of upgrading",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "whoosh",
@@ -2518,8 +2822,9 @@
 		"promotions": ["Unbound"],
 		"uniques": [
 			"Mercenary",
+			"Unique Mercenary",
 			"Unbuildable",
-			"[-15]% Gold cost of upgrading",
+			"[-10]% Gold cost of upgrading",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "whoosh",
@@ -2527,6 +2832,37 @@
 			{"text": "An elite group of harpies, they are faster and stronger than Galewing."}
 		]
 	},
+	/*{
+		"name": "Ametite Arcane Cannon",
+		"unitType": "Construct",
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 2,
+		"cost": 240,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Adamantite Golem",
+		"promotions": ["Besiege"],
+		"uniques": [
+			"Comment [[Charged Blast]: Active. +300% Strength for the next attack. This unit is [Overheated] for 1 turn after attacking. Cooldown: 10 turns.]",
+		
+		//	Niatku ra nganggo, tp yen ngaranmu OP, tambahi neh ae
+		//	"Must set up to ranged attack <for units without [Efficient Machinery]> <hidden from users>", nek 
+			
+			"[This Unit] gains the [Charged Blast] status for [1] turn(s) <for [0] movement> <for units without [Charged Blast Cooldown]> <hidden from users>",
+			
+			"Mercenary",
+			"Unique Mercenary",
+			"Unbuildable",
+			"[-30]% Gold cost of upgrading", //Mergo Rare, tak gawe ra semurah Common, sesuai logic e Unique sg mung -15%
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},*/
 	{
 		"name": "Tuskarr",
 		"unitType": "Anti-Armor",
@@ -2539,11 +2875,12 @@
 		"promotions": ["Frostbrand"],
 		"uniques": [
 			"Mercenary",
+			"Unique Mercenary",
 			"Air Battler",
 			"Unbuildable",
 			"Double movement in [Tundra]",
 			"Double movement in [Snow]",
-			"[-50]% Gold cost of upgrading",
+			"[-20]% Gold cost of upgrading",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "metalhit",
@@ -3312,6 +3649,27 @@
 		],
 		"civilopediaText": [
 			{"text": "Tactical minded warriors, often the best one at that, who could read the flow of battle and plan the strategies based on the situation their troops faced."}
+		]
+	},
+	{
+		"name": "Heroic General",
+		"unitType": "Civilian",
+		"uniqueTo": "Nas",
+		"replaces": "Great General",
+		"movement": 2,
+		"upgradesTo": "Dragon Knight",
+		"promotions": ["Icon of Unity"],
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Comment [May upgrade to [Dragon Knight]]",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Is part of Great Person group [Military]"
+		],
+		"civilopediaText": [
+			{"text": ""}
 		]
 	},
 	{

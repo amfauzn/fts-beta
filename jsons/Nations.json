@@ -264,7 +264,7 @@ Characters:
 		"outerColor": [225,105,  0],
 		"innerColor": [255,255, 78],
 		
-		"uniqueName": "Bond and Oath"
+		"uniqueName": "Golden Wind"
 		"uniques": [
 			"[+1 Food] from every [Pasture]",
 			"[+1 Food] from every [Taming]",
@@ -375,6 +375,58 @@ Characters:
 		]
 	},
 	
+	// Long Aotian of Tianwu
+	{
+		"name": "Tianwu",
+		"leaderName": "Long Aotian",
+		"adjective": ["Tianwui"],
+		"startBias": ["Hill"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Vaja",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You are just a stepping stone for my greatness, prepare for war!",
+		"attacked": "Courting death! I will show you the difference between heaven and earth!",
+		"denounced": "Junior, you dare?!",
+		"defeated": "Old Heaven, why have you forsaken us?",
+		"afterPeace": "Senior truly is wise.",
+		"introduction": "This venerable is the most revered immortal between heaven and earth, you can call me Grandfather Long.",
+		
+		"neutralHello": "Greetings fellow warrior.",
+		"hateHello": "Presumptuous!",
+		"tradeRequest": "The fact that this emperor offer you this exchange is a blessing.",
+		
+		"outerColor": [153,  5, 3],
+        "innerColor": [244,232,54],
+		
+		"uniqueName": "Path of Immortality"
+		"uniques": [
+			"Comment [May choose a Monk School upon discovering [Philosophy] (may access up to two Monk Schools)]",
+			"Triggers a [Choose a Monk School] event <upon discovering [Philosophy] technology> <hidden from users>",
+			
+			"Comment [Infantry, Anti-Armor, and Monk units start with 10 XP]",
+			"New [Infantry] units start with [10] XP [in all cities] <hidden from users>",
+			"New [Anti-Armor] units start with [10] XP [in all cities] <hidden from users>",
+			"New [Monk] units start with [10] XP [in all cities] <hidden from users>",
+			
+			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] if you own said resource]",
+			"Provides [1] [Jade] <with [Jade]> <hidden from users>",
+			"Provides [1] [Silk] <with [Silk]> <hidden from users>",
+			"Provides [1] [Spices] <with [Spices]> <hidden from users>",
+			"Provides [1] [Incense] <with [Incense]> <hidden from users>"
+		],
+		"cities": ["Tianwu","Hua","Wudang","Longhu","Qiyun","Qingcheng","Kunlun","Heng","Song","Tai",
+			"Wuling","Emei","Wutai","Jiuhua","Putuo","Yandang","Lu","Huang","Tian Shan","Kawagarbo"],
+		"spyNames": ["Jie","Wu","San","Jiu","Xing-Yun","Chen","Tianxiao","Xiaoyu","Zhantian","Ningshuang"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	// Valadorn of Thorin
 	{
 		"name": "Thorin",
@@ -413,6 +465,51 @@ Characters:
 		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
 			"Lörissa","Joho Lor","Temwan","Sobayan","Senden","Sekernan","Pariaman","Lamin","Bingkai","Satui"],
 		"spyNames": ["Thorne","Galen","Landon","Leif","Jagger","Callum","Lirien","Caledon","Roran","Valtor"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Galamar of Nas
+	{
+		"name": "Nas",
+		"leaderName": "Galamar",
+		"adjective": ["Nassette"],
+		"startBias": ["Plains"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Kunakad",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "It is time I show your people how they might fare under a competent ruler.",
+		"attacked": "We shall never surrender.",
+		"denounced": "",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"afterPeace": "Your soldiers fought well. I congratulate you on your victory.",
+		"introduction": "I am Galamar VI of Thorin, ah, maybe you know me better as Robert of Nas.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		"tradeRequest": "Let's work together and maintain peace between us.",
+		
+		"outerColor": [ 28, 51,119],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "Bond and Oath"
+		"uniques": [
+			"City-State territory always counts as friendly territory",
+			"Comment [May recruit Common Mercenary from any City-states and Rare Mercenary from Militaristic City-states, even when only Friend]",
+			"[Gold] cost of purchasing [Mercenary] units [-15]%", //Doubled if allied is original design, but don't know how yet
+			"Comment [+1 [Happiness] for every 6 Mercenary units owned]",
+			"[+1 Happiness] <for every [6] [[Mercenary] Units]> <hidden from users>",
+			"[1] additional attacks per turn <for [Military] units> <in cities with a [Stronghold]> <hidden from users>"
+		],
+		"cities": ["Nas","Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna",
+			"Palebon","Metesech","Jaragar","Erech","Arbela","Gandariya","Bormont","Waykanan","Blitar","Kadiri"],
+		"spyNames": ["Remsen","Gurci","Cador","Ryt","Brioc","Tristan","Melyor","Tecca","Venna","lowdy"],
 		"civilopediaText": [
 			{"text": ""}
 		]

@@ -4480,6 +4480,7 @@
 			"Can transform to [Shadow Fang Disciple (Ranged)] <for [0] movement> <for [Shadow Fang Disciple] units> <hidden from users>",
 			"Can transform to [Shadow Fang Adept (Ranged)] <for [0] movement> <for [Shadow Fang Adept] units> <hidden from users>",
 			"Can transform to [Shadow Fang Master (Ranged)] <for [0] movement> <for [Shadow Fang Master] units> <hidden from users>",
+			"Can transform to [Shadow Fang Shifu (Ranged)] <for [0] movement> <for [Shadow Fang Shifu] units> <hidden from users>"
 		],
 		"unitTypes": ["Shadow Fang Monk"],
 		"column": 107,
@@ -7292,6 +7293,18 @@
 		"name": "Rejuvenation", 				// Fountain of Youth
 		"uniques": ["All healing effects doubled"]
 	},
+	{
+		"name": "Great Generals I",
+		"uniques": ["[Great General] is earned [50]% faster"]
+	},
+	{
+		"name": "Great Generals II",
+		"uniques": ["[Great General] is earned [75]% faster"]
+	},
+	{
+		"name": "Great Generals III",
+		"uniques": ["[Great General] is earned [100]% faster"]
+	},
 	
 	// Polgar Sod'em
 	{
@@ -7439,6 +7452,15 @@
 		]
 	},
 	
+	// Tianwu
+	{
+		"name": "Infinite Qi",
+		"uniques": [
+			"Comment [This Monk unit has infinite [Qi] during your turn]",
+			"[This Unit] gains the [Qi] promotion <upon losing the [Qi] promotion> <hidden from users>"
+		]
+	},
+	
 	// Thorin
 	{
 		"name": "Sturdy",
@@ -7480,6 +7502,16 @@
 			"[+1]% Strength <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		],
+	},
+	
+	// Nas
+	{
+		"name": "Icon of Unity",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and 45 Influence if this unit is non-Combatant]",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence <for [Civilian] units> <hidden from users>"
+		]
 	},
 	
 	// Red Moon
