@@ -7239,7 +7239,7 @@
 	{
 		"name": "Bonebreaker",					// Gnoll Basher
 		"uniques": [
-			"Comment [33% chance to inflick [Stunned] for 1 turn]",
+			"Comment [33% chance to inflict [Stunned] for 1 turn]",
 			"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [Land] unit> <with [33]% chance> <hidden from users>"
 		]
 	},

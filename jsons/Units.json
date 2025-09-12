@@ -1,20 +1,22 @@
 [
-	// TESTING
+	// TEST PURPOSE
 	// Njaluk tulung Test Purpose e ojo dibusak, aku ben gampang nek meh test
 	/*
 	{
 		"name": "Meo",
 		"unitType": "Flowing River Monk",
 		"replaces": "Maceman",
-		"uniqueTo": "Adelle Corp",
+		"uniqueTo": "Tianwu",
 		"movement": 5,
 		"strength": 10,
 		"cost": 1,
 		"hurryCostModifier": -90,
-		"promotions": ["Ebb & Flow", "Deflect"],
+		"promotions": ["Ebb & Flow", "Infinite Qi", "Meditate"],
 		"uniques": [
-			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles",
-					
+			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles", "[This Unit] gains [100] XP <upon turn end>",
+			
+			// put test stuffs below
+			
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -31,8 +33,10 @@
 		"hurryCostModifier": -90,
 		"promotions": ["Shock"],
 		"uniques": [
-			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles",
+			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles", "[This Unit] gains [100] XP <upon turn end>",
 					
+			// put test stuffs below
+			
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -125,7 +129,7 @@
 		"movement": 4,
 		"uniques": [
 			"Mechanical",
-			"Unbuildable",
+			"Unbuildable <hidden from users>",
 			"Uncapturable",
 			"Ignores terrain cost <in [Desert] tiles>",
 			"Comment [Set Movement to 1 in non-[Desert] tiles]",

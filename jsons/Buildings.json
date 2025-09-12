@@ -33,6 +33,30 @@
 	},
 	*/
 	
+	/*
+	// TEST PURPOSE
+	// Njaluk tulung Test Purpose e ojo dibusak, aku ben gampang nek meh test
+		{
+			"name": "Do X",
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"uniques": [
+			
+					"Free [Worker] appears",
+					
+					]
+		},
+		{
+			"name": "Do Y",
+			"cost": 1,
+			"hurryCostModifier": -90,
+			"uniques": [
+			
+					"Provides [1] [Silk]",
+					
+					]
+		},
+	*/
 	
 	// Always Available
 	{
@@ -772,6 +796,7 @@
 		"replaces": "Public School",
 		"requiredBuilding": "Paper Maker",
 		"science": 2,
+		"percentStatBonus": {"science": 33},
 		"faith": 2,
 		"hurryCostModifier": 15,
 		"maintenance": 1,
@@ -2705,5 +2730,64 @@
 			"Destroyed when the city is captured",
 			"Will not be displayed in Civilopedia"
 		]
-	}
+	},
+	
+	// Tianwu
+	{
+		"name": "Tianwu Jade",
+		"uniqueTo": "Tianwu",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <with [Jade]> <in cities with a [Palace]>",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Jade]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Tianwu Silk",
+		"uniqueTo": "Tianwu",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <with [Silk]> <in cities with a [Palace]>",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Silk]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Tianwu Spices",
+		"uniqueTo": "Tianwu",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <with [Spices]> <in cities with a [Palace]>",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Spices]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Tianwu Incense",
+		"uniqueTo": "Tianwu",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <with [Incense]> <in cities with a [Palace]>",
+			"Automatically built in all cities where it is buildable",
+			"Provides [1] [Incense]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 ]

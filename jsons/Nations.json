@@ -174,7 +174,7 @@ Characters:
 		
 		"uniqueName": "Her Biting Embrace",
 		"uniques": [
-			"Comment [Provides 1 [Magician] and gain a free [Divine Order] upon discovering [Celestials Wisdom]]", 
+			"Comment [Provides 1 [Magician] and gain a free [Divine Order] upon discovering [Celestial Wisdoms]]", 
 			"Comment [Gain a free second [Granary] in cities with at least 3 [Culture] buildings]", 
 			"Comment [Gain 15 [Faith] when our unit receives any Cold Ailment in Friendly Land]", 
 			
@@ -413,11 +413,8 @@ Characters:
 			"New [Anti-Armor] units start with [10] XP [in all cities] <hidden from users>",
 			"New [Monk] units start with [10] XP [in all cities] <hidden from users>",
 			
-			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] if you own said resource]",
-			"Provides [1] [Jade] <with [Jade]> <hidden from users>",
-			"Provides [1] [Silk] <with [Silk]> <hidden from users>",
-			"Provides [1] [Spices] <with [Spices]> <hidden from users>",
-			"Provides [1] [Incense] <with [Incense]> <hidden from users>"
+			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] in Capital the first time you owned the same resource]",
+			
 		],
 		"cities": ["Tianwu","Hua","Wudang","Longhu","Qiyun","Qingcheng","Kunlun","Heng","Song","Tai",
 			"Wuling","Emei","Wutai","Jiuhua","Putuo","Yandang","Lu","Huang","Tian Shan","Kawagarbo"],

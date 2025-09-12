@@ -644,11 +644,11 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Construction",
+		"techRequired": "Celestial Wisdoms",
 		"uniques": [
 			"Comment [Can be built on [Hill] or Land adjacent to [Mountain]]",
 			"Unbuildable <in [non-[Hill]] tiles> <with [0] to [0] neighboring [Mountain] tiles> <hidden from users>",
-			"[+1 Culture] <after discovering [Architecture]>", 
+			"[+1 Culture] <after discovering [Quintessence Powers]>", 
 			"[+1 Faith] for each adjacent [Mountain]",
 			"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"
 		],
