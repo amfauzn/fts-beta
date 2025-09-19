@@ -1,22 +1,20 @@
 [
-	// TEST PURPOSE
+	// TESTING
 	// Njaluk tulung Test Purpose e ojo dibusak, aku ben gampang nek meh test
 	/*
 	{
 		"name": "Meo",
 		"unitType": "Flowing River Monk",
 		"replaces": "Maceman",
-		"uniqueTo": "Tianwu",
+		"uniqueTo": "Adelle Corp",
 		"movement": 5,
 		"strength": 10,
 		"cost": 1,
 		"hurryCostModifier": -90,
-		"promotions": ["Ebb & Flow", "Infinite Qi", "Meditate"],
+		"promotions": ["Ebb & Flow", "Deflect"],
 		"uniques": [
-			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles", "[This Unit] gains [100] XP <upon turn end>",
-			
-			// put test stuffs below
-			
+			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles",
+					
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -33,10 +31,8 @@
 		"hurryCostModifier": -90,
 		"promotions": ["Shock"],
 		"uniques": [
-			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles", "[This Unit] gains [100] XP <upon turn end>",
+			"Ignores terrain cost", "[+5] Sight", "Can see over obstacles",
 					
-			// put test stuffs below
-			
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -129,7 +125,7 @@
 		"movement": 4,
 		"uniques": [
 			"Mechanical",
-			"Unbuildable <hidden from users>",
+			"Unbuildable",
 			"Uncapturable",
 			"Ignores terrain cost <in [Desert] tiles>",
 			"Comment [Set Movement to 1 in non-[Desert] tiles]",
@@ -2664,7 +2660,7 @@
 		],
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Experienced soldiers with long, deadly-sharp weapons moving in certain formation, which were nearly impossible to break by melee attacks."}
 		]
 	},
 	{
@@ -2688,7 +2684,7 @@
 		],
 		"attackSound": "bombing",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Flexible-winged glider that carries magicians into the skies, unleashing fireballs toward enemies."}
 		]
 	},
 	
@@ -3155,7 +3151,7 @@
 		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 10,
+		"strength": 8,
 		"cost": 20,
 		"obsoleteTech": "Leyline Siphoning",
 		"uniques": [
@@ -3172,7 +3168,7 @@
 		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 20,
+		"strength": 18,
 		"cost": 40,
 		"obsoleteTech": "Mana Crystallization",
 		"uniques": [
@@ -3193,7 +3189,7 @@
 		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 10,
+		"strength": 8,
 		"cost": 40,
 		"requiredTech": "Calendar",
 		"obsoleteTech": "Engineering",
@@ -3213,7 +3209,7 @@
 		"name": "Giant Rat-2",
 		"unitType": "Foot Monster",
 		"movement": 3,
-		"strength": 10,
+		"strength": 8,
 		"cost": 40,
 		"requiredTech": "Calendar",
 		"obsoleteTech": "Engineering",
@@ -3231,7 +3227,7 @@
 		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 12,
+		"strength": 10,
 		"cost": 40,
 		"requiredTech": "Hunting",
 		"obsoleteTech": "Metal Casting",
@@ -3254,7 +3250,7 @@
 		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 12,
+		"strength": 10,
 		"cost": 40,
 		"requiredTech": "Domestication",
 		"obsoleteTech": "Guilds",
@@ -3275,7 +3271,7 @@
 		"unitType": "Flying Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 4,
-		"strength": 12,
+		"strength": 10,
 		"cost": 40,
 		"requiredTech": "Mining",
 		"obsoleteTech": "Loan and Saving",
@@ -3290,7 +3286,7 @@
 		"unitType": "Foot Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 16,
+		"strength": 14,
 		"cost": 56,
 		"requiredTech": "Masonry",
 		"obsoleteTech": "Chivalry",

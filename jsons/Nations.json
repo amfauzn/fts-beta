@@ -413,8 +413,7 @@ Characters:
 			"New [Anti-Armor] units start with [10] XP [in all cities] <hidden from users>",
 			"New [Monk] units start with [10] XP [in all cities] <hidden from users>",
 			
-			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] in Capital the first time you owned the same resource]",
-			
+			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] in Capital after you own said resources for the first time]"
 		],
 		"cities": ["Tianwu","Hua","Wudang","Longhu","Qiyun","Qingcheng","Kunlun","Heng","Song","Tai",
 			"Wuling","Emei","Wutai","Jiuhua","Putuo","Yandang","Lu","Huang","Tian Shan","Kawagarbo"],

@@ -58,6 +58,7 @@
 		},
 	*/
 	
+	
 	// Always Available
 	{
 		"name": "Palace",
@@ -796,10 +797,10 @@
 		"replaces": "Public School",
 		"requiredBuilding": "Paper Maker",
 		"science": 2,
+		"faith": 3,
 		"percentStatBonus": {"science": 33},
-		"faith": 2,
 		"hurryCostModifier": 15,
-		"maintenance": 1,
+		"maintenance": 2,
 		"specialistSlots": {"Scholar": 2},
 		"uniques": ["All newly-trained [Monk] units [in this city] receive the [Qi] promotion"],
 		"requiredTech": "Education",
@@ -2789,5 +2790,4 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
-	
 ]
