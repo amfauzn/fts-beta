@@ -511,6 +511,51 @@ Characters:
 		]
 	},
 	
+	// Almira of Dwargon
+	{
+		"name": "Dwargon",
+		"leaderName": "Almira",
+		"adjective": ["Dwarni"],
+		"startBias": ["startBias"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Dwarves",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You has transgessed our agenda, we won't let you have it your way!",
+		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
+		"denounced": "",
+		"defeated": "Oh Higba, I'm sorry, I've failed you.",
+		"afterPeace": "You know, I'm something of an advocat of peace myself.",
+		"introduction": "Greetings stranger, I am Almira of Dwargon. Leader of the Dwarni and mother of all mechas.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What now?",
+		"tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
+		
+		"outerColor": [ 84, 43, 11],
+		"innerColor": [ 12,242,189],
+		
+		"uniqueName": "Ingenuity"
+		"uniques": [
+			"Comment [+1 [Production] from every 2 Ages for cities settled on [Hill]]",
+			"[+1 Production] in cities on [Hill] tiles <starting from the [Discovery Age]> <hidden from users>",
+			"[+1 Production] in cities on [Hill] tiles <starting from the [Magi-Industry Age]> <hidden from users>",
+			"[+1 Production] in cities on [Hill] tiles <starting from the [Modern Age]> <hidden from users>",
+			
+			//next
+		],
+		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr",
+			"Kar Doral","Mol Kolduhr","Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr","Dun Bhirngon","Del Laduhr","Thol Thorum"],
+		"spyNames": ["Higba","Jori","Duri","Redaxe","Burlok","Helgar","Barruk","Hilda","Gunn","Gorim"]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
 	// Claudia of Red Moon
 	{
 		"name": "Red Moon",

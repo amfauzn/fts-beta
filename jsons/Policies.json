@@ -474,7 +474,7 @@
 		],
 		"policies": [
 			{
-				"name": "Trade Union",
+				"name": "Trade Unions",
 				"uniques": [
 					"[-33]% maintenance on road & railroads",
 					"[+1 Gold] from each Trade Route"
@@ -490,7 +490,7 @@
 					"[+1 Science] from every [Market]",
 					"[+1 Science] from every [Bank]"
 				],
-				"requires": ["Trade Union"],
+				"requires": ["Trade Unions"],
 				"row": 2,
 				"column": 1
 			},
@@ -502,7 +502,7 @@
 					"[+20]% Production when constructing [Harbor] buildings [in all coastal cities]",
 					"[+20]% Production when constructing [Seaport] buildings [in all coastal cities]"
 				],
-				"requires": ["Trade Union"],
+				"requires": ["Trade Unions"],
 				"row": 2,
 				"column": 3
 			},
@@ -553,7 +553,7 @@
 				"column": 1
 			},
 			{
-				"name": "Natural Inspiration",
+				"name": "Aesthetics",
 				"uniques": [
 					"[+2 Culture] from every [Landmark]",
 					"[+1 Culture] from every [Aurora]",
@@ -580,7 +580,7 @@
 					"[+33]% [Culture] [in all cities with a world wonder]",
 					"Empire enters golden age"
 				],
-				"requires": ["Natural Inspiration","Cultural Exchange"],
+				"requires": ["Aesthetics","Cultural Exchange"],
 				"row": 3,
 				"column": 4
 			},

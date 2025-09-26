@@ -969,6 +969,24 @@
 		],
 		"requiredTech": "Machinery"
 	},
+	{
+		"name": "Royal Inventor Assembly",
+		"uniqueTo": "Dwargon",
+		"replaces": "Ironworks",
+		"isNationalWonder": true,
+		"culture": 1,
+		"science": 3,
+		"production": 8,
+		"cost": 150,
+		"uniques": [
+			"[+2 Science] from every [Great Improvement]",
+			"Cost increases by [25] per owned city"
+		],
+		"requiredTech": "Machinery",
+		"civilopediaText": [
+			{"text": "Workplace magnificence, where Orichalcum Ingots were processed."}
+		]
+	},
 	
 	{
 		"name": "Academy of Magic",
@@ -1239,6 +1257,26 @@
 		"requiredTech": "Architecture",
 		"civilopediaText": [
 			{"text": "Serve as the intellectual core, these cluster of learning halls, libraries, and lecture grounds are where scholars and students gather to pursue knowledge."}
+		]
+	},
+	{
+		"name": "Tinkerer's Depot",
+		"uniqueTo": "Dwargon",
+		"replaces": "Campus",
+		"requiredBuilding": "Public School",
+		"science": 2,
+		"hurryCostModifier": 15,
+		"maintenance": 3,
+		"specialistSlots": {"Scholar": 2},
+		"uniques": [
+			"NatW preq",
+			"[+1 Science] per [2] population [in this city]",
+			"[+15]% Production when constructing [Construct] units [in this city]",
+			"[+1 Science] from [Mine] tiles [in this city]"
+		],
+		"requiredTech": "Architecture",
+		"civilopediaText": [
+			{"text": " Here, the Dwarni study, experiment, and tinker endlessly in pursuit of perfected mechas and arcane machinery."}
 		]
 	},
 	{

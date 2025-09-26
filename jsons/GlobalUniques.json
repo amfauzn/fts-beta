@@ -14,6 +14,11 @@
 		"Instantly gain [1] [SelfTurn] <upon turn start> <when below [1] [SelfTurn]>",
 		"Instantly consumes [1] [SelfTurn] <upon turn end> <when above [0] [SelfTurn]>",
 		
+		// City State Buffs
+		"Gain a free [Barracks] [in capital] <for [City-State] Civilizations>",
+		"Gain a free [Riding Arena] [in capital] <for [City-State] Civilizations>",
+		"Gain a free [Shooting Range] [in capital] <for [City-State] Civilizations>",
+		
 		// Mercenary
 		"New [Composite Bowman] units start with [15] XP [in all cities]",
 		"[Gold] cost of purchasing [Mercenary] units [+3]% <for every [[Mercenary] Units]>", // so AI won't spam

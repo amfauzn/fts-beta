@@ -30,6 +30,8 @@
 			"Wuxia Monk",
 			"Tamer"
 		],
+		"innerColor": [200,40,40],
+		"outerColor": [255,240,240],
 		"column": 0,
 		"row": 0
 	},
@@ -64,6 +66,8 @@
 			"Wuxia Monk",
 			"Tamer"
 		],
+		"innerColor": [200,40,40],
+		"outerColor": [255,240,240],
 		"column": 1,
 		"row": 0
 	},
@@ -260,7 +264,7 @@
 		"row": 3
 	},
 	{
-		"name": "Schiltron",
+		"name": "Square Crowd",
 		"prerequisites": ["Formation","Shield Wall"],
 		"uniques": ["[+25]% Strength <vs [Infantry] units>"],
 		"unitTypes": ["Anti-Armor"],
@@ -280,7 +284,7 @@
 	},
 	{
 		"name": "March",
-		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious"],
+		"prerequisites": ["Besiege","Woodsman","Thrust","Square Crowd","Amphibious"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Infantry","Anti-Armor"],
 		"column": 9,
@@ -615,7 +619,7 @@
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Breakthrough","Encirclement","Agoge","Heavy Plate"],
+		"prerequisites": ["Besiege","Woodsman","Thrust","Square Crowd","Amphibious","Breakthrough","Encirclement","Agoge","Heavy Plate"],
 		"uniques": [
 			"[1] additional attacks per turn",
 			"Can move after attacking"
@@ -769,7 +773,7 @@
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Besiege","Woodsman","Thrust","Schiltron","Amphibious","Precision","Ambush","Shell"],
+		"prerequisites": ["Besiege","Woodsman","Thrust","Square Crowd","Amphibious","Precision","Ambush","Shell"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Infantry","Anti-Armor","Anti-Air"],
 		"column": 31,
@@ -3083,7 +3087,7 @@
 		"name": "Antimage Core",
 		"prerequisites": ["Overcharge","Berserk"],
 		"uniques": [
-			"Comment [Attack inflicts [Mana Exhaustion] for 2 turns. Incompatible with [Volatile Core].]",
+			"Comment [Attack inflicts [Mana Exhaustion] for 2 turns. Incompatible with [Volatile Core]]",
 			
 			"[Target Unit] gains the [Mana Exhaustion] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
@@ -3135,7 +3139,7 @@
 	},
 	{
 		"name": "Twin Fang",
-		"prerequisites": ["Piercing Claw"],
+		"prerequisites": ["Awareness"],
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Air Terror"],
 		"column": 65,
@@ -3143,7 +3147,7 @@
 	},
 	{
 		"name": "Meteoric Dive",
-		"prerequisites": ["Piercing Claw"],
+		"prerequisites": ["Unbound"],
 		"uniques": [
 			"[+25]% Strength <vs [Anti-Air] units> <when attacking>",
 			"[+25]% Strength <vs [Flying] units>"
@@ -3154,7 +3158,7 @@
 	},
 	{
 		"name": "Hardened Scale",
-		"prerequisites": ["Awareness"],
+		"prerequisites": ["Piercing Claw"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Air Terror","Counter Air Terror","Flying Monster"],
 		"column": 68,
@@ -3178,7 +3182,7 @@
 	},
 	{
 		"name": "Vigilance",
-		"prerequisites": ["Wind Dash","Hardened Scale"],
+		"prerequisites": ["Twin Fang","Meteoric Dive","Hardened Scale"],
 		"uniques": [
 			"[+1] Sight",
 			"Can see invisible [Military] units"
@@ -3196,7 +3200,7 @@
 		"row": 4
 	},
 	{
-		"name": "Hunter's Instinc",
+		"name": "Hunter's Instinct",
 		"prerequisites": ["Hunter Killer","Wind Dash","Vigilance"],
 		"uniques": [
 			"Can move after attacking",
@@ -5387,7 +5391,7 @@
 		"unitTypes": ["Infantry"]
 	},
 	{
-		"name": "Phalanx Form",
+		"name": "Schiltron",
 		"prerequisites": ["Magic Skin"],
 		"uniques": [
 			"Comment [When this unit is adjacent to Anti-Armor unit, attacker gain -15% Strength when attacking]",
@@ -5705,7 +5709,7 @@
 	},
 	{
 		"name": "Aura Master",
-		"prerequisites": ["Aura Zone","Viewing Eyes","Sword Resonance","Phalanx Form","Aegis","Farsight","Aura Knight"],
+		"prerequisites": ["Aura Zone","Viewing Eyes","Sword Resonance","Schiltron","Aegis","Farsight","Aura Knight"],
 		"uniques": [
 			"Consumes [1] [Starshard]",
 			"[+50]% Strength",
@@ -7511,6 +7515,19 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and 45 Influence if this unit is non-Combatant]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [45] Influence <for [Civilian] units> <hidden from users>"
+		]
+	},
+	
+	// Dwargon
+	{
+		"name": "Advanced Antimage Core",
+		"prerequisites": ["Overcharge","Berserk"],
+		"uniques": [
+			"Comment [Attack inflicts [Mana Exhaustion] for 2 turns]",
+			"[Target Unit] gains the [Mana Exhaustion] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Mana Exhaustion", "link":"Promotion/Mana Exhaustion"},
 		]
 	},
 	

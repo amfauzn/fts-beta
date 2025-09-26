@@ -244,7 +244,7 @@ CityStateIcons/Faith-Sharing
   index: -1
 CityStateIcons/Religious
   rotate: false
-  xy: 1460, 836
+  xy: 1876, 1876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -417,16 +417,23 @@ ImprovementIcons/Sage Tower
   orig: 200, 200
   offset: 0, 0
   index: -1
+ImprovementIcons/Staerie
+  rotate: false
+  xy: 628, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ImprovementIcons/TM Mine
   rotate: false
-  xy: 836, 320
+  xy: 1044, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Taming
   rotate: false
-  xy: 1044, 528
+  xy: 1252, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -434,20 +441,6 @@ ImprovementIcons/Taming
 ImprovementIcons/Trade Hub
   rotate: false
   xy: 1668, 1152
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/Adelle Corp
-  rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The New Movement
-  rotate: false
-  xy: 1460, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -538,7 +531,7 @@ ResourceIcons/Altalium
   index: -1
 ResourceIcons/Amber
   rotate: false
-  xy: 1876, 1876
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -734,14 +727,14 @@ ResourceIcons/Soulstone
   index: -1
 ResourceIcons/Starshard
   rotate: false
-  xy: 628, 112
+  xy: 836, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 1252, 736
+  xy: 1460, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

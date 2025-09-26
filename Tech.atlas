@@ -1,110 +1,159 @@
 
 Tech.png
-size: 2048, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TechIcons/Alchemy
   rotate: false
-  xy: 4, 212
+  xy: 4, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Animal Riding
   rotate: false
-  xy: 4, 4
+  xy: 4, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Aquanautics
   rotate: false
-  xy: 212, 212
+  xy: 212, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Astrology
   rotate: false
-  xy: 212, 4
+  xy: 4, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Avionic Theory
   rotate: false
-  xy: 420, 212
+  xy: 212, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Celestial Wisdom
   rotate: false
-  xy: 420, 4
+  xy: 420, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Celestial Wisdoms
+  rotate: false
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Circle
   rotate: false
-  xy: 628, 212
+  xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Domestication
+  rotate: false
+  xy: 420, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 628, 4
+  xy: 628, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Geomancy
   rotate: false
-  xy: 836, 212
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Hunting
   rotate: false
-  xy: 836, 4
+  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Irrigation
   rotate: false
-  xy: 1044, 212
+  xy: 628, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Language
   rotate: false
-  xy: 1044, 4
+  xy: 836, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Magic Negation
   rotate: false
-  xy: 1252, 212
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Mana Attunement
   rotate: false
-  xy: 1252, 4
+  xy: 628, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Mana Crystallization
+  rotate: false
+  xy: 836, 420
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Mana Thaumaturgy
+  rotate: false
+  xy: 1044, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Paper Making
+  rotate: false
+  xy: 628, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Poetry
+  rotate: false
+  xy: 836, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Runeforging
   rotate: false
-  xy: 1460, 212
+  xy: 1044, 420
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Summoning Rites
+  rotate: false
+  xy: 1252, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

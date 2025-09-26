@@ -1227,11 +1227,36 @@
 			"Consumes [1] [Iron]",
 			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>",
 			"[+20]% Strength <when defending>",
-			"Comment [Reduce damage taken by 5]"
+			//"Comment [Reduce damage taken by 5]"
 		],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "An upgrade from its stone counterpart. Forged with iron, these golems boasts improved strength and durability."}
+		]
+	},
+	{
+		"name": "Orichalcum Golem",
+		"unitType": "Construct",
+		"uniqueTo": "Dwargon",
+		"replaces": "Iron Golem",
+		"movement": 2,
+		"strength": 50,
+		"cost": 265,
+		"hurryCostModifier": 20,
+		"requiredResource": "Soulstone",
+		"requiredTech": "Runeforging",
+		"obsoleteTech": "Mana Battery",
+		"upgradesTo": "Adamantite Golem",
+		"promotions": ["Advanced Antimage Core"],
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>",
+			"[+20]% Strength <when defending>",
+			//"Comment [Reduce damage taken by 5]"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Inspired by Higba's Orichalcum Golem Mk. 0, these golems created using Orichalcum, a rare yet strong metal."}
 		]
 	},
 	{
@@ -1250,8 +1275,8 @@
 			"Can pass through impassable tiles",
 			"Can only be built <in cities with a [Arcane Spire]> <hidden from users>",
 			"[+20]% Strength <when defending>",
-			"Comment [Reduce damage taken by 5]",
-			"Comment [Immune from Lightning, Fire, and Ice]"
+			//"Comment [Reduce damage taken by 5]",
+			//"Comment [Immune from Lightning, Fire, and Ice]"
 		],
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -1270,9 +1295,9 @@
 			"Consumes [2] [Soulstone]",
 			"Can pass through impassable tiles",
 			"[+20]% Strength <when defending>",
-			"Comment [Reduce damage taken by 5]",
-			"Comment [Immune from Lightning, Fire, and Ice]",
-			"Comment [Spells cannot target this unit]"
+			//"Comment [Reduce damage taken by 5]",
+			//"Comment [Immune from Lightning, Fire, and Ice]",
+			//"Comment [Spells cannot target this unit]"
 		],
 		"attackSound": "gdrAttack",
 		"civilopediaText": [

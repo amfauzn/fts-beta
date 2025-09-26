@@ -1,0 +1,104 @@
+
+NationIcons.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+NationIcons/Adelle Corp
+  rotate: false
+  xy: 1252, 178
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Circle
+  rotate: false
+  xy: 1252, 286
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+NationIcons/CityState
+  rotate: false
+  xy: 4, 212
+  size: 200, 252
+  orig: 200, 252
+  offset: 0, 0
+  index: -1
+NationIcons/Dwargon
+  rotate: false
+  xy: 4, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Louvargia
+  rotate: false
+  xy: 212, 264
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Nas
+  rotate: false
+  xy: 212, 56
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Polgar Sod'em
+  rotate: false
+  xy: 420, 264
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Red Moon
+  rotate: false
+  xy: 420, 56
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Shinso
+  rotate: false
+  xy: 628, 264
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Smeheng
+  rotate: false
+  xy: 628, 56
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Order of Slayer
+  rotate: false
+  xy: 836, 264
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Thorin
+  rotate: false
+  xy: 836, 56
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Tianwu
+  rotate: false
+  xy: 1044, 264
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Twin Mountain
+  rotate: false
+  xy: 1044, 56
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
