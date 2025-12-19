@@ -64,6 +64,10 @@
 	},
 	*/
 	
+	
+	//NOTES
+	// Warlock cast nuclear-like spell?
+	
 	// Civilian
 	{
 		"name": "Settler",
@@ -131,7 +135,7 @@
 			"Comment [Set Movement to 1 in non-[Desert] tiles]",
 			"Comment [Transfer Movement and ignores terrain cost to stacked non-Mobile Biological units]",
 			"Limited to [8] per Civilization <hidden from users>",
-			"Transfer Movement to [{non-[Mobile]} {Biological}] <hidden from users>",
+			"Transfer Movement to [Sandgliding] <hidden from users>",
 			"[-99] Movement <in [non-[Desert]] tiles> <hidden from users>"
 		],
 		"civilopediaText": [
@@ -1456,7 +1460,10 @@
 			"Cannot enter ocean tiles",
 			"Can only be built <in cities with a [Shipyard]> <hidden from users>"
 		],
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Caravel",
@@ -1474,7 +1481,10 @@
 			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Ironclad",
@@ -1492,7 +1502,10 @@
 			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shipguns"
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Destroyer",
@@ -1510,7 +1523,10 @@
 			"Withdraws before melee combat <with [50]% chance>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shipguns"
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Naval Ranged
@@ -1529,7 +1545,10 @@
 			"Cannot enter ocean tiles",
 			"Can only be built <in cities with a [Shipyard]> <hidden from users>"
 		],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Frigate",
@@ -1547,7 +1566,10 @@
 			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Battleship",
@@ -1564,7 +1586,10 @@
 			"Can see invisible [Naval Raider] units",
 			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "shipguns"
+		"attackSound": "shipguns",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Naval Raider
@@ -1581,7 +1606,10 @@
 			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
 			"May capture killed [Water] units"
 		],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Privateer",
@@ -1603,7 +1631,10 @@
 			"Can only be built <in cities with a [Shipyard]> <hidden from users>",
 			"May capture killed [Water] units"
 		],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Submarine",
@@ -1619,7 +1650,10 @@
 			"Invisible to non-adjacent units",
 			"Can only attack [Water] tiles"
 		],
-		"attackSound": "torpedo"
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Carrier
@@ -1695,7 +1729,10 @@
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Airship] units>"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Fighter",
@@ -1713,7 +1750,10 @@
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Airship] units>"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Air Bomber
@@ -1729,7 +1769,10 @@
 		"requiredTech": "Flight",
 		"obsoleteTech": "Stealth",
 		"upgradesTo": "Jet Bomber",
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	{
 		"name": "Jet Bomber",
@@ -1742,7 +1785,10 @@
 		"requiredResource": "Altalium",
 		"requiredTech": "Stealth",
 		"uniques": ["Damage taken from interception reduced by [33]%"],
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"civilopediaText": [
+			{"text": ""}
+		]
 	},
 	
 	// Missile
@@ -3556,6 +3602,26 @@
 		]
 	},
 	
+	{
+		"name": "Onggo-Inggi",
+		"unitType": "Water Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 10,
+		"cost": 20,
+		"requiredTech": "Fishing",
+		"obsoleteTech": "Cartography",
+		"uniques": [
+			"Magical",
+			"[+200]% Strength <when attacking>",
+			"Self-destructs when attacking",
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A floating head with long hair used to wrap around the victim whose soul was to be taken."}
+		]
+	},
 	
 	// Great People
 	{

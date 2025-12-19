@@ -58,7 +58,6 @@
 		},
 	*/
 	
-	
 	// Always Available
 	{
 		"name": "Palace",
@@ -1451,7 +1450,10 @@
 		"hurryCostModifier": 0,
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 2},
-		"requiredTech": "Industrialization"
+		"requiredTech": "Industrialization",
+		"civilopediaText": [
+			{"text": "A complex of mana-driven machineries, increasing the speed and efficiency of the manufacturing process."}
+		]
 	},
 	{
 		"name": "Leyline Nexus",
@@ -1462,7 +1464,10 @@
 			"Cannot be purchased", 
 			"Creates a [Artificial Ley Line] improvement on a specific tile"
 		],
-		"requiredTech": "Industrialization"
+		"requiredTech": "Industrialization",
+		"civilopediaText": [
+			{"text": "To artificially connect those otherwise unconnected ley lines."}
+		]
 	},
 	{
 		"name": "Bank",
@@ -1471,7 +1476,10 @@
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 15,
 		"specialistSlots": {"Merchant": 2},
-		"requiredTech": "Economics"
+		"requiredTech": "Economics",
+		"civilopediaText": [
+			{"text": "An institute that accepts deposits from public and creates a demand deposit while simultaneously making loans."}
+		]
 	},
 	{
 		"name": "Textile Mill",
@@ -1484,7 +1492,10 @@
 			"[+2 Production] from [Furs] tiles [in this city]",
 			"[+2 Production] from [Silk] tiles [in this city]"
 		],
-		"requiredTech": "Economics"
+		"requiredTech": "Economics",
+		"civilopediaText": [
+			{"text": "A facility used to produces textiles from yarn or fabric into usable textiles."}
+		]
 	},
 	
 	{
@@ -1494,7 +1505,10 @@
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"uniques": ["[-5]% Unhappiness from [Population] [in this city]"],
-		"requiredTech": "Biology"
+		"requiredTech": "Biology",
+		"civilopediaText": [
+			{"text": "Medical facilities for diagnosing and treating maladies."}
+		]
 	},
 	{
 		"name": "Roostaerie",
@@ -1505,7 +1519,10 @@
 			"[+20]% Production when constructing [Counter Air Terror] units [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Quintessence Powers"
+		"requiredTech": "Quintessence Powers",
+		"civilopediaText": [
+			{"text": "Perched high and reinforced with enchantments, these facility used to accelerate the growth and training of tamed aerial creatures."}
+		]
 	},
 	{
 		"name": "Warlock Project",
@@ -1527,7 +1544,10 @@
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Military Science"
+		"requiredTech": "Military Science",
+		"civilopediaText": [
+			{"text": "An institution dedicated to train the art of war including rigorous physical training and courses in command, strategy, logistics and other military subjects."}
+		]
 	},
 	{
 		"name": "Military Base",
@@ -1536,7 +1556,10 @@
 		"cityHealth": 35,
 		"hurryCostModifier": 35,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Military Science"
+		"requiredTech": "Military Science",
+		"civilopediaText": [
+			{"text": "Military area that contains everything needed to keep the military unit in fighting trim, including training grounds, officers' quarters and enlisted barracks, armories, supply depots, transport equipment, hospitals, and so forth."}
+		]
 	},
 	
 	// Aeromantic Age
@@ -1546,7 +1569,10 @@
 		"science": 4,
 		"percentStatBonus": {"science": 50},
 		"maintenance": 3,
-		"requiredTech": "Plastics"
+		"requiredTech": "Plastics",
+		"civilopediaText": [
+			{"text": "An institute where experiments, research, or teaching conducted for the advancement of knowledge."}
+		]
 	},
 	{
 		"name": "Magic Barrier",
@@ -1562,7 +1588,10 @@
 			"[+33]% Strength for cities <in this city> <when defending> <vs [Missile] units>",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Magic Negation"
+		"requiredTech": "Magic Negation",
+		"civilopediaText": [
+			{"text": "Born from the evolution of warding towers, these arcane defense system weaves a near-invisible dome of protective energy over the city."}
+		]
 	},
 	{
 		"name": "Shelter",
@@ -1573,7 +1602,10 @@
 			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]"
 		],
-		"requiredTech": "Magic Negation"
+		"requiredTech": "Magic Negation",
+		"civilopediaText": [
+			{"text": "Built underground, these strengthened bunkers designed to withstand damage from explosions."}
+		]
 	},
 	{
 		"name": "Archmage Tribunal",
@@ -1591,7 +1623,10 @@
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Pharmaceuticals"
+		"requiredTech": "Pharmaceuticals",
+		"civilopediaText": [
+			{"text": "A place where physician -and sometimes alchemist- studies disease, animal and human body using a wide variety of instruments."}
+		]
 	},
 	
 	// Heroes
@@ -1926,7 +1961,7 @@
 	},
 	
 	{
-		"name": "Shinkokan", // of The Shinso, Shinkōkan
+		"name": "Shinkokan", // of Shinso, Shinkōkan
 		"isWonder": true,
 		"culture": 1,
 		"faith": 3,
@@ -2828,4 +2863,5 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	
 ]

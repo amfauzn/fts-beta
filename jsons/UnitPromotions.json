@@ -30,7 +30,7 @@
 			"Wuxia Monk",
 			"Tamer"
 		],
-		"innerColor": [200,40,40],
+		"innerColor": [220,40,40],
 		"outerColor": [255,240,240],
 		"column": 0,
 		"row": 0
@@ -66,19 +66,19 @@
 			"Wuxia Monk",
 			"Tamer"
 		],
-		"innerColor": [200,40,40],
+		"innerColor": [220,40,40],
 		"outerColor": [255,240,240],
 		"column": 1,
 		"row": 0
 	},
-	/*{
-		"name": "Panacaea",
+	{
+		"name": "Antidote",
 		"uniques": [
-			"[This Unit] heals [30] HP",
-			"Comment [Removes all status ailments]",
-			"Comment [Resist status ailments for 2 turns]",
+			"[This Unit] heals [15] HP",
+			"Comment [Removes all status ailments and resist status ailments for 2 turns]",
+			"[This Unit] gains the [Immunity] status for [2] turn(s) <hidden from users>",
 			"Doing so will consume this opportunity to choose a Promotion",
-			"Only available <after adopting [Dispelling]>"
+			"Only available <after discovering [Mana Crystallization]>"
 		],
 		"unitTypes": [
 			"Recon",
@@ -90,18 +90,16 @@
 			"Anti-Air",
 			//"Melee Mage",
 			//"Ranged Mage",
-			//"Construct",
-			//"Air Terror",
-			//"Counter Air Terror",
 			"Naval Melee",
 			"Naval Ranged",
 			"Naval Raider",
-			//"Naval Carrier",
-			//"Airship",
-			//"Fighter",
-			//"Bomber",
-		]
-	},*/
+			"Tamer"
+		],
+		"innerColor": [20,160,20],
+		"outerColor": [240,255,240],
+		"column": 2,
+		"row": 0
+	},
 	
 	// Recon
 	{
@@ -527,7 +525,10 @@
 		],
 		"unitTypes": ["Mounted"],
 		"column": 17,
-		"row": 3
+		"row": 3,
+		"civilopediaText": [
+			{"text": "Broken", "link":"Promotion/Broken"}
+		]
 	},
 	{
 		"name": "Broken",
@@ -615,7 +616,10 @@
 		],
 		"unitTypes": ["Mounted"],
 		"column": 19,
-		"row": 4
+		"row": 4,
+		"civilopediaText": [
+			{"text": "Stunned", "link":"Promotion/Stunned"}
+		]
 	},
 	{
 		"name": "Blitz",
@@ -1139,7 +1143,7 @@
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 39,
 		"row": 1
 	},
@@ -1171,7 +1175,7 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 39,
 		"row": 2
 	},
@@ -1201,7 +1205,7 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 39,
 		"row": 3
 	},
@@ -1231,7 +1235,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 40,
 		"row": 2,
 		"civilopediaText": [
@@ -1273,12 +1277,9 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 40,
-		"row": 3,
-		"civilopediaText": [
-			{"text": "Fly Active", "link":"Promotion/Fly Active"}
-		]
+		"row": 3
 	},
 	{
 		"name": "Fly Active",					// Fly
@@ -1316,7 +1317,7 @@
 		
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 40,
 		"row": 4,
 		"civilopediaText": [
@@ -1361,7 +1362,7 @@
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [147,112,219],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 41,
 		"row": 1,
 		"civilopediaText": [
@@ -1379,7 +1380,7 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [147,112,219],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 41,
 		"row": 2,
 		"civilopediaText": [
@@ -1418,14 +1419,12 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [147,112,219],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 41,
 		"row": 3,
 		"civilopediaText": [
 			{"text": "Electrified", "link":"Promotion/Electrified"},
-			{"text": "Rooted", "link":"Promotion/Rooted"},
-			{"text": "Voltaic Leash Caster", "link":"Promotion/Voltaic Leash Caster"},
-			{"text": "Voltaic Leash Target", "link":"Promotion/Voltaic Leash Target"},
+			{"text": "Rooted", "link":"Promotion/Rooted"}
 		]
 	},
 	{
@@ -1481,7 +1480,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147,112,219],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 42,
 		"row": 2,
 		"civilopediaText": [
@@ -1525,7 +1524,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147,112,219],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 42,
 		"row": 3
 	},
@@ -1556,7 +1555,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147, 112, 219],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 42,
 		"row": 4,
 		"civilopediaText": [
@@ -1613,7 +1612,7 @@
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [147, 78, 30],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 43,
 		"row": 1,
 	},
@@ -1627,7 +1626,7 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [147, 78, 30],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 43,
 		"row": 2,
 		"civilopediaText": [
@@ -1670,7 +1669,7 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [147, 78, 30],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 43,
 		"row": 3,
 		"civilopediaText": [
@@ -1702,7 +1701,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147, 78, 30],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 44,
 		"row": 2,
 		"civilopediaText": [
@@ -1743,7 +1742,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147, 78, 30],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 44,
 		"row": 3,
 		"civilopediaText": [
@@ -1785,7 +1784,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [147, 78, 30],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 44,
 		"row": 4
 	},
@@ -1826,7 +1825,7 @@
 		],
 		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [0,191,255],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 45,
 		"row": 1
 	},
@@ -1840,7 +1839,7 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 45,
 		"row": 2,
 		"civilopediaText": [
@@ -1874,7 +1873,7 @@
 		],
 		"unitTypes": ["Melee Mage"],
 		"innerColor": [0,191,255],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 45,
 		"row": 3,
 		"civilopediaText": [
@@ -1909,6 +1908,7 @@
 		"name": "Ice Prison Target",
 		"uniques": [
 			"Comment [This unit has been attacked with [Ice Prison] once]",
+			
 			"[+1]% Strength <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
@@ -1930,7 +1930,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,191,255],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 46,
 		"row": 2,
 		"civilopediaText": [
@@ -1973,7 +1973,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0,191,255],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 46,
 		"row": 3,
 		"civilopediaText": [
@@ -2027,7 +2027,7 @@
 		],
 		"unitTypes": ["Ranged Mage"],
 		"innerColor": [0, 191, 255],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 46,
 		"row": 4,
 		"civilopediaText": [
@@ -2138,9 +2138,9 @@
 			"[This Unit] gains the [Solar Ray Active] status for [1] turn(s) <for [1] movement> <for units without [Solar Ray Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
-		"unitTypes": ["Melee Mage", "Ranged Mage"],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [255, 165, 0],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 47,
 		"row": 3
 	},
@@ -2191,9 +2191,9 @@
 			
 			"[+1]% Strength <for units without [Titanmail Cooldown]> <hidden from users>"
 		],
-		"unitTypes": ["Melee Mage", "Ranged Mage"],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [119, 119, 119],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 48,
 		"row": 1
 	},
@@ -2214,9 +2214,9 @@
 			"[This Unit] gains the [Immunity] status for [2] turn(s) <upon gaining the [Impervious Active] status> <hidden from users>",
 			"[This Unit] gains the [Impervious Cooldown] status for [6] turn(s) <upon gaining the [Impervious Active] status> <hidden from users>",
 		],
-		"unitTypes": ["Melee Mage", "Ranged Mage"],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [119, 119, 119],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 48,
 		"row": 2,
 		"civilopediaText": [
@@ -2249,9 +2249,9 @@
 			"[This Unit] gains the [Iron Maiden Active] status for [1] turn(s) <for [1] movement> <for units without [Iron Maiden Cooldown]> <for units without [Ultimate Cooldown]> <for [non-[No Cast]] units> <for [Onmyodo] units> <costs [+240 Gold] stats> <hidden from users>",
 			"[This Unit] gains the [Ultimate Caster] promotion <hidden from users>"
 		],
-		"unitTypes": ["Melee Mage", "Ranged Mage"],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"innerColor": [119, 119, 119],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 48,
 		"row": 3,
 		"civilopediaText": [
@@ -2297,7 +2297,10 @@
 		"innerColor": [205,133,0],
 		"outerColor": [0, 0, 0],
 		"column": 49,
-		"row": 1
+		"row": 1,
+		"civilopediaText": [
+			{"text": "Poisoned", "link":"Promotion/Poisoned"}
+		]
 	},
 	{
 		"name": "Thorn Grasp",
@@ -2533,7 +2536,7 @@
 		],
 		"unitTypes": ["Melee Mage", "Ranged Mage"],
 		"innerColor": [199, 213, 224],
-		"outerColor": [0, 0, 0]
+		"outerColor": [0, 0, 0],
 		"column": 51,
 		"row": 2,
 		"civilopediaText": [
@@ -2637,7 +2640,7 @@
 			"Comment [Active. Gain [Invulnerability]. Duration: 4 turns. Cooldown: 10 turns]",
 			"[This Unit] gains the [Sanctuary Active] status for [4] turn(s) <for [0] movement> <for units without [Sanctuary Cooldown]> <for [non-[No Cast]] units> <hidden from users>"
 		],
-		"unitTypes": ["Melee Mage", "Ranged Mage"],
+		"unitTypes": ["Melee Mage","Ranged Mage"],
 		"column": 52,
 		"row": 2,
 		"civilopediaText": [
@@ -3011,7 +3014,7 @@
 		"name": "Overcharge",
 		"prerequisites": ["Demolitionist","Crusher Arm","Claw Arm"],
 		"uniques": [
-			"Comment [+50% Strength but takes 15 damage upon attacking when outside of combat in the last 1 turn.]",
+			"Comment [+50% Strength but takes 15 damage upon attacking when outside of combat in the last 1 turn]",
 			
 			"[+50]% Strength <for units without [In Combat Cooldown]> <hidden from users>",
 			"[This Unit] takes [15] damage <upon damaging a [All] unit> <for units without [In Combat Cooldown]> <hidden from users>",
@@ -3088,7 +3091,6 @@
 		"prerequisites": ["Overcharge","Berserk"],
 		"uniques": [
 			"Comment [Attack inflicts [Mana Exhaustion] for 2 turns. Incompatible with [Volatile Core]]",
-			
 			"[Target Unit] gains the [Mana Exhaustion] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
 			"Only available <for units without [Volatile Core]> <hidden from users>",
@@ -3248,6 +3250,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Air Terror"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Blazing Fire", "link":"Promotion/Blazing Fire"},
 			{"text": "Burning", "link":"Promotion/Burning"},
@@ -3272,6 +3276,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Air Terror"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Corroded", "link":"Promotion/Corroded"},
 			{"text": "Fatigued", "link":"Promotion/Fatigued"},
@@ -3296,6 +3302,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Air Terror"],
+		"innerColor": [147,112,219],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Conductive", "link":"Promotion/Conductive"},
 			{"text": "Electrified", "link":"Promotion/Electrified"}
@@ -3318,6 +3326,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Air Terror"],
+		"innerColor": [147, 78, 30],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Calcifying", "link":"Promotion/Calcifying"},
 			{"text": "Corroded", "link":"Promotion/Corroded"}
@@ -3341,6 +3351,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Air Terror"],
+		"innerColor": [0,191,255],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Chilled", "link":"Promotion/Chilled"},
 			{"text": "Frostbitten", "link":"Promotion/Frostbitten"},
@@ -3433,7 +3445,7 @@
 		"row": 2
 	},
 	{
-		"name": "Rolling Barrage",
+		"name": "Beachhead",
 		"prerequisites": ["Preparatory Fire"],
 		"uniques": ["[+25]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Naval Ranged"],
@@ -3442,7 +3454,7 @@
 	},
 	{
 		"name": "Navigator",
-		"prerequisites": ["Targeting","Rolling Barrage"],
+		"prerequisites": ["Targeting","Beachhead"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Naval Ranged"],
 		"column": 74,
@@ -3450,7 +3462,7 @@
 	},
 	{
 		"name": "Double Armor Plating",
-		"prerequisites": ["Targeting","Rolling Barrage"],
+		"prerequisites": ["Targeting","Beachhead"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Naval Ranged"],
 		"column": 75,
@@ -3458,7 +3470,7 @@
 	},
 	{
 		"name": "Bombardment",
-		"prerequisites": ["Targeting","Rolling Barrage"],
+		"prerequisites": ["Targeting","Beachhead"],
 		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]}] units>"],
 		"unitTypes": ["Naval Ranged"],
 		"column": 76,
@@ -3566,15 +3578,8 @@
 	{
 		"name": "Flight Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Naval Carrier"],
+		"unitTypes": ["Naval Carrier","Airship"],
 		"column": 82,
-		"row": 1
-	},
-	{
-		"name": "Hanger Deck",
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Airship"],
-		"column": 84,
 		"row": 1
 	},
 	{
@@ -3586,7 +3591,7 @@
 	},
 	{
 		"name": "Extended Flight Deck",
-		"prerequisites": ["Flight Deck","Hanger Deck"],
+		"prerequisites": ["Flight Deck"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"unitTypes": ["Naval Carrier","Airship"],
 		"column": 84,
@@ -3643,7 +3648,7 @@
 		"row": 3
 	},
 	{
-		"name": "Close Range Sweeping",
+		"name": "AA Defense",
 		"prerequisites": ["Combustion","Deck Crews","Radar Dome","Mobile Airbase"],
 		"uniques": ["[+25]% Strength <vs [Air] units> <when defending>"],
 		"unitTypes": ["Naval Carrier","Airship"],
@@ -3660,7 +3665,7 @@
 		"row": 1
 	},
 	{
-		"name": "Conflagration",
+		"name": "Air Siege",
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
 		"column": 88,
@@ -3668,7 +3673,7 @@
 	},
 	{
 		"name": "Tactical Strike",
-		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]}] units>"],
+		"uniques": ["[+33]% Strength <vs [{Land} {non-[Flying]} {non-[Hero]}] units>"],
 		"unitTypes": ["Fighter","Bomber"],
 		"column": 90,
 		"row": 1
@@ -3683,23 +3688,23 @@
 	},
 	{
 		"name": "Saboteur",
-		"prerequisites": ["Conflagration"],
+		"prerequisites": ["Air Siege"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"],
 		"column": 88,
 		"row": 2
 	},
 	{
-		"name": "Patroleur",
+		"name": "Conflagration",
 		"prerequisites": ["Tactical Strike"],
-		"uniques": ["[+33]% Strength <vs [{non-air} {non-[Flying]}] units>"],
+		"uniques": ["[+33]% Strength <vs [{non-air} {non-[Flying]} {non-[Hero]}] units>"],
 		"unitTypes": ["Fighter","Bomber"],
 		"column": 90,
 		"row": 2
 	},
 	{
 		"name": "Sortie",
-		"prerequisites": ["Interception","Patroleur"],
+		"prerequisites": ["Interception","Conflagration"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter"],
 		"column": 87,
@@ -3707,7 +3712,7 @@
 	},
 	{
 		"name": "Evasive Manuever",
-		"prerequisites": ["Saboteur","Patroleur"],
+		"prerequisites": ["Saboteur","Conflagration"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Bomber"],
 		"column": 88,
@@ -3715,7 +3720,7 @@
 	},
 	{
 		"name": "Air Repair",
-		"prerequisites": ["Interception","Patroleur","Saboteur"],
+		"prerequisites": ["Interception","Conflagration","Saboteur"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter","Bomber"],
 		"column": 89,
@@ -3723,7 +3728,7 @@
 	},
 	{
 		"name": "Operational Range",
-		"prerequisites": ["Interception","Patroleur","Saboteur"],
+		"prerequisites": ["Interception","Conflagration","Saboteur"],
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"],
 		"column": 90,
@@ -5308,6 +5313,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Burning", "link":"Promotion/Burning"}
 		]
@@ -5323,6 +5330,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Bleeding", "link":"Promotion/Bleeding"}
 		]
@@ -5338,6 +5347,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"innerColor": [147,112,219],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Electrified", "link":"Promotion/Electrified"}
 		]
@@ -5353,6 +5364,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"innerColor": [147, 78, 30],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Calcifying", "link":"Promotion/Calcifying"}
 		]
@@ -5368,6 +5381,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"innerColor": [0,191,255],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Frostbitten", "link":"Promotion/Frostbitten"}
 		]
@@ -5442,6 +5457,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Burning", "link":"Promotion/Burning"},
 			{"text": "Scorched", "link":"Promotion/Scorched"}
@@ -5470,6 +5487,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Blinded", "link":"Promotion/Blinded"},
 			{"text": "Deafened", "link":"Promotion/Deafened"},
@@ -5504,7 +5523,9 @@
 			"[This Unit] gains the [Shock Line Active] status for [1] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"]
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"innerColor": [147,112,219],
+		"outerColor": [0, 0, 0],
 	},
 	{
 		"name": "Shock Line Active",
@@ -5529,6 +5550,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"innerColor": [147, 78, 30],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Corroded", "link":"Promotion/Corroded"}
 		]
@@ -5553,7 +5576,9 @@
 			"[This Unit] gains the [Frost Armor Active] status for [2] turn(s) <for [1] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"]
+		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"innerColor": [0,191,255],
+		"outerColor": [0, 0, 0]
 	},
 	{
 		"name": "Frost Armor Active",
@@ -5586,7 +5611,9 @@
 			"[This Unit] gains the [Rain of Fire Active] status for [1] turn(s) <for [1] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Ranged Infantry"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0]
 	},
 	{
 		"name": "Rain of Fire Active",
@@ -5598,7 +5625,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
-	/*{
+	{
 		"name": "Updraft",
 		"prerequisites": ["Wind Infusion"],
 		"uniques": [
@@ -5607,7 +5634,9 @@
 			"[This Unit] gains the [Updraft Active] status for [1] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Ranged Infantry"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0]
 	},
 	{
 		"name": "Updraft Active",
@@ -5618,7 +5647,7 @@
 			"[This Unit] gains the [Aura Fatigue] status for [9] turn(s) <upon gaining the [Updraft Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
-	},*/
+	},
 	{
 		"name": "Bolt Rail",
 		"prerequisites": ["Lightning Infusion"],
@@ -5628,7 +5657,9 @@
 			"[This Unit] gains the [Bolt Rail Active] status for [1] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Ranged Infantry"],
+		"innerColor": [147,112,219],
+		"outerColor": [0, 0, 0]
 	},
 	{
 		"name": "Bolt Rail Active",
@@ -5651,7 +5682,9 @@
 			"[This Unit] gains the [Magnetic Ward Active] status for [1] turn(s) <for [2] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Ranged Infantry"],
+		"innerColor": [147, 78, 30],
+		"outerColor": [0, 0, 0]
 	},
 	{
 		"name": "Magnetic Ward Active",
@@ -5683,6 +5716,8 @@
 			"This Promotion is free"
 		],
 		"unitTypes": ["Ranged Infantry"],
+		"innerColor": [0,191,255],
+		"outerColor": [0, 0, 0],
 		"civilopediaText": [
 			{"text": "Brittle", "link":"Promotion/Brittle"},
 			{"text": "Chilled", "link":"Promotion/Chilled"}
@@ -7559,6 +7594,4 @@
 			"Comment [Begin with +3 Movement after being constructed]"
 		]
 	},
-	
-	
 ]

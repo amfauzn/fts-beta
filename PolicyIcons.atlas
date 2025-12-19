@@ -1,286 +1,426 @@
 
 PolicyIcons.png
-size: 2048, 2048
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
 PolicyBranchIcons/Circle
   rotate: false
-  xy: 212, 1252
-  size: 200, 200
-  orig: 200, 200
+  xy: 879, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Circle
   rotate: false
-  xy: 212, 1252
-  size: 200, 200
-  orig: 200, 200
+  xy: 879, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Commerce
   rotate: false
-  xy: 420, 1460
-  size: 200, 200
-  orig: 200, 200
+  xy: 987, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Consolidation
   rotate: false
-  xy: 628, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 1095, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Culturalism
   rotate: false
-  xy: 836, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 1635, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Honor
   rotate: false
-  xy: 1044, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 760, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Mysticism
+  rotate: false
+  xy: 1408, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Patronage
   rotate: false
-  xy: 628, 992
-  size: 200, 252
-  orig: 200, 252
+  xy: 1516, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Rationalism
   rotate: false
-  xy: 4, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 4, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Sanctuary Pact
+  rotate: false
+  xy: 544, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Tradition
   rotate: false
-  xy: 212, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 1624, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Weaponry
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Wizardry
+  rotate: false
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Adaptation
   rotate: false
-  xy: 4, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 123, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Adaptive Tactics
   rotate: false
-  xy: 4, 1460
-  size: 200, 200
-  orig: 200, 200
+  xy: 231, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Aether Cores
   rotate: false
-  xy: 212, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 339, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Apprenticeship
   rotate: false
-  xy: 4, 1252
-  size: 200, 200
-  orig: 200, 200
+  xy: 447, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Ballistics
   rotate: false
-  xy: 212, 1460
-  size: 200, 200
-  orig: 200, 200
+  xy: 555, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Burghers
   rotate: false
-  xy: 420, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 663, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Centralization
   rotate: false
-  xy: 4, 1044
-  size: 200, 200
-  orig: 200, 200
+  xy: 771, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Consulates
   rotate: false
-  xy: 4, 836
-  size: 200, 200
-  orig: 200, 200
+  xy: 1203, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Crown Guards
   rotate: false
-  xy: 212, 1044
-  size: 200, 200
-  orig: 200, 200
+  xy: 1311, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Exchange
   rotate: false
-  xy: 420, 1252
-  size: 200, 200
-  orig: 200, 200
+  xy: 1419, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Icons
   rotate: false
-  xy: 628, 1460
-  size: 200, 200
-  orig: 200, 200
+  xy: 1527, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Doctrine
   rotate: false
-  xy: 4, 628
-  size: 200, 200
-  orig: 200, 200
+  xy: 1743, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Echoes of the Greats
+  rotate: false
+  xy: 1851, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Economic Union
+  rotate: false
+  xy: 4, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Enchanted Tools
   rotate: false
-  xy: 212, 836
-  size: 200, 200
-  orig: 200, 200
+  xy: 112, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Entrepreneurship
   rotate: false
-  xy: 420, 1044
-  size: 200, 200
-  orig: 200, 200
+  xy: 220, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Flourishing of the Arts
   rotate: false
-  xy: 628, 1252
-  size: 200, 200
-  orig: 200, 200
+  xy: 328, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Harmony
+  rotate: false
+  xy: 436, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Hero of the People
+  rotate: false
+  xy: 544, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Holy Scriptures
   rotate: false
-  xy: 836, 1460
-  size: 200, 200
-  orig: 200, 200
+  xy: 652, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Inheritance
   rotate: false
-  xy: 4, 420
-  size: 200, 200
-  orig: 200, 200
+  xy: 868, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Mago-Urbanization
+  rotate: false
+  xy: 976, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Mandate of Heaven
   rotate: false
-  xy: 212, 628
-  size: 200, 200
-  orig: 200, 200
+  xy: 1084, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Mercenary Army
   rotate: false
-  xy: 420, 836
-  size: 200, 200
-  orig: 200, 200
+  xy: 1192, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Monarchy
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Philanthropy
   rotate: false
-  xy: 836, 1252
-  size: 200, 200
-  orig: 200, 200
+  xy: 1624, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Postulants
   rotate: false
-  xy: 1044, 1460
-  size: 200, 200
-  orig: 200, 200
+  xy: 4, 328
+  size: 111, 100
+  orig: 111, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Potion Making
   rotate: false
-  xy: 1252, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 1732, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Prosperity
+  rotate: false
+  xy: 1840, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Realism
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Representation
   rotate: false
-  xy: 212, 420
-  size: 200, 200
-  orig: 200, 200
+  xy: 220, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Runic Glyphs
   rotate: false
-  xy: 420, 628
-  size: 200, 200
-  orig: 200, 200
+  xy: 328, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Sage's Haven
+  rotate: false
+  xy: 436, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Scavenged Parts
   rotate: false
-  xy: 628, 784
-  size: 200, 200
-  orig: 200, 200
+  xy: 652, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Secrecy
+  rotate: false
+  xy: 760, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Self-Determination
+  rotate: false
+  xy: 868, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Siege Engineers
   rotate: false
-  xy: 836, 1044
-  size: 200, 200
-  orig: 200, 200
+  xy: 976, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Siege Mastery
   rotate: false
-  xy: 1044, 1252
-  size: 200, 200
-  orig: 200, 200
+  xy: 1084, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Skepticism
   rotate: false
-  xy: 1252, 1460
-  size: 200, 200
-  orig: 200, 200
+  xy: 1192, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Spellweaving
   rotate: false
-  xy: 1460, 1668
-  size: 200, 200
-  orig: 200, 200
+  xy: 1300, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Standardized Architecture
+  rotate: false
+  xy: 1408, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/State Workforce
   rotate: false
+  xy: 1516, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Treaty Organization
+  rotate: false
+  xy: 1732, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Universal Healthcare
+  rotate: false
+  xy: 1840, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Volunteer Army
+  rotate: false
   xy: 4, 4
-  size: 200, 200
-  orig: 200, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Whispers of the Veil
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Wisdom
   rotate: false
-  xy: 420, 420
-  size: 200, 200
-  orig: 200, 200
+  xy: 328, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1

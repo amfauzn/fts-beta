@@ -1,6 +1,7 @@
 {
 	"name": "Global uniques",
 	"uniques": [
+		"Requires establishing embassies to conduct advanced diplomacy",
 		"[-50]% growth [in all cities] <when between [-5] and [-1] [Happiness]>",
 		"[-75]% growth [in all cities] <when between [-10] and [-6] [Happiness]>",
 		"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
@@ -9,6 +10,10 @@
 		"Cannot build [Settler] units <when below [-10] [Happiness]>",
 		"Rebel units may spawn <when below [-20] [Happiness]>",
 		"[-1] Sight <for [Embarked] units>",
+		"[-1 Science] per [2] population [in all cities]",
+		
+		// Events
+		//"Triggers a [Wellspring Abundance] event <upon founding a city> <within [3] tiles of a [Fountain of Youth]>", // will be picked by CS
 		
 		// Self Turn mechanic
 		"Instantly gain [1] [SelfTurn] <upon turn start> <when below [1] [SelfTurn]>",
@@ -125,7 +130,7 @@
 		//Naval Ranged vs Void Field
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Preparatory Fire}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Targeting}] units>",
-		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Rolling Barrage}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Beachhead}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Navigator}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Double Armor Plating}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Emplacement}] units>",
@@ -146,7 +151,6 @@
 		
 		//Carrier vs Void Field
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Flight Deck}] units>",
-		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Hanger Deck}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Armor Plating}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Extended Flight Deck}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Secondary Armor Plating}] units>",
@@ -154,15 +158,15 @@
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Deck Crews}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Radar Dome}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Mobile Airbase}] units>",
-		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Close Range Sweeping}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {AA Defense}] units>",
 		
 		//Aircraft vs Void Field
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Dogfighting}] units>",
-		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Conflagration}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Siege}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Tactical Strike}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Interception}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Saboteur}] units>",
-		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Patroleur}] units>",
+		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Conflagration}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Sortie}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Evasive Manuever}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Air Repair}] units>",
@@ -173,7 +177,7 @@
 		
 		// Mixed
 		// Kaer Slow
-		"[-2] Movement <within [2] tiles of a [KaerSlow]> <in [Enemy Land] tiles>"
+		"[-2] Movement <within [2] tiles of a [KaerSlowed]> <in [Enemy Land] tiles>"
 		
 	],
 	

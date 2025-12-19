@@ -1,4 +1,5 @@
 [
+	/*
 	{
 		"name": "Adelle Corp",
 		"leaderName": "Kane",
@@ -15,13 +16,22 @@
 		"innerColor": [158,56,0],
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>",
-		//"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
-		//"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
+		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
+		"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
+		"Gain a free [Academy of Magic] [in capital]",
+		"[Recon] units gain the [Mana Sensing] promotion",
+		"[Infantry] units gain the [Mana Sensing] promotion",
+		"[Anti-Armor] units gain the [Mana Sensing] promotion",
+		"[Mounted] units gain the [Mana Sensing] promotion",
+		"[Ranged Infantry] units gain the [Mana Sensing] promotion",
+		"Provides [2] [Starshard]",
+		"Provides [2] [Mythical Egg]",
+		"Provides [2] [Soulstone]",
 		],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
 	},
-	
+	*/
 	
 	// TEMPLATE
 	/*

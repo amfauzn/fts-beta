@@ -45,7 +45,7 @@
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -73,7 +73,7 @@
 			"Becomes [Forest] when adjacent to [Man-eating Tree]",
 			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -92,7 +92,7 @@
 			"Becomes [Flood plains] when adjacent to [River]",
 			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -113,7 +113,7 @@
 			"Becomes [Plains] when adjacent to [River]",
 			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{
@@ -135,7 +135,7 @@
 			"Every [18] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>",
 			
-			"KaerSlow <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
 		]
 	},
 	{

@@ -394,7 +394,7 @@
 				"column": 5
 			},
 			{
-				"name": "Holy Sriptures",
+				"name": "Holy Scriptures",
 				"uniques": ["[-10]% Culture cost of adopting new Policies"],
 				"requires": ["Postulants","Organized Religion"],
 				"row": 3,
@@ -1168,12 +1168,12 @@
 			},
 			
 			{
-				"name": "Beast Control",
+				"name": "Monster Control",
 				"uniques": [
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",
 					"[+100]% [Mythical Egg] resource production",
-					"Comment [May capture killed Beast non-Boss unit]"
+					"Comment [May capture killed Monster non-Boss unit]"
 				],
 				"row": 3,
 				"column": 3
