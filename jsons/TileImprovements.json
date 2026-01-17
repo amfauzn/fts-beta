@@ -39,6 +39,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
 		"uniques": [
+			"Only available <for [non-[Rain Forest]] Civilizations> <hidden from users>",
 			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Production] <after discovering [Alchemy]>",
 			"Pillaging this improvement yields approximately [+3 Gold]"
@@ -73,6 +74,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
 			"Does not need removal of [Aurora] <hidden from users>",
 			"[+1 Production] <after discovering [Metallurgy]>",
 			"Pillaging this improvement yields approximately [+8 Gold]",
@@ -86,6 +88,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
+			"Farm",
 			"Must be next to [Mountain]",
 			"Can only be built on [Hill] tiles",
 			"Cannot be built on [Bonus resource] tiles",
@@ -295,10 +298,9 @@
 		"turnsToBuild": 4,
 		"techRequired": "Mining",
 		"uniques": [
-			//"Only available <for units without [Nature Keeper]>",
+			"Only available <for [non-[Rain Forest]] Civilizations> <hidden from users>",
 			"Can be built outside your borders",
-			"Excluded from map editor",
-			//"Only available <for units without [Nature Keeper]>"
+			"Excluded from map editor"
 		],
 		"shortcutKey": "X",
 		"civilopediaText": [
@@ -310,7 +312,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Bronze Working",
 		"uniques": [
-			//"Only available <for units without [Nature Keeper]>",
+			"Only available <for [non-[Rain Forest]] Civilizations> <hidden from users>",
 			"Can be built outside your borders",
 			"Excluded from map editor"
 		],
@@ -627,7 +629,7 @@
 		"turnsToBuild": 7,
 		"uniques": [
 			"[+1 Science] for each adjacent [Great Improvement]",
-			"Comment [+2 [Science] if this is the only [Staerie] in a city]",
+			"Comment [+2 [Science] if this is the only [Staerie] in a city]", // see UA
 			"Provides [1] [cityLevelCounter] <hidden from users>",
 			"Pillaging this improvement yields approximately [+10 Gold, +4 Science]",
 		],
@@ -656,6 +658,82 @@
 		"civilopediaText": [
 			{"text": "Tiered tower with multiple eaves, often built to test disciples. Each level represents a step in cultivation: physical, mental, and spiritual trials."}
 		]
+	},
+	
+	// Rain Forest's non removing Vegetation
+	{
+		"name": "Rainee Farm",
+		"uniqueTo": "Rain Forest",
+		"replaces": "Farm",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": [
+			"Unbuildable <in [Ley Line] tiles> <hidden from users>",
+			"Can also be built on tiles adjacent to fresh water",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Aurora]",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Improves [Wheat] resource in this tile",
+			"Pillaging this improvement yields approximately [+6 Gold]",
+			"Will not be displayed in Civilopedia"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Rainee Mine",
+		"uniqueTo": "Rain Forest",
+		"replaces": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [{non-[resource]} {non-[Hill]}] tiles",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Aurora]",
+			"[+1 Production] <after discovering [Metallurgy]>",
+			"Pillaging this improvement yields approximately [+8 Gold]",
+			"Will not be displayed in Civilopedia"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Rainee Pasture",
+		"uniqueTo": "Rain Forest",
+		"replaces": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Domestication",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Will not be displayed in Civilopedia"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Rainee Plantation",
+		"uniqueTo": "Rain Forest",
+		"replaces": "Plantation",
+		"turnsToBuild": 8,
+		"techRequired": "Irrigation",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Aurora]",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Will not be displayed in Civilopedia"
+		],
+		"shortcutKey": "P"
 	},
 	
 	// Unbuildable improvements

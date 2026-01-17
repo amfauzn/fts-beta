@@ -511,7 +511,7 @@
 			"Must be adjacent to [0] [Lakes] tiles",
 			"Must be adjacent to [3] to [6] [Plains] tiles",
 			"Neighboring tiles will convert to [Man-eating Tree] <in [Open terrain] tiles>",
-			"Units ending their turn on this terrain take [100] damage"
+			"Units ending their turn on this terrain take [99] damage" // instied of 100 so Rain Forest still alive
 		],
 		"weight": 10
 	},

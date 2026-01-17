@@ -1,5 +1,4 @@
 [
-	/*
 	{
 		"name": "Adelle Corp",
 		"leaderName": "Kane",
@@ -17,8 +16,8 @@
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>",
 		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
-		"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
-		"Gain a free [Academy of Magic] [in capital]",
+		//"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
+		//"Gain a free [Academy of Magic] [in capital]",
 		"[Recon] units gain the [Mana Sensing] promotion",
 		"[Infantry] units gain the [Mana Sensing] promotion",
 		"[Anti-Armor] units gain the [Mana Sensing] promotion",
@@ -31,7 +30,7 @@
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
 	},
-	*/
+	
 	
 	// TEMPLATE
 	/*
@@ -233,9 +232,10 @@ Characters:
 		"uniqueName": "Pillars of Heaven"
 		"uniques": [
 			"Comment [May build 5 unique Onmyō pillars after researching [Mathematics], [Philosophy], [Currency], [Engineering], and [Education]]",
-			"Comment [+25% [Production] when constructing National wonders in cities with a [Ley Line]]",
+			"Comment [+25% [Production] when constructing National wonders in cities within 2 tiles of a [Ley Line]]",
 			"Comment [May boost a Pillar of your choice after researching [Education] (can be changed anytime)]",
 			"Comment [Chosen Pillar also boost [Ley Line] stats]",
+			
 			"May buy [Onmyōji] units with [Gold] [in all cities] <hidden from users>"
 		],
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto",
@@ -329,7 +329,6 @@ Characters:
 			"[Land] units gain the [Trekker] promotion <hidden from users>",
 			"[+15]% Strength <within [2] tiles of a [Mountain]> <hidden from users>",
 			"[+15]% Strength <within [1] tiles of a [Mountain]> <hidden from users>",
-			
 			"[+2 Science] from [Staerie] tiles [in all cities] <when number of [cityLevelCounter] is less than [2]> <hidden from users>",
 		],
 		"cities": ["Thraldin's Palace","Khoryth","Cremona","Sunderburn","Tiltein","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley","Circle Cliff",
@@ -375,6 +374,7 @@ Characters:
 			"[+50]% XP gained from combat <vs [Monster] units>",
 			//"Resting point for Influence with City-States is increased by [10]",
 			"Comment [[Signs]: Every 8th Footman unit gained is spawned with [Mana Sensing]]",
+			
 			"[{Military} {Footman}] units gain the [Signs] promotion <hidden from users>"
 		],
 		"cities": ["Morgraig","Kaer Morhen","Stygga Citadel","Haern Caduch","Gorthur Gvaed","Kaer Seren","Bialsuf Alsarea","Behelt Nar","Dyn Marv",
@@ -417,13 +417,12 @@ Characters:
 		"uniques": [
 			"Comment [May choose a Monk School upon discovering [Philosophy] (may access up to two Monk Schools)]",
 			"Triggers a [Choose a Monk School] event <upon discovering [Philosophy] technology> <hidden from users>",
-			
 			"Comment [Infantry, Anti-Armor, and Monk units start with 10 XP]",
+			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] in Capital after you own said resources for the first time]"
+			
 			"New [Infantry] units start with [10] XP [in all cities] <hidden from users>",
 			"New [Anti-Armor] units start with [10] XP [in all cities] <hidden from users>",
-			"New [Monk] units start with [10] XP [in all cities] <hidden from users>",
-			
-			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] in Capital after you own said resources for the first time]"
+			"New [Monk] units start with [10] XP [in all cities] <hidden from users>"
 		],
 		"cities": ["Tianwu","Hua","Wudang","Longhu","Qiyun","Qingcheng","Kunlun","Heng","Song","Tai",
 			"Wuling","Emei","Wutai","Jiuhua","Putuo","Yandang","Lu","Huang","Tian Shan","Kawagarbo"],
@@ -466,6 +465,7 @@ Characters:
 			"[+1] Movement <for [Military] units> <in [Foreign Land] tiles>",
 			"[+1] Sight <for [Land] units>",
 			"Comment [Mounted unit resist half of Anti-Armor units' bonus Strength]",
+			
 			"[Mounted] units gain the [Sturdy] promotion <hidden from users>"			
 		],
 		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
@@ -507,15 +507,62 @@ Characters:
 		"uniqueName": "Bond and Oath"
 		"uniques": [
 			"City-State territory always counts as friendly territory",
-			"Comment [May recruit Common Mercenary from any City-states and Rare Mercenary from Militaristic City-states, even when only Friend]",
 			"[Gold] cost of purchasing [Mercenary] units [-15]%", //Doubled if allied is original design, but don't know how yet
+			"Comment [May recruit Common Mercenary from any City-states and Rare Mercenary from Militaristic City-states, even when only Friend]",
 			"Comment [+1 [Happiness] for every 6 Mercenary units owned]",
+			
 			"[+1 Happiness] <for every [6] [[Mercenary] Units]> <hidden from users>",
 			"[1] additional attacks per turn <for [Military] units> <in cities with a [Stronghold]> <hidden from users>"
 		],
 		"cities": ["Nas","Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna",
 			"Palebon","Metesech","Jaragar","Erech","Arbela","Gandariya","Bormont","Waykanan","Blitar","Kadiri"],
 		"spyNames": ["Remsen","Gurci","Cador","Ryt","Brioc","Tristan","Melyor","Tecca","Venna","lowdy"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Rimascha of Rain forest
+	{
+		"name": "Rain Forest",
+		"leaderName": "Rimascha",
+		"adjective": ["Rainee"],
+		"startBias": ["Forest","Jungle"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Dryad",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Shame that it has come this far. But ya wished it so. Next time, be so good, choose your acts more wisely."
+		"attacked": "You shall not pass!!!",
+		"denounced": "",
+		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
+		"afterPeace": "May this have been a lesson for you. Hopefully, you will remember it.",
+		"introduction": "Welcomes, stranger. Just... Be a good onem, please.",
+		
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "Let's help each other for the better life.",
+		
+		"outerColor": [ 41, 83,42],
+		"innerColor": [146,221, 9],
+		
+		"uniqueName": "Forest Guardian"
+		"uniques": [
+			"Comment [Original capital takes control over [Forest] and [Jungle] in 4 tiles radius]",
+			"Comment [Can not remove [Forest] and [Jungle]]",
+			"Comment [May build improvement on [Forest] and [Jungle] without removing them]",
+			"Comment [Doesn't receive damage upon ending on [Man-eating Tree] and [Overgrowth Rift]]",
+			
+			"Gain a free [Original Capital] [in capital] <before turn number [2]> <hidden from users>",
+			"[All] units gain the [Nature Keeper] promotion <hidden from users>"
+		],
+		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindskhal","Agra","Sunda","Soulisa","Tuasika","Bula",
+			"Namlea","Gulbarga","Larantuka","Curia","Crastha","Ikatwood","Shadowgigol","Roothold","Wildoyot","Entwatch"],
+		"spyNames": ["Orethylia","Minthe","Dammeri","Lilea","Ivy","Cyrilla","Almoris","Thehion","Ashbush","Elmfury"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -552,11 +599,16 @@ Characters:
 		"uniqueName": "Ingenuity"
 		"uniques": [
 			"Comment [+1 [Production] from every 2 Ages for cities settled on [Hill]]",
+			"Comment [+10% Yield Improvement for every Golden Age entered (up to 50%)]",
+			"Comment [Provides 1 [Soulstone] for every 10 cities globally]",
+			
 			"[+1 Production] in cities on [Hill] tiles <starting from the [Discovery Age]> <hidden from users>",
 			"[+1 Production] in cities on [Hill] tiles <starting from the [Magi-Industry Age]> <hidden from users>",
 			"[+1 Production] in cities on [Hill] tiles <starting from the [Modern Age]> <hidden from users>",
+			"Instantly gain [1] [stockpiledCounter] <upon entering a Golden Age> <when below [5] [stockpiledCounter]> <hidden from users>",
+			"[+10]% Yield from every [Improvement] <for every [5] [stockpiledCounter]> <hidden from users>",
+			"Provides [1] [Soulstone] <for every [10] [[City center] Tiles]> <hidden from users>"
 			
-			//next
 		],
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr",
 			"Kar Doral","Mol Kolduhr","Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr","Dun Bhirngon","Del Laduhr","Thol Thorum"],
@@ -598,6 +650,7 @@ Characters:
 			"Starts with [Wizardry] adopted",
 			"[+1 Culture] from every [Magic Building]",
 			"Comment [Provides 1 [Magician] in cities with [Draen Sanctuary] and [Academy of Magic]]",
+			
 			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <when below [5] [stockpiledCounter]> <hidden from users>"
 		],
 		"cities": ["Kuin","Phocaea","Asahan","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Satui"

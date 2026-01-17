@@ -23,7 +23,8 @@
 ## by Basil (HR and AU style)
 - Lava
 
-## by carriontrooper (AU style)
+## by carriontrooper (FH style for tiles & AU style for units)
+- Mountain Tunnel
 - Arachne
 - Black Tarantula / Black Widow
 - Bogrunner
@@ -35,6 +36,7 @@
 - Arkatore (reused Cerro de Potosi)
 - Eilifur Gjósa (reused Old Faithful)
 - Towering Reef (reused Great Barrier Reef)
+- Plantations
 
 ## by letstalkaboutdune (AU style)
 - Askia

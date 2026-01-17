@@ -102,6 +102,27 @@
 		]
 	},
 	{
+		"name": "Treantling",
+		"unitType": "Civilian",
+		"uniqueTo": "Rain Forest",
+		"replaces": "Worker",
+		"movement": 2,
+		"cost": 60,
+		"promotions": ["Woodsman"],
+		"uniques": [
+			"Biological",
+			"Can build [Land] improvements on tiles",
+			"Can instantly construct a [Fishing Boats] improvement <by consuming this unit> <in [Lakes] tiles>",
+			"Can build [Farm] improvements at a [+50]% rate",
+			"Can build [Plantation] improvements at a [+50]% rate",
+			"Comment [Cannot build [Lumber mill]]",
+			"Can upgrade to [Omni-Worker] <for [Human player] Civilizations>"
+		],
+		"civilopediaText": [
+			{"text": "Young and small, sentient treefolk, Treantlings are highly active and often assist their larger brethren in tending and protecting the woodlands."}
+		]
+	},
+	{
 		"name": "Omni-Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -608,7 +629,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cavalry",
-		"promotions": ["Great Generals I","Heavy Plate"],
+		"promotions": ["Great Generals I","Heavy Plating"],
 		"uniques": ["Can only be built <in cities with a [Riding Arena]> <hidden from users>"],
 		"attackSound": "horse",
 		"civilopediaText": [
@@ -781,7 +802,29 @@
 		],
 		"attackSound": "throw",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "The earliest forms of artillery, these weapon propelled heavy stones and other missiles from a great distance, battering down walls and inflicting damage on buildings and defenders."}
+		]
+	},
+	{
+		"name": "Plantapult",
+		"unitType": "Siege",
+		"uniqueTo": "Rain Forest",
+		"replaces": "Catapult",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Trebuchet",
+		"promotions": ["Woodsman"],
+		"uniques": [
+			"Comment [Does not need setting up to attack]",
+			"Can only be built <in cities with a [Siege Workshop]> <hidden from users>"
+		],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "Arise from the trunk of an elder and reinforced by arcane earth and living vines, these unit can catapult heavy stones into the walls of the forest’s intruders."}
 		]
 	},
 	{
@@ -802,7 +845,7 @@
 		],
 		"attackSound": "throw",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "The ultimate rock-tosser, consisted of a very long wooden arm with a sling on one end and a heavy weight on the other, mounted on a heavy wooden framework. When the weight is allowed to drop, it swings the other end of the arm up and over, whipping the missile towards the target."}
 		]
 	},
 	{
@@ -3377,7 +3420,6 @@
 		"cost": 75,
 		"requiredTech": "Animal Riding",
 		"obsoleteTech": "Biology",
-		//"upgradesTo": "Werewolf",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Larger than a horse and twice as mean, these monstrous canines are apex predators with no need for tricks or magic."}

@@ -27,7 +27,7 @@
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 20,
-		"clearBarbarianCampReward": 30
+		"clearBarbarianCampReward": 0
 	},
 	{
 		"name": "Prince",
@@ -57,7 +57,7 @@
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 0
 	},
 	{
 		"name": "King",
@@ -87,7 +87,7 @@
 		"aiUnhappinessModifier": 0.9,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 0
 	},
 	{
 		"name": "Emperor",
@@ -123,7 +123,7 @@
 		"aiUnhappinessModifier": 0.85,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 0
 	},
 	{
 		"name": "Immortal",
@@ -162,7 +162,7 @@
 		"aiUnhappinessModifier": 0.75,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 0
 	},
 	{
 		"name": "Deity",
@@ -204,7 +204,7 @@
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 0
 	},
 	{
 		"name": "Omnipotence",
@@ -248,6 +248,6 @@
 		"aiUnhappinessModifier": 0.5,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 0
 	}
 ]

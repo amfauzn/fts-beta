@@ -389,44 +389,51 @@ ImprovementIcons/Quarry
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Remove Forest
+ImprovementIcons/Rainee Mine
   rotate: false
-  xy: 628, 320
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Jungle
-  rotate: false
-  xy: 628, 320
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Mangrove
-  rotate: false
-  xy: 628, 320
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Sage Tower
-  rotate: false
-  xy: 1252, 944
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Staerie
-  rotate: false
-  xy: 628, 112
+  xy: 420, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/TM Mine
   rotate: false
-  xy: 1044, 528
+  xy: 420, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Forest
+  rotate: false
+  xy: 836, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Jungle
+  rotate: false
+  xy: 836, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Mangrove
+  rotate: false
+  xy: 836, 528
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Sage Tower
+  rotate: false
+  xy: 1460, 1152
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Staerie
+  rotate: false
+  xy: 836, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -496,14 +503,14 @@ ReligionIcons/Preformationism
   index: -1
 ReligionIcons/Relativity
   rotate: false
-  xy: 420, 112
+  xy: 628, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ReligionIcons/Spontanism
   rotate: false
-  xy: 1668, 1360
+  xy: 628, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -706,28 +713,28 @@ ResourceIcons/Perfume
   index: -1
 ResourceIcons/Rotary Component
   rotate: false
-  xy: 836, 528
+  xy: 1044, 736
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Rune Stone
   rotate: false
-  xy: 1044, 736
+  xy: 1252, 944
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Soulstone
   rotate: false
-  xy: 1460, 1152
+  xy: 1668, 1360
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Starshard
   rotate: false
-  xy: 836, 320
+  xy: 1044, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
