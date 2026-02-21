@@ -2046,6 +2046,7 @@
 		"upgradesTo": "Flowing River Adept",
 		"promotions": ["Meditate","Ebb & Flow"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Flowing River School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2063,6 +2064,7 @@
 		"upgradesTo": "Flowing River Master",
 		"promotions": ["Meditate","Ebb & Flow"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Flowing River School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2078,6 +2080,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Ebb & Flow"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Flowing River School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2097,8 +2100,7 @@
 		"uniques": [
 			"Can only be built <if [Flowing River School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2112,6 +2114,7 @@
 		"upgradesTo": "Open Hand Adept",
 		"promotions": ["Meditate","A Thousand Punches"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Open Hand School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2129,6 +2132,7 @@
 		"upgradesTo": "Open Hand Master",
 		"promotions": ["Meditate","A Thousand Punches"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Open Hand School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2144,6 +2148,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","A Thousand Punches"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Open Hand School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2161,10 +2166,10 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","A Thousand Punches","Infinite Qi","Qi"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Open Hand School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2178,6 +2183,7 @@
 		"upgradesTo": "Shadow Fang Adept",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Shadow Fang School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2214,6 +2220,7 @@
 		"upgradesTo": "Shadow Fang Master",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Shadow Fang School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2249,6 +2256,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Shadow Fang School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2266,10 +2274,10 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Venom Fang","Infinite Qi","Qi"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Shadow Fang School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2284,7 +2292,8 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
-			"Can only be built <if [Shadow Fang School] is constructed>",
+			"Unbuildable",
+			"Cannot be purchased",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		],
@@ -2303,10 +2312,10 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Venom Fang","Infinite Qi","Qi"],
 		"uniques": [
-			"Can only be built <if [Shadow Fang School] is constructed>",
+			"Unbuildable",
+			"Cannot be purchased",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2320,6 +2329,7 @@
 		"upgradesTo": "White Lotus Adept",
 		"promotions": ["Meditate","Lotus Clarity"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [White Lotus School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2337,6 +2347,7 @@
 		"upgradesTo": "White Lotus Master",
 		"promotions": ["Meditate","Lotus Clarity"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [White Lotus School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2352,6 +2363,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Lotus Clarity"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [White Lotus School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2369,10 +2381,10 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Lotus Clarity","Infinite Qi","Qi"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [White Lotus School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2386,6 +2398,7 @@
 		"upgradesTo": "Drunken Fist Adept",
 		"promotions": ["Meditate","Bottom Up"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2403,6 +2416,7 @@
 		"upgradesTo": "Drunken Fist Master",
 		"promotions": ["Meditate","Bottom Up"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2418,6 +2432,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Bottom Up"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2435,10 +2450,10 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Bottom Up","Infinite Qi","Qi"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2452,6 +2467,7 @@
 		"upgradesTo": "Gun Fu Adept",
 		"promotions": ["Meditate","Of Gun Than Fist"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Gun Fu School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2469,6 +2485,7 @@
 		"upgradesTo": "Gun Fu Master",
 		"promotions": ["Meditate","Of Gun Than Fist"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Gun Fu School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2484,6 +2501,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Of Gun Than Fist"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Gun Fu School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2501,10 +2519,10 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Of Gun Than Fist"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Gun Fu School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2518,6 +2536,7 @@
 		"upgradesTo": "Loyal Brotherhood Adept",
 		"promotions": ["Meditate","Kroyokan"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Loyal Brotherhood School] is constructed>",
 			"Free [Loyal Brotherhood Disciple-2] appears <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
@@ -2553,6 +2572,7 @@
 		"upgradesTo": "Loyal Brotherhood Master",
 		"promotions": ["Meditate","Kroyokan"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Loyal Brotherhood School] is constructed>",
 			"Free [Loyal Brotherhood Adept-2] appears <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
@@ -2587,6 +2607,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Kroyokan"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Loyal Brotherhood School] is constructed>",
 			"Free [Loyal Brotherhood Master-2] appears <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
@@ -2608,8 +2629,7 @@
 			"Can only be built <if [Loyal Brotherhood School] is constructed>",
 			"Free [Loyal Brotherhood Shifu-2] appears <hidden from users>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2643,8 +2663,7 @@
 			"Unbuildable",
 			"Cannot be purchased",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2675,6 +2694,7 @@
 		"upgradesTo": "Wuxia Master",
 		"promotions": ["Meditate","Monastic Cavalier"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Wuxia School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2690,6 +2710,7 @@
 		"requiredTech": "Empowerment",
 		"promotions": ["Meditate","Monastic Cavalier"],
 		"uniques": [
+			"Unbuildable",
 			"Can only be built <if [Wuxia School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
@@ -2709,8 +2730,7 @@
 		"uniques": [
 			"Can only be built <if [Wuxia School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit",
-			"Will not be displayed in Civilopedia"
+			"Religious Unit"
 		],
 		"attackSound": "nonmetalhit"
 	},

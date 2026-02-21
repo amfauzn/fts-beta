@@ -2498,8 +2498,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Flowing River Monk]",
-			"May buy [Flowing River Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [Flowing River Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "Like the river, they flow with enemy’s attack, and use it against them, countering with crushing strike and turning the tide of battle."}
@@ -2511,8 +2510,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Open Hand Monk]",
-			"May buy [Open Hand Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [Open Hand Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "Using open fist and chop attacks, they disrupt and weaken enemies, sabotaging them in battle."}
@@ -2524,8 +2522,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Shadow Fang Monk]",
-			"May buy [Shadow Fang Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [Shadow Fang Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "Trained for infiltration and ambush, they strike from the shadows, striking confusion and crippling their enemies before they can react."}
@@ -2537,8 +2534,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training White Lotus Monk]",
-			"May buy [White Lotus Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [White Lotus Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "Masters of elemental Qi, they channel Qi through their techniques to unleash powerful elemental attacks."}
@@ -2550,8 +2546,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Drunken Fist Monk]",
-			"May buy [Drunken Fist Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [Drunken Fist Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "Unpredictable and hard to pin down, they rely on erratic movements, chance-based effects, and of course, intoxication."}
@@ -2563,8 +2558,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Gun Fu Monk]",
-			"May buy [Gun Fu Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [Gun Fu Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "These monks use pistols as part of their combat form, blending tradition with invention to attack enemy from afar."}
@@ -2576,8 +2570,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Loyal Brotherhood Monk]",
-			"May buy [Loyal Brotherhood Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [Loyal Brotherhood Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "These monks never fight alone—bound by oath and vengeance, they appear in pairs and grow stronger together in battle."}
@@ -2589,8 +2582,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
-			"Comment [Enables training Wuxiau Monk]",
-			"May buy [Wuxia Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]> <hidden from users>"
+			"May buy [Wuxia Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
 		],
 		"civilopediaText": [
 			{"text": "Wuxia monks are mounted martial heroes who strike fast and ride far, trained for open warfare and charging attack."}

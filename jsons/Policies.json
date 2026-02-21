@@ -382,7 +382,10 @@
 			},
 			{
 				"name": "Postulants",
-				"uniques": ["Triggers a [Choose a Monk School] event"],
+				"uniques": [
+					"Triggers a [Choose a Monk School] event",
+					"Comment [May buy Monk unit with [Faith]]"
+				],
 				"requires": ["Theocracy"],
 				"row": 2,
 				"column": 3
@@ -405,8 +408,7 @@
 				"uniques": [
 					"Free [Great Prophet] appears",
 					"[+2 Culture] from every [Holy Site]",
-					"[+2 Faith] from every [Man-eating Tree]",
-					"Comment [Enables construction of [Master]]"
+					"[+2 Faith] from every [Man-eating Tree]"
 				]
 			}
 		]
