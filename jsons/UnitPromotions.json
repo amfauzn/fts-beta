@@ -236,12 +236,12 @@
 		"row": 3
 	},
 	
-	// Anti-Armor
+	// Anti-Armor + Hobes
 	{
 		"name": "Formation",
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Anti-Armor"],
+		"unitTypes": ["Anti-Armor","Hobes"],
 		"column": 9,
 		"row": 2
 	},
@@ -249,7 +249,7 @@
 		"name": "Shield Wall",
 		"prerequisites": ["Drill"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Anti-Armor"],
+		"unitTypes": ["Anti-Armor","Hobes"],
 		"column": 11,
 		"row": 2
 	},
@@ -257,7 +257,7 @@
 		"name": "Thrust",
 		"prerequisites": ["Formation","Shield Wall"],
 		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
-		"unitTypes": ["Anti-Armor"],
+		"unitTypes": ["Anti-Armor","Hobes"],
 		"column": 9,
 		"row": 3
 	},
@@ -265,7 +265,7 @@
 		"name": "Square Crowd",
 		"prerequisites": ["Formation","Shield Wall"],
 		"uniques": ["[+25]% Strength <vs [Infantry] units>"],
-		"unitTypes": ["Anti-Armor"],
+		"unitTypes": ["Anti-Armor","Hobes"],
 		"column": 10,
 		"row": 3
 	},
@@ -276,7 +276,7 @@
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast"
 		],
-		"unitTypes": ["Infantry","Anti-Armor"],
+		"unitTypes": ["Infantry","Anti-Armor","Hobes"],
 		"column": 11,
 		"row": 3
 	},
@@ -284,7 +284,7 @@
 		"name": "March",
 		"prerequisites": ["Besiege","Woodsman","Thrust","Square Crowd","Amphibious"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Infantry","Anti-Armor"],
+		"unitTypes": ["Infantry","Anti-Armor","Hobes"],
 		"column": 9,
 		"row": 4
 	},
@@ -628,7 +628,7 @@
 			"[1] additional attacks per turn",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"unitTypes": ["Infantry","Anti-Armor","Hobes","Mounted"],
 		"column": 20,
 		"row": 4
 	},
@@ -779,7 +779,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Besiege","Woodsman","Thrust","Square Crowd","Amphibious","Precision","Ambush","Shell"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Infantry","Anti-Armor","Anti-Air"],
+		"unitTypes": ["Infantry","Anti-Armor","Hobes","Anti-Air"],
 		"column": 31,
 		"row": 4
 	},
@@ -814,6 +814,7 @@
 		"uniques": [
 			"Fire Element",
 			//"Instantly consumes [15] [Aether]",
+			"Only available <if [Fire School] is constructed> <hidden from users>",
 			"Comment [Passive. Inflict [Scorched] for 2 turns]",
 			"[Target Unit] gains the [Scorched] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>"
 		],
@@ -1138,6 +1139,7 @@
 		"uniques": [
 			"Wind Element",
 			//"Instantly consumes [15] [Aether]",
+			"Only available <if [Wind School] is constructed> <hidden from users>",
 			"Comment [Passive. Withdraws from Melee combat once every 4 turns]",
 			"[This Unit] gains the [Swift Step Active] status for [1] turn(s) <upon turn end> <for units without [Swift Step Cooldown]> <hidden from users>"
 		],
@@ -1357,6 +1359,7 @@
 		"uniques": [
 			"Lightning Element",
 			//"Instantly consumes [15] [Aether]",
+			"Only available <if [Lightning School] is constructed> <hidden from users>",
 			"Comment [Passive. Inflict [Disrupted] for 1 turn]",	//Or Disrupt Chakra?
 			"[Target Unit] gains the [Disrupted] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 		],
@@ -1607,6 +1610,7 @@
 		"uniques": [
 			"Earth Element",
 			//"Instantly consumes [15] [Aether]",
+			"Only available <if [Earth School] is constructed> <hidden from users>",
 			"Comment [Passive. +15% Strength when defending]",
 			"[+15]% Strength <when defending> <hidden from users>"
 		],
@@ -1820,6 +1824,7 @@
 		"uniques": [
 			"Water Element",
 			//"Instantly consumes [15] [Aether]",
+			"Only available <if [Water School] is constructed> <hidden from users>",
 			"Comment [Passive. Heals 5 HP upon turn end]",
 			"[This Unit] heals [5] HP <upon turn end> <hidden from users>"		
 		],
@@ -2073,6 +2078,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
+			"Only available <if [Plasma School] is constructed> <hidden from users>",
 			"Comment [Passive. Deal 10 damage]",
 			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <hidden from users>",
 			
@@ -2178,6 +2184,7 @@
 		"uniques": [
 			"Armored",
 			"Instantly consumes [20] [Aether]",
+			"Only available <if [Metal School] is constructed> <hidden from users>",
 			"Comment [Passive. Reduces the first damage taken by 20. Cooldown: 1 turn]",
 			"[This Unit] gains the [Titanmail Cooldown] status for [1] turn(s) <upon losing at least [1] HP in a single attack> <for units without [Titanmail Cooldown]> <hidden from users>",
 			
@@ -2289,6 +2296,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
+			"Only available <if [Wood School] is constructed> <hidden from users>",
 			"Comment [Passive. Inflict [Poisoned] for 2 turns to Land unit attacking this unit]",
 			
 			"[+1]% Strength <hidden from users>"
@@ -2402,6 +2410,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
+			"Only available <if [Thunder School] is constructed> <hidden from users>",
 			"Comment [Passive. Inflict [Disoriented] for 1 turn upon attacking or counterattacking]",
 			"[Target Unit] gains the [Disoriented] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
@@ -2512,6 +2521,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
+			"Only available <if [Steam School] is constructed> <hidden from users>",
 			"Comment [Passive. Inflict [Blinded] for 1 turn upon attacking or counterattacking]",
 			"[Target Unit] gains the [Blinded] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			
@@ -2625,6 +2635,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
+			"Only available <if [Light School] is constructed> <hidden from users>",
 			"Comment [Passive. +15% Strength when defending for this and adjacent units]",
 			"[+15]% Strength <when defending> <hidden from users>"
 		],
@@ -2708,6 +2719,7 @@
 		"prerequisites": ["Elemental Mastery"],
 		"uniques": [
 			"Instantly consumes [20] [Aether]",
+			"Only available <if [Darkness School] is constructed> <hidden from users>",
 			"Comment [Passive. Gain [Invulnerability] upon taking damage that reduces its HP to 25 or below. Cooldown: 12 turns.]",
 			"[This Unit] gains the [Death Ward Cooldown] status for [12] turn(s) <upon losing at least [1] HP in a single attack> <when below [26] HP> <for units without [Death Ward Cooldown]> <hidden from users>",
 			"[+1]% Strength <for units without [Death Ward Cooldown]> <hidden from users>"
@@ -3774,6 +3786,7 @@
 			"Recon",
 			"Infantry",
 			"Anti-Armor",
+			"Hobes",
 			"Ranged Infantry"
 		]
 	},
@@ -3944,7 +3957,7 @@
 	{
 		"name": "Step of the Wind",	//Step of the Wind
 		"uniques": [
-			"Comment [Active. Gain +2 Movement but can't attack. Duration: 1 turn. Cooldown: 5 turns]",
+			"Comment [Active. Double movement in all tiles but can't attack. Duration: 1 turn. Cooldown: 3 turns]",
 			"Comment [Requires [Qi] point]",
 			"[This Unit] gains the [Step of the Wind Active] status for [1] turn(s) <for [0] movement> <for units without [Step of the Wind Cooldown]> <for units with [Qi]> <for [non-[No Qi Cast]] units> <removing the [Qi] promotion/status> <hidden from users>"
 		],
@@ -3955,9 +3968,9 @@
 	{
 		"name": "Step of the Wind Active",
 		"uniques": [
-			"[+2] Movement",
+			"Double movement in [All]",
 			"Cannot attack",
-			"[This Unit] gains the [Step of the Wind Cooldown] status for [5] turn(s) <upon gaining the [Step of the Wind Active] status> <hidden from users>",
+			"[This Unit] gains the [Step of the Wind Cooldown] status for [3] turn(s) <upon gaining the [Step of the Wind Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -3972,8 +3985,8 @@
 		"name": "Light Foot",
 		"prerequisites": ["Step of the Wind"],
 		"uniques": [
-			"Comment [Passive. +1 Movement when defending]",
-			"Double movement in [Rough terrain]",
+			"Comment [Passive]",
+			"[+1] Movement",
 			"[This Unit] gains [1] movement <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
 		"unitTypes": ["Flowing River Monk","Open Hand Monk","Shadow Fang Monk","White Lotus Monk","Drunken Fist Monk","Gun Fu Monk","Loyal Brotherhood Monk","Wuxia Monk"],
@@ -7424,6 +7437,75 @@
 		]
 	},
 	
+	// Torakj
+	{
+		"name": "Hobgoblin Discipline",
+		"uniques": ["Comment [Can transform to [Hobgoblin]]"]
+	},
+	{
+		"name": "Ravager",
+		"uniques": ["[+50]% Yield from pillaging tiles"]
+	},
+	{
+		"name": "Coordinated",
+		"uniques": ["[+15]% to Flank Attack bonuses"]
+	},
+	
+	{
+		"name": "Iron Discipline",
+		"prerequisites": ["Shock","Drill"],
+		"uniques": ["[+33]% XP gained from combat"],
+		"unitTypes": ["Hobes"],
+	},
+	{
+		"name": "Greater Regeneration",
+		"prerequisites": ["Shock","Drill"],
+		"uniques": ["[+3] HP when healing"],
+		"unitTypes": ["Hobes"],
+	},
+	{
+		"name": "Hobes Rage",
+		"prerequisites": ["Iron Discipline"],
+		"uniques": ["[+5] Strength <when below [50] HP>"],
+		"unitTypes": ["Hobes"],
+	},
+	{
+		"name": "Warband",
+		"prerequisites": ["Greater Regeneration"],
+		"uniques": [],
+		"unitTypes": ["Hobes"],
+	},
+	{
+		"name": "Crushing Blow",
+		"prerequisites": ["Hobes Rage"],
+		"uniques": [
+			"Comment [Active. Deals 10 damage and inflict [Crippled] and [Disarmed]. Cooldown: 8 turns]",
+			"[This Unit] gains the [Crushing Blow Active] status for [1] turn(s) <for [0] movement> <for units without [Crushing Blow Cooldown]> <hidden from users>"
+		],
+		"unitTypes": ["Hobes"],
+		"civilopediaText": [
+			{"text": "Crippled", "link":"Promotion/Crippled"},
+			{"text": "Disarmed", "link":"Promotion/Disarmed"}
+		]
+	},
+	{
+		"name": "Crushing Blow Active",
+		"uniques": [
+			"Comment [Deals 10 damage and inflict [Crippled] and [Disarmed]",
+			"[This Unit] gains the [Crushing Blow Cooldown] status for [8] turn(s) <upon gaining the [Crushing Blow Active] status> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Crushing Blow Cooldown",
+		"uniques": [
+			"Comment [[Crushing Blow] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 	//Smeheng
 	{
 		"name": "Sandgliding",
@@ -7431,7 +7513,7 @@
 			"Comment [The Mehengite are excellent at sailing the sands, this unit may use the [Sandglider]]",
 			"Ignores terrain cost <when stacked with a [Sandglider] unit> <in [Desert] tiles> <hidden from users>",
 		]
-	},	
+	},
 	{
 		"name": "Realm Patrol", 
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"]

@@ -25,6 +25,7 @@
 			"Biological",
 			"Footman",
 			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>",
+			"Can transform to [Hobgoblin] <for [Hobgoblin Discipline] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -35,6 +36,7 @@
 			"Biological",
 			"Footman",
 			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
+			"Can transform to [Hobgoblin] <for [Hobgoblin Discipline] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -367,6 +369,19 @@
 		"uniques": [
 			"Biological",
 			//"Footman",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	
+	// Hobes
+	{
+		"name": "Hobes",
+		"movementType": "Land",
+		"uniques": [
+			"Anto-Armor",
+			"Biological",
+			"Footman",
+			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		]
 	},

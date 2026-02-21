@@ -155,7 +155,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Culture] from every [Jungle]",
-			"[+1 Culture] from every [Mangrove]",
+			//"[+1 Culture] from every [Mangrove]",
 			"[+1 Culture] from every [Man-eating Tree]"
 		]
 	},
@@ -233,7 +233,10 @@
 	{
 		"name": "Intertwined Destiny",
 		"type": "Founder",
-		"uniques": ["Resting point for Influence with City-States following this religion [+15]"]
+		"uniques": [
+			"Resting point for Influence with City-States following this religion [+15]",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+		]
 	},
 	{
 		"name": "Messiah",
@@ -278,7 +281,7 @@
 	{
 		"name": "Divine Inspiration",
 		"type": "Follower",
-		"uniques": ["[+2 Faith] from every [Wonder]"]
+		"uniques": ["[+1 Faith] from every [Wonder]"]
 	},
 	{
 		"name": "Fasting",
@@ -397,8 +400,8 @@
 		"name": "Work Ethic",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Production] from every [Workshop] <in cities with at least [3] [Followers of this Religion]>",
-			"[+2 Production] from every [Factory] <in cities with at least [3] [Followers of this Religion]>"
+			"[+1 Production] from every [Workshop] <in cities with at least [2] [Followers of this Religion]>",
+			"[+2 Production] from every [Factory] <in cities with at least [4] [Followers of this Religion]>"
 		]
 	},
 	{
@@ -451,7 +454,6 @@
 		"type": "Follower",
 		"uniques": ["May buy [Yetumesh] buildings with [Faith] [in cities following this religion]"]
 	},
-
 	
 	// Enhancer beliefs
 	{
@@ -511,7 +513,10 @@
 	{
 		"name": "Divine Summoning",
 		"type": "Enhancer",
-		"uniques": ["Comment [Recover [Fate] used to summon Heroes and activate their skill by half]"]
+		"uniques": [
+			"Comment [Recover [Fate] used to summon Heroes and activate their skill by half]",
+			"Instantly gain [50] [Fate] <upon gaining a [Hero] unit> <hidden from users>"
+		]
 	},
 	{
 		"name": "Fate Threading",
@@ -527,74 +532,80 @@
 		"uniques": ["[+8 Culture] [in holy cities]"]
 	},
 	
+	// Mandate of Heaven
 	{
 		"name": "City of God",
 		"type": "Enhancer",
 		"uniques": [
+			"Only available <after adopting [Mandate of Heaven]>",
 			"[+5 Culture, +5 Science, +5 Faith, +5 Food, +5 Gold, +5 Production] from every [Grand Temple]"
-			"Only available <after adopting [Mandate of Heaven]>"
 		]
 	},
 	{
 		"name": "Sanctuary of Heroes",
 		"type": "Enhancer",
 		"uniques": [
-			"All healing effects doubled <for [Hero] units>",
-			"Only available <after adopting [Mandate of Heaven]>"
+			"Only available <after adopting [Mandate of Heaven]>",
+			"All healing effects doubled <for [Hero] units>"
 		]
 	},
 	{
 		"name": "Divine Teachings",
 		"type": "Enhancer",
 		"uniques": [
+			"Only available <after adopting [Mandate of Heaven]>",
 			"May buy [Paper Maker] buildings for [60] [Faith] [in cities following this religion]",
 			"May buy [Public School] buildings for [200] [Faith] [in cities following this religion]",
 			"May buy [Campus] buildings for [350] [Faith] [in cities following this religion]",
 			"May buy [Research Lab] buildings for [560] [Faith] [in cities following this religion]",
-			"Only available <after adopting [Mandate of Heaven]>"
+			"[+25]% weight to this choice for AI decisions"
 		]
 	},
 	{
 		"name": "Arcane Tutelage",
 		"type": "Enhancer", // 2/3
 		"uniques": [
+			"Only available <after adopting [Mandate of Heaven]>",
 			"May buy [Academy of Magic] buildings for [150] [Faith] [in cities following this religion]",
 			"May buy [Centre of Arcane] buildings for [180] [Faith] [in cities following this religion]",
 			"May buy [Rune Forge] buildings for [220] [Faith] [in cities following this religion]",
-			"Only available <after adopting [Mandate of Heaven]>"
+			"[+25]% weight to this choice for AI decisions <after adopting [Wizardry]>"
 		]
 	},
 	{
 		"name": "Sacred Sites",
 		"type": "Enhancer",
 		"uniques": [
+			"Only available <after adopting [Mandate of Heaven]>",
 			"[+2 Culture, +2 Faith] from every [Religious Building]",
-			"Only available <after adopting [Mandate of Heaven]>"
+			//"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		]
 	},
 	{
 		"name": "To the Glory of God",
 		"type": "Enhancer",
 		"uniques": [
-			"Comment [May purchase any Great Person]",
-			"Only available <after adopting [Mandate of Heaven]>"
+			"Only available <after adopting [Mandate of Heaven]>",
+			"May buy [Great Person] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Aeromantic Age]>",
+			"[+25]% weight to this choice for AI decisions"
 		]
 	},
 	{
 		"name": "Unity of the Prophet",
 		"type": "Enhancer",
 		"uniques": [
-			"Comment [[+4 Faith, +2 Production] from every [Holy site]]",
-			"Only available <after adopting [Mandate of Heaven]>"
+			"Only available <after adopting [Mandate of Heaven]>",
+			"Comment [[+4 Faith, +2 Production] from every [Holy site]]"
 		]
 	},
 	{
 		"name": "Underground Sect",
 		"type": "Enhancer",
 		"uniques": [
+			"Only available <after adopting [Mandate of Heaven]>",
+			"Only available <when espionage is enabled> <hidden from users>",
 			"Gain an extra spy",
-			"[+25]% spy effectiveness [in cities following our religion]",
-			"Only available <after adopting [Mandate of Heaven]>"
+			"[+25]% spy effectiveness [in cities following our religion]"
 		]
 	},
 ]

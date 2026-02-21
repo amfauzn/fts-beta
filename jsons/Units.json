@@ -361,6 +361,25 @@
 		]
 	},
 	{
+		"name": "Orc Warleader",
+		"unitType": "Infantry",
+		"uniqueTo": "Torakj",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 32,
+		"cost": 175,
+		"hurryCostModifier": 15,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Avionic Theory",
+		"upgradesTo": "Etherblader",
+		"promotions": ["Ravager"],
+		"uniques": ["[This Unit] heals [3] HP <upon turn end>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Rising by crushing rivals and proving unmatched strength, these Orcs stand at the center of the Horde, commanding warbands with brutal instinct and overwhelming presence."}
+		]
+	},
+	{
 		"name": "Axeman",
 		"unitType": "Infantry",
 		"uniqueTo": "Twin Mountain",
@@ -494,6 +513,28 @@
 		]
 	},
 	{
+		"name": "Hobgoblin",
+		"unitType": "Hobes",
+		"uniqueTo": "Torakj",
+		"movement": 2,
+		"strength": 18,
+		"cost": 56,
+		"uniques": [
+			"Unbuildable",
+			"[+12] Strength <after discovering [Civil Service]>",
+			"[+15] Strength <after discovering [Alchemy]>",
+			"[+18] Strength <after discovering [Pyromunition]>",
+			"[+20] Strength <after discovering [Bionic Physiology]>",
+			"[This Unit] heals [3] HP <upon turn end>",
+			"[This Unit] loses the [Hobgoblin Discipline] promotion <upon turn end> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Larger and more imposing than goblins, yet more disciplined than most orcs, hobgoblins serve as the backbone of the horde."}
+		]
+	},
+	{
 		"name": "Pikeman",
 		"unitType": "Anti-Armor",
 		"movement": 2,
@@ -577,6 +618,25 @@
 		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": "Fighting while riding animal, these unit often armed with spears and swords."}
+		]
+	},
+	{
+		"name": "Wolfrider",
+		"unitType": "Mounted",
+		"uniqueTo": "Torakj",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 20,
+		"cost": 70,
+		"hurryCostModifier": 15,
+		"requiredTech": "Animal Riding",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Knight",
+		"promotions": ["Ravager","Coordinated"],
+		"uniques": ["Comment [Can be trained in cities without [Riding Arena]]"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Mounted upon fierce wolves to overcome their small stature, these cunning raider excel at harassing enemy supplies."}
 		]
 	},
 	{
@@ -2781,13 +2841,13 @@
 		"name": "Ornithoglider",
 		"unitType": "Bomber",
 		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 50,
+		"strength": 70,
+		"rangedStrength": 70,
 		"range": 5,
 		"cost": 275,
 		"requiredResource": "Magician",
-		"requiredTech": "Quintessence Powers",
-		"upgradesTo": "Bomber",
+		"requiredTech": "Avionic Theory",
+		"upgradesTo": "Jet Bomber",
 		"promotions": ["Fireball"],
 		"uniques": [
 			"Mercenary",

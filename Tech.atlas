@@ -1,159 +1,271 @@
 
 Tech.png
-size: 2048, 1024
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TechIcons/Advanced Automatons
+  rotate: false
+  xy: 4, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 TechIcons/Alchemy
   rotate: false
-  xy: 4, 628
+  xy: 215, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Animal Riding
   rotate: false
-  xy: 4, 420
+  xy: 4, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Aquanautics
   rotate: false
-  xy: 212, 628
+  xy: 212, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Astrology
   rotate: false
-  xy: 4, 212
+  xy: 423, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Avionic Theory
   rotate: false
-  xy: 212, 420
+  xy: 4, 1044
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Bionic Physiology
+  rotate: false
+  xy: 212, 1252
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Cartography
+  rotate: false
+  xy: 631, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Celestial Wisdom
   rotate: false
-  xy: 420, 628
+  xy: 4, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Celestial Wisdoms
   rotate: false
-  xy: 4, 4
+  xy: 212, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Circle
   rotate: false
-  xy: 212, 212
+  xy: 839, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Domestication
   rotate: false
-  xy: 420, 420
+  xy: 4, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Empowerment
+  rotate: false
+  xy: 212, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Fishing
   rotate: false
-  xy: 628, 628
+  xy: 1047, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Geomancy
   rotate: false
-  xy: 212, 4
+  xy: 4, 1668
+  size: 203, 200
+  orig: 203, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Guidance Systems
+  rotate: false
+  xy: 4, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Hunting
   rotate: false
-  xy: 420, 212
+  xy: 212, 628
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Irrigation
   rotate: false
-  xy: 628, 420
+  xy: 1255, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Language
   rotate: false
-  xy: 836, 628
+  xy: 4, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Leyline Siphoning
+  rotate: false
+  xy: 212, 420
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Loan and Savings
+  rotate: false
+  xy: 1463, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Magic Negation
   rotate: false
-  xy: 420, 4
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Mana Attunement
   rotate: false
-  xy: 628, 212
+  xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Mana Battery
+  rotate: false
+  xy: 1671, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Mana Crystallization
   rotate: false
-  xy: 836, 420
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Mana Thaumaturgy
   rotate: false
-  xy: 1044, 628
+  xy: 423, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Military Engineering
+  rotate: false
+  xy: 631, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Paper Making
   rotate: false
-  xy: 628, 4
+  xy: 839, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Poetry
   rotate: false
-  xy: 836, 212
+  xy: 1047, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Printing
+  rotate: false
+  xy: 1255, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Pyroblasting
+  rotate: false
+  xy: 1463, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Pyrokinetics
+  rotate: false
+  xy: 1671, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Pyromunitions
+  rotate: false
+  xy: 420, 1252
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Quintessence Powers
+  rotate: false
+  xy: 420, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Runeforging
   rotate: false
-  xy: 1044, 420
+  xy: 420, 836
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Spellbook Codification
+  rotate: false
+  xy: 420, 628
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/Submersibles
+  rotate: false
+  xy: 420, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Summoning Rites
   rotate: false
-  xy: 1252, 628
+  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

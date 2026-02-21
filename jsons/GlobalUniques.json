@@ -13,7 +13,9 @@
 		"[-1 Science] per [2] population [in all cities]",
 		
 		// Events
-		//"Triggers a [Wellspring Abundance] event <upon founding a city> <within [3] tiles of a [Fountain of Youth]>", // will be picked by CS
+		"Triggers a [Magic Element I] event <upon constructing [Arcane Spire] [in capital]>",
+		"Triggers a [Magic Element II] event <upon constructing [Academy of Magic] [in capital]>",
+		"Triggers a [Advanced Element] event <upon constructing [Archmage Tribunal]>",
 		
 		// Self Turn mechanic
 		"Instantly gain [1] [SelfTurn] <upon turn start> <when below [1] [SelfTurn]>",

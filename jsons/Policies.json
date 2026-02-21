@@ -100,7 +100,7 @@
 			{
 				"name": "State Workforce",
 				"uniques": [
-					"[-25]% construction time for [All] improvements",
+					"Can build [all] improvements at a [+25]% rate",
 					"Free [Worker] appears",
 					"[-50]% weight to this choice for AI decisions"
 				],

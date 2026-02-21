@@ -18,14 +18,15 @@
 		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
 		//"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
 		//"Gain a free [Academy of Magic] [in capital]",
-		"[Recon] units gain the [Mana Sensing] promotion",
-		"[Infantry] units gain the [Mana Sensing] promotion",
-		"[Anti-Armor] units gain the [Mana Sensing] promotion",
-		"[Mounted] units gain the [Mana Sensing] promotion",
-		"[Ranged Infantry] units gain the [Mana Sensing] promotion",
-		"Provides [2] [Starshard]",
-		"Provides [2] [Mythical Egg]",
-		"Provides [2] [Soulstone]",
+		//"[Recon] units gain the [Mana Sensing] promotion",
+		//"[Infantry] units gain the [Mana Sensing] promotion",
+		//"[Anti-Armor] units gain the [Mana Sensing] promotion",
+		//"[Mounted] units gain the [Mana Sensing] promotion",
+		//"[Ranged Infantry] units gain the [Mana Sensing] promotion",
+		//"Provides [2] [Starshard]",
+		//"Provides [2] [Mythical Egg]",
+		//"Provides [2] [Soulstone]",
+		"Provides [2] [Magician]",
 		],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
@@ -215,7 +216,7 @@ Characters:
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 		
-		"declaringWar": "You won't stand a chance against our mighty casters!"
+		"declaringWar": "You won't stand a chance against our mighty casters!",
 		"attacked": "You dare to touch our sacred lands? It will be your grave!",
 		"denounced": "",
 		"defeated": "A pity that I won't be able to see the true Prosperity.",
@@ -241,6 +242,48 @@ Characters:
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto",
 			"Shingawa","Asatori","Hoshiyama","Iwazawa","Kirikawa","Asahaba","Tateki","Miyakumo","Shirotsuchi","Shinchaku"],
 		"spyNames": ["Akaishi","Anri","Hattori","Oda","Momoka","Kawashima","Hojo","Hitomi","Kaede","Mochizuki"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Anzogh of Torakj
+	{
+		"name": "Torakj",
+		"leaderName": "Anzogh",
+		"adjective": ["Torakis"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Goblin",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death.",
+		"attacked": "Agh, you mess with me, you'll pay, you'll pay...",
+		"denounced": "",
+		"defeated": "No, Anzogh knows no defeat!",
+		"afterPeace": "HAHAHAHA, run weak run!",
+		"introduction": "You stand before Anzogh, just Anzogh.",
+		
+		"neutralHello": "What do you want now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "A trade request one might say.",
+		
+		"outerColor": [ 12, 75, 25],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "Greenskin Horde"
+		"uniques": [
+			"[+1] Movement <in [Enemy Land] tiles> <for [{Footman} {Melee}] units>",
+			"[+2] XP gained from combat <for [{Footman} {Melee}] units>",
+			"Earn [100]% of the damage done to [City] units as [Gold] <for [Melee] units>"
+		],
+		"cities": ["Torakj","Mogrim","Gaul","Dade","Talu","Bullu","Bao","Kasel","Neuss","Herne",
+			"Bonn","Loyn","Wisbaden","Horkj","Skurkj","Krisz","Ithmakj","Stregz","Galk","Srord"],
+		"spyNames": ["Driog","Dunnukz","Flog","Kaark","Oirig","Roig","Sheyu","Kaide","Kadul","Nomadak"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -573,7 +616,7 @@ Characters:
 		"name": "Dwargon",
 		"leaderName": "Almira",
 		"adjective": ["Dwarni"],
-		"startBias": ["startBias"],
+		"startBias": ["Hill"],
 		//"preferredVictoryType": "",
 		//"favoredReligion": "",
 		//"personality": "",
@@ -796,6 +839,7 @@ Characters:
 		"adjective": ["Manthili"],
 		"cityStateType": "Monumentalist",
 		"style": "Dwarves",
+		"startBias": ["Hill","Desert"],
 
 		"declaringWar": "Hear me, imprudent foreigner! Yurrgin declares your lands his own! Your puny colonies shall fall!",
 		"attacked": "If you were wiser, you would've chosen a way of peace.",
@@ -889,7 +933,7 @@ Characters:
 	},
 	{
 		"name": "Dayne",
-		"adjective": ["Clockwerks"],
+		"adjective": ["Daynian"],
 		"cityStateType": "Industrial",
 		"style": "Vaja",
 		"startBias": ["Coast"],
@@ -906,7 +950,7 @@ Characters:
 		"adjective": ["Dunfiri"],
 		"cityStateType": "Artisan",
 		"style": "Dwarves",
-		"startBias": ["Hill"],
+		"startBias": ["Hill","Mountain"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -934,7 +978,7 @@ Characters:
 		"adjective": ["Rogs"],
 		"cityStateType": "Industrial",
 		"style": "Ogre",
-		"startBias": ["Jungle"],
+		"startBias": ["Tundra","Forest"],
 
 		"declaringWar": "Hungry ... hungry for eternity ...",
 		"attacked": "What a coincidence, I yearns for a fresh flesh myself!",
@@ -1061,7 +1105,7 @@ Characters:
 		"adjective": ["Aeripii"],
 		"cityStateType": "Aerithalas Mercenary",
 		"style": "Harpy",
-		"startBias": ["Hill"],
+		"startBias": ["Mountain","Hill"],
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Aerithalas!",
@@ -1098,9 +1142,9 @@ Characters:
 		"cities": ["Dreckfang"]
 	},
 	{
-		"name": "Gildar",
-		"adjective": ["Gildari"],
-		"cityStateType": "Gildar Mercenary",
+		"name": "Naluvir",
+		"adjective": ["Naluviri"],
+		"cityStateType": "Naluvir Mercenary",
 		"style": "Drow",
 		
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
@@ -1108,7 +1152,7 @@ Characters:
 		"defeated": "Congratulations, conqueror. This tribe serves you now.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [255, 50, 50],
-		"cities": ["Gildar"]
+		"cities": ["Naluvir"]
 	},
 	{
 		"name": "Grokzut",
@@ -1128,13 +1172,18 @@ Characters:
 		"adjective": ["Tuskari"],
 		"cityStateType": "Fjord Ruler",
 		"style": "Tuskari",
-		"startBias": ["Coast"],
+		"startBias": ["Coast","Snow"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
 		"attacked": "Very well, we will kick you back to the Dark Age!",
 		"defeated": "What treachery has struck us? No, what evil?",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [200,  0, 76],
+		"uniques": ["[+2 Food] from every [Magic Building]",
+			"Comment [Provides 1 [Magician] in cities with [Draen Sanctuary] and [Academy of Magic]]",
+			
+			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <when below [5] [stockpiledCounter]> <hidden from users>"
+		],
 		"cities": ["Tuskarok"]
 	},
 	{
