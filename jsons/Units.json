@@ -243,7 +243,7 @@
 		"promotions": ["[Scout] ability"],
 		"uniques": [
 			"Can see invisible [Invisibility] units",
-			"May upgrade to [Stand Shafter] through ruins-like effects"
+			"May upgrade to [Hand Cannoneer] through ruins-like effects"
 		],
 		"attackSound": "crossbow",
 		"civilopediaText": [
@@ -369,34 +369,15 @@
 		"strength": 32,
 		"cost": 175,
 		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
 		"requiredTech": "Steel",
 		"obsoleteTech": "Avionic Theory",
 		"upgradesTo": "Etherblader",
-		"promotions": ["Ravager"],
+		"promotions": ["Ravager","Crushing Blow"],
 		"uniques": ["[This Unit] heals [3] HP <upon turn end>"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Rising by crushing rivals and proving unmatched strength, these Orcs stand at the center of the Horde, commanding warbands with brutal instinct and overwhelming presence."}
-		]
-	},
-	{
-		"name": "Axeman",
-		"unitType": "Infantry",
-		"uniqueTo": "Twin Mountain",
-		"replaces": "Longswordsman",
-		"movement": 2,
-		"strength": 30,
-		"cost": 160,
-		"hurryCostModifier": 15,
-		"requiredResource": "Iron",
-		"requiredTech": "Steel",
-		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Etherblader",
-		"promotions": ["Savage Attacker","Mountainborn"],
-		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Hearstdurl, forged from Khorin’s magma by the legendary craftsman Durldin, served as the archetype for these troops’ weapons."}
 		]
 	},
 	{
@@ -417,6 +398,26 @@
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "These itinerant monster slayers undergone extensive training, ruthless mental and physical conditioning, and mysterious rituals."}
+		]
+	},
+	{
+		"name": "Axeman",
+		"unitType": "Infantry",
+		"uniqueTo": "Twin Mountain",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 30,
+		"cost": 160,
+		"hurryCostModifier": 15,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "Etherblader",
+		"promotions": ["Savage Attacker","Mountainborn"],
+		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Hearstdurl, forged from Khorin’s magma by the legendary craftsman Durldin, served as the archetype for these troops’ weapons."}
 		]
 	},
 	{
@@ -633,7 +634,7 @@
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Knight",
 		"promotions": ["Ravager","Coordinated"],
-		"uniques": ["Comment [Can be trained in cities without [Riding Arena]]"],
+		"uniques": ["Comment [Can be trained in any city]"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Mounted upon fierce wolves to overcome their small stature, these cunning raider excel at harassing enemy supplies."}
@@ -794,7 +795,7 @@
 		"hurryCostModifier": 15,
 		"requiredTech": "Military Engineering",
 		"obsoleteTech": "Advanced Ballistics",
-		"upgradesTo": "Stand Shafter",
+		"upgradesTo": "Hand Cannoneer",
 		"uniques": [
 			"Can only be built <in cities with a [Shooting Range]> <hidden from users>",
 			"Never appears as a Barbarian unit"
@@ -805,7 +806,7 @@
 		]
 	},
 	{
-		"name": "Stand Shafter",
+		"name": "Hand Cannoneer",
 		"unitType": "Ranged Infantry",
 		"movement": 2,
 		"strength": 50,
@@ -1294,6 +1295,135 @@
 		"civilopediaText": [
 			{"text": ""}
 		]
+	},
+	
+	// Mana Sensing (A Third Caster)
+	{
+		"name": "Spellswordsman Beginner",
+		"unitType": "Spellsword",
+		"movement": 2,
+		"strength": 30,
+		"requiredTech": "Mana Crystallization",
+		"obsoleteTech": "Industrialization",
+		"upgradesTo": "Spellswordsman Graduator",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Spellswordsman Graduator",
+		"unitType": "Spellsword",
+		"movement": 2,
+		"strength": 44,
+		"requiredTech": "Industrialization",
+		"obsoleteTech": "Avionic Theory",
+		"upgradesTo": "Spellswordsman Saint",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Spellswordsman Saint",
+		"unitType": "Spellsword",
+		"movement": 2,
+		"strength": 60,
+		"requiredTech": "Avionic Theory",
+		"uniques": [
+			"Unbuildable",
+			"[+20] Strength <after discovering [Combined Arms]>",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "metalhit",
+	},
+	
+	{
+		"name": "Aether Cavalier Beginner",
+		"unitType": "Aether Cavalier",
+		"movement": 4,
+		"strength": 30,
+		"requiredTech": "Mana Crystallization",
+		"obsoleteTech": "Industrialization",
+		"upgradesTo": "Aether Cavalier Graduator",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Aether Cavalier Graduator",
+		"unitType": "Aether Cavalier",
+		"movement": 4,
+		"strength": 44,
+		"requiredTech": "Industrialization",
+		"obsoleteTech": "Avionic Theory",
+		"upgradesTo": "Aether Cavalier Saint",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Aether Cavalier Saint",
+		"unitType": "Aether Cavalier",
+		"movement": 4,
+		"strength": 60,
+		"requiredTech": "Avionic Theory",
+		"uniques": [
+			"Unbuildable",
+			"[+20] Strength <after discovering [Mobile Tactics]>",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Arcane Archer Beginner",
+		"unitType": "Arcane Archer",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 32,
+		"requiredTech": "Mana Crystallization",
+		"obsoleteTech": "Quintessence Powers",
+		"upgradesTo": "Arcane Archer Graduator",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Arcane Archer Graduator",
+		"unitType": "Arcane Archer",
+		"movement": 2,
+		"strength": 46,
+		"rangedStrength": 52,
+		"requiredTech": "Quintessence Powers",
+		"obsoleteTech": "Rocketry",
+		"upgradesTo": "Arcane Archer Saint",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Arcane Archer Saint",
+		"unitType": "Arcane Archer",
+		"movement": 4,
+		"strength": 68,
+		"rangedStrength": 76,
+		"requiredTech": "Avionic Theory",
+		"uniques": [
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
+		"attackSound": "arrow"
 	},
 	
 	// Construct
@@ -3349,7 +3479,7 @@
 		"cost": 20,
 		"obsoleteTech": "Leyline Siphoning",
 		"uniques": [
-			"[+200]% Strength <vs [non-[Magical]] units> <when defending>",
+			"[+100]% Strength <vs [non-[Magical]] units> <when defending>",
 			"Uncapturable"
 		],
 		"attackSound": "nonmetalhit",
@@ -3500,6 +3630,7 @@
 		"cost": 75,
 		"requiredTech": "Animal Riding",
 		"obsoleteTech": "Biology",
+		//"upgradesTo": "Werewolf",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Larger than a horse and twice as mean, these monstrous canines are apex predators with no need for tricks or magic."}
@@ -3515,7 +3646,6 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Industrialization",
-		//"upgradesTo": "Black Widow",
 		"promotions": ["Woodsman","Web Trap"],
 		"uniques": [
 			"Biological",
@@ -3690,7 +3820,7 @@
 		"cost": 100,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
-		"promotions": ["Twin Sting"],
+		"promotions": ["Venomous Sting"],
 		"uniques": [
 			"Biological",
 			"[+25]% Strength <when fighting in [Desert] tiles>"
@@ -3709,7 +3839,7 @@
 		"cost": 160,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
-		"promotions": ["Twin Sting"],
+		"promotions": ["Venomous Sting"],
 		"uniques": [
 			"Boss",
 			"Biological",

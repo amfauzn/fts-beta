@@ -70,7 +70,6 @@
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Formation}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Shield Wall}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Thrust}] units>",
-		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Schiltron}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Amphibious}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {March}] units>",
 		
@@ -184,6 +183,11 @@
 	],
 	
 	"unitUniques": [
+		// Terrain related
+		"[This Unit] takes [33] damage <upon ending a turn in a [Mountain] tile> <for [non-[Trekker]] units>",
+		"[This Unit] takes [50] damage <upon ending a turn in a [Man-eating Tree] tile> <for [non-[Nature Keeper]] units>",
+		"[This Unit] takes [100] damage <upon ending a turn in a [Overgrowth Rift] tile> <for [non-[Nature Keeper]] units>",
+		
 		// Monster
 		"[This Unit] gains the [Synergy] status for [1] turn(s) <upon turn start> <when adjacent to a [Synergy] unit> <for [Monster] units>",
 		

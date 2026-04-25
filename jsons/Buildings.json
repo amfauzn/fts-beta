@@ -1871,7 +1871,7 @@
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 	{
-		"name": "Aknamuki", // of Panema
+		"name": "Aknamuki", // of Andini
 		"isWonder": true,
 		"food": 1,
 		"greatPersonPoints": {"Great Scholar": 1},
@@ -2025,7 +2025,7 @@
 		"quote": "'A sacred building had been built by the theachers of king Śailendra in the growing kingdom of Śailendra dinasty'  - Kalasan, translated by Santiko"
 	},
 	{
-		"name": "Kad'Hall", // of Grokzut, initiated by Grokzut, finished by Thallin
+		"name": "Kad'Hall", // of Dreckfang
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -2232,7 +2232,7 @@
 		"quote": "'It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
 	{
-		"name": "Fortavida", // of Malus
+		"name": "Duru-Sarru", // Duru-Šarru or Fortavida of Anšarim
 		"isWonder": true,
 		"happiness": 2,
 		"greatPersonPoints": {"Great Engineer": 1},

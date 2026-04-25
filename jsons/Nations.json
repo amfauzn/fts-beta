@@ -15,7 +15,7 @@
 		"innerColor": [158,56,0],
 		"uniqueName": "Word of Nod",
 		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>",
-		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", 
+		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", "Gain a free [Fire School] [in capital]", 
 		//"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
 		//"Gain a free [Academy of Magic] [in capital]",
 		//"[Recon] units gain the [Mana Sensing] promotion",
@@ -109,6 +109,8 @@ Characters:
 //		"innerColor": [255,255,255]
 	},
 	
+//	Laurasia
+	
 	// Hajruddin of Polgar Sod'em
 	{
 		"name": "Polgar Sod'em",
@@ -154,98 +156,8 @@ Characters:
 		]
 	},
 	
-	// Alexander of Louvargia
-	{
-		"name": "Louvargia",
-		"leaderName": "Alexander",
-		"adjective": ["Louvargian"],
-		"startBias": ["Tundra"],
-		//"preferredVictoryType": "",
-		//"favoredReligion": "",
-		//"personality": "",
-		"style": "Kunakad",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
-		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
-		"denounced": "",
-		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
-		"afterPeace": "Be happy of the fact that Mother still forgives you.",
-		"introduction": "Greetings strangers, I am Alexander, the revered son of Louvargia, come and feast with us! These are Her blessings of good harvest.",
-		
-		"neutralHello": "Goddess bless us.",
-		"hateHello": "Speak!",
-		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
-				
-		"outerColor": [237,216,184],
-		"innerColor": [  0, 54,255],
-		
-		"uniqueName": "Her Biting Embrace",
-		"uniques": [
-			"Comment [Provides 1 [Magician] and gain a free [Divine Order] upon discovering [Celestial Wisdoms]]", 
-			"Comment [Gain a free second [Granary] in cities with at least 3 [Culture] buildings]", 
-			"Comment [Gain 15 [Faith] when our unit receives any Cold Ailment in Friendly Land]", 
-			
-			"Provides [1] [Magician] <after discovering [Celestial Wisdoms]> <hidden from users>",
-			"Free [Divine Order] appears <upon discovering [Celestial Wisdoms] technology> <hidden from users>",
-			"Provides [1] [cityLevelCounter] <for every [[Culture] Buildings]> <hidden from users>",
-			"[All] units gain the [Cold Embrace] promotion <hidden from users>",
-			"Instantly gain [20] [Aether] <upon gaining a [Divine Order] unit> <hidden from users>" // Divine Order's AoP consume 20 Aether
-		],
-		"cities": ["Louvar","Malovar","Orivar","Resivar","Amolivar","Luivar","Amanivar","Pialivar","Jalarivar","Valarivar",
-			"Urivar","Komivar","Luxuvar","Kurivar","Liqovar","Albuvar","Rasutovar","Kashvar","Aslar","Qarar"],
-		"spyNames": ["Perdiccas","Alcetas","Orestes","Arrhidaeus","Amyntas","Myles","Amyklas","Kynortas","Tyndareos","Orestes"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
 	
-	// Takashi no Seimei of Shinso
-	{
-		"name": "Shinso",
-		"leaderName": "Takashi no Seimei",
-		"adjective": ["Shinso"],
-		"startBias": ["Ley Line"],
-		//"preferredVictoryType": "",
-		//"favoredReligion": "",
-		//"personality": "",
-		"style": "Vaja",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "You won't stand a chance against our mighty casters!",
-		"attacked": "You dare to touch our sacred lands? It will be your grave!",
-		"denounced": "",
-		"defeated": "A pity that I won't be able to see the true Prosperity.",
-		"afterPeace": "It was an honor to fight you.",
-		"introduction": "I am Takashi no Seimei, Yasunori of Hakensei, welcome to our land!",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "A vermin wants to talk?",
-		"tradeRequest": "We've come to bargain, Sir.",
-		
-		"outerColor": [218,165,32],
-		"innerColor": [  0, 0,205],
-		
-		"uniqueName": "Pillars of Heaven"
-		"uniques": [
-			"Comment [May build 5 unique Onmyō pillars after researching [Mathematics], [Philosophy], [Currency], [Engineering], and [Education]]",
-			"Comment [+25% [Production] when constructing National wonders in cities within 2 tiles of a [Ley Line]]",
-			"Comment [May boost a Pillar of your choice after researching [Education] (can be changed anytime)]",
-			"Comment [Chosen Pillar also boost [Ley Line] stats]",
-			
-			"May buy [Onmyōji] units with [Gold] [in all cities] <hidden from users>"
-		],
-		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto",
-			"Shingawa","Asatori","Hoshiyama","Iwazawa","Kirikawa","Asahaba","Tateki","Miyakumo","Shirotsuchi","Shinchaku"],
-		"spyNames": ["Akaishi","Anri","Hattori","Oda","Momoka","Kawashima","Hojo","Hitomi","Kaede","Mochizuki"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
+// EUSTASIA
 	
 	// Anzogh of Torakj
 	{
@@ -289,6 +201,7 @@ Characters:
 		]
 	},
 	
+	
 	// Esheng of Smeheng
 	{
 		"name": "Smeheng",
@@ -330,146 +243,6 @@ Characters:
 		"cities": ["Dageeng","Dendheng","Srundeng","Abon","Ampal","Lunuk","Dengke","Sie","Usi","Cengkir",
 			"Cakep","Cakkekh","Gepuk","Keureut","Recah","Tiir","Bachin","Bosog","Lendiren","Slilit"],
 		"spyNames": ["Gepeng","Sukae","Temon","Gareng","Mondrek","Kepik","Gablog","Kabul","Dembik","Pengtol"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	
-	// Thralldin of Twin Mountain
-	{
-		"name": "Twin Mountain",
-		"leaderName": "Thralldin",
-		"adjective": ["Tilteinen"],
-		"startBias": ["Mountain"],
-		//"preferredVictoryType": "Scientific",
-		//"favoredReligion": "",
-		//"personality": "",
-		"style": "Dwarves",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "Now we will see if you are cowards or warriors!",
-		"attacked": "I shall tell my historians to record your empire for the future, after I have ground your cities into the dust.",
-		"denounced": "",
-		"defeated": "I never thought this could happen… not like this.",
-		"afterPeace": "You have proven yourself a worthy opponent today. I congratulate you.",
-		"introduction": "I am Thralldin. My fortress will stand forever.",
-		
-		"neutralHello": "What is it?",
-		"hateHello": "What do you want?",
-		"tradeRequest": "I offer this, for your consideration.",
-		
-		"outerColor": [ 27, 53, 63]
-		"innerColor": [213,249,255],
-		
-		"uniqueName": "Shield of the Mountain"
-		"uniques": [
-			"Comment [Land units may pass impassable tiles and take no damage from ending a turn in [Mountain] tiles]",
-			"Comment [+15% Strength within 2 tiles of a [Mountain], doubled if within 1 tile]",
-			"Comment [May build [Mine] in [Mountain] tiles]",
-			
-			"[Land] units gain the [Trekker] promotion <hidden from users>",
-			"[+15]% Strength <within [2] tiles of a [Mountain]> <hidden from users>",
-			"[+15]% Strength <within [1] tiles of a [Mountain]> <hidden from users>",
-			"[+2 Science] from [Staerie] tiles [in all cities] <when number of [cityLevelCounter] is less than [2]> <hidden from users>",
-		],
-		"cities": ["Thraldin's Palace","Khoryth","Cremona","Sunderburn","Tiltein","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley","Circle Cliff",
-			"Darken Crest","Muntham","Red Ice","Grazknurl","Vennelin","Drumlen","Walstane","Maidhurst","Jagged Hill","Munmar"],
-		"spyNames": ["Dwalin","Balin","Durldin","Dulir","Fali","Gali","Sami","Duin","Kurdin","Gafur"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	
-	// Cosimo Malaspina of The Order of Slayer
-	{
-		"name": "The Order of Slayer",
-		"leaderName": "Cosimo Malaspina",
-		"adjective": ["Witcher"],
-		"startBias": ["Hill","Mountain"],
-		//"preferredVictoryType": "",
-		//"favoredReligion": "",
-		//"personality": "",
-		//"style": "",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "I run into dilemmas all the time... This is not one of them. You disgust me. And deserve to die.",
-		"attacked": "Why men throw their lives away attacking an armed witcher...I'll never know. Something about our faces?",
-		"denounced": "",
-		"defeated": "Even if the world lies in ruin which does not seem likely to me. We will carry on killing monsters in the ruins of this world until some monster kills us.",
-		"afterPeace": "Evil is evil. Lesser, greater, middling... Makes no difference. The degree is arbitrary. The definition's blurred. If I'm to choose between one evil and another... I'd rather not choose at all.",
-		"introduction": "Well met, perhaps you require the services of a witcher?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "Damn, You're Ugly.",
-		"tradeRequest": "I think this is a fair price.",
-		
-		"outerColor": [ 65, 74, 81],
-		"innerColor": [214,195, 75],
-		
-		"uniqueName": "The Path"
-		"uniques": [
-			"Notified of new Barbarian encampments",
-			"[+25]% Strength <vs [Monster] units>",
-			"[+50]% XP gained from combat <vs [Monster] units>",
-			//"Resting point for Influence with City-States is increased by [10]",
-			"Comment [[Signs]: Every 8th Footman unit gained is spawned with [Mana Sensing]]",
-			
-			"[{Military} {Footman}] units gain the [Signs] promotion <hidden from users>"
-		],
-		"cities": ["Morgraig","Kaer Morhen","Stygga Citadel","Haern Caduch","Gorthur Gvaed","Kaer Seren","Bialsuf Alsarea","Behelt Nar","Dyn Marv",
-			"Hertch","Ebbing","Amell","Tir Tochair","Kovir","Korath"],
-		"spyNames": ["Alzur","Idarran","Arnaghad","Erland","Letto","Serrit","Auckes","Ivar","Vesemir","Treyse"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	
-	// Long Aotian of Tianwu
-	{
-		"name": "Tianwu",
-		"leaderName": "Long Aotian",
-		"adjective": ["Tianwui"],
-		"startBias": ["Hill"],
-		//"preferredVictoryType": "",
-		//"favoredReligion": "",
-		//"personality": "",
-		"style": "Vaja",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "You are just a stepping stone for my greatness, prepare for war!",
-		"attacked": "Courting death! I will show you the difference between heaven and earth!",
-		"denounced": "Junior, you dare?!",
-		"defeated": "Old Heaven, why have you forsaken us?",
-		"afterPeace": "Senior truly is wise.",
-		"introduction": "This venerable is the most revered immortal between heaven and earth, you can call me Grandfather Long.",
-		
-		"neutralHello": "Greetings fellow warrior.",
-		"hateHello": "Presumptuous!",
-		"tradeRequest": "The fact that this emperor offer you this exchange is a blessing.",
-		
-		"outerColor": [153,  5, 3],
-        "innerColor": [244,232,54],
-		
-		"uniqueName": "Path of Immortality"
-		"uniques": [
-			"Comment [May choose a Monk School upon discovering [Philosophy] (may access up to two Monk Schools)]",
-			"Triggers a [Choose a Monk School] event <upon discovering [Philosophy] technology> <hidden from users>",
-			"Comment [Infantry, Anti-Armor, and Monk units start with 10 XP]",
-			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] in Capital after you own said resources for the first time]"
-			
-			"New [Infantry] units start with [10] XP [in all cities] <hidden from users>",
-			"New [Anti-Armor] units start with [10] XP [in all cities] <hidden from users>",
-			"New [Monk] units start with [10] XP [in all cities] <hidden from users>"
-		],
-		"cities": ["Tianwu","Hua","Wudang","Longhu","Qiyun","Qingcheng","Kunlun","Heng","Song","Tai",
-			"Wuling","Emei","Wutai","Jiuhua","Putuo","Yandang","Lu","Huang","Tian Shan","Kawagarbo"],
-		"spyNames": ["Jie","Wu","San","Jiu","Xing-Yun","Chen","Tianxiao","Xiaoyu","Zhantian","Ningshuang"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -559,13 +332,13 @@ Characters:
 		],
 		"cities": ["Nas","Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna",
 			"Palebon","Metesech","Jaragar","Erech","Arbela","Gandariya","Bormont","Waykanan","Blitar","Kadiri"],
-		"spyNames": ["Remsen","Gurci","Cador","Ryt","Brioc","Tristan","Melyor","Tecca","Venna","lowdy"],
+		"spyNames": ["Remsen","Gurci","Cador","Ryt","Brioc","Tristan","Melyor","Tecca","Venna","Lowdy"],
 		"civilopediaText": [
 			{"text": ""}
 		]
 	},
 	
-	// Rimascha of Rain forest
+	// Rimascha of Rain Forest
 	{
 		"name": "Rain Forest",
 		"leaderName": "Rimascha",
@@ -606,6 +379,291 @@ Characters:
 		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindskhal","Agra","Sunda","Soulisa","Tuasika","Bula",
 			"Namlea","Gulbarga","Larantuka","Curia","Crastha","Ikatwood","Shadowgigol","Roothold","Wildoyot","Entwatch"],
 		"spyNames": ["Orethylia","Minthe","Dammeri","Lilea","Ivy","Cyrilla","Almoris","Thehion","Ashbush","Elmfury"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Claudia of Red Moon
+	{
+		"name": "Red Moon",
+		"leaderName": "Claudia",
+		"adjective": ["Witches"],
+		"startBias": ["Jungle"],
+		"favoredReligion": "Preformationism",
+		//"personality": "",
+		//"style": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time."
+		"attacked": "Your treacherous aggression shall not succeed. Me and my sisters will endure!",
+		"denounced": "You aren't meeting my expectations. You can do so much better.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"afterPeace": "Sometimes you endure losses, however well you've tried at preparations.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		
+		"outerColor": [153,  5,  3],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "Flower of Enlightenment",
+		"uniques": [
+			"Starts with [Wizardry] adopted",
+			"[+1 Culture] from every [Magic Building]",
+			"Comment [Provides 1 [Magician] in cities with [Draen Sanctuary] and [Academy of Magic]]",
+			
+			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <when below [5] [stockpiledCounter]> <hidden from users>"
+		],
+		"cities": ["Kuin","Phocaea","Asahan","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Satui"
+			"Madirae","Kiea","Rasau","Sil Ifken","Ringsten","Godthenae","Novosten","Mare","Tonra","Hellulae"],
+		"spyNames": ["Veronika","Martha","Agnes","Janet","Violet","Kerstin","Alice","Marketta","Lisbeth","Sarah"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	
+// BALVARIA
+	
+	// Alexander of Louvargia
+	{
+		"name": "Louvargia",
+		"leaderName": "Alexander",
+		"adjective": ["Louvargian"],
+		"startBias": ["Tundra"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Kunakad",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
+		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
+		"denounced": "",
+		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
+		"afterPeace": "Be happy of the fact that Mother still forgives you.",
+		"introduction": "Greetings strangers, I am Alexander, the revered son of Louvargia, come and feast with us! These are Her blessings of good harvest.",
+		
+		"neutralHello": "Goddess bless us.",
+		"hateHello": "Speak!",
+		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
+				
+		"outerColor": [237,216,184],
+		"innerColor": [  0, 54,255],
+		
+		"uniqueName": "Her Biting Embrace",
+		"uniques": [
+			"Comment [Provides 1 [Magician] and gain a free [Divine Order] upon discovering [Celestial Wisdoms]]", 
+			"Comment [Gain a free second [Granary] in cities with at least 3 [Culture] buildings]", 
+			"Comment [Gain 15 [Faith] when our unit receives any Cold Ailment in Friendly Land]", 
+			
+			"Provides [1] [Magician] <after discovering [Celestial Wisdoms]> <hidden from users>",
+			"Free [Divine Order] appears <upon discovering [Celestial Wisdoms] technology> <hidden from users>",
+			"Provides [1] [cityLevelCounter] <for every [[Culture] Buildings]> <hidden from users>",
+			"[All] units gain the [Cold Embrace] promotion <hidden from users>",
+			"Instantly gain [20] [Aether] <upon gaining a [Divine Order] unit> <hidden from users>" // Divine Order's AoP consume 20 Aether
+		],
+		"cities": ["Louvar","Malovar","Orivar","Resivar","Amolivar","Luivar","Amanivar","Pialivar","Jalarivar","Valarivar",
+			"Urivar","Komivar","Luxuvar","Kurivar","Liqovar","Albuvar","Rasutovar","Kashvar","Aslar","Qarar"],
+		"spyNames": ["Perdiccas","Alcetas","Orestes","Arrhidaeus","Amyntas","Myles","Amyklas","Kynortas","Tyndareos","Orestes"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Archmagister Gloria of the First Order
+	
+	
+	// Cosimo Malaspina of The Order of Slayer
+	{
+		"name": "The Order of Slayer",
+		"leaderName": "Cosimo Malaspina",
+		"adjective": ["Witcher"],
+		"startBias": ["Hill","Mountain"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		//"style": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I run into dilemmas all the time... This is not one of them. You disgust me. And deserve to die.",
+		"attacked": "Why men throw their lives away attacking an armed witcher...I'll never know. Something about our faces?",
+		"denounced": "",
+		"defeated": "Even if the world lies in ruin which does not seem likely to me. We will carry on killing monsters in the ruins of this world until some monster kills us.",
+		"afterPeace": "Evil is evil. Lesser, greater, middling... Makes no difference. The degree is arbitrary. The definition's blurred. If I'm to choose between one evil and another... I'd rather not choose at all.",
+		"introduction": "Well met, perhaps you require the services of a witcher?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Damn, You're Ugly.",
+		"tradeRequest": "I think this is a fair price.",
+		
+		"outerColor": [ 65, 74, 81],
+		"innerColor": [214,195, 75],
+		
+		"uniqueName": "The Path"
+		"uniques": [
+			"Notified of new Barbarian encampments",
+			"[+25]% Strength <vs [Monster] units>",
+			"[+50]% XP gained from combat <vs [Monster] units>",
+			//"Resting point for Influence with City-States is increased by [10]",
+			"Comment [[Signs]: Every 8th Footman unit gained is spawned with [Mana Sensing]]",
+			
+			"[{Military} {Footman}] units gain the [Signs] promotion <hidden from users>"
+		],
+		"cities": ["Morgraig","Kaer Morhen","Stygga Citadel","Haern Caduch","Gorthur Gvaed","Kaer Seren","Bialsuf Alsarea","Behelt Nar","Dyn Marv",
+			"Hertch","Ebbing","Amell","Tir Tochair","Kovir","Korath"],
+		"spyNames": ["Alzur","Idarran","Arnaghad","Erland","Letto","Serrit","Auckes","Ivar","Vesemir","Treyse"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Takashi no Seimei of Shinso
+	{
+		"name": "Shinso",
+		"leaderName": "Takashi no Seimei",
+		"adjective": ["Shinso"],
+		"startBias": ["Ley Line"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Vaja",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You won't stand a chance against our mighty casters!",
+		"attacked": "You dare to touch our sacred lands? It will be your grave!",
+		"denounced": "",
+		"defeated": "A pity that I won't be able to see the true Prosperity.",
+		"afterPeace": "It was an honor to fight you.",
+		"introduction": "I am Takashi no Seimei, Yasunori of Hakensei, welcome to our land!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "A vermin wants to talk?",
+		"tradeRequest": "We've come to bargain, Sir.",
+		
+		"outerColor": [218,165,32],
+		"innerColor": [  0, 0,205],
+		
+		"uniqueName": "Pillars of Heaven"
+		"uniques": [
+			"Comment [May build 5 unique Onmyō pillars after researching [Mathematics], [Philosophy], [Currency], [Engineering], and [Education]]",
+			"Comment [+25% [Production] when constructing National wonders in cities within 2 tiles of a [Ley Line]]",
+			"Comment [May boost a Pillar of your choice after researching [Education] (can be changed anytime)]",
+			"Comment [Chosen Pillar also boost [Ley Line] stats]",
+			
+			"May buy [Onmyōji] units with [Gold] [in all cities] <hidden from users>"
+		],
+		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto",
+			"Shingawa","Asatori","Hoshiyama","Iwazawa","Kirikawa","Asahaba","Tateki","Miyakumo","Shirotsuchi","Shinchaku"],
+		"spyNames": ["Akaishi","Anri","Hattori","Oda","Momoka","Kawashima","Hojo","Hitomi","Kaede","Mochizuki"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Long Aotian of Tianwu
+	{
+		"name": "Tianwu",
+		"leaderName": "Long Aotian",
+		"adjective": ["Tianwui"],
+		"startBias": ["Hill"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Vaja",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You are just a stepping stone for my greatness, prepare for war!",
+		"attacked": "Courting death! I will show you the difference between heaven and earth!",
+		"denounced": "Junior, you dare?!",
+		"defeated": "Old Heaven, why have you forsaken us?",
+		"afterPeace": "Senior truly is wise.",
+		"introduction": "This venerable is the most revered immortal between heaven and earth, you can call me Grandfather Long.",
+		
+		"neutralHello": "Greetings fellow warrior.",
+		"hateHello": "Presumptuous!",
+		"tradeRequest": "The fact that this emperor offer you this exchange is a blessing.",
+		
+		"outerColor": [153,  5, 3],
+        "innerColor": [244,232,54],
+		
+		"uniqueName": "Path of Immortality"
+		"uniques": [
+			"Comment [May choose a Monk School upon discovering [Philosophy] (may access up to two Monk Schools)]",
+			"Triggers a [Choose a Monk School] event <upon discovering [Philosophy] technology> <hidden from users>",
+			"Comment [Infantry, Anti-Armor, and Monk units start with 10 XP]",
+			"Comment [Provides 1 [Jade], [Silk], [Spices], or [Incense] in Capital after you own said resources for the first time]"
+			
+			"New [Infantry] units start with [10] XP [in all cities] <hidden from users>",
+			"New [Anti-Armor] units start with [10] XP [in all cities] <hidden from users>",
+			"New [Monk] units start with [10] XP [in all cities] <hidden from users>"
+		],
+		"cities": ["Tianwu","Hua","Wudang","Longhu","Qiyun","Qingcheng","Kunlun","Heng","Song","Tai",
+			"Wuling","Emei","Wutai","Jiuhua","Putuo","Yandang","Lu","Huang","Tian Shan","Kawagarbo"],
+		"spyNames": ["Jie","Wu","San","Jiu","Xing-Yun","Chen","Tianxiao","Xiaoyu","Zhantian","Ningshuang"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	
+// KILENDIA
+	
+	// Thralldin of Twin Mountain
+	{
+		"name": "Twin Mountain",
+		"leaderName": "Thralldin",
+		"adjective": ["Tilteinen"],
+		"startBias": ["Mountain"],
+		//"preferredVictoryType": "Scientific",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Dwarves",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Now we will see if you are cowards or warriors!",
+		"attacked": "I shall tell my historians to record your empire for the future, after I have ground your cities into the dust.",
+		"denounced": "",
+		"defeated": "I never thought this could happen… not like this.",
+		"afterPeace": "You have proven yourself a worthy opponent today. I congratulate you.",
+		"introduction": "I am Thralldin. My fortress will stand forever.",
+		
+		"neutralHello": "What is it?",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I offer this, for your consideration.",
+		
+		"outerColor": [ 27, 53, 63]
+		"innerColor": [213,249,255],
+		
+		"uniqueName": "Shield of the Mountain"
+		"uniques": [
+			"Comment [Land units may pass impassable tiles and take no damage from ending a turn in [Mountain] tiles]",
+			"Comment [+15% Strength within 2 tiles of a [Mountain], doubled if within 1 tile]",
+			"Comment [May build [Mine] in [Mountain] tiles]",
+			
+			"[Land] units gain the [Trekker] promotion <hidden from users>",
+			"[+15]% Strength <within [2] tiles of a [Mountain]> <hidden from users>",
+			"[+15]% Strength <within [1] tiles of a [Mountain]> <hidden from users>",
+			"[+2 Science] from [Staerie] tiles [in all cities] <when number of [cityLevelCounter] is less than [2]> <hidden from users>",
+		],
+		"cities": ["Thraldin's Palace","Khoryth","Cremona","Sunderburn","Tiltein","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley","Circle Cliff",
+			"Darken Crest","Muntham","Red Ice","Grazknurl","Vennelin","Drumlen","Walstane","Maidhurst","Jagged Hill","Munmar"],
+		"spyNames": ["Dwalin","Balin","Durldin","Dulir","Fali","Gali","Sami","Duin","Kurdin","Gafur"],
 		"civilopediaText": [
 			{"text": ""}
 		]
@@ -661,49 +719,6 @@ Characters:
 		]
 	},
 	
-	// Claudia of Red Moon
-	{
-		"name": "Red Moon",
-		"leaderName": "Claudia",
-		"adjective": ["Witches"],
-		"startBias": ["Jungle"],
-		"favoredReligion": "Preformationism",
-		//"personality": "",
-		//"style": "",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time."
-		"attacked": "Your treacherous aggression shall not succeed. Me and my sisters will endure!",
-		"denounced": "You aren't meeting my expectations. You can do so much better.",
-		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
-		"afterPeace": "Sometimes you endure losses, however well you've tried at preparations.",
-		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
-		
-		"neutralHello": "Hello!",
-		"hateHello": "What do you need?!",
-		"tradeRequest": "How would you like it if I propose this kind of exchange?",
-		
-		"outerColor": [153,  5,  3],
-		"innerColor": [255,255,255],
-		
-		"uniqueName": "Flower of Enlightenment",
-		"uniques": [
-			"Starts with [Wizardry] adopted",
-			"[+1 Culture] from every [Magic Building]",
-			"Comment [Provides 1 [Magician] in cities with [Draen Sanctuary] and [Academy of Magic]]",
-			
-			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <when below [5] [stockpiledCounter]> <hidden from users>"
-		],
-		"cities": ["Kuin","Phocaea","Asahan","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Satui"
-			"Madirae","Kiea","Rasau","Sil Ifken","Ringsten","Godthenae","Novosten","Mare","Tonra","Hellulae"],
-		"spyNames": ["Veronika","Martha","Agnes","Janet","Violet","Kerstin","Alice","Marketta","Lisbeth","Sarah"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	
 	// City-States
 	
 	// Agricultural
@@ -711,57 +726,69 @@ Characters:
 		"name": "Andini",
 		"adjective": ["Undines"],
 		"cityStateType": "Agrarian",
-		"style": "Undine",
 		"startBias": ["Lakes"],
+		"style": "Undine",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our people!",
 		"defeated": "We were too weak to protect ourselves...",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [ 51,202,  0],
-		"cities": ["Andini"]
+		"cities": ["Andini"],
+		"civilopediaText": [
+			{"text": ""},
+		]
 	},
 	{
 		"name": "Ashua",
 		"adjective": ["Ashuan"],
 		"cityStateType": "Food Exporter",
-		"style": "Halfling",
 		"startBias": ["Plains"],
+		"style": "Halfling",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
 		"defeated": "I have failed. May you, at least, know compassion towards our people.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [  0,255,128],
-		"cities": ["Ashua"]
+		"cities": ["Ashua"],
+		"civilopediaText": [
+			{"text": "Ashua was a short-lived state on Sumba Island, once under the rule of Shinso before rising to independence. Led by Jin, the state ultimately fell when it was attacked by Tianwu."},
+		]
 	},
 	{
 		"name": "Bree",
 		"adjective": ["Breenaar"],
 		"cityStateType": "Herder",
-		"style": "Halfling",
 		"startBias": ["Grassland"],
+		"style": "Halfling",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "As we can reach no peaceful resolution with you, Bree must turn, with reluctance, to war.",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [150,210,200],
-		"cities": ["Bree"]
+		"cities": ["Bree"],
+		"civilopediaText": [
+			{"text": "Bree is a halfling town located east of Lake Tandano. As a herding community, it is known for producing meat of exceptional quality and rich, nourishing milk, making it a favored resting point for travelers."},
+		]
 	},
 	{
 		"name": "Irgask",
 		"adjective": ["Irigaski"],
 		"cityStateType": "Food Exporter",
-		"style": "Goblin",
 		"startBias": ["Hill"],
+		"style": "Goblin",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
 		"defeated": "We... defeated? No... we had so much work to do!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [  0,255,128],
-		"cities": ["Irgask"]
+		"cities": ["Irgask"],
+		"civilopediaText": [
+			{"text": "The Irigaski goblins are the native dwellers of the Tatapui Hills,  having lived in the region since the Time of Beginnings.They share amicable ties with the gnomes of Vedic, trading fruits and monster meat in exchange for shiny pebbles."},
+		]
 	},
 	{
 		"name": "Khemul",
@@ -774,35 +801,44 @@ Characters:
 		"defeated": "What a fine battle! Khemul is willing to serve you!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [ 51,202,  0],
-		"cities": ["Khemul"]
+		"cities": ["Khemul"],
+		"civilopediaText": [
+			{"text": "Following the fall of Suryavansha, Khemul was established in Tonra by Suryavansha exiles. Over time, Khemul had grown into a flourishing city with an economy primarily based on plantation exports."},
+		]
 	},
 	{
 		"name": "Panema",
 		"adjective": ["Panemian"],
 		"cityStateType": "Abundance",
-		"style": "Kunakad",
 		"startBias": ["Coast"],
+		"style": "Kunakad",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "You will see you have just bitten off more than you can chew.",
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [ 10,162, 60],
-		"cities": ["Panema"]
+		"cities": ["Panema"],
+		"civilopediaText": [
+			{"text": "Panema was a colony of 'Nkuhanea, founded by refugees fleeing the invading Suryavansha foces. In their new refuge, they established the Panema kingdom that endured for decades before ultimately falling to an assault by Marunesia."},
+		]
 	},
 	{
 		"name": "Tonthon",
 		"adjective": ["Tontoni"],
 		"cityStateType": "Abundance",
-		"style": "Myconids",
 		"startBias": ["Marsh"],
+		"style": "Myconids",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "You will see you have just bitten off more than you can chew.",
 		"defeated": "The dark guerilla will never stop haunting you!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [ 10,162, 60],
-		"cities": ["Tonthon"]
+		"cities": ["Tonthon"],
+		"civilopediaText": [
+			{"text": ""},
+		]
 	},
 	
 	// Cultural
@@ -810,43 +846,52 @@ Characters:
 		"name": "Artiza",
 		"adjective": ["Artizan"],
 		"cityStateType": "Cultured",
-		"style": "Kunakad",
 		"startBias": ["Tundra"],
+		"style": "Kunakad",
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "Perhaps now we will find peace in death...",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [125, 24,234],
-		"cities": ["Artiza"]
+		"cities": ["Artiza"],
+		"civilopediaText": [
+			{"text": "Artiza, located on Stackars, was not only one of the earliest human realms in the region, but also the first one to fall. According to the Windari, Artiza collapsed due to a great famine and was later succeeded by Louvargia."},
+		]
 	},
 	{
 		"name": "Landoruel",
 		"adjective": ["Aureli"],
 		"cityStateType": "Oral Tradition",
-		"style": "Elves",
 		"startBias": ["Hill"],
+		"style": "Elves",
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
 		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [152,  0,241],
-		"cities": ["Landoruel"]
+		"cities": ["Landoruel"],
+		"civilopediaText": [
+			{"text": ""},
+		]
 	},
 	{
 		"name": "Manthrill",
 		"adjective": ["Manthili"],
 		"cityStateType": "Monumentalist",
-		"style": "Dwarves",
 		"startBias": ["Hill","Desert"],
+		"style": "Dwarves",
 
 		"declaringWar": "Hear me, imprudent foreigner! Yurrgin declares your lands his own! Your puny colonies shall fall!",
 		"attacked": "If you were wiser, you would've chosen a way of peace.",
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [255 ,97,255],
-		"cities": ["Manthrill"]
+		"cities": ["Manthrill"],
+		"civilopediaText": [
+			{"text": "Manthrill was a dwarven kingdom located south of Thallin,a position that often led to rivalry between the two. Though its people shared traits with the Asili Dwarves, they claimed descent from the Gaarili line. Manthrill ultimately fell after continuously being attacked by Thallin."},
+		]
 	},
 	{
 		"name": "Pid",
@@ -859,21 +904,27 @@ Characters:
 		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [125, 24,234],
-		"cities": ["Pid"]
+		"cities": ["Pid"],
+		"civilopediaText": [
+			{"text": "The Pidians are the last group of demons spared from banishment to the Netherworld. As a reward for aiding the Elves during the Age of Demons, the gods granted them freedom to settle anywhere on Earth, yet they chose to isolate themselves on Kaitetu Island."},
+		]
 	},
 	{
 		"name": "Sherehe",
 		"adjective": ["Swahili"],
 		"cityStateType": "Ceremonial",
-		"style": "Glomon",
 		"startBias": ["Coast"],
+		"style": "Glomon",
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Oh, truly you are as cruel as your nicknaame.",
 		"defeated": "I regret not defending my country to the last, although it was not of use.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [194, 97,255],
-		"cities": ["Sherehe"]
+		"cities": ["Sherehe"],
+		"civilopediaText": [
+			{"text": "Lying on the northwestern coast of Buantan Sea, Sherehe is famed for its cultural practices and the beauty of its inhabitants. It grew from a minor settlement into a thriving city-state, attracting visitors and traders from the surrounding area."},
+		]
 	},
 	{
 		"name": "Silvermane",
@@ -886,21 +937,27 @@ Characters:
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [152,  0,241],
-		"cities": ["Silvermane"]
+		"cities": ["Silvermane"],
+		"civilopediaText": [
+			{"text": "According to legend, Silvermane was founded by twin nine-tailed foxes who persuaded Jag'ar to spare the remnants of Thallin and instead guide volunteered to oversee their resettlement in the Sava Desert. After years of watching over them, the twins chose to settle, founding Silvermane—the first free city open to all races."},
+		]
 	},
 	{
 		"name": "Windemer",
 		"adjective": ["Windari"],
 		"cityStateType": "Ceremonial",
-		"style": "High Elves",
 		"startBias": ["Forest"],
+		"style": "High Elves",
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Oh, truly you are as cruel as your nicknaame.",
 		"defeated": "And so the flower of Windemer falls to barbaric hands...",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [194, 97,255],
-		"cities": ["Windemer"]
+		"cities": ["Windemer"],
+		"civilopediaText": [
+			{"text": "The Windari are high elves of Balvaria, founders of Windemer that predates Aeltherion. They maintain good relations with the human kingdom of Louvargia and taught them the Huz'ie script, as well as the early teachings of religion and worship."},
+		]
 	},
 	
 	// Industrial
@@ -908,97 +965,119 @@ Characters:
 		"name": "Canthyria",
 		"adjective": ["Cantirii"],
 		"cityStateType": "Momentum Progression",
-		"style": "Centaurs",
 		"startBias": ["Plains"],
+		"style": "Centaurs",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "A barbarian like you will never enough with just a horse. I am not a horse!",
 		"defeated": "I don't like you, not from the beginning.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [150, 87, 42],
-		"cities": ["Canthyria"]
+		"cities": ["Canthyria"],
+		"civilopediaText": [
+			{"text": "Canthyria lies within the Central Plains, between the Central Lake and Rain Forest. Its people, the Cantirii are divided nto two groups -one group remains in their homeland, while the other joined Niranna following the marriage between Thanue and Araros, son of Arathoros."},
+		]
 	},
 	{
-		"name": "Clockwerk",
-		"adjective": ["Clockwerks"],
+		"name": "Velkan",
+		"adjective": ["Velkaan"],
 		"cityStateType": "Artisan",
 		"style": "Kunakad",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Today, the Clockwerks obey you, but do not think this is over...",
+		"defeated": "Unacceptable!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [239,169,119],
-		"cities": ["Clockwerk"]
+		"cities": ["Velkan"],
+		"civilopediaText": [
+			{"text": "Velkan is a coastal state of Nabui, known for its good relations with Twin Mountain to the west. Like the people of Panema, the Velkaan are of Nkuhanean origin, with ancestors believed to have come from the historical region of Aaru."},
+		]
 	},
 	{
 		"name": "Dayne",
 		"adjective": ["Daynian"],
 		"cityStateType": "Industrial",
-		"style": "Vaja",
 		"startBias": ["Coast"],
+		"style": "Vaja",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Just because you can't pay me, you declare war on me?",
 		"defeated": "Just take all my slave, will you?",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [189, 99,  0],
-		"cities": ["Dayne"]
+		"cities": ["Dayne"],
+		"civilopediaText": [
+			{"text": "Dayne was an old city located on the coast of Laban. Originally a fishing and trade center, its influence waned with the rise of its own colony, Shaquad, which grew into a formidable rival. Dayne fell after being attacked by Torakj."},
+		]
 	},
 	{
 		"name": "Dunfirr",
 		"adjective": ["Dunfiri"],
 		"cityStateType": "Artisan",
-		"style": "Dwarves",
 		"startBias": ["Hill","Mountain"],
+		"style": "Dwarves",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "The great things we'll about to create are gone.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [239,169,119],
-		"cities": ["Dunfirr"]
+		"cities": ["Dunfirr"],
+		"civilopediaText": [
+			{"text": "Dunfirr was a group of dwarves who inhabited the Khorin Mountains. It was incorporated into the Kingdom of Cremona after the marriage of the Tilteinen Prince Balin and the Dunfiri Princess Disa."},
+		]
 	},
 	{
 		"name": "Kov",
 		"adjective": ["Kovs"],
 		"cityStateType": "Momentum Progression",
-		"style": "Kobolds",
 		"startBias": ["Mountain"],
+		"style": "Kobolds",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "So what is the meaning of a miner?",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [150, 87, 42],
-		"cities": ["Kov"]
+		"cities": ["Kov"],
+		"civilopediaText": [
+			{"text": "Found in the southeasternmost of the Merair Mountain Range, the kobolds are adapting to cold and harsh environments, although they prefer warm, damp, and subterranean habitats. The Kovs survival in harsh climates is largely due to their tenacity, rapid reproduction, and ingenuity."},
+		]
 	},
 	{
 		"name": "Rog",
 		"adjective": ["Rogs"],
 		"cityStateType": "Industrial",
-		"style": "Ogre",
 		"startBias": ["Tundra","Forest"],
+		"style": "Ogre",
 
 		"declaringWar": "Hungry ... hungry for eternity ...",
 		"attacked": "What a coincidence, I yearns for a fresh flesh myself!",
 		"defeated": "Least spare me your leftover meat.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [189, 99,  0],
-		"cities": ["Rog"]
+		"cities": ["Rog"],
+		"civilopediaText": [
+			{"text": "Rog was an ogre tribal state famed for its brawn rather than its intelligence. During  the First Eustasian Crisis, Rog was subjugated by Saeth of Tugu and later marched as part of Saeth's forces in the conquest of the Thorin Empire."},
+		]
 	},
 	{
-		"name": "Velkan",
-		"adjective": ["Velkaan"],
+		"name": "Clockwerk",
+		"adjective": ["Clockwerks"],
 		"cityStateType": "Efficient",
+		"startBias": ["River"],
 		"style": "Kunakad",
 
 		"declaringWar": "In responding to your unstinting malignancy, we can have no recourse but war!",
 		"attacked": "The law of cause and effect. Your ignorance will be your fall.",
-		"defeated": "Unacceptable!",
+		"defeated": "Today, the Clockwerks obey you, but do not think this is over...",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [184,105, 26],
-		"cities": ["Velkan"]
+		"cities": ["Clockwerk"],
+		"civilopediaText": [
+			{"text": "Lying along the banks of the Vambit River, Clockwerk was a civilization renowned for its nechanical ingenuity. Named by later scholars, Clockwerk people are believed to be the original creators of windmill."},
+		]
 	},
 	
 	// Mercantile
@@ -1013,77 +1092,96 @@ Characters:
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [  0,  0, 0],
 		"innerColor": [255,255, 0],
-		"cities": ["Angasin"]
+		"cities": ["Angasin"],
+		"civilopediaText": [
+			{"text": "Angasin is the only known settlement of Gnomes in Kilendia and, alongside Vedic, one of the last surviving gnome civilizations to endure into the present age."},
+		]
 	},
 	{
 		"name": "Concordia",
 		"adjective": ["Cordian"],
 		"cityStateType": "Cordian Trading",
-		"style": "Glomon",
 		"startBias": ["Coast"],
+		"style": "Glomon",
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "A wrong calculation, on my part.",
 		"outerColor": [  0,  0, 0],
 		"innerColor": [255,255, 0],
-		"cities": ["Concordia"]
+		"cities": ["Concordia"],
+		"civilopediaText": [
+			{"text": ""},
+		]
 	},
 	{
 		"name": "Crotoa",
 		"adjective": ["Crotoan"],
 		"cityStateType": "Middleman Group",
-		"style": "Beastkin",
 		"startBias": ["Coast"],
+		"style": "Beastkin",
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "We never fully trusted you from the start.",
 		"outerColor": [  0,  0, 0],
 		"innerColor": [255,255, 0],
-		"cities": ["Crotoa"]
+		"cities": ["Crotoa"],
+		"civilopediaText": [
+			{"text": "Crotoan are among the native beastfolk of the Eustasia Continent, living on the Selasia Island. Through covert trading networks, they aided many beastfolk enslaved by Thallin in escaping westward. Following Thallin’s fall, Crotoa assisted Jag'ar and his fellow beastfolk in traveling to and establishing the city of Townfolk."},
+		]
 	},
 	{
 		"name": "Frostwaste",
 		"adjective": ["Frozen"],
 		"cityStateType": "Icypath Kongsi",
-		"style": "Icemen",
 		"startBias": ["Tundra","Snow"],
+		"style": "Icemen",
 		
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [  0,  0, 0],
 		"innerColor": [255,255, 0],
-		"cities": ["Frostwaste"]
+		"uniques": ["[+2 Food] from every [Snow]"],
+		"cities": ["Frostwaste"],
+		"civilopediaText": [
+			{"text": "Frostwaste was an old, perhaps the oldest, known settlement on Kuputik. Harsh conditions drove most of its people away, many of whom went on to found the Odeila Kingdom. In later years, Frostwaste became known for its cheese production, opening trade with other states on Kuputik. Though small, Frostwaste stood as the final bastion against Frostmorrow's unification before eventually falling."},
+		]
 	},
 	{
 		"name": "Gahaldur",
 		"adjective": ["Gadari"],
 		"cityStateType": "Smithy Guild",
-		"style": "Dwarves",
 		"startBias": ["Hill"],
+		"style": "Dwarves",
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "How could we fall to the likes of you?!",
 		"outerColor": [  0,  0, 0],
 		"innerColor": [255,255, 0],
-		"cities": ["Gahaldur"]
+		"cities": ["Gahaldur"],
+		"civilopediaText": [
+			{"text": "Gahaldur, also known as hill dwarves, are a distinct subgroup of the Gaarili Dwarves who inhabit the hilly regions near the Naru Mountain. They are known to be more open to outsiders and often craft weapons for Sulvana and Anšarim warriors."},
+		]
 	},
 	{
 		"name": "Shaquad",
 		"adjective": ["Shaquadian"],
 		"cityStateType": "Unciv Megamod",
-		"style": "Vaja",
 		"startBias": ["Coast"],
+		"style": "Vaja",
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [  0,  0, 0],
 		"innerColor": [255,255, 0],
-		"cities": ["Shaquad"]
+		"cities": ["Shaquad"],
+		"civilopediaText": [
+			{"text": "The city of Shaquad is located on the coast of the Vedic Sea. Founded by colonists from Dayne, the city soon grew to rival and eventually surpass its sister city as a fishing and mercantile center."},
+		]
 	},
 	{
 		"name": "Vistana",
@@ -1096,7 +1194,10 @@ Characters:
 		"defeated": "I will remember you. I will remember your children. I will remember your whole descendants for this humiliation!",
 		"outerColor": [  0,  0, 0],
 		"innerColor": [200,180, 0],
-		"cities": ["Vistana"]
+		"cities": ["Vistana"],
+		"civilopediaText": [
+			{"text": "Vistana was an ancient city located on the Sumbawa Plains, serving as a vital crossroad and economic hub for decades. It was ultimately destroyed by Gloria after he declared Nursia the new center of commerce under First Order control."},
+		]
 	},
 	
 	// Militaristic
@@ -1104,34 +1205,41 @@ Characters:
 		"name": "Aerithalas",
 		"adjective": ["Aeripii"],
 		"cityStateType": "Aerithalas Mercenary",
-		"style": "Harpy",
 		"startBias": ["Mountain","Hill"],
+		"style": "Harpy",
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Aerithalas!",
 		"defeated": "A lonely wind blows through the highlands today. A dirge for Aerithalas. Can you hear it?",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [255, 50, 50],
-		"cities": ["Aerithalas"]
+		"cities": ["Aerithalas"],
+		"civilopediaText": [
+			{"text": "Living atop the Aerithalas Mountain, the Aeripii are inherently hostile to outsiders, but they can be persuaded to offer their services in exchange for shiny trinkets."},
+		]
 	},
 	{
 		"name": "Corelia",
 		"adjective": ["Pirates"],
 		"cityStateType": "Pirates of Corelia",
-		"style": "Vaja",
 		"startBias": ["Coast"],
+		"style": "Vaja",
 		
 		"declaringWar": "Let's have a nice little War, shall we?",
 		"attacked": "Damn you, I will not fall.",
 		"defeated": "This ship may sink, but our spirits will linger.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [230, 69, 96],
-		"cities": ["Corelia"]
+		"cities": ["Corelia"],
+		"civilopediaText": [
+			{"text": ""},
+		]
 	},
 	{
 		"name": "Dreckfang",
 		"adjective": ["Dreckfang"],
 		"cityStateType": "Gnoll Warband",
+		"startBias": ["Desert"],
 		"style": "Gnoll",
 
 		"declaringWar": "Witness my power, insignificant ruler!  Your armies shall crumble before my might!",
@@ -1139,7 +1247,10 @@ Characters:
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [230, 69, 96],
-		"cities": ["Dreckfang"]
+		"cities": ["Dreckfang"],
+		"civilopediaText": [
+			{"text": "Dreckfang were a warband of gnolls led by Ustar Dreckfang who fought for control of the Sava Desert. They later settled around the Two Oases, naming their city after their leader."},
+		]
 	},
 	{
 		"name": "Naluvir",
@@ -1152,12 +1263,16 @@ Characters:
 		"defeated": "Congratulations, conqueror. This tribe serves you now.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [255, 50, 50],
-		"cities": ["Naluvir"]
+		"cities": ["Naluvir"],
+		"civilopediaText": [
+			{"text": ""},
+		]
 	},
 	{
 		"name": "Grokzut",
 		"adjective": ["Groggs"],
 		"cityStateType": "Amphibious Ruler",
+		"startBias": ["Fresh water"],
 		"style": "Lizardfolk",
 
 		"declaringWar": "Itz time! Itz time to WAAAGH diz pathetic weaklingz!",
@@ -1165,26 +1280,28 @@ Characters:
 		"defeated": "Gahh... I hate when diz happenz...",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [200,  0, 76],
-		"cities": ["Grokzut"]
+		"cities": ["Grokzut"],
+		"civilopediaText": [
+			{"text": "Grokzut was a tribal state of lizardfolk living along the fertile banks of the Canadian River before being conquered and enslaved by Thallin."},
+		]
 	},
 	{
 		"name": "Tuskarok",
 		"adjective": ["Tuskari"],
 		"cityStateType": "Fjord Ruler",
-		"style": "Tuskari",
 		"startBias": ["Coast","Snow"],
+		"style": "Tuskari",
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
 		"attacked": "Very well, we will kick you back to the Dark Age!",
 		"defeated": "What treachery has struck us? No, what evil?",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [200,  0, 76],
-		"uniques": ["[+2 Food] from every [Magic Building]",
-			"Comment [Provides 1 [Magician] in cities with [Draen Sanctuary] and [Academy of Magic]]",
-			
-			"Instantly gain [1] [stockpiledCounter] <upon gaining a [Arcane Tracker] unit> <when below [5] [stockpiledCounter]> <hidden from users>"
-		],
-		"cities": ["Tuskarok"]
+		"uniques": ["[+2 Food] from every [Snow]"],
+		"cities": ["Tuskarok"],
+		"civilopediaText": [
+			{"text": "The Tuskari are a humanoid walrus-like people indigenous to the Grosvenor Fjord and Stor Isles. Living in coastal settlements carved between glaciers and rocky islands, their generations of tradition have shaped them into resilience warriors, hardy navigators and guardians of the northern waters."},
+		]
 	},
 	{
 		"name": "Rackedt",
@@ -1197,7 +1314,10 @@ Characters:
 		"defeated": "Vile ruler, know that you 'won' this war in name only!",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [200, 25,  0],
-		"cities": ["Rackedt"]
+		"cities": ["Rackedt"],
+		"civilopediaText": [
+			{"text": "Rackedt is a beastfolk tribal state renowned for the Way of Rackadine, a unique tradition that teaches its people to communicate, train, and form bonds with non-sapient beasts and monsters."},
+		]
 	},
 	
 	// Religious
@@ -1205,6 +1325,7 @@ Characters:
 		"name": "Chorislavia",
 		"adjective": ["Chorislani"],
 		"cityStateType": "Devout",
+		"startBias": ["Grassland"],
 		"style": "Elves",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
@@ -1212,7 +1333,10 @@ Characters:
 		"defeated": "May God grant me these last wishes - peace and prosperity for Chorislavia.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [255,255,255],
-		"cities": ["Chorislavia"]
+		"cities": ["Chorislavia"],
+		"civilopediaText": [
+			{"text": "The Chorislaviani were a sub-group of the Thalasia Elves who chose to settle in Buantan. According to the Asili Inscription, Chorislavia was established as the successor to the Verdalia Kingdom, which was destroyed by the Red Elves."},
+		]
 	},
 	{
 		"name": "E'sholl",
@@ -1225,21 +1349,27 @@ Characters:
 		"defeated": "God is forgiving, will you forgive us?",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [255,255,255],
-		"cities": ["E'sholl"]
+		"cities": ["E'sholl"],
+		"civilopediaText": [
+			{"text": "A theocratic state situated on the Baki Peninsula, E'sholl ultimately fell during the Crusades launched by Sanctum Regalia."},
+		]
 	},
 	{
 		"name": "Estuary",
 		"adjective": ["Estuarii"],
 		"cityStateType": "Faith-Sharing",
+		"startBias": ["Jungle"],
 		"style": "Druid",
-		//"startBias": ["Jungle"],
 		
 		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
 		"attacked": "May God have mercy on your evil soul.",
 		"defeated": "Your evil nature are too strong for us to handle.",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [203,253,232],
-		"cities": ["Estuary"]
+		"cities": ["Estuary"],
+		"civilopediaText": [
+			{"text": "Estuary is a druidic civilization dwelling in the eastern reaches of the Pringapus Jungle, near the Buantan Sea. It is said that the druids sometimes reveal themselves to aid wandering travelers—provided their hearts bear no ill intent."},
+		]
 	},
 	{
 		"name": "Nevdes",
@@ -1252,7 +1382,10 @@ Characters:
 		"defeated": "Ah, Gods! Why have you forsaken us?",
 		"outerColor": [  0,  0,  0],
 		"innerColor": [203,253,232],
-		"cities": ["Nevdes"]
+		"cities": ["Nevdes"],
+		"civilopediaText": [
+			{"text": "Nevdes is a religious state on the Central Plains, encircled by powerful neighbors-Thorin Empire to the north and west, and the Berenger Kingdom to the east. It was one of the founding members of the Aeyris Alliance."},
+		]
 	},
 	{
 		"name": "Zilla",
@@ -1265,7 +1398,10 @@ Characters:
 		"defeated": "I for one welcome our new conquer overlord!",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [198,255,192],
-		"cities": ["Zilla"]
+		"cities": ["Zilla"],
+		"civilopediaText": [
+			{"text": "A human civilization located on the island of Zilla. The Zillans are credited as the originators of the philosophies of Yin and Yang and the Five Elements."},
+		]
 	},
 
 	

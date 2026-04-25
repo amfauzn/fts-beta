@@ -11,6 +11,7 @@
 			"Recon",
 			"Infantry",
 			"Anti-Armor",
+			"Hobes",
 			"Mounted",
 			"Ranged Infantry",
 			"Siege",
@@ -84,8 +85,12 @@
 			"Recon",
 			"Infantry",
 			"Anti-Armor",
+			"Hobes",
+			"Spellsword",
 			"Mounted",
+			"Aether Cavalier",
 			"Ranged Infantry",
+			"Arcane Archer",
 			"Siege",
 			"Anti-Air",
 			//"Melee Mage",
@@ -185,14 +190,14 @@
 	{
 		"name": "Shock",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Infantry","Anti-Armor","Foot Monster"],
+		"unitTypes": ["Infantry","Anti-Armor","Spellsword","Foot Monster"],
 		"column": 6,
 		"row": 1
 	},
 	{
 		"name": "Drill",
 		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry","Anti-Armor","Foot Monster"],
+		"unitTypes": ["Infantry","Anti-Armor","Spellsword","Foot Monster"],
 		"column": 8,
 		"row": 1
 	},
@@ -200,7 +205,7 @@
 		"name": "Battlecry",
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [{Land} {non-[Flying]}] units> <when attacking>"],
-		"unitTypes": ["Infantry","Foot Monster"],
+		"unitTypes": ["Infantry","Spellsword","Foot Monster"],
 		"column": 6,
 		"row": 2
 	},
@@ -211,7 +216,7 @@
 			"[+25]% Strength <vs [Ranged] units> <when defending>",
 			//"[+25]% Strength <in [City center] tiles>"
 		],
-		"unitTypes": ["Infantry","Foot Monster"],
+		"unitTypes": ["Infantry","Spellsword","Foot Monster"],
 		"column": 8,
 		"row": 2
 	},
@@ -219,7 +224,7 @@
 		"name": "Besiege",
 		"prerequisites": ["Battlecry","Tortoise"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Infantry","Foot Monster"],
+		"unitTypes": ["Infantry","Spellsword","Foot Monster"],
 		"column": 6,
 		"row": 3
 	},
@@ -231,7 +236,7 @@
 			"Double movement in [Jungle]",
 			"Double movement in [Man-eating Tree]"
 		],
-		"unitTypes": ["Infantry","Foot Monster"],
+		"unitTypes": ["Infantry","Spellsword","Foot Monster"],
 		"column": 7,
 		"row": 3
 	},
@@ -276,7 +281,7 @@
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Hobes"],
+		"unitTypes": ["Infantry","Anti-Armor","Spellsword","Hobes"],
 		"column": 11,
 		"row": 3
 	},
@@ -284,7 +289,7 @@
 		"name": "March",
 		"prerequisites": ["Besiege","Woodsman","Thrust","Square Crowd","Amphibious"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Infantry","Anti-Armor","Hobes"],
+		"unitTypes": ["Infantry","Anti-Armor","Spellsword","Hobes"],
 		"column": 9,
 		"row": 4
 	},
@@ -298,7 +303,7 @@
 			"[+25]% Strength <vs [Siege] units> <when attacking>",
 			"[+1] Movement"
 		],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted","Aether Cavalier","Mounted Monster"],
 		"column": 13,
 		"row": 1
 	},
@@ -310,7 +315,7 @@
 			"[+25]% Strength <vs [{Ranged} {Land}] units>",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted","Aether Cavalier","Mounted Monster"],
 		"column": 13,
 		"row": 2
 	},
@@ -323,7 +328,7 @@
 			"[This Unit] gains the [Upheaval Active] status for [1] turn(s) <upon defeating a [All] unit> <hidden from users>",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 14,
 		"row": 2
 	},
@@ -335,7 +340,7 @@
 		"name": "Depredation",
 		"prerequisites": ["Light Cavalry"],
 		"uniques": ["No movement cost to pillage"],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted","Aether Cavalier","Mounted Monster"],
 		"column": 15,
 		"row": 2
 	},
@@ -346,7 +351,7 @@
 			"[+50]% to Flank Attack bonuses",
 			"Ignores Zone of Control"
 		]
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted","Aether Cavalier","Mounted Monster"],
 		"column": 16,
 		"row": 2
 	},
@@ -357,7 +362,7 @@
 			"Transfer Movement to [Civilian]",
 			"[+10]% Strength <when stacked with a [Civilian] unit>"
 		],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted","Aether Cavalier","Mounted Monster"],
 		"column": 13,
 		"row": 3
 	},
@@ -371,7 +376,7 @@
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 14,
 		"row": 3
 	},
@@ -389,7 +394,7 @@
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] gains the [In Combat Cooldown] status for [3] turn(s) <upon losing at least [1] HP in a single attack> <hidden from users>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 15,
 		"row": 3
 	},
@@ -400,7 +405,7 @@
 			"Withdraws before melee combat <with [50]% chance>",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Mounted","Mounted Monster"],
+		"unitTypes": ["Mounted","Aether Cavalier","Mounted Monster"],
 		"column": 16,
 		"row": 3
 	},
@@ -412,7 +417,7 @@
 			"[+25]% Strength <vs [Magical] units> <when defending>",
 			"[+25]% Strength <vs [Ranged Mage] units> <when defending>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 13,
 		"row": 4
 	},
@@ -423,7 +428,7 @@
 			"Only available <for units without [Warding Amulet]>",
 			"[+50]% Strength <vs [Ailment] units> <when attacking>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 14,
 		"row": 4
 	},
@@ -439,7 +444,7 @@
 			"[This Unit] gains the [Invisible] status for [1] turn(s) <upon turn start> <in [Forest] tiles> <for units without [In Combat Cooldown]> <hidden from users>",
 			"[This Unit] gains the [Invisible] status for [1] turn(s) <upon turn start> <in [Jungle] tiles> <for units without [In Combat Cooldown]> <hidden from users>",
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 15,
 		"row": 4
 	},
@@ -450,7 +455,7 @@
 			"Comment [Attack instantly kills enemy unit that is reduced to 20 HP or less]",
 			"[Target Unit] gains the [Death Mark] status for [1] turn(s) <upon damaging a [non-[Death Mark]] unit> <hidden from users>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 16,
 		"row": 4
 	},
@@ -471,7 +476,7 @@
 			"Only available <for units without [Light Cavalry]>",
 			"[+25]% Strength"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 17,
 		"row": 1
 	},
@@ -482,7 +487,7 @@
 			"Only available <for units without [Adaptable]>",
 			"[+25]% Strength <vs [Wounded] units>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 17,
 		"row": 2
 	},
@@ -493,7 +498,7 @@
 			"Only available <for units without [Charge]>",
 			"[+50]% XP gained from combat"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 18,
 		"row": 2
 	},
@@ -504,7 +509,7 @@
 			"[+25]% Strength <vs [Mounted] units>",
 			"[+25]% Strength <vs [Mechanical] units>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 19,
 		"row": 2
 	},
@@ -512,7 +517,7 @@
 		"name": "Barding",
 		"prerequisites": ["Heavy Cavalry"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 20,
 		"row": 2
 	},
@@ -523,7 +528,7 @@
 			"Comment [Inflict [Broken] for 1 turn]",
 			"[Target Unit] gains the [Broken] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 17,
 		"row": 3,
 		"civilopediaText": [
@@ -545,7 +550,7 @@
 			"[+33]% Strength <vs cities> <when adjacent to a [Melee] unit>",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 18,
 		"row": 3
 	},
@@ -557,7 +562,7 @@
 			"[Great General] is earned [50]% faster",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 19,
 		"row": 3
 	},
@@ -580,7 +585,7 @@
 			"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack> <when below [50] HP> <hidden from users>",
 			"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack> <when below [50] HP> <hidden from users>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 20,
 		"row": 3
 	},
@@ -592,7 +597,7 @@
 			"[+15]% Strength bonus for [Military] units within [1] tiles",
 			"All adjacent units heal [+5] HP when healing"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 17,
 		"row": 4
 	},
@@ -603,7 +608,7 @@
 			"Only available <for units without [Inspiring Presence]>",
 			"Unit will heal every turn, even if it performs an action"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 18,
 		"row": 4
 	},
@@ -614,7 +619,7 @@
 			"Comment [Inflict [Stunned] when at full HP]",
 			"[Target Unit] gains the [Stunned] status for [1] turn(s) <upon damaging a [All] unit> <when above [99] HP> <hidden from users>"
 		],
-		"unitTypes": ["Mounted"],
+		"unitTypes": ["Mounted","Aether Cavalier"],
 		"column": 19,
 		"row": 4,
 		"civilopediaText": [
@@ -628,7 +633,7 @@
 			"[1] additional attacks per turn",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Hobes","Mounted"],
+		"unitTypes": ["Infantry","Anti-Armor","Spellsword","Hobes","Mounted","Aether Cavalier"],
 		"column": 20,
 		"row": 4
 	},
@@ -637,14 +642,14 @@
 	{
 		"name": "Accuracy",
 		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Ranged Infantry","Siege","Anti-Air"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer","Siege","Anti-Air"],
 		"column": 22,
 		"row": 1
 	},
 	{
 		"name": "Barrage",
 		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Ranged Infantry","Siege","Anti-Air"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer","Siege","Anti-Air"],
 		"column": 24,
 		"row": 1
 	},
@@ -652,7 +657,7 @@
 		"name": "Marksman",
 		"prerequisites": ["Accuracy"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Ranged Infantry"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer"],
 		"column": 22,
 		"row": 2
 	},
@@ -660,7 +665,7 @@
 		"name": "Cover",
 		"prerequisites": ["Barrage"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Ranged Infantry"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer"],
 		"column": 24,
 		"row": 2
 	},
@@ -668,7 +673,7 @@
 		"name": "Damage Absorb",
 		"prerequisites": ["Marksman","Cover"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Ranged Infantry"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer"],
 		"column": 22,
 		"row": 3
 	},
@@ -702,7 +707,7 @@
 		"name": "Volley",
 		"prerequisites": ["Marksman","Cover","Grapeshot","Entrenched Position"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Ranged Infantry","Siege"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer","Siege"],
 		"column": 27,
 		"row": 3
 	},
@@ -710,7 +715,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Marksman","Cover","Grapeshot","Entrenched Position"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Ranged Infantry","Siege"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer","Siege"],
 		"column": 28,
 		"row": 3
 	},
@@ -718,8 +723,16 @@
 		"name": "Forward Observers",
 		"prerequisites": ["Damage Absorb","Crew Weapons","Volley","Indirect Fire"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Ranged Infantry","Siege"],
+		"unitTypes": ["Ranged Infantry","Arcane Archer","Siege"],
 		"column": 26,
+		"row": 4
+	},
+	{
+		"name": "Manaburst Assault",
+		"prerequisites": ["Damage Absorb","Crew Weapons","Volley","Indirect Fire"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Siege"],
+		"column": 27,
 		"row": 4
 	},
 	
@@ -779,7 +792,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Besiege","Woodsman","Thrust","Square Crowd","Amphibious","Precision","Ambush","Shell"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Infantry","Anti-Armor","Hobes","Anti-Air"],
+		"unitTypes": ["Infantry","Anti-Armor","Spellsword","Hobes","Ranged Infantry","Arcane Archer","Anti-Air"],
 		"column": 31,
 		"row": 4
 	},
@@ -3786,8 +3799,10 @@
 			"Recon",
 			"Infantry",
 			"Anti-Armor",
+			"Spellsword",
 			"Hobes",
-			"Ranged Infantry"
+			"Ranged Infantry",
+			"Arcane Archer"
 		]
 	},
 	{
@@ -3806,6 +3821,7 @@
 		],
 		"unitTypes": [
 			"Ranged Infantry",
+			"Arcane Archer",
 			"Siege",
 			"Anti-Air",
 			"Naval Melee",
@@ -5258,24 +5274,25 @@
 		"uniques": [
 			"Mana Attuned",
 			"Unavailable <hidden from users>",
-			"Comment [This Unit may sense mana]"
+			"Comment [This Unit may sense mana]",
+			"[This Unit] loses the [Mana Sensing] promotion <upon turn end> <for [Spellsword] units> <hidden from users>",
+			"[This Unit] loses the [Mana Sensing] promotion <upon turn end> <for [Aether Cavalier] units> <hidden from users>",
+			"[This Unit] loses the [Mana Sensing] promotion <upon turn end> <for [Arcane Archer] units> <hidden from users>"
 		],
-		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
 		"column": 125,
 		"row": 1
 	},
 	{
 		"name": "Mana Pulse",
-		"prerequisites": ["Mana Sensing"],
 		"uniques": [
 			"Instantly consumes [30] [Aether]",
 			"Comment [Active. +2 Sight and can see invisible unit for 1 turn. Cooldown 6 turns]",
 			"[This Unit] gains the [Mana Pulse Active] status for [1] turn(s) <for [0] movement> <for units without [Mana Pulse Cooldown]> <hidden from users>",
 			"[This Unit] gains the [Mana Pulse Cooldown] status for [7] turn(s) <upon gaining the [Mana Pulse Active] status> <hidden from users>"
 		],
-		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
-		"column": 125,
-		"row": 2
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
+		"column": 126,
+		"row": 1
 	},
 	{
 		"name": "Mana Pulse Active",
@@ -5293,155 +5310,180 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	
 	{
-		"name": "Magic Skin",
-		"prerequisites": ["Mana Sensing"],
-		"uniques": [
-			"Instantly consumes [30] [Aether]",
-			"[+25]% Strength <when defending>"
-		],
-		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"name": "Sword Resonance",
+		"prerequisites": ["Mana Pulse"],
+		"uniques": ["[+15]% Strength bonus for [Infantry] units within [2] tiles"],
+		"unitTypes": ["Spellsword"],
 		"column": 126,
 		"row": 2
 	},
 	{
-		"name": "Elemental Infusion",
-		"prerequisites": ["Mana Sensing"],
-		"uniques": [
-			"Instantly consumes [30] [Aether]",
-			"Comment [Attacks inflict status ailment]"
-		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"name": "Aura Zone",
+		"prerequisites": ["Sword Resonance"],
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"unitTypes": ["Spellsword"]
+	},
+	
+	{
+		"name": "Mirror Image",
+		"prerequisites": ["Mana Pulse"],
+		"uniques": ["Withdraws before melee combat <with [34]% chance>"],
+		"unitTypes": ["Aether Cavalier"],
 		"column": 127,
 		"row": 2
 	},
 	{
-		"name": "Fire Infusion",
-		"prerequisites": ["Mana Sensing"],
+		"name": "Void Armor",
+		"prerequisites": ["Mirror Image"],
 		"uniques": [
-			"Only available <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
-			"Only available <for units with [Elemental Infusion]>",
-			"Comment [Inflict [Burning] for 2 turns]",
-			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Flameburst Active]> <with [SelfTurn]> <hidden from users>",
-			"This Promotion is free"
+			"Comment [Removes the first ailment received every turn]",
+			
+			//Removes stuffs
+			"[This Unit] loses the [Blazing Fire] status <upon gaining the [Blazing Fire] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Brittle] status <upon gaining the [Brittle] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Calcifying] status <upon gaining the [Calcifying] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Conductive] status <upon gaining the [Conductive] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Corroded] status <upon gaining the [Corroded] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Crippled] status <upon gaining the [Crippled] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Crushed] status <upon gaining the [Crushed] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Cursed] status <upon gaining the [Cursed] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Deafened] status <upon gaining the [Deafened] status> <for units without [Void Armor Cooldown]> <hidden from users>",	
+			"[This Unit] loses the [Disoriented] status <upon gaining the [Disoriented] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Disrupted] status <upon gaining the [Disrupted] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Electrified] status <upon gaining the [Electrified] status> <for units without [Void Armor Cooldown]> <hidden from users>",	
+			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Frostbitten] status <upon gaining the [Frostbitten] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Frozen] status <upon gaining the [Frozen] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Infected] status <upon gaining the [Infected] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Oiled] status <upon gaining the [Oiled] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Paralyzed] status <upon gaining the [Paralyzed] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Petrified] status <upon gaining the [Petrified] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Poisoned] status <upon gaining the [Poisoned] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Ruptured] status <upon gaining the [Ruptured] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Scalding] status <upon gaining the [Scalding] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Scorched] status <upon gaining the [Scorched] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Sleeping] status <upon gaining the [Sleeping] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Slowed] status <upon gaining the [Slowed] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Stunned] status <upon gaining the [Stunned] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Voltaic Rooted] status <upon gaining the [Voltaic Rooted] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Voltaic Electrified] status <upon gaining the [Voltaic Electrified] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			"[This Unit] loses the [Webbed] status <upon gaining the [Webbed] status> <for units without [Void Armor Cooldown]> <hidden from users>",
+			
+			//Cooldown stuffs
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Blazing Fire] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Bleeding] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Blinded] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Brittle] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Burning] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Calcifying] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Chilled] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Conductive] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Corroded] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Crippled] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Crushed] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Cursed] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Deafened] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Disoriented] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Disrupted] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Electrified] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Frightened] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Frostbitten] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Frozen] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Infected] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Oiled] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Paralyzed] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Petrified] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Poisoned] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Rooted] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Ruptured] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Scalding] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Scorched] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Sleeping] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Slowed] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Stunned] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Voltaic Rooted] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Voltaic Electrified] status> <hidden from users>",
+			"[This Unit] gains the [Void Armor Cooldown] status for [1] turn(s) <upon gaining the [Webbed] status> <hidden from users>",
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
-		"innerColor": [255, 69, 10],
-		"outerColor": [0, 0, 0],
-		"civilopediaText": [
-			{"text": "Burning", "link":"Promotion/Burning"}
-		]
+		"unitTypes": ["Aether Cavalier"]
 	},
 	{
-		"name": "Wind Infusion",
-		"prerequisites": ["Mana Sensing"],
+		"name": "Void Armor Cooldown",
 		"uniques": [
-			"Only available <for units without [Fire Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
-			"Only available <for units with [Elemental Infusion]>",
-			"Comment [Inflict [Bleeding] for 2 turns]",
-			"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"This Promotion is free"
-		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
-		"innerColor": [0,196,125],
-		"outerColor": [0, 0, 0],
-		"civilopediaText": [
-			{"text": "Bleeding", "link":"Promotion/Bleeding"}
+			"Comment [[Void Armor] is on Cooldown]",
+			"Will not be displayed in Civilopedia"
 		]
 	},
+	
 	{
-		"name": "Lightning Infusion",
-		"prerequisites": ["Mana Sensing"],
-		"uniques": [
-			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
-			"Only available <for units with [Elemental Infusion]>",
-			"Comment [Inflict [Electrified] for 2 turns]",
-			"[Target Unit] gains the [Electrified] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"This Promotion is free"
-		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
-		"innerColor": [147,112,219],
-		"outerColor": [0, 0, 0],
-		"civilopediaText": [
-			{"text": "Electrified", "link":"Promotion/Electrified"}
-		]
-	},
-	{
-		"name": "Earth Infusion",
-		"prerequisites": ["Mana Sensing"],
-		"uniques": [
-			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Ice Infusion]>",
-			"Only available <for units with [Elemental Infusion]>",
-			"Comment [Inflict [Calcifying] for 2 turns]",
-			"[Target Unit] gains the [Calcifying] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"This Promotion is free"
-		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
-		"innerColor": [147, 78, 30],
-		"outerColor": [0, 0, 0],
-		"civilopediaText": [
-			{"text": "Calcifying", "link":"Promotion/Calcifying"}
-		]
-	},
-	{
-		"name": "Ice Infusion",
-		"prerequisites": ["Mana Sensing"],
-		"uniques": [
-			"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]>",
-			"Only available <for units with [Elemental Infusion]>",
-			"Comment [Inflict [Frostbitten] for 2 turns]",
-			"[Target Unit] gains the [Frostbitten] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
-			"This Promotion is free"
-		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
-		"innerColor": [0,191,255],
-		"outerColor": [0, 0, 0],
-		"civilopediaText": [
-			{"text": "Frostbitten", "link":"Promotion/Frostbitten"}
-		]
-	},
-	{
-		"name": "Aura Zone",
+		"name": "Phase Retreat",
 		"prerequisites": ["Mana Pulse"],
-		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
-		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"]
-	},
-	{
-		"name": "Viewing Eyes",
-		"prerequisites": ["Magic Skin"],
-		"uniques": ["Reveal up to [1] [Land] within a [10] tile radius <upon turn end>"],
-		"unitTypes": ["Recon"]
-	},
-	{
-		"name": "Sword Resonance",
-		"prerequisites": ["Magic Skin"],
-		"uniques": ["[+15]% Strength bonus for [Infantry] units within [2] tiles"],
-		"unitTypes": ["Infantry"]
-	},
-	{
-		"name": "Schiltron",
-		"prerequisites": ["Magic Skin"],
 		"uniques": [
-			"Comment [When this unit is adjacent to Anti-Armor unit, attacker gain -15% Strength when attacking]",
-			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles <when adjacent to a [Anti-Armor] unit> <hidden from users>"
+			"Can move after attacking",
+			"[This Unit] gains [1] movement <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Phase Retreat Active] status for [1] turn(s) <hidden from users>"
 		],
-		"unitTypes": ["Anti-Armor"]
+		"unitTypes": ["Arcane Archer"],
+		"column": 128,
+		"row": 2
+	},
+	{
+		"name": "Phase Retreat Active",
+		"uniques": [
+			"Ignores Zone of Control",
+			"Cannot attack",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Strider",
+		"prerequisites": ["Phase Retreat"],
+		"uniques": [
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+			"Double movement in [Man-eating Tree]"
+		],
+		"unitTypes": ["Arcane Archer"]
+	},
+	
+	{
+		"name": "Magic Skin",
+		"uniques": [
+			"Instantly consumes [15] [Aether]",
+			"[+25]% Strength <when defending>"
+		],
+		"unitTypes": ["Spellsword"],
+		"column": 129,
+		"row": 1
 	},
 	{
 		"name": "Aegis",
-		"prerequisites": ["Magic Skin"],
-		"uniques": ["Comment [May now gain defensive bonus from terrain]"],
-		"unitTypes": ["Mounted"]
+		"uniques": [
+			"Instantly consumes [15] [Aether]",
+			"Comment [May now gain defensive bonus from terrain]"
+		],
+		"unitTypes": ["Aether Cavalier"],
+		"column": 130,
+		"row": 1
 	},
 	{
 		"name": "Farsight",
-		"prerequisites": ["Magic Skin"],
 		"uniques": [
+			"Instantly consumes [15] [Aether]",
 			"Comment [+1 Range when not moving in the last turn]",
 			"[+1] Range <for units without [Farsight Cooldown]> <hidden from users>",
 			"[This Unit] gains the [Farsight Cooldown] status for [2] turn(s) <upon entering a [All] tile> <hidden from users>"
 		],
-		"unitTypes": ["Ranged Infantry"]
+		"unitTypes": ["Arcane Archer"],
+		"column": 131,
+		"row": 1
 	},
 	{
 		"name": "Farsight Cooldown",
@@ -5450,6 +5492,109 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	
+	{
+		"name": "Elemental Infusion",
+		"prerequisites": ["Magic Skin","Aegis","Farsight"],
+		"uniques": [
+			"Instantly consumes [30] [Aether]",
+			"Comment [Attacks inflict status ailment]"
+		],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
+		"column": 129,
+		"row": 2
+	},
+	{
+		"name": "Fire Infusion",
+		"prerequisites": ["Magic Skin","Aegis","Farsight"],
+		"uniques": [
+			"Only available <if [Fire School] is constructed> <hidden from users>",
+			//"Only available <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
+			"Comment [Inflict [Burning] for 2 turns]",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Flameburst Active]> <with [SelfTurn]> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
+		"innerColor": [255, 69, 10],
+		"outerColor": [0, 0, 0],
+		"civilopediaText": [
+			{"text": "Burning", "link":"Promotion/Burning"}
+		]
+	},
+	{
+		"name": "Wind Infusion",
+		"prerequisites": ["Magic Skin","Aegis","Farsight"],
+		"uniques": [
+			"Only available <if [Wind School] is constructed> <hidden from users>",
+			//"Only available <for units without [Fire Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
+			"Comment [Inflict [Bleeding] for 2 turns]",
+			"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
+		"innerColor": [0,196,125],
+		"outerColor": [0, 0, 0],
+		"civilopediaText": [
+			{"text": "Bleeding", "link":"Promotion/Bleeding"}
+		]
+	},
+	{
+		"name": "Lightning Infusion",
+		"prerequisites": ["Magic Skin","Aegis","Farsight"],
+		"uniques": [
+			"Only available <if [Lightning School] is constructed> <hidden from users>",
+			//"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Earth Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
+			"Comment [Inflict [Electrified] for 2 turns]",
+			"[Target Unit] gains the [Electrified] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
+		"innerColor": [147,112,219],
+		"outerColor": [0, 0, 0],
+		"civilopediaText": [
+			{"text": "Electrified", "link":"Promotion/Electrified"}
+		]
+	},
+	{
+		"name": "Earth Infusion",
+		"prerequisites": ["Magic Skin","Aegis","Farsight"],
+		"uniques": [
+			"Only available <if [Earth School] is constructed> <hidden from users>",
+			//"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Ice Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
+			"Comment [Inflict [Calcifying] for 2 turns]",
+			"[Target Unit] gains the [Calcifying] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
+		"innerColor": [147, 78, 30],
+		"outerColor": [0, 0, 0],
+		"civilopediaText": [
+			{"text": "Calcifying", "link":"Promotion/Calcifying"}
+		]
+	},
+	{
+		"name": "Ice Infusion",
+		"prerequisites": ["Magic Skin","Aegis","Farsight"],
+		"uniques": [
+			"Only available <if [Water School] is constructed> <hidden from users>",
+			//"Only available <for units without [Fire Infusion]> <for units without [Wind Infusion]> <for units without [Lightning Infusion]> <for units without [Earth Infusion]>",
+			"Only available <for units with [Elemental Infusion]>",
+			"Comment [Inflict [Frostbitten] for 2 turns]",
+			"[Target Unit] gains the [Frostbitten] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
+		"innerColor": [0,191,255],
+		"outerColor": [0, 0, 0],
+		"civilopediaText": [
+			{"text": "Frostbitten", "link":"Promotion/Frostbitten"}
+		]
+	},
+	
 	{
 		"name": "Aura Knight",
 		"prerequisites": ["Elemental Infusion"],
@@ -5457,7 +5602,7 @@
 			"Instantly consumes [60] [Aether]",
 			"Comment [Much better control of Mana or Aura]"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
 	},
 	{
 		"name": "Flameburst",
@@ -5469,7 +5614,7 @@
 			"[This Unit] gains the [Flameburst Active] status for [2] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"unitTypes": ["Spellsword"],
 		"innerColor": [255, 69, 10],
 		"outerColor": [0, 0, 0],
 		"civilopediaText": [
@@ -5499,7 +5644,7 @@
 			"[This Unit] gains the [Aerosphere Active] status for [2] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"unitTypes": ["Spellsword"],
 		"innerColor": [0,196,125],
 		"outerColor": [0, 0, 0],
 		"civilopediaText": [
@@ -5532,11 +5677,11 @@
 		"prerequisites": ["Lightning Infusion"],
 		"uniques": [
 			"Only available <for units with [Aura Knight]>",
-			"Comment [Active. Deals 5 damage and can move after attacking. Cooldown: 7]",
+			"Comment [Active. Deals 10 damage and can move after attacking. Cooldown: 7]",
 			"[This Unit] gains the [Shock Line Active] status for [1] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"unitTypes": ["Spellsword"],
 		"innerColor": [147,112,219],
 		"outerColor": [0, 0, 0],
 	},
@@ -5544,8 +5689,8 @@
 		"name": "Shock Line Active",
 		"uniques": [
 			"Active Spell",
-			"Comment [Deals 5 damage]",
-			"[Target Unit] takes [5] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
+			"Comment [Deals 10 damage]",
+			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <with [SelfTurn]> <hidden from users>",
 			"Can move after attacking",
 			"Ignores Zone of Control",
 			"[This Unit] gains [2] movement <upon damaging a [All] unit> <hidden from users>",
@@ -5562,7 +5707,7 @@
 			"[This Unit] gains the [Corrosive Touch Active] status for [2] turn(s) <for [0] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"unitTypes": ["Spellsword"],
 		"innerColor": [147, 78, 30],
 		"outerColor": [0, 0, 0],
 		"civilopediaText": [
@@ -5589,7 +5734,7 @@
 			"[This Unit] gains the [Frost Armor Active] status for [2] turn(s) <for [1] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Infantry","Anti-Armor","Mounted"],
+		"unitTypes": ["Spellsword"],
 		"innerColor": [0,191,255],
 		"outerColor": [0, 0, 0]
 	},
@@ -5615,6 +5760,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	
 	{
 		"name": "Rain of Fire",
 		"prerequisites": ["Fire Infusion"],
@@ -5624,7 +5770,7 @@
 			"[This Unit] gains the [Rain of Fire Active] status for [1] turn(s) <for [1] movement> <for units without [Aura Fatigue]> <hidden from users>"
 			"This Promotion is free"
 		],
-		"unitTypes": ["Ranged Infantry"],
+		"unitTypes": ["Arcane Archer"],
 		"innerColor": [255, 69, 10],
 		"outerColor": [0, 0, 0]
 	},
@@ -5748,6 +5894,7 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	
 	{
 		"name": "Aura Fatigue",
 		"uniques": [
@@ -5757,14 +5904,33 @@
 	},
 	{
 		"name": "Aura Master",
-		"prerequisites": ["Aura Zone","Viewing Eyes","Sword Resonance","Schiltron","Aegis","Farsight","Aura Knight"],
+		"prerequisites": ["Aura Zone","Void Armor","Strider","Aura Knight"],
 		"uniques": [
 			"Consumes [1] [Starshard]",
 			"[+50]% Strength",
 			"Will not be displayed in Civilopedia"
 		],
-		"unitTypes": ["Recon","Infantry","Anti-Armor","Mounted","Ranged Infantry"],
+		"unitTypes": ["Spellsword","Aether Cavalier","Arcane Archer"],
 	},
+	/*
+	
+	{
+		"name": "Viewing Eyes",
+		"prerequisites": ["Magic Skin"],
+		"uniques": ["Reveal up to [1] [Land] within a [10] tile radius <upon turn end>"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Schiltron",
+		"prerequisites": ["Magic Skin"],
+		"uniques": [
+			"Comment [When this unit is adjacent to Anti-Armor unit, attacker gain -15% Strength when attacking]",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles <when adjacent to a [Anti-Armor] unit> <hidden from users>"
+		],
+		"unitTypes": ["Anti-Armor"]
+	},
+	
+	*/
 	
 	// Tamer
 	{
@@ -5774,14 +5940,14 @@
 			"[This Unit] gains [5] XP <upon defeating a [Monster] unit>"
 		],
 		"unitTypes": ["Tamer"],
-		"column": 129,
+		"column": 133,
 		"row": 1
 	},
 	{
 		"name": "Assault",
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Tamer"],
-		"column": 131,
+		"column": 135,
 		"row": 1
 	},
 	{
@@ -5789,7 +5955,7 @@
 		"prerequisites": ["Insight"],
 		"uniques": ["[+20]% Strength bonus for [Monster] units within [2] tiles"],
 		"unitTypes": ["Tamer"],
-		"column": 129,
+		"column": 133,
 		"row": 2
 	},
 	{
@@ -5797,7 +5963,7 @@
 		"prerequisites": ["Assault"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Tamer"],
-		"column": 131,
+		"column": 135,
 		"row": 2
 	},
 	{
@@ -5813,7 +5979,7 @@
 			"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>",
 		],
 		"unitTypes": ["Tamer"],
-		"column": 129,
+		"column": 133,
 		"row": 3
 	},
 	{
@@ -5824,7 +5990,7 @@
 			"Can see invisible [Military] units"
 		],
 		"unitTypes": ["Tamer"],
-		"column": 130,
+		"column": 134,
 		"row": 3
 	},
 	{
@@ -5832,7 +5998,7 @@
 		"prerequisites": ["Charm","Deft"],
 		"uniques": ["All adjacent units heal [+10] HP when healing"], // Should +15 for Monster unit
 		"unitTypes": ["Tamer"],
-		"column": 131,
+		"column": 135,
 		"row": 3
 	},
 	{
@@ -5843,7 +6009,7 @@
 			"[+50]% XP gained from combat <hidden from users>"
 		],
 		"unitTypes": ["Tamer"],
-		"column": 129,
+		"column": 133,
 		"row": 4
 	},
 	{
@@ -5854,7 +6020,7 @@
 			"[+20]% Strength bonus for [Monster] units within [2] tiles"
 		],
 		"unitTypes": ["Tamer"],
-		"column": 130,
+		"column": 134,
 		"row": 4
 	},
 	{
@@ -5862,7 +6028,7 @@
 		"prerequisites": ["Suppressive","Track","Vetenary"],
 		"uniques": ["[+25]% Strength"],
 		"unitTypes": ["Tamer"],
-		"column": 131,
+		"column": 135,
 		"row": 4
 	},
 	
@@ -5887,7 +6053,7 @@
 			"[This Unit] gains the [Summon Scorpion Man] promotion <upon defeating a [Scorpion Man] unit> <hidden from users>",
 		],
 		"unitTypes": ["Tamer"],
-		"column": 132,
+		"column": 136,
 		"row": 1
 	},
 	{
@@ -7181,7 +7347,7 @@
 		]
 	},
 	{
-		"name": "Twin Sting",					// Scorpion Man, Scorpion King
+		"name": "Venomous Sting",					// Scorpion Man, Scorpion King
 		"uniques": [
 			"Comment [Inflict [Poisoned] for 2 turns]",
 			"[Target Unit] gains the [Poisoned] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>",
@@ -7190,76 +7356,6 @@
 		],
 		"civilopediaText": [
 			{"text": "Poisoned", "link":"Promotion/Poisoned"}
-		]
-	},
-	{
-		"name": "Life Drain",					// Spectre
-		"uniques": [
-			"Comment [Attack heal 5 HP, doubled when killed a unit]",
-			"[This Unit] heals [5] HP <upon damaging a [All] unit> <with [SelfTurn]>",
-			"Heals [5] damage if it kills a unit <hidden from users>"
-		]
-	},
-	{
-		"name": "Petrifying Gaze",				// Basilisk
-		"uniques": [
-			"Comment [Inflict [Petrified] for 1 turn]",
-			"[Target Unit] gains the [Petrified] status for [2] turn(s) <upon damaging a [All] unit> <with [SelfTurn]>",
-		],
-		"civilopediaText": [
-			{"text": "Petrified", "link":"Promotion/Petrified"}
-		]
-	},
-	{
-		"name": "Onslaught",					// Minotaur
-		"uniques": [
-			"[+15]% Strength <vs [Wounded] units>",
-			"Comment [Inflict [Stunned] for 2 turns with 15% chances]",
-			"[Target Unit] gains the [Stunned] status for [3] turn(s) <upon damaging a [All] unit> <with [15]% chance> <with [SelfTurn]> <hidden from users>"
-		],
-		"civilopediaText": [
-			{"text": "Stunned", "link":"Promotion/Stunned"}
-		]
-	},
-	{
-		"name": "Focused Onslaught",			// Minotaur Warlord
-		"uniques": [
-			"[+25]% Strength <vs [Wounded] units>",
-			"Comment [Inflict [Stunned] for 2 turns with 50% chances]",
-			"[Target Unit] gains the [Stunned] status for [3] turn(s) <upon damaging a [All] unit> <with [50]% chance> <with [SelfTurn]> <hidden from users>"
-		],
-		"civilopediaText": [
-			{"text": "Stunned", "link":"Promotion/Stunned"}
-		]
-	},
-	{
-		"name": "Critical",						// Arachne
-		"uniques": [
-			"Comment [Every 10 turns, has 50% chance to instantly kill enemy unit]",
-			"[This Unit] gains the [Critical Active] status for [1] turn(s) <upon turn start> <every [10] turns> <hidden from users>"
-		]
-	},
-	{
-		"name": "Critical Active",
-		"uniques": [
-			"Comment [Every 10 turns, has 50% chance to instantly kill enemy unit]",
-			"[Target Unit] gains the [Death Mark II] status for [1] turn(s) <upon damaging a [non-[Death Mark]] unit> <with [50]% chance> <hidden from users>",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Death Mark II",
-		"uniques": [
-			"[This Unit] takes [101] damage <upon turn end> <hidden from users>",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	
-	{
-		"name": "Tentacle Slam",				// Kraken
-		"uniques": [
-			"[+25]% Strength <vs [Water] units>",
-			"[+25]% Strength <vs [Embarked] units>"
 		]
 	},
 		
@@ -7374,69 +7470,6 @@
 		]
 	},
 	
-	// Louvargia
-	{
-		"name": "Cold Embrace",
-		"uniques": [
-			"Comment [When this unit gains any Cold Ailment in Friendly Land, gain 25 [Faith]]",
-			"Gain [25] [Faith] <upon gaining the [Brittle] promotion> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Brittle] status> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Chilled] promotion> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Chilled] status> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Frostbitten] promotion> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Frostbitten] status> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Frozen] promotion> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Frozen] status> <hidden from users>",
-			"Gain [25] [Faith] <upon gaining the [Permafrost] promotion> <hidden from users>"
-		]
-	},
-	{
-		"name": "Divine Right", 
-		"uniques": [
-			"Prevents spreading of religion to the city it is next to", 
-			"Can remove other religions from cities <once>",
-			"Takes your religion over the one in their birth city",
-			"Religious Unit"
-		]
-	},
-	
-	// Shinso
-	{
-		"name": "Onmyodo",
-		"uniques": [
-			"Comment [Ultimates don't require [Mana Charge]. Instead, they cost [Gold] equal to 4 times their [Aether] cost when cast]",
-			"Comment [+25% Strength when casting Active Spell]",
-			//"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>",
-			"[+25]% Strength <for units with [Infernal Purge Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Fireball Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Emberfall Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Eternal Fire Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Slashing Wind Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Tornado Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Conduit Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Voltaic Leash Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Superconductor Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Wailing Tempest Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Fossil Strike Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Geospike Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Turn to Stone Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Ice Prison Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Water Whip Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Blizzard Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Ice Age Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Melt Armor Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Solar Ray Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Iron Maiden Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Thorn Grasp Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Carnivorous Growth Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Thunderclap Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Shatter Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Pressurized Bomb Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Sanctuary Active]> <hidden from users>",
-			"[+25]% Strength <for units with [Pandemy Active]> <hidden from users>"
-		]
-	},
-	
 	// Torakj
 	{
 		"name": "Hobgoblin Discipline",
@@ -7527,58 +7560,6 @@
 		]
 	},
 	
-	// Twin Mountain
-	{
-		"name": "Trekker"
-		"uniques": [
-			"Can pass through impassable tiles",
-			"Comment [Takes no damage upon ending a turn in [Mountain] tiles]"
-		]
-	},
-	{
-		"name": "Savage Attacker",
-		"uniques": [
-			"[+25]% Strength <when attacking>",
-			"[-15]% Strength <when defending> <vs [Melee] units>"
-		]
-	},
-	{
-		"name": "Mountainborn",
-		"uniques": ["Double movement in [Hill]"]
-	},
-	
-	//Order of Slayer
-	{
-		"name": "Signs",
-		"uniques": [
-			"Comment [Though they are not warrior mages who employ powerful magic, some slayers can cast simple magic spells called signs]",
-			"Comment [Every 8th Footman unit gained will have [Mana Sensing]]",
-			"Instantly gain [1] [stockpiledCounter] <hidden from users>",
-			"[This Unit] gains the [Mana Sensing] promotion <when above [7] [stockpiledCounter]> <hidden from users>",
-			"Instantly gain [-8] [stockpiledCounter] <when above [7] [stockpiledCounter]> <hidden from users>",
-		]
-	},	
-	{
-		"name": "Mutagenic",
-		"uniques": [
-			"Comment [Slayers trained in the Spellsword School have a higher chance to awakened abilities to cast signs]",
-			"Comment [This unit is counted as 2 towards [Signs] progress]",
-			"Instantly gain [1] [stockpiledCounter] <hidden from users>",
-			//Ketokke 2 baris dibawah iki wes ra perlu, tp jaga-jaga
-			"[This Unit] gains the [Mana Sensing] promotion <when above [7] [stockpiledCounter]> <hidden from users>",
-			"Instantly gain [-8] [stockpiledCounter] <when above [7] [stockpiledCounter]> <hidden from users>",
-		]
-	},
-	
-	// Tianwu
-	{
-		"name": "Infinite Qi",
-		"uniques": [
-			"Comment [This Monk unit has infinite [Qi] during your turn]",
-			"[This Unit] gains the [Qi] promotion <upon losing the [Qi] promotion> <hidden from users>"
-		]
-	},
-	
 	// Thorin
 	{
 		"name": "Sturdy",
@@ -7661,19 +7642,6 @@
 		]
 	},
 	
-	// Dwargon
-	{
-		"name": "Advanced Antimage Core",
-		"prerequisites": ["Overcharge","Berserk"],
-		"uniques": [
-			"Comment [Attack inflicts [Mana Exhaustion] for 2 turns]",
-			"[Target Unit] gains the [Mana Exhaustion] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"
-		],
-		"civilopediaText": [
-			{"text": "Mana Exhaustion", "link":"Promotion/Mana Exhaustion"},
-		]
-	},
-	
 	// Red Moon
 	{
 		"name": "Scrying",
@@ -7691,6 +7659,137 @@
 		"uniques": [
 			"Comment [Immune to [Mana Exhaustion]]",
 			"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>"
+		]
+	},
+	
+	// Louvargia
+	{
+		"name": "Cold Embrace",
+		"uniques": [
+			"Comment [When this unit gains any Cold Ailment in Friendly Land, gain 25 [Faith]]",
+			"Gain [25] [Faith] <upon gaining the [Brittle] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Brittle] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Chilled] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Chilled] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frostbitten] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frostbitten] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frozen] promotion> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Frozen] status> <hidden from users>",
+			"Gain [25] [Faith] <upon gaining the [Permafrost] promotion> <hidden from users>"
+		]
+	},
+	{
+		"name": "Divine Right", 
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to", 
+			"Can remove other religions from cities <once>",
+			"Takes your religion over the one in their birth city",
+			"Religious Unit"
+		]
+	},
+	
+	// First Order
+	
+	
+	//Order of Slayer
+	{
+		"name": "Signs",
+		"uniques": [
+			"Comment [Though they are not warrior mages who employ powerful magic, some slayers can cast simple magic spells called signs]",
+			"Comment [Every 8th Footman unit gained will have [Mana Sensing]]",
+			"Instantly gain [1] [stockpiledCounter] <hidden from users>",
+			"[This Unit] gains the [Mana Sensing] promotion <when above [7] [stockpiledCounter]> <hidden from users>",
+			"Instantly gain [-8] [stockpiledCounter] <when above [7] [stockpiledCounter]> <hidden from users>",
+		]
+	},	
+	{
+		"name": "Mutagenic",
+		"uniques": [
+			"Comment [Slayers trained in the Spellsword School have a higher chance to awakened abilities to cast signs]",
+			"Comment [This unit is counted as 2 towards [Signs] progress]",
+			"Instantly gain [1] [stockpiledCounter] <hidden from users>",
+			//Ketokke 2 baris dibawah iki wes ra perlu, tp jaga-jaga
+			"[This Unit] gains the [Mana Sensing] promotion <when above [7] [stockpiledCounter]> <hidden from users>",
+			"Instantly gain [-8] [stockpiledCounter] <when above [7] [stockpiledCounter]> <hidden from users>",
+		]
+	},
+	
+	// Shinso
+	{
+		"name": "Onmyodo",
+		"uniques": [
+			"Comment [Ultimates don't require [Mana Charge]. Instead, they cost [Gold] equal to 4 times their [Aether] cost when cast]",
+			"Comment [+25% Strength when casting Active Spell]",
+			//"[This Unit] loses the [Mana Exhaustion] status <upon gaining the [Mana Exhaustion] status> <hidden from users>",
+			"[+25]% Strength <for units with [Infernal Purge Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Fireball Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Emberfall Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Eternal Fire Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Slashing Wind Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Tornado Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Conduit Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Voltaic Leash Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Superconductor Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Wailing Tempest Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Fossil Strike Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Geospike Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Turn to Stone Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Ice Prison Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Water Whip Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Blizzard Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Ice Age Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Melt Armor Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Solar Ray Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Iron Maiden Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Thorn Grasp Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Carnivorous Growth Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Thunderclap Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Shatter Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Pressurized Bomb Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Sanctuary Active]> <hidden from users>",
+			"[+25]% Strength <for units with [Pandemy Active]> <hidden from users>"
+		]
+	},
+	
+	// Tianwu
+	{
+		"name": "Infinite Qi",
+		"uniques": [
+			"Comment [This Monk unit has infinite [Qi] during your turn]",
+			"[This Unit] gains the [Qi] promotion <upon losing the [Qi] promotion> <hidden from users>"
+		]
+	},
+	
+	// Twin Mountain
+	{
+		"name": "Trekker"
+		"uniques": [
+			"Can pass through impassable tiles",
+			"Comment [Takes no damage upon ending a turn in [Mountain] tiles]"
+		]
+	},
+	{
+		"name": "Savage Attacker",
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"[-15]% Strength <when defending> <vs [Melee] units>"
+		]
+	},
+	{
+		"name": "Mountainborn",
+		"uniques": ["Double movement in [Hill]"]
+	},
+	
+	// Dwargon
+	{
+		"name": "Advanced Antimage Core",
+		"prerequisites": ["Overcharge","Berserk"],
+		"uniques": [
+			"Comment [Attack inflicts [Mana Exhaustion] for 2 turns]",
+			"[Target Unit] gains the [Mana Exhaustion] status for [3] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Mana Exhaustion", "link":"Promotion/Mana Exhaustion"},
 		]
 	},
 	

@@ -20,11 +20,18 @@
 * Qi and Meditate: [meditate](https://thenounproject.com/icon/meditate-6562038/) by Chaiwat Kinkaew, TH
 * Peace of Mind: [Dove](https://thenounproject.com/icon/dove-1344084/) by Sandra
 * Wholeness of Body: inspired by [Yin yang symbol variations](https://www.freepik.com/premium-vector/yin-yang-symbol-variations_413439766.htm) by Manik-designre
+* Wanderer: from Civ 6 Skirmisher
+* Ghoul: [Zombie](https://thenounproject.com/icon/zombie-2006923/) by Maciej Świerczek, PL
+* Banshee: [banshee](https://thenounproject.com/icon/banshee-1005205/) by parkjisun
+* Werewolf: [Werewolf](https://thenounproject.com/icon/werewolf-1390105/) by Icons Producer
+
+* reused icon from base game: Jaguar, Slinger, Denmark
 
 # Sprites
 
 ## by Basil (HR and AU style)
 - Lava
+- Dwarves
 
 ## by carriontrooper (FH style for tiles & AU style for units)
 - Mountain Tunnel

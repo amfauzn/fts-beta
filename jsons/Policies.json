@@ -265,7 +265,7 @@
 				"column": 5
 			},
 			{
-				"name": "Scavenged Parts",
+				"name": "Scavenging Parts",
 				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 				"requires": ["Ballistics","Siege Engineers"],
 				"row": 3,
@@ -690,7 +690,7 @@
 				"name": "Civil Society",
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
-					"[-50]% Food consumption by specialists [in all cities]"
+					"[-50]% Food consumption by [Specialists] [in all cities]"
 				],
 				"row": 1,
 				"column": 5
@@ -956,7 +956,7 @@
 				"column": 8
 			},
 			{
-				"name": "Self-Sustaining Foundries",
+				"name": "Hilirization",
 				"uniques": [
 					"Provides [1] [Level 2 Ideology] <hidden from users>",
 					"Provides [-1] [Level 1 Ideology] <hidden from users>",
@@ -1038,7 +1038,7 @@
 		],
 		"policies": [
 			{
-				"name": "Commission",
+				"name": "Conscription",
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
 					"Military Units gifted from City-States start with [10] XP",
@@ -1090,7 +1090,7 @@
 				"column": 9
 			},
 			{
-				"name": "Fortified Borders",
+				"name": "Securitization",
 				"uniques": [
 					"Provides [1] [Level 1 Ideology] <hidden from users>",
 					"[+1 Happiness] from every [Walls]",
@@ -1170,7 +1170,7 @@
 			},
 			
 			{
-				"name": "Monster Control",
+				"name": "Monster Army",
 				"uniques": [
 					"Provides [-1] [Level 2 Ideology] <hidden from users>",
 					"Only available <when above [1] [Level 2 Ideology]>",

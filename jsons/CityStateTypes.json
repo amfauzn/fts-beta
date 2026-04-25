@@ -46,13 +46,13 @@
 		"name": "Herder",
 		"friendBonusUniques": [
 			"[+1 Food] from every [Pasture]",
-			"Can build [Pasture] improvements at a [+25]% rate",
+			"Can build [Pasture] improvements at a [+50]% rate",
 			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
 			"[+1 Food] from every [Pasture]",
 			"[+1 Food] from every [Pasture] <during a Golden Age>",
-			"Can build [Pasture] improvements at a [+50]% rate",
+			"Can build [Pasture] improvements at a [+100]% rate",
 			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [56, 255, 112]
@@ -112,13 +112,13 @@
 	{
 		"name": "Monumentalist",
 		"friendBonusUniques": [
-			"[+2 Culture]",
+			"[+1 Culture]",
 			"[+2 Culture] <starting from the [Magi-Industry Age]>",
 			"[+10]% Production when constructing [World] wonders [in all cities]",
 			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"allyBonusUniques": [
-			"[+3 Culture]",
+			"[+2 Culture]",
 			"[+3 Culture] <starting from the [Magi-Industry Age]>",
 			"[+10]% Production when constructing [World] wonders [in all cities]",
 			"Provides [1] [Darkroot] <hidden from users>",
@@ -184,8 +184,8 @@
 			"Comment [Unlocks [Windmill]]",
 			"Comment [Gain [Science] boost upon constructing [Production] buildings]",
 			"Gain [10] [Science] <upon constructing [Workshop]> <hidden from users>",
-			"Gain [25] [Science] <upon constructing [Windmill]> <hidden from users>",
-			"Gain [50] [Science] <upon constructing [Factory]> <hidden from users>",
+			"Gain [20] [Science] <upon constructing [Windmill]> <hidden from users>",
+			"Gain [35] [Science] <upon constructing [Factory]> <hidden from users>",
 			"May buy [Common Mercenary] units with [Gold] [in all cities] <for [Nas] Civilizations>"
 		],
 		"color": [139, 69, 19]

@@ -43,9 +43,7 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Grassland] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource.",
-			
-			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -71,9 +69,7 @@
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Becomes [Grassland] when adjacent to [Fountain of Youth]",
 			"Becomes [Forest] when adjacent to [Man-eating Tree]",
-			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource.",
-			
-			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -90,9 +86,7 @@
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 			"Becomes [Flood plains] when adjacent to [River]",
-			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-			
-			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -111,9 +105,7 @@
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 			"Becomes [Plains] when adjacent to [River]",
-			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
-			
-			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -133,9 +125,7 @@
 			//"Becomes [Tundra] when adjacent to [Crater Lake]",
 			"Becomes [Tundra] when adjacent to [River]",
 			"Every [18] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Never receives any resources <in [Hill] tiles>",
-			
-			"KaerSlowed <in [City center] tiles> <in cities with a [Kaer]> <hidden from users>"
+			"Never receives any resources <in [Hill] tiles>"
 		]
 	},
 	{
@@ -169,7 +159,7 @@
 			"Rough terrain", 
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
-			"Units ending their turn on this terrain take [33] damage <for [non-[Trekker]] units>"
+			"Comment [Units ending their turn on this terrain take 33 damage]"
 		]
 	},
 	{
@@ -316,7 +306,7 @@
 			"Must be adjacent to [1] to [6] [Forest] tiles",
 			"[10]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [11]% [Man-eating Tree] tiles, with priority [5]",
-			"Units ending their turn on this terrain take [50] damage"
+			"Comment [Units ending their turn on this terrain take 50 damage]"
 		]
 	},
 	{
@@ -511,7 +501,7 @@
 			"Must be adjacent to [0] [Lakes] tiles",
 			"Must be adjacent to [3] to [6] [Plains] tiles",
 			"Neighboring tiles will convert to [Man-eating Tree] <in [Open terrain] tiles>",
-			"Units ending their turn on this terrain take [99] damage" // instied of 100 so Rain Forest still alive
+			"Comment [Units ending their turn on this terrain take 100 damage]"
 		],
 		"weight": 10
 	},

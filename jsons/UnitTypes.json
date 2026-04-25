@@ -26,6 +26,7 @@
 			"Footman",
 			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>",
 			"Can transform to [Hobgoblin] <for [Hobgoblin Discipline] units> <hidden from users>",
+			"Can transform to [Spellswordsman Beginner] <for [Mana Sensing] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -37,6 +38,7 @@
 			"Footman",
 			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
 			"Can transform to [Hobgoblin] <for [Hobgoblin Discipline] units> <hidden from users>",
+			"Can transform to [Spellswordsman Beginner] <for [Mana Sensing] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -48,6 +50,7 @@
 			"Mobile",
 			"No defensive terrain bonus <for units without [Aegis]>",
 			"[+1] Movement <with [Companion Raider]> <hidden from users>",
+			"Can transform to [Aether Cavalier Beginner] <for [Mana Sensing] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -58,7 +61,8 @@
 			"Air Battler",
 			"Biological",
 			"Footman",
-			"[-25]% Strength <vs cities> <when attacking>"
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can transform to [Arcane Archer Beginner] <for [Mana Sensing] units> <hidden from users>",
 		]
 	},
 	
@@ -119,6 +123,40 @@
 			"Mechanical",
 			"Ignores Zone of Control",
 			"[-100]% chance to intercept air attacks <for units without [Shoulder AA Turret]> <hidden from users>",
+		]
+	},
+	
+	// A Third Caster
+	{
+		"name": "Spellsword",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Footman",
+			"Mana Attuned",
+			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>"
+		]
+	},
+	{
+		"name": "Aether Cavalier",
+		"movementType": "Land",
+		"uniques": [
+			"Biological",
+			"Mobile",
+			"Mana Attuned",
+			"No defensive terrain bonus <for units without [Aegis]>",
+			"[+1] Movement <with [Companion Raider]> <hidden from users>",
+		]
+	},
+	{
+		"name": "Arcane Archer",
+		"movementType": "Land",
+		"uniques": [
+			"Air Battler",
+			"Biological",
+			"Footman",
+			"Mana Attuned",
+			"[-25]% Strength <vs cities> <when attacking>"
 		]
 	},
 	

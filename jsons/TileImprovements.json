@@ -756,6 +756,7 @@
 			"Unbuildable",
 			"Unpillagable",
 			"Irremovable",
+			"KaerSlowed <in cities with a [Kaer]> <hidden from users>",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
 			"Excluded from map editor"
 		],
