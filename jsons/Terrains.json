@@ -159,7 +159,7 @@
 			"Rough terrain", 
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
-			"Comment [Units ending their turn on this terrain take 33 damage]"
+			"Units ending their turn on this terrain take [33] damage"
 		]
 	},
 	{
@@ -306,7 +306,7 @@
 			"Must be adjacent to [1] to [6] [Forest] tiles",
 			"[10]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [11]% [Man-eating Tree] tiles, with priority [5]",
-			"Comment [Units ending their turn on this terrain take 50 damage]"
+			"Units ending their turn on this terrain take [50] damage"
 		]
 	},
 	{
@@ -501,7 +501,7 @@
 			"Must be adjacent to [0] [Lakes] tiles",
 			"Must be adjacent to [3] to [6] [Plains] tiles",
 			"Neighboring tiles will convert to [Man-eating Tree] <in [Open terrain] tiles>",
-			"Comment [Units ending their turn on this terrain take 100 damage]"
+			"Units ending their turn on this terrain take [100] damage"
 		],
 		"weight": 10
 	},

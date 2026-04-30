@@ -183,11 +183,6 @@
 	],
 	
 	"unitUniques": [
-		// Terrain related
-		"[This Unit] takes [33] damage <upon ending a turn in a [Mountain] tile> <for [non-[Trekker]] units>",
-		"[This Unit] takes [50] damage <upon ending a turn in a [Man-eating Tree] tile> <for [non-[Nature Keeper]] units>",
-		"[This Unit] takes [100] damage <upon ending a turn in a [Overgrowth Rift] tile> <for [non-[Nature Keeper]] units>",
-		
 		// Monster
 		"[This Unit] gains the [Synergy] status for [1] turn(s) <upon turn start> <when adjacent to a [Synergy] unit> <for [Monster] units>",
 		
@@ -262,5 +257,8 @@
 		//Mixed
 		"Cannot attack <vs [Invulnerable] units>",
 		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Unicorn] unit>",
+		
+		// Porta Alchemica
+		"May Paradrop to [Porta Alchemica] tiles up to [200] tiles away <for [Land] units> <in [Porta Alchemica] tiles>"
 	]
 }

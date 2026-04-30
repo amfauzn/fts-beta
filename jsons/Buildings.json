@@ -378,6 +378,38 @@
 		]
 	},
 	{
+		"name": "Porta Alchemica",
+		"uniqueTo": "First Order",
+		"replaces": "Courthouse",
+		"hurryCostModifier": 50,
+		"maintenance": 4,
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [in annexed cities] cities>",
+			"Comment [Can also be built in capital]",
+			"Comment [Constructed 100% faster in cities with [Obeliscus Triumphalis]]",
+			"Creates a [Matter Transmutter] improvement on a specific tile"
+		],
+		"requiredTech": "Mathematics",
+		"civilopediaText": [
+			{"text": "By imparting the knowledge of alchemy to the native populace, the First Order increases the chances of discovering hidden geniuses."}
+		]
+	},
+	{
+		"name": "Porta Alchemica Capital",
+		"uniqueTo": "First Order",
+		"hurryCostModifier": 50,
+		"maintenance": 4,
+		"uniques": [
+			"Can only be built <in [in capital] cities>",
+			"Comment [Can also be built in capital]",
+			"Comment [Constructed 100% faster in cities with [Obeliscus Triumphalis]]",
+			"Creates a [Matter Transmutter] improvement on a specific tile",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Mathematics"
+	},
+	{
 		"name": "Trading Post",
 		"gold": 2,
 		"percentStatBonus": {"gold": 25},
@@ -1438,7 +1470,7 @@
 		]
 	},
 	{
-		"name": "Crystalloom Refinery (Soulstone)",
+		"name": "Crystalloom Refinery Soulstone",
 		"cost": 300,
 		"production": 1,
 		"hurryCostModifier": 25,
@@ -1447,7 +1479,7 @@
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Horses]",
 			"Provides [1] [Soulstone]",
-			"Only available <in cities without a [Crystalloom Refinery (Rune Stone)]> <hidden from users>"
+			"Only available <in cities without a [Crystalloom Refinery Rune Stone]> <hidden from users>"
 		],
 		"requiredTech": "Alchemy",
 		"civilopediaText": [
@@ -1455,7 +1487,7 @@
 		]
 	},
 	{
-		"name": "Crystalloom Refinery (Rune Stone)",
+		"name": "Crystalloom Refinery Rune Stone",
 		"cost": 300,
 		"production": 1,
 		"hurryCostModifier": 25,
@@ -1463,7 +1495,7 @@
 		"uniques": [
 			"Consumes [2] [Iron]",
 			"Provides [1] [Rune Stone]",
-			"Only available <in cities without a [Crystalloom Refinery (Soulstone)]> <hidden from users>"
+			"Only available <in cities without a [Crystalloom Refinery Soulstone]> <hidden from users>"
 		],
 		"requiredTech": "Alchemy",
 		"civilopediaText": [
@@ -2864,9 +2896,9 @@
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Geomancy",
-		"quote": "Protect the Rift as a natural (even if deadly) wonder, studied from a safe distance."
+		"quote": "Protect the Rift as a natural, even if deadly, wonder, studied from a safe distance."
 		"civilopediaText": [
-			{"text": "Protect the Rift as a natural (even if deadly) wonder, studied from a safe distance."}
+			{"text": "Protect the Rift as a natural, even if deadly, wonder, studied from a safe distance."}
 		]
 	},
 	{
@@ -2967,9 +2999,157 @@
 		]
 	},
 	
+	// First Order
+	{
+		"name": "Obelisk of Conquest",
+		"uniqueTo": "First Order",
+		"cityHealth": 10,
+		"maintenance": 1,
+		"uniques": [
+			"Unbuildable",
+			"Can carry [1] extra [Air] units <in this city> <hidden from users>",
+			"Free [Vigilis] appears"
+		],
+		"civilopediaText": [
+			{"text": "A tapered monolithic stone pillars topped with a pyramidion, designed to commemorate military victories and imperial power."}
+		]
+	},
+	{
+		"name": "Essence Transmutter",
+		"uniqueTo": "First Order",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in [in capital] cities>",
+			"Only available <when above [10] [Essence]>",
+			//"Costs [10] [Aether]",
+			"Triggers a [The Great Transmutation] event",
+			"Remove [Essence Transmutter] [in this city]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Amber",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Amber]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Copper",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Copper]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Gems",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Gems]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Gold Ore",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Gold Ore]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Jade",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Jade]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Marble",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Marble]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Obsidian",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Obsidian]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Salt",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Salt]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Silver",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Silver]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Altalium",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Altalium]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Iron",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Iron]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Rune Stone",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Rune Stone]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Essence-Soulstone",
+		"maintenance": 0,
+		"uniques": [
+			"Unbuildable",
+			"Provides [1] [Soulstone]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 	// Shinso
 	{
 		"name": "NatW Bonus",
+		"uniqueTo": "Shinso",
 		"cost": 1,
 		"maintenance": 0,
 		"uniques": [

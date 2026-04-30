@@ -144,6 +144,30 @@
 		]
 	},
 	{
+		"name": "Alkahera",
+		"unitType": "Civilian",
+		"uniqueTo": "First Order",
+		"replaces": "Omni-Worker",
+		"movement": 2,
+		"cost": 180,
+		"requiredResource": "Soulstone",
+		"requiredTech": "Runeforging",
+		"promotions": ["Anti-Gravity Boots"],
+		"uniques": [
+			"Mechanical",
+			"Limited to [3] per Civilization",
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources",
+			"[-25]% construction time for [All] improvements",
+			"Comment [May reshape and change terrain]",
+			"Turn this tile into a [Canal] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {Open terrain} {Land}] tiles> <with [1] to [6] neighboring [Water] tiles> <by consuming this unit> <hidden from users>",
+			"Turn this tile into a [Mountain Tunnel] tile <in [{non-[Natural Wonder]} {Mountain}] tiles> <by consuming this unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Named after the Alkahest, the universal solvent capable of dissolving any composite substance, these units are tasked to extract, reshape, and transform terrains."}
+		]
+	},
+	{
 		"name": "Sandglider",
 		"unitType": "Civilian",
 		"uniqueTo": "Smeheng",
@@ -1991,6 +2015,34 @@
 	
 	// Air Bomber
 	{
+		"name": "Vigilis",
+		"unitType": "Bomber",
+		//"uniqueTo": "First Order",
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 5,
+		"range": 2,
+		"cost": 1,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Cannot be intercepted",
+			"Cannot move",
+			"No damage penalty for wounded units",
+			"[-100]% maintenance costs",
+			"[-100]% XP gained from combat",
+			"[+10] Strength <during the [Discovery Age]>",			// 15
+			"[+10] Strength <during the [Enlightenment Age]>",		// 25
+			"[+10] Strength <during the [Magi-Industry Age]>",		// 35
+			"[+15] Strength <during the [Aeromantic Age]>",			// 50
+			"[+15] Strength <starting from the [Modern Age]>",		// 65
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "Vigilis acts as the second line of attack from the city."}
+		]
+	},
+	{
 		"name": "Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -2321,7 +2373,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Shadow Fang Disciple (Ranged)",
+		"name": "Shadow Fang Disciple Ranged",
 		"unitType": "Shadow Fang Monk",
 		"movement": 2,
 		"strength": 25,
@@ -2329,7 +2381,7 @@
 		"range": 1,
 		"cost": 100,
 		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Shadow Fang Adept (Ranged)",
+		"upgradesTo": "Shadow Fang Adept Ranged",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
 			"Unbuildable",
@@ -2358,7 +2410,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Shadow Fang Adept (Ranged)",
+		"name": "Shadow Fang Adept Ranged",
 		"unitType": "Shadow Fang Monk",
 		"movement": 2,
 		"strength": 50,
@@ -2367,7 +2419,7 @@
 		"cost": 300,
 		"requiredTech": "Quintessence Powers",
 		"obsoleteTech": "Empowerment",
-		"upgradesTo": "Shadow Fang Master (Ranged)",
+		"upgradesTo": "Shadow Fang Master Ranged",
 		"promotions": ["Meditate","Venom Fang"],
 		"uniques": [
 			"Unbuildable",
@@ -2412,7 +2464,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Shadow Fang Master (Ranged)",
+		"name": "Shadow Fang Master Ranged",
 		"unitType": "Shadow Fang Monk",
 		"movement": 2,
 		"strength": 75,
@@ -2430,10 +2482,10 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Shadow Fang Shifu (Ranged)",
+		"name": "Shadow Fang Shifu Ranged",
 		"unitType": "Shadow Fang Monk",
 		"uniqueTo": "Tianwu",
-		"replaces": "Shadow Fang Master (Ranged)",
+		"replaces": "Shadow Fang Master Ranged",
 		"movement": 2,
 		"strength": 75,
 		"rangedStrength": 75,

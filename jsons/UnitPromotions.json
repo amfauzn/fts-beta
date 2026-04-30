@@ -4515,10 +4515,10 @@
 		"prerequisites": ["Venom Fang"], // need workaround
 		"uniques": [
 			"Comment [Passive. Become Ranged unit with 1 range (You need to transform the unit first)]",
-			"Can transform to [Shadow Fang Disciple (Ranged)] <for [0] movement> <for [Shadow Fang Disciple] units> <hidden from users>",
-			"Can transform to [Shadow Fang Adept (Ranged)] <for [0] movement> <for [Shadow Fang Adept] units> <hidden from users>",
-			"Can transform to [Shadow Fang Master (Ranged)] <for [0] movement> <for [Shadow Fang Master] units> <hidden from users>",
-			"Can transform to [Shadow Fang Shifu (Ranged)] <for [0] movement> <for [Shadow Fang Shifu] units> <hidden from users>"
+			"Can transform to [Shadow Fang Disciple Ranged] <for [0] movement> <for [Shadow Fang Disciple] units> <hidden from users>",
+			"Can transform to [Shadow Fang Adept Ranged] <for [0] movement> <for [Shadow Fang Adept] units> <hidden from users>",
+			"Can transform to [Shadow Fang Master Ranged] <for [0] movement> <for [Shadow Fang Master] units> <hidden from users>",
+			"Can transform to [Shadow Fang Shifu Ranged] <for [0] movement> <for [Shadow Fang Shifu] units> <hidden from users>"
 		],
 		"unitTypes": ["Shadow Fang Monk"],
 		"column": 107,
@@ -6496,7 +6496,7 @@
 		"name": "JoS Active",
 		"uniques": [
 			"[Target Unit] takes [80] damage <upon damaging a [non-[Hero]] unit> <hidden from users>",
-			"[This Unit] gains the [JoS Cooldown] status for [5] turn(s) <upon gaining the [JoS Active] status> <hidden from users>",
+			"[This Unit] gains the [JoS Cooldown] status for [10] turn(s) <upon gaining the [JoS Active] status> <hidden from users>",
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -7358,6 +7358,14 @@
 			{"text": "Poisoned", "link":"Promotion/Poisoned"}
 		]
 	},
+	
+	{
+		"name": "Tentacle Slam",				// Kraken
+		"uniques": [
+			"[+25]% Strength <vs [Water] units>",
+			"[+25]% Strength <vs [Embarked] units>"
+		]
+	},
 		
 	
 	
@@ -7690,6 +7698,16 @@
 	
 	// First Order
 	
+	{
+		"name": "Anti-Gravity Boots", 
+		"uniques": [
+			"Flying",
+			"Mobile",
+			"[+1] Movement",
+			"Can pass through impassable tiles",
+			"Can see over obstacles"
+		]
+	},
 	
 	//Order of Slayer
 	{
@@ -7765,7 +7783,8 @@
 		"name": "Trekker"
 		"uniques": [
 			"Can pass through impassable tiles",
-			"Comment [Takes no damage upon ending a turn in [Mountain] tiles]"
+			"Comment [Takes no damage upon ending a turn in [Mountain] tiles]",
+			"[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <hidden from users>"
 		]
 	},
 	{

@@ -180,4 +180,152 @@
 	},
 	
 	// Natural Wonder - 
+	
+	// First Order
+	{
+		"name": "The Great Transmutation",
+		"text": "Within the Matter Transmutter, alchemists seek to convert [Essence] into tangible matter. Though the theory is sound, such transformation demands precise calibration. What shall we create?",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Luxury resource",
+				"uniques": [
+					"Only available <when above [99] [Essence]>",
+					"Triggers a [Refinement of Opulence] event"
+				]
+			},
+			{
+				"text": "Strategic resource",
+				"uniques": [
+					"Only available <when above [49] [Essence]>",
+					"Triggers a [Substance Stabilization] event"
+				]
+			},
+			{
+				"text": "Gold",
+				"uniques": [
+					"Gain [5] [Gold]",
+					"Instantly consumes [10] [Essence]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Refinement of Opulence",
+		"text": "By isolating aesthetic and sensory properties, alchemists can shape matter into objects of beauty and desire. What form shall this [Essence] take?",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Amber",
+				"uniques": [
+					"Only available <if [Essence-Amber] is not constructed>",
+					"Gain a free [Essence-Amber] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Copper",
+				"uniques": [
+					"Only available <if [Essence-Copper] is not constructed>",
+					"Gain a free [Essence-Copper] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Gems",
+				"uniques": [
+					"Only available <if [Essence-Gems] is not constructed>",
+					"Gain a free [Essence-Gems] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Gold Ore",
+				"uniques": [
+					"Only available <if [Essence-Gold Ore] is not constructed>",
+					"Gain a free [Essence-Gold Ore] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Jade",
+				"uniques": [
+					"Only available <if [Essence-Jade] is not constructed>",
+					"Gain a free [Essence-Jade] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Marble",
+				"uniques": [
+					"Only available <if [Essence-Marble] is not constructed>",
+					"Gain a free [Essence-Marble] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Obsidian",
+				"uniques": [
+					"Only available <if [Essence-Obsidian] is not constructed>",
+					"Gain a free [Essence-Obsidian] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Salt",
+				"uniques": [
+					"Only available <if [Essence-Salt] is not constructed>",
+					"Gain a free [Essence-Salt] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			},
+			{
+				"text": "Silver",
+				"uniques": [
+					"Only available <if [Essence-Silver] is not constructed>",
+					"Gain a free [Essence-Silver] [in capital]",
+					"Instantly consumes [100] [Essence]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Substance Stabilization",
+		"text": "By abandoning elegance in favor of stability and strength, [Essence] is compressed, forced into rigid forms. The process is demanding, yet essential to the growth of your civilization. What shall these [Essence] become?",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Altalium",
+				"uniques": [
+					"Only available <if [Essence-Altalium] is not constructed>",
+					"Gain a free [Essence-Altalium] [in capital]",
+					"Instantly consumes [50] [Essence]"
+				]
+			},
+			{
+				"text": "Iron",
+				"uniques": [
+					"Only available <if [Essence-Iron] is not constructed>",
+					"Gain a free [Essence-Iron] [in capital]",
+					"Instantly consumes [50] [Essence]"
+				]
+			},
+			{
+				"text": "Rune Stone",
+				"uniques": [
+					"Only available <if [Essence-Rune Stone] is not constructed>",
+					"Gain a free [Essence-Rune Stone] [in capital]",
+					"Instantly consumes [50] [Essence]"
+				]
+			},
+			{
+				"text": "Soulstone",
+				"uniques": [
+					"Only available <if [Essence-Soulstone] is not constructed>",
+					"Gain a free [Essence-Soulstone] [in capital]",
+					"Instantly consumes [50] [Essence]"
+				]
+			}
+		]
+	},
 ]

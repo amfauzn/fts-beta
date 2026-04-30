@@ -1234,6 +1234,17 @@
 		]
 	},
 	{
+		"name": "Essence",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen <without [Essence]>",
+			"Cannot be traded", 
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "Level 1 Ideology",
 		"resourceType": "Strategic",
 		"uniques": [

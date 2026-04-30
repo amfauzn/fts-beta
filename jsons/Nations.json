@@ -26,7 +26,7 @@
 		//"Provides [2] [Starshard]",
 		//"Provides [2] [Mythical Egg]",
 		//"Provides [2] [Soulstone]",
-		"Provides [2] [Magician]",
+		//"Provides [2] [Magician]",
 		],
 		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
 "Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
@@ -479,7 +479,50 @@ Characters:
 	},
 	
 	// Archmagister Gloria of the First Order
-	
+	{
+		"name": "First Order",
+		"leaderName": "Gloria",
+		"adjective": ["Order"],
+		"preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Vaja",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Your uneducated people are insufferable. The Order will lead them better, the Order will guide them better. Wasted potentials are not to be allowed!",
+		"attacked": "I guess some people truly have only 3 braincells. Ah, who am I kidding, it's just you.",
+		"denounced": "",
+		"defeated": "No, you know nothing of what you've done! This won't be the last of us! Veritas vincit.",
+		"afterPeace": "",
+		"introduction": "Well met our astute guests. I assume you seek the truth as well. Let us exchange knowledge of this world.",
+		
+		"neutralHello": "What shall we speak about today?",
+		"hateHello": "What do you seek?",
+		"tradeRequest": "The Order demands for your fiscal cooperation yet again!",
+		
+		"outerColor": [194,160,119],
+		"innerColor": [162,  9, 50],
+		
+		"uniqueName": "Magnum Opus"
+		"uniques": [
+			"[+5] Strength <for [Mage] units>",
+			"[+5] Strength <for [Construct] units>",
+			"May buy [Obelisk of Conquest] buildings for [100] [Gold] [in annexed cities]",
+			"Comment [Enables you to teleport between [Porta Alchemica]]",
+			"Comment [May transmute [Essence] into any other non-organic material in accordance to the Law of Equivalent Exchange]",
+			
+			"[+100]% Production when constructing [Porta Alchemica] buildings [in all cities] <in cities with a [Obelisk of Conquest]> <hidden from users>",
+			"[+100]% Yield from every [Matter Transmutter GS] <hidden from users>"
+		],
+		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus",
+			"Mercury","Mellago","Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos","Nursia","Rhenus","Callatis"],
+		"spyNames": ["Faraz","Julias","August","Trajan","Aurilan","Maria","Marcus","Scato","Novia","Casius"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
 	
 	// Cosimo Malaspina of The Order of Slayer
 	{
@@ -939,7 +982,7 @@ Characters:
 		"innerColor": [152,  0,241],
 		"cities": ["Silvermane"],
 		"civilopediaText": [
-			{"text": "According to legend, Silvermane was founded by twin nine-tailed foxes who persuaded Jag'ar to spare the remnants of Thallin and instead guide volunteered to oversee their resettlement in the Sava Desert. After years of watching over them, the twins chose to settle, founding Silvermane—the first free city open to all races."},
+			{"text": "According to legend, Silvermane was founded by twin nine-tailed foxes who persuaded Jag'ar to spare the remnants of Thallin and volunteered to oversee their resettlement in the Sava Desert. After years of watching over them, the twins chose to settle, founding Silvermane—the first free city open to all races."},
 		]
 	},
 	{
@@ -1128,7 +1171,7 @@ Characters:
 		"innerColor": [255,255, 0],
 		"cities": ["Crotoa"],
 		"civilopediaText": [
-			{"text": "Crotoan are among the native beastfolk of the Eustasia Continent, living on the Selasia Island. Through covert trading networks, they aided many beastfolk enslaved by Thallin in escaping westward. Following Thallin’s fall, Crotoa assisted Jag'ar and his fellow beastfolk in traveling to and establishing the city of Townfolk."},
+			{"text": "Crotoan are among the native beastfolk of the East, living on the Selasia Island. Through covert trading networks, they aided many beastfolk enslaved by Thallin in escaping westward. Following Thallin’s fall, Crotoa assisted Jag'ar and his fellow beastfolk in traveling to and establishing the city of Townfolk."},
 		]
 	},
 	{

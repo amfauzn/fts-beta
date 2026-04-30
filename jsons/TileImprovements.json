@@ -581,6 +581,26 @@
 	
 	// Unique improvements
 	{
+		"name": "Dhab Hunter Camp",
+		"uniqueTo": "Smeheng",
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"food": 2,
+		"culture": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Construction",
+		"uniques": [
+			"[+2 Culture] <after discovering [Acoustics]>", 
+			"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>", 
+			"[-2 Food, -3 Culture] <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "C",
+		"civilopediaText": [
+			{"text": "A settlement along the Karionam river, which is used by the Mehengite to gather food, mainly from desert animals or monster, and collect water."},
+			{"text": "Dhab Hunter Camp can not be be built next to each other."}
+		]
+	},
+	{
 		"name": "Blessed Farm",
 		"uniqueTo": "Louvargia",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
@@ -602,42 +622,51 @@
 		]
 	},
 	{
-		"name": "Dhab Hunter Camp",
-		"uniqueTo": "Smeheng",
-		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
-		"food": 2,
-		"culture": 1,
-		"turnsToBuild": 9,
-		"techRequired": "Construction",
+		"name": "Matter Transmutter",
+		//"uniqueTo": "First Order",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 1,
+		"gold": 1,
+		"production": 1,
 		"uniques": [
-			"[+2 Culture] <after discovering [Acoustics]>", 
-			"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>", 
-			"[-2 Food, -3 Culture] <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Great Improvement",
+			"[+2 Science] <after discovering [Education]>",
+			"[+2 Science] <after discovering [Plastics]>",
+			"Unbuildable <in [Mountain] tiles>",
+			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
+			"Will not be replaced by automated units",
+			"Provides [1] [Essence]",
+			"Pillaging this improvement yields approximately [+5 Science, +10 Gold]",
+			"Will not be displayed in Civilopedia"
 		],
-		"shortcutKey": "C",
 		"civilopediaText": [
-			{"text": "A settlement along the Karionam river, which is used by the Mehengite to gather food, mainly from desert animals or monster, and collect water."},
-			{"text": "Dhab Hunter Camp can not be be built next to each other."}
+			{"text": "A place where the alchemists of First Order ponder, study, and conduct experiments of changing one matter into another."}
 		]
 	},
 	{
-		"name": "Staerie",
-		"uniqueTo": "Twin Mountain",
-		"terrainsCanBeBuiltOn": ["Mountain"],
+		"name": "Matter Transmutter GS",
+		"uniqueTo": "First Order",
+		"replaces": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 1,
-		"turnsToBuild": 7,
+		"gold": 1,
+		"production": 1,
 		"uniques": [
-			"[+1 Science] for each adjacent [Great Improvement]",
-			"Comment [+2 [Science] if this is the only [Staerie] in a city]", // see UA
-			"Provides [1] [cityLevelCounter] <hidden from users>",
-			"Pillaging this improvement yields approximately [+10 Gold, +4 Science]",
+			"Great Improvement",
+			"[+2 Science] <after discovering [Education]>",
+			"[+2 Science] <after discovering [Plastics]>",
+			"Unbuildable <in [Mountain] tiles>",
+			"Comment [Can be built by constructing [Porta Alchemica] or by expending a [Great Scholar]]",
+			"Comment [+100% Yield if constructed by [Great Scholar]]",
+			"Removes removable features when built",
+			"Does not need removal of [Aurora] <hidden from users>",
+			"Will not be replaced by automated units",
+			"Provides [1] [Essence]",
+			"Pillaging this improvement yields approximately [+5 Science, +10 Gold]"
 		],
-		"techRequired": "Cartography",
-		"shortcutKey": "F",
 		"civilopediaText": [
-			{"text": "An encampment with two different functions, that is to observe nature events and to monitor, guard, and anticipate surprise attacks by enemies."},
-			{"text": "While Staerie is safe from any pillaging during early game, it's better guard this improvement from the invasion of Golems."}
+			{"text": "A place where the alchemists of First Order ponder, study, and conduct experiments of changing one matter into another."}
 		]
 	},
 	{
@@ -657,6 +686,25 @@
 		"shortcutKey": "P",
 		"civilopediaText": [
 			{"text": "Tiered tower with multiple eaves, often built to test disciples. Each level represents a step in cultivation: physical, mental, and spiritual trials."}
+		]
+	},
+	{
+		"name": "Staerie",
+		"uniqueTo": "Twin Mountain",
+		"terrainsCanBeBuiltOn": ["Mountain"],
+		"science": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"[+1 Science] for each adjacent [Great Improvement]",
+			"Comment [+2 [Science] if this is the only [Staerie] in a city]", // see UA
+			"Provides [1] [cityLevelCounter] <hidden from users>",
+			"Pillaging this improvement yields approximately [+10 Gold, +4 Science]",
+		],
+		"techRequired": "Cartography",
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "An encampment with two different functions, that is to observe nature events and to monitor, guard, and anticipate surprise attacks by enemies."},
+			{"text": "While Staerie is safe from any pillaging during early game, it's better guard this improvement from the invasion of Golems."}
 		]
 	},
 	
@@ -757,6 +805,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"KaerSlowed <in cities with a [Kaer]> <hidden from users>",
+			"Porta Alchemica <in cities with a [Porta Alchemica]> <hidden from users>",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
 			"Excluded from map editor"
 		],
