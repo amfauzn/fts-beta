@@ -514,7 +514,7 @@ Characters:
 			"Comment [May transmute [Essence] into any other non-organic material in accordance to the Law of Equivalent Exchange]",
 			
 			"[+100]% Production when constructing [Porta Alchemica] buildings [in all cities] <in cities with a [Obelisk of Conquest]> <hidden from users>",
-			"[+100]% Yield from every [Matter Transmutter GS] <hidden from users>"
+			"[+100]% Yield from every [Matter Transmutter] <hidden from users>"
 		],
 		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus",
 			"Mercury","Mellago","Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos","Nursia","Rhenus","Callatis"],

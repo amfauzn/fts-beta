@@ -622,7 +622,7 @@
 		]
 	},
 	{
-		"name": "Matter Transmutter",
+		"name": "Matter Transmutter Porta",
 		//"uniqueTo": "First Order",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 1,
@@ -639,13 +639,10 @@
 			"Provides [1] [Essence]",
 			"Pillaging this improvement yields approximately [+5 Science, +10 Gold]",
 			"Will not be displayed in Civilopedia"
-		],
-		"civilopediaText": [
-			{"text": "A place where the alchemists of First Order ponder, study, and conduct experiments of changing one matter into another."}
 		]
 	},
 	{
-		"name": "Matter Transmutter GS",
+		"name": "Matter Transmutter",
 		"uniqueTo": "First Order",
 		"replaces": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],

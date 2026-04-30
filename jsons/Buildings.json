@@ -388,7 +388,7 @@
 			"Can only be built <in [in annexed cities] cities>",
 			"Comment [Can also be built in capital]",
 			"Comment [Constructed 100% faster in cities with [Obeliscus Triumphalis]]",
-			"Creates a [Matter Transmutter] improvement on a specific tile"
+			"Creates a [Matter Transmutter Porta] improvement on a specific tile"
 		],
 		"requiredTech": "Mathematics",
 		"civilopediaText": [
@@ -404,7 +404,7 @@
 			"Can only be built <in [in capital] cities>",
 			"Comment [Can also be built in capital]",
 			"Comment [Constructed 100% faster in cities with [Obeliscus Triumphalis]]",
-			"Creates a [Matter Transmutter] improvement on a specific tile",
+			"Creates a [Matter Transmutter Porta] improvement on a specific tile",
 			"Will not be displayed in Civilopedia"
 		],
 		"requiredTech": "Mathematics"
