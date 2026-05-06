@@ -260,6 +260,25 @@
 		]
 	},
 	{
+		"name": "Fertile Catalyst",
+		"uniqueTo": "'Nkuhanea",
+		"replaces": "Water Mill",
+		"food": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Must be on [River]",
+			"[+1 Food] from [River] tiles [in this city]",
+			"[+1 Food] from [Lakes] tiles [in this city]",
+			"[+1 Faith] per [8] population [in this city]"
+		],
+		"requiredTech": "The Wheel",
+		"civilopediaText": [
+			{"text": "Blessing of nature, allowing settlements to flourish into enduring centers of population and productivity."}
+		]
+	},
+	{
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -667,6 +686,25 @@
 		"requiredTech": "Poetry",
 		"civilopediaText": [
 			{"text": "A pyramid-shaped structure used to commune with the divine or perform ceremonial rites."}
+		]
+	},
+	{
+		"name": "Crypt of the Unliving",
+		"uniqueTo": "Eldariya",
+		"replaces": "Pyramid",
+		"requiredBuilding": "Monument",
+		"culture": 3,
+		"cityHealth": 25,
+		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"[+100]% Gold given to enemy if city is captured",
+			"Comment [Non-Undead enemy units adjacent to this city takes 5 damage at turn end]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Poetry",
+		"civilopediaText": [
+			{"text": "Infused with long lost necromantic magic, this sealed burial preserves the dead whose ready to rise again for service. "}
 		]
 	},
 	{
@@ -2935,6 +2973,31 @@
 		]
 	},
 	
+	// 'Nkuhanea
+	{
+		"name": "valleyFresh",
+		"uniqueTo": "'Nkuhanea",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Comment [This city are considered Fresh water]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "freePop",
+		"uniqueTo": "'Nkuhanea",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Unsellable",
+			"Must be on [Fresh Water]",
+			"[+1] population [in this city]",
+			"Automatically built in all cities where it is buildable",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 	// Mechanism
 	{
 		"name": "Magic Talent",
@@ -3021,127 +3084,11 @@
 		"maintenance": 0,
 		"uniques": [
 			"Only available <in [in capital] cities>",
-			"Only available <when above [10] [Essence]>",
-			//"Costs [10] [Aether]",
+			"Only available <when above [19] [Essence]>",
+			"Costs [5] [Aether]",
 			"Triggers a [The Great Transmutation] event",
+			"Comment [Transmute cost:\nLuxury - 135 [Essence]\nStrategic - 55 [Essence]\nGold - 20 [Essence]",
 			"Remove [Essence Transmutter] [in this city]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Amber",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Amber]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Copper",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Copper]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Gems",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Gems]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Gold Ore",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Gold Ore]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Jade",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Jade]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Marble",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Marble]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Obsidian",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Obsidian]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Salt",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Salt]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Silver",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Silver]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Altalium",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Altalium]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Iron",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Iron]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Rune Stone",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Rune Stone]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "Essence-Soulstone",
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Provides [1] [Soulstone]",
 			"Will not be displayed in Civilopedia"
 		]
 	},

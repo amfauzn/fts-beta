@@ -190,22 +190,24 @@
 			{
 				"text": "Luxury resource",
 				"uniques": [
-					"Only available <when above [99] [Essence]>",
-					"Triggers a [Refinement of Opulence] event"
+					"Only available <when above [134] [Essence]>",
+					"Triggers a [Refinement of Opulence] event",
+					"Instantly consumes [135] [Essence]"
 				]
 			},
 			{
 				"text": "Strategic resource",
 				"uniques": [
-					"Only available <when above [49] [Essence]>",
-					"Triggers a [Substance Stabilization] event"
+					"Only available <when above [54] [Essence]>",
+					"Triggers a [Substance Stabilization] event",
+					"Instantly consumes [55] [Essence]"
 				]
 			},
 			{
 				"text": "Gold",
 				"uniques": [
 					"Gain [5] [Gold]",
-					"Instantly consumes [10] [Essence]"
+					"Instantly consumes [20] [Essence]"
 				]
 			}
 		]
@@ -217,75 +219,39 @@
 		"choices": [
 			{
 				"text": "Amber",
-				"uniques": [
-					"Only available <if [Essence-Amber] is not constructed>",
-					"Gain a free [Essence-Amber] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceAmber]"]
 			},
 			{
 				"text": "Copper",
-				"uniques": [
-					"Only available <if [Essence-Copper] is not constructed>",
-					"Gain a free [Essence-Copper] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceCopper]"]
 			},
 			{
 				"text": "Gems",
-				"uniques": [
-					"Only available <if [Essence-Gems] is not constructed>",
-					"Gain a free [Essence-Gems] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceGems]"]
 			},
 			{
 				"text": "Gold Ore",
-				"uniques": [
-					"Only available <if [Essence-Gold Ore] is not constructed>",
-					"Gain a free [Essence-Gold Ore] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceGoldOre]"]
 			},
 			{
 				"text": "Jade",
-				"uniques": [
-					"Only available <if [Essence-Jade] is not constructed>",
-					"Gain a free [Essence-Jade] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceJade]"]
 			},
 			{
 				"text": "Marble",
-				"uniques": [
-					"Only available <if [Essence-Marble] is not constructed>",
-					"Gain a free [Essence-Marble] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceMarble]"]
 			},
 			{
 				"text": "Obsidian",
-				"uniques": [
-					"Only available <if [Essence-Obsidian] is not constructed>",
-					"Gain a free [Essence-Obsidian] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceObsidian]"]
 			},
 			{
 				"text": "Salt",
-				"uniques": [
-					"Only available <if [Essence-Salt] is not constructed>",
-					"Gain a free [Essence-Salt] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceSalt]"]
 			},
 			{
 				"text": "Silver",
-				"uniques": [
-					"Only available <if [Essence-Silver] is not constructed>",
-					"Gain a free [Essence-Silver] [in capital]",
-					"Instantly consumes [100] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceSilver]"]
 			}
 		]
 	},
@@ -296,35 +262,19 @@
 		"choices": [
 			{
 				"text": "Altalium",
-				"uniques": [
-					"Only available <if [Essence-Altalium] is not constructed>",
-					"Gain a free [Essence-Altalium] [in capital]",
-					"Instantly consumes [50] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceAltalium]"]
 			},
 			{
 				"text": "Iron",
-				"uniques": [
-					"Only available <if [Essence-Iron] is not constructed>",
-					"Gain a free [Essence-Iron] [in capital]",
-					"Instantly consumes [50] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceIron]"]
 			},
 			{
 				"text": "Rune Stone",
-				"uniques": [
-					"Only available <if [Essence-Rune Stone] is not constructed>",
-					"Gain a free [Essence-Rune Stone] [in capital]",
-					"Instantly consumes [50] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceRuneStone]"]
 			},
 			{
 				"text": "Soulstone",
-				"uniques": [
-					"Only available <if [Essence-Soulstone] is not constructed>",
-					"Gain a free [Essence-Soulstone] [in capital]",
-					"Instantly consumes [50] [Essence]"
-				]
+				"uniques": ["Instantly gain [1] [EssenceSoulstone]"]
 			}
 		]
 	},

@@ -1131,6 +1131,164 @@
 		]
 	},
 	
+	// First Order Essence
+	{
+		"name": "EssenceAmber",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceCopper",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceGems",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceGoldOre",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceJade",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceMarble",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceObsidian",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceSalt",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceSilver",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceAltalium",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceIron",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceRuneStone",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "EssenceSoulstone",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen", 
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
 	// Mechanism
 	{
 		"name": "Dao Perception",

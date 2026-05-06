@@ -581,6 +581,29 @@
 	
 	// Unique improvements
 	{
+		"name": "Lodepit",
+		"uniqueTo": "'Nkuhanea",
+		"replaces": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+			"Does not need removal of [Aurora] <hidden from users>",
+			"[+1 Culture] for each adjacent [City center]",
+			"Comment [+1 [Food] if adjacent to [Montain] tiles]",
+			"[+1 Production] <in [Fresh water] tiles>",
+			"[+1 Production] <after discovering [Metallurgy]>",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Mountain] tiles> <hidden from users>"
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M",
+		"civilopediaText": [
+			{"text": "Often established near fertile lands, these dugged tunnel are among the earliest forms of organized extraction."}
+		]
+	},
+	{
 		"name": "Dhab Hunter Camp",
 		"uniqueTo": "Smeheng",
 		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
@@ -639,6 +662,9 @@
 			"Provides [1] [Essence]",
 			"Pillaging this improvement yields approximately [+5 Science, +10 Gold]",
 			"Will not be displayed in Civilopedia"
+		],
+		"civilopediaText": [
+			{"text": "A place where the alchemists of First Order ponder, study, and conduct experiments of changing one matter into another."}
 		]
 	},
 	{
@@ -801,6 +827,7 @@
 			"Unbuildable",
 			"Unpillagable",
 			"Irremovable",
+			"Fresh water <in cities with a [valleyFresh]> <Suppress warning [*is not allowed on its target type*]> <hidden from users>",
 			"KaerSlowed <in cities with a [Kaer]> <hidden from users>",
 			"Porta Alchemica <in cities with a [Porta Alchemica]> <hidden from users>",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",

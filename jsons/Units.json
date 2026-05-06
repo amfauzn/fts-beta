@@ -538,6 +538,29 @@
 		]
 	},
 	{
+		"name": "Ishtuk Guard",
+		"unitType": "Anti-Armor",
+		"uniqueTo": "'Nkuhanea",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 15,
+		"cost": 56,
+		"hurryCostModifier": 10,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"promotions": ["[Ishtuk Guard] ability"],
+		"uniques": [
+			"Can only be built <in cities with a [Barracks]> <hidden from users>",
+			"[+17]% Strength <vs [Mounted] units>",
+			"May travel on Water tiles without embarking"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Hardy warriors accustomed to fighting along winding rivers, entrusted with defending fertile shores and protecting the Nukuhanean."}
+		]
+	},
+	{
 		"name": "Hobgoblin",
 		"unitType": "Hobes",
 		"uniqueTo": "Torakj",
@@ -604,7 +627,7 @@
 		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Designed to disrupt enemy formation, these weapon forever changed its use when proven to be effective against landship's armor."}
 		]
 	},
 	{
@@ -3698,6 +3721,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Industrialization",
+		//"upgradesTo": "Black Widow",
 		"promotions": ["Woodsman","Web Trap"],
 		"uniques": [
 			"Biological",
@@ -3924,6 +3948,27 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A floating head with long hair used to wrap around the victim whose soul was to be taken."}
+		]
+	},
+	{
+		"name": "Kraken",
+		"unitType": "Water Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 38,
+		"cost": 165,
+		"requiredTech": "Cartography",
+		"obsoleteTech": "Biology",
+		"promotions": ["Tentacle Slam"],
+		"uniques": [
+			"Boss",
+			"Invisible to non-adjacent units",
+			"Limited to [1] per Civilization", 
+			"Uncapturable"
+		],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A titanic cephalopod-like creature with immense power, hunting and destroying ships that pass near it."}
 		]
 	},
 	
@@ -4236,4 +4281,44 @@
 		],
 		"attackSound": "shot"
 	},
+	
+	
+	/*
+	{
+		"name": "",
+		"unitType": "",
+		"uniqueTo": "",
+		"replaces": "",
+		"movement": ,
+		"strength": ,
+		"rangedStrength": ,
+		"range": ,
+		"cost": ,
+		"hurryCostModifier": ,
+		"requiredResource": "",
+		"requiredTech": "",
+		"obsoleteTech": "",
+		"upgradesTo": "",
+		"promotions": [""],
+		"uniques": [""],
+		"attackSound": "",
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	*/
+	
+	
+	
+    {
+		"name": "Rifleman",
+		"unitType": "Infantry",
+		//"unitType": "Ranged Infantry",
+		"movement": 10,
+		"strength": 7,
+		"rangedStrength": 10,
+        "range": 2,
+		"cost": 40,
+		"attackSound": "shot"
+	}
 ]

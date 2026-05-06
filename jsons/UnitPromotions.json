@@ -7459,6 +7459,19 @@
 		"uniques": ["[Great General] is earned [100]% faster"]
 	},
 	
+	// 'Nkuhanea
+	{
+		"name": "Valley Warrior",
+		"uniques": ["Can move after attacking <in [Water] tiles>"]
+	},
+	{
+		"name": "[Ishtuk Guard] ability",
+		"uniques": [
+			"[+1] Movement <in [Water] tiles>",
+			"[+1] Movement <in [River] tiles>"
+		]
+	},
+	
 	// Polgar Sod'em
 	{
 		"name": "Efficient Machinery",

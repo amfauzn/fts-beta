@@ -111,6 +111,52 @@ Characters:
 	
 //	Laurasia
 	
+	// Erish of 'Nkuhanea
+	{
+		"name": "'Nkuhanea",
+		"leaderName": "Erish",
+		"adjective": ["Nukuhanean"],
+		"startBias": ["Fresh Water"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Kunakad",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I can engage in this war without sacrificing morals. Can you?"
+		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
+		"denounced": "",
+		"defeated": "No, I am not ready to leave my people. No!",
+		"afterPeace": "Because of war, haven't we all been hurt?",
+		"introduction": "I am Erish, and who are you, gentleman?",
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"outerColor": [105, 34,172],
+		"innerColor": [255,102,102],
+		
+		"uniqueName": "Valley of Rejuvenation"
+		"uniques": [
+			"Comment [Your first 4 cities are considered Fresh water]",
+			"Comment [+1 Population to all cities settled on Fresh Water tile]",
+			"Comment [Land unit can move after attacking on water tiles]",
+			
+			"Provides a [valleyFresh] in your first [4] cities for free <hidden from users>",
+			"[{Military} {Land}] units gain the [Valley Warrior] promotion <hidden from users>"
+		],
+		"cities": ["Akhetutan","Sabata","Guzana","Noenna","Chu'ata","Vrybergam","Jundiaí","Pliska","Jayapura","Beikthano",
+			"Kyaukse","Veptis Parla","Hieraconpolia","Binnaka","Nias","Quirigua","Q'umarkaj","Mamuju","Kaur","Tsymbalka"],
+		"spyNames": ["Heba","Sukaesih","Ma'at","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	
 	// Hajruddin of Polgar Sod'em
 	{
 		"name": "Polgar Sod'em",
@@ -514,7 +560,22 @@ Characters:
 			"Comment [May transmute [Essence] into any other non-organic material in accordance to the Law of Equivalent Exchange]",
 			
 			"[+100]% Production when constructing [Porta Alchemica] buildings [in all cities] <in cities with a [Obelisk of Conquest]> <hidden from users>",
-			"[+100]% Yield from every [Matter Transmutter] <hidden from users>"
+			"[+100]% Yield from every [Matter Transmutter] <hidden from users>",
+			
+			// Transmute stuff
+			"Provides [1] [Amber] <for every [EssenceAmber]> <hidden from users>",
+			"Provides [1] [Copper] <for every [EssenceCopper]> <hidden from users>",
+			"Provides [1] [Gems] <for every [EssenceGems]> <hidden from users>",
+			"Provides [1] [Gold Ore] <for every [EssenceGoldOre]> <hidden from users>",
+			"Provides [1] [Jade] <for every [EssenceJade]> <hidden from users>",
+			"Provides [1] [Marble] <for every [EssenceMarble]> <hidden from users>",
+			"Provides [1] [Obsidian] <for every [EssenceObsidian]> <hidden from users>",
+			"Provides [1] [Salt] <for every [EssenceSalt]> <hidden from users>",
+			"Provides [1] [Silver] <for every [EssenceSilver]> <hidden from users>",
+			"Provides [1] [Altalium] <for every [EssenceAltalium]> <hidden from users>",
+			"Provides [1] [Iron] <for every [EssenceIron]> <hidden from users>",
+			"Provides [1] [Rune Stone] <for every [EssenceRuneStone]> <hidden from users>",
+			"Provides [1] [Soulstone] <for every [EssenceSoulstone]> <hidden from users>"
 		],
 		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus",
 			"Mercury","Mellago","Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos","Nursia","Rhenus","Callatis"],

@@ -16,6 +16,7 @@
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [123,202,226],
+		"uniques": ["Doesn't generate naturally"]
 	},
 	{
 		"name": "Coast", // Beach
@@ -182,7 +183,7 @@
 		"movementCost": 1,
 		"RGB": [107,167,193]
 		"uniques": [
-			"Fresh water",
+			//"Fresh water",
 			"Doesn't generate naturally"
 		]
 	},
@@ -382,7 +383,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Coast","Shallow Ocean"],
+		"occursOn": ["Coast","Shallow Ocean","Ocean"],
 		"uniques": [
 			"Rough terrain",
 			//"Vegetation",
@@ -395,7 +396,8 @@
 			//"Neighboring tiles except [Land] will convert to [Coast]",
 			"A Region is formed with at least [20]% [Mangrove] tiles, with priority [5]",
 			//"A Region can not contain more [Mangrove] tiles than [Coast] tiles",
-			//"Doesn't generate naturally <in [Coast] tiles>"
+			//"Doesn't generate naturally <in [Coast] tiles>",
+			"Must be adjacent to [1] to [6] [Coast] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 		]
@@ -408,7 +410,7 @@
 		"occursOn": ["Shallow Ocean","Ocean"],
 		"uniques": [
 			"Rare feature",
-			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Coast] tiles"
 		]
 	},
 	{
