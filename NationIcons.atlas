@@ -13,9 +13,16 @@ NationIcons/'Nkuhanea
   index: -1
 NationIcons/Adelle Corp
   rotate: false
-  xy: 1252, 914
+  xy: 1044, 498
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Cavegoa
+  rotate: false
+  xy: 4, 606
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Circle
@@ -27,140 +34,147 @@ NationIcons/Circle
   index: -1
 NationIcons/CityState
   rotate: false
-  xy: 4, 606
+  xy: 212, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Dwargon
   rotate: false
-  xy: 212, 814
+  xy: 4, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Eldariya
   rotate: false
-  xy: 4, 398
+  xy: 212, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/First Order
   rotate: false
-  xy: 212, 606
+  xy: 420, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Frostmorrow
   rotate: false
-  xy: 420, 814
+  xy: 4, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Louvargia
   rotate: false
-  xy: 4, 190
+  xy: 212, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Marunesia
   rotate: false
-  xy: 212, 398
+  xy: 420, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Nas
   rotate: false
-  xy: 420, 606
+  xy: 628, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Polgar Sod'em
   rotate: false
-  xy: 628, 814
+  xy: 212, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Rain Forest
   rotate: false
-  xy: 212, 190
+  xy: 420, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Red Moon
   rotate: false
-  xy: 420, 398
+  xy: 628, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Shinso
   rotate: false
-  xy: 628, 606
+  xy: 836, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Smeheng
   rotate: false
-  xy: 836, 814
+  xy: 420, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Sulvana
   rotate: false
-  xy: 420, 190
+  xy: 628, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Thallin
   rotate: false
-  xy: 628, 398
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/The Order of Slayer
-  rotate: false
   xy: 836, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Thorin
+NationIcons/The Order of Witchers
   rotate: false
   xy: 1044, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Tianwu
+NationIcons/Thorin
   rotate: false
   xy: 628, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Torakj
+NationIcons/Tianwu
   rotate: false
   xy: 836, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Twin Mountain
+NationIcons/Torakj
   rotate: false
   xy: 1044, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Townfolk
+  rotate: false
+  xy: 1252, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Twin Mountain
+  rotate: false
+  xy: 836, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

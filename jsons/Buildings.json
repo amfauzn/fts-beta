@@ -95,12 +95,12 @@
 		"uniqueTo": "Polgar Sod'em",
 		"replaces": "Monument",
 		"culture": 2,
-		"cost": 20,
+		"cost": 30,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
 			"NatW preq",
-			"[+1 Science] <after discovering [Geomancy]>",
+			"[+1 Science] <after discovering [Paper Making]>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Language",
@@ -268,7 +268,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must be on [River]",
+			"Must be next to [Fresh water]",
 			"[+1 Food] from [River] tiles [in this city]",
 			"[+1 Food] from [Lakes] tiles [in this city]",
 			"[+1 Faith] per [8] population [in this city]"
@@ -353,6 +353,7 @@
 			"Military unlocker",
 			"Magic Building",
 			"Comment [Enables training Mage & Golem units]",
+			"Comment [May choose elemental principle for your empire upon being constructed in capital]",
 			//"Free [Priest] appears",
 			"[+10]% weight to this choice for AI decisions",
 			"Destroyed when the city is captured"
@@ -406,7 +407,7 @@
 			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [in annexed cities] cities>",
 			"Comment [Can also be built in capital]",
-			"Comment [Constructed 100% faster in cities with [Obeliscus Triumphalis]]",
+			"Comment [Constructed 100% faster in cities with [Obelisk of Conquest]]",
 			"Creates a [Matter Transmutter Porta] improvement on a specific tile"
 		],
 		"requiredTech": "Mathematics",
@@ -575,6 +576,23 @@
 		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "More than a training hall, the Dojo combines martial discipline with spiritual practice, teaching warriors both the use of weapons and meditation."}
+		]
+	},
+	{
+		"name": "Huma Sulong",
+		"uniqueTo": "Townfolk",
+		"replaces": "Training Ground",
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [{Military} {non-[Monk]}] units start with [15] XP [in this city]",
+			"Gain [25] [Culture] <upon entering a Golden Age>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction",
+		"civilopediaText": [
+			{"text": "Dedicated for Sulong training, a practice created by Raflar Sulong to help his fellow beastmen to master their emotions and inner power."}
 		]
 	},
 	
@@ -1011,25 +1029,6 @@
 		]
 	},
 	{
-		"name": "Kaer",
-		"uniqueTo": "The Order of Slayer",
-		"replaces": "Castle",
-		"requiredBuilding": "Walls",
-		"production": 1,
-		"cityStrength": 10,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"uniques": [
-			"[+1 Production] <within [1] tiles of a [Mountain]>",
-			"Comment [Enemy units within 2 tiles of this city and is inside our territory receive -2 Movement]",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Chivalry",
-		"civilopediaText": [
-			{"text": "A keep where slayers used to be trained, now used mostly for resting between assignments."}
-		]
-	},
-	{
 		"name": "Stronghold",
 		"uniqueTo": "Nas",
 		"replaces": "Castle",
@@ -1115,45 +1114,11 @@
 			"Magic Building",
 			"NatW preq",
 			"Costs [30] [Aether]",
-			"Comment [Newly-trained Infantry, Anti-Armor, Mounted, Ranged Infantry in this city has 34% chances to receive the [Mana Sensing] skill]",
-			"All newly-trained [Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Anti-Armor] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Mounted] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Ranged Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>"
+			"Comment [May choose elemental principle for your empire upon being constructed in capital]"
 		],
 		"requiredTech": "Mana Crystallization",
 		"civilopediaText": [
 			{"text": "A prestigious institution where advanced arcane knowledge is studied and passed down."}
-		]
-	},
-	{
-		"name": "Elemental Circle",
-		"uniqueTo": "The Order of Slayer",
-		"replaces": "Academy of Magic",
-		"requiredResource": "Rune Stone",
-		"science": 1,
-		"uniques": [
-			"Magic Building",
-			"NatW preq",
-			"Costs [30] [Aether]",
-			
-			"Comment [Also replaces [Centre of Arcane]]",
-			"[+1 Culture] from [Ley Line] tiles [in this city]",
-			"[+1 Culture] from [Artificial Ley Line] tiles [in this city]",
-			"Comment [Infantry units in this city is counted as 2 towards [Signs] progress]",
-			"All newly-trained [{Military} {Infantry}] units [in this city] receive the [Mutagenic] promotion <hidden from users>",
-			
-			"All newly-trained [Mage] units [in this city] receive the [Elemental Mastery] promotion",
-			"Comment [All newly-trained Recon, Infantry, Anti-Armor, Mounted, Ranged Infantry in this city receive the [Mana Sensing] skill with 34% chance]"
-			"All newly-trained [Recon] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Anti-Armor] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Mounted] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>",
-			"All newly-trained [Ranged Infantry] units [in this city] receive the [Mana Sensing] promotion <with [34]% chance> <hidden from users>"
-		],
-		"requiredTech": "Mana Crystallization",
-		"civilopediaText": [
-			{"text": "Built atop high concentration of magic, these institution train and equip the itinerant monster slayers, increasing their chances of mutation."}
 		]
 	},
 	{
@@ -1286,22 +1251,6 @@
 		"civilopediaText": [
 			{"text": "A place where people with magical affinity resides and hone their magical skill."}
 		]
-	},
-	{
-		"name": "CoA Slayer",
-		"uniqueTo": "The Order of Slayer",
-		"replaces": "Centre of Arcane",
-		"requiredNearbyImprovedResources": ["Ley Line"],
-		"hurryCostModifier": 10,
-		"maintenance": 0,
-		"uniques": [
-			"Unbuildable",
-			"Cannot be purchased",
-			"[+1 Culture] from [Ley Line] tiles [in this city]",
-			"[+1 Culture] from [Artificial Ley Line] tiles [in this city]",
-			"Will not be displayed in Civilopedia"
-		],
-		"requiredTech": "Spellbook Codification"
 	},
 	{
 		"name": "Warding Tower",
@@ -2622,42 +2571,6 @@
 			{"text": "Unpredictable and hard to pin down, they rely on erratic movements, chance-based effects, and of course, intoxication."}
 		]
 	},
-	{
-		"name": "Gun Fu School",
-		"uniques": [
-			"Unbuildable",
-			"Unsellable",
-			"Moves to new capital when capital changes",
-			"May buy [Gun Fu Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
-		],
-		"civilopediaText": [
-			{"text": "These monks use pistols as part of their combat form, blending tradition with invention to attack enemy from afar."}
-		]
-	},
-	{
-		"name": "Loyal Brotherhood School",
-		"uniques": [
-			"Unbuildable",
-			"Unsellable",
-			"Moves to new capital when capital changes",
-			"May buy [Loyal Brotherhood Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
-		],
-		"civilopediaText": [
-			{"text": "These monks never fight alone—bound by oath and vengeance, they appear in pairs and grow stronger together in battle."}
-		]
-	},
-	{
-		"name": "Wuxia School",
-		"uniques": [
-			"Unbuildable",
-			"Unsellable",
-			"Moves to new capital when capital changes",
-			"May buy [Wuxia Monk] units with [Faith] for [1] times their normal Production cost <after adopting [Postulants]>"
-		],
-		"civilopediaText": [
-			{"text": "Wuxia monks are mounted martial heroes who strike fast and ride far, trained for open warfare and charging attack."}
-		]
-	},
 	
 	// Religious Buildings
 	{
@@ -2973,28 +2886,18 @@
 		]
 	},
 	
-	// 'Nkuhanea
+	// Victory
 	{
-		"name": "valleyFresh",
-		"uniqueTo": "'Nkuhanea",
+		"name": "Utopia Project",
+		"cost": 1500,
+		"isNationalWonder": true,
 		"uniques": [
-			"Unbuildable",
-			"Unsellable",
-			"Comment [This city are considered Fresh water]",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "freePop",
-		"uniqueTo": "'Nkuhanea",
-		"cost": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Unsellable",
-			"Must be on [Fresh Water]",
-			"[+1] population [in this city]",
-			"Automatically built in all cities where it is buildable",
-			"Will not be displayed in Civilopedia"
+			"Only available <when [Cultural] Victory is enabled>",
+			"Only available <with [Level 3 Ideology]>",
+			"Unavailable <when number of [Completed Policy branches] is less than [4]>",
+			"Cannot be hurried",
+			"Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion"
 		]
 	},
 	
@@ -3058,6 +2961,31 @@
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Magician]",
 			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// 'Nkuhanea
+	{
+		"name": "valleyFresh",
+		"uniqueTo": "'Nkuhanea",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Comment [This city are considered Fresh water]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "freePop",
+		"uniqueTo": "'Nkuhanea",
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Unsellable",
+			"Must be on [Fresh Water]",
+			"[+1] population [in this city]",
+			"Automatically built in all cities where it is buildable",
 			"Will not be displayed in Civilopedia"
 		]
 	},

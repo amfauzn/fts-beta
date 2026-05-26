@@ -4,10 +4,12 @@
 * Amber: [Crystal](https://thenounproject.com/icon/crystal-1440050/) by Monjin Friends
 * Mithril, Heavy Plate, Titanmail: [armor](https://thenounproject.com/icon/armor-2873073/) by Template, TH
 * Red Moon: From the base game - [Aztecs](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Aztecs.png) by Sean
+* Cavegoa: Aries Zodiak
 * Gemcutter: [Gemcutter](logomakr.com/4iZIRQ) by Cavenir
 * Textile Mill: [textile fabric](https://thenounproject.com/icon/textile-fabric-3961065/) by varvarvarvarra
 * Sect: [temple](https://thenounproject.com/icon/temple-3381012/) by supalerk laipawat, TH
 * Printing: [Printing Press](https://thenounproject.com/icon/printing-press-11880/) by Mike Wirth, US
+* Mink: [wolf paw](https://thenounproject.com/icon/wolf-paw-4682478/) by Andri Graphic, ID
 * Adamantite Golem: [Rock Golem](https://www.svgrepo.com/svg/323126/rock-golem) game-icons.net
 * Garuda: [Eagle](https://thenounproject.com/icon/eagle-1025832/) by m. turan ercan, TH
 * Roc: [hawk](https://thenounproject.com/icon/hawk-2183245/) by ProSymbols, US
@@ -20,6 +22,7 @@
 * Qi and Meditate: [meditate](https://thenounproject.com/icon/meditate-6562038/) by Chaiwat Kinkaew, TH
 * Peace of Mind: [Dove](https://thenounproject.com/icon/dove-1344084/) by Sandra
 * Wholeness of Body: inspired by [Yin yang symbol variations](https://www.freepik.com/premium-vector/yin-yang-symbol-variations_413439766.htm) by Manik-designre
+* Taunt: inspired from Merchant RPG Taunt
 * Wanderer: from Civ 6 Skirmisher
 * Ghoul: [Zombie](https://thenounproject.com/icon/zombie-2006923/) by Maciej Świerczek, PL
 * Banshee: [banshee](https://thenounproject.com/icon/banshee-1005205/) by parkjisun

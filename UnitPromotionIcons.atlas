@@ -4,2697 +4,3515 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
+UnitPromotionIcons/A Thousand Punches
+  rotate: false
+  xy: 4, 1844
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/AA Defense
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Barding
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bulwark Protocol
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cover
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Deflect
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Deft
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Emplacement
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Entrenched Position
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hardened Scale
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shield Wall
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tortoise
   rotate: false
-  xy: 4, 1840
+  xy: 112, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Absolute Awareness
   rotate: false
-  xy: 4, 1732
+  xy: 220, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Awareness
   rotate: false
-  xy: 4, 1732
+  xy: 220, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ace Buster
   rotate: false
-  xy: 112, 1840
+  xy: 328, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ace Fighter Squadron
   rotate: false
-  xy: 112, 1840
+  xy: 328, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Acid Breath
   rotate: false
-  xy: 4, 1624
+  xy: 436, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Melt Armor
   rotate: false
-  xy: 4, 1624
+  xy: 436, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Melt Armor Active
   rotate: false
-  xy: 4, 1624
+  xy: 436, 1844
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Acidic Toxins
+  rotate: false
+  xy: 544, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Adaptable
   rotate: false
-  xy: 112, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Aegis
-  rotate: false
-  xy: 220, 1840
+  xy: 652, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aerial Agility
   rotate: false
-  xy: 4, 1516
+  xy: 760, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Evasive Manuever
   rotate: false
-  xy: 4, 1516
+  xy: 760, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Silent Running
   rotate: false
-  xy: 4, 1516
+  xy: 760, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Aerial Agility Cooldown
   rotate: false
-  xy: 112, 1624
+  xy: 868, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Aerosphere
+UnitPromotionIcons/Aether Core
   rotate: false
-  xy: 220, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Aerosphere Active
-  rotate: false
-  xy: 220, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Gale Barrier
-  rotate: false
-  xy: 220, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Gale Barrier Active
-  rotate: false
-  xy: 220, 1732
+  xy: 976, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Agile
   rotate: false
-  xy: 328, 1840
+  xy: 1084, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Agoge
   rotate: false
-  xy: 4, 1408
+  xy: 1192, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Air Repair
   rotate: false
-  xy: 112, 1516
+  xy: 1300, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Crew Weapons
   rotate: false
-  xy: 112, 1516
+  xy: 1300, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Deck Crew
   rotate: false
-  xy: 112, 1516
+  xy: 1300, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tactical Maintenance
   rotate: false
-  xy: 112, 1516
+  xy: 1300, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Air Siege
   rotate: false
-  xy: 220, 1624
+  xy: 1408, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Beachhead
   rotate: false
-  xy: 220, 1624
+  xy: 1408, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ambusher
   rotate: false
-  xy: 328, 1732
+  xy: 1516, 1844
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Huntdown
+  rotate: false
+  xy: 1516, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter's Instinct
   rotate: false
-  xy: 328, 1732
+  xy: 1516, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Weakpoint Exploitation
   rotate: false
-  xy: 328, 1732
+  xy: 1516, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Amphibious
+UnitPromotionIcons/Ammo
   rotate: false
-  xy: 436, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Amphibious Drive
-  rotate: false
-  xy: 436, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Landing Party
-  rotate: false
-  xy: 436, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Animate Earth
-  rotate: false
-  xy: 4, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Animate Earth Active
-  rotate: false
-  xy: 4, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Animate Earth Cooldown
-  rotate: false
-  xy: 112, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Antidote
-  rotate: false
-  xy: 220, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Healing Potion
-  rotate: false
-  xy: 220, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Antimage Core
-  rotate: false
-  xy: 328, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Arcane Stitch
-  rotate: false
-  xy: 436, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Arcane Stitch Active
-  rotate: false
-  xy: 436, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Arcane Stitch Cooldown
-  rotate: false
-  xy: 544, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Armor Piercing
-  rotate: false
-  xy: 4, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Armor Plating
-  rotate: false
-  xy: 112, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Reinforced Hull
-  rotate: false
-  xy: 112, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Assault
-  rotate: false
-  xy: 220, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Battlecry
-  rotate: false
-  xy: 220, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Destructor Protocol
-  rotate: false
-  xy: 220, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Rout
-  rotate: false
-  xy: 220, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Aura Fatigue
-  rotate: false
-  xy: 328, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Aura Knight
-  rotate: false
-  xy: 436, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Aura Master
-  rotate: false
-  xy: 544, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Aura Zone
-  rotate: false
-  xy: 652, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Aura of Protection
-  rotate: false
-  xy: 4, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Avenger
-  rotate: false
-  xy: 112, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Battle Recon
-  rotate: false
-  xy: 220, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Berserk
-  rotate: false
-  xy: 328, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blazing Fire
-  rotate: false
-  xy: 436, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blazing Retort
-  rotate: false
-  xy: 544, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blazing Retort Active
-  rotate: false
-  xy: 544, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fire Infusion
-  rotate: false
-  xy: 544, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blazing Retort Cooldown
-  rotate: false
-  xy: 652, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Bleeding
-  rotate: false
-  xy: 760, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blinded
-  rotate: false
-  xy: 4, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Camouflage
-  rotate: false
-  xy: 4, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blizzard
-  rotate: false
-  xy: 112, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blizzard Active
-  rotate: false
-  xy: 112, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blizzard Aura
-  rotate: false
-  xy: 112, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Breath
-  rotate: false
-  xy: 112, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Fan
-  rotate: false
-  xy: 112, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Fan Active
-  rotate: false
-  xy: 112, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Permafrost
-  rotate: false
-  xy: 112, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Blizzard Cooldown
-  rotate: false
-  xy: 220, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Breakthrough
-  rotate: false
-  xy: 328, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Brittle
-  rotate: false
-  xy: 436, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Broken
-  rotate: false
-  xy: 544, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Burning
-  rotate: false
-  xy: 652, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Calcifying
-  rotate: false
-  xy: 760, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Carnivorous Growth
-  rotate: false
-  xy: 868, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Carnivorous Growth Active
-  rotate: false
-  xy: 868, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Carnivorous Growth Creation
-  rotate: false
-  xy: 868, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Carnivorous Growth Cooldown
-  rotate: false
-  xy: 4, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Charm
-  rotate: false
-  xy: 112, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Chilled
-  rotate: false
-  xy: 220, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Circle
-  rotate: false
-  xy: 328, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Claw Arm
-  rotate: false
-  xy: 436, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Piercing Claw
-  rotate: false
-  xy: 436, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Cleanses
-  rotate: false
-  xy: 544, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Cleanses Active
-  rotate: false
-  xy: 544, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Cleanses Cooldown
-  rotate: false
-  xy: 652, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Coastal Raider
-  rotate: false
-  xy: 760, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Depredation
-  rotate: false
-  xy: 760, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Loot
-  rotate: false
-  xy: 760, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Coincidence Rangefinding
-  rotate: false
-  xy: 868, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Saboteur
-  rotate: false
-  xy: 868, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Combustion
-  rotate: false
-  xy: 976, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Conductive
-  rotate: false
-  xy: 4, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Conduit
-  rotate: false
-  xy: 112, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Conduit Active
-  rotate: false
-  xy: 112, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shock Line
-  rotate: false
-  xy: 112, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shock Line Active
-  rotate: false
-  xy: 112, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Conduit Cooldown
-  rotate: false
-  xy: 220, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Conflagration
-  rotate: false
-  xy: 328, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pressurized Bomb
-  rotate: false
-  xy: 328, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pressurized Bomb Activator
-  rotate: false
-  xy: 328, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pressurized Bomb Active
-  rotate: false
-  xy: 328, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shell
-  rotate: false
-  xy: 328, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Convoy
-  rotate: false
-  xy: 436, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Corroded
-  rotate: false
-  xy: 544, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Corrosive Touch
-  rotate: false
-  xy: 652, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Corrosive Touch Active
-  rotate: false
-  xy: 652, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Coup de Grace
-  rotate: false
-  xy: 760, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Creeping Attack
-  rotate: false
-  xy: 868, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Demolitionist
-  rotate: false
-  xy: 868, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Marksman
-  rotate: false
-  xy: 868, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Precision
-  rotate: false
-  xy: 868, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Tactical Strike
-  rotate: false
-  xy: 868, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Targeting
-  rotate: false
-  xy: 868, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Water Veteran
-  rotate: false
-  xy: 868, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Crushed
-  rotate: false
-  xy: 976, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Crusher Arm
-  rotate: false
-  xy: 1084, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Damage Absorb
-  rotate: false
-  xy: 4, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/March
-  rotate: false
-  xy: 4, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Deafened
-  rotate: false
-  xy: 112, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Death Mark
-  rotate: false
-  xy: 220, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Death Ward
-  rotate: false
-  xy: 328, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Death Ward Cooldown
-  rotate: false
-  xy: 436, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Deflect Cooldown
-  rotate: false
-  xy: 544, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Disarmed
-  rotate: false
-  xy: 652, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Disoriented
-  rotate: false
-  xy: 760, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Disrupted
-  rotate: false
-  xy: 868, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Disruption
-  rotate: false
-  xy: 976, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Double Armor Plating
-  rotate: false
-  xy: 1084, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Secondary Armor Plating
-  rotate: false
-  xy: 1084, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Earth Infusion
-  rotate: false
-  xy: 1192, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fossil Strike
-  rotate: false
-  xy: 1192, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fossil Strike Active
-  rotate: false
-  xy: 1192, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Electrified
-  rotate: false
-  xy: 4, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Elemental Infusion
-  rotate: false
-  xy: 112, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Elemental Manipulation
-  rotate: false
-  xy: 220, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Elemental Mastery
-  rotate: false
-  xy: 328, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Emberfall
-  rotate: false
-  xy: 436, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Emberfall Active
-  rotate: false
-  xy: 436, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Emberfall Aura
-  rotate: false
-  xy: 436, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Emberfall Cooldown
-  rotate: false
-  xy: 544, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Encirclement
-  rotate: false
-  xy: 652, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Escort Mobility
-  rotate: false
-  xy: 760, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Loyalty
-  rotate: false
-  xy: 760, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mobility
-  rotate: false
-  xy: 760, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sprint Drive
-  rotate: false
-  xy: 760, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Unbound
-  rotate: false
-  xy: 760, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Eternal Fire
-  rotate: false
-  xy: 868, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Eternal Fire Active
-  rotate: false
-  xy: 868, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fire Breath
-  rotate: false
-  xy: 868, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Flameburst
-  rotate: false
-  xy: 868, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Flameburst Active
-  rotate: false
-  xy: 868, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Eternal Fire Cooldown
-  rotate: false
-  xy: 976, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Evasion
-  rotate: false
-  xy: 1084, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Extended Flight Deck
-  rotate: false
-  xy: 1192, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Flight Deck
-  rotate: false
-  xy: 1192, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fail-Safe Plating
-  rotate: false
-  xy: 1300, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Farsight
-  rotate: false
-  xy: 4, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Viewing Eyes
-  rotate: false
-  xy: 4, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Farsight Cooldown
-  rotate: false
-  xy: 112, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Favourable Wind
-  rotate: false
-  xy: 220, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Favourable Wind Active
-  rotate: false
-  xy: 220, 652
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Favourable Wind Cooldown
-  rotate: false
-  xy: 328, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fireball
-  rotate: false
-  xy: 436, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fireball Active
-  rotate: false
-  xy: 436, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fireball Cooldown
-  rotate: false
-  xy: 544, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fly
-  rotate: false
-  xy: 652, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fly Active
-  rotate: false
-  xy: 652, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Updraft
-  rotate: false
-  xy: 652, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Updraft Active
-  rotate: false
-  xy: 652, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fly Cooldown
-  rotate: false
-  xy: 760, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fog Cloud
-  rotate: false
-  xy: 868, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Form Hill
-  rotate: false
-  xy: 976, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Form Hill Active
-  rotate: false
-  xy: 976, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Form Hill Cooldown
-  rotate: false
-  xy: 1084, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Forward Observer
-  rotate: false
-  xy: 1192, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Forward Observers
-  rotate: false
-  xy: 1192, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Radar Dome
-  rotate: false
-  xy: 1192, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fossil Strike Cooldown
-  rotate: false
-  xy: 1300, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Frost Armor
-  rotate: false
-  xy: 1408, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Frost Armor Active
-  rotate: false
-  xy: 1408, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Frost Armored
-  rotate: false
-  xy: 1408, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Frostbitten
-  rotate: false
-  xy: 4, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Frozen
-  rotate: false
-  xy: 112, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Gale Barrier Cooldown
-  rotate: false
-  xy: 220, 544
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Geospike
-  rotate: false
-  xy: 328, 650
-  size: 100, 102
-  orig: 100, 102
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Geospike Active
-  rotate: false
-  xy: 328, 650
-  size: 100, 102
-  orig: 100, 102
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Geospike Cooldown
-  rotate: false
-  xy: 436, 758
-  size: 100, 102
-  orig: 100, 102
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Grapeshot
-  rotate: false
-  xy: 544, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Strafe
-  rotate: false
-  xy: 544, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Guerilla
-  rotate: false
-  xy: 652, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Harpy Training
-  rotate: false
-  xy: 760, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Healing Amulet
-  rotate: false
-  xy: 868, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Heavy Cavalry
-  rotate: false
-  xy: 976, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Heavy Plate
-  rotate: false
-  xy: 1084, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Titanmail
-  rotate: false
-  xy: 1084, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Helmsman
-  rotate: false
-  xy: 1192, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Navigator
-  rotate: false
-  xy: 1192, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Hero
-  rotate: false
-  xy: 1300, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Highlander
-  rotate: false
-  xy: 1408, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Hunter Killer
-  rotate: false
-  xy: 1516, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Age
-  rotate: false
-  xy: 4, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Age Active
-  rotate: false
-  xy: 4, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Age Creation
-  rotate: false
-  xy: 4, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Age Cooldown
-  rotate: false
-  xy: 112, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Infusion
-  rotate: false
-  xy: 220, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Water Whip
-  rotate: false
-  xy: 220, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Water Whip Active
-  rotate: false
-  xy: 220, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Prison
-  rotate: false
-  xy: 544, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Prison Active
-  rotate: false
-  xy: 544, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Prison Target
-  rotate: false
-  xy: 544, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ice Prison Cooldown
-  rotate: false
-  xy: 652, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Immunity
-  rotate: false
-  xy: 760, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Impervious
-  rotate: false
-  xy: 868, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Impervious Active
-  rotate: false
-  xy: 868, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Impervious Cooldown
-  rotate: false
-  xy: 976, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Impetus
-  rotate: false
-  xy: 1084, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Infected
-  rotate: false
-  xy: 1192, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Infernal Purge
-  rotate: false
-  xy: 1300, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Infernal Purge Activator
-  rotate: false
-  xy: 1300, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Infernal Purge Active
-  rotate: false
-  xy: 1300, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Infernal Purge Cooldown
-  rotate: false
-  xy: 1408, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Insight
-  rotate: false
-  xy: 1516, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Inspiring Presence
-  rotate: false
-  xy: 1624, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Naming
-  rotate: false
-  xy: 1624, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Invulnerability
-  rotate: false
-  xy: 4, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Iron Maiden
-  rotate: false
-  xy: 112, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Iron Maiden Active
-  rotate: false
-  xy: 112, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Iron Maiden Cooldown
-  rotate: false
-  xy: 220, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Light Cavalry
-  rotate: false
-  xy: 652, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Lightning Breath
-  rotate: false
-  xy: 760, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Superconductor
-  rotate: false
-  xy: 760, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Superconductor Active
-  rotate: false
-  xy: 760, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Lightning Infusion
-  rotate: false
-  xy: 868, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Lurking Attack
-  rotate: false
-  xy: 976, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Magic Skin
-  rotate: false
-  xy: 1084, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mana Charge
-  rotate: false
-  xy: 1192, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mana Pulse
-  rotate: false
-  xy: 1300, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mana Pulse Active
-  rotate: false
-  xy: 1300, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mana Pulse Cooldown
-  rotate: false
-  xy: 1408, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mana Sensing
-  rotate: false
-  xy: 1516, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Meditate
-  rotate: false
-  xy: 1624, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Melt Armor Cooldown
-  rotate: false
-  xy: 1732, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Meteoric Dive
-  rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mist Veil
-  rotate: false
-  xy: 112, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mist Veil Active
-  rotate: false
-  xy: 112, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mist Veil Cooldown
-  rotate: false
-  xy: 220, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mobile Airbase
-  rotate: false
-  xy: 760, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Monastic Fortitude
-  rotate: false
-  xy: 868, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Monster Summoner
-  rotate: false
-  xy: 976, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Observation
-  rotate: false
-  xy: 1084, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Spyglass
-  rotate: false
-  xy: 1084, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Oiled
-  rotate: false
-  xy: 1192, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Opportunist
-  rotate: false
-  xy: 1300, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Outmanuever
-  rotate: false
-  xy: 1408, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Outrider
-  rotate: false
-  xy: 1516, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Outrider Active
-  rotate: false
-  xy: 1516, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Overcharge
-  rotate: false
-  xy: 1624, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pandemy
-  rotate: false
-  xy: 1732, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pandemy Active
-  rotate: false
-  xy: 1732, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pandemy Cooldown
-  rotate: false
-  xy: 1840, 1840
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Peace of Mind
-  rotate: false
-  xy: 112, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Petrified
-  rotate: false
-  xy: 220, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Phalanx
-  rotate: false
-  xy: 868, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Poisonous Skin
-  rotate: false
-  xy: 976, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Potent Healing Potion
-  rotate: false
-  xy: 1084, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Preparatory Fire
-  rotate: false
-  xy: 1192, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Pressurized Bomb Cooldown
-  rotate: false
-  xy: 1300, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Protector
-  rotate: false
-  xy: 1408, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Qi
-  rotate: false
-  xy: 1516, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Qi Rush
-  rotate: false
-  xy: 1624, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Rain of Fire
-  rotate: false
-  xy: 1732, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Rain of Fire Active
-  rotate: false
-  xy: 1732, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Raise Dead
-  rotate: false
-  xy: 1840, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Raise Dead Active
-  rotate: false
-  xy: 1840, 1732
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Raise Dead Cooldown
-  rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ranger
-  rotate: false
-  xy: 976, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Woodsman
-  rotate: false
-  xy: 976, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Reactive Armor
-  rotate: false
-  xy: 1084, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Reactor Coolant
-  rotate: false
-  xy: 1192, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Regenerative Bio-Steel
-  rotate: false
-  xy: 1300, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Regenerative Tissue
-  rotate: false
-  xy: 1408, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Restoration
-  rotate: false
-  xy: 1516, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Rooted
-  rotate: false
-  xy: 1624, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sanctuary
-  rotate: false
-  xy: 1732, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sanctuary Active
-  rotate: false
-  xy: 1732, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sanctuary Cooldown
-  rotate: false
-  xy: 1840, 1624
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Scalding
-  rotate: false
-  xy: 1084, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Schiltron
-  rotate: false
-  xy: 1192, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Scorch
-  rotate: false
-  xy: 1300, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Scorched
-  rotate: false
-  xy: 1408, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Scouting
-  rotate: false
-  xy: 1516, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sentry
-  rotate: false
-  xy: 1516, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Track
-  rotate: false
-  xy: 1516, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Underwater Vision
-  rotate: false
-  xy: 1516, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Vigilant
-  rotate: false
-  xy: 1516, 1192
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Second Wind
-  rotate: false
-  xy: 1624, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Second Wind Active
-  rotate: false
-  xy: 1624, 1300
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Second Wind Cooldown
-  rotate: false
-  xy: 1732, 1408
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shatter
-  rotate: false
-  xy: 1840, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shatter Active
-  rotate: false
-  xy: 1840, 1516
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shatter Cooldown
-  rotate: false
-  xy: 1192, 760
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shield Arm
-  rotate: false
-  xy: 1300, 868
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shockwave
-  rotate: false
-  xy: 1408, 976
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shoulder AA Turret
-  rotate: false
-  xy: 1516, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shoulder Thruster
-  rotate: false
-  xy: 1624, 1192
+  xy: 1624, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shrapnel
   rotate: false
-  xy: 1732, 1300
+  xy: 1624, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Slashing Wind
+UnitPromotionIcons/Amphibious
   rotate: false
-  xy: 1840, 1408
+  xy: 1732, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Slashing Wind Active
+UnitPromotionIcons/Amphibious Drive
   rotate: false
-  xy: 1840, 1408
+  xy: 1732, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Wind Infusion
+UnitPromotionIcons/Landing Party
   rotate: false
-  xy: 1840, 1408
+  xy: 1732, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Slashing Wind Cooldown
+UnitPromotionIcons/Animate Earth
   rotate: false
-  xy: 1300, 760
+  xy: 1840, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Slowed
+UnitPromotionIcons/Animate Earth Active
   rotate: false
-  xy: 1408, 868
+  xy: 1840, 1844
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Solar Ray
+UnitPromotionIcons/Animate Earth Cooldown
   rotate: false
-  xy: 1516, 976
+  xy: 4, 1736
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Solar Ray Active
+UnitPromotionIcons/Anti-Gravity Boots
   rotate: false
-  xy: 1516, 976
+  xy: 112, 1736
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Solar Ray Cooldown
+UnitPromotionIcons/Antidote
   rotate: false
-  xy: 1624, 1084
+  xy: 220, 1736
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Square Crowd
+UnitPromotionIcons/Healing Potion
   rotate: false
-  xy: 1732, 1192
+  xy: 220, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Antimage Core
+  rotate: false
+  xy: 328, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Arcane Stitch
+  rotate: false
+  xy: 436, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Arcane Stitch Active
+  rotate: false
+  xy: 436, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Arcane Stitch Cooldown
+  rotate: false
+  xy: 544, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Armor Piercing
+  rotate: false
+  xy: 652, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Armor Plating
+  rotate: false
+  xy: 760, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reinforced Hull
+  rotate: false
+  xy: 760, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Assault
+  rotate: false
+  xy: 868, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Battlecry
+  rotate: false
+  xy: 868, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Destructor Protocol
+  rotate: false
+  xy: 868, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rout
+  rotate: false
+  xy: 868, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Aura of Protection
+  rotate: false
+  xy: 976, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Avenger
+  rotate: false
+  xy: 1084, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tidal Counter
+  rotate: false
+  xy: 1084, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Battle Recon
+  rotate: false
+  xy: 1192, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Berserk
+  rotate: false
+  xy: 1300, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hobes Rage
+  rotate: false
+  xy: 1300, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rage
+  rotate: false
+  xy: 1300, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rage Active
+  rotate: false
+  xy: 1300, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blazing Fire
+  rotate: false
+  xy: 1408, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blazing Retort
+  rotate: false
+  xy: 1516, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blazing Retort Active
+  rotate: false
+  xy: 1516, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cinder Strike
+  rotate: false
+  xy: 1516, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cinder Strike Active
+  rotate: false
+  xy: 1516, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blazing Retort Cooldown
+  rotate: false
+  xy: 1624, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cinder Strike Cooldown
+  rotate: false
+  xy: 1624, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bleeding
+  rotate: false
+  xy: 1732, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blinded
+  rotate: false
+  xy: 1840, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Camouflage
+  rotate: false
+  xy: 1840, 1736
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blizzard
+  rotate: false
+  xy: 4, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blizzard Active
+  rotate: false
+  xy: 4, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blizzard Aura
+  rotate: false
+  xy: 4, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Breath
+  rotate: false
+  xy: 4, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Permafrost
+  rotate: false
+  xy: 4, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blizzard Cooldown
+  rotate: false
+  xy: 112, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bonebreaker
+  rotate: false
+  xy: 220, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bottom Up
+  rotate: false
+  xy: 328, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bottom Up Cooldown
+  rotate: false
+  xy: 436, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bounty
+  rotate: false
+  xy: 544, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Breakthrough
+  rotate: false
+  xy: 652, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Brittle
+  rotate: false
+  xy: 760, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Broken
+  rotate: false
+  xy: 868, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Burning
+  rotate: false
+  xy: 976, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bushido
+  rotate: false
+  xy: 1084, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Calcifying
+  rotate: false
+  xy: 1192, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Call for Freedom
+  rotate: false
+  xy: 1300, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Carnivorous Growth
+  rotate: false
+  xy: 1408, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Carnivorous Growth Active
+  rotate: false
+  xy: 1408, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Carnivorous Growth Creation
+  rotate: false
+  xy: 1408, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Carnivorous Growth Cooldown
+  rotate: false
+  xy: 1516, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Charm
+  rotate: false
+  xy: 1624, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Chilled
+  rotate: false
+  xy: 1732, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Circle
+  rotate: false
+  xy: 1840, 1628
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Claw Arm
+  rotate: false
+  xy: 4, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Piercing Claw
+  rotate: false
+  xy: 4, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cleanses
+  rotate: false
+  xy: 112, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cleanses Active
+  rotate: false
+  xy: 112, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cleanses Cooldown
+  rotate: false
+  xy: 220, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Coastal Raider
+  rotate: false
+  xy: 328, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Depredation
+  rotate: false
+  xy: 328, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Loot
+  rotate: false
+  xy: 328, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Coincidence Rangefinding
+  rotate: false
+  xy: 436, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Saboteur
+  rotate: false
+  xy: 436, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cold Embrace
+  rotate: false
+  xy: 544, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Combustion
+  rotate: false
+  xy: 652, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Conductive
+  rotate: false
+  xy: 760, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Conduit
+  rotate: false
+  xy: 868, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Conduit Active
+  rotate: false
+  xy: 868, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Conduit Cooldown
+  rotate: false
+  xy: 976, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Conflagration
+  rotate: false
+  xy: 1084, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Manaburst Assault
+  rotate: false
+  xy: 1084, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pressurized Bomb
+  rotate: false
+  xy: 1084, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pressurized Bomb Activator
+  rotate: false
+  xy: 1084, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pressurized Bomb Active
+  rotate: false
+  xy: 1084, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shell
+  rotate: false
+  xy: 1084, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Convoy
+  rotate: false
+  xy: 1192, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cooldown
+  rotate: false
+  xy: 1300, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Coordinated
+  rotate: false
+  xy: 1408, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Outmanuever
+  rotate: false
+  xy: 1408, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Corroded
+  rotate: false
+  xy: 1516, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Coup de Grace
+  rotate: false
+  xy: 1624, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mercy Kill
+  rotate: false
+  xy: 1624, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mercy Kill Active
+  rotate: false
+  xy: 1624, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crafty
+  rotate: false
+  xy: 1732, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crashing Wave
+  rotate: false
+  xy: 1840, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crashing Wave Active
+  rotate: false
+  xy: 1840, 1520
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Creeping Attack
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Demolitionist
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Marksman
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Precision
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tactical Strike
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Targeting
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Throwing Mastery
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water Veteran
+  rotate: false
+  xy: 4, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crippled
+  rotate: false
+  xy: 112, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crushed
+  rotate: false
+  xy: 220, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crusher Arm
+  rotate: false
+  xy: 328, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crushing Blow
+  rotate: false
+  xy: 436, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crushing Blow Active
+  rotate: false
+  xy: 436, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crushing Blow Cooldown
+  rotate: false
+  xy: 544, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cursed
+  rotate: false
+  xy: 652, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Damage Absorb
+  rotate: false
+  xy: 760, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/March
+  rotate: false
+  xy: 760, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Deafened
+  rotate: false
+  xy: 868, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Death Mark
+  rotate: false
+  xy: 976, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mercy Kill Activator
+  rotate: false
+  xy: 976, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Death Ward
+  rotate: false
+  xy: 1084, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Death Ward Cooldown
+  rotate: false
+  xy: 1192, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Deflect Cooldown
+  rotate: false
+  xy: 1300, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Demon King's Rush
+  rotate: false
+  xy: 1408, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Demon King's Rush Active
+  rotate: false
+  xy: 1408, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Diplomatic Feint
+  rotate: false
+  xy: 1516, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Diplomatic Feint Active
+  rotate: false
+  xy: 1516, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Diplomatic Feint Cooldown
+  rotate: false
+  xy: 1624, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disarmed
+  rotate: false
+  xy: 1732, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disarming Strike
+  rotate: false
+  xy: 1840, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disarming Strike Active
+  rotate: false
+  xy: 1840, 1412
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disarming Strike Cooldown
+  rotate: false
+  xy: 4, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disoriented
+  rotate: false
+  xy: 112, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disrupted
+  rotate: false
+  xy: 220, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Disruption
+  rotate: false
+  xy: 328, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Divine Right
+  rotate: false
+  xy: 436, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Double Armor Plating
+  rotate: false
+  xy: 544, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Secondary Armor Plating
+  rotate: false
+  xy: 544, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Drunk
+  rotate: false
+  xy: 652, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Earth Knuckles
+  rotate: false
+  xy: 760, 1304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Earth Knuckles Active
+  rotate: false
+  xy: 760, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Stoneskin
   rotate: false
-  xy: 1840, 1300
+  xy: 760, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Stunned
+UnitPromotionIcons/Ebb & Flow
   rotate: false
-  xy: 1408, 760
+  xy: 868, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Summon Black Tarantula
+UnitPromotionIcons/Ebb Stance
   rotate: false
-  xy: 1516, 868
+  xy: 976, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Summon Cave Bat
+UnitPromotionIcons/Ebb Stance Cooldown
   rotate: false
-  xy: 1624, 976
+  xy: 1084, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Summon Dire Wolf
+UnitPromotionIcons/Efficient Machinery
   rotate: false
-  xy: 1732, 1084
+  xy: 1192, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Summon Giant Rat
+UnitPromotionIcons/El Libertador
   rotate: false
-  xy: 1840, 1192
+  xy: 1300, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Summon Iron Tusk
+UnitPromotionIcons/Electrified
   rotate: false
-  xy: 1516, 760
+  xy: 1408, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Summon Jackalope
+UnitPromotionIcons/Elemental Manipulation
   rotate: false
-  xy: 1624, 868
+  xy: 1516, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Superconductor Cooldown
+UnitPromotionIcons/Elemental Mastery
   rotate: false
-  xy: 1732, 976
+  xy: 1624, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Superheated
+UnitPromotionIcons/Emberfall
   rotate: false
-  xy: 1840, 1084
+  xy: 1732, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Suppressive
+UnitPromotionIcons/Emberfall Active
   rotate: false
-  xy: 1624, 760
+  xy: 1732, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Swift Step
+UnitPromotionIcons/Emberfall Aura
   rotate: false
-  xy: 1732, 868
+  xy: 1732, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Swift Step Active
+UnitPromotionIcons/Emberfall Cooldown
   rotate: false
-  xy: 1732, 868
+  xy: 1840, 1304
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Swift Step Cooldown
+UnitPromotionIcons/Encirclement
   rotate: false
-  xy: 1840, 976
+  xy: 4, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Sword Resonance
+UnitPromotionIcons/Escort Mobility
   rotate: false
-  xy: 1732, 760
+  xy: 112, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Synergy
+UnitPromotionIcons/Loyalty
   rotate: false
-  xy: 1840, 868
+  xy: 112, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Teleportation
+UnitPromotionIcons/Mobility
   rotate: false
-  xy: 1840, 760
+  xy: 112, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Teleportation Active
+UnitPromotionIcons/Sprint Drive
   rotate: false
-  xy: 1840, 760
+  xy: 112, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Teleportation Cooldown
+UnitPromotionIcons/Unbound
   rotate: false
-  xy: 544, 652
+  xy: 112, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Thorn Grasp
+UnitPromotionIcons/Eternal Fire
   rotate: false
-  xy: 652, 652
+  xy: 220, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Thorn Grasp Active
+UnitPromotionIcons/Eternal Fire Active
   rotate: false
-  xy: 652, 652
+  xy: 220, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Thorn Grasp Cooldown
+UnitPromotionIcons/Fire Breath
   rotate: false
-  xy: 760, 652
+  xy: 220, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Thrust
+UnitPromotionIcons/Eternal Fire Cooldown
   rotate: false
-  xy: 868, 652
+  xy: 328, 1196
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Evasion
+  rotate: false
+  xy: 436, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Extended Flight Deck
+  rotate: false
+  xy: 544, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Flight Deck
+  rotate: false
+  xy: 544, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fail-Safe Plating
+  rotate: false
+  xy: 652, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Favourable Wind
+  rotate: false
+  xy: 760, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Favourable Wind Active
+  rotate: false
+  xy: 760, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Favourable Wind Cooldown
+  rotate: false
+  xy: 868, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fireball
+  rotate: false
+  xy: 976, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fireball Active
+  rotate: false
+  xy: 976, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fireball Cooldown
+  rotate: false
+  xy: 1084, 1196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fist of Thunder
+  rotate: false
+  xy: 1192, 1192
+  size: 100, 104
+  orig: 100, 104
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fist of Thunder Active
+  rotate: false
+  xy: 1192, 1192
+  size: 100, 104
+  orig: 100, 104
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Thunderclap
   rotate: false
-  xy: 976, 648
+  xy: 1192, 1192
   size: 100, 104
   orig: 100, 104
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Thunderclap Active
   rotate: false
-  xy: 976, 648
+  xy: 1192, 1192
+  size: 100, 104
+  orig: 100, 104
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fist of Thunder Cooldown
+  rotate: false
+  xy: 1300, 1192
   size: 100, 104
   orig: 100, 104
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Thunderclap Cooldown
   rotate: false
-  xy: 1084, 648
+  xy: 1300, 1192
   size: 100, 104
   orig: 100, 104
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Titanite Carapace
+UnitPromotionIcons/Fleet Incursion
   rotate: false
-  xy: 1192, 652
+  xy: 1408, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Titanite Carapace Cooldown
+UnitPromotionIcons/Fleet Incursion Active
   rotate: false
-  xy: 1300, 652
+  xy: 1408, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Titanmail Cooldown
+UnitPromotionIcons/Flow Stance
   rotate: false
-  xy: 1408, 652
+  xy: 1516, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Tornado
+UnitPromotionIcons/Flow Stance Active
   rotate: false
-  xy: 1516, 652
+  xy: 1516, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Tornado Active
+UnitPromotionIcons/Flurry of Blows
   rotate: false
-  xy: 1516, 652
+  xy: 1624, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Tornado Cooldown
+UnitPromotionIcons/Flurry of Blows Activator
   rotate: false
-  xy: 1624, 652
+  xy: 1624, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Tranquility
+UnitPromotionIcons/Fly
   rotate: false
-  xy: 1732, 652
+  xy: 1732, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Tranquility Cooldown
+UnitPromotionIcons/Fly Active
   rotate: false
-  xy: 1840, 652
+  xy: 1732, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Turn to Stone
+UnitPromotionIcons/Fly Cooldown
   rotate: false
-  xy: 1192, 544
+  xy: 1840, 1196
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Turn to Stone Active
+UnitPromotionIcons/Fog Cloud
   rotate: false
-  xy: 1192, 544
+  xy: 4, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Turn to Stone Cooldown
+UnitPromotionIcons/Form Hill
   rotate: false
-  xy: 1300, 544
+  xy: 112, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Twin Fang
+UnitPromotionIcons/Form Hill Active
   rotate: false
-  xy: 1408, 544
+  xy: 112, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Upheabal
+UnitPromotionIcons/Form Hill Cooldown
   rotate: false
-  xy: 1516, 544
+  xy: 220, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Upheabal Active
+UnitPromotionIcons/Forward Observer
   rotate: false
-  xy: 1516, 544
+  xy: 328, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Venom Breath
+UnitPromotionIcons/Forward Observers
   rotate: false
-  xy: 1624, 544
+  xy: 328, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Radar Dome
+  rotate: false
+  xy: 328, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fossil Strike
+  rotate: false
+  xy: 436, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fossil Strike Active
+  rotate: false
+  xy: 436, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fossil Strike Cooldown
+  rotate: false
+  xy: 544, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Frostbitten
+  rotate: false
+  xy: 652, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Frostbrand
+  rotate: false
+  xy: 760, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Frozen
+  rotate: false
+  xy: 868, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Gale Barrier
+  rotate: false
+  xy: 976, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Gale Barrier Active
+  rotate: false
+  xy: 976, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Gale Barrier Cooldown
+  rotate: false
+  xy: 1084, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Geospike
+  rotate: false
+  xy: 1408, 1086
+  size: 100, 102
+  orig: 100, 102
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Geospike Active
+  rotate: false
+  xy: 1408, 1086
+  size: 100, 102
+  orig: 100, 102
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Geospike Cooldown
+  rotate: false
+  xy: 1516, 1086
+  size: 100, 102
+  orig: 100, 102
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Grapeshot
+  rotate: false
+  xy: 1624, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Strafe
+  rotate: false
+  xy: 1624, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Greater Regeneration
+  rotate: false
+  xy: 1732, 1088
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vetenary
   rotate: false
-  xy: 1732, 544
+  xy: 1732, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Guerrilla
+  rotate: false
+  xy: 1840, 1088
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Harpy Training
+  rotate: false
+  xy: 1192, 1084
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Healing Amulet
+  rotate: false
+  xy: 1300, 1084
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavenly Kick
+  rotate: false
+  xy: 4, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavenly Kick Active
+  rotate: false
+  xy: 4, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavenly Kick Cooldown
+  rotate: false
+  xy: 112, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavy Cavalry
+  rotate: false
+  xy: 220, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavy Plate
+  rotate: false
+  xy: 328, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Heavy Plating
+  rotate: false
+  xy: 328, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Titanmail
+  rotate: false
+  xy: 328, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Helmsman
+  rotate: false
+  xy: 436, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Navigator
+  rotate: false
+  xy: 436, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hero
+  rotate: false
+  xy: 544, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hero Cooldown
+  rotate: false
+  xy: 652, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Highlander
+  rotate: false
+  xy: 760, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hobgoblin Discipline
+  rotate: false
+  xy: 868, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hunter Killer
+  rotate: false
+  xy: 976, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Huntress
+  rotate: false
+  xy: 1084, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Age
+  rotate: false
+  xy: 1624, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Age Active
+  rotate: false
+  xy: 1624, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Age Creation
+  rotate: false
+  xy: 1624, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Age Cooldown
+  rotate: false
+  xy: 1732, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Prison
+  rotate: false
+  xy: 1840, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Prison Active
+  rotate: false
+  xy: 1840, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Prison Target
+  rotate: false
+  xy: 1840, 980
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Prison Cooldown
+  rotate: false
+  xy: 1408, 978
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Icon of Unity
+  rotate: false
+  xy: 1516, 978
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Immunity
+  rotate: false
+  xy: 1192, 976
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Impervious
+  rotate: false
+  xy: 1300, 976
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Impervious Active
+  rotate: false
+  xy: 1300, 976
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Indomitable
+  rotate: false
+  xy: 1300, 976
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Impervious Cooldown
+  rotate: false
+  xy: 4, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Impetus
+  rotate: false
+  xy: 112, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Infected
+  rotate: false
+  xy: 220, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Infernal Purge
+  rotate: false
+  xy: 328, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Infernal Purge Activator
+  rotate: false
+  xy: 328, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Infernal Purge Active
+  rotate: false
+  xy: 328, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Infernal Purge Cooldown
+  rotate: false
+  xy: 436, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Infinite Qi
+  rotate: false
+  xy: 544, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Insight
+  rotate: false
+  xy: 652, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Inspiring Presence
+  rotate: false
+  xy: 760, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Naming
+  rotate: false
+  xy: 760, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Invulnerability
+  rotate: false
+  xy: 868, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Invulnerability First Turn
+  rotate: false
+  xy: 868, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Iron Discipline
+  rotate: false
+  xy: 976, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Quick Study
+  rotate: false
+  xy: 976, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Iron Maiden
+  rotate: false
+  xy: 1084, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Iron Maiden Active
+  rotate: false
+  xy: 1084, 872
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Iron Maiden Cooldown
+  rotate: false
+  xy: 1408, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Justice of Saladin
+  rotate: false
+  xy: 1516, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Justice of Saladin Active
+  rotate: false
+  xy: 1516, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kalsharin Second Wind
+  rotate: false
+  xy: 1624, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kalsharin Second Wind Active
+  rotate: false
+  xy: 1624, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/King's Mercy
+  rotate: false
+  xy: 1732, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Leg Sweep
+  rotate: false
+  xy: 1840, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Light Cavalry
+  rotate: false
+  xy: 1192, 868
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Light Foot
+  rotate: false
+  xy: 1300, 868
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lightning Breath
+  rotate: false
+  xy: 4, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Superconductor
+  rotate: false
+  xy: 4, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Superconductor Active
+  rotate: false
+  xy: 4, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lotus Clarity
+  rotate: false
+  xy: 112, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lurking Attack
+  rotate: false
+  xy: 220, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mana Charge
+  rotate: false
+  xy: 328, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mana Exhaustion
+  rotate: false
+  xy: 436, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Meditate
+  rotate: false
+  xy: 544, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Melt Armor Cooldown
+  rotate: false
+  xy: 652, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mercy Kill Cooldown
+  rotate: false
+  xy: 760, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Meteoric Dive
+  rotate: false
+  xy: 868, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mist Veil
+  rotate: false
+  xy: 976, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mist Veil Active
+  rotate: false
+  xy: 976, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/One with Shadow
+  rotate: false
+  xy: 976, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/One with Shadow Active
+  rotate: false
+  xy: 976, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mist Veil Cooldown
+  rotate: false
+  xy: 1084, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/One with Shadow Cooldown
+  rotate: false
+  xy: 1084, 764
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Mobile Airbase
+  rotate: false
+  xy: 1408, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Monastic Fortitude
+  rotate: false
+  xy: 1516, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Monster Summoner
+  rotate: false
+  xy: 1624, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Nature Keeper
+  rotate: false
+  xy: 1732, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Nightshade Dart
+  rotate: false
+  xy: 1840, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Nightshade Dart Active
+  rotate: false
+  xy: 1840, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Nightshade Dart Cooldown
+  rotate: false
+  xy: 1192, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Observation
+  rotate: false
+  xy: 1300, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Spyglass
+  rotate: false
+  xy: 1300, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Unobstructed Vision
+  rotate: false
+  xy: 1300, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Oiled
+  rotate: false
+  xy: 4, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Onmyodo
+  rotate: false
+  xy: 112, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Opportunist
+  rotate: false
+  xy: 220, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Outrider
+  rotate: false
+  xy: 328, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Outrider Active
+  rotate: false
+  xy: 328, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Overcharge
+  rotate: false
+  xy: 436, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pandemy
+  rotate: false
+  xy: 544, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pandemy Active
+  rotate: false
+  xy: 544, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pandemy Cooldown
+  rotate: false
+  xy: 652, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Peace of Mind
+  rotate: false
+  xy: 760, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Perfect Awakening
+  rotate: false
+  xy: 868, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Petrified
+  rotate: false
+  xy: 976, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Phalanx
+  rotate: false
+  xy: 1084, 656
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Piracy
+  rotate: false
+  xy: 1408, 654
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Poisoned
+  rotate: false
+  xy: 1516, 654
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Poisonous Skin
+  rotate: false
+  xy: 1624, 654
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Potent Healing Potion
+  rotate: false
+  xy: 1732, 654
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Preparatory Fire
+  rotate: false
+  xy: 1840, 654
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pressurized Bomb Cooldown
+  rotate: false
+  xy: 1192, 652
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Protected
+  rotate: false
+  xy: 1300, 652
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Protector
+  rotate: false
+  xy: 4, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Purity of Soul
+  rotate: false
+  xy: 112, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Purity of Soul Cooldown
+  rotate: false
+  xy: 220, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Qi
+  rotate: false
+  xy: 328, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Qi 2nd
+  rotate: false
+  xy: 328, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Qi Resonation
+  rotate: false
+  xy: 436, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Qi Rush
+  rotate: false
+  xy: 544, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Qi Rush Active
+  rotate: false
+  xy: 544, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Raise Dead
+  rotate: false
+  xy: 652, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Raise Dead Active
+  rotate: false
+  xy: 652, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Raise Dead Cooldown
+  rotate: false
+  xy: 760, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ranger
+  rotate: false
+  xy: 868, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Woodsman
+  rotate: false
+  xy: 868, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ravager
+  rotate: false
+  xy: 976, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reactive Armor
+  rotate: false
+  xy: 1084, 548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reactor Coolant
+  rotate: false
+  xy: 1408, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Realm Patrol
+  rotate: false
+  xy: 1516, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Regenerative Bio-Steel
+  rotate: false
+  xy: 1624, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Regenerative Tissue
+  rotate: false
+  xy: 1732, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Restoration
+  rotate: false
+  xy: 1840, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Soothing Water
+  rotate: false
+  xy: 1840, 546
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reversal
+  rotate: false
+  xy: 1192, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reversal Active
+  rotate: false
+  xy: 1192, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Reversal Requirement
+  rotate: false
+  xy: 1192, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/River Warlord
+  rotate: false
+  xy: 1300, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rooted
+  rotate: false
+  xy: 4, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ruptured
+  rotate: false
+  xy: 112, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sanctuary
+  rotate: false
+  xy: 220, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sanctuary Active
+  rotate: false
+  xy: 220, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sanctuary Cooldown
+  rotate: false
+  xy: 328, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sandproof Vision
+  rotate: false
+  xy: 436, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scalding
+  rotate: false
+  xy: 544, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scorch
+  rotate: false
+  xy: 652, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scorched
+  rotate: false
+  xy: 760, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scouting
+  rotate: false
+  xy: 868, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sentry
+  rotate: false
+  xy: 868, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Track
+  rotate: false
+  xy: 868, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Underwater Vision
+  rotate: false
+  xy: 868, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vigilant
+  rotate: false
+  xy: 868, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scrying
+  rotate: false
+  xy: 976, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sea Wolf
+  rotate: false
+  xy: 1084, 440
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Second Wind
+  rotate: false
+  xy: 1408, 438
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Second Wind Active
+  rotate: false
+  xy: 1408, 438
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Second Wind Cooldown
+  rotate: false
+  xy: 1516, 438
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shatter
+  rotate: false
+  xy: 1624, 438
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shatter Active
+  rotate: false
+  xy: 1624, 438
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shatter Cooldown
+  rotate: false
+  xy: 1732, 438
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shield Arm
+  rotate: false
+  xy: 1840, 438
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shockwave
+  rotate: false
+  xy: 1192, 436
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shoulder AA Turret
+  rotate: false
+  xy: 1300, 436
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shoulder Thruster
+  rotate: false
+  xy: 4, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Slashing Wind
+  rotate: false
+  xy: 112, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Slashing Wind Active
+  rotate: false
+  xy: 112, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Slashing Wind Cooldown
+  rotate: false
+  xy: 220, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sleeping
+  rotate: false
+  xy: 328, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Slowed
+  rotate: false
+  xy: 436, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Solar Ray
+  rotate: false
+  xy: 544, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Solar Ray Active
+  rotate: false
+  xy: 544, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Solar Ray Cooldown
+  rotate: false
+  xy: 652, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Square Crowd
+  rotate: false
+  xy: 760, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Step of the Wind
+  rotate: false
+  xy: 868, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Step of the Wind Active
+  rotate: false
+  xy: 868, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Step of the Wind Cooldown
+  rotate: false
+  xy: 976, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Stunned
+  rotate: false
+  xy: 1084, 332
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sturdy
+  rotate: false
+  xy: 1408, 330
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sudden Raid
+  rotate: false
+  xy: 1516, 330
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sudden Raid Active
+  rotate: false
+  xy: 1516, 330
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Baba Yaga
+  rotate: false
+  xy: 1624, 330
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Banshee
+  rotate: false
+  xy: 1732, 330
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Black Tarantula
+  rotate: false
+  xy: 1840, 330
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Cave Bat
+  rotate: false
+  xy: 1192, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Dire Wolf
+  rotate: false
+  xy: 1300, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Ghoul
+  rotate: false
+  xy: 4, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Giant Rat
+  rotate: false
+  xy: 112, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Iron Tusk
+  rotate: false
+  xy: 220, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Jackalope
+  rotate: false
+  xy: 328, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Jiangshi
+  rotate: false
+  xy: 436, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Minotaur
+  rotate: false
+  xy: 544, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Peuchen
+  rotate: false
+  xy: 652, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Summon Scorpion Man
+  rotate: false
+  xy: 760, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Superconductor Cooldown
+  rotate: false
+  xy: 868, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Superheated
+  rotate: false
+  xy: 976, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Suppressive
+  rotate: false
+  xy: 1084, 224
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Swift Step
+  rotate: false
+  xy: 1408, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Swift Step Active
+  rotate: false
+  xy: 1408, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Swift Step Cooldown
+  rotate: false
+  xy: 1516, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Synergy
+  rotate: false
+  xy: 1624, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Taunt
+  rotate: false
+  xy: 1732, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Taunt Active
+  rotate: false
+  xy: 1732, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Teleportation
+  rotate: false
+  xy: 1840, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Teleportation Active
+  rotate: false
+  xy: 1840, 222
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Teleportation Cooldown
+  rotate: false
+  xy: 1192, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Thorn Grasp
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Thorn Grasp Active
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Thorn Grasp Cooldown
+  rotate: false
+  xy: 4, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Thrust
+  rotate: false
+  xy: 112, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tipsy Step
+  rotate: false
+  xy: 220, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Titanite Carapace
+  rotate: false
+  xy: 328, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Titanite Carapace Cooldown
+  rotate: false
+  xy: 436, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Titanmail Cooldown
+  rotate: false
+  xy: 544, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tornado
+  rotate: false
+  xy: 652, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tornado Active
+  rotate: false
+  xy: 652, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tornado Cooldown
+  rotate: false
+  xy: 760, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Totem Wielder
+  rotate: false
+  xy: 868, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tranquility
+  rotate: false
+  xy: 976, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tranquility Cooldown
+  rotate: false
+  xy: 1084, 116
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turn to Stone
+  rotate: false
+  xy: 1408, 114
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turn to Stone Active
+  rotate: false
+  xy: 1408, 114
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turn to Stone Cooldown
+  rotate: false
+  xy: 1516, 114
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turtling
+  rotate: false
+  xy: 1624, 114
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Twin Fang
+  rotate: false
+  xy: 1732, 114
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vermin Bite
+  rotate: false
+  xy: 1732, 114
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ultimate Caster
+  rotate: false
+  xy: 1840, 114
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ultimate Cooldown
+  rotate: false
+  xy: 1192, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Upheabal
+  rotate: false
+  xy: 1300, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Upheabal Active
+  rotate: false
+  xy: 1300, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Valley Warrior
+  rotate: false
+  xy: 4, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Venom Breath
+  rotate: false
+  xy: 112, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Venom Fang
+  rotate: false
+  xy: 220, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Victory Banner
+  rotate: false
+  xy: 328, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Victory Banner Active
+  rotate: false
+  xy: 328, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vigilance
   rotate: false
-  xy: 1840, 544
+  xy: 436, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Viking Fury
+  rotate: false
+  xy: 544, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Viking Fury Active
+  rotate: false
+  xy: 652, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Void Field
   rotate: false
-  xy: 328, 436
+  xy: 760, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Volatile Core
   rotate: false
-  xy: 328, 328
+  xy: 868, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Voltaic Leash
   rotate: false
-  xy: 328, 220
+  xy: 976, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Voltaic Leash Active
   rotate: false
-  xy: 328, 220
+  xy: 976, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Voltaic Leash Caster
+  rotate: false
+  xy: 976, 8
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Voltaic Leash Target
+  rotate: false
+  xy: 976, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Voltaic Leash Cooldown
   rotate: false
-  xy: 328, 112
+  xy: 1084, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wailing Tempest
   rotate: false
-  xy: 328, 4
+  xy: 1408, 6
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wailing Tempest Active
   rotate: false
-  xy: 328, 4
+  xy: 1408, 6
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wailing Tempest Aura
   rotate: false
-  xy: 328, 4
+  xy: 1408, 6
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wailing Tempest Cooldown
   rotate: false
-  xy: 544, 544
+  xy: 1516, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Warband
+  rotate: false
+  xy: 1624, 6
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Warding Amulet
   rotate: false
-  xy: 652, 544
+  xy: 1732, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water Leash
+  rotate: false
+  xy: 1840, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water Leash Active
+  rotate: false
+  xy: 1840, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water Whip
+  rotate: false
+  xy: 1840, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water Whip Active
+  rotate: false
+  xy: 1840, 6
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water Leash Cooldown
+  rotate: false
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Water Whip Cooldown
   rotate: false
-  xy: 760, 544
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Webbed
+  rotate: false
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+UnitPromotionIcons2.png
+size: 1024, 128
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
 UnitPromotionIcons/Wet
   rotate: false
-  xy: 868, 544
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wholeness of Body
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wholeness of Body Active
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wholeness of Body Cooldown
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Will of Steel
+  rotate: false
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wind Dash
   rotate: false
-  xy: 976, 540
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

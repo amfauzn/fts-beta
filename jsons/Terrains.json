@@ -386,7 +386,7 @@
 		"occursOn": ["Coast","Shallow Ocean","Ocean"],
 		"uniques": [
 			"Rough terrain",
-			//"Vegetation",
+			"Vegetation",
 			"Rare feature",
 			"Provides a one-time bonus of [+20 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",

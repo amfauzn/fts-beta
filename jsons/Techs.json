@@ -3,8 +3,8 @@
 		"columnNumber": 0,
 		"era": "Restoration Age",
 		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 50,
+		"wonderCost": 125,
 		"techs": [
 			{
 				"name": "Language",
@@ -27,8 +27,8 @@
 		"columnNumber": 1,
 		"era": "Restoration Age",
 		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 165,
+		"buildingCost": 75,
+		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Fishing",
@@ -69,8 +69,8 @@
 		"columnNumber": 2,
 		"era": "Restoration Age",
 		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"buildingCost": 100,
+		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Sailing",
@@ -84,8 +84,7 @@
 				"cost": 65,
 				"uniques": [
 					"Notified of new Barbarian encampments",
-					"Enables Open Borders agreements",
-					"Enables establishment of embassies"
+					"Enables Open Borders agreements"
 				],
 				"row": 4,
 				"prerequisites": ["Language","Pottery"],
@@ -121,8 +120,8 @@
 		"columnNumber": 3,
 		"era": "Discovery Age",
 		"techCost": 110,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"buildingCost": 120,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Mana Thaumaturgy",
@@ -155,8 +154,8 @@
 		"columnNumber": 4,
 		"era": "Discovery Age",
 		"techCost": 200,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"buildingCost": 150,
+		"wonderCost": 375,
 		"techs": [
 			{
 				"name": "Geomancy",
@@ -202,8 +201,8 @@
 		"columnNumber": 5,
 		"era": "Discovery Age",
 		"techCost": 300,
-		"buildingCost": 150,
-		"wonderCost": 375,
+		"buildingCost": 180,
+		"wonderCost": 450,
 		"techs": [
 			{
 				"name": "Compass",
@@ -243,8 +242,8 @@
 		"columnNumber": 6,
 		"era": "Enlightenment Age",
 		"techCost": 500,
-		"buildingCost": 180,
-		"wonderCost": 450,
+		"buildingCost": 220,
+		"wonderCost": 550,
 		"techs": [
 			{
 				"name": "Cartography",
@@ -302,8 +301,8 @@
 		"columnNumber": 7,
 		"era": "Enlightenment Age",
 		"techCost": 800,
-		"buildingCost": 220,
-		"wonderCost": 550,
+		"buildingCost": 265,
+		"wonderCost": 665,
 		"techs": [
 			{
 				"name": "Mana Crystallization",
@@ -330,8 +329,8 @@
 		"columnNumber": 8,
 		"era": "Enlightenment Age",
 		"techCost": 1150,
-		"buildingCost": 265,
-		"wonderCost": 665,
+		"buildingCost": 320,
+		"wonderCost": 800,
 		"techs": [
 			{
 				"name": "Navigation",
@@ -363,8 +362,8 @@
 		"columnNumber": 9,
 		"era": "Magi-Industry Age",
 		"techCost": 1600,
-		"buildingCost": 320,
-		"wonderCost": 800,
+		"buildingCost": 400,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "Architecture",
@@ -403,7 +402,7 @@
 		"era": "Magi-Industry Age",
 		"techCost": 2350,
 		"buildingCost": 400,
-		"wonderCost": 1000,
+		"wonderCost": 1250,
 		"techs": [
 			{
 				"name": "Archaeology",

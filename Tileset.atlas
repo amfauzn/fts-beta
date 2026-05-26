@@ -655,6 +655,55 @@ TileSets/AbsoluteUnits/Units/Loyal Brotherhood Master-1
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Maceman
+  rotate: false
+  xy: 1861, 1874
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Maceman-1
+  rotate: false
+  xy: 315, 1785
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Maceman-Glomon02
+  rotate: false
+  xy: 315, 1785
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Maceman-Kunakad-1
+  rotate: false
+  xy: 315, 1785
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Maceman-2
+  rotate: false
+  xy: 418, 1785
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Maceman-Glomon-2
+  rotate: false
+  xy: 418, 1785
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Maceman-Kunakad-2
+  rotate: false
+  xy: 418, 1785
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Maceman-Dwarves
   rotate: false
   xy: 4, 1948
@@ -678,61 +727,12 @@ TileSets/AbsoluteUnits/Units/Maceman-Dwarves-2
   index: -1
 TileSets/AbsoluteUnits/Units/Maceman-Glomon
   rotate: false
-  xy: 1861, 1874
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Glomon-2
-  rotate: false
-  xy: 418, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Kunakad-2
-  rotate: false
-  xy: 418, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Vaja-2
-  rotate: false
-  xy: 418, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Glomon02
-  rotate: false
-  xy: 315, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Kunakad-1
-  rotate: false
-  xy: 315, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Vaja-1
-  rotate: false
-  xy: 315, 1785
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Kunakad
-  rotate: false
   xy: 521, 1785
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Maceman-Vaja
+TileSets/AbsoluteUnits/Units/Maceman-Kunakad
   rotate: false
   xy: 624, 1785
   size: 95, 81

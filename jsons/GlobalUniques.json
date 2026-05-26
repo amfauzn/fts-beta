@@ -1,7 +1,6 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-		"Requires establishing embassies to conduct advanced diplomacy",
 		"[-50]% growth [in all cities] <when between [-5] and [-1] [Happiness]>",
 		"[-75]% growth [in all cities] <when between [-10] and [-6] [Happiness]>",
 		"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
@@ -19,10 +18,6 @@
 		"Triggers a [Magic Element II] event <upon constructing [Academy of Magic] [in capital]>",
 		"Triggers a [Advanced Element] event <upon constructing [Archmage Tribunal]>",
 		
-		// Self Turn mechanic
-		"Instantly gain [1] [SelfTurn] <upon turn start> <when below [1] [SelfTurn]>",
-		"Instantly consumes [1] [SelfTurn] <upon turn end> <when above [0] [SelfTurn]>",
-		
 		// City State Buffs
 		"Gain a free [Barracks] [in capital] <for [City-State] Civilizations>",
 		"Gain a free [Riding Arena] [in capital] <for [City-State] Civilizations>",
@@ -31,9 +26,6 @@
 		// Mercenary
 		"New [Composite Bowman] units start with [15] XP [in all cities]",
 		"[Gold] cost of purchasing [Mercenary] units [+3]% <for every [[Mercenary] Units]>", // so AI won't spam
-		
-		// Heroes
-		"Instantly consumes [1] [Companion Raider] <when above [0] [Companion Raider]> <upon turn end>",
 		
 		// Spells mechanism
 		// Deafened
@@ -179,10 +171,6 @@
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Ace Buster}] units>",
 		"[-5]% Strength <vs [Void Field] units> <for [{non-[Mana Attuned]} {Strafe}] units>",
 		
-		// Mixed
-		// Kaer Slow
-		"[-2] Movement <within [2] tiles of a [KaerSlowed]> <in [Enemy Land] tiles>"
-		
 	],
 	
 	"unitUniques": [
@@ -240,9 +228,6 @@
 		//Arcane Stitch
 		"[This Unit] gains the [Immunity] status for [12] turn(s) <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
 		"[This Unit] heals [50] HP <upon turn end> <when adjacent to a [Arcane Stitch Active] unit>",
-		
-		// Magnetic Ward
-		"[This Unit] gains the [Magnetic Aura] status for [1] turn(s) <upon turn end> <when adjacent to a [Magnetic Ward Active] unit>",
 		
 		//Debuffs related
 		//Blazing Retort

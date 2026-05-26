@@ -702,13 +702,32 @@
 		"uniques": [
 			"Comment [Can be built on [Hill] or Land adjacent to [Mountain]]",
 			"Unbuildable <in [non-[Hill]] tiles> <with [0] to [0] neighboring [Mountain] tiles> <hidden from users>",
-			"[+1 Culture] <after discovering [Quintessence Powers]>", 
+			"[+1 Culture] <after discovering [Quintessence Powers]>",
 			"[+1 Faith] for each adjacent [Mountain]",
 			"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"
 		],
 		"shortcutKey": "P",
 		"civilopediaText": [
 			{"text": "Tiered tower with multiple eaves, often built to test disciples. Each level represents a step in cultivation: physical, mental, and spiritual trials."}
+		]
+	},
+	{
+		"name": "Sapundu",
+		"uniqueTo": "Townfolk",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"faith": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Astrology",
+		"uniques": [
+			"Must be next to [City center]",
+			"Comment [+5 HP when healing in this tile for [Townfolk] units]",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"
+		],
+		"shortcutKey": "S",
+		"civilopediaText": [
+			{"text": "These sacred wooden sculptures, carved by beastman shamans from ironwood, are used in memorials and coming-of-age rituals, preserving the histories, ancestry, and social standing of their people"}
 		]
 	},
 	{
@@ -828,7 +847,6 @@
 			"Unpillagable",
 			"Irremovable",
 			"Fresh water <in cities with a [valleyFresh]> <Suppress warning [*is not allowed on its target type*]> <hidden from users>",
-			"KaerSlowed <in cities with a [Kaer]> <hidden from users>",
 			"Porta Alchemica <in cities with a [Porta Alchemica]> <hidden from users>",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
 			"Excluded from map editor"

@@ -151,30 +151,6 @@
 					"Gain a free [Drunken Fist School] [in capital] <hidden from users>",
 					"Comment [Unpredictable and hard to pin down, they rely on erratic movements, chance-based effects, and of course, intoxication.]"
 				]
-			},
-			{
-				"text": "Choose Gun Fu School",
-				"uniques": [
-					"Only available <after discovering [Military Engineering]>",
-					"Gain a free [Gun Fu School] [in capital] <hidden from users>",
-					"Comment [These monks use pistols as part of their combat form, blending tradition with invention to attack enemy from afar.]"
-				]
-			},
-			/*{
-				"text": "Choose Loyal Brotherhood School",
-				"uniques": [
-					"Only available <with [Wine]>",
-					"Gain a free [Loyal Brotherhood School] [in capital] <hidden from users>",
-					"Comment [These monks never fight alone—bound by oath and vengeance, they appear in pairs and grow stronger together in battle.]"
-				]
-			},*/
-			{
-				"text": "Choose Wuxia School",
-				"uniques": [
-					"Only available <when above [10] [Horses]>",
-					"Gain a free [Wuxia School] [in capital] <hidden from users>",
-					"Comment [Wuxia monks are mounted martial heroes who strike fast and ride far, trained for open warfare and charging attack.]"
-				]
 			}
 		]
 	},
@@ -276,6 +252,23 @@
 				"text": "Soulstone",
 				"uniques": ["Instantly gain [1] [EssenceSoulstone]"]
 			}
+		]
+	},
+	{
+		"name": "Totem Blessing",
+		"text": "Randomly gain Totem Blessing upon entering [Sapundu] tiles for the first time",
+		"presentation": "None", // A presentation of "None" will select at random.
+		"choices": [
+			{ "text": "Fight Howl", 		"uniques": ["[This Unit] gains the [Fight Howl] promotion"] },
+			{ "text": "Hunting Cry", 		"uniques": ["[This Unit] gains the [Hunting Cry] promotion"] },
+			{ "text": "Frenzied Pounce",	"uniques": ["[This Unit] gains the [Frenzied Pounce] promotion"] },
+			{ "text": "Bloodrush", 			"uniques": ["[This Unit] gains the [Bloodrush] promotion"] },
+			{ "text": "Roar of Victory",	"uniques": ["[This Unit] gains the [Roar of Victory] promotion"] },
+			{ "text": "Ironhide",	 		"uniques": ["[This Unit] gains the [Ironhide] promotion"] },
+			{ "text": "Last Roar", 			"uniques": ["[This Unit] gains the [Last Roar] promotion"] },
+			{ "text": "Apex Hunger", 		"uniques": ["[This Unit] gains the [Apex Hunger] promotion"] },
+			{ "text": "Scar Addict", 		"uniques": ["[This Unit] gains the [Scar Addict] promotion"] },
+			{ "text": "Lone Hunter", 		"uniques": ["[This Unit] gains the [Lone Hunter] promotion"] }
 		]
 	},
 ]

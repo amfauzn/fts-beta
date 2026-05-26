@@ -18,11 +18,6 @@
 		"Gain [1000] [Culture] <upon founding a city>", "New [Military] units start with [100] XP [in this city]", "Gain a free [Barracks] [in capital]", "Gain a free [Riding Arena] [in capital]", "Gain a free [Shooting Range] [in capital]", "Gain a free [Siege Workshop] [in capital]", "Gain a free [Arcane Spire] [in capital]", "Gain a free [Fire School] [in capital]", 
 		//"Gain [2000] [Gold] <upon founding a city>", "[3] free [Omni-Worker] units appear <upon founding a city>"
 		//"Gain a free [Academy of Magic] [in capital]",
-		//"[Recon] units gain the [Mana Sensing] promotion",
-		//"[Infantry] units gain the [Mana Sensing] promotion",
-		//"[Anti-Armor] units gain the [Mana Sensing] promotion",
-		//"[Mounted] units gain the [Mana Sensing] promotion",
-		//"[Ranged Infantry] units gain the [Mana Sensing] promotion",
 		//"Provides [2] [Starshard]",
 		//"Provides [2] [Mythical Egg]",
 		//"Provides [2] [Soulstone]",
@@ -142,7 +137,7 @@ Characters:
 		"uniqueName": "Valley of Rejuvenation"
 		"uniques": [
 			"Comment [Your first 4 cities are considered Fresh water]",
-			"Comment [+1 Population to all cities settled on Fresh Water tile]",
+			"Comment [+1 Population to all cities settled on Fresh Water tiles]",
 			"Comment [Land unit can move after attacking on water tiles]",
 			
 			"Provides a [valleyFresh] in your first [4] cities for free <hidden from users>",
@@ -585,52 +580,6 @@ Characters:
 		]
 	},
 	
-	// Cosimo Malaspina of The Order of Slayer
-	{
-		"name": "The Order of Slayer",
-		"leaderName": "Cosimo Malaspina",
-		"adjective": ["Witcher"],
-		"startBias": ["Hill","Mountain"],
-		//"preferredVictoryType": "",
-		//"favoredReligion": "",
-		//"personality": "",
-		//"style": "",
-		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		
-		"declaringWar": "I run into dilemmas all the time... This is not one of them. You disgust me. And deserve to die.",
-		"attacked": "Why men throw their lives away attacking an armed witcher...I'll never know. Something about our faces?",
-		"denounced": "",
-		"defeated": "Even if the world lies in ruin which does not seem likely to me. We will carry on killing monsters in the ruins of this world until some monster kills us.",
-		"afterPeace": "Evil is evil. Lesser, greater, middling... Makes no difference. The degree is arbitrary. The definition's blurred. If I'm to choose between one evil and another... I'd rather not choose at all.",
-		"introduction": "Well met, perhaps you require the services of a witcher?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "Damn, You're Ugly.",
-		"tradeRequest": "I think this is a fair price.",
-		
-		"outerColor": [ 65, 74, 81],
-		"innerColor": [214,195, 75],
-		
-		"uniqueName": "The Path"
-		"uniques": [
-			"Notified of new Barbarian encampments",
-			"[+25]% Strength <vs [Monster] units>",
-			"[+50]% XP gained from combat <vs [Monster] units>",
-			//"Resting point for Influence with City-States is increased by [10]",
-			"Comment [[Signs]: Every 8th Footman unit gained is spawned with [Mana Sensing]]",
-			
-			"[{Military} {Footman}] units gain the [Signs] promotion <hidden from users>"
-		],
-		"cities": ["Morgraig","Kaer Morhen","Stygga Citadel","Haern Caduch","Gorthur Gvaed","Kaer Seren","Bialsuf Alsarea","Behelt Nar","Dyn Marv",
-			"Hertch","Ebbing","Amell","Tir Tochair","Kovir","Korath"],
-		"spyNames": ["Alzur","Idarran","Arnaghad","Erland","Letto","Serrit","Auckes","Ivar","Vesemir","Treyse"],
-		"civilopediaText": [
-			{"text": ""}
-		]
-	},
-	
 	// Takashi no Seimei of Shinso
 	{
 		"name": "Shinso",
@@ -718,6 +667,50 @@ Characters:
 		"cities": ["Tianwu","Hua","Wudang","Longhu","Qiyun","Qingcheng","Kunlun","Heng","Song","Tai",
 			"Wuling","Emei","Wutai","Jiuhua","Putuo","Yandang","Lu","Huang","Tian Shan","Kawagarbo"],
 		"spyNames": ["Jie","Wu","San","Jiu","Xing-Yun","Chen","Tianxiao","Xiaoyu","Zhantian","Ningshuang"],
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	
+	// Jag'ar of Townfolk
+	{
+		"name": "Townfolk",
+		"leaderName": "Jag'ar",
+		"adjective": ["Folks"],
+		"startBias": ["Coast"],
+		//"preferredVictoryType": "",
+		//"favoredReligion": "",
+		//"personality": "",
+		"style": "Beastman",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "Excellent! Let the blood flow in raging torrents!",
+		"denounced": "",
+		"defeated": "Now the question is who will protect my people. A dark age has come.",
+		"afterPeace": "Today is the day on which we defeated our enemy. However, we shall only rejoice in our hearts.",
+		"introduction": "I am Jag'ar. We are a fair people - but those who cross the line will find only destruction.",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "What?",
+		"tradeRequest": "We offer this fair trade.",
+		
+		"outerColor": [228, 26, 40],
+		"innerColor": [134,238,214],
+		
+		"uniqueName": "Rage of the Beast"
+		"uniques": [
+			"Empire enters golden age <upon being declared war on by [Major] Civilizations>",
+			"[+1] Movement <during a Golden Age>",
+			"[+10]% Strength <for [1] turns> <upon losing a [Military] unit>",
+			
+			"[+5] HP when healing <in [Sapundu] tiles> <hidden from users>"
+		],
+		"cities": ["Townfolk","Greenfield","Varesh","Vergath","Kaelthar","Bloodroot","Melak","Kuin","Khunaur","Sikan",
+			"Mamahak","Lundu","Sa'ag","Saripoi","Gorath","Sekadau","Putussibau","Taktaar","Lawai","Southend"],
+		"spyNames": ["Raflar","Leon","Liona","Doge","Azhruh","Dolgur","Pancho","Wolfar","Girilena","Rozak"],
 		"civilopediaText": [
 			{"text": ""}
 		]

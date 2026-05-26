@@ -26,7 +26,6 @@
 			"Footman",
 			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>",
 			"Can transform to [Hobgoblin] <for [Hobgoblin Discipline] units> <hidden from users>",
-			"Can transform to [Spellswordsman Beginner] <for [Mana Sensing] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -38,7 +37,6 @@
 			"Footman",
 			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
 			"Can transform to [Hobgoblin] <for [Hobgoblin Discipline] units> <hidden from users>",
-			"Can transform to [Spellswordsman Beginner] <for [Mana Sensing] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -48,9 +46,8 @@
 		"uniques": [
 			"Biological",
 			"Mobile",
-			"No defensive terrain bonus <for units without [Aegis]>",
+			"No defensive terrain bonus",
 			"[+1] Movement <with [Companion Raider]> <hidden from users>",
-			"Can transform to [Aether Cavalier Beginner] <for [Mana Sensing] units> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -61,8 +58,7 @@
 			"Air Battler",
 			"Biological",
 			"Footman",
-			"[-25]% Strength <vs cities> <when attacking>",
-			"Can transform to [Arcane Archer Beginner] <for [Mana Sensing] units> <hidden from users>",
+			"[-25]% Strength <vs cities> <when attacking>"
 		]
 	},
 	
@@ -126,7 +122,7 @@
 		]
 	},
 	
-	// A Third Caster
+	// Third Caster
 	{
 		"name": "Spellsword",
 		"movementType": "Land",
@@ -144,7 +140,6 @@
 			"Biological",
 			"Mobile",
 			"Mana Attuned",
-			"No defensive terrain bonus <for units without [Aegis]>",
 			"[+1] Movement <with [Companion Raider]> <hidden from users>",
 		]
 	},
@@ -416,7 +411,7 @@
 		"name": "Hobes",
 		"movementType": "Land",
 		"uniques": [
-			"Anto-Armor",
+			"Anti-Armor",
 			"Biological",
 			"Footman",
 			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",

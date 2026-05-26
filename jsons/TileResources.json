@@ -1422,4 +1422,14 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
+	{
+		"name": "Level 3 Ideology",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia"
+		]
+	}
 ]

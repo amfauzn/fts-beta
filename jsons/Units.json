@@ -303,11 +303,27 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 40,
-		"upgradesTo": "Swordsman",
 		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Mink",
+		"unitType": "Infantry",
+		"uniqueTo": "Townfolk",
+		"replaces": "Maceman",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": ["[This Unit] gains the [Totem Wielder] promotion <upon entering a [Sapundu] tile>"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "During the coming-of-age ritual, beastmen often receive a totem blessing, marking them as honored warriors and hunters."}
 		]
 	},
 	{
@@ -402,26 +418,6 @@
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Rising by crushing rivals and proving unmatched strength, these Orcs stand at the center of the Horde, commanding warbands with brutal instinct and overwhelming presence."}
-		]
-	},
-	{
-		"name": "Slayer",
-		"unitType": "Infantry",
-		"uniqueTo": "The Order of Slayer",
-		"replaces": "Longswordsman",
-		"movement": 2,
-		"strength": 35,
-		"cost": 160,
-		"hurryCostModifier": 15,
-		"requiredResource": "Iron",
-		"requiredTech": "Steel",
-		"obsoleteTech": "Metallurgy",
-		"upgradesTo": "Etherblader",
-		"promotions": ["Mana Sensing"],
-		"uniques": ["Can only be built <in cities with a [Barracks]> <hidden from users>"],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "These itinerant monster slayers undergone extensive training, ruthless mental and physical conditioning, and mysterious rituals."}
 		]
 	},
 	{
@@ -1344,135 +1340,6 @@
 		]
 	},
 	
-	// Mana Sensing (A Third Caster)
-	{
-		"name": "Spellswordsman Beginner",
-		"unitType": "Spellsword",
-		"movement": 2,
-		"strength": 30,
-		"requiredTech": "Mana Crystallization",
-		"obsoleteTech": "Industrialization",
-		"upgradesTo": "Spellswordsman Graduator",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Spellswordsman Graduator",
-		"unitType": "Spellsword",
-		"movement": 2,
-		"strength": 44,
-		"requiredTech": "Industrialization",
-		"obsoleteTech": "Avionic Theory",
-		"upgradesTo": "Spellswordsman Saint",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Spellswordsman Saint",
-		"unitType": "Spellsword",
-		"movement": 2,
-		"strength": 60,
-		"requiredTech": "Avionic Theory",
-		"uniques": [
-			"Unbuildable",
-			"[+20] Strength <after discovering [Combined Arms]>",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "metalhit",
-	},
-	
-	{
-		"name": "Aether Cavalier Beginner",
-		"unitType": "Aether Cavalier",
-		"movement": 4,
-		"strength": 30,
-		"requiredTech": "Mana Crystallization",
-		"obsoleteTech": "Industrialization",
-		"upgradesTo": "Aether Cavalier Graduator",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Aether Cavalier Graduator",
-		"unitType": "Aether Cavalier",
-		"movement": 4,
-		"strength": 44,
-		"requiredTech": "Industrialization",
-		"obsoleteTech": "Avionic Theory",
-		"upgradesTo": "Aether Cavalier Saint",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Aether Cavalier Saint",
-		"unitType": "Aether Cavalier",
-		"movement": 4,
-		"strength": 60,
-		"requiredTech": "Avionic Theory",
-		"uniques": [
-			"Unbuildable",
-			"[+20] Strength <after discovering [Mobile Tactics]>",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "horse"
-	},
-	
-	{
-		"name": "Arcane Archer Beginner",
-		"unitType": "Arcane Archer",
-		"movement": 2,
-		"strength": 24,
-		"rangedStrength": 32,
-		"requiredTech": "Mana Crystallization",
-		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Arcane Archer Graduator",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Arcane Archer Graduator",
-		"unitType": "Arcane Archer",
-		"movement": 2,
-		"strength": 46,
-		"rangedStrength": 52,
-		"requiredTech": "Quintessence Powers",
-		"obsoleteTech": "Rocketry",
-		"upgradesTo": "Arcane Archer Saint",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Arcane Archer Saint",
-		"unitType": "Arcane Archer",
-		"movement": 4,
-		"strength": 68,
-		"rangedStrength": 76,
-		"requiredTech": "Avionic Theory",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "arrow"
-	},
-	
 	// Construct
 	{
 		"name": "Stone Golem",
@@ -2305,7 +2172,8 @@
 		"uniques": [
 			"Can only be built <if [Flowing River School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2374,7 +2242,8 @@
 			"Unbuildable",
 			"Can only be built <if [Open Hand School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2482,7 +2351,8 @@
 			"Unbuildable",
 			"Can only be built <if [Shadow Fang School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2520,7 +2390,8 @@
 			"Unbuildable",
 			"Cannot be purchased",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2589,7 +2460,8 @@
 			"Unbuildable",
 			"Can only be built <if [White Lotus School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2658,284 +2530,8 @@
 			"Unbuildable",
 			"Can only be built <if [Drunken Fist School] is constructed>",
 			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Gun Fu Disciple",
-		"unitType": "Gun Fu Monk",
-		"movement": 2,
-		"strength": 25,
-		"cost": 100,
-		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Gun Fu Adept",
-		"promotions": ["Meditate","Of Gun Than Fist"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Gun Fu School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Gun Fu Adept",
-		"unitType": "Gun Fu Monk",
-		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Quintessence Powers",
-		"obsoleteTech": "Empowerment",
-		"upgradesTo": "Gun Fu Master",
-		"promotions": ["Meditate","Of Gun Than Fist"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Gun Fu School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Gun Fu Master",
-		"unitType": "Gun Fu Monk",
-		"movement": 2,
-		"strength": 75,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Of Gun Than Fist"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Gun Fu School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Gun Fu Shifu",
-		"unitType": "Gun Fu Monk",
-		"uniqueTo": "Tianwu",
-		"replaces": "Gun Fu Master",
-		"movement": 2,
-		"strength": 75,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Of Gun Than Fist"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Gun Fu School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Disciple",
-		"unitType": "Loyal Brotherhood Monk",
-		"movement": 2,
-		"strength": 13,
-		"cost": 100,
-		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Loyal Brotherhood Adept",
-		"promotions": ["Meditate","Kroyokan"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Loyal Brotherhood School] is constructed>",
-			"Free [Loyal Brotherhood Disciple-2] appears <hidden from users>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Disciple-2",
-		"unitType": "Loyal Brotherhood Monk",
-		"movement": 2,
-		"strength": 13,
-		"cost": 100,
-		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Loyal Brotherhood Adept",
-		"promotions": ["Meditate","Kroyokan"],
-		"uniques": [
-			"Unbuildable",
-			"Cannot be purchased",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Adept",
-		"unitType": "Loyal Brotherhood Monk",
-		"movement": 2,
-		"strength": 25,
-		"cost": 300,
-		"requiredTech": "Quintessence Powers",
-		"obsoleteTech": "Empowerment",
-		"upgradesTo": "Loyal Brotherhood Master",
-		"promotions": ["Meditate","Kroyokan"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Loyal Brotherhood School] is constructed>",
-			"Free [Loyal Brotherhood Adept-2] appears <hidden from users>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Adept-2",
-		"unitType": "Loyal Brotherhood Monk",
-		"movement": 2,
-		"strength": 25,
-		"cost": 300,
-		"requiredTech": "Quintessence Powers",
-		"obsoleteTech": "Empowerment",
-		"upgradesTo": "Loyal Brotherhood Master",
-		"promotions": ["Meditate","Kroyokan"],
-		"uniques": [
-			"Unbuildable",
-			"Cannot be purchased",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Master",
-		"unitType": "Loyal Brotherhood Monk",
-		"movement": 2,
-		"strength": 38,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Kroyokan"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Loyal Brotherhood School] is constructed>",
-			"Free [Loyal Brotherhood Master-2] appears <hidden from users>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Shifu",
-		"unitType": "Loyal Brotherhood Monk",
-		"uniqueTo": "Tianwu",
-		"replaces": "Loyal Brotherhood Master",
-		"movement": 2,
-		"strength": 38,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Kroyokan","Infinite Qi","Qi"],
-		"uniques": [
-			"Can only be built <if [Loyal Brotherhood School] is constructed>",
-			"Free [Loyal Brotherhood Shifu-2] appears <hidden from users>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Master-2",
-		"unitType": "Loyal Brotherhood Monk",
-		"movement": 2,
-		"strength": 38,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Kroyokan"],
-		"uniques": [
-			"Unbuildable",
-			"Cannot be purchased",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Loyal Brotherhood Shifu-2",
-		"unitType": "Loyal Brotherhood Monk",
-		"uniqueTo": "Tianwu",
-		"replaces": "Loyal Brotherhood Master-2",
-		"movement": 2,
-		"strength": 38,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Kroyokan","Infinite Qi","Qi"],
-		"uniques": [
-			"Unbuildable",
-			"Cannot be purchased",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Wuxia Disciple",
-		"unitType": "Wuxia Monk",
-		"movement": 4,
-		"strength": 25,
-		"cost": 100,
-		"obsoleteTech": "Quintessence Powers",
-		"upgradesTo": "Wuxia Adept",
-		"promotions": ["Meditate","Monastic Cavalier"],
-		"uniques": [
-			"Can only be built <if [Wuxia School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Wuxia Adept",
-		"unitType": "Wuxia Monk",
-		"movement": 4,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Quintessence Powers",
-		"obsoleteTech": "Empowerment",
-		"upgradesTo": "Wuxia Master",
-		"promotions": ["Meditate","Monastic Cavalier"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Wuxia School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Wuxia Master",
-		"unitType": "Wuxia Monk",
-		"movement": 4,
-		"strength": 70,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Monastic Cavalier"],
-		"uniques": [
-			"Unbuildable",
-			"Can only be built <if [Wuxia School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
-		],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Wuxia Shifu",
-		"unitType": "Wuxia Monk",
-		"uniqueTo": "Tianwu",
-		"replaces": "Wuxia Master",
-		"movement": 4,
-		"strength": 70,
-		"cost": 500,
-		"requiredTech": "Empowerment",
-		"promotions": ["Meditate","Monastic Cavalier","Infinite Qi","Qi"],
-		"uniques": [
-			"Can only be built <if [Wuxia School] is constructed>",
-			"Prevents spreading of religion to the city it is next to",
-			"Religious Unit"
+			"Religious Unit",
+			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "nonmetalhit"
 	},
